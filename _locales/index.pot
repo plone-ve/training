@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Mastering Plone package.
+# This file is distributed under the same license as the Plone Training package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone 1.2.3\n"
+"Project-Id-Version: Plone Training 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"POT-Creation-Date: 2016-11-02 12:20-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,38 +16,71 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../index.rst:7
-# ff626ac8557d4880ab199ec25dc40396
-msgid "Mastering Plone!"
+#: ../index.rst:3
+msgid "Plone Training"
 msgstr ""
 
-#: ../index.rst:9
-# 451992f464034889991fb70bb7f61756
-msgid "This is the documentation for the \"Mastering Plone\"-training."
-msgstr ""
-
-#: ../index.rst:11
-# 52404672359b4795a82a35ffd9d6729e
-msgid "Mastering Plone is intended as a week-long training for people who are new to Plone or want to learn about the current best-practices of Plone-development. It can be split in two tranings:"
+#: ../index.rst:5
+msgid "A collection of trainings developed and created by the Plone Community."
 msgstr ""
 
 #: ../index.rst:13
-# c9d3e1564fc14e259d58558ea96cca16
-msgid "A beginner training (2 to 3 days) that covers chapters 1-18."
+msgid "Trainings"
 msgstr ""
 
-#: ../index.rst:14
-# aed82da5f25548548ca05ef8fba82c6b
-msgid "A advanced training (3 to 5 days) that covers the rest."
+#: ../index.rst:16
+msgid ":ref:`mastering_plone-label`"
 msgstr ""
 
-#: ../index.rst:17
-# a3030fcc4ea74ab381ea8c8486f0e3e7
-msgid "Contents:"
+#: ../index.rst:16
+msgid "Mastering Plone is a training intended for people who are new to Plone or want to learn about the best practices of Plone development. In the course of the training you will learn how to build a custom website with plenty of features. Html and python-knowledge is required."
 msgstr ""
 
-#: ../index.rst:62
-# 2af2e0acfa6b4370adca7c167b6c4b7d
-msgid "Please note that this document is not complete without the spoken word of a trainer even though we attempt to include the most important parts of what we teach in the narrative it can not be considered complete without the spoken word."
+#: ../index.rst:19
+msgid ":doc:`ttw/index`"
+msgstr ""
+
+#: ../index.rst:19
+msgid "Create custom content types, a design for a website, layouts for homepages and content types, and custom application logic. All in the browser!"
+msgstr ""
+
+#: ../index.rst:22
+msgid ":doc:`theming/index`"
+msgstr ""
+
+#: ../index.rst:22
+msgid "Create a Diazo-based theme as a Plone add-on."
+msgstr ""
+
+#: ../index.rst:25
+msgid ":doc:`workflow/index`"
+msgstr ""
+
+#: ../index.rst:25
+msgid "How to create and make optimum use of custom Plone workflows"
+msgstr ""
+
+#: ../index.rst:28
+msgid ":doc:`javascript/index`"
+msgstr ""
+
+#: ../index.rst:28
+msgid "Learn best practices in Javascript development, how to develop and test your own patterns, and how to integrate your custom Javascript applications with Plone. Technologies will include NPM, Grunt, Patternslib and React."
+msgstr ""
+
+#: ../index.rst:31
+msgid ":doc:`deployment/index`"
+msgstr ""
+
+#: ../index.rst:31
+msgid "How to automate deployment of Plone servers, whether it’s one server or 100."
+msgstr ""
+
+#: ../index.rst:36
+msgid ":doc:`solr-training/index`"
+msgstr ""
+
+#: ../index.rst:34
+msgid "How to add enterprise-grade search to your Plone site."
 msgstr ""
 
