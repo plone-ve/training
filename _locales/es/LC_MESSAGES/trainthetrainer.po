@@ -1,0 +1,790 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
+# This file is distributed under the same license as the Plone Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone Training 1.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jesús Delgado <talpiod@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../trainthetrainer/after.rst:4
+msgid "After the training: Aftercare, keep in touch, learn, improve"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:8 ../trainthetrainer/during.rst:8
+#: ../trainthetrainer/theory.rst:8
+msgid "This chapter is a work in progress"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:10
+msgid "You're done with your training. Or so you think:"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:12
+msgid "Aftercare"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:13
+msgid "Keep in Touch"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:14
+msgid "Evaluate"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:15
+msgid "Improve training material"
+msgstr ""
+
+#: ../trainthetrainer/after.rst:16
+msgid "Get quotes"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:4
+msgid "Before the training: Create  material, invite trainees, preparation"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:8
+msgid "This chapter is a first version."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:12
+msgid "Who do you want to give a training to"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:14
+msgid ""
+"Before any training it's a good idea to think about who the stakeholders are"
+" for the training. If a Plone user asks you about a training and they want "
+"to learn themselves, they are the main stakeholder and you can tailor to "
+"their needs. When they're content, you are."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:16
+msgid ""
+"But if the training is part of building a new Plone site for a large "
+"organisation and part of the offer was end user training, the manager of the"
+" website presence is an important stake holder as well. You cannot depend on"
+" the students that they know what they want to learn, or even that they are "
+"motivated to learn anything."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:18
+msgid ""
+"For marketing your training it's vital to describe learning goals. What will"
+" a student be able to do independently after following your training "
+"(tasks). The manager of a larger organisation will use this to select and "
+"value your training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:20
+msgid ""
+"And even if a webmaster or staring developer will contact you to ask for a "
+"training, there's probably a manager behind this person that has to agree "
+"with the training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:23
+msgid "Training information"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:25
+msgid ""
+"What information do you need to provide to prospects so that they can "
+"evaluate your training offer?"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:27
+msgid "The basic What, Where, When."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:29
+msgid "What are the subjects of your training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:31
+msgid ""
+"The learning goals. Describe what will a student be able to do after "
+"following your training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:34
+msgid ""
+"Required knowledge. Which skills does a student need before they can "
+"participate in your training"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:37
+msgid ""
+"Required materials. Do they need a laptop for this training? Does it need "
+"admin permissions to install extra software, change the network "
+"configuration, have a minimum amount of RAM."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:43
+msgid "Show it all or practice the basics"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:45
+msgid ""
+"With 'end user' or 'webmaster' kind of trainings there are distinct modes of"
+" training you can do. To write it down black/white"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:47
+msgid ""
+"Show as much of Plone as you can, so that the students get a good overview "
+"of all the options and possibilities."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:49
+msgid ""
+"Define a core set of learning goals and tasks that your students should be "
+"able to perform at the end of the training day and teach and practice those "
+"hands-on as much as you can."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:51
+msgid ""
+"Probably you will do something in between to provide a good mix between "
+"theory, explaining, examples and exercises. But discuss this with the client"
+" (manager) who has asked for the training or if your students are allowed to"
+" decide this, ask it before or at the beginning of the training. When you "
+"are teaching a content editor that **has** to work with Plone next week, "
+"practice and stick to the basics. If you have a few webmaster that has some "
+"say in how the site will develop in the next years, show more features, "
+"options and tricks. (And have some material with references ready after the "
+"training that they can look back to.)"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:54
+msgid "Group size, number of trainers"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:56
+msgid ""
+"Depending on how you organise your training material subjects and agenda you"
+" can stick with one trainer for a group or you might need multiple trainers "
+"during the day."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:58
+msgid ""
+"With more than 4-5 people and more difficult subjects you'll probably have "
+"to shift to 'classroom' mode: set up a agenda, and stick to it. This is "
+"still doable with 1 trainer for 10-20 people, but when the level of "
+"individual students varies a lot and you also have and need to do exercises,"
+" you'll get stuck with only one trainer."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:64
+msgid ""
+"Having two trainers is great for educating a second trainer, to monitor the "
+"room during a training, silently help students that have questions while the"
+" main trainer can continue discussing a subject. Unfortunately it's not "
+"always economically viable for smaller groups to have more than one trainer "
+"per group."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:69
+msgid ""
+"If you've mastered your training material and know what's in there, giving a"
+" training to 2-3 people can be great because you have the option to "
+"personalise the training to their needs. But you'll really need to know the "
+"subjects."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:75
+msgid "Contact your students before the training"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:77
+msgid ""
+"If you are going to teach a smaller group, try to get the contact details of"
+" your students and call them a few weeks in advance of the training. "
+"Introduce yourself, ask why they are going to follow the training, what "
+"their experience is and what they'd like to get out of the training. This "
+"doesn't need to take more than 5 minutes and it:"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:79
+msgid "Will make you a lot less nervous about who you are going to meet."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:81
+msgid ""
+"You can identify beforehand if a student will be overqualified for the "
+"training and might not learn that much new skills during the training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:84
+msgid ""
+"It's vital to identify those students and move them to another training or "
+"let them skip it. Bored students are a jammer during a training, are in most"
+" cases unhappy about your training because they haven't learnt anything new,"
+" will start to ask 'advanced questions' that are out of scope and distract "
+"other students."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:90
+msgid ""
+"And the reverse: verify that a student meets the minimum required skill for "
+"your training. If you don't want to teach HTML two hours before you can "
+"explain Zope Page Templates, that's a big win. If you have multiple of these"
+" students, discuss what to do with the client: adjust the training, plan a "
+"'beginners' training before this training..."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:97
+msgid ""
+"Ask them what they want to learn during the training, or better: ask which "
+"problems they currently have while working with Plone. If you know those "
+"before hand you can answer those questions during the training and you will "
+"have very happy students."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:104
+msgid "Re-use and improve the material that is already available"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:106
+msgid ""
+"You are already reading this text so you have found the training material "
+"online created by Plone trainers. Re-use as much as you can, give the "
+"training and improve the material."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:108
+msgid ""
+"One of the most difficult things in providing a training is creating the "
+"training material, one of the biggest helps when giving a training is having"
+" good training material."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:110
+msgid ""
+"Creating a (new) training will cost a lot of time and it's almost unfeasable"
+" to give trainings for a living or earn enough money with trainings if you "
+"have to rewrite every training every single time you have to give it. One of"
+" the big obstacles in finding and having more Plone trainers world wide is "
+"the availability of current and up to date material."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:112
+msgid ""
+"The idea of sharing the Plone training material world wide is that you can "
+"focus on finding students and preparing and giving a training in a "
+"sustainable way and that we share the burden of keeping the training "
+"material up to date."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:115
+msgid "Verify the training location and facilities"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:117
+msgid ""
+"If you organise your own training location you have control over most "
+"variables. If the trainings takes place 'on premise' at customer, there are "
+"some extra things to watch out for."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:119
+msgid ""
+"The most hideous one is when you verify beforehand that there is an internet"
+" connection and you find out on the training day it's heaviliy firewalled "
+"and you cannot download any package from PyPI. Good luck!"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:121
+msgid "Plenty of power outlets."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:123
+msgid "Networking equipment and enough bandwidth."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:125
+msgid "Have some drinks and snacks ready for the short breaks."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:127
+msgid ""
+"Have a location where people can walk during a break and in general refresh "
+"their minds."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:130
+msgid ""
+"A beamer/projector set up in a room that you don't have to darken too much "
+"to see anything."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:133
+msgid ""
+"Depending on how you teach and which materials you have, it can be great to "
+"have two beamers and laptops: on one beamer you can present the agenda, "
+"schedule, excercices or training material. And the other laptop/beamer can "
+"be dedicated to showing hands-on demo's of editing content, developing, "
+"running, whatever."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:139
+msgid ""
+"Why: It can be quite confusing for student to follow you if you command/alt-"
+"tab through windows every 3 seconds and the sentence they were just reading "
+"from the training material disappears from view again. It provides extra "
+"context."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:144
+msgid ""
+"Depending on the kind of training you give it can be wise to verify the "
+"capabilities of the laptops that students have to bring with them to the "
+"training if it is for example a developer oriented training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:146
+msgid ""
+"We've experimented with virtual machines set-ups in the past at PloneConf "
+"trainings and there is a lot of development in this area with complete "
+"online environments to teach, but in general: verifiy that students have "
+"access on their laptops to install stuff admin permissions, if you're going "
+"the virtual machine route check that their laptops are capable of running "
+"virtual machines. Minimum amount or RAM, etc. etc."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:149
+msgid "Prepare for the worst"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:151
+msgid ""
+"If you want to be absolutely sure that you can give a training "
+"anywhere/anytime, prepare for the worst:"
+msgstr ""
+
+#: ../trainthetrainer/before.rst:153
+msgid ""
+"No internet connection. Set up a local pypi mirror for a developer training "
+"where you have all the packages available. Bring material with you to set up"
+" a local network with an extra Plone server configured and ready if you're "
+"doing an end user/webmaster/integrator kind of training."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:158
+msgid "Prepare virtual machine images beforehand that people can use."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:160
+msgid ""
+"Bring some extra power outlets and cabling and a wifi router/base station."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:162
+msgid ""
+"Have at least some outlines of your training material with you printed."
+msgstr ""
+
+#: ../trainthetrainer/before.rst:164
+msgid "Have a backup laptop/machine/NUC if you can afford it."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:4
+msgid "During training day(s): what to expect, do's and don'ts"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:10
+msgid "This chapter will touch on subjects like:"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:12
+msgid "How to structure your training day"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:13
+msgid "Getting your trainees 'in sync'"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:14
+msgid "Correcting students when they stray or get noisy"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:15
+msgid "Using material, beamers, etc"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:16
+msgid "breaks and attention span"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:17
+msgid "What if you run out of time"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:18
+msgid "Student and trainer fatigue"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:19
+msgid "Trainers high"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:24
+msgid "Structure of your training day"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:26
+msgid ""
+"How the agenda of a training day should be structured has already been "
+"discussed in the theory and 'before' the training chapters. This section "
+"will discuss more 'hands on' tips for during the day and summarize the "
+"theory."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:28
+msgid ""
+"Be early. It takes at least half an hour to an hour to install yourself. If "
+"you're a bit late and students are already arriving it will be even more "
+"difficult to finish the set up in time. Also: if you're early and you don't "
+"like the chairs/desk set up you can still shift/change some stuff."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:31
+msgid "Introduction/Agenda"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:33
+msgid ""
+"Sometimes a trainer shows a short agenda of the day and then continues to "
+"the training. The start of a training day is *THE* moment to manage "
+"expectations for both your students and you. Things you can do during the "
+"introduction:"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:35
+msgid ""
+"Introduce yourself shortly. What have you done before, why are you giving "
+"the training, what do you like about giving a training. But don't overdo it "
+":-)"
+msgstr ""
+
+#: ../trainthetrainer/during.rst:37
+msgid ""
+"If the group is small enough (and they're not all colleagues) ask them for a"
+" short introduction. You might have talked to them before the training, but "
+"if they don't know each other it is good to create a good vibe."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:39
+msgid ""
+"Re-iterate the training subject and most important the training goals. If "
+"some students applied late or got sneaked in by a manager the previous day, "
+"you can 'synchronise' everybody on what the goals are."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:43
+msgid ""
+"Real life story: I've had a student stand up during the introduction and "
+"complain that he expected to learn to theme the Plone site in an end user "
+"content management training. Better to get that out of the way before you "
+"you're in the middle of a subject and people start to nag or complain."
+msgstr ""
+
+#: ../trainthetrainer/during.rst:48
+msgid ""
+"As discussed, plan your breaks beforehand and show some flexibility, when "
+"people want to break earlier, ask for them to tell you at that time. It's a "
+"group effort."
+msgstr ""
+
+#: ../trainthetrainer/index.rst:4
+msgid "Train the Trainer: How to give technical training(s)"
+msgstr ""
+
+#: ../trainthetrainer/index.rst:8
+msgid ""
+"This chapter will likely only interest you if you want to **give a (Plone) "
+"technical training**, it does not contain any material on Plone itself."
+msgstr ""
+
+#: ../trainthetrainer/index.rst:13
+msgid "This chapter is also a work in progress"
+msgstr ""
+
+#: ../trainthetrainer/index.rst:16
+msgid ""
+"It's not specifically written for Mastering Plone but could be useful in "
+"giving any technical training and will hopefully be a support for your first"
+" Plone educational experience in front of the room. It contains feedback and"
+" 'lessons learned' from previous Plone trainings and personal experience."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:4
+msgid "Training theory: education, how people learn and process information"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:10
+msgid ""
+"This chapter will contain some background on learning, mental models that "
+"people use in different ways, how to improve remembering and understanding "
+"of knowledge, training rhythm and attention span, etc. etc."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:12
+msgid ""
+"These are helpful both before, during and after a training, that's why we "
+"have put them in a separate chapter that you should read before you start "
+"writing or improving the training material."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:15
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../trainthetrainer/theory.rst:17
+msgid ""
+"The science of learning and how we process information is a huge field of "
+"research, this chapter is nowhere near an overview or a complete "
+"introduction of learning. There are a number of subjects here that could "
+"give you some background and things to consider while you are preparing for,"
+" writing or giving a training. If you are a (Plone) trainer and have more "
+"subjects or wisdom, please add them here."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:21
+msgid "Learning Styles and the Trainer"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:23
+msgid ""
+"If you take a look at `Learning Styles on WikiPedia "
+"<https://en.wikipedia.org/wiki/Learning_styles>`__ you will find a huge "
+"number of models and theories on how individuals learn."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:25
+msgid ""
+"Some of us are more visually oriented and love diagrams, drawings, schema's "
+"and other visual tools to structure and grasp information. Others are more "
+"comfortable with a narrative written down that they can follow along. If "
+"you're more auditory you'd love to follow along with a screencast or prefer "
+"to have a trainer in front of you who talks you through a procedure."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:27
+msgid ""
+"Other models/modes differentiate in learning by examples, or maybe you "
+"prefer to have the theoretical knowledge and background first before you see"
+" an example."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:29
+msgid ""
+"A big challenge for a trainer is to recognise his own preference of learning"
+" while preparing for and giving a training. So maybe you prefer to have a "
+"lot of theory first and then continue to the examples. If you then give a "
+"training to a small group of students and you notice they loose focus after "
+"half an hour or theory, it might be that they are more pragmatists and would"
+" love to see an example first before learning about the reasons why."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:32
+msgid ""
+"If you don't like diagrams and figures yourself because they're always an "
+"abstraction and incomplete, you could leave them out of any training "
+"material, but a significant part of your future training audience will love "
+"them."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:34
+msgid ""
+"There's not a magic wand or solution because you will always be limited in "
+"time and space, but as a guideline, try to balance the visual/written "
+"information, balance theory and examples. Also, you can observe your "
+"students during the training day and try to figure out on which kind of "
+"information they light up on or loose interest. Or even better: just ask "
+"them during a break. If you have enough training material you can add a few "
+"more examples or exercises, discuss some visual schemes that you have in an "
+"appendix, etc. etc."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:37
+msgid "Try to teach one thing at a time"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:39
+msgid ""
+"Especially with Zope/Plone, there are a lot of concepts that students will "
+"have to grasp some time. We have CSS, HTML, Python, JavaScript, ZPT, METAL, "
+"TALES, ZCML, Generic Setup, Acquisition, component architecture, the Object "
+"Database, the ZMI, the Plone UI, etc. etc."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:41
+msgid ""
+"The irritating part with introducing any of these technologies is that when "
+"you try to teach one of them, two or three others will creep into the "
+"explanation as well. Some options:"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:43
+msgid ""
+"Tell your students that they should ignore this and this and that you'll "
+"explain that part later while you're explaining X."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:46
+msgid ""
+"Some students are very capable of learning this way, others will simply lock"
+" up inside and get distracted by this nagging thought about the 'other' "
+"stuff. If you can avoid parking concepts 'until later', please try:"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:50
+msgid ""
+"Design your training in such a way that you start with concepts that are "
+"mostly 'stand alone' and from there build on the knowledge already there. "
+"(learning path)"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:54
+msgid ""
+"An example in the context of Zope is to first introduce the ZMI and object "
+"database, talk about objects in there, then continue to Zope Page Templates "
+"that are applied to the object in a context, talk about the TALES "
+"expressions inside ZPT and end with METAL macros."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:59
+msgid ""
+"It's maybe old school and ugly, but you could explain most of "
+"ZPT/TALES/macros with students in the ZMI through the web without ever going"
+" to a command line or work in an editor. This is similar to:"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:63
+msgid ""
+"Design isolated exercises/examples where you don't need multiple concepts at"
+" the same time."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:66
+msgid ""
+"These examples are not to promote teaching through the ZMI, but to be aware "
+"of stacking too many concepts to quickly in a training. :-)"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:69
+msgid "Attention Span"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:71
+msgid ""
+"Both before and during a training it's vital to monitor the required "
+"attention span of the human mind."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:73
+msgid ""
+"When you prepare and write material, check your chapters or blocks for "
+"length, mental weight and structure.  Validate that a student can work "
+"through a chapter in 20-30 minutes. Provide an introduction, explain some "
+"theory, show/discuss examples, provide exercises and wrap up with for "
+"example references to more material."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:75
+msgid ""
+"Check that you don't try to teach multiple things at the same time and try "
+"to repeat your subject a few times so that it will stick more."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:77
+msgid ""
+"On a large scale, you can also improve the attention span for students "
+"during the traing day by keeping a cadence or rhythm."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:79
+msgid ""
+"At the beginning, show an agenda and discuss this with everybody present. In"
+" this agenda, plan breaks and lunch beforehand and mutually agree with your "
+"students."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:81
+msgid ""
+"Design a training day around multiple blocks of maximum 50-55 minutes and "
+"put a small break of 5-10 minutes after those blocks. Put a larger break in "
+"the middle of the morning with coffee etc. same in the afternoon, and of "
+"course the lunch break."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:83
+msgid ""
+"In each of those blocks, use a rhythm or structure to teach the subject. "
+"It's great if your training material already has this structure, then you "
+"can just flow along with the material. But if you're comfortable with this, "
+"you can also add more material and jump a bit through the material and "
+"select those exercises or examples that you think will appeal most to your "
+"current group."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:85
+msgid ""
+"The nice thing about teaching grown ups is that if you give them "
+"responsibility they will most of the time reward that with commitment. Tell "
+"your students when you discuss the agenda in the morning it's the general "
+"structure, but if you get to a tough subject and their heads are filled "
+"within half an hour: let them request a short break when they need it."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:88
+msgid "The more you know, the less you know"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:90
+msgid ""
+"As a trainer it is not your job or quality to know everything there is about"
+" the subject and to be able to answer any question your students have. It's "
+"your profesion to identify with your students, figure out how they learn "
+"best and provide the tools during that training day so that they will learn "
+"with the greatest ease and maximum recollection later on. And also that "
+"they'll have a great day or days."
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:92
+msgid ""
+"The funny thing is that the more you know about a technical subject "
+"yourself, the more difficult it sometimes is to be emphatic and understand "
+"the learning difficulties of students. As long as you know 'a bit more' and "
+"you're able to transfer that knowledge, you're a trainer!"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:94
+msgid ""
+"If you are nervous about getting 'difficult' technical questions from "
+"students during the day, try mentioning this in your introduction in the "
+"morning. It helps setting expectations:"
+msgstr ""
+
+#: ../trainthetrainer/theory.rst:96
+msgid ""
+"\"I don't know a lot about Plone. But I know a bit more than you and I'm "
+"quite good at explaining and teaching stuff. So I'll probably not be able to"
+" answer all the questions you might have, but I have some very smart "
+"colleagues and a Plone community that will be able to answer those questions"
+" after the training and we'll figure it out.\""
+msgstr ""

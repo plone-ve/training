@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-13 00:40-0430\n"
-"PO-Revision-Date: 2014-07-13 05:24+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:58+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "¡Obtén el código!"
 msgid ""
 "Get the code for this chapter (:doc:`More info <sneak>`) using this command "
 "in the buildout-directory:"
-msgstr "Obtén el código para este capitulo (:doc:`Mas información <sneak>`) usando este comando en el directorio buildout:"
+msgstr "Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando este comando en el directorio buildout:"
 
 # 754bd3437252497b94fe9b7a79b5c26a
 #: ../viewlets_1.rst:14
@@ -52,19 +52,19 @@ msgstr ""
 msgid ""
 "Inspect existing viewlets and their managers by going to "
 "http://localhost:8080/Plone/@@manage-viewlets."
-msgstr "Inspeccione los viewlets existentes y gestionelos yendo a http://localhost:8080/Plone/@@manage-viewlets."
+msgstr "Inspeccione y administre los viewlets existentes yendo a la dirección URL http://localhost:8080/Plone/@@manage-viewlets."
 
 # a0b1b5588b1446fb9bbfa8f282f3030e
 #: ../viewlets_1.rst:21
 msgid ""
 "We already customized a viewlet (:file:`collophon.pt`). Now we add a new "
 "one."
-msgstr "Ya hemos personalizado un viewlet (archivo :file:`collophon.pt`). Ahora añadimos una nueva."
+msgstr "Ya hemos personalizado un viewlet (archivo :file:`collophon.pt`). Ahora agregamos un nuevo viewlet."
 
 # 136f20e6cc604497a30515ae31bce6d1
 #: ../viewlets_1.rst:22
 msgid "Viewlets don't save data (portlets do)"
-msgstr "Los viewlets no guardan los datos (los portlets lo hacen)"
+msgstr "Los viewlets no guardan los datos (los portlets si lo hacen)"
 
 # f305775336ea400f87e99a0443f14952
 #: ../viewlets_1.rst:23
@@ -74,14 +74,14 @@ msgstr "Los viewlets no tienen interfaz de usuario (los portlets lo hacen)"
 # c5d0f18407314f559ba807961af51ef5
 #: ../viewlets_1.rst:26
 msgid "social-viewlet"
-msgstr "social-viewlet"
+msgstr "El viewlet social-viewlet"
 
 # dd7f75404f8e4686923ef1ac4a6ee279
 #: ../viewlets_1.rst:30
 msgid ""
 "Let's add a link to the site that uses the information that we collected "
 "using the social-behavior."
-msgstr ""
+msgstr "Vamos a añadir un enlace al sitio que utiliza la información que hemos recopilado utilizando el comportamiento social."
 
 # cc40c702099a465d9f08ba6b6d8592d8
 #: ../viewlets_1.rst:32
@@ -95,21 +95,21 @@ msgid ""
 "that implements the interface ``ISocial`` from our behavior. It is also good"
 " practice to bind it to the `BrowserLayer`_ ``IPloneconfSiteLayer`` of our "
 "addon so it only shows up if our addon is actually installed."
-msgstr ""
+msgstr "Esto registra un viewlet llamado ``social``. Es visible en todos los contenidos que implementa la interfaz ``ISocial`` de nuestro comportamiento. También es una buena práctica de obligar a la `BrowserLayer`_ llamada ``IPloneconfSiteLayer`` de nuestro complemento por lo que sólo se muestra si nuestro complemento se instala en realidad."
 
 # a7c010a994d64ad5a6af689491a1a3c7
 #: ../viewlets_1.rst:53
 msgid ""
 "The viewlet-class ``SocialViewlet`` is expected in a file "
 "``browser/viewlets.py``."
-msgstr "The clase viewlet ``SocialViewlet`` es esperada en un archivo ``browser/viewlets.py``."
+msgstr "La clase viewlet ``SocialViewlet`` se espera en un archivo ``browser/viewlets.py``."
 
 # 45c16a2b8b0a48fb9b3cef648eaab453
 #: ../viewlets_1.rst:68
 msgid ""
 "This class does nothing except rendering the associated template (That we "
 "have to write yet)"
-msgstr ""
+msgstr "Esta clase no hace nada excepto hacer que la plantilla asociada (Eso tenemos que escribir aún)"
 
 # 0cf52c98fedc4733b6d4cdd406465ed6
 #: ../viewlets_1.rst:72
@@ -117,7 +117,7 @@ msgid ""
 "If we used ``grok`` we would not need to register the viewlets in the "
 "``configure.zcml`` but do that in python. We would add a file viewlets.py "
 "containing the viewlet-class."
-msgstr ""
+msgstr "Si utilizamos ``Grok`` no necesitaríamos registrar los viewlets en el archivo ``configure.zcml`` pero si hay que hacerlo en código Python. Nos gustaría añadir un archivo viewlets.py que contiene la clase viewlet."
 
 # 3899ab148a28492d996faeaf3993d198
 #: ../viewlets_1.rst:84
@@ -129,14 +129,14 @@ msgstr ""
 # a94cacb2a77b4bedab0d4b3bf20aff51
 #: ../viewlets_1.rst:86
 msgid "Let's add the missing template :file:`templates/social_viewlet.pt`."
-msgstr "Vamos a añadir la plantilla faltante :file:`templates/social_viewlet.pt`."
+msgstr "Vamos a agregar el archivo de la plantilla restante :file:`templates/social_viewlet.pt`."
 
 # ce9bb775c6974f1f9c4ebec3a7d8e3d0
 #: ../viewlets_1.rst:104
 msgid ""
 "As you can see this is not a valid html document. That is not needed, "
 "because we don't want a complete view here, just a html snippet."
-msgstr ""
+msgstr "Como se puede ver esto no es un documento válido HTML. Eso no es necesario, porque no queremos una visión completa aquí, sólo un fragmento de código HTML."
 
 # d0a9b5f8e00c4bc8bf76ce38e730cafe
 #: ../viewlets_1.rst:106
@@ -149,25 +149,25 @@ msgstr ""
 # 3a6e09b85c644195b081a2841d19483b
 #: ../viewlets_1.rst:108
 msgid "We have to extend the Social Viewlet now to add the missing attribute:"
-msgstr "Tenemos que ampliar el Viewlet Social ahora para añadir el atributo que faltan:"
+msgstr "Tenemos que ampliar el Viewlet Social ahora para añadir el atributo que le falta:"
 
 # 3fc2f740585c4f7f87b8d2d3e4abe3dc
 #: ../viewlets_1.rst:0
 msgid "Why not to access context directly"
-msgstr ""
+msgstr "¿Por qué no acceder directamente contexto?"
 
 # fff578dc14f142f39716c8a5ea34c82a
 #: ../viewlets_1.rst:115
 msgid ""
 "In this example, :samp:`ISocial(self.context)` does return the context "
 "directly. It is still good to use this idiom for two reasons:"
-msgstr ""
+msgstr "En este ejemplo, :samp:`ISocial(self.context)` devuelve el contexto directamente. Todavía es bueno utilizar este idioma por dos razones:"
 
 # d8e82dffeea2445f9f985cc988e584da
 #: ../viewlets_1.rst:117
 msgid ""
 "It makes it clear, that we only want to use the ISocial aspect of the object"
-msgstr ""
+msgstr "Se deja en claro, que sólo queremos usar el aspecto ISocial del objeto"
 
 # 1f40d9b7b0c0410cb500c8b09e07b70e
 #: ../viewlets_1.rst:118
@@ -179,21 +179,21 @@ msgstr ""
 # 5eb5a516d2804de38708aba5628fb7c0
 #: ../viewlets_1.rst:133
 msgid "So far, we"
-msgstr "Hasta ahora, hemos"
+msgstr "Hasta ahora, hemos hecho:"
 
 # 49c1aafad1f44190a1058c01a6c66fcb
 #: ../viewlets_1.rst:135
 msgid "register the viewlet to content that has the ISocial Interface."
-msgstr "registrar el viewlet al contenido que tiene la interfaz iSocial."
+msgstr "Registrar el viewlet al contenido que tiene la interfaz iSocial."
 
 # d6c66bedb94747598bc1729abe26121f
 #: ../viewlets_1.rst:136
 msgid ""
 "adapt the object to it's behavior to be able to access the fields of the "
 "behavior"
-msgstr "adaptar el objeto a su comportamiento para ser capaz de acceder a los campos del comportamiento"
+msgstr "Adaptar el objeto a su comportamiento para ser capaz de acceder a los campos del comportamiento."
 
 # d535fad64b664d47acfdb088f879c7a6
 #: ../viewlets_1.rst:137
 msgid "return the link"
-msgstr "devolver el enlace"
+msgstr "Devolver el enlace."

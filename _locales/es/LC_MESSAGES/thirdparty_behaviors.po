@@ -1,92 +1,93 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014, Philip Bauer, Patrick Gerken. Version 1.2.2
+# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-22 11:27-0430\n"
-"PO-Revision-Date: 2014-06-22 16:47+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:57+0000\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# 5c81ea8888fb46b69bad9db0020b7b80
+# d8a543736736475382fe1c591c6e96e4
 #: ../thirdparty_behaviors.rst:2
 msgid "Using third-party behaviors"
-msgstr "Usando comportamientos de terceros"
+msgstr "Usando comportamientos de complementos de terceros"
 
-# 6497017078004ccfbf2ef41b9add19c0
+# 4f2eea9b835c47d390b98fcebdf07728
 #: ../thirdparty_behaviors.rst:6
 msgid "Add teaser with collective.behavior.banner"
-msgstr ""
+msgstr "Agregar banner con el complemento collective.behavior.banner"
 
-# 61090dcd1a7b460ebd5a02d74cc25b8a
+# a3701334c48c4f15a2748806af13e04e
 #: ../thirdparty_behaviors.rst:8
 msgid ""
 "There are a lot of addons in Plone for sliders/banners/teasers. We thought "
 "there should be a better one and created ``collective.behavior.banner``."
-msgstr ""
+msgstr "Hay un montón de complementos en Plone para deslizadores / banners / teasers. Nosotros pensamos que debe haber una mejor y fue creado ``collective.behavior.banner``."
 
-# 2bdd493a4e1d4d7ea5172c40750565fb
+# 644f13ff258f416896ab866730707789
 #: ../thirdparty_behaviors.rst:12
 msgid ""
 "Like many addons it has not yet been released on pypi but only exists as "
 "code on github."
-msgstr ""
+msgstr "Al igual muchos complementos que aún no se ha lanzado en PyPI pero sólo existe como código fuente en GitHub."
 
-# 0f75116e061c46f1ab2101c078ae3bfa
+# 6e181e98f0cf4b83af513ae246fb849f
 #: ../thirdparty_behaviors.rst:14
 msgid ""
 "The training-buildout hold a section ``[sources]`` that tells buildout to "
 "download a specific addon not from pypi but from some code repositiory "
 "(usually github):"
-msgstr ""
+msgstr "La formación en buildout contiene una sección ``[sources]`` que le dice buildout para descargar un complemento específico no disponible en PyPI sino en algún repositorio de código (generalmente github):"
 
-# 94e8522d52864661a98d93acfcb65618
+# 10a19b111a5e4e05a9372e4b85ac61c9
 #: ../thirdparty_behaviors.rst:21
 msgid ""
 "Pinning the revision saves us from being surprised by changes in the code we"
 " might not want."
-msgstr ""
+msgstr "Definiendo la revisión nos salva de ser sorprendidos por los cambios en el código fuente puede ser que no quiera."
 
-# ef583f88388949ce8cd3d129415b97ee
+# c0ce98fb7f5a479fb996e17645e11ea9
 #: ../thirdparty_behaviors.rst:23
 msgid "Install the addon"
-msgstr ""
+msgstr "Instalar el producto"
 
-# 24944976731d48efb43e9b9a03c5d8de
+# 713b54caf26243109c5212c27ed5b598
 #: ../thirdparty_behaviors.rst:24
 msgid ""
 "Create a new dexterity-ct ``Banner`` with **only** the behavior ``Banner`` "
 "enabled."
-msgstr ""
+msgstr "Crear un nuevo tipo de contenido Dexterity ``Banner`` con **sólo** el comportamiento ``Banner`` habilitado."
 
-# 1a8a1dd69a234ae9a27959baab5352dd
+# 6def7406793d4e28b20d6bd32feb6fdd
 #: ../thirdparty_behaviors.rst:25
 msgid "Create a folder called ``banners``"
-msgstr ""
+msgstr "Crear una carpeta llamada ``banners``"
 
-# 5b6bb380d6854cd9bba933c0a341cfb9
+# 025cb03ba6874aaaa242e0636a6fa849
 #: ../thirdparty_behaviors.rst:26
 msgid ""
 "Add two banners into that folder using images taken from "
 "http://lorempixel.com/800/150/"
-msgstr ""
+msgstr "Agregar dos banners dentro de la carpeta usando imágenes tomadas desde la dirección URL http://lorempixel.com/800/150/"
 
-# 070bb164db554f788e10c98adced89f3
+# 7bf0c2219ee74b13b50c443bf17f32f6
 #: ../thirdparty_behaviors.rst:27
 msgid ""
 "Add the Behavior ``Slider`` to the default-contenttype ``Page (Document)``"
-msgstr ""
+msgstr "Agregar el comportamiento ``Slider`` al tipo de contenido por defecto ``Página (Document)``"
 
-# afe0955e0a9c49f3aee6cfcd73d941c2
+# cf84f8ef08ef4f58885e921f43235182
 #: ../thirdparty_behaviors.rst:28
 msgid "Edit the frontpage and link to the new banners."
-msgstr ""
+msgstr "Edita el la página frontpage y enlace a los nuevos banners."

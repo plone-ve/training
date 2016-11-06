@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-13 10:06-0430\n"
-"PO-Revision-Date: 2014-07-13 14:57+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:00+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,7 +52,7 @@ msgstr "use el `python-buildout <https://github.com/collective/buildout.python>`
 # db5ef50f5b6a45ffb512b4e6011c8ca5
 #: ../installation.rst:20
 msgid "building Linux-packages"
-msgstr "construcciones de paquetes Linux"
+msgstr "instale los paquetes construido en su sabor de Linux"
 
 # a7eeb7540b6b498d8c991b48331c2285
 #: ../installation.rst:21
@@ -115,7 +115,7 @@ msgstr "Unified installers (todos los Unix, incluyendo MacOS)"
 # 57b9fbdb70354a09aca5cfb73e4af1a1
 #: ../installation.rst:46
 msgid "A vagrant/virtualbox install kit (all platforms)"
-msgstr "Un kit de instalacion Vagrant/Virtualbox (todas las plataformas)"
+msgstr "Un kit de instalación vagrant/virtualbox (todas las plataformas)"
 
 # 3fac86f46510455fba56f495695ac62a
 #: ../installation.rst:47
@@ -137,7 +137,7 @@ msgid ""
 "vagrant machine. For your own first experiments we recommend option 2 or 3 "
 "(if you have a windows-laptop or encounter problems). Later on you should be"
 " able to use your own Buildout (we'll cover that later on)."
-msgstr "Para el entrenamiento vamos a utilizar la opción 3 y 4 para instalar y ejecutar Plone. Vamos a crear nuestro propio Buildout y la extendemos a nuestro antojo. Pero lo haremos en una máquina vagrant. Para sus propios primeros experimentos se recomienda la opción 2 o 3 (si usted tiene una portátil con Windows o al encontrar problemas). Más tarde usted debería ser capaz de utilizar su propia Buildout (vamos a cubrir que más tarde)."
+msgstr "Para el entrenamiento vamos a utilizar la opción 3 y 4 para instalar y ejecutar Plone. Vamos a crear nuestro propio Buildout y la extendemos a nuestro antojo. Pero lo haremos en una máquina vagrant. Para sus primeros experimentos propios se recomienda la opción 2 o 3 (si usted tiene una portátil con Windows o al encontrar problemas). Más tarde usted debería ser capaz de utilizar su propio Buildout (vamos a cubrir que más tarde)."
 
 # 743b1ed6f4c546a68d5e51488d537707
 #: ../installation.rst:60

@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Carlos J Morales G. <carlosm0177@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-13 10:06-0430\n"
-"PO-Revision-Date: 2014-07-13 14:55+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:53+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -67,7 +68,7 @@ msgstr "¿Como ha sido tu experiencia en Plone?"
 # 1bbc05af90874be985af36a81b258340
 #: ../intro.rst:19
 msgid "What is your web-development experience?"
-msgstr "¿Cual ha sido tu experiencia en Desarrollo Web?"
+msgstr "¿Cual ha sido tu experiencia en desarrollo Web?"
 
 # 883b0c4799324c039e86c3dab1d6d65a
 #: ../intro.rst:20
@@ -152,7 +153,7 @@ msgstr "METAL"
 # 05046b9e57b14bf5aaaa3fb4362839e2
 #: ../intro.rst:59
 msgid "Zcml"
-msgstr "ZCML"
+msgstr "Zcml"
 
 # 9398cb2305ab40d2ba2c6f5be14053ac
 #: ../intro.rst:60
@@ -206,7 +207,7 @@ msgstr "`z3c.forms <http://docs.plone.org/develop/plone/forms/z3c.form.html>`_"
 # 0188cac4c0534486928a7082f1278281
 #: ../intro.rst:73
 msgid "`Theming <http://docs.plone.org/adapt-and-extend/theming/index.html>`_"
-msgstr "`Temas <http://docs.plone.org/adapt-and-extend/theming/index.html>`_"
+msgstr "`Theming <http://docs.plone.org/adapt-and-extend/theming/index.html>`_"
 
 # f90ef4ff874f469ca7e47617f2fb3680
 #: ../intro.rst:74
@@ -267,7 +268,7 @@ msgstr "`ZODB <http://docs.plone.org/develop/plone/persistency/index.html>`_"
 # 4730a62e1a04488a839ef74b302233b9
 #: ../intro.rst:85
 msgid "`Security <http://docs.plone.org/develop/plone/security/index.html>`_"
-msgstr "`Seguridad <http://docs.plone.org/develop/plone/security/index.html>`_"
+msgstr "`Security <http://docs.plone.org/develop/plone/security/index.html>`_"
 
 # 701b995d16e74eae8a2e1a804f0d6399
 #: ../intro.rst:86
@@ -313,7 +314,7 @@ msgid ""
 "Most importantly you should practice your skills and not stop here but go "
 "forward! One recommended way would be to follow the `todo-app "
 "<http://tutorialtodoapp.readthedocs.org/en/latest/>`_."
-msgstr "Mas importante es que debe practicar sus habilidades y no detenerte aquí y seguir delante! una vía recomendada que debes seguir es el `todo-app <http://tutorialtodoapp.readthedocs.org/en/latest/>`_."
+msgstr "Más importante es ¡usted debe practicar sus habilidades y no detenerte aquí y seguir delante! una vía recomendada para esto es debe realizar los pasos del tutorial `todo-app <http://tutorialtodoapp.readthedocs.org/en/latest/>`_."
 
 # 19f14b0afda04555a4e0d40060a4dc7b
 #: ../intro.rst:98
@@ -338,7 +339,7 @@ msgstr "Sigue el entrenamiento en http://plone-training.readthedocs.org/"
 msgid ""
 "You can use this presentation to copy & paste the code but you will memorize"
 " more, the more you type yourself."
-msgstr "Puede usar esta presentación para copiar y pegar el código pero memorizaras mas y mas el código que escribas por ti mismo."
+msgstr "Puede usar esta presentación para copiar y pegar el código pero memorizaras más y más el código que escribas por ti mismo."
 
 # b91947c9b150497dba3d4ef46b56593f
 #: ../intro.rst:112
@@ -384,7 +385,7 @@ msgstr "Nosotros haremos algunos descansos..."
 # 27778cb357414b08a3ad9c37916e6e8b
 #: ../intro.rst:126
 msgid "Where is Food, Restrooms"
-msgstr "¿Dónde está la Alimentación, Baños?"
+msgstr "¿Dónde está la Alimentación, Baños"
 
 # 0b61f204df634224a5b053d340bb9732
 #: ../intro.rst:127
@@ -399,4 +400,4 @@ msgstr "Por favor, alguien puede indicar a errores"
 # bc3192b6dc7540bb9ec2f976b60c5b66
 #: ../intro.rst:129
 msgid "Contact us after the training: team@starzel.de"
-msgstr "Contáctenos después del entrenamiento: team@starzel.de"
+msgstr "Contactanos despues del entrenamiento: team@starzel.de"

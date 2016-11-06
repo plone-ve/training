@@ -1,96 +1,97 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014, Philip Bauer, Patrick Gerken. Version 1.2.2
+# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-22 11:27-0430\n"
-"PO-Revision-Date: 2014-06-22 16:45+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:00+0000\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# fd962d03a0b249e58f0f31f3d92c9cbf
+# 8d69030b78674003ae5c3ee38826433b
 #: ../events.rst:2
 msgid "Turn talks into events"
-msgstr ""
+msgstr "Convertir las charlas en eventos"
 
-# aaf197b502c4415a85c648f41ce5422d
+# 4e1109835a7e4f8799e562ffcef6549d
 #: ../events.rst:0
 msgid "Get the code!"
-msgstr "Obten el Codigo!"
+msgstr "¡Obtén el código!"
 
-# b64bddd5b5164d77baa20cbcf970e001
+# b20c5e6a51da4899bca566f1b38dc05c
 #: ../events.rst:6
 msgid ""
 "Get the code for this chapter (:doc:`More info <sneak>`) using this command "
 "in the buildout-directory:"
-msgstr "Obten el codigo para este capitulo(:doc:`More info <sneak>`) usando este comando en el directorio buildout"
+msgstr "Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando este comando en el directorio buildout:"
 
-# 107021f62c884af190ab08a70d269a92
+# a72a49dd8dda4e7da040b85b811fa693
 #: ../events.rst:13
 msgid ""
 "We forgot something: A list of talks is great especially if you can sort it "
 "by your preferences. But if a visitor decides he wants to see a talk he "
 "needs to know when it will take place."
-msgstr ""
+msgstr "Se nos olvidó algo: Una lista de las charlas es excelente especialmente si usted puede ordenarlo por sus preferencias. Pero si un visitante decide que quiere ver una charla que necesita saber cuándo va a tener lugar."
 
-# 69e018ee4b9343f1b4822de2c2c14ce5
+# a6c07a22e8d74a37893564425a9f4d09
 #: ../events.rst:15
 msgid ""
 "We need a schedule and for this we need to store the information when a talk"
 " will happen."
-msgstr ""
+msgstr "Necesitamos un programa y para ello necesitamos almacenar la información en una charla va a suceder."
 
-# 48b4f989daf74d00b968b1e125d8263e
+# 432346e0bc5a4bf680435aca529f5e16
 #: ../events.rst:17
 msgid ""
 "Luckily the type *Event* is based on reuseable behaviors from the package "
 "plone.app.event."
-msgstr ""
+msgstr "Afortunadamente el tipo *Evento* es basado en comportamiento reusable desde el paquete  plone.app.event."
 
-# 29511e3f9e044312a98b8a3f6753906d
+# 729d46fc5af741a39fd75d031e00ead4
 #: ../events.rst:19
 msgid "In this chapter we will"
-msgstr ""
+msgstr "En este capítulo vamos a tratar:"
 
-# 078618b818544ac7bc497da9e72cec12
+# 48caa491ea4b4fbea07e7714436a961b
 #: ../events.rst:21
 msgid "enable this behavior for talks"
-msgstr ""
+msgstr "Habilitar este comportamiento para las charlas."
 
-# 6b9bd5d3a3b3453d818dcfb0995acbc1
+# bcb435efa899404bbd87309f4f3cab8f
 #: ../events.rst:22
 msgid "write an upgrade step to work around a bug in plone.app.event"
-msgstr ""
+msgstr "Escribir un paso de actualización (upgrade step) para para evitar un error en plone.app.event."
 
-# 91becd1532f14dd7b59b5ccff4bea4b9
+# 02bfa333f5f84109bcad0172fbd9b53c
 #: ../events.rst:23
 msgid "display the date in the talkview"
-msgstr ""
+msgstr "Mostrar la fecha en la vista talkview."
 
-# 9f70c9974a7a43a780eefda2d53fd5f6
+# 9e4072a416d4411eb7e4ce52e7da2d3b
 #: ../events.rst:25
 msgid ""
 "First we enable the behavior ``IEventBasic`` for talks in "
 "``profiles/default/types/talk.xml``"
-msgstr ""
+msgstr "Primero nosotros habilitamos el comportamiento ``IEventBasic`` para las charlas en el archivo ``profiles/default/types/talk.xml``"
 
-# e11ecf8a17624b2181c1204774f1d6c7
+# ffcbb99ada184290886863e52af21890
 #: ../events.rst:39
 msgid ""
 "If we set the behavior by hand or reinstall the addon we could now add new "
 "talks with new field for ``start`` and ``end``."
 msgstr ""
 
-# 3b73211684df403ea8b34c42ac013a3e
+# 992dddab95ff40d99fe43a445d62f9c6
 #: ../events.rst:41
 msgid ""
 "But because of a `bug in plone.app.event "
@@ -99,33 +100,33 @@ msgid ""
 " the fields ``start`` and ``end`` we would get a traceback on inline-"
 "validation when we edit these. To work around this we create an upgrade-step"
 " that sets some an initial date."
-msgstr ""
+msgstr "Pero debido a un error en `plone.app.event <https://github.com/plone/plone.app.event/issues/160>`_ no se espera que los objetos existentes obtengan el comportamiento. Desde los tipos de contenidos existentes no tienen valores en los campos ``start`` y ``end`` nos encontraremos con un traceback en línea de validación cuando editamos estos. Para solucionar esto creamos un paso de actualización que establece alguna una fecha inicial."
 
-# 3b8f1017bbc747189e00142f4c8ddc89
+# 75cc6099bd5e401486c5cf194fd2f7ad
 #: ../events.rst:43
 msgid "Register the new upgrade step in ``upgrades.zcml``"
-msgstr ""
+msgstr "Registrar el nuevo paso de actualización (upgrade step) en el archivo ``upgrades.zcml``"
 
-# edfa6aca07da4040b71a14e1c0526efb
+# 1ad21e5b2f0f4bfc8f70f933d6511d19
 #: ../events.rst:58
 msgid "Bump the profile-version to 1002 in ``profiles/default/metadata.xml``"
-msgstr ""
+msgstr "Cambiar la versión del perfil a 1002 en el archivo ``profiles/default/metadata.xml``"
 
-# ffc6ee60e5ed44519942535b18b1b0a0
+# d749f13093f14f03ac97ec6d675ea263
 #: ../events.rst:60
 msgid "Write the upgrade-step in ``upgrades.py``"
-msgstr ""
+msgstr "Escribir el paso de actualizacion (upgrade sted) en el archivo ``upgrades.py``"
 
-# c1124e02de6042fe9571e460b5ad6d12
+# 802d23e7f197416fb48d398bd1bf6731
 #: ../events.rst:126
 msgid ""
 "After we ran the upgrade-step we can now add a time to existing events. To "
 "display this we reuse a default event-summary view as documented in "
 "http://ploneappevent.readthedocs.org/en/latest/development.html#reusing-the-"
 "event-summary-view-to-list-basic-event-information"
-msgstr ""
+msgstr "Después que ejecutamos el paso de actualización ahora podemos añadir un tiempo para los existentes eventos. Para mostrar estos reutilizamos una vista de resumen para eventos por defecto como se documenta en http://ploneappevent.readthedocs.org/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information"
 
-# d0a54a63e8724c949ee0a5697301af0a
+# 52a90b73fae34554a3f434a57f7e3f2c
 #: ../events.rst:128
 msgid "Edit ``browser/templates/talkview.pt``"
-msgstr ""
+msgstr "Edite el archivo ``browser/templates/talkview.pt``"

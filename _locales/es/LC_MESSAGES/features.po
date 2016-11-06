@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-19 10:58-0430\n"
-"PO-Revision-Date: 2014-07-19 15:55+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:00+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,19 +21,19 @@ msgstr ""
 # b2872b4352cc4b518d71077e88a436e8
 #: ../features.rst:2
 msgid "The Features of Plone"
-msgstr "Las caracteristicas de Plone"
+msgstr "Las características de Plone"
 
 # 43dac9b8a40b466a9aaee2328b1a6924
 #: ../features.rst:4
 msgid ""
 "In-depth user-manual: http://plone.org/documentation/manual/plone-4-user-"
 "manual"
-msgstr "En profundidad el Manual de usuario: http://plone.org/documentation/manual/plone-4-user-manual"
+msgstr "En profundidad el Manual de usuario (en idioma Español): https://plone.org/countries/ve/publicaciones/plone-para-usuarios-principiantes"
 
 # 6cae27c9b47f45f985063c2542e85c49
 #: ../features.rst:6
 msgid "See also: http://docs.plone.org/working-with-content/index.html"
-msgstr "Ver tambien: http://docs.plone.org/working-with-content/index.html"
+msgstr "Ver también la versión original del manual (en idioma Ingles) en las siguientes direcciones URL: http://plone.org/documentation/manual/plone-4-user-manual y http://docs.plone.org/working-with-content/index.html"
 
 # 718af20cd67847c89ccde76e9c30af7f
 #: ../features.rst:9
@@ -96,7 +96,7 @@ msgid ""
 "Plone Default Types``. This way even the initial content on our page will be"
 " built with dexterity by the addon ``plone.app.contenttypes`` which will be "
 "the default in Plone 5."
-msgstr "Ahora tiene la opción de seleccionar algunos complementos antes de crear el sitio. Dado que vamos a utilizar Dexterity desde el principio seleccionamos ``Dexterity-based Plone Default Types``. De esta manera, incluso el contenido inicial en nuestra página será construido con dexterity por lo complemento plone.app.contenttypes que será el predeterminado en Plone 5."
+msgstr "Ahora tiene la opción de seleccionar algunos complementos antes de crear el sitio. Dado que vamos a utilizar Dexterity desde el principio seleccionamos el complemento ``Dexterity-based Plone Default Types``. De esta manera, incluso el contenido inicial en nuestra página será construido con dexterity por lo complemento plone.app.contenttypes que será el predeterminado en Plone 5."
 
 # 1e649a6967a7454c859834a40517a804
 #: ../features.rst:38
@@ -125,7 +125,7 @@ msgid ""
 "some of plone's features. But he has all possible permissions. It is also "
 "unsecure to use this user. Basically, his password can be seen easily within"
 " each request."
-msgstr "Vamos a crear nuestros primeros usuarios en Plone. Hasta ahora hemos utilizado el usuario administrador (admin:admin) configurado en el buildout. A menudo se le llama \"el administrador de Zope\". Este usuario no se gestiona de Plone mas sólo es usado para la gestión de Zope. Por lo tanto le faltan algunas características como el correo electrónico y el nombre completo y no va a ser capaz de utilizar algunas de las características de Plone. Pero este usuario tiene todos los permisos posibles. También no es seguro usar este usuario. Básicamente, su contraseña se puede ver fácilmente dentro de cada request."
+msgstr "Vamos a crear nuestros primeros usuarios en Plone. Hasta ahora hemos utilizado el usuario administrador (admin:admin) configurado en el buildout. A menudo se le llama \"el administrador de Zope\". Este usuario no se gestiona de Plone más sólo es usado para la gestión de Zope. Por lo tanto le faltan algunas características como el correo electrónico y el nombre completo y no va a ser capaz de utilizar algunas de las características de Plone. Pero este usuario tiene todos los permisos posibles. También no es seguro usar este usuario. Básicamente, su contraseña se puede ver fácilmente dentro de cada request."
 
 # ce0352c15fea4242b08c63598cb248ca
 #: ../features.rst:60
@@ -195,7 +195,7 @@ msgstr "como administrador."
 # ead6d9940e90480e83869071d2875e14
 #: ../features.rst:97
 msgid "Configure a Mailserver"
-msgstr "Configurar un servidor de Correo"
+msgstr "Configurar un servidor de correo"
 
 # 40a514f1306341429a9131cf4c3b5029
 #: ../features.rst:102
@@ -248,7 +248,7 @@ msgstr ":guilabel:`personaltools`: nombre, salir etc."
 # 60d24e1ca5e44d3bb1916d691ba01e59
 #: ../features.rst:119
 msgid ":guilabel:`logo`: with a link to the frontpage"
-msgstr ":guilabel:`logo`: con un enlace a la pagina principal"
+msgstr ":guilabel:`logo`: con un enlace a la página principal"
 
 # 194e772b32094ba18ab08c49aadad248
 #: ../features.rst:120
@@ -292,7 +292,7 @@ msgstr ":guilabel:`portal-footer`: viewlets"
 msgid ""
 "These are also the css-classes of the respective div's. If you want to do "
 "theming you'll need them."
-msgstr "Estos son también los class CSS de los respectivos de div del HTML . Si usted quiere hacer la temas visuales usted los necesita."
+msgstr "Estos son también los clases CSS de los respectivos de DIV del HTML. Si usted quiere hacer la temas visuales usted los necesita."
 
 # 27c63dea7c6d43c8bc8f87c9bdcf9be5
 #: ../features.rst:137
@@ -302,7 +302,7 @@ msgstr "Tipos de Contenidos"
 # 8a61ad5518a04cfe8494b89d88f8556f
 #: ../features.rst:139
 msgid "Edit a page:"
-msgstr "Editar una pagina:"
+msgstr "Editar una página:"
 
 # 2f1c2fc059c94064919b4149e48e689f
 #: ../features.rst:141
@@ -357,17 +357,17 @@ msgstr "En la ruta /news: Agregar una Noticia \"¡Sitio Web de la Conferencia es
 # bb83f034fd1e43b3bc08956a3589455e
 #: ../features.rst:155
 msgid "In /news: Add News Item \"Submit your talks!\""
-msgstr "En la ruta /news: Agregar una Noticia \"¡Enviar sus Charlas!\""
+msgstr "En la ruta /news: Agregar una Noticia \"¡Enviar sus charlas!\""
 
 # 12124981f3b94bd8ad41781328199c26
 #: ../features.rst:156
 msgid "In /events: Add Event \"Deadline for talk-submission\" Date: 10.10.2014"
-msgstr "En la ruta /news: Agregar un Evento \"Fecha limite para enviar Charlas\" Fecha 10.10.2014"
+msgstr "En la ruta /news: Agregar un Evento \"Fecha limite para enviar charlas\" Fecha 10.10.2014"
 
 # fc446b613a184f54804ea8ef37af328b
 #: ../features.rst:158
 msgid "Add Folder \"Register\""
-msgstr "Agregar Carpeta \"Registro\""
+msgstr "Agregar carpeta llamada \"Registro\""
 
 # 54c9cdcea7ce4efc8a70742f135b8c92
 #: ../features.rst:159
@@ -377,7 +377,7 @@ msgstr "Eliminar la Carpeta \"Members\""
 # 906425abca7943f0a33af8f58b1bf065
 #: ../features.rst:160
 msgid "Add Folder \"Intranet\""
-msgstr "Agregar Carpeta \"Intranet\""
+msgstr "Agregar carpeta llamada \"Intranet\""
 
 # cba1bc13fe5d450c83f768cca3c5087a
 #: ../features.rst:163
@@ -461,12 +461,12 @@ msgstr "cambiar orden"
 # 219d464226834d41819461e07976deb6
 #: ../features.rst:186
 msgid "bulk-actions"
-msgstr "acciones en masa"
+msgstr "acciones masivas"
 
 # c87ac6af07914bf1a2ed5385e2176758
 #: ../features.rst:187
 msgid "dropdown \"display\""
-msgstr "desplegable \"Mostrar\""
+msgstr "menú desplegable \"Mostrar\""
 
 # 2d4a089abe824f4a8b557d02b83e2b29
 #: ../features.rst:188
@@ -476,7 +476,7 @@ msgstr "default_pages"
 # 2ea41eeee1d94e8f9f1c56f762c7434f
 #: ../features.rst:189
 msgid "Add a page to 'the-event': \"The Event\" and make it the default-page"
-msgstr "Agregar una pagina a 'el-evento': \"El Evento\" y hacerlo su pagina por defecto"
+msgstr "Agregar una página a 'el-evento': \"El Evento\" y hacerlo su página por defecto"
 
 # 53a0acba683b4e65bc6411f08958e813
 #: ../features.rst:190
@@ -503,7 +503,7 @@ msgstr "explicar la colección por defecto de eventos en http://localhost:8080/P
 # 71660584788244babb6f636bf83a4686
 #: ../features.rst:198
 msgid "explain Topics"
-msgstr "explicar Topicos"
+msgstr "explicar Tópicos"
 
 # 29fc05e224964986983964869da42aff
 #: ../features.rst:199
@@ -568,7 +568,7 @@ msgstr "grupos"
 # 89a3471bba1f451d8e9f1f33967cffee
 #: ../features.rst:224
 msgid "Add group \"Editors\" and add the user 'editor' to it"
-msgstr "Agregar grupo \"Editores\" y agregar el usuario 'editor' a este"
+msgstr "Agregar grupo \"Editores\" y agregar el usuario 'editor' a ese."
 
 # b44726ed6c1b4c088455992d7ad7965e
 #: ../features.rst:225
@@ -578,7 +578,7 @@ msgstr "Agregar grupo: ``orga``"
 # 2341f1176bde408398e519b750321648
 #: ../features.rst:226
 msgid "add group: ``jury`` and add user 'jurymember' to it."
-msgstr "agregar grupo: ``jury`` y agregue usuario 'jurymember' a este."
+msgstr "agregar grupo: ``jury`` y agregue usuario 'jurymember' a ese."
 
 # d9f9d6437acc4698be03a4e74ea2fced
 #: ../features.rst:230
@@ -590,7 +590,7 @@ msgstr "Flujos de trabajos"
 msgid ""
 "Read more at: http://docs.plone.org/working-with-content/collaboration-and-"
 "workflow/index.html"
-msgstr "Lea mas en: http://docs.plone.org/working-with-content/collaboration-and-workflow/index.html"
+msgstr "Lea más en: http://docs.plone.org/working-with-content/collaboration-and-workflow/index.html"
 
 # 981c224ae73c45ffaf7d72b6471a7cdb
 #: ../features.rst:235
@@ -607,7 +607,7 @@ msgstr "habilitar complemento"
 # 3557ecc461354f7e8454c43271d41fef
 #: ../features.rst:238 ../features.rst:245
 msgid "explain"
-msgstr "explicar"
+msgstr "Explicar"
 
 # cb597ef8f45545b790ea8370ce6c01b4
 #: ../features.rst:242

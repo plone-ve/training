@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-28 20:53-0430\n"
-"PO-Revision-Date: 2014-07-24 16:04+0000\n"
+"PO-Revision-Date: 2016-11-04 16:22+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,19 +21,19 @@ msgstr ""
 # ffaea47add6943c788cc21c2b183ea23
 #: ../views_3.rst:2
 msgid "Views III: A Talk list"
-msgstr "Views - Parte III: Una lista de Task"
+msgstr "Views - Parte III: Una lista de Charlas"
 
 # 348be93ca86b4dc1a873a129ee99d2af
 #: ../views_3.rst:0
 msgid "Get the code!"
-msgstr "¡Obten el código!"
+msgstr "¡Obtén el código!"
 
 # 3e0d116f343543f4ab87b4ec03412780
 #: ../views_3.rst:6
 msgid ""
 "Get the code for this chapter (:doc:`More info <sneak>`) using this command "
 "in the buildout-directory:"
-msgstr "Obtén el código para este capitulo (:doc:`Mas información <sneak>`) usando este comando en el directorio buildout."
+msgstr "Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando este comando en el directorio buildout:"
 
 # 733628c4ea9745e2951c96e546609a43
 #: ../views_3.rst:13
@@ -41,7 +41,7 @@ msgid ""
 "Now we don't want to provide information about one specific item but on "
 "several items. What now? We can't look at several items at the same time as "
 "context."
-msgstr "Ahora no queremos para proporcionar información sobre un elemento específico, sino en varios elementos. ¿Y ahora qué? No podemos mirar a varios elementos al mismo tiempo que el contexto."
+msgstr "Ahora no queremos proporcionar información sobre un elemento específico, sino en varios elementos. ¿Y ahora qué? No podemos mirar a varios elementos al mismo tiempo que el contexto."
 
 # 2be4ba9a96f24dde9eca2941a9c93b68
 #: ../views_3.rst:17
@@ -62,7 +62,7 @@ msgstr "Digamos que queremos así que muestre una lista de todas las chrlas que 
 msgid ""
 "So we need to get all the talks. For this we use the python-class of the "
 "view to query the catalog for the talks."
-msgstr "Así que tenemos que conseguir todas las charlas. Para ello utilizamos la clase python de la vista para consultar el catálogo para las charlas."
+msgstr "Así que tenemos que conseguir todas las charlas. Para ello utilizamos la vista de la clase Python para consultar en el catálogo las charlas."
 
 # b7e20ef8c8124ffb9257a98144520d46
 #: ../views_3.rst:23
@@ -73,7 +73,7 @@ msgid ""
 "author, content_type, it's path in the site etc. But it does not hold the "
 "content of \"heavy\" fields like images or files, richtext-fields and field "
 "that we just defined ourselves."
-msgstr "El catálogo es como un motor de búsqueda por el contenido de nuestro sitio. Contiene información sobre todos los objetos, así como algunos de sus atributos como título, descripción, desde estado de flujo de trabajo, palabras clave que fueron etiquetadas, autor, tipo de contenido, su ruta en el sitio, etc. Sin embargo, no se mantiene el contenido de campos \"pesado\" como imágenes o archivos, campos texto enriquecidos y el campo que acabamos de definir nosotros mismos."
+msgstr "El catálogo es como un motor de búsqueda por el contenido de nuestro sitio. Contiene información sobre todos los objetos, así como algunos de sus atributos como título, descripción, estado de flujo de trabajo, palabras clave que fueron etiquetadas, autor, tipo de contenido, su ruta en el sitio, etc. Sin embargo, no tiene el contenido de campos \"pesado\" como imágenes o archivos, campos texto enriquecidos y el campo que acabamos de definir nosotros mismos."
 
 # 4060d1b46cbb41768b8edc85c78c6ef8
 #: ../views_3.rst:25
@@ -117,12 +117,12 @@ msgid ""
 "some talks to a different part of the site (e.g. a sub-conference for "
 "universities with a special talk-list) we might not want so see them in our "
 "listing."
-msgstr "Obtenemos la ruta del contexto actual para consultar sólo para los objetos en la ruta actual. De lo contrario nos íbamos a todas las charlas en todo el sitio. Si nos trasladamos algunas charlas a una parte diferente del lugar (por ejemplo, un sub-conferencia de universidades con una lista especial charla) puede ser que no quiera ver así en nuestra lista."
+msgstr "Obtenemos la ruta del contexto actual para consultar sólo para los objetos en la ruta actual. De lo contrario íbamos a obtener todas las charlas en todo el sitio. Si nos trasladamos algunas charlas a una parte diferente del lugar (por ejemplo, un sub-conferencia de universidades con una lista especial charla) puede ser que no quiera ver así en nuestra lista."
 
 # 53f10cc9ced54e94839df7b29b1b8393
 #: ../views_3.rst:92
 msgid "We iterate over the list of results that the catalog returns us."
-msgstr "Nos iterar sobre la lista de resultados que el catálogo nos devuelve."
+msgstr "Nosotros iteramos sobre la lista de resultados que el catálogo nos devuelve."
 
 # b7b83865dc1a4b0592be200a68d55b90
 #: ../views_3.rst:94
@@ -135,7 +135,7 @@ msgstr "Creamos un diccionario que contiene toda la información que queremos mo
 # a0e3bdde076046d29c1b26b63bac305e
 #: ../views_3.rst:97
 msgid "brains and objects"
-msgstr "cerebros y objetos"
+msgstr "Cerebros y objetos"
 
 # 0a26b639ad924523ad136cdfdb6d9227
 #: ../views_3.rst:99
@@ -148,7 +148,7 @@ msgstr "Los objetos son normalmente no se cargan en la memoria, pero permanecen 
 # f6cc3c5a79c64b44a0dbe85b7e38aea6
 #: ../views_3.rst:101
 msgid "dexterity-objects which are lighter than their archetypes-brothers"
-msgstr "objetos dexterity que son más ligeros que sus hermanos arquetipos"
+msgstr "objetos dexterity que son más ligeros que sus hermanos archetypes"
 
 # facd04f7c39d4492b56f9dbb89e7c397
 #: ../views_3.rst:102
@@ -178,12 +178,12 @@ msgstr "charlas son importantes y por lo tanto más probable es que siempre este
 # 3e9c2ffc6bcf4a45b18835af0d68213f
 #: ../views_3.rst:109
 msgid "prevent bloating of catalog with indexes"
-msgstr "prevenir la inflamación de catálogo con índices"
+msgstr "prevenir la inflamación del catálogo con índices"
 
 # 1efe7fa2975f4b3ab54f63e3590cd7ab
 #: ../views_3.rst:113
 msgid "The code to add such an index would look like this::"
-msgstr "El código para agregar este índice se vería así:"
+msgstr "El código para agregar este índice se vería como el siguiente:"
 
 # 27d5136d1db947da8d94dd1d12d0a528
 #: ../views_3.rst:122
@@ -191,12 +191,12 @@ msgid ""
 "We'd have to register this factory function as a named adapter in the "
 "``configure.zcml``. Assuming you've put the code above into a file named "
 "indexers.py"
-msgstr "Tendríamos que registrar esta función factory como un adaptador llamado en el archivo ``configure.zcml``. Suponiendo que haya puesto el código anterior en un archivo llamado indexers.py"
+msgstr "Tendríamos que registrar esta función factory como un adaptador llamado en el archivo ``configure.zcml``. Suponiendo que haya puesto el código fuente anterior en un archivo llamado indexers.py"
 
 # bd0049a1162944ceb28aad22cf97f3b4
 #: ../views_3.rst:128
 msgid "We will add some indexers later on."
-msgstr "Vamos a agregar algunos indices más adelante."
+msgstr "Vamos a agregar algunos índices más adelante."
 
 # 116a7b9a49a34d6aa4c9c3f5fd63d68d
 #: ../views_3.rst:130
@@ -205,7 +205,7 @@ msgid ""
 "talks that the current user may see. They might be private or hidden to you "
 "since they are part of a top-secret conference for core-develeopers (there "
 "is no such thing!)."
-msgstr "¿Por qué utilizar el catálogo en absoluto?, comprueba los permisos, y sólo devuelve las charlas que el usuario actual puede ver. Puede ser que sean privados u ocultos a usted, ya que son parte de una conferencia de super secreta para los desarrolladores del núcleo de Plone (¡no hay tal cosa!)."
+msgstr "¿Por qué utilizar el catálogo en absoluto?, comprueba los permisos, y sólo devuelve las charlas que el usuario actual puede ver. Puede ser que sean privados u ocultos a usted, ya que son parte de una conferencia de súper secreta para los desarrolladores del núcleo de Plone (¡no hay tal cosa!)."
 
 # 3207095196704731ac7e2321c41922e5
 #: ../views_3.rst:132
@@ -235,14 +235,14 @@ msgid ""
 "``brain.__parent__`` is ``<CatalogTool at /Plone/portal_catalog>``. The "
 "attribute ``title`` of the ``portal_catalog`` is 'Indexes all content in the"
 " site'."
-msgstr "Respuesta:. Adquisición obtendrá el atributo de servidor principal más cercano. ``brain.__parent__``  es ``<CatalogTool at /Plone/portal_catalog>``. El atributo ``title`` del ``portal_catalog`` es 'Indixado en todo el contenido en el sitio'."
+msgstr "Respuesta: La Adquisición obtendrá el atributo de servidor principal más cercano. ``brain.__parent__``  es ``<CatalogTool at /Plone/portal_catalog>``. El atributo ``title`` del ``portal_catalog`` es 'Indexado en todo el contenido en el sitio'."
 
 # e66895f6c96349e692e267f5eb3cb824
 #: ../views_3.rst:155
 msgid ""
 "Acquisition can be harmfull. Brains have no attribute 'getLayout' "
 "``brain.getLayout()``::"
-msgstr "Adquisición puede ser nocivo. Los cerebros no tienen el atributo 'getLayout' ``brain.getLayout()``::"
+msgstr "La Adquisición puede ser nocivo. Los cerebros no tienen el atributo 'getLayout' ``brain.getLayout()``::"
 
 # 1a0fad3a0e064951b48550532debfd1b
 #: ../views_3.rst:166
@@ -260,7 +260,7 @@ msgid ""
 "The are many `catalog indexes "
 "<http://docs.plone.org/develop/plone/searching_and_indexing/indexing.html>`_"
 " to query. Here are some examples::"
-msgstr "Los muchos `índices de catálogo <http://docs.plone.org/develop/plone/searching_and_indexing/indexing.html>`_ para consultar. He aquí algunos ejemplos::"
+msgstr "Hay muchos `índices de catálogo <http://docs.plone.org/develop/plone/searching_and_indexing/indexing.html>`_ para consultar. He aquí algunos ejemplos::"
 
 # 688eac13f69d487287b25257899a23fa
 #: ../views_3.rst:186
@@ -443,7 +443,7 @@ msgid ""
 "To make views configurable so that editors can choose them we have to "
 "register the view for the content-type at hand in it's FTI. To enable if for"
 " all folders we add a new file ``profiles/default/types/Folder.xml``"
-msgstr "Para hacer vistas configurables para que los editores pueden elegir ellos tenemos que registrar la vista para el tipo de contenido que nos ocupa, en que es FTI. Para activar si para todas las carpetas se añade un nuevo archivo ``profiles/default/types/Folder.xml``"
+msgstr "Para hacer vistas configurables para que los editores pueden elegir entonces tenemos que registrar la vista para el tipo de contenido que nos ocupa, en que es FTI. Para activar si todas las carpetas tiene esta vista se añade un nuevo archivo ``profiles/default/types/Folder.xml``"
 
 # 5eec6bc36acb4e2180ac2bff13086917
 #: ../views_3.rst:334
@@ -451,7 +451,7 @@ msgid ""
 "After reapplying the typeinfo-profile of out addon (or simply reinstalling "
 "it) the content-type \"Folder\" is extended with our additional view-method "
 "and appears in the display-dropdown."
-msgstr "Después de volver a aplicar el perfil typeinfo del complemento (o, simplemente, volver a instalarlo) el tipo de contenido \"Carpeta\" se amplía con nuestro punto de método de vista adicional y aparece en la pantalla desplegable."
+msgstr "Después de volver a aplicar el perfil typeinfo del complemento (o, simplemente, volver a instalarlo) el tipo de contenido \"Carpeta\" se amplía con nuestro método de vista adicional y aparece en la pantalla desplegable."
 
 # 4344dd3b658a4b3ba61abdc3c3f43682
 #: ../views_3.rst:336
@@ -463,7 +463,7 @@ msgstr "La opción ``purge=\"False\"`` anexa a la vista de las carpetas ya exist
 # 0614e173d3a1424eb40ee025aa01ea04
 #: ../views_3.rst:340
 msgid "Adding some javascript (collective.js.datatables)"
-msgstr "Agregando un poco de javascript (collective.js.datatables)"
+msgstr "Agregando un poco de Javascript (collective.js.datatables)"
 
 # 9478f55b777a40e5b8f355650de65303
 #: ../views_3.rst:342
@@ -471,7 +471,7 @@ msgid ""
 "Here we use one of many nice feature build into Plone. The class=\"listing\""
 " gives the table a nice style and makes the table sortable with some "
 "javascript."
-msgstr "Aquí se utiliza una de las muchas agradables característica construida en Plone. La class=\"listing\" da la tabla un buen estilo y hace que la tabla se puede ordenar con un poco de javascript."
+msgstr "Aquí se utiliza una de las muchas agradables característica construida en Plone. La class=\"listing\" da la tabla un buen estilo y hace que la tabla se puede ordenar con un poco de Javascript."
 
 # 4cbc775b194347aa96e7962b8c1cdf4d
 #: ../views_3.rst:344
@@ -479,7 +479,7 @@ msgid ""
 "But we could improve that table further by using a nice javascript-library "
 "called \"datatables\". It might even become part of the Plone-core at some "
 "point."
-msgstr "Pero podríamos mejorar esa tabla aún más mediante el uso de una buena biblioteca javascript llamada \"datatables\". Incluso podría llegar a ser parte del core de Plone en algún momento."
+msgstr "Pero podríamos mejorar esa tabla aún más mediante el uso de una buena biblioteca Javascript llamada \"datatables\". Incluso podría llegar a ser parte del core de Plone en algún momento."
 
 # 1c7016e32cb14fb8a68d14aa3f9907f0
 #: ../views_3.rst:346
@@ -488,7 +488,7 @@ msgid ""
 "integration for us: ``collective.js.datatables``. Like all python-packages "
 "you can find it on pypi: "
 "http://pypi.python.org/pypi/collective.js.datatables"
-msgstr "Al igual que para muchas bibliotecas js ya hay un paquete que sin embargo la integración con  plone para nosotros es: ``collective.js.datatables``. Al igual que todos los paquetes python usted lo puede encontrar en pypi: http://pypi.python.org/pypi/collective.js.datatables"
+msgstr "Al igual que para muchas bibliotecas Javascript ya hacen esto y hay un paquete que sin embargo la integración con Plone para nosotros es: ``collective.js.datatables``. Al igual que todos los paquetes Python usted lo puede encontrar en PYPI: http://pypi.python.org/pypi/collective.js.datatables"
 
 # af9a05aaf1864f959aa235b074acaf30
 #: ../views_3.rst:348
@@ -502,7 +502,7 @@ msgstr "Ya hemos agregado el complemento a nuestra configuración buildout y só
 msgid ""
 "We don't need the css-class ``listing`` anymore since it might clash with "
 "datatables (it does not but still...)."
-msgstr "No necesitamos la clase css ``listing`` nunca más, ya que podría entrar en conflicto con la biblioteca datatables (no es así, pero aún así ...)."
+msgstr "Nosotros no necesitamos la clase CSS ``listing`` nunca más, ya que podría entrar en conflicto con la biblioteca datatables (no es así, pero aún así ...)."
 
 # 937e0fb357684caa9218596ad3b68ad7
 #: ../views_3.rst:418
@@ -516,12 +516,12 @@ msgid ""
 "\"javascript_head_slot\" is part of the html's ``<head>``-area in Plone and "
 "can be extended this way. We could also just put the code inline but having "
 "nicely ordered html is a good practice."
-msgstr "Utilizamos METAL de nuevo pero esta vez para llenar un slot diferente. El \"javascript_head_slot\" es parte de área <head> del HTML en Plone y se puede ampliar de esta manera. También podríamos simplemente poner el código en línea, pero con HTML muy bien ordenado es una buena práctica."
+msgstr "Utilizamos METAL de nuevo pero esta vez para llenar un slot diferente. El \"javascript_head_slot\" es parte de área <head> del HTML en Plone y se puede ampliar de esta manera. También podríamos simplemente poner el código fuente en línea, pero con HTML muy bien ordenado es una buena práctica."
 
 # cb22afd64a5f428298da6101fe496800
 #: ../views_3.rst:422
 msgid "Let's test it: http://localhost:8080/Plone/talklistview"
-msgstr "Hagamos una prueba: http://localhost:8080/Plone/talklistview"
+msgstr "Hagamos una prueba con la siguiente dirección URL: http://localhost:8080/Plone/talklistview"
 
 # c4cd3954f24a49bea3fc7f67ea59b53c
 #: ../views_3.rst:426

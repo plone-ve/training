@@ -1,172 +1,173 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014, Philip Bauer, Patrick Gerken. Version 1.2.2
+# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Carlos J Morales G. <carlosm0177@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-22 11:27-0430\n"
-"PO-Revision-Date: 2014-07-09 21:59+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-05 16:54+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# 5f247c9cdf944374a21210a9a54a2137
+# 9663c792f76d49a49943f6952ebbd313
 #: ../ide.rst:2
 msgid "IDE's and Editors"
-msgstr "IDE's y editores"
+msgstr "IDEs y editores"
 
-# ffca20297a0e473297789d8d38dec29e
+# e668f9c972df423bac4ad5d1e1d04368
 #: ../ide.rst:4
 msgid ""
 "Plone consists of more than 20.000 files! You need a tool to manage that. No"
 " development environment is complete without a good editor."
-msgstr "¡Plone consiste de mas de 20.000 archivos! Necesitas una herramienta para administrarlas, Ningún entorno de desarrollo esta completo sin un buen editor."
+msgstr "¡Plone consiste de más de 20.000 archivos! Usted necesita una herramienta para administrarlas. Ningún entorno de desarrollo esta completo sin un buen editor."
 
-# 8d8972f405fa410ab242ddd05e0d05f8
+# 92a6fa7b86e4496eb1422417eadc9491
 #: ../ide.rst:6
 msgid ""
 "People pick editors themselves. use whatever you are comfortable and "
 "productive with. These are the most used editors in the Plone community:"
-msgstr "Las personas toman editores por si mismos. Use cualquiera con el que te sientas confortable y productivo. Estos son los editores mas usados en la comunidad Plone:"
+msgstr "Las personas deciden usar los editores por decisión propia. Use cualquiera con el que te sientas confortable y productivo. Estos son los editores más usados en la comunidad Plone:"
 
-# e7f31194ceec4e2cb88e18224d9c461b
+# 32bcec27a5c94378810185d4598eab58
 #: ../ide.rst:8
 msgid "`Sublime <http://www.sublimetext.com/>`_"
-msgstr "`Sublime <http://www.sublimetext.com/>`_"
+msgstr "`Sublime <http://www.sublimetext.com/>`_."
 
-# 707a743fbdee416fa1e202b504558ac5
+# bff8e093ed514b9ba27c576daeeabc6a
 #: ../ide.rst:9
 msgid "`PyCharm <http://www.jetbrains.com/pycharm/>`_"
-msgstr "`PyCharm <http://www.jetbrains.com/pycharm/>`_"
+msgstr "`PyCharm <http://www.jetbrains.com/pycharm/>`_."
 
-# a3655a5fdaa9453aa7464cf931c773b8
+# 833cab6305fe4aeebdfb4ff30cac1425
 #: ../ide.rst:10
 msgid "`Wing IDE <http://wingide.com/>`_"
-msgstr "`Wing IDE <http://wingide.com/>`_"
+msgstr "`Wing IDE <http://wingide.com/>`_."
 
-# d83ac2f107d541f895439722d7dc2693
+# 20796fc611e74c11ae9b046d02c40913
 #: ../ide.rst:11
 msgid "`PyDev <http://pydev.org/>`_ for `Eclipse <http://eclipse.org/>`_"
-msgstr "`PyDev <http://pydev.org/>`_ para `Eclipse <http://eclipse.org/>`_"
+msgstr "`PyDev <http://pydev.org/>`_ para `Eclipse <http://eclipse.org/>`_."
 
-# dd7b3ce0a73d46feb1f9b9e83d8b7aff
+# 112647a2ef6b4943ab0c5c0ce440223c
 #: ../ide.rst:12
 msgid "`Aptana Studio <http://aptana.com/products/studio3/>`_"
-msgstr "`Aptana Studio <http://aptana.com/products/studio3/>`_"
+msgstr "`Aptana Studio <http://aptana.com/products/studio3/>`_."
 
-# 5561aa94412c4c1ba5673f0c0fd94177
+# cd111fd784dc4af2973161ceb724a3aa
 #: ../ide.rst:13
 msgid "vim"
-msgstr "vim"
+msgstr "vim."
 
-# 37d1d770118842b2a9fdcda3d7d5ab30
+# e69f8707bbb94c4687f26249ae5ae9a2
 #: ../ide.rst:14
 msgid "emacs"
-msgstr "emacs"
+msgstr "emacs."
 
-# b9c3dc4c45bb4dd5bb1acdb2f6f91f01
+# 45a84aaf7dda4743b639f250804e9cfa
 #: ../ide.rst:15
 msgid "`Textmate <http://macromates.com/>`_"
-msgstr "`Textmate <http://macromates.com/>`_"
+msgstr "`Textmate <http://macromates.com/>`_."
 
-# a582f18a81194798875a755c423779f9
+# c1ab8555de5a4f9b94ad19dd9978c95a
 #: ../ide.rst:17
 msgid ""
 "Some features that most editors have in one form or another are essential "
 "when developing with Plone."
 msgstr "Algunas características que la mayoría de los editores tienen de una forma u otra son esenciales desarrollando en Plone."
 
-# f5b432fd4966423eb0bcd70f82dd4d0f
+# 373dbbc81321448397cfa108ca74f550
 #: ../ide.rst:19
 msgid "**Find in project** (SublimeText 3: ``cmd + shift + f``)"
 msgstr "**Buscar en Proyecto** (SublimeText 3: ``cmd + shift + f``)"
 
-# 0127cdb8b885436aaa5eca862f20e809
+# 3616f8393f694590b9fa5ca74fe2b407
 #: ../ide.rst:20
 msgid "**Find files in Project** (SublimeText 3: ``cmd + t``)"
 msgstr "**Buscar archivos en Proyecto** (SublimeText 3: ``cmd + t``)"
 
-# 2e50cd3d0cf0438eb0195e1c1dbdd98f
+# 121a3b79cbe34d709f555fa3893483dc
 #: ../ide.rst:21
 msgid ""
 "**Find methods and classes in Project** (SublimeText 3: ``cmd + shift + r``)"
 msgstr "**Buscar clases y métodos en Proyecto** (SublimeText 3: ``cmd + shift + r``)"
 
-# dc3e474904db4d1bafd650c3bf5b9b69
+# fcfdbbbb1d454ccf84ed22c402a4a7d9
 #: ../ide.rst:22
 msgid "**Goto Definition** (SublimeText3 with codeintel: ``alt + click``)"
-msgstr "**Ir a Definición** (SublimeText3 with codeintel: ``alt + click``)"
+msgstr "**Ir a Definición** (SublimeText3 con codeintel: ``alt + click``)"
 
-# 479a5b14f8fa43b89b904e6d293d1c31
+# 14d5bc16197049f3bf0dc659cdd57a45
 #: ../ide.rst:23
 msgid "**Powerful search & replace**"
 msgstr "**Poderoso mecanismo de búsqueda y remplazo**"
 
-# 010cd7e2f7824293b6313d5e8affc2a6
+# 97e93b745f754ddc8282f93f17925513
 #: ../ide.rst:25
 msgid ""
 "The capability of performing a *full text search* through the complete Plone"
 " code is invaluable. Thanks to omelette, an SSD and plenty of RAM you can "
 "search through the complete Plone-code in 3 seconds."
-msgstr "La capacidad de realizar una Búsqueda a texto completo a través del código completo de Plone es invaluable. gracias a la receta Omelette, una Unidad de estado sólido y mucha RAM puedes buscar en el código de Plone en 3 segundos."
+msgstr "La capacidad de realizar una *búsqueda a texto completo* a través del código completo de Plone es invaluable. gracias a la receta omelette, una unidad de estado sólido y mucha RAM puedes buscar en el código de Plone en 3 segundos."
 
-# 0f4b8aa425f7491d956163f63dc54ae0
+# a10b9c7e890a435d9be477a835cac39c
 #: ../ide.rst:29
 msgid ""
 "Some Editors/IDEs have to be extend to be fully featured. Here are some "
 "packages we recommend when using Sublime Text 3:"
 msgstr "Algunos IDEs y editores pueden ser extendidos para cumplir completamentes con todas sus características. Aquí hay algunos paquetes recomendados cuando se usa Sublime Text 3:"
 
-# a891b432dac643d0aa4d4a230b60f2e9
+# b047a8df244c4fc986ee929a840b61b7
 #: ../ide.rst:31
 msgid "SublimeCodeIntel (Goto Definition)"
 msgstr "SublimeCodeIntel (Ir a Definición)"
 
-# d4d13b9ef4b1439a87d5e99e377e87a1
+# 1b1ee880e2424ab49be56ef60ded0104
 #: ../ide.rst:32
 msgid "BracketHighlighter"
 msgstr "BracketHighlighter"
 
-# 6333c4515fbc44479388df518c5f4956
+# ed1fbe7122894c7ca3437b67f3032c84
 #: ../ide.rst:33
 msgid "GitGutter"
 msgstr "GitGutter"
 
-# 383fde478e3a45718f41fd3eaecc9dd7
+# f0adbf7038e04d87a14860fcb7d73b3c
 #: ../ide.rst:34
 msgid "FileDiffs"
 msgstr "FileDiffs"
 
-# 419456e536814b209edd450afb53b87c
+# 919c81f6c7034b49afd34a2387dd4dee
 #: ../ide.rst:35
 msgid "SublimeLinter with SublimeLinter-flake8 ..."
 msgstr "SublimeLinter con SublimeLinter-flake8 ..."
 
-# 5d46b8f60cd54401b48702fcebf67178
+# d6934d17053d4bab89b9f18ba56e06e4
 #: ../ide.rst:36
 msgid "INI (syntax for ini-Files)"
 msgstr "INI (sintaxis para archivos ini)"
 
-# 42b16a209031495990c09b9affc6d60b
+# 5b506b6f36004e19893472123115ffe6
 #: ../ide.rst:37
 msgid "SideBarEnhancements"
 msgstr "SideBarEnhancements"
 
-# 9c774044646e425bb3f7181c4ce8da73
+# 54f06f905a724b26bdea0427a486dfc5
 #: ../ide.rst:38
 msgid "MacTerminal"
 msgstr "MacTerminal"
 
-# 292144bae0d643bb82d80c594b0a88a0
+# e9a9e311acb24acfb207a343c087430a
 #: ../ide.rst:39
 msgid "SyncedSideBar"
 msgstr "SyncedSideBar"

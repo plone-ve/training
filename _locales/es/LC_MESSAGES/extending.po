@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-19 10:58-0430\n"
-"PO-Revision-Date: 2014-07-19 15:56+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:00+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +46,7 @@ msgid ""
 "setup method. We don't need this method but you might see it in other code. "
 "It is usually used to register Archetypes code. Archetypes is the old "
 "content type system. We use Dexterity."
-msgstr "Los paquetes Eggs son menores \"en edad\" que Zope. Zope necesitaba algo como los paquetes eggs antes había eggs, y los desarrolladores Zope escribieron su propio sistema. En la antigüedad los sistemas obsoletos Plone contenían una gran cantidad de código que no está incluido en un paquete egg. El código fuente antiguo no tenía metadatos para registrar las cosas, en vez que necesitaba un método de configuración especial. No necesitamos este método, pero nosotros podríamos verlo en otro código. Normalmente se utiliza para registrar el código Arquetipos. Los Arquetipos es el viejo sistema de tipo de contenido. Ahora utilizamos el nuevo sistema de tipo de contenido Dexterity."
+msgstr "Los paquetes Eggs son menores \"en edad\" que Zope. Zope necesitaba algo como los paquetes eggs antes no había eggs, y los desarrolladores Zope escribieron su propio sistema. En la antigüedad los sistemas obsoletos Plone contenían una gran cantidad de código fuente no incluidos en un paquete egg. El código fuente antiguo no tenía metadatos para registrar las cosas, en vez que necesitaba un método de configuración especial. No necesitamos este método, pero podríamos verlo en otro código fuente. Normalmente se utiliza para registrar el código Archetypes. Los Archetypes es el viejo sistema de tipo de contenido. Ahora utilizamos el nuevo sistema de tipo de contenido Dexterity."
 
 # e543736cecfc46c8b9605b6201fbf113
 #: ../extending.rst:14
@@ -61,7 +61,7 @@ msgstr "¿Cómo extender Plone?"
 # afdf11f323254fe89f10bce4a009519d
 #: ../extending.rst:18
 msgid "This depends on what type of extension you want to create."
-msgstr "Esto depende de que tipo de extension usted quiere crear."
+msgstr "Esto depende de que tipo de extensión usted quiere crear."
 
 # 4504fa92856e4623adb097a7dc418a91
 #: ../extending.rst:23
@@ -161,7 +161,7 @@ msgstr "Arquitectura Componente"
 # fb6a4f87d715409c94ad9f6e15ad2f66
 #: ../extending.rst:81
 msgid "The last way to extend Plone is via *Components*."
-msgstr "La última manera de extender Plone es a través de los *Components*."
+msgstr "La última manera de extender Plone es a través de los *Componentes*."
 
 # 0d874645d3db46c38497f22400642624
 #: ../extending.rst:83

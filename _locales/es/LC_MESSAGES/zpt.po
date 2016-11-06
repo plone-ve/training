@@ -33,7 +33,7 @@ msgstr "¡Obtén el código!"
 msgid ""
 "Get the code for this chapter (:doc:`More info <sneak>`) using this command "
 "in the buildout-directory:"
-msgstr "Obtén el código para este capitulo (:doc:`Mas información <sneak>`) usando este comando en el directorio buildout:"
+msgstr "Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando este comando en el directorio buildout:"
 
 # 7cda97f2cc3b40ee95b7ae3b0e096961
 #: ../zpt.rst:13
@@ -685,7 +685,7 @@ msgstr "``@@plone_tools``"
 msgid ""
 "The BrowserView ``plone.app.layout.globals.tools.Tools`` gives access to the"
 " most importan tools like ``plone_tools/catalog``"
-msgstr "El BrowserView ``plone.app.layout.globals.tools.Tools`` da acceso a las herramientas mas importante como ``plone_tools/catalog``"
+msgstr "El BrowserView ``plone.app.layout.globals.tools.Tools`` da acceso a las herramientas más importante como ``plone_tools/catalog``"
 
 # 8f00acd15b784edab9fd5e889f17bda4
 #: ../zpt.rst:523

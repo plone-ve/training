@@ -1,402 +1,539 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Mastering Plone package.
+# This file is distributed under the same license as the Plone Training package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-15 12:28-0430\n"
-"PO-Revision-Date: 2014-07-15 17:57+0000\n"
+"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"PO-Revision-Date: 2016-11-04 15:56+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# 1ea5b5a9caf3420c95b7e9b3299a75f9
-#: ../plone_training_config/instructions.rst:2
+#: ../plone_training_config/instructions.rst:4
 msgid "Installing Plone for the Training"
 msgstr "Instalando Plone para el entrenamiento"
 
-# f0db3b5576b746d691fed686e262ad0e
 #: ../plone_training_config/instructions.rst:6
 msgid ""
-"To not waste too much time with installing and debugging the differences "
-"between systems we use a virtual machine (Ubuntu 14.04) to run Plone during "
-"the training. We rely on Vagrant and VirtualBox to give the same "
-"development-environment to everyone."
-msgstr "Para no perder demasiado tiempo con la instalación y la depuración de las diferencias entre los sistemas que utilizamos una máquina virtual (Ubuntu 14.04) para ejecutar Plone durante el entrenamiento. Contamos con Vagrant y VirtualBox para dar el mismo medio de ambiente de  desarrollo para todos."
+"Keep in mind that you need a fast internet connection during installation "
+"since you'll have to download a lot of data!"
+msgstr ""
 
-# d71b3d9b9db849a6ba36d31466c0a620
-#: ../plone_training_config/instructions.rst:8
+#: ../plone_training_config/instructions.rst:13
 msgid ""
-"`Vagrant <http://www.vagrantup.com>`_ is a tool for building complete "
+"If you feel the desire to try out both methods below (with Vagrant and "
+"without), make sure you use different :file:`training` directories!  The two"
+" installations do not coexist well."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:17
+msgid "Installing Plone without vagrant"
+msgstr "Instalando Plone sin Vagrant"
+
+#: ../plone_training_config/instructions.rst:21
+msgid ""
+"If you are **not** used to running Plone on your laptop skip this part and "
+"continue with :ref:`install-virtualbox`."
+msgstr "Si usted **no** está acostumbrado a ejecutar Plone en su computadora portátil omitir esta parte y continuar con :ref:`install-virtualbox`."
+
+#: ../plone_training_config/instructions.rst:23
+msgid ""
+"If you **are** experienced with running Plone on your own laptop, we "
+"encourage you to do so because you will have certain benefits:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:25
+msgid "You can use the editor you are used to."
+msgstr "Usted puede usar el editor, que usted usa."
+
+#: ../plone_training_config/instructions.rst:26
+msgid ""
+"You can use *omelette* to have all the code of Plone at your fingertips."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:27
+msgid ""
+"You do not have to switch between different operating systems during the "
+"training."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:29
+msgid ""
+"If you feel comfortable, please work on your own machine with your own "
+"Python. But **please** make sure that you have a system that will work, "
+"since we don't want you to lose valuable time!"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:33
+msgid ""
+"If you also want to follow the JavaScript training and install the "
+"JavaScript development tools, you need `NodeJS "
+"<https://nodejs.org/en/download/>`_ installed on your development computer."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:38
+msgid ""
+"Please make sure you have your system properly prepared and installed all "
+"necessary prerequisites. For example, on Ubuntu/Debian, you need to install "
+"the following::"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:44
+msgid ""
+"For more information or in case of problems see the `official installation "
+"instructions <http://docs.plone.org/manage/installing/installation.html>`_."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:48
+msgid ""
+"Set up Plone for the training like this if you use your own OS (Linux or "
+"Mac):"
+msgstr "Si usted utiliza su propio sistema operativo (Linux o Mac) la instalación de Plone para el entrenamiento debe ser de esta forma:"
+
+#: ../plone_training_config/instructions.rst:58
+msgid "Now you can run the buildout for the first time:"
+msgstr "Ahora puede ejecutar el buildout por primera vez:"
+
+#: ../plone_training_config/instructions.rst:65
+msgid ""
+"This will take some time and produce a lot of output because it downloads "
+"and configures Plone. Once it is done you can start your instance with"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:71
+msgid "The output should be similar to:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:106
+msgid ""
+"If the output says ``INFO Zope Ready to handle requests`` then you are in "
+"business."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:108
+msgid ""
+"If you point your browser at http://localhost:8080 you see that Plone is "
+"running. There is no Plone site yet - we will create one in chapter 6."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:110
+msgid ""
+"Now you have a working Plone site up and running and can continue with the "
+"next chapter.  You can stop the running instance anytime using :kbd:`ctrl + "
+"c`."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:114
+msgid ""
+"If there is an error message you should either try to fix it or use vagrant "
+"and continue in this chapter."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:120
+msgid "Installing Plone with vagrant"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:122
+msgid ""
+"In order not to waste too much time with installing and debugging the "
+"differences between systems, we use a virtual machine (Ubuntu 14.04) to run "
+"Plone during the training. We rely on Vagrant and VirtualBox to give the "
+"same development environment to everyone."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:124
+msgid ""
+"`Vagrant <https://www.vagrantup.com>`_ is a tool for building complete "
 "development environments. We use it together with Oracle’s `VirtualBox "
 "<https://www.virtualbox.org>`_ to create and manage a virtual environment."
-msgstr "`Vagrant <http://www.vagrantup.com>`_ es una herramienta para la creación de entornos de desarrollo completos. Lo usamos en conjunto con Oracle’s `VirtualBox <https://www.virtualbox.org>`_ para crear y administrar un entorno virtual."
+msgstr ""
 
-# 4085afd7f2444f8f8e204e421a533d13
-#: ../plone_training_config/instructions.rst:10
-msgid ""
-"Keep in mind that you need a fast internet-connection during the process "
-"since you'll have to download a complete virtual machine (ubuntu) and "
-"several packages and updates."
-msgstr "Tenga en cuenta que usted necesitará una conexión de Internet rápida durante el proceso, ya que tendrá que descargar una máquina completa virtual (Ubuntu) y varios paquetes y actualizaciones."
-
-# 133cd601a13a4f53bdf669bde8382dea
-#: ../plone_training_config/instructions.rst:14
-msgid ""
-"We recommend using a virtual machine for the training if you are not used to"
-" running Plone on your laptop."
-msgstr "Recomendamos el uso de una máquina virtual para el entrenamiento si usted no está acostumbrado a correr Plone en su computadora portátil."
-
-# e170095cdeeb47e3bf10f990d3be18f1
-#: ../plone_training_config/instructions.rst:16
-msgid ""
-"You can also work on your own machine with your own Python if you want to "
-"but **please please please** make sure that you have a system that will work"
-" since we don't want you to lose valuable time."
-msgstr "También puede trabajar en su propia máquina con su propio Python si quieres, pero **por favor, por favor, por favor**, asegúrese de que usted tiene un sistema que funcione, ya que no queremos que se pierda un tiempo valioso."
-
-# 8137393dda174a798a9f86d3c2e414cb
-#: ../plone_training_config/instructions.rst:18
-msgid ""
-"If you want to use your own system use the Buildout at "
-"https://github.com/starzel/training_without_vagrant.git (since the one we "
-"set up with puppet has several directories set to folders not shared with "
-"the host)."
-msgstr "Si desea utilizar su propio sistema use el Buildout en https://github.com/starzel/training_without_vagrant.git (desde el, hemos creado con puppet varios directorios establecidos a carpetas no compartidas con el host)."
-
-# b3c53d7b5c474ba8accf2b9507c182db
-#: ../plone_training_config/instructions.rst:20
-msgid "Set up Plone for the training like this if you don't want to use a VM:"
-msgstr "Configurar Plone para el entrenamiento de este tipo si usted no desea utilizar una máquina virtual:"
-
-# 7f4828e77c41469c9e184beccec6564f
-#: ../plone_training_config/instructions.rst:33
+#: ../plone_training_config/instructions.rst:129
 msgid "Install VirtualBox"
 msgstr "Instalar VirtualBox"
 
-# 96718a4f71764d77bc0b13cf3cd9026f
-#: ../plone_training_config/instructions.rst:35
+#: ../plone_training_config/instructions.rst:131
 msgid ""
 "Vagrant uses Oracle’s VirtualBox to create virtual environments. Here is a "
 "link directly to the download page: "
-"https://www.virtualbox.org/wiki/Downloads. We use VirtualBox  4.3.x."
-msgstr "Vagrant utiliza VirtualBox de Oracle para crear entornos virtuales. Aquí hay un enlace directo a la página de descarga: https://www.virtualbox.org/wiki/Downloads. Utilizamos VirtualBox 4.3.x."
+"https://www.virtualbox.org/wiki/Downloads. We use VirtualBox 4.3.x"
+msgstr ""
 
-# 9ddba88ee67a4523ad10a98e368fcb30
-#: ../plone_training_config/instructions.rst:39
+#: ../plone_training_config/instructions.rst:137
 msgid "Install and configure Vagrant"
 msgstr "Instalar y configurar Vagrant"
 
-# d23d01e8f0d84c4bbf834afde42ee6a5
-#: ../plone_training_config/instructions.rst:41
+#: ../plone_training_config/instructions.rst:139
 msgid ""
-"Get the latest version from http://www.vagrantup.com/downloads for your "
-"operating system and install it."
-msgstr "Obtenga la última versión de http://www.vagrantup.com/downloads para su sistema operativo e instalarlo."
+"Get the latest version from https://www.vagrantup.com/downloads.html for "
+"your operating system and install it."
+msgstr ""
 
-# 51ebac943d91445e9a89f95a0e59ea9f
-#: ../plone_training_config/instructions.rst:45
+#: ../plone_training_config/instructions.rst:143
 msgid ""
 "In Windows there is a bug in the recent version of Vagrant. Here are the "
-"instruction how to work around the warning ``Vagrant could not detect "
+"instructions for how to work around the warning ``Vagrant could not detect "
 "VirtualBox! Make sure VirtualBox is properly installed``."
-msgstr "En Windows hay un error en la versión reciente de Vagrant. Aquí están las instrucciones de cómo evitar la advertencia ``Vagrant could not detect VirtualBox! Make sure VirtualBox is properly installed``."
+msgstr ""
 
-# 964ddab7647f49a99b4478b9f47c86cc
-#: ../plone_training_config/instructions.rst:47
+#: ../plone_training_config/instructions.rst:145
 msgid ""
-"Now your system has a command ``vagrant`` that you can run in the terminal."
-msgstr "Ahora el sistema dispone de un comando ``vagrant`` que se puede ejecutar en el terminal."
+"Now your system has a command :command:`vagrant` that you can run in the "
+"terminal."
+msgstr ""
 
-# 52b7494f6d994183a69a4defe0851f29
-#: ../plone_training_config/instructions.rst:49
-msgid "First create a directory where you want to do the training in."
-msgstr "En primer lugar crear un directorio en el que desea hacer el entrenamiento."
-
-# 0cf30189aa074bd2bc2b4d329aca0f9c
-#: ../plone_training_config/instructions.rst:56
+#: ../plone_training_config/instructions.rst:149
 msgid ""
-"Setup Vagrant to automatically install the current guest-additions. You can "
+"You don't need to install ``NodeJS`` as mentioned in the previous section. "
+"Our Vagrant configuration already does that for you."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:152
+msgid "First, create a directory in which you want to do the training."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:156
+msgid ""
+"If you already have a :file:`training` directory because you followed the "
+"**Installing Plone without vagrant** instructions above, you should either "
+"delete it, rename it, or use a different name below."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:163
+msgid ""
+"Setup Vagrant to automatically install the current guest additions. You can "
 "choose to skip this step if you encounter any problems with it."
-msgstr "Configuración Vagrant para instalar automáticamente los actuales adiciones guests. Usted puede optar por omitir este paso si tiene algún problema con ella."
+msgstr ""
 
-# 44dba8a96b144552b9e8c5b3c9fcc29d
-#: ../plone_training_config/instructions.rst:63
+#: ../plone_training_config/instructions.rst:169
 msgid ""
-"Now either get the attached zip-file (if you read this as a mail) or "
-"download it from  :download:`http://plone-"
-"training.readthedocs.org/en/latest/_downloads/plone_training_config.zip "
-"<../plone_training_config.zip>`."
-msgstr "Ahora bien obtener el archivo zip adjunto (si usted lee esto como un correo electrónico) o descargarlo desde :download:`http://plone-training.readthedocs.org/en/latest/_downloads/plone_training_config.zip <../plone_training_config.zip>`."
+"Now download :download:`plone_training_config.zip "
+"<../_static/plone_training_config.zip>` and copy its contents into your "
+"training directory."
+msgstr ""
 
-# e2cce4c378db4ea287fae790da5160fd
-#: ../plone_training_config/instructions.rst:63
+#: ../plone_training_config/instructions.rst:176
 msgid ""
-"and copy its contents into your training directory. It should now hold the "
-"file \"Vagrantfile\" and the directory ``manifests``."
-msgstr "y copiar su contenido en el directorio del entrenamiento. Ahora debería contener el archivo \"Vagrantfile\" y el directorio se ``manifests``."
+"The training directory should now hold the file :file:`Vagrantfile` and the "
+"directory :file:`manifests` which again contains several files."
+msgstr ""
 
-# 1e5f38c3b7294dbe918c7e87907417cc
-#: ../plone_training_config/instructions.rst:65
-msgid "Now start setting up the VM that is configured in \"Vagrantfile\""
-msgstr "Ahora empieza la creación de la máquina virtual que se configura en el archivo \"Vagrantfile\""
+#: ../plone_training_config/instructions.rst:178
+msgid "Now start setting up the VM that is configured in :file:`Vagrantfile`:"
+msgstr ""
 
-# 3b9e4c747bd04f85bf41c12254da9486
-#: ../plone_training_config/instructions.rst:71
-msgid "This takes a **veeeeery loooong time** since it:"
-msgstr "Esto toma un tiempo **muuuuuy largo** ya que:"
+#: ../plone_training_config/instructions.rst:184
+msgid ""
+"This takes a **veeeeery loooong time** (between 10 minutes and 1h depending "
+"on your internet connection and system speed) since it does all the "
+"following steps:"
+msgstr ""
 
-# 4d4093a35d1544638971b4a54195b94e
-#: ../plone_training_config/instructions.rst:73
+#: ../plone_training_config/instructions.rst:186
 msgid ""
 "downloads a virtual machine (Official Ubuntu Server 14.04 LTS, also called "
 "\"Trusty Tahr\")"
 msgstr "descarga una máquina virtual (Official Ubuntu Server 14.04 LTS, también llamado \"Trusty Tahr\")"
 
-# 7d016e4c54184d478a47ab93acf99b1d
-#: ../plone_training_config/instructions.rst:74
+#: ../plone_training_config/instructions.rst:187
 msgid "sets up the VM"
-msgstr "establece la máquina virtual"
+msgstr "establece la VM"
 
-# 6dc70f70e72e4ebb9e415a39fb9e5002
-#: ../plone_training_config/instructions.rst:75
+#: ../plone_training_config/instructions.rst:188
 msgid "updates the VM"
-msgstr "actualiza la máquina virtual"
+msgstr "actualiza la VM"
 
-# ba7fc94bfc0d458ab0654533c454749b
-#: ../plone_training_config/instructions.rst:76
-msgid "installs various packages needed for Plone development"
-msgstr "instala varios paquetes necesarios para el desarrollo de Plone"
+#: ../plone_training_config/instructions.rst:189
+msgid "installs various system-packages needed for Plone development"
+msgstr ""
 
-# 7b9be32bc26e4f638f7c36f0b8a28620
-#: ../plone_training_config/instructions.rst:77
-msgid "downloads and unpack the unified installer for Plone"
-msgstr "descargas y desempaquetar el instalador unificado para Plone"
+#: ../plone_training_config/instructions.rst:190
+msgid "downloads and unpacks the buildout-cache to get all the eggs for Plone"
+msgstr ""
 
-# 8a359e6901b544e099197829ee3407f2
-#: ../plone_training_config/instructions.rst:78
-msgid "runs the unified installer for Plone."
-msgstr "corre el instalador unificado para Plone."
+#: ../plone_training_config/instructions.rst:191
+msgid "clones the training buildout into /vagrant/buildout"
+msgstr ""
 
-# f552e1c4dcc44801b883b869e08efd35
-#: ../plone_training_config/instructions.rst:79
-msgid "copy the eggs to a location we use in the training"
-msgstr "copiar los paquetes eggs a un lugar que utilizamos para el entrenamiento"
-
-# 75cfed1bc536410d8dc5e8c221fea253
-#: ../plone_training_config/instructions.rst:80
-msgid "clones the training-buildout into /vagrant/buildout"
-msgstr "clones de la configuración buildout del entrenamiento en el directorio /vagrant/buildout"
-
-# e653d33defc04c2b86cdf2be5af9f6fc
-#: ../plone_training_config/instructions.rst:81
+#: ../plone_training_config/instructions.rst:192
 msgid "builds Plone using the eggs from the buildout-cache"
-msgstr "construye Plone usando los paquetes eggs en el directorio del buildout-cache"
+msgstr "construye Plone usando los paquetes eggs del buildout-cache"
 
-# b6154891b546454db517fcbd53a072c9
-#: ../plone_training_config/instructions.rst:85
-msgid ""
-"Sometimes this stops with the message *Skipping because of failed "
-"dependencies*."
-msgstr "A veces esto se detiene con el mensaje *Skipping because of failed dependencies*."
+#: ../plone_training_config/instructions.rst:196
+msgid "Sometimes this stops with the message:"
+msgstr ""
 
-# 5f414305633b4cf49ad8769c1514ddd6
-#: ../plone_training_config/instructions.rst:91
+#: ../plone_training_config/instructions.rst:202
 msgid ""
 "If this happens or you have the feeling that something has gone wrong and "
 "the installation has not finished correctly for some reason you need to run "
-"try   the following command to repeat the process. This will only repeat "
-"steps that have not finished correctly."
-msgstr "Si esto sucede o usted tiene la sensación de que algo ha ido mal y la instalación no ha finalizado correctamente por alguna razón usted necesita ejecutar para intentar el comando siguiente para repetir el proceso. Esto sólo se repetirá los pasos que no han terminado correctamente."
+"the following command to repeat the process. This will only repeat steps "
+"that have not finished correctly."
+msgstr ""
 
-# 9bd099252e824b97b16d2ab70bb369ca
-#: ../plone_training_config/instructions.rst:97
+#: ../plone_training_config/instructions.rst:208
 msgid ""
-"You can do this multiple times to fix problems, e.g. if your network-"
+"You can do this multiple times to fix problems, e.g. if your network "
 "connection was down and steps could not finish because of this."
-msgstr "Usted puede hacer esto varias veces para arreglar los problemas, por ejemplo, si su conexión a red se redujo y los pasos no pudo terminar debido a esto."
+msgstr ""
 
-# 68ec7106a2e24713b86f9f87bda05e26
-#: ../plone_training_config/instructions.rst:99
+#: ../plone_training_config/instructions.rst:212
+msgid "If while bringing vagrant up you get an error similar to:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:218
 msgid ""
-"Once Vagrant finishes the provisioning-process, you can login to the now "
+"The configuration may have stalled out because your computer's BIOS requires"
+" virtualization to be enabled. Check with your computer's manufacturer on "
+"how to properly enable virtualization.  See: "
+"https://teamtreehouse.com/community/vagrant-ssh-sshexchangeidentification-"
+"read-connection-reset-by-peer"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:220
+msgid ""
+"Once Vagrant finishes the provisioning process, you can login to the now "
 "running virtual machine."
-msgstr "Una vez Vagrant termina el proceso de aprovisionamiento, se puede acceder a la máquina virtual en ejecución."
+msgstr ""
 
-# ce04222f403e4a4bbf42048aa3db6ed9
-#: ../plone_training_config/instructions.rst:107
+#: ../plone_training_config/instructions.rst:228
 msgid ""
-"If you have to use Windows you'll have to login to with `putty "
+"If you use Windows you'll have to login with `putty "
 "<http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Connect"
-" to vagrant@127.0.01 at port 2222. User _and_ password are `vagrant`."
-msgstr "Si usted tiene que usar Windows tendrás que iniciar sesión para con `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Conecte a vagrant@127.0.01 en el puerto 2222. usuario y contraseña son `vagrant`."
+" to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``."
+msgstr "Si usted tiene que usar Windows tendrás que iniciar sesión para con `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Conecte a vagrant@127.0.01 en el puerto 2222. Con el usuario **y** contraseña son `vagrant`."
 
-# 7ead314bf5f142ac957f909413e18933
-#: ../plone_training_config/instructions.rst:109
+#: ../plone_training_config/instructions.rst:230
 msgid ""
-"You are now logged in as the user vagrant in ``/home/vagrant``. We'll do all"
-" steps of the training as this user."
-msgstr "Ahora está iniciado con el usuario vagrant en ``/home/vagrant``. Vamos a hacer todos los pasos del entrenamiento como este usuario."
+"You are now logged in as the user vagrant in :file:`/home/vagrant`. We'll do"
+" all steps of the training as this user."
+msgstr ""
 
-# e143adcc6a3848a388f8238ec752a93c
-#: ../plone_training_config/instructions.rst:111
+#: ../plone_training_config/instructions.rst:232
 msgid ""
-"We pre-installed a fresh Plone for you in the folder "
-"``/home/vagrant/Plone/zinstance`` You can run it now and access it from the "
-"browser. We will **not** use this Plone-instance in the training, so you can"
-" play around with it as much as you want."
-msgstr "Nosotros pre-instalamos un Plone para usted en la carpeta ``/home/vagrant/Plone/zinstance`` Puede ejecutar ahora y acceder a ella desde el navegador. **No** vamos a utilizar este instancia Plone en el entrenamiento, por lo que podemos jugar un rato con él tanto como usted desea."
+"Instead we use our own Plone instance during the training. It is in "
+":file:`/vagrant/buildout/`. Start it in foreground with "
+":command:`./bin/instance fg`."
+msgstr ""
 
-# 4a31198f21af49e3be9a56a8b32714f2
-#: ../plone_training_config/instructions.rst:113
+#: ../plone_training_config/instructions.rst:270
 msgid ""
-"Instead we use our own Plone-instance during the training. It is in "
-"``/vagrant/buildout/``. Start it in foreground with ``./bin/instance fg``."
-msgstr "En su lugar usamos nuestra propia instancia Plone durante el entrenamiento. Es en ``/vagrant/buildout/``. Inicie en modo foreground con el comando``./bin/instance fg``."
+"In rare cases when you are using OSX with an UTF-8 character set starting "
+"Plone might fail with the following error:"
+msgstr ""
 
-# c803bf361bec46de9238bb696b5ad961
-#: ../plone_training_config/instructions.rst:126
+#: ../plone_training_config/instructions.rst:276
 msgid ""
-"Now the Zope-instance we're using is running. You can stop the running "
-"instance anytime using ``ctrl + c``."
-msgstr "Ahora la instancia Zope que estamos utilizando se está ejecutando. Puede detener la instancia en ejecución en cualquier momento utilizando ``ctrl + c``."
+"In that case you have to put the localized keyboard and language settings in"
+" the .bash_profile of the vagrant user to your locale (like ``en_US.UTF-8`` "
+"or ``de_DE.UTF-8``)"
+msgstr ""
 
-# 59252e78c66c4fa3a981aae6092d7cc8
-#: ../plone_training_config/instructions.rst:128
+#: ../plone_training_config/instructions.rst:283
 msgid ""
-"You can now point your local browser at http://localhost:8080 and see the "
-"Plone that is running in vagrant. This works because Virtualbox forwards the"
-" port 8080 from the guest-system (the vagrant-Ubuntu) to the host-system "
-"(your normal operating-system). Now create a new Plone-Site by clicking "
-"\"Create a new Plone-Site\". The username and the password are both "
-"\"admin\" (Never do this on a real site!)."
-msgstr "Ahora puede escribir en el navegador la dirección local en http://localhost:8080 y ve el sitio Plone que se ejecuta en vagrant. Esto funciona porque Virtualbox reenvía al puerto 8080 desde el sistema invitado (el vagrant de Ubuntu) para el sistema anfitrión (el sistema operativo normal). Ahora crear un nuevo sitio Plone haciendo clic en \"Crear un nuevo Sitio Plone\". El nombre de usuario y la contraseña son \"admin\" (¡Nunca hagas esto en un sitio real!)."
+"Now the Zope instance we're using is running. You can stop the running "
+"instance anytime using :kbd:`ctrl + c`."
+msgstr ""
 
-# c585032d2f6945228041720d4710196d
-#: ../plone_training_config/instructions.rst:130
+#: ../plone_training_config/instructions.rst:285
 msgid ""
-"The Buildout for this Plone is in a shared folder, this means we run it in "
-"the vagrant-box from ``/vagrant/buildout`` but we can also access it in out "
-"own operating-system and use our favorite editor. You will find the "
-"directory ``buildout`` in the directory ``training`` that you created in the"
-" very beginning next to ``Vagrantfile`` and ``manifests``."
-msgstr "El Buildout para este Plone está en una carpeta compartida, esto significa lo ejecutamos en l caja vagrant desde ``/vagrant/buildout`` pero también podemos acceder a ella desde fuera del propio sistema operativo y el uso de nuestro editor favorito. Usted encontrará el directorio de ``buildout`` en el directorio del ``training`` que creó en el principio junto al archivo ``Vagrantfile`` y ``manifests``."
+"If it doesn't, don't worry, your shell isn't blocked. Type :kbd:`reset` "
+"(even if you can't see the prompt) and press RETURN, and it should become "
+"visible again."
+msgstr ""
 
-# e393652bc7aa4c0081ac8dc421884279
-#: ../plone_training_config/instructions.rst:134
+#: ../plone_training_config/instructions.rst:287
 msgid ""
-"The database and the python-packages are **not accessible** in you own "
-"system since large files and you cannot use symlinks in shared folders. The "
-"database lies in ``/home/vagrant/var``, the python-packages are in "
-"``/home/vagrant/omelette``."
-msgstr "La base de datos y los paquetes python **no son es accesible** en tu propio sistema, ya que los archivos grandes y  y no se puede utilizar enlaces simbólicos en los directorios compartidos. La base de datos se encuentra en ``/home/vagrant/var``, los paquetes python están en ``/home/vagrant/omelette``."
+"If you point your local browser at http://localhost:8080 you see that Plone "
+"is running in vagrant. This works because VirtualBox forwards the port 8080 "
+"from the guest system (the vagrant Ubuntu) to the host system (your normal "
+"operating system).  There is no Plone site yet - we will create one in "
+"chapter 6."
+msgstr ""
 
-# 7874945dc65c4299965a6d5808e23502
-#: ../plone_training_config/instructions.rst:136
+#: ../plone_training_config/instructions.rst:289
 msgid ""
-"If you have any problems or questions please mail us at team@starzel.de"
-msgstr "Si usted tiene cualquier problema o pregunta, por favor envíenos un correo electrónico a team@starzel.de"
+"The Buildout for this Plone is in a shared folder.  This means we run it in "
+"the vagrant box from :file:`/vagrant/buildout` but we can also access it in "
+"our own operating system and use our favorite editor. You will find the "
+"directory :file:`buildout` in the directory :file:`training` that you "
+"created in the very beginning next to :file:`Vagrantfile` and "
+":file:`manifests`."
+msgstr ""
 
-# f3b66a808f7140e2bec319fd791f6cf5
-#: ../plone_training_config/instructions.rst:140
+#: ../plone_training_config/instructions.rst:293
+msgid ""
+"The database and the python packages are not accessible in your own system "
+"since large files cannot make use of symlinks in shared folders. The "
+"database lies in ``/home/vagrant/var``, the python packages are in "
+"``/home/vagrant/packages``."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:295
+msgid ""
+"If you have any problems or questions please mail us at team@starzel.de or "
+"create a ticket at https://github.com/plone/training/issues."
+msgstr "Si usted tiene cualquier problema o pregunta, por favor envíenos un correo electrónico a team@starzel.de o cree un ticket en https://github.com/plone/training/issues."
+
+#: ../plone_training_config/instructions.rst:301
 msgid "What Vagrant does"
 msgstr "¿Qué hace Vagrant?"
 
-# d94008a44b7c401880ee19949dc54a6c
-#: ../plone_training_config/instructions.rst:144
+#: ../plone_training_config/instructions.rst:303
 msgid ""
-"These steps are automatically done by vagrant and puppet. They are only "
-"explained here if you want to know what goes on below the hood."
-msgstr "Estos pasos se realizan automáticamente por vagrant y de puppet. Ellos sólo se explican aquí si quieres saber lo que pasa por debajo de la capucha."
+"Installation is done automatically by vagrant and puppet. If you want to "
+"know which steps are actually done please see the chapter "
+":doc:`what_vagrant_does`."
+msgstr "La instalación se realiza automáticamente por las herramientas vagrant y puppet. Si quieres saber qué pasos se hacen realmente, por favor, consulte el capítulo :doc:`what_vagrant_does`."
 
-# 52b7801f20064ec7bb99949949693b81
-#: ../plone_training_config/instructions.rst:146
+#: ../plone_training_config/instructions.rst:309
+msgid "**Vagrant Care and Handling**"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:311
 msgid ""
-"Puppet does the first installation, Puppet is a tool to automatically manage"
-" servers (real and virtual). We won't get into Puppet since it is not that "
-"widely used. This is what we basically do if we did it by hand:"
-msgstr "Puppet hace la primera instalación, Puppet es una herramienta para gestionar automáticamente los servidores (reales y virtuales). No vamos a entrar en Puppet, ya que no es la que utiliza ampliamente. Esto es lo que básicamente hacemos si lo hacemos a mano:"
+"Keep in mind the following recommendations for using your Vagrant "
+"virtualboxes:"
+msgstr ""
 
-# e224a91a21b94739a562386b5cff9815
-#: ../plone_training_config/instructions.rst:148
-msgid "First we update the ubuntu and install some packages."
-msgstr "Primero actualizamos el Ubuntu e instalamos algunos paquetes."
-
-# 1e98191f730648d88026ec69c66a353d
-#: ../plone_training_config/instructions.rst:170
+#: ../plone_training_config/instructions.rst:313
 msgid ""
-"Then we create a virtual python environment using virtualenv. This is alway "
-"a good practice since that way we get a clean copy of our system-python, we "
-"can't break it by installing eggs that might collide with other eggs::"
-msgstr "Luego creamos un entorno virtual python usando virtualenv. Esto es todos los días una buena práctica, ya que de esa manera se obtiene una copia limpia de nuestro python del sistema, no podemos romper la instalación previa, por la instalación de los paquetes eggs que pudieran colisionar con otros paquetes eggs::"
+"Use the :command:`vagrant suspend` or :command:`vagrant halt` commands to "
+"put the virtualbox to \"sleep\" or to \"power it off\" before attempting to "
+"start another Plone instance anywhere else on your machine, if it uses the "
+"same port.  That's because vagrant \"reserves\" port 8080, and even if you "
+"stopped Plone in vagrant, that port is still in use by the guest OS."
+msgstr ""
 
-# 86390735c2c44a29bf99d1e5fe3afca1
-#: ../plone_training_config/instructions.rst:174
-msgid "Then we download, unpack and install the unified installer of Plone."
-msgstr "Luego descargamos, descomprimimos e instalamos con el instalador unificado de Plone."
-
-# b766551149eb4c9fbfa25d59753301ca
-#: ../plone_training_config/instructions.rst:186
+#: ../plone_training_config/instructions.rst:314
 msgid ""
-"The unified installer is an amazing tool that compiles it's own python, "
-"brings with it all the python-eggs we need and puts them in a buildout-"
-"cache. It then creates a Buildout and makes Plone ready to run."
-msgstr "El instalador unificado es una excelente herramienta que compila su propio interprete python, trae consigo todas los paquetes eggs python que necesitamos y los pone en un buildout-cache. A continuación, crea un Buildout y hace Plone listo para correr."
+"If you are done with a vagrant box, and want to delete it, always remember "
+"to run :command:`vagrant destroy` on it before actually deleting the "
+"directory containing it.  Otherwise you'll leave its \"ghost\" in the list "
+"of boxes managed by vagrant and possibly taking up disk space on your "
+"machine."
+msgstr ""
 
-# cad3da45929b491ea074a6caa63de43b
-#: ../plone_training_config/instructions.rst:188
+#: ../plone_training_config/instructions.rst:315
 msgid ""
-"We will not actually use this Plone during the training. If you want to use "
-"it for your own experiments, you can find it in "
-"``/home/vagrant/Plone/zinstance`` on the virtual machine."
-msgstr "No vamos a utilizar realmente este Plone durante el entrenamiento. Si usted desea utilizarlo para sus propios experimentos, se puede encontrar en ``/home/vagrant/Plone/zinstance`` en la máquina virtual."
+"See :command:`vagrant help` for all available commands, including "
+":command:`suspend`, :command:`halt`, :command:`destroy`, :command:`up`, "
+":command:`ssh` and :command:`resume`."
+msgstr ""
 
-# 9de98e3048bd45979e420b790f4b8db2
-#: ../plone_training_config/instructions.rst:190
+#: ../plone_training_config/what_vagrant_does.rst:2
+msgid "What Vagrant is and does"
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:6
 msgid ""
-"Instead vagrant now creates our own little Buildout and only uses the eggs "
-"that the unified installer created. First we copy the buildout-cache that "
-"holds all the python-packages that Plone consists of."
-msgstr "En lugar vagrant ahora crea su propio pequeño Buildout y sólo utiliza los paquete eggs que el instalador unificado ha creado. Primero copiamos el buildout-cache que contiene todos los paquetes python que consta de Plone."
+"These steps are automatically done by Vagrant and Puppet for you. They are "
+"only interesting if you want to know what goes on under the hood for "
+"preparing your virtual training environment."
+msgstr ""
 
-# 844359a545ac428db93d271a1544b006
-#: ../plone_training_config/instructions.rst:196
+#: ../plone_training_config/what_vagrant_does.rst:8
 msgid ""
-"Then we checkout our tutorial buildout from "
-"http://github.com/starzel/training_buildout and build it."
-msgstr "Luego comprobamos nuestro buildout del tutorial de http://github.com/starzel/training_buildout y construimos."
+"Vagrant is an automation tool for developers to script the configuration and"
+" starting/stopping of virtual machines using applications like VirtualBox or"
+" Vmware Fusion/Workstation. The beauty of Vagrant is that it is largely "
+"platform independent for Linux, Windows and Apple, so with one 'Vagrantfile'"
+" per project you describe a base installation virtual image and all kinds of"
+" virtual machine settings you would otherwise have to click and type "
+"together in Virtual machine application."
+msgstr ""
 
-# 17b8d4b3fabe47289a90e082b5f5556c
-#: ../plone_training_config/instructions.rst:206
-msgid "At this point vagrant has finished it's job."
-msgstr "En este punto vagrant ha terminado su trabajo."
-
-# 5821ef25035b42c8af4cd74cf320e105
-#: ../plone_training_config/instructions.rst:208
-msgid "You can now connect to the machine and start plone."
-msgstr "Ahora puede conectarse a la máquina y iniciar a plone."
-
-# 234b45ded727420cb81870bbd7fdc93a
-#: ../plone_training_config/instructions.rst:216
+#: ../plone_training_config/what_vagrant_does.rst:10
 msgid ""
-"Now we have fresh Buildout based Zope site, ready to get a Plone site. Go to"
-" http://localhost:8080 and create a Plone site, only activate the  :guilabel"
-":`Dexterity-based Plone Default Types` plugin."
-msgstr "Ahora tenemos un sitio Zope basado Buildout, dispuesto a tener un sitio Plone. Ir a http://localhost:8080 y crear un sitio Plone, sólo activar el plugin :guilabel:`Dexterity-based Plone Default Types`."
+"What Vagrant for example does is install a port forward so that "
+"``http://localhost:8080`` on your physical computer is automatically "
+"forwarded to the port Plone will be listening on in the guest virtual "
+"machine. After Vagrant has done its thing to set up your virtual machine we "
+"are not finished though. Although Vagrant has the option to prebuild "
+"specific images it would be a lot of work and waste of bandwidth to "
+"redownload a machine images (300-600Mb) each time we would like to change "
+"small things in our virtual training environment."
+msgstr ""
 
-# 873c6e256e5c4cfb859a994dd7056055
-#: ../plone_training_config/instructions.rst:218
+#: ../plone_training_config/what_vagrant_does.rst:12
 msgid ""
-"You might wonder, why we use the unified installer. We use the unified "
-"installer to set up a cache of packages to download in a much shorter time. "
-"Without it, your first Buildout on a fresh computer would take more than "
-"half an hour on a good internet connection."
-msgstr "Usted podría preguntarse, ¿por qué se utiliza el instalador unificado. Utilizamos el instalador unificado para establecer una caché de paquetes para descargar en un tiempo mucho más corto. Sin ella, su primera Buildout en un ordenador recién tomaría más de media hora en una buena conexión a Internet."
+"Puppet is a configuration management tool (others you might have heard of "
+"are Chef, Ansible and SaltStack) and helps system admnistrators to "
+"automatically manage servers (real and virtual). We won't get into Puppet in"
+" detail, but it builds on top of our base Vagrant image to further set up "
+"our environment."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:14
+msgid ""
+"Vagrant detects when you set up a new machine and runs Puppet or other "
+"Provisioners by default only once, although it also can be used to keep "
+"machines up to date, which is a bit harder. See the :file:`Vagrantfile` and "
+"`Vagrant Documentation <https://www.vagrantup.com/docs>`_, especially the "
+"*Provisioning* chapter."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:16
+msgid ""
+"This is basically what Puppet does if we were to configure our system by "
+"hand:"
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:18
+msgid "First we update Ubuntu and install some packages."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:41
+msgid ""
+"Then we create a virtual python environment using virtualenv. This is always"
+" a good practice since that way we get a clean isolated copy of our system "
+"python, so that we do not break the system python by installing eggs that "
+"might collide with other eggs. Python is nowadays used a lot by your "
+"operating system as well for all kinds of system tools and scripting."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:47
+msgid ""
+"Now we download and unpack a buildout-cache that holds all the python "
+"packages that make up Plone. This is an optimisation: We could skip this "
+"step and have buildout download all packages individually from the `python "
+"packaging index PyPi <https://pypi.python.org/pypi>`_ but that takes much "
+"longer on a first install."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:54
+msgid ""
+"Then we check out our tutorial buildout from "
+"https://github.com/collective/training_buildout and build it."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:64
+msgid ""
+"This will download additional eggs that are not yet part of the buildout-"
+"cache and configure Plone to be ready to run."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:66
+msgid ""
+"At this point Vagrant and Puppet have finished their job to set up your "
+"virtual training environment on your local machine."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:68
+msgid "You can now connect to the machine and start Plone."
+msgstr ""
+
+#: ../plone_training_config/what_vagrant_does.rst:76
+msgid ""
+"Now we have a fresh Buildout-based Zope application server, ready to add a "
+"Plone site. Go to http://localhost:8080 and create a Plone site."
+msgstr ""

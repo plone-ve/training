@@ -5,15 +5,15 @@
 # Translators:
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16 08:09-0430\n"
-"PO-Revision-Date: 2014-07-16 12:46+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 14:56+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,7 +30,7 @@ msgstr "Extiende Plone con Complementos"
 msgid ""
 "There are more than 2000 addons for Plone. We will cover only a handfull "
 "today."
-msgstr "Hay mas de 2000 Complementos para Plone. Cubriremos solamente una porción de ellos."
+msgstr "Hay más de 2000 Complementos para Plone. Cubriremos solamente una porción de ellos."
 
 # 66c523e1318c4c2d84f5cf48df5c7c11
 #: ../addons.rst:5
@@ -55,7 +55,7 @@ msgstr "Como encontrar complementos"
 # 3e5efa80b353427cbe1d4fcd430a7f1f
 #: ../addons.rst:13
 msgid "https://pypi.python.org/pypi - use the search form!"
-msgstr "https://pypi.python.org/pypi - ¡Use el Formulario de Búsqueda!"
+msgstr "https://pypi.python.org/pypi - ¡Use el formulario de búsqueda!"
 
 # 4513eb4098124a84bd44000616e33239
 #: ../addons.rst:14
@@ -75,7 +75,7 @@ msgstr "http://news.gmane.org/gmane.comp.web.zope.plone.user"
 # 2073228af2534d02ac5e1cd03836d27a
 #: ../addons.rst:17
 msgid "google (e.g. `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
-msgstr "google (por ejemplo `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
+msgstr "Navegando en Google (por ejemplo `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
 
 # 44b928fa38b04b80a2d579ad3d643fc3
 #: ../addons.rst:18
@@ -134,7 +134,7 @@ msgstr "`collective.cover <https://github.com/collective/collective.cover/blob/m
 # 8a059255065b4edc9f5fc8be56f41c32
 #: ../addons.rst:36
 msgid "UI to create complex landing-pages"
-msgstr "Interfaz para crear paginas de inicios complejas"
+msgstr "Interfaz para crear páginas de inicios complejas"
 
 # c65edef34db148fc81b22bbb534dc916
 #: ../addons.rst:39
@@ -167,7 +167,7 @@ msgstr "`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigati
 # b298866dc64843c291725b1b6ed33485
 #: ../addons.rst:45
 msgid "Create faceted navigation and searches through the web."
-msgstr "Crear la navegación facetada y búsquedas a través de la web."
+msgstr "Crear la navegación facetada y búsquedas a través de la Web."
 
 # dbe1d01d6fa8441db6ffce28690bc196
 #: ../addons.rst:48
@@ -201,7 +201,7 @@ msgstr "`Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_"
 # b79245797c414659a82adf1c8ee941f2
 #: ../addons.rst:54
 msgid "A flexible doormat"
-msgstr "Un flexible pie de pagina basado en el patrón de diseño doormat"
+msgstr "Un flexible pie de página basado en el patrón de diseño Doormat"
 
 # b3c5aa07d3944278ba2d41b9925a624a
 #: ../addons.rst:57
@@ -293,7 +293,7 @@ msgid ""
 "configuration. You must write the egg name indented, this way buildout "
 "understands that the current line is part of the last variable and not a new"
 " variable."
-msgstr "Generalmente, uno ingresa los paquetes eggs agregando una linea adicional por paquete egg en la configuración, Debes escribir el nombre del paquete egg de forma indentada, así el buildout entiende que la linea actual es parte de la ultima variable y no una nueva variable."
+msgstr "Generalmente, uno ingresa los paquetes eggs agregando una linea adicional por cada paquete egg en la configuración, Debes escribir el nombre del paquete egg de forma indentada, así el buildout entiende que la linea actual es parte de la ultima variable y no una nueva variable."
 
 # c24d12ce1d2e4064984275219db20891
 #: ../addons.rst:88
@@ -353,7 +353,7 @@ msgstr "Registrando nuevos tipos de contenido"
 # 52a0775f31144fec9c19a984dd7cdca7
 #: ../addons.rst:110
 msgid "registering css- and js-files"
-msgstr "Registrando archivos css y javascripts"
+msgstr "Registrando archivos CSS y Javascripts"
 
 # c3d7802afcf445029a9764dcc4ee7180
 #: ../addons.rst:111
@@ -378,12 +378,12 @@ msgstr "Creando formularios en Plone:"
 # c3e7a78504ce4caa909d762f66e66fda
 #: ../addons.rst:121
 msgid "pure: html and python in a view"
-msgstr "puro: html y python en una vista"
+msgstr "Puro: HTML y Python en una vista"
 
 # 391adca4637b4c69a2764c310aa976ca
 #: ../addons.rst:122
 msgid "framework: z3c.form, formlib, deform"
-msgstr "usando framework: z3c.form, formlib, deform"
+msgstr "Usando framework: z3c.form, formlib, deform"
 
 # afadbfca9b4b4d75ae4a28976662d1cd
 #: ../addons.rst:123
@@ -425,12 +425,12 @@ msgstr "Agrega campos para food-preference y shirt-size"
 # 2cae5be81c1a461b8019b05e0d7ce320
 #: ../addons.rst:132
 msgid "Add a DataSave Adapter"
-msgstr "Agrega un adaptador DataSave"
+msgstr "Agregar un adaptador DataSave"
 
 # ed3103ea787149c08255a26403f016b3
 #: ../addons.rst:136
 msgid "Add Photogallery with collective.plonetruegallery"
-msgstr "Agrega galerías de fotos con collective.plonetruegallery"
+msgstr "Agregar Galerías de fotos con collective.plonetruegallery"
 
 # 38a7686b83024dcd90e6c004a88c7894
 #: ../addons.rst:138
@@ -475,7 +475,7 @@ msgstr "Habilite el comportamiento \"Plone True Gallery\" en el tipo \"Folder\":
 # 84321e1513d44a2585d9212b3f9aece0
 #: ../addons.rst:148
 msgid "Add a folder /the-event/location"
-msgstr "Agregue una carpeta /the-event/location"
+msgstr "Agregue una carpeta /el-evento/ubicacion"
 
 # 0463f45ed3504a12bcbd3231902e737f
 #: ../addons.rst:149
@@ -532,17 +532,17 @@ msgstr "Pero:"
 # 392863bf1aa54a76a25e4ae7b5dc1fa4
 #: ../addons.rst:170
 msgid "Can we submit talks now?"
-msgstr "¿Podemos enviar Charlas ahora?"
+msgstr "¿Podemos enviar Charlas al jurado evaluador ahora?"
 
 # 0f58b69cc2984a589f0c6187c18c5a09
 #: ../addons.rst:171
 msgid "Can we create lists with the most important properties of each tasks?"
-msgstr "¿Podemos crear listas con las propiedades mas importantes de cada tarea?"
+msgstr "¿Podemos crear listas con las propiedades más importantes de cada tarea?"
 
 # 61c986edc6c54336922106716d7b9476
 #: ../addons.rst:172
 msgid "Can we allow a jury to vote on talks?"
-msgstr "¿Podemos permitir a un jurado votar en las Charlas?"
+msgstr "¿Podemos permitir a un miembro del jurado votar en las Charlas?"
 
 # 2d074ec67aad4cdd96696841440533cf
 #: ../addons.rst:174
@@ -550,4 +550,4 @@ msgid ""
 "We often have to work with structured data. Up to a degree we can do all "
 "this TTW, but at some point we reach barriers. In the next part of the "
 "training, we'll teach you, how to break through these barriers."
-msgstr "Algunas veces trabajamos con data estructurada. Hasta un grado podemos hacer todo a través de la web, pero a algún punto nos encontramos con barreras, en la siguiente parte de nuestro entrenamiento, te enseñaremos como romper esas barreras."
+msgstr "Algunas veces trabajamos con data estructurada. Hasta un grado podemos hacer todo a través de la Web, pero a algún punto nos encontramos con barreras, en la siguiente parte de nuestro entrenamiento, te enseñaremos como romper esas barreras."

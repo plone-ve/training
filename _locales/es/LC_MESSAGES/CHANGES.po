@@ -1,0 +1,333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
+# This file is distributed under the same license as the Plone Training package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone Training 1.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: hellfish2 <hellfish2@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../CHANGES.rst:2
+msgid "Changelog"
+msgstr "Cambios"
+
+#: ../CHANGES.rst:4
+msgid ""
+"This changelog is only very rough. For the full changelog please refer to "
+"https://github.com/plone/training/commits/master"
+msgstr ""
+
+#: ../CHANGES.rst:7
+msgid "1.2.5 (unreleased)"
+msgstr ""
+
+#: ../CHANGES.rst:9
+msgid ""
+"Update JavaScript training with latest exercises and documentation using "
+"collective.jstraining [vangheem]"
+msgstr ""
+
+#: ../CHANGES.rst:13
+msgid ""
+"Update theming training to reflect the changes in bobtemplates.plone and "
+"general cleanup, also add refs to ttw training, remove usage of resource "
+"registry for theming [MrTango]"
+msgstr ""
+
+#: ../CHANGES.rst:18
+msgid "Add solr training [tomgross]"
+msgstr ""
+
+#: ../CHANGES.rst:21
+msgid ""
+"Rearrange structure so Mastering Plone now lives in it's own folder. "
+"[pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:24
+msgid ""
+"Fix directions which led to duplicate resourcess being delivered Closes "
+"https://github.com/plone/training/issues/174 [davilima6]"
+msgstr ""
+
+#: ../CHANGES.rst:28
+msgid "Plone Doc Style for Javascript part. [jensens]"
+msgstr ""
+
+#: ../CHANGES.rst:31
+msgid "Add spell-checker, auto-build and travis-tests [svx]"
+msgstr ""
+
+#: ../CHANGES.rst:34
+msgid "Use Plone 5 final and simplify vagrant-setup. [pbauer, fulv]"
+msgstr ""
+
+#: ../CHANGES.rst:37
+msgid "Rewrite chapter on relations. [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:40
+msgid "Add a training on javasript. [frappel, thet]"
+msgstr ""
+
+#: ../CHANGES.rst:43
+msgid "Add a training theming Plone 5. [MrTango, simahawk]"
+msgstr ""
+
+#: ../CHANGES.rst:46
+msgid ""
+"A ton of fixes in the development-training in preparation to Ploneconf 2015 "
+"in Bucarest. [fulv]"
+msgstr ""
+
+#: ../CHANGES.rst:50
+msgid ""
+"Update vagrant installation to include BIOS virtualization note. [lbrannon]"
+msgstr ""
+
+#: ../CHANGES.rst:53
+msgid ""
+"Editing while reading. Edited Rapido chapter for language and formatting. "
+"[jean]"
+msgstr ""
+
+#: ../CHANGES.rst:56
+msgid ""
+"Fix a couple of duplicate labels, unmatched literal ending, typo [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:58
+msgid "Fix code blocks that made Pygments lexer choke [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:60
+msgid "Fix some typos, clarify some examples [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:62
+msgid ""
+"Some exercises, draft of a new chapter on plone.restapi and some changes "
+"[tschorr]"
+msgstr ""
+
+#: ../CHANGES.rst:64
+msgid "Exercises for behaviors_2, fix some emphasis [tschorr]"
+msgstr ""
+
+#: ../CHANGES.rst:66
+msgid ""
+"Fix some typos, apply inline directives: file, Python domain, GUI, literals "
+"[jean]"
+msgstr ""
+
+#: ../CHANGES.rst:69
+msgid "Add Plone 5 Workflow Training [calvinhp]"
+msgstr ""
+
+#: ../CHANGES.rst:72
+msgid "Editing Dexterity chapters (typos, markup, some grammar) [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:74
+msgid "Fix reST lists [davisagli]"
+msgstr ""
+
+#: ../CHANGES.rst:76
+msgid ""
+"Specify Python version for virtualenv using option, not command alias, as "
+"alias is not always present [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:79
+msgid "Fix duplicate labels [jean]"
+msgstr ""
+
+#: ../CHANGES.rst:83
+msgid "1.2.4 (2014-10-03)"
+msgstr ""
+
+#: ../CHANGES.rst:85
+msgid "Revision of part one for Ploneconf 2014, Bristol [smcmahon]"
+msgstr ""
+
+#: ../CHANGES.rst:88
+msgid "Revised for Ploneconf 2014, Bristol [pbauer, gomez]"
+msgstr ""
+
+#: ../CHANGES.rst:91
+msgid ""
+"Add first exercises and create css+js for expanding/collapsing the solutions"
+" [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:94
+msgid "Fix local build with the rtd-Theme [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:97
+msgid "Add Spanish translation. [macagua]"
+msgstr ""
+
+#: ../CHANGES.rst:100
+msgid ""
+"Add support for translations on https://www.transifex.com/plone/mastering-"
+"plone-training/ [macagua]"
+msgstr ""
+
+#: ../CHANGES.rst:105
+msgid "1.2.3 (2014-07-11)"
+msgstr "1.2.3 (2014-07-11)"
+
+#: ../CHANGES.rst:107
+msgid ""
+"Move sources to https://github.com/plone/training and render at https"
+"://plone-training.readthedocs.org/en/legacy/ [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:111
+msgid "Integrate with docs.plone.org and papyrus [do3cc]"
+msgstr "integrar con docs.plone.org y papyrus [do3cc, hellfish2]"
+
+#: ../CHANGES.rst:114
+msgid "Change license to http://creativecommons.org/licenses/by/4.0/ [pbauer]"
+msgstr ""
+"Cambiar licencia a http://creativecommons.org/licenses/by/4.0/ [pbauer, "
+"hellfish2]"
+
+#: ../CHANGES.rst:117
+msgid "Document how to contribute [pbauer]"
+msgstr "Documento de como contribuir [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:120
+msgid "Update introduction [pbauer]"
+msgstr "Actualizar introducción [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:124
+msgid "1.2.2 (2014-06-01)"
+msgstr "1.2.2 (2014-06-01)"
+
+#: ../CHANGES.rst:126
+msgid "Fix all mistakes found during the training in May 2014 [pbauer]"
+msgstr ""
+"Arreglar todos los errores encontrados durante el entramiento en Mayo 2014 "
+"[pbauer, hellfish2]"
+
+#: ../CHANGES.rst:129
+msgid "Move rst-files to https://github.com/starzel/training [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:133
+msgid "1.2.1 (2014-05-30)"
+msgstr "1.2.1 (2014-05-30)"
+
+#: ../CHANGES.rst:135
+msgid ""
+"Publish verbose version on http://starzel.github.io/training/index.html "
+"[pbauer]"
+msgstr ""
+"Publicar una version verbosa en http://starzel.github.io/training/index.html"
+" [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:138
+msgid ""
+"Add bash-command to copy the code from ploneconf.site_sneak to "
+"ploneconf.site for each chapter [pbauer]"
+msgstr ""
+"Agregar un comando bash, para copiar el código de ploneconf.site_sneak a "
+"ploneconf.site para cada capítulo [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:141
+msgid "include vagrant-setup as zip-file [pbauer]"
+msgstr "Incluir vagrant-setup como un archivo Zip [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:144
+msgid "several small bug fixes [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:149
+msgid "1.2 (2014-05-23)"
+msgstr "1.2 (2014-05-23)"
+
+#: ../CHANGES.rst:151
+msgid ""
+"Heavily expanded and rewritten for a training in Mai 2014 [pbauer, do3cc]"
+msgstr ""
+"Ampliamente expandido y reescrito para un entrenamiento en Mayo 2014 "
+"[pbauer, do3cc, hellfish2]"
+
+#: ../CHANGES.rst:154
+msgid "remove grok [pbauer]"
+msgstr "Remover grok [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:157
+msgid "use plone.app.contenttypes from the beginning [pbauer]"
+msgstr "usar plone.app.contenttypes desde el principio [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:160
+msgid "use plone.api [pbauer]"
+msgstr "usar plone.api [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:163
+msgid "rewrite vagrant-setup [pbauer]"
+msgstr "Reescribir vagrant-setup [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:166
+msgid "drop use of plone.app.themeeditor [pbauer]"
+msgstr "Eliminar el uso de plone.app.themeeditor [pbauer, hellfish2]"
+
+#: ../CHANGES.rst:169
+msgid ""
+"add more chapters: Dexterity Types II: Growing up, User generated content, "
+"Programming Plone, Custom Search, Events, Using third-party behaviors, "
+"Dexterity Types III: Python, ... [pbauer, do3cc]"
+msgstr ""
+
+#: ../CHANGES.rst:174
+msgid "1.1 (October 2013)"
+msgstr "1.1 (October 2013)"
+
+#: ../CHANGES.rst:176
+msgid "Revised and expanded for Ploneconf 2013, Brasilia [pbauer, do3cc]"
+msgstr ""
+
+#: ../CHANGES.rst:181
+msgid "1.0 (October, 2012)"
+msgstr "1.0 (October, 2012)"
+
+#: ../CHANGES.rst:183
+msgid ""
+"First version under the title 'Mastering Plone' for Ploneconf 2012, Arnhem "
+"[pbauer, do3cc]"
+msgstr ""
+
+#: ../CHANGES.rst:188
+msgid "0.2 October 2011"
+msgstr ""
+
+#: ../CHANGES.rst:190
+msgid "Expanded as Plone-Tutorial for PyCon De 2011, Leipzig [pbauer]"
+msgstr ""
+
+#: ../CHANGES.rst:194
+msgid "0.1 (October 2009)"
+msgstr "0.1 (October 2009)"
+
+#: ../CHANGES.rst:196
+msgid ""
+"Initial parts created for the Plone-Einsteigerkurs "
+"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer]"
+msgstr ""
+"Partes iniciales creadas para el Plone-Einsteigerkurs "
+"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer, "
+"hellfish2]"

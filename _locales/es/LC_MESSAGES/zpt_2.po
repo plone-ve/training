@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-28 20:53-0430\n"
-"PO-Revision-Date: 2014-07-29 01:48+0000\n"
+"PO-Revision-Date: 2016-11-05 16:45+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "¡Obtén el código!"
 msgid ""
 "Get the code for this chapter (:doc:`More info <sneak>`) using this command "
 "in the buildout-directory:"
-msgstr "Obten el codigo para este capitulo (:doc:`Mas información <sneak>`) usando este comando en el directorio buildout"
+msgstr "Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando este comando en el directorio buildout:"
 
 # 0e11e5b48dd74981869c5550ea3a08f5
 #: ../zpt_2.rst:13
@@ -45,21 +45,21 @@ msgstr "Para profundizar más en los datos real de plone, nosotros ahora mirarem
 # d74c0de60a324125a0ac0221569c4f81
 #: ../zpt_2.rst:17
 msgid "newsitem.pt"
-msgstr "newsitem.pt"
+msgstr "El archivo newsitem.pt"
 
 # e9532d6643194e3ca3867abad0bd26c0
 #: ../zpt_2.rst:19
 msgid ""
 "We want to show the date a News Item is published. This way people can see "
 "at a glance it the are looking at current or old news."
-msgstr "Queremos mostrar la fecha de un elemento de Noticia se publica. De esta manera la gente puede ver a simple vista que la está mirando las noticias de actualidad o viejo."
+msgstr "Queremos mostrar la fecha de una Noticia se publica. De esta manera la gente puede ver a simple vista que la está mirando las noticias de actualidad o viejo."
 
 # ae184cb0133e415396a3ac44f2e20dc4
 #: ../zpt_2.rst:21
 msgid ""
 "To do this we will customize the templates that is used to render News "
 "Items."
-msgstr "Para ello vamos a personalizar las plantillas que se utilizan para representar una Noticia nueva."
+msgstr "Para ello vamos a personalizar las plantillas que se utilizan para representar una Noticia."
 
 # ccc3174fe91641ac8698e4faa3797cad
 #: ../zpt_2.rst:23
@@ -76,14 +76,14 @@ msgstr "Cree el directorio ``browser/template_overrides``"
 # 33eb4e42aa7f42f284f8fd2c9780481c
 #: ../zpt_2.rst:26
 msgid "Add the following to ``browser/configure.zcml``:"
-msgstr "Agregue lo siguiente en el archivo ``browser/configure.zcml``:"
+msgstr "Agregue el siguiente en el archivo ``browser/configure.zcml``:"
 
 # 11a632486fba42d19c44f899ce3ec899
 #: ../zpt_2.rst:32
 msgid ""
 "For completeness, add :samp:`z3c.jbot` to the dependencies in "
 ":file:`setup.py` to the :samp:`install_requires` list."
-msgstr "Para completar, agregue :samp:`z3c.jbot` a las dependencias en el archivo :file:`setup.py` a la lista de :samp:`install_requires`."
+msgstr "Para completar, agregue :samp:`z3c.jbot` a las dependencias en el archivo :file:`setup.py` a la lista :samp:`install_requires`."
 
 # 1118b752d2884b7faab118483a8f2d94
 #: ../zpt_2.rst:34
@@ -91,7 +91,7 @@ msgid ""
 "Find the file ``plone/app/contenttypes/browser/templates/newsitem.pt`` in "
 "the directory ``omelette`` (in vagrant this is in "
 "``/home/vagrant/omelette``)."
-msgstr "Buscar el archivo ``plone/app/contenttypes/browser/templates/newsitem.pt`` en el directorio ``omelette`` (en vagrant esto esta en ``/home/vagrant/omelette``)."
+msgstr "Buscar el archivo ``plone/app/contenttypes/browser/templates/newsitem.pt`` en el directorio ``omelette`` (en la instalación Vagrant esto esta en ``/home/vagrant/omelette``)."
 
 # eb5a09b489fd4fdaa81f105baabf72bd
 #: ../zpt_2.rst:35
@@ -111,7 +111,7 @@ msgstr "Renombre el nuevo archivo desde ``newsitem.pt`` a ``plone.app.contenttyp
 # 0e78f805d2bd4c28933036675d6b8f3c
 #: ../zpt_2.rst:37
 msgid "Restart Plone"
-msgstr "Reiniciar Plone"
+msgstr "Reinicie Plone"
 
 # b13dccaec98644dfb11feba18e43f03d
 #: ../zpt_2.rst:39
@@ -157,7 +157,7 @@ msgid ""
 "``Products.CMFPlone.browser.ploneview.Plone`` and runs the date-object "
 "through Plone's ``translation_service`` and returns the Date in the current "
 "locales format, thus transforming ``2013-02-17 19:21:15`` in ``17.02.2013``."
-msgstr "El método ``toLocalizedTime`` es proveído por la BrowserView ``Products.CMFPlone.browser.ploneview.Plone`` y ejecuta el objecto date a través del ``translation_service`` de Plone y regresa la Fecha en el actual formato de locales, así transformando ``2013-02-17 19:21:15`` en ``17.02.2013``."
+msgstr "El método ``toLocalizedTime`` es proveído por la BrowserView ``Products.CMFPlone.browser.ploneview.Plone`` y ejecuta el objecto Fecha a través del ``translation_service`` de Plone y regresa la Fecha en el actual formato de locales, así transformando ``2013-02-17 19:21:15`` en ``17.02.2013``."
 
 # a1316c37c1264d1e8404131d881f2626
 #: ../zpt_2.rst:66
@@ -174,12 +174,12 @@ msgid ""
 "That folder ``plone_scripts`` still holds a multitude of useful scripts that"
 " are widely used. But they are all deprecated and will hopefully be gone in "
 "Plone 5 and replaced by proper python-methods in browserviews."
-msgstr "Esa carpeta ``plone_scripts`` todavía tiene una gran cantidad de scripts útiles que son ampliamente utilizados. Pero todos ellos están obsoletos y que se espera que vallan ido en Plone 5 y reemplazados por métodos python adecuados en browserviews."
+msgstr "Esa carpeta ``plone_scripts`` todavía tiene una gran cantidad de scripts útiles que son ampliamente utilizados. Pero todos ellos están obsoletos y que se espera retirar en Plone 5 y sean reemplazados por métodos Python adecuados en BrowserViews."
 
 # 6a1409e38e6b46c38e93828c0560872f
 #: ../zpt_2.rst:72
 msgid "summary_view.pt"
-msgstr "summary_view.pt"
+msgstr "El archivo summary_view.pt"
 
 # d393916a5f4e43829718daa5515f1a99
 #: ../zpt_2.rst:74
@@ -187,7 +187,7 @@ msgid ""
 "We use the view \"Summary View\" to list news-releases. They should also "
 "have the date. The template associated with that view is "
 "``summary_view.pt``."
-msgstr "Utilizamos la vista \" Vista de Resumen\" a la lista de noticias publicadas. También deben tener la fecha. La plantilla asociada con esa vista es ``summary_view.pt``."
+msgstr "Utilizamos la vista \"Vista de resumen\" a la lista de noticias publicadas. También deben tener la fecha. La plantilla asociada con esa vista es ``summary_view.pt``."
 
 # 50b2a30bbf194300989203e035a8019e
 #: ../zpt_2.rst:76
@@ -199,7 +199,7 @@ msgstr "Echemos un vistazo a la plantilla folder_summary_view.pt::"
 msgid ""
 "Copy it to ``browser/template_overrides/`` and rename it to "
 "``plone.app.contenttypes.browser.templates.summary_view.pt``."
-msgstr "Cópielo al directorio ``browser/template_overrides/`` y renombrelo a ``plone.app.contenttypes.browser.templates.summary_view.pt``."
+msgstr "Cópielo al directorio ``browser/template_overrides/`` y renómbrelo a ``plone.app.contenttypes.browser.templates.summary_view.pt``."
 
 # e7b51769e11144d18fc513a5cc926f02
 #: ../zpt_2.rst:83
@@ -232,7 +232,7 @@ msgid ""
 "The templates ``summary_view.pt`` and ``folder_summary_view.pt`` (which is "
 "the same but for folders, not collections) are very widely used and also "
 "widely customized, so you might as well get to know it a little."
-msgstr "Las plantillas ``summary_view.pt`` y ``folder_summary_view.pt`` (las cuales es lo mismo, pero para las carpetas, no para las colecciones) están muy difundidas y también ampliamente modificado,  para requisitos particulares, por lo que también podría llegar a conocerlo un poco."
+msgstr "Las plantillas ``summary_view.pt`` y ``folder_summary_view.pt`` (las cuales es lo mismo, pero para las carpetas, no para las colecciones) están muy difundidas y también ampliamente personalizadas,  para requisitos particulares, por lo que también podría llegar a conocerlo un poco."
 
 # 5d44417a1e70482eb5dbf5b2b65739ea
 #: ../zpt_2.rst:104
@@ -264,7 +264,7 @@ msgid ""
 " in the folder ``Products/CMFPlone/skins/plone_content/``. The customzed "
 "template would be "
 "``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
-msgstr "En defecto de Plone sin ``plone.app.contenttypes`` esto sería ``folder_summary_view.pt``, una plantilla de piel de Arquetipos que se puede encontrar en la carpeta ``Products/CMFPlone/skins/plone_content/``. La plantilla personalizada sería ``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
+msgstr "En defecto de Plone sin ``plone.app.contenttypes`` esto sería ``folder_summary_view.pt``, una plantilla de piel de Archetypes se puede encontrar en la carpeta ``Products/CMFPlone/skins/plone_content/``. La plantilla personalizada sería ``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
 
 # ca211be27e6b4815bd2c278b0ad09ab2
 #: ../zpt_2.rst:114
@@ -272,7 +272,7 @@ msgid ""
 "The Archetypes-template for News Items is ``newsitems_view.pt`` from the "
 "same folder. The customized template would then have to be named "
 "``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
-msgstr "La plantilla Arquetipos de noticia nueva es ``newsitems_view.pt`` de la misma carpeta.  La plantilla personalizada tendría que ser nombrada ``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
+msgstr "La plantilla Archetypes de Noticia es ``newsitems_view.pt`` de la misma carpeta. La plantilla personalizada tendría que ser nombrada ``Products.CMFPlone.skins.plone_content.folder_summary_view.pt``."
 
 # 7279c683a7a444589101c0a87ea59244
 #: ../zpt_2.rst:116
@@ -298,7 +298,7 @@ msgstr "Hemos cambiado la pantalla de la lista de elementos de noticias en http:
 msgid ""
 "If you don't know which template the page you're looking at uses you can do "
 "an educated guess, start a debug-session or use ``plone.app.debugtoolbar``."
-msgstr "Si usted no sabe con qué plantilla utiliza la página que estás viendo, usted puede hacer una conjetura, iniciar una sesión de depuración o use ``plone.app.debugtoolbar``."
+msgstr "Si usted no sabe con qué plantilla utiliza la página que estás viendo, usted puede hacer una conjetura, iniciar una sesión de depuración o use el paquete ``plone.app.debugtoolbar`` par obtener una vista que ofrece información de depuración del actual contexto."
 
 # b3af778c718143bf981269c4f6706d32
 #: ../zpt_2.rst:126
@@ -306,7 +306,7 @@ msgid ""
 "We could check the html with firebug and look for a structure in the "
 "content-area that looks unique. We could also look for the css-class of he "
 "body"
-msgstr "Pudimos comprobar el HTML con la herramienta firebug y buscar una estructura en el área de contenido que parece único. También podríamos buscar la clase css del cuerpo"
+msgstr "Pudimos comprobar el HTML con la herramienta Firebug y buscar una estructura en el área de contenido que parece único. También podríamos buscar la clase CSS del cuerpo"
 
 # fd607032988a43fbadf03e4b973c7cab
 #: ../zpt_2.rst:132
@@ -317,7 +317,7 @@ msgid ""
 "templates calls ``summary_view.pt`` and probably find the view and also the "
 "corresponding template. But only probably because it would not tell us if "
 "the template is already being overridden."
-msgstr "La clase ``template-summary_view`` nos dice que el nombre de la vista (pero no necesariamente el nombre de la plantilla) es ``summary_view``. Así que podríamos buscar en todos los archivos ``*.zcml`` para ``name=\"summary_view\"`` o buscar todas las plantillas llama ``summary_view.pt`` y probablemente encontrar la vista y también la plantilla correspondiente. Pero probablemente sólo porque sería no nos dice si ya está siendo sobrescrita la plantilla."
+msgstr "La clase ``template-summary_view`` nos dice que el nombre de la vista (pero no necesariamente el nombre de la plantilla) el cual es ``summary_view``. Así que podríamos buscar en todos los archivos ``*.zcml`` la cadena ``name=\"summary_view\"`` o buscar todas las plantillas llama ``summary_view.pt`` y probablemente encontrar la vista y también la plantilla correspondiente. Pero probablemente sólo porque esa no nos diría si ya está siendo sobrescrita la plantilla."
 
 # a9482ef4e3f445d3abcc192aa307ce95
 #: ../zpt_2.rst:134
@@ -326,7 +326,7 @@ msgid ""
 "in our buildout and only need to install it. It adds a \"Debug\"-Dropdown on"
 " top of the page. The Section \"Published\" shows the complete path to the "
 "template that is used to render the page you are seeing."
-msgstr "El método es más seguro está usando ``plone.app.debugtoolbar``. Ya tenemos en nuestra configuración buildout y sólo hay que instalarlo. Ese agregue un menú desplegable \"Debug\" en la parte superior de la página. La sección \"Publicado\" muestra la ruta completa a la plantilla que se utiliza para representar la página que estás viendo."
+msgstr "El método es más seguro está usando el paquete ``plone.app.debugtoolbar``. Ya lo tenemos en nuestra configuración buildout definidos y sólo hay que instalarlo. Ese agregue un menú desplegable \"Debug\" en la parte superior de la página. La sección \"Publicado\" muestra la ruta completa a la plantilla que se utiliza para representar la página que estás viendo."
 
 # 35681cc64fab44da8688a466c771814c
 #: ../zpt_2.rst:136
@@ -343,7 +343,7 @@ msgid ""
 "first problem is, that the url we're seeing is not the url of the collection"
 " where we want to modify since the collection is the default-page of the "
 "folder ``news``."
-msgstr "El objeto que las URL apunta a es por defecto  ``self.context``. Pero el primer problema es que la dirección url que estamos viendo no es la dirección url de la colección en la que queremos modificar ya que la colección es la página por defecto de la carpeta ``news``."
+msgstr "El objeto que las URL apunta por defecto ``self.context``. Pero el primer problema es que la dirección URL que estamos viendo no es la dirección URL de la colección en la que queremos modificar ya que la colección es la página por defecto de la carpeta ``news``."
 
 # 8a4e481e395443e3afea00fb78fd6b18
 #: ../zpt_2.rst:157
@@ -353,7 +353,7 @@ msgstr "Ahora puede ver que nosotros personalizamos la plantilla."
 # 023c4e67de2b4c30a21d5cf798e57538
 #: ../zpt_2.rst:160
 msgid "skin-templates"
-msgstr "plantillas skins"
+msgstr "Plantillas skins"
 
 # deaa577e8fbc405e816faf7af890def6
 #: ../zpt_2.rst:164
@@ -361,7 +361,7 @@ msgid ""
 "Why don't we always only use templates? Because we might want to do "
 "something more complicated than get an attribute form the context and render"
 " it's value in some html-tag."
-msgstr "¿Por qué no siempre sólo utilizamos plantillas? Porque lo que se quiere hacer algo más complicado que conseguir una forma de atributo el contexto y hacer su valor en alguna etiqueta html."
+msgstr "¿Por qué no siempre sólo utilizamos plantillas? Porque lo que se quiere hacer es algo más complicado que obtener un atributo de formulario en el contexto y hacer su valor en alguna etiqueta HTML."
 
 # 017e226f061540a4ab741585475ff4ac
 #: ../zpt_2.rst:166
@@ -372,7 +372,7 @@ msgid ""
 "opening a url like http://localhost:8080/Plone/old_style_template and it "
 "will be rendered. But we don't use it and you too should not even though "
 "these skin-templates are still all over Plone."
-msgstr "No es una tecnología obsoleta llamada skin-templates' que le permite añadir simplemente alguna página en la plantilla (por ejemplo, 'old_style_template.pt') a una carpeta determinada en el ZMI o su paquete egg) y se puede acceder a ella en el navegador mediante la apertura una dirección url como http://localhost:8080/Plone/old_style_template y se mostrara. Pero nosotros no lo usamos y usted también no hay que a pesar de que estos las skin-templates siguen siendo todo Plone."
+msgstr "Es una tecnología obsoleta llamada 'skin-templates' que le permite añadir simplemente alguna página en la plantilla (por ejemplo, 'old_style_template.pt') a una carpeta determinada en el ZMI o su paquete egg) y se puede acceder a ella en el navegador mediante la dirección URL como esta http://localhost:8080/Plone/old_style_template y se mostrara. Pero nosotros no lo usamos y usted también no hay que a pesar de que estos de las skin-templates siguen siendo todo Plone."
 
 # dd48f17917bc4568bb1b2572df86f3d2
 #: ../zpt_2.rst:168
@@ -380,7 +380,7 @@ msgid ""
 "Since we use ``plone.app.contenttypes`` we do not encounter many skin-"
 "templates when dealing with content any more. But more often than not you'll"
 " have to customize an old site that still uses skin-templates."
-msgstr "Desde que usamos ``plone.app.contenttypes`` no encontramos muchas skin-templates cuando se trata de contenidos nunca más. Pero más a menudo que usted no tendrás que personalizar un sitio antiguo que aún utiliza la skin-templates."
+msgstr "Desde que usamos ``plone.app.contenttypes`` no encontramos nunca más muchas plantillas skin cuando se trata de contenidos. Pero más a menudo que usted no tendrás que personalizar un sitio antiguo que aún utiliza la plantillas skin."
 
 # 9966eb2c62af4209aac496693100cc1b
 #: ../zpt_2.rst:170
@@ -393,27 +393,27 @@ msgid ""
 "default template for documents. You will often get errors since the template"
 " ``document_view.pt`` expects the context to have a field 'text' that it "
 "attempts to render."
-msgstr "Hasta ahora las plantillas de los tipos de contenido por defecto son skin-templates de ejemplo. Desde que usamos ``plone.app.contenttypes`` no encontramos muchos skin-templates cuando se trata de contenidos nunca más. Pero más a menudo que usted no tendrás que personalizar un sitio antiguo que aún utiliza la skin-templates. Se podría añadir ``/document_view`` a cualquier parte de un sitio plone para hacer que la plantilla predeterminada para los documentos. Es frecuente tener errores ya que la plantilla ``document_view.pt`` espera que el contexto para tener un \"texto\" de campo que intenta representar."
+msgstr "Hasta ahora las plantillas de los tipos de contenido por defecto son skin-templates de ejemplo. Desde que usamos ``plone.app.contenttypes`` no encontramos muchos skin-templates cuando se trata de contenidos nunca más. Pero más a menudo que usted no tendrás que personalizar un sitio antiguo que aún utiliza la skin-templates. Se podría añadir ``/document_view`` a cualquier parte de un sitio plone para hacer que la plantilla predeterminada para los documentos. Es frecuente tener errores ya que la plantilla ``document_view.pt`` espera que el contexto para tener un campo de \"texto\" que intenta representar."
 
 # 2de0e763aea94c4282919ec4146acb3a
 #: ../zpt_2.rst:173
 msgid ""
 "Skin templates and python-scripts in portal_skin are deprecated because:"
-msgstr "Las plantillas Skins y script python en la herramienta portal_skin estan desaprobado porque:"
+msgstr "Las plantillas Skins y los script Python ubicados en la herramienta portal_skin están descontinuados porque:"
 
 # bf1ddcbac55640d59935cd5d549d45c1
 #: ../zpt_2.rst:175
 msgid "they use restricted python"
-msgstr "ellas son python restringido"
+msgstr "ellos son Python restringido"
 
 # c018105771ce42fd908d3465310bdaa9
 #: ../zpt_2.rst:176
 msgid "they have no nice way to attach python-code to them"
-msgstr "no tienen buena manera de adjuntar código python a ellos"
+msgstr "no tienen buena manera de adjuntar código Python a ellos"
 
 # 5e8596a9ec9b429a96999c60ca07ae1c
 #: ../zpt_2.rst:177
 msgid ""
 "they are always callable for everything (they can't be easily bound to an "
 "interface)"
-msgstr "ellas están siempre llamable para todo (ellas no pueden ser fácilmente unidos a una interfaz)"
+msgstr "ellos están siempre llamable para todo el mundo (ellos no pueden ser fácilmente unidos a una interfaz)"

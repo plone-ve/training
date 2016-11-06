@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the Mastering Plone package.
 # 
 # Translators:
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-13 00:40-0430\n"
-"PO-Revision-Date: 2014-07-13 05:24+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 15:56+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,12 +21,12 @@ msgstr ""
 # 76231bdddd604bcabf4ad5db001ee2d5
 #: ../reusable.rst:2
 msgid "Making our package reusable"
-msgstr ""
+msgstr "Haciendo nuestro paquete reusable"
 
 # 40416ebbe155423880232690f7a5614e
 #: ../reusable.rst:4
 msgid "The package contains some problems."
-msgstr ""
+msgstr "Esta paquete contiene algunos problemas."
 
 # 47036401732a4982b368c67e3db6efd7
 #: ../reusable.rst:6
@@ -41,7 +42,7 @@ msgstr ""
 # 00ad7fbd978c4dad8699d57408e980e1
 #: ../reusable.rst:10
 msgid "Adding permissions"
-msgstr ""
+msgstr "Agregando permisos"
 
 # 9e9d2fcaaec04242aa45428bedc353ad
 #: ../reusable.rst:19
@@ -51,12 +52,12 @@ msgstr ""
 # 09353075879446799be46795e51e7663
 #: ../reusable.rst:21
 msgid "In Zope2, a permission was just a string."
-msgstr ""
+msgstr "En Zope2, un permiso era sólo una cadena."
 
 # 2465965c617648fda7cbd2765cbaaba4
 #: ../reusable.rst:23
 msgid "In ZTK, a permission is an object that gets registered as an Utility."
-msgstr ""
+msgstr "En ZTK, un permiso es un objeto que se obtiene registrado como una Utilidad."
 
 # aee6236f8b4444b8a3f417b683dacd0f
 #: ../reusable.rst:25

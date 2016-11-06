@@ -5,15 +5,15 @@
 # Translators:
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Mastering Plone Training\n"
+"Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-16 08:09-0430\n"
-"PO-Revision-Date: 2014-07-17 01:01+0000\n"
+"POT-Creation-Date: 2014-07-28 20:53-0430\n"
+"PO-Revision-Date: 2016-11-04 14:56+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,12 +38,12 @@ msgstr "Zope2"
 # bba306722db24090b10c1db7961f64c3
 #: ../anatomy.rst:10
 msgid "Zope is a web application framework that Plone runs on top of."
-msgstr "Zope es un Framework de aplicación web que Plone corre encima."
+msgstr "Zope es un Framework de aplicación Web el cual Plone corre encima de él."
 
 # 3b13df5fe50b4281b01f8b2c69911e65
 #: ../anatomy.rst:11
 msgid "It serves applications that communicate with users via http."
-msgstr "Ese sirve aplicaciones que comunica con usuarios vía http."
+msgstr "Ese sirve aplicaciones que comunica con usuarios vía HTTP."
 
 # 4ae7654141b7464e963fee23f3fee87a
 #: ../anatomy.rst:15
@@ -55,7 +55,7 @@ msgid ""
 "configuring caching, interpreting form data and everything you have to do on"
 " your own. When the second request comes in, you have to do everything "
 "again."
-msgstr "Antes de Zope, generalmente era un servidor Apache que llamar a un script y dar la petición como una entrada. La secuencia de comandos sería entonces simplemente imprimir HTML en la salida estándar. Apache retornó al usuario. La apertura de las conexiones de base de datos, verificando las restricciones de permisos, la generación de HTML válido, la configuración de almacenamiento en caché, la interpretación de los datos del formulario y todo lo que tiene que hacer por su cuenta. Cuando la segunda petición llega, usted tiene que hacer todo de nuevo."
+msgstr "Antes de Zope, generalmente era un servidor Apache el que debía llamar a un script y dar la petición como una entrada. La secuencia de comando sería entonces simplemente imprimir HTML en la salida estándar. Apache retornó al usuario. La apertura de las conexiones de base de datos, verificando las restricciones de permisos, la generación de HTML válido, la configuración de almacenamiento en caché, la interpretación de los datos del formulario y todo lo que tiene que hacer por su cuenta. Cuando la segunda petición llega, usted tiene que hacer todo de nuevo."
 
 # 1a84f05a622f43d5a31c5e19330db589
 #: ../anatomy.rst:17
@@ -154,7 +154,7 @@ msgid ""
 "After many successfully created websites based on Zope, a number of "
 "recurring requirements emerged, and some Zope developers started to write "
 "CMF, the Content Management Framework."
-msgstr "Después de muchos sitios web creados con éxito basado en Zope, una serie de requisitos que se repiten surgió, y algunos desarrolladores Zope comenzaron a escribir CMF, el Marco de Gestión de Contenidos."
+msgstr "Después de muchos sitios web creados con éxito basado en Zope, una serie de requisitos que se repiten surgieron, y algunos desarrolladores Zope comenzaron a escribir CMF, el Content Management Framework."
 
 # 698fd3276d91483b84c1e92511ac25a6
 #: ../anatomy.rst:51
@@ -169,7 +169,7 @@ msgid ""
 "The developers behind CMF do not see CMF as a ready to use CMS. They created"
 " a CMS Site which was usable out of the box, but made it deliberately ugly, "
 "because you have to customize it anyway."
-msgstr "Los desarrolladores detrás CMF no ven CMF como un producto listo para usar CMS. Crearon un sitio CMS que era utilizable fuera de la caja, pero dejó deliberadamente feo, porque usted tiene que personalizar todas formas."
+msgstr "Los desarrolladores detrás CMF no ven CMF como un producto listo para usar CMS. Ellos crearon un sitio CMS que era utilizable fuera de la caja, pero dejó deliberadamente feo, porque usted tiene que personalizar todas formas."
 
 # 18fac66e10564d65806e59c60344ecdf
 #: ../anatomy.rst:56
@@ -200,21 +200,21 @@ msgstr "Zope Toolkit / Zope3"
 # 1b92353d21aa45fd87a8cbe38a99ae4e
 #: ../anatomy.rst:66
 msgid "Zope 3 was originally intended as a ground-up rewrite of Zope."
-msgstr "Zope 3 fue originalmente creada como una re-escritura de fondo de Zope."
+msgstr "Zope 3 fue originalmente creada como una profunda re-escritura de Zope."
 
 # bde22edd3ed541269cb1784c6f39ede8
 #: ../anatomy.rst:67
 msgid ""
 "Plone uses parts of it provided by the `Zope Toolkit (ZTK) "
 "<http://docs.zope.org/zopetoolkit/>`_."
-msgstr "Plone usa partes provistas por el  `Zope Toolkit (ZTK) <http://docs.zope.org/zopetoolkit/>`_."
+msgstr "Plone usa partes provistas por el `Zope Toolkit (ZTK) <http://docs.zope.org/zopetoolkit/>`_."
 
 # 62c9cf0312754ac2af0612a35b6bcca5
 #: ../anatomy.rst:71
 msgid ""
 "Unfortunately, nobody started to use Zope 3, nobody migrated to Zope 3 "
 "because nobody knew how."
-msgstr "Por desgracia, nadie empezó a usar Zope 3, nadie migró a Zope 3, porque nadie sabía cómo."
+msgstr "Por desgracia, nadie empezó a usar Zope 3, nadie migró a Zope 3, porque nadie sabía cómo hacerlo."
 
 # 1192bf89fb3041bcb89c23543c742760
 #: ../anatomy.rst:73
@@ -272,7 +272,7 @@ msgid ""
 "It does less than Zope, is very pluggable and `uses the Zope Component "
 "Architecture "
 "<http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_."
-msgstr "Eso hace menos que Zope, es muy configurable y `usa la Arquitectura de Componentes Zope <http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_."
+msgstr "Eso hace menos que Zope, es muy configurable y `usa la Zope Component Architecture <http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_."
 
 # e13307aabc0e4534a17a8666d74ff28e
 #: ../anatomy.rst:97
