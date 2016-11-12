@@ -78,7 +78,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone Training'
+project = u'Plone 5 Training'
 copyright = u'''The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.'''
 trademark_name = "Plone"
 # The version info for the project you're documenting, acts as replacement for
@@ -232,7 +232,7 @@ latex_elements = {
 latex_documents = [
     ('index',
      'PloneTraining.tex',
-     u'Plone Training Documentation',
+     u'Plone 5 Training Documentation',
      u'Plone Community',
      'manual'),
 ]
@@ -263,7 +263,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'plonetraining', u'Plone Training Documentation',
+    ('index', 'plonetraining', u'Plone 5 Training Documentation',
      [u'Plone Community'], 1)
 ]
 
@@ -277,7 +277,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PloneTraining', u'Plone Training Documentation',
+  ('index', 'PloneTraining', u'Plone 5 Training Documentation',
    u'Plone Community', 'PloneTraining', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -295,7 +295,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Plone Training'
+epub_title = u'Plone 5 Training'
 epub_author = u'Plone Community'
 epub_publisher = u'Plone Community'
 epub_copyright = u'2016, Plone Community'
