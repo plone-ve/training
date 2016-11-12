@@ -33,7 +33,7 @@ msgid "Mockup uses JSHint with the following `.jshintrc configuration file <http
 msgstr ""
 
 #: ../javascript/development-process.rst:55
-msgid "When working with JSHint or JSLint, it can be very useful to get some more context and explanation about several lint-errors. There is a lint-error database available, which can be very handy: http://jslinterrors.com/"
+msgid "When working with JSHint or JSLint, it can be very useful to get some more context and explanation about several lint-errors. There is a lint-error database available, which can be very handy: http://lint-explain.herokuapp.com/"
 msgstr ""
 
 #: ../javascript/development-process.rst:59

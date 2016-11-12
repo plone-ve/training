@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../dexterity_2.rst:313
 # b3baec7d9c304730ba734ad1dcfce821
-msgid "Until Plone 4.3.2 adding indexes in catalog.xml was harmful because reinstalling the addon purged the indexes! See http://www.starzel.de/blog/a-reminder-about-catalog-indexes."
+msgid "Until Plone 4.3.2 adding indexes in catalog.xml was harmful because reinstalling the addon purged the indexes! See https://www.starzel.de/blog/a-reminder-about-catalog-indexes."
 msgstr ""
 
 #: ../dexterity_2.rst:315

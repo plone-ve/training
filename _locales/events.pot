@@ -98,7 +98,7 @@ msgstr ""
 
 #: ../events.rst:126
 # 802d23e7f197416fb48d398bd1bf6731
-msgid "After we ran the upgrade-step we can now add a time to existing events. To display this we reuse a default event-summary view as documented in http://ploneappevent.readthedocs.org/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information"
+msgid "After we ran the upgrade-step we can now add a time to existing events. To display this we reuse a default event-summary view as documented in http://ploneappevent.readthedocs.io/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information"
 msgstr ""
 
 #: ../events.rst:128

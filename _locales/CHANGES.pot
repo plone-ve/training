@@ -153,7 +153,7 @@ msgid "Add Spanish translation. [macagua]"
 msgstr ""
 
 #: ../CHANGES.rst:100
-msgid "Add support for translations on https://www.transifex.com/plone/mastering-plone-training/ [macagua]"
+msgid "Add support for translations on https://www.transifex.com/plone/plone5-training/ [macagua]"
 msgstr ""
 
 #: ../CHANGES.rst:105
@@ -161,7 +161,7 @@ msgid "1.2.3 (2014-07-11)"
 msgstr ""
 
 #: ../CHANGES.rst:107
-msgid "Move sources to https://github.com/plone/training and render at https://plone-training.readthedocs.org/en/legacy/ [pbauer]"
+msgid "Move sources to https://github.com/plone/training and render at https://plone-training.readthedocs.io/en/legacy/ [pbauer]"
 msgstr ""
 
 #: ../CHANGES.rst:111
@@ -169,7 +169,7 @@ msgid "Integrate with docs.plone.org and papyrus [do3cc]"
 msgstr ""
 
 #: ../CHANGES.rst:114
-msgid "Change license to http://creativecommons.org/licenses/by/4.0/ [pbauer]"
+msgid "Change license to https://creativecommons.org/licenses/by/4.0/ [pbauer]"
 msgstr ""
 
 #: ../CHANGES.rst:117

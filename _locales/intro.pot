@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../intro.rst:9
 # deb444be075848cf96be16b69fedb996
-msgid "We work at `starzel.de <http://www.starzel.de>`_ in Munich, Germany"
+msgid "We work at `starzel.de <https://www.starzel.de>`_ in Munich, Germany"
 msgstr ""
 
 #: ../intro.rst:13
@@ -183,12 +183,12 @@ msgstr ""
 
 #: ../intro.rst:70
 # 3249f194d5f54ef2a7f9a3bcb7e1641e
-msgid "`Archetypes <http://docs.plone.org/old-reference-manuals/archetypes/index.html>`_"
+msgid "`Archetypes <http://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_"
 msgstr ""
 
 #: ../intro.rst:71
 # 97264330ab9e4195aeec4d6a43342177
-msgid "`Portlets <http://docs.plone.org/old-reference-manuals/portlets/index.html>`_"
+msgid "`Portlets <http://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_"
 msgstr ""
 
 #: ../intro.rst:72

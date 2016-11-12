@@ -530,7 +530,7 @@ msgid "The Plone Role -- using it independently"
 msgstr ""
 
 #: ../deployment/customization.rst:274
-msgid "Finally, for really big changes, you may find that the full playbook is of little or no use. In that case, you may still wish to use Plone's Ansible Role independently, in your own playbooks. The `Plone server role <https://github.com/plone/ansible.plone_server.git>`_ is maintained separately, and may become a role in your playbooks if it works for you."
+msgid "Finally, for really big changes, you may find that the full playbook is of little or no use. In that case, you may still wish to use Plone's Ansible Role independently, in your own playbooks. The `Plone server role <https://github.com/plone/ansible.plone_server>`_ is maintained separately, and may become a role in your playbooks if it works for you."
 msgstr ""
 
 #: ../deployment/full.rst:3
@@ -1010,7 +1010,7 @@ msgid "The CloudFormation setup creates a stack outside of a VPC (Virtual Privat
 msgstr ""
 
 #: ../deployment/opsworks/installation.rst:30
-msgid "There are a few important settings which CloudFormation is not able to manage and have to be modified after stack creation. The two Apps (``Plone Instances`` and ``Zeoserver``) should be edited to set the ``Data Source`` to ``None`` (this setting is useful for a Relstorage configuration, but does nothing for a ZEO server configuraiton). Eventually, you will probably want to use your own buildout repository in these App configurations, but any buildout you use should probably be cloned from the one used in this demo configuration because it provides a number of buildout parts and variables that the deployment recipes expect to be in place: https://github.com/alecpm/opsworks_example_buildouts.git"
+msgid "There are a few important settings which CloudFormation is not able to manage and have to be modified after stack creation. The two Apps (``Plone Instances`` and ``Zeoserver``) should be edited to set the ``Data Source`` to ``None`` (this setting is useful for a Relstorage configuration, but does nothing for a ZEO server configuraiton). Eventually, you will probably want to use your own buildout repository in these App configurations, but any buildout you use should probably be cloned from the one used in this demo configuration because it provides a number of buildout parts and variables that the deployment recipes expect to be in place: https://github.com/alecpm/opsworks_example_buildouts"
 msgstr ""
 
 #: ../deployment/opsworks/installation.rst:41

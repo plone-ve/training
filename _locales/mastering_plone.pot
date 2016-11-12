@@ -21,7 +21,7 @@ msgid "About Mastering Plone"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:6
-msgid "This training was created by Philip Bauer and Patrick Gerken of `starzel.de <http://www.starzel.de>`_ to create a canonical training for future Plone developers. The aim is that anyone with the appropriate knowledge can give a training based on it and contribute to it. It is published as Open Source on `github <https://github.com/plone/training>`_ and `training.plone.org <http://training.plone.org/>`_."
+msgid "This training was created by Philip Bauer and Patrick Gerken of `starzel.de <https://www.starzel.de>`_ to create a canonical training for future Plone developers. The aim is that anyone with the appropriate knowledge can give a training based on it and contribute to it. It is published as Open Source on `github <https://github.com/plone/training>`_ and `training.plone.org <https://training.plone.org/>`_."
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:8
@@ -53,7 +53,7 @@ msgid "October 2015, Bucharest"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:28
-msgid "`March 2015, Munich <http://www.starzel.de/leistungen/training/>`_"
+msgid "`March 2015, Munich <https://www.starzel.de/leistungen/training/>`_"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:29
@@ -65,7 +65,7 @@ msgid "`June 2014, Caracas <https://twitter.com/hellfish2/status/476906131970068
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:31
-msgid "`May 2014, Munich <http://www.starzel.de/blog/mastering-plone>`_"
+msgid "`May 2014, Munich <https://www.starzel.de/blog/mastering-plone>`_"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:32
@@ -431,7 +431,7 @@ msgid "License"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:281
-msgid "The Mastering Plone Training is licensed under a `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0/>`_."
+msgid "The Mastering Plone Training is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_."
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:283
@@ -499,7 +499,7 @@ msgid "Layout solution to easily create complex layouts through the web."
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:30
-msgid "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
+msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:30
@@ -563,7 +563,7 @@ msgid "Allows developers with a little knowledge of HTML and a little knowledge 
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:54
-msgid "`Plomino <http://www.plomino.net/>`_"
+msgid "`Plomino <http://plomino.net/>`_"
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:54
@@ -1053,7 +1053,7 @@ msgid "Zope 3 was originally intended as a rewrite of Zope from the ground up."
 msgstr ""
 
 #: ../mastering_plone/anatomy.rst:98
-msgid "Plone uses parts of it provided by the `Zope Toolkit (ZTK) <http://docs.zope.org/zopetoolkit/>`_."
+msgid "Plone uses parts of it provided by the `Zope Toolkit (ZTK) <https://zopetoolkit.readthedocs.io/en/latest/>`_."
 msgstr ""
 
 #: ../mastering_plone/anatomy.rst:102
@@ -1122,7 +1122,7 @@ msgid "CMF: Products.CMFCore, Products.CMFUid, Products.CMFEditions, ... Product
 msgstr ""
 
 #: ../mastering_plone/anatomy.rst:148
-msgid "ZTK: zope.browser, zope.container, zope.pagetemplate, ... You can find a complete list `<here http://docs.zope.org/zopetoolkit/releases/packages-trunk.html>`_"
+msgid "ZTK: zope.browser, zope.container, zope.pagetemplate, ... You can find a complete list `<here https://zopetoolkit.readthedocs.io/en/latest/releases/packages-trunk.html>`_"
 msgstr ""
 
 #: ../mastering_plone/anatomy.rst:149
@@ -1966,7 +1966,7 @@ msgid "Buildout-Documentation"
 msgstr ""
 
 #: ../mastering_plone/buildout_1.rst:332
-msgid "http://docs.plone.org/old-reference-manuals/buildout/index.html"
+msgid "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
 msgstr ""
 
 #: ../mastering_plone/buildout_1.rst:333
@@ -2567,7 +2567,7 @@ msgid "Let's change the logo."
 msgstr ""
 
 #: ../mastering_plone/configuring_customizing.rst:81
-msgid "Download a ploneconf logo: http://www.starzel.de/plone-tutorial/ploneconf-logo-2014"
+msgid "Download a ploneconf logo: https://www.starzel.de/plone-tutorial/ploneconf-logo-2014"
 msgstr ""
 
 #: ../mastering_plone/configuring_customizing.rst:82
@@ -3067,7 +3067,7 @@ msgid "http://www.dipf.de/en/research/projects"
 msgstr ""
 
 #: ../mastering_plone/custom_search.rst:30
-msgid "https://mountaineers.org/learn/courses-clinics-seminars"
+msgid "https://www.mountaineers.org/learn/courses-clinics-seminars"
 msgstr ""
 
 #: ../mastering_plone/custom_search.rst:31
@@ -3397,7 +3397,7 @@ msgid "Archetypes has no TTW story."
 msgstr ""
 
 #: ../mastering_plone/dexterity.rst:79
-msgid "UML-modeling: `ArchGenXML <http://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for Dexterity"
+msgid "UML-modeling: `ArchGenXML <http://docs.plone.org/4/en/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for Dexterity"
 msgstr ""
 
 #: ../mastering_plone/dexterity.rst:81
@@ -3943,7 +3943,7 @@ msgid "The ``column ..`` entries allow us to display the values of these indexes
 msgstr ""
 
 #: ../mastering_plone/dexterity_2.rst:384
-msgid "Until Plone 4.3.2 adding indexes in :file:`catalog.xml` was harmful because reinstalling the add-on purged the indexes! See http://www.starzel.de/blog/a-reminder-about-catalog-indexes."
+msgid "Until Plone 4.3.2 adding indexes in :file:`catalog.xml` was harmful because reinstalling the add-on purged the indexes! See https://www.starzel.de/blog/a-reminder-about-catalog-indexes."
 msgstr ""
 
 #: ../mastering_plone/dexterity_2.rst:386
@@ -4793,7 +4793,7 @@ msgid "After we activate the behavior by hand or reinstalled the add-on we will 
 msgstr ""
 
 #: ../mastering_plone/events.rst:42
-msgid "To display the new field we reuse a default event summary view as documented in http://ploneappevent.readthedocs.org/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information"
+msgid "To display the new field we reuse a default event summary view as documented in http://ploneappevent.readthedocs.io/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information"
 msgstr ""
 
 #: ../mastering_plone/events.rst:44
@@ -6480,7 +6480,7 @@ msgid "`Vagrant <https://www.vagrantup.com/>`_"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:53
-msgid "`Ubuntu linux <http://www.ubuntu.com/>`_"
+msgid "`Ubuntu linux <https://www.ubuntu.com/>`_"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:54
@@ -6553,11 +6553,11 @@ msgid "We will not cover the following topics:"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:81
-msgid "`Archetypes <http://docs.plone.org/old-reference-manuals/archetypes/index.html>`_"
+msgid "`Archetypes <http://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:82
-msgid "`Portlets <http://docs.plone.org/old-reference-manuals/portlets/index.html>`_"
+msgid "`Portlets <http://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:83
@@ -6722,7 +6722,7 @@ msgid "Documentation"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:151
-msgid "Follow the training at http://training.plone.org/5"
+msgid "Follow the training at https://training.plone.org/5"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:155
@@ -6906,7 +6906,7 @@ msgid "Chameleon template engine"
 msgstr ""
 
 #: ../mastering_plone/plone5.rst:85
-msgid "`Chameleon <https://chameleon.readthedocs.org/en/latest/>`_ is the new rendering engine of Plone 5. It offers many improvements:"
+msgid "`Chameleon <https://chameleon.readthedocs.io/en/latest/>`_ is the new rendering engine of Plone 5. It offers many improvements:"
 msgstr ""
 
 #: ../mastering_plone/plone5.rst:87
@@ -7438,7 +7438,7 @@ msgid "The resources that are part of the registered bundle will now be deployed
 msgstr ""
 
 #: ../mastering_plone/resources.rst:88
-msgid "For more infos please see http://docs.plone.org/adapt-and-extend/theming/resourceregistry.html or http://training.plone.org/5/theming/adv-resource-registry.html."
+msgid "For more infos please see http://docs.plone.org/adapt-and-extend/theming/resourceregistry.html or https://training.plone.org/5/theming/adv-resource-registry.html."
 msgstr ""
 
 #: ../mastering_plone/restapi.rst:2
@@ -7482,7 +7482,7 @@ msgid "Explore the API"
 msgstr ""
 
 #: ../mastering_plone/restapi.rst:32
-msgid "Make sure you add some talks to the talks folder and then start exploring the API. We recommend using `Postman <http://www.getpostman.com>`_ or a similar tool, but you can also use `requests <https://pypi.python.org/pypi/requests>`_ in a Python virtual env. :py:mod:`plone.restapi` uses 'content negotiation' to determine whether a client wants a REST API response - if you set the ``Accept`` HTTP header to ``application/json``, Plone will provide responses in JSON format. Some requests you could try:"
+msgid "Make sure you add some talks to the talks folder and then start exploring the API. We recommend using `Postman <https://www.getpostman.com/>`_ or a similar tool, but you can also use `requests <https://pypi.python.org/pypi/requests>`_ in a Python virtual env. :py:mod:`plone.restapi` uses 'content negotiation' to determine whether a client wants a REST API response - if you set the ``Accept`` HTTP header to ``application/json``, Plone will provide responses in JSON format. Some requests you could try:"
 msgstr ""
 
 #: ../mastering_plone/restapi.rst:55
@@ -9975,7 +9975,7 @@ msgid "Plone 5"
 msgstr ""
 
 #: ../mastering_plone/zpt.rst:430
-msgid "Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.readthedocs.org/en/latest/>`_. Using the integration layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:"
+msgid "Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.readthedocs.io/en/latest/>`_. Using the integration layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:"
 msgstr ""
 
 #: ../mastering_plone/zpt.rst:432
@@ -10179,7 +10179,7 @@ msgid "Zope Page Templates Reference: http://docs.zope.org/zope2/zope2book/Appen
 msgstr ""
 
 #: ../mastering_plone/zpt.rst:964
-msgid "https://chameleon.readthedocs.org/en/latest/"
+msgid "https://chameleon.readthedocs.io/en/latest/"
 msgstr ""
 
 #: ../mastering_plone/zpt_2.rst:4

@@ -123,7 +123,7 @@ msgstr ""
 
 #: ../addons.rst:39
 # c65edef34db148fc81b22bbb534dc916
-msgid "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
+msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 #: ../addons.rst:39
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../addons.rst:65
 # 35a511db8722434ba596e944373a5aa4
-msgid "`Plomino <http://www.plomino.net/>`_"
+msgid "`Plomino <http://plomino.net/>`_"
 msgstr ""
 
 #: ../addons.rst:63

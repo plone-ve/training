@@ -148,7 +148,7 @@ msgstr ""
 
 #: ../anatomy.rst:67
 # bde22edd3ed541269cb1784c6f39ede8
-msgid "Plone uses parts of it provided by the `Zope Toolkit (ZTK) <http://docs.zope.org/zopetoolkit/>`_."
+msgid "Plone uses parts of it provided by the `Zope Toolkit (ZTK) <https://zopetoolkit.readthedocs.io/en/latest/>`_."
 msgstr ""
 
 #: ../anatomy.rst:71
