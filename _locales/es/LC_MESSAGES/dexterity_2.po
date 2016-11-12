@@ -416,9 +416,9 @@ msgstr "La entrada ``column ..`` nos permite visualizar estos valores de estos �
 #: ../dexterity_2.rst:313
 msgid ""
 "Until Plone 4.3.2 adding indexes in catalog.xml was harmful because "
-"reinstalling the addon purged the indexes! See http://www.starzel.de/blog/a"
+"reinstalling the addon purged the indexes! See https://www.starzel.de/blog/a"
 "-reminder-about-catalog-indexes."
-msgstr "Hasta Plone 4.3.2 agregando índices en el archivo catalog.xml era perjudicial porque ¡al volver a instalar el complemento purgaba los índices! Ver más detalles en la dirección URL http://www.starzel.de/blog/a-reminder-about-catalog-indexes."
+msgstr "Hasta Plone 4.3.2 agregando índices en el archivo catalog.xml era perjudicial porque ¡al volver a instalar el complemento purgaba los índices! Ver más detalles en la dirección URL https://www.starzel.de/blog/a-reminder-about-catalog-indexes."
 
 # b4ca93d671904cd5bec5057d1c528b3c
 #: ../dexterity_2.rst:315

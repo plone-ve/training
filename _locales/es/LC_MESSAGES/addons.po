@@ -138,8 +138,8 @@ msgstr "Interfaz para crear páginas de inicios complejas"
 
 # c65edef34db148fc81b22bbb534dc916
 #: ../addons.rst:39
-msgid "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
-msgstr "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
+msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
+msgstr "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
 
 # a2036b80cb8f458a97bbda229b91cd3c
 #: ../addons.rst:39
@@ -229,8 +229,8 @@ msgstr "Permite sitios multilingues mediante la traducción de contenido"
 
 # 35a511db8722434ba596e944373a5aa4
 #: ../addons.rst:65
-msgid "`Plomino <http://www.plomino.net/>`_"
-msgstr "`Plomino <http://www.plomino.net/>`_"
+msgid "`Plomino <http://plomino.net/>`_"
+msgstr "`Plomino <http://plomino.net/>`_"
 
 # 5c3c7203c69247a9b33ced99b5b35cbc
 #: ../addons.rst:63

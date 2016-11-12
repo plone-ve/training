@@ -385,8 +385,8 @@ msgstr "Documentación de Buildout"
 
 # a25e15d7db894e38a6511f9bbb4d5cc7
 #: ../buildout_1.rst:250
-msgid "http://docs.plone.org/old-reference-manuals/buildout/index.html"
-msgstr "http://docs.plone.org/old-reference-manuals/buildout/index.html"
+msgid "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
+msgstr "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
 
 # a8fed26ee2ab4785816f13d9ae1faf1b
 #: ../buildout_1.rst:251

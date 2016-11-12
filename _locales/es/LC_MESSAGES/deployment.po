@@ -758,7 +758,7 @@ msgid ""
 "Finally, for really big changes, you may find that the full playbook is of "
 "little or no use. In that case, you may still wish to use Plone's Ansible "
 "Role independently, in your own playbooks. The `Plone server role "
-"<https://github.com/plone/ansible.plone_server.git>`_ is maintained "
+"<https://github.com/plone/ansible.plone_server>`_ is maintained "
 "separately, and may become a role in your playbooks if it works for you."
 msgstr ""
 
@@ -1501,7 +1501,7 @@ msgid ""
 "buildout you use should probably be cloned from the one used in this demo "
 "configuration because it provides a number of buildout parts and variables "
 "that the deployment recipes expect to be in place: "
-"https://github.com/alecpm/opsworks_example_buildouts.git"
+"https://github.com/alecpm/opsworks_example_buildouts"
 msgstr ""
 
 #: ../deployment/opsworks/installation.rst:41

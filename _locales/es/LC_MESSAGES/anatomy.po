@@ -206,8 +206,8 @@ msgstr "Zope 3 fue originalmente creada como una profunda re-escritura de Zope."
 #: ../anatomy.rst:67
 msgid ""
 "Plone uses parts of it provided by the `Zope Toolkit (ZTK) "
-"<http://docs.zope.org/zopetoolkit/>`_."
-msgstr "Plone usa partes provistas por el `Zope Toolkit (ZTK) <http://docs.zope.org/zopetoolkit/>`_."
+"<https://zopetoolkit.readthedocs.io/en/latest/>`_."
+msgstr "Plone usa partes provistas por el `Zope Toolkit (ZTK) <https://zopetoolkit.readthedocs.io/en/latest/>`_."
 
 # 62c9cf0312754ac2af0612a35b6bcca5
 #: ../anatomy.rst:71

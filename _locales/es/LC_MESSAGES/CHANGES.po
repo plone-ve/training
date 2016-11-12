@@ -200,9 +200,9 @@ msgid "Integrate with docs.plone.org and papyrus [do3cc]"
 msgstr "integrar con docs.plone.org y papyrus [do3cc, hellfish2]"
 
 #: ../CHANGES.rst:114
-msgid "Change license to http://creativecommons.org/licenses/by/4.0/ [pbauer]"
+msgid "Change license to https://creativecommons.org/licenses/by/4.0/ [pbauer]"
 msgstr ""
-"Cambiar licencia a http://creativecommons.org/licenses/by/4.0/ [pbauer, "
+"Cambiar licencia a https://creativecommons.org/licenses/by/4.0/ [pbauer, "
 "hellfish2]"
 
 #: ../CHANGES.rst:117

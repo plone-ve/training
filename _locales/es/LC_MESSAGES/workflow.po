@@ -355,7 +355,7 @@ msgid "The workflow system inside of Plone is an example of a State Machine."
 msgstr ""
 
 #: ../workflow/introduction.rst:13
-msgid "From `Wikipedia <http://en.wikipedia.org/wiki/Finite-state_machine>`_:"
+msgid "From `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine>`_:"
 msgstr ""
 
 #: ../workflow/introduction.rst:15

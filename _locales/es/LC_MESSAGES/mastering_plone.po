@@ -25,11 +25,11 @@ msgstr "Sobre \"Maestría en Plone\""
 #: ../mastering_plone/about_mastering.rst:6
 msgid ""
 "This training was created by Philip Bauer and Patrick Gerken of `starzel.de "
-"<http://www.starzel.de>`_ to create a canonical training for future Plone "
+"<https://www.starzel.de>`_ to create a canonical training for future Plone "
 "developers. The aim is that anyone with the appropriate knowledge can give a"
 " training based on it and contribute to it. It is published as Open Source "
 "on `github <https://github.com/plone/training>`_ and `training.plone.org "
-"<http://training.plone.org/>`_."
+"<https://training.plone.org/>`_."
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:8
@@ -74,7 +74,7 @@ msgid "October 2015, Bucharest"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:28
-msgid "`March 2015, Munich <http://www.starzel.de/leistungen/training/>`_"
+msgid "`March 2015, Munich <https://www.starzel.de/leistungen/training/>`_"
 msgstr ""
 
 #: ../mastering_plone/about_mastering.rst:29
@@ -90,8 +90,8 @@ msgstr ""
 "<https://twitter.com/hellfish2/status/476906131970068480>`_"
 
 #: ../mastering_plone/about_mastering.rst:31
-msgid "`May 2014, Munich <http://www.starzel.de/blog/mastering-plone>`_"
-msgstr "`Mayo de 2014, Múnich <http://www.starzel.de/blog/mastering-plone>`_"
+msgid "`May 2014, Munich <https://www.starzel.de/blog/mastering-plone>`_"
+msgstr "`Mayo de 2014, Múnich <https://www.starzel.de/blog/mastering-plone>`_"
 
 #: ../mastering_plone/about_mastering.rst:32
 msgid ""
@@ -551,11 +551,11 @@ msgstr "Licencia"
 msgid ""
 "The Mastering Plone Training is licensed under a `Creative Commons "
 "Attribution 4.0 International License "
-"<http://creativecommons.org/licenses/by/4.0/>`_."
+"<https://creativecommons.org/licenses/by/4.0/>`_."
 msgstr ""
 "El entrenamiento \"Maestría en Plone\" es licenciado bajo la `Creative "
 "Commons Attribution 4.0 International License "
-"<http://creativecommons.org/licenses/by/4.0/>`_."
+"<https://creativecommons.org/licenses/by/4.0/>`_."
 
 #: ../mastering_plone/about_mastering.rst:283
 msgid ""
@@ -642,8 +642,8 @@ msgid "Layout solution to easily create complex layouts through the web."
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:30
-msgid "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
-msgstr "`collective.geo <http://collectivegeo.readthedocs.org/en/latest/>`_"
+msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
+msgstr "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
 
 #: ../mastering_plone/add-ons.rst:30
 msgid ""
@@ -723,8 +723,8 @@ msgid ""
 msgstr ""
 
 #: ../mastering_plone/add-ons.rst:54
-msgid "`Plomino <http://www.plomino.net/>`_"
-msgstr "`Plomino <http://www.plomino.net/>`_"
+msgid "`Plomino <http://plomino.net/>`_"
+msgstr "`Plomino <http://plomino.net/>`_"
 
 #: ../mastering_plone/add-ons.rst:54
 msgid "Powerful and flexible web-based application builder for Plone"
@@ -1383,10 +1383,10 @@ msgstr ""
 #: ../mastering_plone/anatomy.rst:98
 msgid ""
 "Plone uses parts of it provided by the `Zope Toolkit (ZTK) "
-"<http://docs.zope.org/zopetoolkit/>`_."
+"<https://zopetoolkit.readthedocs.io/en/latest/>`_."
 msgstr ""
 "Plone usa partes provistas por el `Zope Toolkit (ZTK) "
-"<http://docs.zope.org/zopetoolkit/>`_."
+"<https://zopetoolkit.readthedocs.io/en/latest/>`_."
 
 #: ../mastering_plone/anatomy.rst:102
 msgid ""
@@ -1504,7 +1504,7 @@ msgstr ""
 #: ../mastering_plone/anatomy.rst:148
 msgid ""
 "ZTK: zope.browser, zope.container, zope.pagetemplate, ... You can find a "
-"complete list `<here http://docs.zope.org/zopetoolkit/releases/packages-"
+"complete list `<here https://zopetoolkit.readthedocs.io/en/latest/releases/packages-"
 "trunk.html>`_"
 msgstr ""
 
@@ -2859,8 +2859,8 @@ msgid "Buildout-Documentation"
 msgstr "Documentación de Buildout"
 
 #: ../mastering_plone/buildout_1.rst:332
-msgid "http://docs.plone.org/old-reference-manuals/buildout/index.html"
-msgstr "http://docs.plone.org/old-reference-manuals/buildout/index.html"
+msgid "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
+msgstr "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
 
 #: ../mastering_plone/buildout_1.rst:333
 msgid "http://www.buildout.org/en/latest/docs/index.html"
@@ -3520,7 +3520,7 @@ msgstr ""
 
 #: ../mastering_plone/configuring_customizing.rst:81
 msgid ""
-"Download a ploneconf logo: http://www.starzel.de/plone-tutorial/ploneconf-"
+"Download a ploneconf logo: https://www.starzel.de/plone-tutorial/ploneconf-"
 "logo-2014"
 msgstr ""
 
@@ -4088,7 +4088,7 @@ msgid "http://www.dipf.de/en/research/projects"
 msgstr "http://www.dipf.de/en/research/projects"
 
 #: ../mastering_plone/custom_search.rst:30
-msgid "https://mountaineers.org/learn/courses-clinics-seminars"
+msgid "https://www.mountaineers.org/learn/courses-clinics-seminars"
 msgstr ""
 
 #: ../mastering_plone/custom_search.rst:31
@@ -4518,11 +4518,11 @@ msgstr "Archetypes no tiene historia a través de la Web."
 
 #: ../mastering_plone/dexterity.rst:79
 msgid ""
-"UML-modeling: `ArchGenXML <http://docs.plone.org/old-reference-"
+"UML-modeling: `ArchGenXML <http://docs.plone.org/4/en/old-reference-"
 "manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for "
 "Dexterity"
 msgstr ""
-"Modelado UML  `ArchGenXML <http://docs.plone.org/old-reference-"
+"Modelado UML: `ArchGenXML <http://docs.plone.org/4/en/old-reference-"
 "manuals/archgenxml/index.html>`_ para Archetypes, `agx <http://agx.me>`_ "
 "para Dexterity"
 
@@ -5275,7 +5275,7 @@ msgstr ""
 #: ../mastering_plone/dexterity_2.rst:384
 msgid ""
 "Until Plone 4.3.2 adding indexes in :file:`catalog.xml` was harmful because "
-"reinstalling the add-on purged the indexes! See http://www.starzel.de/blog/a"
+"reinstalling the add-on purged the indexes! See https://www.starzel.de/blog/a"
 "-reminder-about-catalog-indexes."
 msgstr ""
 
@@ -8802,8 +8802,8 @@ msgid "`Vagrant <https://www.vagrantup.com/>`_"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:53
-msgid "`Ubuntu linux <http://www.ubuntu.com/>`_"
-msgstr "`Ubuntu linux <http://www.ubuntu.com/>`_"
+msgid "`Ubuntu linux <https://www.ubuntu.com/>`_"
+msgstr "`Ubuntu linux <https://www.ubuntu.com/>`_"
 
 #: ../mastering_plone/intro.rst:54
 msgid "Through-the-web (TTW)"
@@ -8885,18 +8885,18 @@ msgstr "Nosotros no cubriremos los siguientes tópicos:"
 
 #: ../mastering_plone/intro.rst:81
 msgid ""
-"`Archetypes <http://docs.plone.org/old-reference-"
+"`Archetypes <http://docs.plone.org/4/en/old-reference-"
 "manuals/archetypes/index.html>`_"
 msgstr ""
-"`Archetypes <http://docs.plone.org/old-reference-"
+"`Archetypes <http://docs.plone.org/4/en/old-reference-"
 "manuals/archetypes/index.html>`_"
 
 #: ../mastering_plone/intro.rst:82
 msgid ""
-"`Portlets <http://docs.plone.org/old-reference-"
+"`Portlets <http://docs.plone.org/4/en/old-reference-"
 "manuals/portlets/index.html>`_"
 msgstr ""
-"`Portlets <http://docs.plone.org/old-reference-"
+"`Portlets <http://docs.plone.org/4/en/old-reference-"
 "manuals/portlets/index.html>`_"
 
 #: ../mastering_plone/intro.rst:83
@@ -9103,7 +9103,7 @@ msgid "Documentation"
 msgstr "Documentación"
 
 #: ../mastering_plone/intro.rst:151
-msgid "Follow the training at http://training.plone.org/5"
+msgid "Follow the training at https://training.plone.org/5"
 msgstr ""
 
 #: ../mastering_plone/intro.rst:155
@@ -9338,7 +9338,7 @@ msgstr ""
 
 #: ../mastering_plone/plone5.rst:85
 msgid ""
-"`Chameleon <https://chameleon.readthedocs.org/en/latest/>`_ is the new "
+"`Chameleon <https://chameleon.readthedocs.io/en/latest/>`_ is the new "
 "rendering engine of Plone 5. It offers many improvements:"
 msgstr ""
 
@@ -10074,7 +10074,7 @@ msgstr ""
 #: ../mastering_plone/resources.rst:88
 msgid ""
 "For more infos please see http://docs.plone.org/adapt-and-"
-"extend/theming/resourceregistry.html or http://training.plone.org/5/theming"
+"extend/theming/resourceregistry.html or https://training.plone.org/5/theming"
 "/adv-resource-registry.html."
 msgstr ""
 
@@ -10136,7 +10136,7 @@ msgstr ""
 #: ../mastering_plone/restapi.rst:32
 msgid ""
 "Make sure you add some talks to the talks folder and then start exploring "
-"the API. We recommend using `Postman <http://www.getpostman.com>`_ or a "
+"the API. We recommend using `Postman <https://www.getpostman.com/>`_ or a "
 "similar tool, but you can also use `requests "
 "<https://pypi.python.org/pypi/requests>`_ in a Python virtual env. "
 ":py:mod:`plone.restapi` uses 'content negotiation' to determine whether a "
@@ -13417,7 +13417,7 @@ msgstr "Plone 5"
 #: ../mastering_plone/zpt.rst:430
 msgid ""
 "Plone 5 uses a new rendering engine called `Chameleon "
-"<https://chameleon.readthedocs.org/en/latest/>`_. Using the integration "
+"<https://chameleon.readthedocs.io/en/latest/>`_. Using the integration "
 "layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully "
 "compatible with the normal TAL syntax but offers some additional features:"
 msgstr ""
@@ -13684,7 +13684,7 @@ msgstr ""
 "http://docs.zope.org/zope2/zope2book/AppendixC.html"
 
 #: ../mastering_plone/zpt.rst:964
-msgid "https://chameleon.readthedocs.org/en/latest/"
+msgid "https://chameleon.readthedocs.io/en/latest/"
 msgstr ""
 
 #: ../mastering_plone/zpt_2.rst:4

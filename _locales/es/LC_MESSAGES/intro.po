@@ -42,8 +42,8 @@ msgstr "Philip Bauer, bauer@starzel.de, twitter: StarzelDe, irc: pbauer"
 
 # deb444be075848cf96be16b69fedb996
 #: ../intro.rst:9
-msgid "We work at `starzel.de <http://www.starzel.de>`_ in Munich, Germany"
-msgstr "Trabajamos en  `starzel.de <http://www.starzel.de>`_ en Múnich, Alemania"
+msgid "We work at `starzel.de <https://www.starzel.de>`_ in Munich, Germany"
+msgstr "Trabajamos en  `starzel.de <https://www.starzel.de>`_ en Múnich, Alemania"
 
 # 0fbe36ebab0141b680fe2c14a0548795
 #: ../intro.rst:13
@@ -188,16 +188,16 @@ msgstr "Nosotros no cubriremos los siguientes tópicos:"
 # 3249f194d5f54ef2a7f9a3bcb7e1641e
 #: ../intro.rst:70
 msgid ""
-"`Archetypes <http://docs.plone.org/old-reference-"
+"`Archetypes <http://docs.plone.org/4/en/old-reference-"
 "manuals/archetypes/index.html>`_"
-msgstr "`Archetypes <http://docs.plone.org/old-reference-manuals/archetypes/index.html>`_"
+msgstr "`Archetypes <http://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_"
 
 # 97264330ab9e4195aeec4d6a43342177
 #: ../intro.rst:71
 msgid ""
-"`Portlets <http://docs.plone.org/old-reference-"
+"`Portlets <http://docs.plone.org/4/en/old-reference-"
 "manuals/portlets/index.html>`_"
-msgstr "`Portlets <http://docs.plone.org/old-reference-manuals/portlets/index.html>`_"
+msgstr "`Portlets <http://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_"
 
 # 9e4429808a5f4b39a2389e9f0920cec1
 #: ../intro.rst:72
