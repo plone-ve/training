@@ -329,7 +329,7 @@ Be McGuyver
 .. seealso::
 
     Buildout-Documentation
-        * http://docs.plone.org/old-reference-manuals/buildout/index.html
+        * http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html
         * http://www.buildout.org/en/latest/docs/index.html
 
     Troubleshooting

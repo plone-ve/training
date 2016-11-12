@@ -50,7 +50,7 @@ Some technologies and tools we use during the training:
 
     * `Virtualbox <https://www.virtualbox.org/>`_
     * `Vagrant <https://www.vagrantup.com/>`_
-    * `Ubuntu linux <http://www.ubuntu.com/>`_
+    * `Ubuntu linux <https://www.ubuntu.com/>`_
     * Through-the-web (TTW)
     * `Buildout <http://www.buildout.org/en/latest/>`_
     * A little XML
@@ -78,8 +78,8 @@ What will we not do?
 
 We will not cover the following topics:
 
-* `Archetypes <http://docs.plone.org/old-reference-manuals/archetypes/index.html>`_
-* `Portlets <http://docs.plone.org/old-reference-manuals/portlets/index.html>`_
+* `Archetypes <http://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_
+* `Portlets <http://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_
 * `z3c.forms <http://docs.plone.org/develop/plone/forms/z3c.form.html>`_
 * `Theming <http://docs.plone.org/adapt-and-extend/theming/index.html>`_
 * `i18n and locales <http://docs.plone.org/develop/plone/i18n/index.html>`_
@@ -148,7 +148,7 @@ Classroom Protocol
 Documentation
 --------------
 
-Follow the training at http://training.plone.org/5
+Follow the training at https://training.plone.org/5
 
 .. note::
 

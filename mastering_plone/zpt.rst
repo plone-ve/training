@@ -427,7 +427,7 @@ When an element has multiple TAL attributes, they are executed in this order:
 Plone 5
 -------
 
-Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.readthedocs.org/en/latest/>`_. Using the integration layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:
+Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.readthedocs.io/en/latest/>`_. Using the integration layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:
 
 You can use ``${...}`` as short-hand for text insertion in pure html effectively making ``tal:content`` and ``tal:attributes`` obsolete. Here are some examples:
 
@@ -490,7 +490,7 @@ Modify the following template and one by one solve the following problems:
                                       'subjects': ('design', 'diazo', 'xslt')},
                                      {'title': 'Magic templates in Plone 5',
                                       'subjects': ('templates', 'TAL'),
-                                      'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                      'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                     ]">
         <tr>
             <th>Title</th>
@@ -526,7 +526,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -562,7 +562,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -602,7 +602,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -651,7 +651,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -694,7 +694,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -733,7 +733,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -773,7 +773,7 @@ Modify the following template and one by one solve the following problems:
                                           'subjects': ('design', 'diazo', 'xslt')},
                                          {'title': 'Magic templates in Plone 5',
                                           'subjects': ('templates', 'TAL'),
-                                          'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'}
+                                          'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'}
                                         ]">
             <tr>
                 <th>Title</th>
@@ -844,7 +844,7 @@ Here also added the css-class `listing` to the table. It is one of many css-clas
                                     'subjects': ('design', 'diazo', 'xslt')},
                                    {'title': 'Magic templates in Plone 5',
                                     'subjects': ('templates', 'TAL'),
-                                    'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'},
+                                    'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'},
                                   ]">
       <tr>
           <th>Title</th>
@@ -961,4 +961,4 @@ There is a lot more about TAL, TALES and METAL that we have not covered. You'll 
   * http://docs.plone.org/adapt-and-extend/theming/templates_css/template_basics.html
   * Using Zope Page Templates: http://docs.zope.org/zope2/zope2book/ZPT.html
   * Zope Page Templates Reference: http://docs.zope.org/zope2/zope2book/AppendixC.html
-  * https://chameleon.readthedocs.org/en/latest/
+  * https://chameleon.readthedocs.io/en/latest/

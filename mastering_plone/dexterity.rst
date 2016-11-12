@@ -76,7 +76,7 @@ What are the differences?
 
 * Dexterity has a good TTW story.
 * Archetypes has no TTW story.
-* UML-modeling: `ArchGenXML <http://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for Dexterity
+* UML-modeling: `ArchGenXML <http://docs.plone.org/4/en/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for Dexterity
 
 Approaches for Developers:
 

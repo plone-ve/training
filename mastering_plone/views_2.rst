@@ -106,7 +106,7 @@ The logic contained in that file can now be moved to the class:
                  'subjects': ('design', 'diazo', 'xslt')},
                 {'title': 'Magic templates in Plone 5',
                  'subjects': ('templates', 'TAL'),
-                 'url': 'http://www.starzel.de/blog/magic-templates-in-plone-5'},
+                 'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'},
             ]
             for item in data:
                 try:
