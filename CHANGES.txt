@@ -5,6 +5,14 @@ This changelog is only very rough. For the full changelog please refer to https:
 
 1.2.5 (unreleased)
 ------------------
+- Updated the Transifex client configuration for plone5-training project translations on https://www.transifex.com/plone/plone5-training/
+  [macagua]
+
+- Add CONTRIBUTING.md
+  [stevepiercy]
+
+- Move PloneConf 2016 to Previous Trainings
+  [stevepiercy]
 
 - Update JavaScript training with latest exercises and documentation using
   collective.jstraining
@@ -78,6 +86,9 @@ This changelog is only very rough. For the full changelog please refer to https:
 
 - Fix duplicate labels [jean]
 
+- Fix tests [gforcada]
+
+- Review solr docs [gforcada]
 
 1.2.4 (2014-10-03)
 ------------------
@@ -97,7 +108,7 @@ This changelog is only very rough. For the full changelog please refer to https:
 - Add Spanish translation.
   [macagua]
 
-- Add support for translations on https://www.transifex.com/plone/plone5-training/
+- Add support for translations on transifex
   [macagua]
 
 
