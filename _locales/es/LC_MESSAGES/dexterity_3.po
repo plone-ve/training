@@ -182,7 +182,7 @@ msgstr "``_sponsors`` regresa una lista de diccionarios conteniendo todo la nece
 #: ../dexterity_3.rst:311
 msgid ""
 "``_sponsors`` is cached for an hour using `plone.memoize "
-"<http://docs.plone.org/manage/deploying/testing_tuning/performance/decorators.html"
+"<https://docs.plone.org/manage/deploying/testing_tuning/performance/decorators.html"
 "#timeout-caches>`_. This way we don't need to keep all sponsor-objects in "
 "memory all the time. We could also cache until one of the sponsors is "
 "modified:"
@@ -206,8 +206,9 @@ msgstr ""
 # 892f3a69fe814325adc081ad2b35875a
 #: ../dexterity_3.rst:333
 msgid ""
-"http://docs.plone.org/develop/plone/images/content.html#image-scales-plone-4"
-msgstr "http://docs.plone.org/develop/plone/images/content.html#image-scales-plone-4"
+"https://docs.plone.org/develop/plone/images/content.html#image-scales-plone-4"
+msgstr ""
+"https://docs.plone.org/develop/plone/images/content.html#image-scales-plone-4"
 
 # 5a99217a3f3f49f7abedb2c7c99d5174
 #: ../dexterity_3.rst:335

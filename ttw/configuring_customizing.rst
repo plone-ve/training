@@ -1,1 +1,0 @@
-.. include:: ../mastering_plone/configuring_customizing.rst

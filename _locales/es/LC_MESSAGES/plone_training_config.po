@@ -307,10 +307,10 @@ msgstr ""
 
 #: ../plone_training_config/instructions.rst:228
 msgid ""
-"If you use Windows you'll have to login with `putty "
-"<http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Connect"
-" to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``."
-msgstr "Si usted tiene que usar Windows tendrás que iniciar sesión para con `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Conecte a vagrant@127.0.01 en el puerto 2222. Con el usuario **y** contraseña son `vagrant`."
+"If you have to use Windows you'll have to login to with `putty "
+"<http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html/download.html>`_. Connect"
+" to vagrant@127.0.01 at port 2222. User _and_ password are `vagrant`."
+msgstr "Si usted tiene que usar Windows tendrás que iniciar sesión para con `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html/download.html>`_. Conecte a vagrant@127.0.01 en el puerto 2222. usuario y contraseña son `vagrant`."
 
 #: ../plone_training_config/instructions.rst:230
 msgid ""

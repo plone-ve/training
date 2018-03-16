@@ -1,3 +1,4 @@
+======
 Mosaic
 ======
 
@@ -13,13 +14,13 @@ Topics covered:
 * Use the layout editor.
 
 What is Mosaic?
----------------
+===============
 
 * A Plone add-on,
 * which allows managing layouts from the Plone interface.
 
-Some comparisons
-----------------
+Some Comparisons
+================
 
 .. only:: presentation
 
@@ -39,40 +40,44 @@ Some comparisons
 
     * Compared to :py:mod:`collective.cover`:
 
-      :py:mod:`collective.cover` provides a specific content-type 
-      (a "Cover page") where we can manage the layout in order to build our homepage.
+      :py:mod:`collective.cover` provides a specific content-type
+      (a "Cover page") where we can manage the layout in order to build our home page.
 
       Mosaic does not provide any content-type, it allows to edit any existing content layout.
 
 Installation
-------------
+============
 
-.. sidebar:: On an existing Plone Buildout
+.. sidebar:: On An Existing Plone Buildout
 
-    If you already have your own Plone installation you can
-    install Mosaic by customizing it as follows:
-    
-    Modify :file:`buildout.cfg` to add Mosaic as a dependency::
+   If you already have your own Plone installation you can
+   install Mosaic by customizing it as follows:
 
-        eggs =
-            ...
-            plone.app.mosaic
+   Modify :file:`buildout.cfg` to add Mosaic as a dependency
 
-        versions =
-            ...
-            plone.tiles = 1.8.0
-            plone.subrequest = 1.7.0
-            plone.app.tiles = 3.0.0
-            plone.app.standardtiles = 2.0.0rc1
-            plone.app.blocks = 4.0.0rc1
-            plone.app.drafts = 1.1.1
-            plone.app.mosaic = 2.0.0rc1
+   .. code-block:: ini
 
-    Run your buildout::
+       eggs =
+           ...
+           plone.app.mosaic
 
-        $ bin/buildout -N
+       versions =
+           ...
+           plone.tiles = 1.8.0
+           plone.subrequest = 1.7.0
+           plone.app.tiles = 3.0.0
+           plone.app.standardtiles = 2.0.0rc1
+           plone.app.blocks = 4.0.0rc1
+           plone.app.drafts = 1.1.1
+           plone.app.mosaic = 2.0.0rc1
 
-    Then go to :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`.
+   Run your buildout
+
+   .. code-block:: console
+
+       bin/buildout -N
+
+   Then go to :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`.
 
 
 We will use a `Plone pre-configured Heroku instance <https://github.com/collective/training-sandbox>`_.
@@ -80,31 +85,31 @@ We will use a `Plone pre-configured Heroku instance <https://github.com/collecti
 Once deployed, create a Plone site, then go to the :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`.
 
 Principle
----------
+=========
 
 The basic component of a Mosaic based layout is called a tile.
 A layout is a combination of several tiles.
 
 A tile is a dynamic portion of a web page, it can be a text element, an image, a field, etc.
 
-Mosaic provides an editor able to easily position tiles across our theme's grid.
+Mosaic provides an editor able to position tiles across our theme's grid.
 
-The Mosaic editor
------------------
+The Mosaic Editor
+=================
 
-To enable the Mosaic editor on a content item change its default display as follows: 
+To enable the Mosaic editor on a content item change its default display as follows:
 go to :menuselection:`Display --> Mosaic layout`.
-
 
 You have now enabled the Mosaic editor as a replacement for the default edit form.
 
-Click on :guilabel:`Edit` if this is the first time editing the current item you will be prompted to select a layout.
+Click on :guilabel:`Edit`. If this is the first time editing the current item, you will be prompted to select a layout.
 
 .. image:: _static/mosaic-select-layout.png
 
 Choose a layout.
 
-This editor allows to change our content fields content (just like the regular Plone form), but the fields are rendered into the view layout and they are edited in-place.
+This editor allows to change our content fields content (like the regular Plone form),
+but the fields are rendered into the view layout and they are edited in-place.
 
 .. image:: _static/mosaic-editor.png
 
@@ -115,45 +120,46 @@ The top bar offers different buttons:
 - :guilabel:`Properties`, to access the content properties: it displays the regular Plone form tabs, but the fields currently involved in the layout are hidden.
 - :guilabel:`Layout`, to manage the content layout.
 
-Exercise 1 - Change the layout of the front page
+Exercise 1 - Change The Layout Of The Front Page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Go to the front page of the website and update the layout
 as follows:
 
-1. Activate :menuselection:`Display --> Mosaic layout`
-2. :guilabel:`Edit` and select the "Document" layout
-3. The select :menuselection:`Layout --> Customize`
-4. Add a Document Byline to the bottom of the layout :menuselection:`Insert > Document Byline`
-5. Click :guilabel:`Save`
+1. Activate :menuselection:`Display --> Mosaic layout`.
+2. :guilabel:`Edit` and select the "*Document*" layout.
+3. Then select :menuselection:`Layout --> Customize`.
+4. Add a *Document Byline* to the bottom of the layout :menuselection:`Insert > Document Byline`.
+5. Click :guilabel:`Save`.
 
 In the context of the Mosaic Editor, do you know the difference between :guilabel:`Save` and :menuselection:`Layout --> Save`?
 
-Change the content layout
--------------------------
+Change The Content Layout
+=========================
 
 If we click on :menuselection:`Layout --> Change`, we can choose the layout we want for our content.
 The choices are restricted to the layout applicable to the current content-type.
 
-For instance for a Page, Mosaic proposes (by default) two layouts: Basic and Document.
+For instance for a *Page*, Mosaic proposes (by default) two layouts: *Basic* and *Document*.
 
 .. image:: _static/mosaic-select-layout.png
 
-Customize a content layout
---------------------------
+Customize A Content Layout
+==========================
 
-If we click on :menuselection:`Layout --> Customize`, the Mosaic editor switches to the layout mode, where we can still change our field values, but also change the layout:
+If we click on :menuselection:`Layout --> Customize`, the Mosaic editor switches to the layout mode,
+where we can still change our field values, but also change the layout:
 
 - by hovering the page content, existing tiles are highlighted and we can drag & drop them in different places,
 - by clicking in a tile, we can edit its content,
-- by clicking outside the curently edited tile, we disable the edit mode.
+- by clicking outside the currently edited tile, we disable the edit mode.
 
 In layout mode, the top bar contains two extra buttons:
 
 - :guilabel:`Format`, which provides different simple formatting options for tiles (text padding, floating) or for rows (change background color),
 - :guilabel:`Insert`, which allows to add new tiles to our layout.
 
-The tiles
----------
+The Tiles
+=========
 
 Mosaic provides the following tiles:
 
@@ -166,7 +172,7 @@ Mosaic provides the following tiles:
     - bulleted list,
     - numbered list,
     - table of contents,
-    - navigation: this tiles displays a navigation menu, its settings can be changed in a modal window (click on the "i" button on the bottom-right corner to display the modal),
+    - navigation: this tile displays a navigation menu. Its settings can be changed in a modal window (click on the :guilabel:`i` button on the bottom-right corner to display the modal),
 
 - Media:
 
@@ -186,11 +192,11 @@ Mosaic provides the following tiles:
 
 - Advanced:
 
-    - content listing: it is a collection-like tile, it allows to list all contents matching given criterias (criterias can be changed in the modal window),
-    - existing content: it allows to display another content in a tile
+    - content listing: this is a collection-like tile. It allows to list all contents matching given criteria (which be edited in the modal window),
+    - existing content: it allows to display any content item in a tile.
     - if Rapido is installed, there is also a Rapido tile, which allows to display any Rapido block.
 
-Exercise 2: Customize the home page layout
+Exercise 2: Customize The Home Page Layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Create an attractive layout for the home page.
@@ -198,30 +204,32 @@ Create an attractive layout for the home page.
 ..  admonition:: Solution
     :class: toggle
 
-    - go to Display menu and select "Mosaic layout",
-    - click Edit,
-    - click on :menuselection:`Layout --> Customize`,
-    - change the layout,
-    - click Save.
+    - Go to the :guilabel:`Display` menu and select :guilabel:`Mosaic layout`,
+    - Click :guilabel:`Edit`,
+    - Click on :menuselection:`Layout --> Customize`,
+    - Change the layout,
+    - Click :guilabel:`Save`.
 
-Create a reusable layout
-------------------------
+Create A Reusable Layout
+========================
 
 When the layout has been customized, the :guilabel:`Layout` menu offers a :guilabel:`Save` action.
 
-This action allows to save the current layout as a reusable layout. 
+This action allows to save the current layout as a reusable layout.
 
-If :file:`Global` is checked, the layout will be usable by any user (else it is restricted to the current user).
+If :guilabel:`Global` is checked, the layout will be usable by any user (else it is restricted to the current user).
 
-The layout is associated to the current content type, by default it will not be usable for other content types.
+The layout is associated with the current content type. By default it will not be usable for other content types.
 
 Once saved, our layout will be listed with the other available layouts when we click on :menuselection:`Layout --> Change`.
 
-Exercise 3: create a layout for talks
+Exercise 3: Create A Layout For Talks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. note:: This exercise assumes that you have created a content type called "Talk".
-          you can quickly create one by the following the steps in `Dexterity: Creating TTW content types <dexterity.html#creating-contenttypes-ttw>`__ documentation.
+.. note::
+
+   This exercise assumes that you have created a content type called "Talk".
+   You can quickly create one by the following the steps in the `Dexterity: Creating TTW content types <dexterity.html#creating-contenttypes-ttw>`_ documentation.
 
 Create an attractive layout for a talk, save it and reuse it for another talk.
 
@@ -235,18 +243,18 @@ Create an attractive layout for a talk, save it and reuse it for another talk.
     - navigate to another talk,
     - go to :guilabel:`Display` menu and select "Mosaic layout",
     - click :guilabel:`Edit`,
-    - click on Layout / Change,
+    - click on :menuselection:`Layout --> Change`,
     - choose "Talk".
 
-Manage custom layouts
----------------------
- 
+Manage Custom Layouts
+=====================
+
 Custom layouts can be managed from the Plone control panel:
 
 - click on :menuselection:`user menu --> Site settings`,
-- click on Mosaic Layout Editor (in the last section, named :guilabel:`Add-on configuration`),
+- click on :guilabel:`Mosaic Layout Editor` (in the last section, namely :guilabel:`Add-on configuration`),
 
-In the third tab of this control panel, named "Show/hide content layouts", we can see the existing layouts, their associated content types, and we can deactivate (or re-activate) them by clicking on :guilabel:`Hide` (or :guilabel:`Show`).
+In the third tab of this control panel, named :guilabel:`Show/hide content layouts`, we can see the existing layouts, their associated content types, and we can deactivate (or re-activate) them by clicking on :guilabel:`Hide` (or :guilabel:`Show`).
 
 In the first tab, named :guilabel:`Content layouts`, there is a source editor.
 
@@ -256,14 +264,17 @@ We can also delete the layout section from :file:`manifest.cfg`, and the layout 
 
 Deleting a custom layout can also be managed in another way:
 
+.. missing?
+
 Note: the second tab, named :guilabel:`Site layouts`, is not usable for now.
 
 
-Edit the layout HTML structure
-------------------------------
-In the Mosaic Layout Editor's first tab ("Content layouts"), :file:`manifest.cfg` is not the only editable file.
+Edit The Layout HTML Structure
+==============================
 
-There is also some HTML files. Each of them corresponds to a layout and they represent what we have built by drag&dropping tiles in our layouts.
+In the Mosaic Layout Editor's first tab (:guilabel:`Content layouts`), :file:`manifest.cfg` is not the only editable file.
+
+There are also some HTML files. Each of them corresponds to a layout and they represent what we have built by drag & dropping tiles in our layouts.
 
 Using the code editor, we can change this HTML structure manually instead of using the WYSIWIG editor.
 
@@ -288,8 +299,8 @@ Those classes are provided by the Mosaic grid which works like any CSS grid:
     - ``mosaic-position-half``
     - ``mosaic-position-three-quarters``
 
-Import layouts
---------------
+Import Layouts
+==============
 
 We might want to work on a layout on our development server, and then be able to deploy it on our production server.
 

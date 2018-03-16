@@ -1,11 +1,13 @@
-
-More customized use
-^^^^^^^^^^^^^^^^^^^
+==============
+Customized Use
+==============
 
 We intend that you should be able to make most changes by changing default variable settings in your ``local_configure.yml`` file.
-We've made a serious effort to make sure that all those settings are documented in the `Plone's Ansible Playbook <http://docs.plone.org/external/ansible-playbook/docs/index.html>` documentation.
+We've made a serious effort to make sure that all those settings are documented in the `Plone's Ansible Playbook <https://docs.plone.org/external/ansible-playbook/docs/index.html>` documentation.
 
-For example, if you want to change the time at which backup occurs, you can check the doc and discover that we have a `plone-backup-at setting <http://docs.plone.org/external/ansible-playbook/docs/plone.html#plone-backup-at>`_.
+For example, if you want to change the time at which backup occurs,
+you can check the doc and discover that we have a `plone-backup-at setting <https://docs.plone.org/external/ansible-playbook/docs/plone.html#plone-backup-at>`_.
+
 The default setting is:
 
 .. code-block:: yaml
@@ -28,26 +30,27 @@ To make it 03:57 instead, use:
 
 in your ``local_configure.yml`` file.
 
-Common customization points
-```````````````````````````
+Common Customization Points
+===========================
 
-Let's review the settings that are very commonly changed.
+Let's review the settings that are commonly changed.
 
-Plone setup
-:::::::::::
+Plone Setup
+-----------
 
-Eggs and versions
-!!!!!!!!!!!!!!!!!
+Eggs And Versions
+~~~~~~~~~~~~~~~~~
 
 You're likely to want to add Python packages to your Plone installation to enable add-on functionality.
 
-Let's say you want to add :py:mod:`Products.PloneFormGen` and :py:mod:`webcouturier.dropdownmenu`.
-Just add to your ``local_configure.yml``:
+Let's say you want to add `collective.easyform <https://pypi.python.org/pypi/collective.easyform>`_ and `webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_.
+
+Add to your ``local_configure.yml``:
 
 .. code-block:: yaml
 
     plone_additional_eggs:
-        - Products.PloneFormGen
+        - collective.easyform
         - webcouturier.dropdownmenu
 
 If you add eggs, you should nearly always specify their versions:
@@ -55,9 +58,8 @@ If you add eggs, you should nearly always specify their versions:
 .. code-block:: yaml
 
     plone_additional_versions:
-      - "Products.PloneFormGen = 1.7.16"
-      - "Products.PythonField = 1.1.3"
-      - "Products.TALESField = 1.1.3"
+      - "collective.easyform = 2.0.0b2"
+      - "webcouturier.dropdownmenu = 3.0.1"
 
 That takes care of packages that are available on the `Python Package Index <https://pypi.python.org/pypi>`_.
 What if your developing packages via git?
@@ -70,10 +72,11 @@ What if your developing packages via git?
 There's more that you can do with the ``plone_sources`` setting.
 See the docs!
 
-buildout from git repo
-!!!!!!!!!!!!!!!!!!!!!!
+Buildout From Git Repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It's entirely possible that the buildout created by the playbook won't be adequate to your needs.
+
 If that's the case, you may check out your whole buildout directory via git:
 
 .. code-block:: yaml
@@ -81,11 +84,12 @@ If that's the case, you may check out your whole buildout directory via git:
     buildout_git_repo: https://github.com/plone/plone.com.ansible.git
     buildout_git_version: master
 
-Make sure you check the `documentation on this setting <http://docs.plone.org/external/ansible-playbook/docs/plone.html#plone-buildout-git-repo>`_.
+Make sure you check the `documentation on this setting <https://docs.plone.org/external/ansible-playbook/docs/plone.html#plone-buildout-git-repo>`_.
+
 Even if you use your own buildout, you'll need to make sure that some of the playbook settings reflect your configuration.
 
-Running buildout and restarting clients
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Running Buildout And Restarting Clients
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 By default, the playbook tries to figure out if :command:`buildout` needs to be run.
 If you add an egg, for example, the playbook will run buildout to make the buildout-controlled portions of the installation update.
@@ -113,13 +117,13 @@ If you're conservative, you'll first try starting and stopping the reserved clie
 .. note::
 
     By the way, if buildout fails, your playbook run will halt.
-    So, you don't need to worry that an automated restart might occur after a failed buildout.
+    You don't need to worry that an automated restart might occur after a failed buildout.
 
 
-Web hosting options
-:::::::::::::::::::
+Web Hosting Options
+-------------------
 
-It's very likely that you're going to need to make some changes in nginx configuration.
+It's likely that you're going to need to make some changes in nginx configuration.
 Most of those changes are made via the ``webserver_virtualhosts`` setting.
 
 ``webserver_virtualhosts`` should contain a list of the hostnames you wish to support.
@@ -161,6 +165,7 @@ A more realistic setting might look something like:
 
 Here we're setting up two separate hosts, one for http and one for https.
 Both point to the same ZODB path, though they don't have to.
+
 The https host item also refers to a key/certificate file pair on the Ansible host machine.
 They'll be copied to the remote server.
 
@@ -178,7 +183,7 @@ Alternatively, you could specify use of certificates already on the server:
 .. caution::
 
     One hazard for the current playbook web server support is that it does **not** delete old host files.
-    So, if you had previously set up ``www.mynewclient.com`` and then deleted that item from the playbook host list, the nginx host file would remain.
+    If you had previously set up ``www.mynewclient.com`` and then deleted that item from the playbook host list, the nginx host file would remain.
     Log in and delete it if needed.
     Yes, this is an exception to the "don't login to change configuration rule".
 
@@ -194,13 +199,15 @@ For example:
       extra: return 301 https://$server_name$request_uri;
 
 This is a *redirect to https*.
-It takes advantage of the fact that if you do not specify a zodb_path, the playbook will not automatically create a location stanza with a rewrite and proxy_pass directives.
+It takes advantage of the fact that if you do not specify a zodb_path,
+the playbook will not automatically create a location stanza with a rewrite and proxy_pass directives.
 
-Mail relay
-::::::::::
+Mail Relay
+----------
 
 Some cloud server companies do not allow servers to directly send mail to standard mail ports.
 Instead, they require that you use a *mail relay*.
+
 This is a typical setup:
 
 .. code-block:: yaml
@@ -210,16 +217,17 @@ This is a typical setup:
     mailserver_relayuser: yoursendgriduser
     mailserver_relaypassword: yoursendgridpassword
 
-Bypassing components
-::::::::::::::::::::
+Bypassing Components
+--------------------
 
 Remember our stack diagram?
 The only part of the stack that you're stuck with is Plone.
+
 All the other components my be replaced.
 To replace them, first prevent the playbook from installing the default component.
 Then, use a playbook of your own to install the alternative component.
 
-For example, to install an alternative to the Postfix mail agent, just add:
+For example, to install an alternative to the Postfix mail agent, add:
 
 .. code-block:: yaml
 
@@ -227,15 +235,15 @@ For example, to install an alternative to the Postfix mail agent, just add:
 
 .. note::
 
-    If you choose not to install the haproxy, varnish or nginx, you take on some extra responsibilities.
+    If you choose not to install the HAProxy, varnish or Nginx, you take on some extra responsibilities.
     You're going to need to make sure in particular that your port addresses match up.
-    If, for example, you replace haproxy, you will need to point varnish to the new load-balancer's frontend.
+    If, for example, you replace HAProxy, you will need to point varnish to the new load-balancer's frontend.
     You'll need to point the new load balancer to the ZEO clients.
 
-Multiple Plones per host
-````````````````````````
+Multiple Plones Per Host
+------------------------
 
-So far, we've covered the simple case of having one Plone server installed on your server.
+We've covered the simple case of having one Plone server installed on your server.
 In fact, you may install additional Plones.
 
 To do so, you create a list variable ``playbook_plones`` containing all the settings that are specific to one or more of your Plone instances.
@@ -268,11 +276,10 @@ Note that you're going to have to specify a minimum of an instance name, a zeo p
 You may specify up to four items in your ``playbook_plones`` list.
 If you need more, see the docs as you'll need to make a minor change in the main playbook.
 
-The Plone Role -- using it independently
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The Plone Role -- Using It Independently
+----------------------------------------
 
-Finally, for really big changes, you may find that the full playbook is of little or no use.
+For big changes, you may find that the full playbook is of little or no use.
 In that case, you may still wish to use Plone's Ansible Role independently, in your own playbooks.
+
 The `Plone server role <https://github.com/plone/ansible.plone_server>`_ is maintained separately, and may become a role in your playbooks if it works for you.
-
-

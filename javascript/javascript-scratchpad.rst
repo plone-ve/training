@@ -1,15 +1,17 @@
+==========
 Scratchpad
 ==========
 
 Scratchpat for text snippets to be included somewhere else in the training.
 
 
-General advises
----------------
+General Advises
+===============
 
 .. note::
 
-    When providing static resources (JS/Less/CSS) for Plone 5's resource registry, use :py:mod:`plone.resource` based resources instead of Zope's browser resources.
+    When providing static resources (JS/Less/CSS) for Plone 5's resource registry,
+    use `plone.resource <https://pypi.python.org/pypi/plone.resource>`_ based resources instead of Zope's browser resources.
     The latter are cached heavily and you won't get your changes built with Zope resources.
 
 .. note::
@@ -17,26 +19,31 @@ General advises
     A bundle can depend on another.
     This is mainly used for the order of inclusion in the rendered content.
     Currently, it doesn't hook in the require JavaScript dependency mechanism.
+
     This means, each bundle gets all their dependencies compiled in, which raise the response payload unnecessarily.
     To avoid this, add your resources to existing bundles, like the ``plone`` bundle.
 
 .. note::
 
     The mockup grunt infrastructure is build with a convention over configuration approach in mind.
+    
     It's actually very picky about a lot of things:
     locations of your bundle files, location of your bundle Less files, location of your pattern JavaScript and Less files and the require JavaScript ids of those.
+
     Bundles have to be named ``mockup-bundles-BUNDLENAME``, patterns have to be named ``mockup-patterns-PATTERNNAME``.
 
 .. note::
 
     There is currently no API to build JavaScript and Less resources programmatically after importing them.
     Both build steps need the Client side RequireJS respectively Less compilers.
-    The resources are downloaded to your browser, compiled there and re-upload to the Plone server, where they are stored in ZODB as :py:mod:`plone.resource` resources.
+
+    The resources are downloaded to your browser, compiled there and re-upload to the Plone server, where they are stored in ZODB as `plone.resource <https://pypi.python.org/pypi/plone.resource>`_` resources.
+    
     We can pre-build everything using standard JavaScript and Less development frameworks, e.g. via ``mockup``'s Grunt infrastructure.
 
 
 Structure
----------
+=========
 
 
 About this training
@@ -44,25 +51,25 @@ About this training
         DAY1
             Framework Tools
             Create Mockup Pattern
-            Integrate Other (Non-Mockup based) Javascript
+            Integrate Other (Non-Mockup based) JavaScript
         DAY2
             Practicing
 
 Preparing for the training
-    About Javascript, Mockup, Patternslib and Plone 5
+    About JavaScript, Mockup, Patternslib and Plone 5
         History of everything, What's what.
 
 Installation Mockup
 
 
 Development environment
-    Javascript and editor support
+    JavaScript and editor support
     Code Linter
     Grunt
     Bower
     Testing
 
-Whirlwind tour through Mockup, Patternslib and Javascript in Plone 5
+Whirlwind tour through Mockup, Patternslib and JavaScript in Plone 5
     Short explanation of the code tree / main modules:
     Mockup
     Patternslib
@@ -85,9 +92,9 @@ Integrating the Pattern
     Integration in Mockup w/out Plone
 
 
-No-Pattern Javascript in Plone
+No-Pattern JavaScript in Plone
 
-    The require JS way
+    The require JS (JavaScript) way
 
     The old, require JS-less way
 
@@ -104,5 +111,3 @@ Comparison to other frameworks
     Patternslib and React Components
     Patternslib and Angular JS directives
     Plone and ES 6
-
-

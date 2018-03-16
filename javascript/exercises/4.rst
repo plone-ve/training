@@ -1,5 +1,6 @@
-Exercise 4: NG2 APP in logged in bundle
-=======================================
+============================================
+Exercise 4: Gallery integration as resources
+============================================
 
 ..  warning::
 
@@ -7,49 +8,49 @@ Exercise 4: NG2 APP in logged in bundle
     collective.jstraining package.
 
 
-For this exercise, we will add an angular 2 application to a plone bundle.
-
-We have most of the angular 2 boilerplate code created for you so let's just
-finish up a few things so you can customize it.
+In this exercise, we'll include our custom JavaScript file
+into your Plone site as a bundled resource, instead of manually including
+it into your theme template (as in exercise 3).
 
 We will be working in the ``exercise4`` directory of the collective.jstraining package.
 
-Bootstrap
----------
+Add your JavaScript files
+=========================
 
-Install npm dependencies::
+In this example, we're going to create a rather contrive example to demonstrate the
+bundling process. Add a ``static`` folder, inside it, create a file named ``resource.js``
 
-    cd exercise4/static
-    npm install
+.. code-block:: javascript
 
+  define([
+    'jquery',
+    'pat-base',
+  ], function($, Base) {
+    'use strict';
 
-Add your angular 2 component
-----------------------------
+    $('body').ready(function() {
+      alert("Woohoo, it worked!");
+    });
+  });
 
-In your ``exercise4/static/app`` directory, add a file named ``app.component.ts``. Use
-this file to do anything you would like to the page. This example will stick
-with the angular 2 quickstart code. We hope you like typescript::
+Additionally, create a file named bundle.js
 
-    import { Component } from '@angular/core';
-    @Component({
-      selector: '.my-app',
-      template: '<h1>NG2 from Exercise 4</h1>'
-    })
-    export class AppComponent { }
+.. code-block:: javascript
 
-
-You can do whatever in this module however, please notice how we changed the
-selector to ``.my-app``. In Angular 2, the selector can be anything. By changing
-it to a class name, it'll be easier for us to choose where we want to bootstrap
-our angular 2 component.
-
+  require([
+    'exercise4'
+  ], function() {
+    'use strict';
+  });
 
 Register static resource directory
-----------------------------------
+==================================
 
 Next, let’s register the static directory we just placed our script into. To
 register, you need to add ZCML registration for the static directory your script
-is in. Add this to the ``exercise4/configure.zcml`` file::
+is in. Add this to the ``exercise5/configure.zcml`` file
+
+.. code-block:: xml
 
     <plone:static
          directory="static"
@@ -58,78 +59,101 @@ is in. Add this to the ``exercise4/configure.zcml`` file::
          />
 
 
-Build the file with webpack
----------------------------
+Registry your JS as a resource
+==============================
 
-Our deployment is built using webpack::
+In order to include our files, we need to registry them as static resources.
+In the ``registry.xml`` file, under ``profiles/default`` add
 
-    cd exercise4/static
-    webpack
+.. code-block:: xml
+
+  <records prefix="plone.resources/exercise4"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++plone++exercise4/resource.js</value>
+  </records>
 
 
-Whenever you make a change to your component files, webpack will auto re-build
-the distribution
+Bundle resource
+===============
 
+The bundle resource is just another resource registration like any other. Remember, the only
+difference here is in the content of the JavaScript file. One file uses ``require``,
+the other uses ``define``. Addditionally, we include our CSS/LESS dependencies here
 
-Register JavaScript resource
-----------------------------
+.. code-block:: xml
 
-Let’s register our script as a JavaScript resource with Plone. In the
-``exercise4/profiles/default/registry.xml`` file, add configuration to register
-your script::
+    <records prefix="plone.resources/bundle-exercise4"
+              interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="js">++plone++exercise4/bundle.js</value>
+    </records>
+
+Bundle
+======
+
+Finally, let's create our bundle registration
+
+.. code-block:: xml
 
     <records prefix="plone.bundles/exercise4"
               interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-      <value key="merge_with">logged-in</value>
+      <value key="resources">
+        <!-- reference to bundle resource definition -->
+        <element>bundle-exercise4</element>
+      </value>
+      <value key="merge_with">default</value>
       <value key="enabled">True</value>
-      <value key="compile">False</value>
-      <value key="expression">python: member is not None</value>
       <value key="jscompilation">++plone++exercise4/exercise4-compiled.min.js</value>
-      <value key="csscompilation">++plone++exercise4/exercise4-compiled.css</value>
       <value key="last_compilation">2016-10-04 00:00:00</value>
+
+      <!-- so we don't include these modules multiple times -->
+      <value key="stub_js_modules">
+        <element>jquery</element>
+        <element>pat-base</element>
+      </value>
     </records>
 
-
-Pay attention to this part of the exercise. Here we merge the bundle with
-``logged-in`` instead of ``default``. We also added an ``expression`` configuration
-option to specify that we only want this bundle to load for logged in users.
-
-
 Installation
-------------
+============
 
 1) Start up your Plone instance
 2) Install the ``Exercise 4`` add-on
 
 
 Running
--------
+=======
 
-It's up to you how to apply the component class name to an element of your choice.
-A couple options available to you are:
+At this point, we have no compiled version of the code that we're running with
+so our code doesn't do anything.
 
-1) use TinyMCE source view and add ``class="my-app"`` onto any tag
-2) customize the theme on your site and add it to an element in your theme file
-   or use a diazo rule diazo rule to dynamically add the class to an element
+1) Go into ``Site Setup`` -> ``Resource Registries``
+2) Check "Development Mode"
+3) Select to develop JavaScript and CSS for the ``exercise4`` bundle
+4) Click save
+
+This should load your JavaScript and LESS files now; reload the page, and you should
+be greated by our "exciting" new alert box.
+
+Production
+==========
+
+
+To build our bundle, we'll utilize the ``plone-compile-resources`` script that
+Plone ships with.
 
 
 ..  warning::
 
-   To make sure your resource registry configuration changes apply, you'll need to
-   be in development mode. You can also toggle development mode on and off,
-   click save, to force configuration to be re-built after changes instead of
-   keeping development mode on.
+    If you're not running a ZEO setup, you'll need to shut down your Plone
+    instance since the ZODB in this mode does not allow multiple processes
+    to access it at the same time.
 
 
-Development
------------
+An example command will look like this
 
-To make sure your changes are loaded after every build with webpack, make sure
-to go into Site setup -> Resource registries and enabled development mode.
+.. code-block:: console
+
+    ./bin/plone-compile-resources --site-id=Plone --bundle=exercise4
 
 
-Production
-----------
-
-Production for this is simple when you're no longer in development mode on
-your Plone site. Webpack rebuilds the JavaScript distribution on every change.
+Once this command finishes, your bundle is built and will be deployed with your
+package package.
