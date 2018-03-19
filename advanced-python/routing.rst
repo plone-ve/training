@@ -32,7 +32,7 @@ We can write our application as a giant case switch to match a specific
             start_response('404 Not Found', headers)
             return [b"Not found"]
 
-This would be very un-pythonic and cumbersome to extend. Essentianly, this
+This would be very un-pythonic and cumbersome to extend. Essentially, this
 problem is solved by all web framework with some kind of a routing
 middleware. But before we examine how it is done by some of the most famous
 WSGI frameworks, we implement a primitive routing middleware on our own.

@@ -13,7 +13,7 @@ different application objects.
 Middlewares and apps are agnostic to each other,
 so we can plumb any WSGI app to our middleware,
 and our middleware to any WSGI app. Middleware can be chained,
-allowing our response or request to go through mulitple
+allowing our response or request to go through multiple
 phases of processing.
 
 Here is for example how the Django web framework chains multiple middlewares
@@ -37,7 +37,7 @@ Django imports these middlewares from the their
 specified module and plumbs them one after another. Let's see how
 we can do that too.
 
-Other frameworks use ``extentions`` sometimes also called ``plugins`` or
+Other frameworks use ``extensions`` sometimes also called ``plugins`` or
 ``includes``. For example, the Flask framework really wraps the
 ``Application`` instance:
 
@@ -102,7 +102,7 @@ environment dictionary to the console:
         # and the environment in the console
         app = log_environ(hello_world_app)
 
-Excercise 2
+Exercise 2
 +++++++++++
 
 Implement your own middleware which capitalizes the response you original
@@ -115,7 +115,7 @@ application return.
 
        def capitalize_response(handler):
            """dumb middleware the assumes response is a list of
-              strings which can be capitlized"""
+              strings which can be capitalized"""
 
            def _inner(environ, start_response):
                response = handler(environ, start_response)
@@ -131,7 +131,7 @@ application return.
        app = capitalize_response(handler)
 
 
-Excercise 3
+Exercise 3
 +++++++++++
 
 Implement your own middleware which reverses the response. Upon calling this

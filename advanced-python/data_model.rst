@@ -5,7 +5,7 @@ To make our session store easy to as if it was a dictionary, we implement
 out middleware by crafting a class which behaves like that. For that purpose,
 we are taking a small diversion from WSGI to Python's Data Model. We enter
 the realm of so called **magic methods** also known as ``__dunder__``
-(which stands of duble underscore).
+(which stands of double underscore).
 
 The first thing to know about special methods is that they are meant to be
 called by the Python interpreter, and not by you. [Fluent Python, pg. 8].
@@ -20,14 +20,14 @@ use `in`, e.g.::
 
     >>> 'a72e7a6b4fcf8ae611953' in session_storage
 
-We shoud also be able to retrieve items as if was a dictionary::
+We should also be able to retrieve items as if was a dictionary::
 
     >>> session_storage['a72e7a6b4fcf8ae611953']
     {'login-date': '2017-11-09 17:13:25'}
 
 Our goal is to create a middleware that stores information in some kind of
-a persistant storage. For simplicity we start by writing this infromation
-to a file on a disk, but this can easily be extended to a Redis storgae,
+a persistent storage. For simplicity we start by writing this information
+to a file on a disk, but this can easily be extended to a Redis storage,
 MongoDB or any database of your liking.
 Let's assume though that session data is unstructured might look like
 a dictionary of session ID as keys, with values which are another dictionary:
@@ -94,7 +94,7 @@ the environment and allows us to access keys as if they where attributes.
      >>> req.request_method  REQUEST_METHOD
      'GET'
 
-Ouick access to properties
+Quick access to properties
 ++++++++++++++++++++++++++
 
 Sometimes accessing a property can be expensive! As can be seen in the
@@ -109,7 +109,7 @@ specially crafted decorator:
    @cached_property
    def host_url(self):
        """
-       This will be calucalated only once
+       This will be calculated only once
        """
        ...
        ...
@@ -126,7 +126,7 @@ are easy enough, but also safe to use.
 For example, suppose we want to replace our dictionary based session with
 a Redis cache, but we don't want to break the API. We do this with caution,
 and we think, we might want to replace Redis in some other Key-Value
-storage. We domenstrate, how the use of meta classes can enforce programmers,
+storage. We demonstrate, how the use of meta classes can enforce programmers,
 to obay some certain structure, with out throwing a ``RuntimeError`` or an
 ``AttributeError``, which in some cases might be too late.
 

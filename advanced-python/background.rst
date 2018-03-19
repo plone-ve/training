@@ -29,7 +29,7 @@ web applications. The handling of the requests from browser is done
 by a normal HTTP server, which routes the request to the WSGI container,
 which in turn runs the WSGI application.
 
-The following ilustration demonstartes this setup:
+The following illustration demonstrates this setup:
 
   .. image:: ./_static/http-server-app.png
     :scale: 50%
