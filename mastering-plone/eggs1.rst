@@ -33,7 +33,7 @@ Your own code has to be organized as a `Python package <https://docs.python.org/
 
 We are going to use `bobtemplates.plone <https://pypi.python.org/pypi/bobtemplates.plone>`_ to create a skeleton package. You only need to fill in the blanks.
 
-:py:mod:`bobtemplates.plone` offers several Plone-specific templates for :py:mod:`mr.bob`, a projekt template builder similar to :py:mod:`cookiecutter`.
+:py:mod:`bobtemplates.plone` offers several Plone-specific templates for :py:mod:`mr.bob`, a project template builder similar to :py:mod:`cookiecutter`.
 
 Enter the :file:`src` directory (*src* is short for *sources*) and call a script called :command:`mrbob` from our buildout's :file:`bin` directory:
 

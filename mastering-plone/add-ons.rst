@@ -58,9 +58,9 @@ How to find add-ons
 
 It can be very hard to find the right addon for your requirements. Here are some tips:
 
-* Make a list of required features. You'll almost never ﬁnd an add-on that exactly ﬁts your needs.
+* Make a list of required features. You'll almost never find an add-on that exactly ﬁts your needs.
 * Either adapt your requirements to what is available, invest the time & money to modify an existing addons to ﬁt your needs or create a new addon that does exactly what you need.
-* Then search using the follwing links below.
+* Then search using the following links below.
 
   * https://plone.org/download/add-ons
   * https://pypi.python.org/pypi >3400 Plone related packages - use the search form!
@@ -74,7 +74,7 @@ It can be very hard to find the right addon for your requirements. Here are some
   * Check if the addon runs on your required version and is currently maintained
   * Does it have i18n-support, i.e. is the user-interface translated to your language?
   * Does it uninstall cleanly? A tough one. See http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html for the reason why.
-  * Check for unwanted dependecies
+  * Check for unwanted dependencies
 
 Once you found an addon you like you should ask the community if you made a good choice or if you missed something:
 
@@ -138,7 +138,7 @@ Install EasyForm (the human-readable name of :py:mod:`collective.easyform`) now.
 This is what happens: The GenericSetup profile of the product gets loaded. This does things like:
 
 * Configuring new actions
-* Registering new contenttypes
+* Registering new content types
 * Registering css and js files
 * Creating some content/configuration objects in your Plone site.
 
@@ -171,7 +171,7 @@ Let's build a registration form:
 
 .. note::
 
-    Need CAPTCHAs? Read the `instructions how to add add Recapcha-field to easyform <https://github.com/collective/collective.easyform#recaptcha-support>`_
+    Need CAPTCHAs? Read the `instructions how to add Recapcha-field to easyform <https://github.com/collective/collective.easyform#recaptcha-support>`_
 
 
 .. _add-ons-ptg-label:
@@ -181,7 +181,7 @@ Add Photo Gallery with :py:mod:`collective.plonetruegallery`
 
 To advertise the conference we want to show some photos showing past conferences and the city where the conference is taking place.
 
-Instead of creating new contenttypes for galleries, it integrates with the Plone functionality to choose different views for folderish contenttypes.
+Instead of creating new content types for galleries, it integrates with the Plone functionality to choose different views for folderish content types.
 
 https://pypi.python.org/pypi/collective.plonetruegallery
 

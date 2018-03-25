@@ -148,7 +148,7 @@ Upon installing, Plone reads the file :file:`profiles/default/types/talk.xml` an
      </action>
     </object>
 
-Now our package has new configuration for Generic Setup. Generic Setup store the configiuration for the site in the folder :file:`profiles/`. This configuration is applied to your site upon installing the package. So, we'll need to reinstall it (if installed before).
+Now our package has new configuration for Generic Setup. Generic Setup store the configuration for the site in the folder :file:`profiles/`. This configuration is applied to your site upon installing the package. So, we'll need to reinstall it (if installed before).
 
 * Restart Plone.
 * Re-install ploneconf.site (deactivate and activate).
@@ -423,5 +423,5 @@ Summary
 -------
 
 * You can now create new content-types and store them in a reproduceable way
-* You installed the package to apoply the Generic Setup configuration
+* You installed the package to apply the Generic Setup configuration
 * You learned how to read and modify the content type schema in xml

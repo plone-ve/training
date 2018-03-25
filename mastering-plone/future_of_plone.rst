@@ -3,7 +3,7 @@
 The Future of Plone
 ===================
 
-* The Plone process, the various teams and and the Plone Community
+* The Plone process, the various teams and the Plone Community
 * Plips: https://github.com/plone/Products.CMFPlone/issues?q=is%3Aopen+is%3Aissue+label%3A%2203+type%3A+feature+%28plip%29%22
 * Plone 5.x
 * Plone 6

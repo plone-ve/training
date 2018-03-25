@@ -5,7 +5,7 @@ What's New in Plone 5 and 5.1
 
 Plone 5.0 was released in September 2015 and is the currently at version 5.0.8 main version if Plone. Plone 5 was a mayor release, that changed the content type framework, the user interface and the default design.
 
-Plone 5.1 will be released in Oktober 2017 and holds a couple of smaller improvements.
+Plone 5.1 will be released in October 2017 and holds a couple of smaller improvements.
 
 If you are already familiar with Plone 5 and 5.1 you can skip this section.
 

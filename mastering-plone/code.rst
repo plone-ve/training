@@ -160,7 +160,7 @@ It goes like this:
 * You realize that something or wrong in chapter 1
 * You branch off at the commit id for chapter 1
   `git checkout -b temp 123456`
-* You cange the code and do a commit.
+* You change the code and do a commit.
   `git commit -am 'Changed foo to also do bar'`
 * Switch to master and rebase on the branch holding the fix which will inject your new commit into master at the right place:
   `git checkout master`
