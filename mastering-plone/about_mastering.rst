@@ -33,7 +33,7 @@ The Mastering Plone Training was so far held publicly at the following occasions
 * Plone Conference 2014, Bristol
 * `June 2014, Caracas <https://twitter.com/hellfish2/status/476906131970068480>`_
 * `May 2014, Munich <https://www.starzel.de/blog/mastering-plone>`_
-* `PythonBrasil/Plone Conference 2013, Brasilia <http://2013.pythonbrasil.org.br/>`_
+* `PythonBrasil/Plone Conference 2013, Brasilia <https://2013.pythonbrasil.org.br/>`_
 * PyCon DE 2012, Leipzig
 * Plone Conference 2012, Arnheim
 * PyCon De 2011, Leipzig
@@ -134,7 +134,7 @@ presentation
 The readthedocs theme
 +++++++++++++++++++++
 
-We slightly tweaked `Read the Docs Theme <https://docs.readthedocs.io/en/latest/theme.html>`_
+We slightly tweaked `Read the Docs Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>`_
 in ``_static/custom.css`` so that it works better with projectors:
 
 - We start hiding the navigation bar much earlier so that it does not interfere with the text.

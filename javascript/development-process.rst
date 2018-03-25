@@ -15,7 +15,7 @@ It currently doesn't cover JavaScript code guidelines, but those were considered
 And luckily, similar to PEP 8 and the associated tooling (:program:`pep8`, :program:`pyflakes`, :program:`flake8`),
 JavaScript also has some guidelines - not official, but well respected.
 
-`Douglas Crockford <http://javascript.crockford.com/>`_ - besides of specifying the JSON standard - wrote the well known book "JavaScript the good parts".
+`Douglas Crockford <http://crockford.com/javascript/>`_ - besides of specifying the JSON standard - wrote the well known book "JavaScript the good parts".
 
 Out of that he developed the code linter `JSLint <http://www.jslint.com/>`_.
 
