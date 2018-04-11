@@ -121,7 +121,8 @@ In :file:`src` there is now a new folder :file:`ploneconf.site` and in there is 
     This holds the tests.
 
 :file:`browser/`
-    This directory is a python package (because it has a :file:`__init__.py`) and will by convention hold most things that are visible in the browser.
+    This directory is a python package (because it has a :file:`__init__.py`) and will by convention 
+    hold most things that are visible in the browser.
 
 :file:`browser/configure.zcml`
     The phonebook of the browser package. Here views, resources and overrides are registered.

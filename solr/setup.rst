@@ -393,6 +393,7 @@ It is advisable to to a sync or full-index from time to time if you work with th
 Additional information can be found in the Solr documentation:
 
 .. seealso:: https://lucene.apache.org/solr/guide/6_6/updatehandlers-in-solrconfig.html#UpdateHandlersinSolrConfig-commitWithin
+
 Exercise
 ========
 

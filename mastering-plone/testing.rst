@@ -176,7 +176,7 @@ Some advanced thing. Should you ever use an improved search system like collecti
 Think about what you want to check in your results. Do you want to make a one to one comparison? How would you handle UUIDs?
 
 A test creating 101 talks can be slow. It tests an edge case. There is a trick: create a new :py:class:`TestCase` Class, and set an attribute :py:attr:`level` with the value of 2.
-This test will then only be run when you run the tests with the argument :option:`-a 2` or :option:`--all`
+This test will then only be run when you run the tests with the argument :option:`bin/test -a` with the value 2 or :option:`bin/test --all`
 
 .. admonition:: Solution
    :class: toggle
@@ -209,6 +209,23 @@ The first method, with Phantomjs, will throw failures with our tests, unfortunat
 
 For debugging, you can run the test like this :command:`ROBOT_SELENIUM_RUN_ON_FAILURE=Debug bin/test --all`.
 This will stop the test at the first failure and you end up in an interactive shell where you can try various Robot Framework commands.
+
+
+Test script
+------------
+
+The testing script have some options as the following:
+
+.. program:: bin/test
+
+.. option:: --all
+
+   All testcases.
+
+.. option:: -a
+
+   Specify the value of 2 for this test.
+
 
 More information
 ----------------

@@ -234,7 +234,7 @@ If time explain:
 
 
 Skins (``portal_skins``)
-************************
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 In :guilabel:`portal_skins` we can change certain images, CSS-files and templates.
