@@ -18840,12 +18840,3 @@ msgstr ""
 "Las Skin templates están en desuso probablemente solo los encontrará "
 "cuando trabaje con complementos de Plone 4 o versiones anteriores y "
 "código de cliente."
-
-#~ msgid "9 Configuring and Customizing Plone “Through The Web”"
-#~ msgstr "9 Configurando y personalizando Plone \"a través de la Web\""
-
-#~ msgid "13 Dexterity I: “Through The Web”"
-#~ msgstr "13 Dexterity - Parte I: \"A través de la Web\""
-
-#~ msgid "20 Views II: A Default View for “Talk”"
-#~ msgstr "20 Views - Parte II: Una vista por defecto para la \"Charla\""

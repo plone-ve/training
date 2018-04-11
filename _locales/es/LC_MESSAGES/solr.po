@@ -2486,34 +2486,3 @@ msgstr ""
 #: ../solr/solr-testing.rst:76
 msgid "Write a custom test for a Solr feature used in Plone."
 msgstr ""
-
-#~ msgid ""
-#~ "`Linode.com <https://linode.com/>`_ is an "
-#~ "American privately owned virtual private "
-#~ "server provider company"
-#~ msgstr ""
-
-#~ msgid "https://cwiki.apache.org/confluence/display/solr/Apache+Solr+Reference+Guide"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "https://cwiki.apache.org/confluence/display/solr/UpdateHandlers+in+SolrConfig"
-#~ "#UpdateHandlersinSolrConfig-commitWithin"
-#~ msgstr ""
-
-#~ msgid "https://cwiki.apache.org/confluence/display/solr/Understanding+Analyzers%2C+Tokenizers%2C+and+Filters"
-#~ msgstr ""
-
-#~ msgid "https://cwiki.apache.org/confluence/display/solr/Faceting"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "``collective.solr`` out of the box: "
-#~ "``collective.solr`` comes with its own "
-#~ "search view. For the new version "
-#~ "6.0 it is based on `React "
-#~ "<https://facebook.github.io/react/>`_ and looks "
-#~ "similar to the Plone search view "
-#~ "with native facet support of Solr."
-#~ msgstr ""
-
