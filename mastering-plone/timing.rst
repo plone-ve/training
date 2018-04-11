@@ -17,18 +17,18 @@ Name    #Time#  Chapter
 **ts**  ?? min  6 The Features of Plone
 **ts**  ?? min  7 The Anatomy of Plone
 **pb**  ?? min  8 What’s New in Plone 5 and 5.1
-**pb**  ?? min  9 Configuring and Customizing Plone “Through The Web”
+**pb**  ?? min  9 Configuring and Customizing Plone "Through The Web"
 **pb**  ?? min  10 Theming
 **ts**  ?? min  11 Extending Plone
 **pb**  ?? min  12 Extend Plone With Add-On Packages
-**pb**  ?? min  13 Dexterity I: “Through The Web”
+**pb**  ?? min  13 Dexterity I: "Through The Web"
 **ts**  ?? min  14 Buildout I
 **pb**  ?? min  15 Write Your Own Add-Ons to Customize Plone
 **pb**  ?? min  16 Return to Dexterity: Moving contenttypes into Codetemplates
 **pb**  ?? min  17 Views I
 **pb**  ?? min  18 Page Templates
 **pb**  ?? min  19 Customizing Existing Templates
-**pb**  ?? min  20 Views II: A Default View for “Talk”
+**pb**  ?? min  20 Views II: A Default View for "Talk"
 **pb**  ?? min  21 Views III: A Talk List
 **ts**  ?? min  22 Testing in Plone
 **ts**  ?? min  23 Behaviors
@@ -78,7 +78,7 @@ Version 1.2
 **pb**  15 min  #14 Views I
 **pb**  90 min  #15 Zope Page Templates
 **pb**  60 min  #16 Customizing existing templates
-**pg**  60 min  #17 Views II: A default view for “talk”
+**pg**  60 min  #17 Views II: A default view for "talk"
 **pb**  90 min  #18 Views III: A Talk list
 **pg**  20 min  #19 Behaviors
 **pg**  20 min  #20 Writing Viewlets
@@ -130,7 +130,7 @@ Version 1.1
 **pb**  15 min  #14 Views I
 **pb**  60 min  #15 Zope Page Templates
 **pb**  60 min  #16 Customizing existing templates
-**pg**  30 min  #17 Views II: A default view for “talk”
+**pg**  30 min  #17 Views II: A default view for "talk"
 **pb**  60 min  #18 Views III: A Talk list
 **pb**  15 min  #19 Custom search
 **pg**  20 min  #20 Extending Dexterity-Types with Behaviors

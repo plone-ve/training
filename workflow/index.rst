@@ -27,7 +27,7 @@ It is a *states-and-transitions* system, which means that your workflow starts i
 
 When an object enters a particular state (including the initial state), the workflow is given a chance to update **permissions** on the object. 
 
-A workflow manages a number of permissions – typically the “core” CMF permissions like
+A workflow manages a number of permissions – typically the "core" CMF permissions like
 :guilabel:`View`, :guilabel:`Modify portal content` and so on – and will set those on the object at each state change.
 
 Note that this is event-driven, rather than a real-time security check: only by changing the state is the security information updated.

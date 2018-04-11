@@ -68,7 +68,7 @@ For even more flexibility you can create your own `dynamic vocabularies <https:/
 Accessing and displaying related items
 --------------------------------------
 
-One would think that it would be the easiest approach to simply use the render-method of the default-widget like we did in the chapter "Views II: A Default View for “Talk”". Sadly that is wrong. Adding the approriate code to te template:
+One would think that it would be the easiest approach to simply use the render-method of the default-widget like we did in the chapter "Views II: A Default View for 'Talk'". Sadly that is wrong. Adding the approriate code to te template:
 
 ..  code-block::html
 
