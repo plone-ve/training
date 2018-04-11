@@ -1,100 +1,138 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Plone Training package.
-# 
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Plone 5 Training
+# package.
 # Translators:
 # hellfish2 <hellfish2@gmail.com>, 2014
-# hellfish2 <hellfish2@gmail.com>, 2014
-# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2015
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2014-2016,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 12:20-0400\n"
-"PO-Revision-Date: 2016-11-04 15:00+0000\n"
+"POT-Creation-Date: 2018-03-19 00:44-0400\n"
+"PO-Revision-Date: 2018-04-03 20:23-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/plone/plone5-training/language/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: es\n"
 "Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../index.rst:3
 msgid "Plone Training"
-msgstr ""
+msgstr "Entrenamiento en Plone"
 
 #: ../index.rst:5
-msgid ""
-"A collection of trainings developed and created by the Plone Community."
+msgid "A collection of trainings developed and created by the Plone Community."
 msgstr ""
+"Una colección de diferentes entrenamientos, desarrollado y creado por la "
+"comunidad Plone."
 
-#: ../index.rst:13
+#: ../index.rst:32
 msgid "Trainings"
-msgstr ""
+msgstr "Entrenamientos"
 
-#: ../index.rst:16
+#: ../index.rst:38
 msgid ":ref:`mastering_plone-label`"
-msgstr ""
+msgstr ":ref:`mastering_plone-label`"
 
-#: ../index.rst:16
+#: ../index.rst:35
 msgid ""
-"Mastering Plone is a training intended for people who are new to Plone or "
-"want to learn about the best practices of Plone development. In the course "
-"of the training you will learn how to build a custom website with plenty of "
-"features. Html and python-knowledge is required."
+"Mastering Plone is a training intended for people who are new to Plone or"
+" want to learn about the best practices of Plone development."
 msgstr ""
+"Maestría en Plone es una entrenamiento pensado para las personas quienes "
+"son nuevas en Plone o quieran aprender acerca de las mejores prácticas "
+"del desarrollo en Plone."
 
-#: ../index.rst:19
+#: ../index.rst:37
+msgid ""
+"In the course of the training you will learn how to build a custom "
+"website with plenty of features. HTML and python-knowledge is required."
+msgstr ""
+"En el curso de el entrenamiento usted aprenderá a como construir un sitio"
+" web personalizado con plenitud de características. HTML y conocimiento "
+"en python es requerido."
+
+#: ../index.rst:42
 msgid ":doc:`ttw/index`"
-msgstr ""
+msgstr ":doc:`ttw/index`"
 
-#: ../index.rst:19
+#: ../index.rst:41
 msgid ""
-"Create custom content types, a design for a website, layouts for homepages "
-"and content types, and custom application logic. All in the browser!"
+"Create custom content types, a design for a website, layouts for home "
+"pages and content types, and custom application logic. All in the "
+"browser!"
 msgstr ""
+"Crear tipo de contenidos personalizados, un diseño para un sitio web, "
+"portadas para sus paginas de inicio y tipos de contenidos, y lógica de "
+"aplicación personalizada. ¡Todo desde el navegador web!"
 
-#: ../index.rst:22
+#: ../index.rst:45
 msgid ":doc:`theming/index`"
-msgstr ""
+msgstr ":doc:`theming/index`"
 
-#: ../index.rst:22
+#: ../index.rst:45
 msgid "Create a Diazo-based theme as a Plone add-on."
-msgstr ""
+msgstr "Cree un tema basado en Diazo como complemento de Plone."
 
-#: ../index.rst:25
+#: ../index.rst:48
 msgid ":doc:`workflow/index`"
-msgstr ""
+msgstr ":doc:`workflow/index`"
 
-#: ../index.rst:25
+#: ../index.rst:48
 msgid "How to create and make optimum use of custom Plone workflows"
-msgstr ""
+msgstr "Cómo crear y optimizar el uso de flujos de trabajo personalizados de Plone"
 
-#: ../index.rst:28
+#: ../index.rst:54
 msgid ":doc:`javascript/index`"
-msgstr ""
+msgstr ":doc:`javascript/index`"
 
-#: ../index.rst:28
+#: ../index.rst:51
 msgid ""
-"Learn best practices in Javascript development, how to develop and test your"
-" own patterns, and how to integrate your custom Javascript applications with"
-" Plone. Technologies will include NPM, Grunt, Patternslib and React."
+"Learn best practices in JavaScript development, how to develop and test "
+"your own patterns, and how to integrate your custom JavaScript "
+"applications with Plone."
 msgstr ""
+"Aprender las mejores prácticas en el desarrollo Javascript, como "
+"desarrollar y probar sus propios patrones, y como integrar sus propias "
+"aplicaciones Javascript con Plone."
 
-#: ../index.rst:31
+#: ../index.rst:54
+msgid "Technologies will include NPM, Grunt, Patternslib and React."
+msgstr ""
+"Tecnologías las cuales serán incluidas son NPM, Grunt, Patternslib y "
+"React."
+
+#: ../index.rst:57
 msgid ":doc:`deployment/index`"
-msgstr ""
+msgstr ":doc:`deployment/index`"
 
-#: ../index.rst:31
+#: ../index.rst:57
 msgid ""
-"How to automate deployment of Plone servers, whether it’s one server or 100."
+"How to automate deployment of Plone servers, whether it’s one server or "
+"100."
 msgstr ""
+"Cómo automatizar el despliegue de servidores Plone, ya sea un servidor o "
+"100."
 
-#: ../index.rst:36
-msgid ":doc:`solr-training/index`"
-msgstr ""
+#: ../index.rst:60
+msgid ":doc:`solr/index`"
+msgstr ":doc:`solr/index`"
 
-#: ../index.rst:34
+#: ../index.rst:60
 msgid "How to add enterprise-grade search to your Plone site."
-msgstr ""
+msgstr "Cómo agregar una búsqueda de nivel empresarial a su sitio de Plone."
+
+#: ../index.rst:62
+msgid ":doc:`angular/index`"
+msgstr ":doc:`angular/index`"
+
+#: ../index.rst:63
+msgid "Building Angular 4 apps using the Plone REST API."
+msgstr "Construir aplicaciones Angular 4 usando el Plone REST API."

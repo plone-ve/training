@@ -1,0 +1,1140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Plone 5 Training
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone 5 Training 2017\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-19 05:42-0400\n"
+"PO-Revision-Date: 2018-04-03 19:20-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../angular/advanced.rst:2
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../angular/advanced.rst:4
+msgid "To be completed"
+msgstr ""
+
+#: ../angular/advanced.rst:7
+msgid "Moving Logic In A Service"
+msgstr ""
+
+#: ../angular/advanced.rst:10
+msgid "Reactive Programming With RxJS"
+msgstr ""
+
+#: ../angular/advanced.rst:13
+msgid "Enabling Offline & PWA"
+msgstr ""
+
+#: ../angular/advanced.rst:17
+msgid "HTTPS is mandatory."
+msgstr "HTTPS es obligado."
+
+#: ../angular/advanced.rst:20
+msgid "SEO And Server-side Rendering"
+msgstr ""
+
+#: ../angular/advanced.rst:22
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: ../angular/advanced.rst:24
+msgid "Title and meta tags"
+msgstr ""
+
+#: ../angular/advanced.rst:26
+msgid "Angular Universal"
+msgstr "Angular Universal"
+
+#: ../angular/aggregating.rst:2
+msgid "Displaying News On The Home Page"
+msgstr ""
+
+#: ../angular/aggregating.rst:4
+msgid "We want to display the 3 most recent news on the home page."
+msgstr ""
+
+#: ../angular/aggregating.rst:6
+msgid "First we need a Home component. Let's initialize it properly."
+msgstr ""
+
+#: ../angular/aggregating.rst:8 ../angular/authentication.rst:36
+#: ../angular/footer.rst:30
+msgid "Solution"
+msgstr "Solución"
+
+#: ../angular/aggregating.rst:11
+msgid "We use the CLI:"
+msgstr "Nosotros usamos el CLI:"
+
+#: ../angular/aggregating.rst:17
+msgid "Then we add  ``HomeComponent`` in  ``entryComponents`` in the module."
+msgstr ""
+
+#: ../angular/aggregating.rst:19
+msgid "We declare it as a view for the ``Plone Site`` type in ``AppComponent``:"
+msgstr ""
+
+#: ../angular/aggregating.rst:30
+msgid ""
+"We want this component to display the 3 most recent news. The "
+"``resource`` service from ``@plone/restapi-angular`` provides a ``find`` "
+"method to do that."
+msgstr ""
+
+#: ../angular/aggregating.rst:33
+msgid "Here is the ``HomeComponent`` implementation:"
+msgstr ""
+
+#: ../angular/aggregating.rst:64
+msgid "We could display those news with a basic layout like this:"
+msgstr ""
+
+#: ../angular/aggregating.rst:74
+msgid "Titles are not enough, it would be better to display images."
+msgstr ""
+
+#: ../angular/aggregating.rst:76
+msgid ""
+"The ``find`` method returns \"light\" search results, with only few "
+"metadata."
+msgstr ""
+
+#: ../angular/aggregating.rst:78
+msgid ""
+"By adding the ``fullobjects: true`` parameter, it will retrieve the "
+"actual News Item objects, including the image:"
+msgstr ""
+
+#: ../angular/aggregating.rst:104
+msgid "It does work, but what about turning it into a nice slideshow?"
+msgstr ""
+
+#: ../angular/aggregating.rst:106
+msgid ""
+"First let's implement the logic. We need to manage the currently "
+"displayed news, and we need the news to provide a ``state`` property set "
+"to ``'active'`` or ``'inactive'``."
+msgstr ""
+
+#: ../angular/aggregating.rst:150
+msgid "Now let's try it with our basic layout:"
+msgstr ""
+
+#: ../angular/aggregating.rst:160
+msgid "Good, now let's render it with animations."
+msgstr ""
+
+#: ../angular/aggregating.rst:162
+msgid "We need to import the animation module in ``app.module.ts``:"
+msgstr ""
+
+#: ../angular/aggregating.rst:173
+msgid "We need to declare the states and transition in the component decorator:"
+msgstr ""
+
+#: ../angular/aggregating.rst:207
+msgid "And we need update the markup in ``home.component.html``:"
+msgstr ""
+
+#: ../angular/aggregating.rst:227
+msgid "... and the style in :file:`home.component.scss`:"
+msgstr ""
+
+#: ../angular/aggregating.rst:274
+msgid "And we are done!"
+msgstr ""
+
+#: ../angular/authentication.rst:2
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: ../angular/authentication.rst:4
+msgid "Let's add a login/logout link in the top-right corner."
+msgstr ""
+
+#: ../angular/authentication.rst:6
+msgid ""
+"In our ``AppComponent``, we add a boolean property to manage the login "
+"status, and we use the ``authentication`` service to set its value:"
+msgstr ""
+
+#: ../angular/authentication.rst:24
+msgid ""
+"Now, if we are not logged in yet, we display in ``app.component.html`` a "
+"link to traverse to the ``@@login`` view:"
+msgstr ""
+
+#: ../angular/authentication.rst:34
+msgid "Let's implement the logout link."
+msgstr ""
+
+#: ../angular/authentication.rst:39
+msgid ""
+"We add a second link with an output bound to the ``click`` event, which "
+"will call the ``logout()`` method of our component."
+msgstr ""
+
+#: ../angular/authentication.rst:51
+msgid "So let's define the ``logout()`` method:"
+msgstr ""
+
+#: ../angular/authentication.rst:59
+msgid ""
+"Now if we create private contents in Plone, they won't show unless we are"
+" logged in."
+msgstr ""
+
+#: ../angular/configuration.rst:2
+msgid "Managing The Plone Configuration From The Angular Project"
+msgstr ""
+
+#: ../angular/configuration.rst:4
+msgid ""
+"We have been customizing our Plone backend instance in order to comply "
+"with our project needs."
+msgstr ""
+
+#: ../angular/configuration.rst:6
+msgid ""
+"Everything has been done through the Plone web interface, which is handy "
+"but not safe (what if our server crashes and we need to build a new one "
+"with the same configuration, what if we want to setup a development "
+"instance, how to manage the changes, etc.)."
+msgstr ""
+
+#: ../angular/configuration.rst:10
+msgid ""
+"It would be much better to manage the entire Plone configuration from our"
+" Angular project just like the rest of our code."
+msgstr ""
+
+#: ../angular/configuration.rst:13
+msgid "Fortunately, two tools will help us to achieve that:"
+msgstr ""
+
+#: ../angular/configuration.rst:15
+msgid ""
+"`collective.themesitesetup "
+"<https://github.com/collective/collective.themesitesetup/>`_ allowing to "
+"manage a Plone configuration as part of a Plone theme,"
+msgstr ""
+
+#: ../angular/configuration.rst:16
+msgid ""
+"`plonetheme-upload <https://github.com/datakurre/plonetheme-upload>`_ "
+"allowing to push a Plone theme from a local NPM project to a remote Plone"
+" backend."
+msgstr ""
+
+#: ../angular/configuration.rst:19
+msgid "Creating A Theme To Handle The Configuration"
+msgstr ""
+
+#: ../angular/configuration.rst:23
+msgid ""
+"``collective.themesitesetup`` is deployed by default on our Heroku "
+"instance."
+msgstr ""
+
+#: ../angular/configuration.rst:25
+msgid "If you use your own backend, you will need to deploy it."
+msgstr ""
+
+#: ../angular/configuration.rst:27
+msgid ""
+"We need to go to our Plone backend, then in :menuselection:`Site Setup "
+"--> Theming` we create a new theme. Let's name it ``plonecustom`` for "
+"instance."
+msgstr ""
+
+#: ../angular/configuration.rst:30
+msgid ""
+"As we do not really want to customize our backend theme, it will be very "
+"simple. The only file we will need here for now is ``manifest.cfg``. It "
+"will just be a copy of our default Barceloneta manifest:"
+msgstr ""
+
+#: ../angular/configuration.rst:54
+msgid ""
+"As you can see, we have added an extra section named "
+"``[theme:genericsetup]``. That's how collective.themesitesetup gets "
+"enabled."
+msgstr ""
+
+#: ../angular/configuration.rst:57
+msgid "Now we need to save our current Plone configuration into our theme."
+msgstr ""
+
+#: ../angular/configuration.rst:59
+msgid ""
+"We need to use the ``collective.themesitesetup`` export feature available"
+" here: http://whatever.herokuapp.com/Plone/++theme++plonecustom/@@export-"
+"site-setup."
+msgstr ""
+
+#: ../angular/configuration.rst:62
+msgid ""
+"Obviously we do not need to export everything, in our current case we "
+"just want to get the comment feature related configuration and the "
+"content type configuration, so we just select ``typeinfo`` and "
+"``plone.app.registry``."
+msgstr ""
+
+#: ../angular/configuration.rst:64
+msgid ""
+"After clicking on ``Export``, our theme will contain a new folder named "
+"``install``."
+msgstr ""
+
+#: ../angular/configuration.rst:66
+msgid ""
+"Now we can download our theme from the Theming control panel and extract "
+"the resulting .zip file in our Angular project which now contains a "
+"folder named ``./plonecustom``."
+msgstr ""
+
+#: ../angular/configuration.rst:69
+msgid "Pushing The Plone Configuration From The Angular Project"
+msgstr ""
+
+#: ../angular/configuration.rst:71
+msgid "Let's add ``plonetheme-upload`` to our development dependencies:"
+msgstr ""
+
+#: ../angular/configuration.rst:77
+msgid "And let's add a new script in our :file:`package.json`:"
+msgstr ""
+
+#: ../angular/configuration.rst:86
+msgid ""
+"And now we can push our local ``./plonecustom`` to our Plone backend "
+"using the following command:"
+msgstr ""
+
+#: ../angular/deploying.rst:2
+msgid "Deployment"
+msgstr "Despliegue"
+
+#: ../angular/deploying.rst:4
+msgid ""
+"The development bundle served by ``ng serve`` is not optimized for "
+"production."
+msgstr ""
+
+#: ../angular/deploying.rst:6
+msgid "To get a production-ready bundle, we use the following command:"
+msgstr ""
+
+#: ../angular/deploying.rst:12
+msgid "The resulting bundle is generated in the ``./dist`` folder."
+msgstr ""
+
+#: ../angular/deploying.rst:14
+msgid "It is just a set of static files and can be served by any HTTP server."
+msgstr ""
+
+#: ../angular/deploying.rst:16
+msgid ""
+"Let's say we deploy it on http://example.com and we use Nginx to serve "
+"the files."
+msgstr ""
+
+#: ../angular/deploying.rst:18
+msgid ""
+"If we visit http://example.com, we will see our home page, and if we "
+"click on `News`, we will obtain http://example.com/news thanks to "
+"angular-traversal."
+msgstr ""
+
+#: ../angular/deploying.rst:21
+msgid ""
+"But if decide to refresh the page at this point, we will get a 404, "
+"because our Nginx server will search for ``/news/index.html`` which does "
+"not exist."
+msgstr ""
+
+#: ../angular/deploying.rst:23
+msgid "So we need to fix our Nginx VHOST to preserve the client-side routing::"
+msgstr ""
+
+#: ../angular/deploying.rst:29
+msgid ""
+"This way, any existing file (like ``index.html``, "
+"``vendor.xxx.bundle.js``, etc.) is served directly, but for anything "
+"else, we just return ``index.html`` so the client-side routing will take "
+"over."
+msgstr ""
+
+#: ../angular/footer.rst:2
+msgid "Adding Quick Links In the Footer"
+msgstr ""
+
+#: ../angular/footer.rst:4
+msgid ""
+"We want to display useful links in the footer, and each link should have "
+"an icon."
+msgstr ""
+
+#: ../angular/footer.rst:6
+msgid "We want those icons to be managed in Plone."
+msgstr ""
+
+#: ../angular/footer.rst:9
+msgid "Customizing The Link Content Type"
+msgstr ""
+
+#: ../angular/footer.rst:11
+msgid "We will use the Bootstrap font icon."
+msgstr ""
+
+#: ../angular/footer.rst:13
+msgid ""
+"We need to customize the Link default content type so it can handle an "
+"icon identifier."
+msgstr ""
+
+#: ../angular/footer.rst:15
+msgid ""
+"Go to the Plone site setup page / Dexterity  content types, and select "
+"Link."
+msgstr ""
+
+#: ../angular/footer.rst:17
+msgid "Then in the Fields tab, we add a new textline field named 'icon'."
+msgstr ""
+
+#: ../angular/footer.rst:19
+msgid ""
+"Now we can go back to the Plone site home, add a new folder named "
+"Quicklinks, and add few links."
+msgstr ""
+
+#: ../angular/footer.rst:21
+msgid ""
+"For each of them, we will choose an icon name from "
+"https://getbootstrap.com/docs/3.3/components/#glyphicons-glyphs"
+msgstr ""
+
+#: ../angular/footer.rst:23
+msgid "And we will exclude the Quicklinks folder from navigation."
+msgstr ""
+
+#: ../angular/footer.rst:26
+msgid "Displaying The Links"
+msgstr ""
+
+#: ../angular/footer.rst:28
+msgid "Let's implement the Footer component able to display those links."
+msgstr ""
+
+#: ../angular/footer.rst:33
+msgid "First we generate the component:"
+msgstr ""
+
+#: ../angular/footer.rst:39
+msgid ""
+"We do not need to add it to ``entryComponents`` in the module as it is "
+"not a traversing component."
+msgstr ""
+
+#: ../angular/footer.rst:41
+msgid "We get the links using the ``resource`` service:"
+msgstr ""
+
+#: ../angular/footer.rst:43
+msgid "``src/app/footer/footer.component.ts``:"
+msgstr "``src/app/footer/footer.component.ts``:"
+
+#: ../angular/footer.rst:72
+msgid ":file:`src/app/footer/footer.component.html`:"
+msgstr ":file:`src/app/footer/footer.component.html`:"
+
+#: ../angular/footer.rst:87
+msgid ":file:`src/app/footer/footer.component.scss`:"
+msgstr ":file:`src/app/footer/footer.component.scss`:"
+
+#: ../angular/footer.rst:118
+msgid ":file:`src/app/app.component.html`:"
+msgstr ""
+
+#: ../angular/index.rst:5
+msgid "Angular SDK for Plone"
+msgstr "Angular SDK para Plone"
+
+#: ../angular/index.rst
+msgid "About"
+msgstr "Acerca de"
+
+#: ../angular/index.rst:7
+msgid "Building Angular 4 apps using the Plone REST API."
+msgstr ""
+
+#: ../angular/index.rst
+msgid "Level"
+msgstr "Nivel"
+
+#: ../angular/index.rst:8
+msgid "All levels"
+msgstr "Todos los niveles"
+
+#: ../angular/index.rst:12
+msgid ""
+"This training is meant to be used in a course or read and worked through "
+"by an individual user. Instructors should note that this makes it more "
+"discursive than it would be if it was only meant for classroom use."
+msgstr ""
+
+#: ../angular/index.rst:15
+msgid ""
+"Many sections may be zipped through in a class, noting to students that "
+"the full text is available for review."
+msgstr ""
+
+#: ../angular/installing.rst:2
+msgid "Installing The Development Environment"
+msgstr ""
+
+#: ../angular/installing.rst:4
+msgid ""
+"First, we need NodeJS 6.10+. We recommend to use nvm to install NodeJS "
+"instead of using your OS-based version."
+msgstr ""
+
+#: ../angular/installing.rst:6
+msgid "Install nvm on your system using the instructions and provided script at:"
+msgstr ""
+
+#: ../angular/installing.rst:8
+msgid "https://github.com/creationix/nvm#install-script"
+msgstr "https://github.com/creationix/nvm#install-script"
+
+#: ../angular/installing.rst:10
+msgid "Using nvm we will look up the latest lts version of NodeJS and install it"
+msgstr ""
+
+#: ../angular/installing.rst:18
+msgid ""
+"NodeJS is provided with npm, its package manager, we will use it to "
+"install the Angular CLI (ng)"
+msgstr ""
+
+#: ../angular/installing.rst:24
+msgid "``-g`` means the CLI will be available globally in our nvm instance."
+msgstr ""
+
+#: ../angular/installing.rst:27
+msgid "Initializing A New Project"
+msgstr ""
+
+#: ../angular/installing.rst:29
+msgid "The CLI allows to initialize a project:"
+msgstr ""
+
+#: ../angular/installing.rst:35
+msgid "``--style=scss`` indicates we will use SCSS for stylesheets."
+msgstr ""
+
+#: ../angular/installing.rst:37
+msgid ""
+"If we inspect our newly created ``./training``, we see a default Angular "
+"project structure:"
+msgstr ""
+
+#: ../angular/installing.rst:39
+msgid "the sources are managed in the ``./src`` folder,"
+msgstr ""
+
+#: ../angular/installing.rst:40
+msgid "the dependencies are declared in ``package.json``,"
+msgstr ""
+
+#: ../angular/installing.rst:41
+msgid "and they are installed in the ``./node_modules`` folder."
+msgstr ""
+
+#: ../angular/installing.rst:43
+msgid "We can serve our project locally using the CLI."
+msgstr ""
+
+#: ../angular/installing.rst:50
+msgid "The result can be seen on http://localhost:4200."
+msgstr ""
+
+#: ../angular/installing.rst:52
+msgid ""
+"This development server offers the different features we can expect for a"
+" convenient frontend development environment like autoreload and "
+"sourcemaps."
+msgstr ""
+
+#: ../angular/installing.rst:55
+msgid "The CLI also allows to run the tests:"
+msgstr ""
+
+#: ../angular/overriding.rst:2
+msgid "Override A default Plone Component Template"
+msgstr ""
+
+#: ../angular/overriding.rst:4
+msgid "We need to change the template of the global navigation."
+msgstr ""
+
+#: ../angular/overriding.rst:6
+msgid "First we need to generate a new component"
+msgstr ""
+
+#: ../angular/overriding.rst:12
+msgid ""
+"The CLI creates a new folder containing the component implementation, and"
+" it declares it in ``src/app/app.module.ts``."
+msgstr ""
+
+#: ../angular/overriding.rst:14
+msgid "Our global navigation needs to inherit from Plone's own:"
+msgstr ""
+
+#: ../angular/overriding.rst:16
+msgid "``src/app/global-navigation/global-navigation.component.ts``:"
+msgstr "``src/app/global-navigation/global-navigation.component.ts``:"
+
+#: ../angular/overriding.rst:30
+msgid "And now we can set the template we need:"
+msgstr ""
+
+#: ../angular/overriding.rst:32
+msgid "``src/app/global-navigation/global-navigation.component.html``:"
+msgstr "``src/app/global-navigation/global-navigation.component.html``:"
+
+#: ../angular/overriding.rst:55
+msgid ""
+"Style it in :file:`src/app/global-navigation/global-"
+"navigation.component.scss`:"
+msgstr ""
+
+#: ../angular/overriding.rst:144
+msgid "Update The App Component Markup"
+msgstr ""
+
+#: ../angular/overriding.rst:146
+msgid ""
+"Now we can fix the main component markup in "
+"``src/app/app.component.html``:"
+msgstr ""
+
+#: ../angular/overriding.rst:170
+msgid ""
+"Note we use our custom global navigation component (``app-global-"
+"navigation``) but we keep the Plone default breadcrumbs component "
+"(``plone-breadcrumbs``) as its markup is fine."
+msgstr ""
+
+#: ../angular/overriding.rst:173
+msgid ""
+"We need to style it a little bit, let's add that in "
+":file:`src/styles.scss`:"
+msgstr ""
+
+#: ../angular/sdk.rst:2
+msgid "What Is The Plone Angular SDK"
+msgstr ""
+
+#: ../angular/sdk.rst:4
+msgid ""
+"The `Plone Angular SDK <https://www.npmjs.com/package/@plone/restapi-"
+"angular>`_ is an Angular package (named ``@plone/restapi-angular`` as it "
+"belongs to the Plone NPM organization)."
+msgstr ""
+
+#: ../angular/sdk.rst:7
+msgid ""
+"It is a high-level integration layer between Angular and the `Plone REST "
+"API <https://plonerestapi.readthedocs.io/en/latest/introduction.html>`_."
+msgstr ""
+
+#: ../angular/sdk.rst:9
+msgid "It provides:"
+msgstr ""
+
+#: ../angular/sdk.rst:11
+msgid "services to dialog with the Plone backend,"
+msgstr ""
+
+#: ../angular/sdk.rst:12
+msgid ""
+"ready-to-use components (for instance ``<plone-navigation>`` or ``<plone-"
+"breadcrumbs>``),"
+msgstr ""
+
+#: ../angular/sdk.rst:13
+msgid "traversing."
+msgstr ""
+
+#: ../angular/sdk.rst:16
+msgid "Traversing"
+msgstr ""
+
+#: ../angular/sdk.rst:18
+msgid ""
+"Traversing is a key feature when working with a CMS. Angular core, like "
+"the other major JS frameworks, uses routing. Routing works perfectly for "
+"applications, but it is not suitable for web sites (as the site structure"
+" is not predictable)."
+msgstr ""
+
+#: ../angular/sdk.rst:22
+msgid ""
+"The Traversal service implemented by `Angular traversal "
+"<https://github.com/makinacorpus/angular-traversal>`_ replaces the "
+"default Angular routing."
+msgstr ""
+
+#: ../angular/sdk.rst:24
+msgid ""
+"It uses the current location to determine the backend resource (the "
+"**context**) and the desired rendering (the **view**)."
+msgstr ""
+
+#: ../angular/sdk.rst:26
+msgid ""
+"The view is the last part of the current location and is prefixed by "
+"``@@``. If no view is specified, it defaults to ``view``."
+msgstr ""
+
+#: ../angular/sdk.rst:29
+msgid "The rest of the location is the resource URL."
+msgstr ""
+
+#: ../angular/sdk.rst:31
+msgid "Example: ``/news/what-about-traversal/@@edit``"
+msgstr "Ejemplo: ``/news/what-about-traversal/@@edit``"
+
+#: ../angular/sdk.rst:33
+msgid ""
+"When traversing to the location, the resource will be requested from the "
+"backend, and the result will become the current context, accessible from "
+"any component in the app."
+msgstr ""
+
+#: ../angular/sdk.rst:36
+msgid ""
+"According to the value of the ``@type`` property of the context, the "
+"appropriate component will be used to render the view."
+msgstr ""
+
+#: ../angular/sdk.rst:40
+msgid ""
+"We can also use another criteria than ``@type`` by registring a custom "
+"marker (the package comes with an ``InterfaceMarker`` which marks context"
+" according the ``interfaces`` attribute, which is supposed to be a list."
+msgstr ""
+
+#: ../angular/sdk.rst:44
+msgid "(At the moment, the Plone REST API does not expose this attribute)."
+msgstr ""
+
+#: ../angular/sdk.rst:47
+msgid "A New Integration Approach For Plone"
+msgstr ""
+
+#: ../angular/sdk.rst:49
+msgid ""
+"Creating pure frontend applications to publish Plone-managed information "
+"rather than customizing the Plone web interface has several benefits:"
+msgstr ""
+
+#: ../angular/sdk.rst:51
+msgid ""
+"those web sites look better and fit the expectations of today's visitors "
+"and customers,"
+msgstr ""
+
+#: ../angular/sdk.rst:52
+msgid ""
+"they are faster and can work offline, which makes them more suitable for "
+"mobile,"
+msgstr ""
+
+#: ../angular/sdk.rst:53
+msgid ""
+"frontend development is more approachable than Plone development, and a "
+"constantly growing amount of web developers master this kind of "
+"technology."
+msgstr ""
+
+#: ../angular/summary.rst:2
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../angular/summary.rst:4
+msgid "In this training you will:"
+msgstr ""
+
+#: ../angular/summary.rst:6
+msgid "Create a static site with Angular,"
+msgstr ""
+
+#: ../angular/summary.rst:7
+msgid "Display contents stored in Plone and retrieved using the REST API,"
+msgstr ""
+
+#: ../angular/summary.rst:8
+msgid "Use the Angular default Plone components and views,"
+msgstr ""
+
+#: ../angular/summary.rst:9
+msgid "Extend those components."
+msgstr ""
+
+#: ../angular/summary.rst:11
+msgid "Topic covered:"
+msgstr ""
+
+#: ../angular/summary.rst:13
+msgid "Plone Angular SDK."
+msgstr ""
+
+#: ../angular/theming.rst:2
+msgid "Integrating A Theme"
+msgstr ""
+
+#: ../angular/theming.rst:5
+msgid "Integrate Bootstrap"
+msgstr ""
+
+#: ../angular/theming.rst:7
+msgid "Add the bootstrap dependency:"
+msgstr ""
+
+#: ../angular/theming.rst:13
+msgid "Create a file to manage our SCSS variables: ``src/variables.scss``"
+msgstr ""
+
+#: ../angular/theming.rst:20
+msgid "Import Bootstrap in our main stylesheet ``src/styles.scss``"
+msgstr ""
+
+#: ../angular/using.rst:2
+msgid "Using And Customizing The Angular Plone Components"
+msgstr ""
+
+#: ../angular/using.rst:5
+msgid "Preparing The Plone Backend"
+msgstr ""
+
+#: ../angular/using.rst:7
+msgid ""
+"We need a Plone server running the latest version of `plone.restapi "
+"<http://plonerestapi.readthedocs.io>`_ ."
+msgstr ""
+
+#: ../angular/using.rst:9
+msgid ""
+"We will use a `Plone pre-configured Heroku instance "
+"<https://github.com/collective/training-sandbox>`_."
+msgstr ""
+
+#: ../angular/using.rst:11
+msgid ""
+"Once deployed, create a Plone site, then go to the :menuselection:`Site "
+"Setup --> Add-ons` and :guilabel:`Install` Plone RESTAPI."
+msgstr ""
+
+#: ../angular/using.rst:13
+msgid ""
+"It will also be helpful for development to turn off `CORS "
+"<https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_. There "
+"are many ways to do that.  For example, in Google Chrome we can install "
+"an `extension <https://chrome.google.com/webstore/detail/allow-control-"
+"allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-"
+"launcher>`_ that takes care of it. For Firefox you can use the `CORS "
+"Everywhere addon <https://addons.mozilla.org/en-US/firefox/addon/cors-"
+"everywhere/>`_"
+msgstr ""
+
+#: ../angular/using.rst:17
+msgid "Adding The @plone/restapi-angular Dependency"
+msgstr ""
+
+#: ../angular/using.rst:23
+msgid ""
+"The ``@plone/restapi-angular`` and its own dependencies have been "
+"installed in our ``./node_modules`` folder."
+msgstr ""
+
+#: ../angular/using.rst:25
+msgid ""
+"the ``--save`` option ensures the dependency is added in our "
+"``package.json``."
+msgstr ""
+
+#: ../angular/using.rst:27
+msgid "We are now ready to use the Plone Angular SDK."
+msgstr ""
+
+#: ../angular/using.rst:30
+msgid "Connecting The Project To The Plone Backend"
+msgstr ""
+
+#: ../angular/using.rst:32
+msgid ""
+"In ``src/app/app.module.ts``, load the Plone module and set the backend "
+"URL:"
+msgstr ""
+
+#: ../angular/using.rst:57
+msgid ""
+"Make sure to use ``http`` and not ``https`` because the Heroku web "
+"configuration is not set up properly for that."
+msgstr ""
+
+#: ../angular/using.rst:59
+msgid ""
+"We have to set up the default Plone views for traversal in "
+"``src/app/app.component.ts``:"
+msgstr ""
+
+#: ../angular/using.rst:78
+msgid ""
+"We need to insert the Plone view in our main page. Let's change "
+"``src/app/app.component.html`` this way:"
+msgstr ""
+
+#: ../angular/using.rst:84
+msgid "Now, traversing is active, so we can visit the following links:"
+msgstr ""
+
+#: ../angular/using.rst:86
+msgid "``http://localhost:4200/front-page``"
+msgstr "``http://localhost:4200/front-page``"
+
+#: ../angular/using.rst:87
+msgid "``http://localhost:4200/news``"
+msgstr "``http://localhost:4200/news``"
+
+#: ../angular/using.rst:88
+msgid "``http://localhost:4200/events``"
+msgstr "``http://localhost:4200/events``"
+
+#: ../angular/using.rst:90
+msgid ""
+"Despite our very bad looking rendering, any content stored in our Plone "
+"backend can be requested locally."
+msgstr ""
+
+#: ../angular/using.rst:92
+msgid "The same goes for default views, like:"
+msgstr ""
+
+#: ../angular/using.rst:94
+msgid "``http://localhost:4200/@@sitemap``"
+msgstr "``http://localhost:4200/@@sitemap``"
+
+#: ../angular/using.rst:95
+msgid "``http://localhost:4200/news/@@search?SearchableText=News``"
+msgstr "``http://localhost:4200/news/@@search?SearchableText=News``"
+
+#: ../angular/using.rst:97
+msgid ""
+"We are also able to use Plone components provided by the SDK. Let's "
+"change again ``src/app.component.html``:"
+msgstr ""
+
+#: ../angular/using.rst:106
+msgid ""
+"Now we get the main navigation bar and the breadcrumbs. Note the "
+"navigation is performed client-side (the page is not reloaded)."
+msgstr ""
+
+#: ../angular/views.rst:2
+msgid "Creating A Custom View For The Talk Content Type"
+msgstr ""
+
+#: ../angular/views.rst:5
+msgid "Create The Talk Content Type In The Backend"
+msgstr ""
+
+#: ../angular/views.rst:7
+msgid ""
+"We need to go to our Plone backend, then in :menuselection:`Site Setup "
+"--> Dexterity content types`, we add a new content type named Talk."
+msgstr ""
+
+#: ../angular/views.rst:10
+msgid "We add a text field named ``speaker``."
+msgstr ""
+
+#: ../angular/views.rst:12
+msgid "And we select the following behaviors:"
+msgstr ""
+
+#: ../angular/views.rst:14
+msgid "Lead image"
+msgstr ""
+
+#: ../angular/views.rst:15
+msgid "Rich text"
+msgstr ""
+
+#: ../angular/views.rst:17
+msgid ""
+"Then we create a new folder named \"Talks\" where we add a few talks, and"
+" we publish them all (including the folder)."
+msgstr ""
+
+#: ../angular/views.rst:20
+msgid "Create A View Component For Talks"
+msgstr ""
+
+#: ../angular/views.rst:22
+msgid ""
+"We could use the default view to display talks, but it would only display"
+" the title and the text, and we would like to also display the image and "
+"the speaker."
+msgstr ""
+
+#: ../angular/views.rst:25
+msgid "Let's generate a new component with the CLI"
+msgstr ""
+
+#: ../angular/views.rst:31
+msgid "To turn it into a valid view component, there are 3 steps:"
+msgstr ""
+
+#: ../angular/views.rst:33
+msgid "declare it in the module's ``entryComponents``,"
+msgstr ""
+
+#: ../angular/views.rst:34
+msgid "inherit from a Plone view component,"
+msgstr ""
+
+#: ../angular/views.rst:35
+msgid "register the view for traversal."
+msgstr ""
+
+#: ../angular/views.rst:37
+msgid ""
+"In ``app.module.ts``, we can see the CLI has already added "
+"``TalkComponent`` in ``declarations`` which is mandatory for any Angular "
+"component."
+msgstr ""
+
+#: ../angular/views.rst:40
+msgid ""
+"But as a view component is dynamically instantiated (depending on the "
+"traversed path), we also need to add it in ``entryComponents``:"
+msgstr ""
+
+#: ../angular/views.rst:55
+msgid ""
+"Now let's change ``src/app/talk/talk.component.ts`` to inherit from "
+"``ViewView``:"
+msgstr ""
+
+#: ../angular/views.rst:69
+msgid ""
+"And lastly, let's associate this component to the ``talk`` content type "
+"as its default view in ``src/app/app.component.ts``:"
+msgstr ""
+
+#: ../angular/views.rst:90
+msgid ""
+"The view is now properly set up, let's work on the template in "
+"``src/app/talk/talk.component.html``:"
+msgstr ""
+
+#: ../angular/views.rst:107
+msgid "Enable Comments"
+msgstr ""
+
+#: ../angular/views.rst:109
+msgid "We want to allow visitors to post comments about the talks."
+msgstr ""
+
+#: ../angular/views.rst:111
+msgid ""
+"In the Plone backend, in :menuselection:`Site Setup --> Discussion`, we "
+"activate comments globally and we allow anonymous comments."
+msgstr ""
+
+#: ../angular/views.rst:113
+msgid ""
+"In :menuselection:`Site Setup --> Content Settings`, we select the Talk "
+"type, and we allow comments."
+msgstr ""
+
+#: ../angular/views.rst:115
+msgid "Now in ``src/app/talk/talk.component.html`` we just append:"
+msgstr ""
+
+#: ../angular/whatisangular.rst:2
+msgid "What Is Angular"
+msgstr "Que es Angular"
+
+#: ../angular/whatisangular.rst:4
+msgid ""
+"`Angular <https://angular.io/>`_ is a JavaScript framework released in "
+"2016."
+msgstr ""
+"`Angular <https://angular.io/>`_ es un framework JavaScript publicado en "
+"2016."
+
+#: ../angular/whatisangular.rst:6
+msgid "It is component-oriented."
+msgstr ""
+
+#: ../angular/whatisangular.rst:7
+msgid "It is shipped with RxJS, the Reactive Programming library."
+msgstr ""
+
+#: ../angular/whatisangular.rst:8
+msgid ""
+"It works with TypeScript, a superset of EcmaScript 6, which allows a "
+"cleaner coding."
+msgstr ""
+
+#: ../angular/whatisangular.rst:9
+msgid "It provides a powerful CLI to build projects."
+msgstr ""
+
+#: ../angular/whatisangular.rst:11
+msgid ""
+"For these reasons it is a very good framework which is both powerful and "
+"easy to use."
+msgstr ""
+
+#: ../angular/whatisangular.rst:15
+msgid ""
+"Angular was initially known as Angular 2 as AngularJS was its ancestor. "
+"Angular and AngularJS are very different."
+msgstr ""
+
+#: ../angular/whatisangular.rst:18
+msgid ""
+"Their names are quite close, when looking for packages, verify carefully "
+"which Angular it is compliant with."
+msgstr ""
+
+#~ msgid ""
+#~ "This development server offers the "
+#~ "different features we can expect for "
+#~ "a convenient frontend developement environment"
+#~ " like autoreload and sourcemaps."
+#~ msgstr ""

@@ -1,0 +1,2519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Plone 5 Training
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone 5 Training 2017\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
+"2018\n"
+"Language: es\n"
+"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../solr/a-fancy-custom-search-page.rst:3
+msgid "More Features"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:5
+msgid ""
+"Next we will cover some more advanced topics which need configuration on "
+"Plone and Solr side. Features like autocomplete and suggest (\"did you "
+"mean ...\") are often requested when it comes to search. They are "
+"perfectly doable with the Plone / Solr combination."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:9
+msgid ""
+"At the end of this chapter we will build a full search page with "
+"autocomplete, suggest, term highlighting and faceting turned on."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:11
+msgid "Let's see how and start with autocomplete:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:14
+msgid "Autocomplete"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:16
+msgid ""
+"For autocomplete we need a special Solr handler because we don't search "
+"full terms but only part of terms."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:18
+msgid ""
+"With the additional Solr configuration, autocomplete can be called via "
+"URL directly::"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:22
+msgid "Which gives the response ::"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:32
+msgid ":file:`solr.cfg`"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:82
+msgid ""
+"For the search template we utilize the HTML5 datalist element to populate"
+" the search input field."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:84
+msgid ":file:`search.pt`:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:121
+msgid "Suggest"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:123
+msgid ""
+"The suggest (did you mean ...) feature is well known from popular search "
+"engines. It is integrated into Solr as a component which needs to be "
+"enabled and configured. Here is an example configuration which works with"
+" :py:mod:`collective.solr`. If you change it, stick to the names of the "
+"parameters and handlers."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:128
+msgid ""
+"The JSON view of Plone can be called with this URL: "
+"``http://localhost:8080/Plone/@@search?format=json&SearchableText=Plane``"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:131
+msgid "And from JavaScript"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:138
+msgid "We get a response like this"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:154
+msgid "The configuration in buildout is as follows:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:264
+msgid "A simple integration in our training-search is here:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:300
+msgid "Facetting"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:302
+msgid ""
+"Facetting is tightly integrated in :py:mod::`collective.solr` and works "
+"out of the box. We will now create a full search page with faceting, "
+"autocomplete, search term highlighting and suggest enabled. The HTML of "
+"the page is mainly taken from the standard page. To reduce complexity "
+"some of the standard features like syndication,  i18n and view actions "
+"have been removed:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:411
+msgid ""
+"Let's analyze the important parts. The head includes a reference to the "
+":file:`showmore.js` JavaScript, which is included in "
+":py:mod::`collective.solr` and used to reduce long lists of facets."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:415
+msgid ""
+"Additionally the left column is removed on the search page. The right "
+"column is kept. No portlets will be displayed, it is used for the facets."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:419
+msgid ""
+"The first thing we do in our search is getting the results for the search"
+" query, if there is one:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:433
+msgid "We can use the standard Plone catalog API for getting the results."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:437
+msgid ""
+"Don't use :py:meth:`plone.api.content.find` because it \"fixes\" the "
+"query to match the indexes defined in ZCatalog and will strip all Solr-"
+"related query parameters. We don't want that."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:440
+msgid ""
+"After we have the results, we wrap it with ``IContentListing`` to have "
+"unified access to them. Finally we create a Batch, to make sure long "
+"result sets are batched on our search view."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:443
+msgid "The next thing we have in our search view is the form itself"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:462
+msgid ""
+"We have a input field for used input. For the autocompletion we reference"
+" the datalist with the ``list`` attribute. For the facets we need to "
+"render the ``hiddenfields`` snippet, which is constructed by the "
+"``search-facets`` view of ``collective.solr``. This snippet will add the "
+"necessary query parameters like "
+"**facet=true&facet.field=portal_type&facet.field=review_state**."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:468
+msgid "We use the ``h1`` element for displaying the number of elements."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:470
+msgid "The next section is reserved for the *suggest* snippet:"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:486
+msgid ""
+"If no results are found with the query, a term is suggested. This term is"
+" fetched from the ``collective.solr`` AJAX view **suggest-terms**."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:489
+msgid "The code in our view class is here"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:507
+msgid ""
+"We get suggestions from the Solr handler and construct an URL for a new "
+"search with query parameters preserved."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:509
+msgid "The next thing we have is the result list. There is nothing fancy in it."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:512
+msgid ""
+"We show the title, which is linked to the article found and the cropped "
+"description."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:514
+msgid "Finally we have the snippet for the facets in the right slot::"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:523
+msgid ""
+"We call the facet view of :py:mod::`collective.solr` with our resultset "
+"and get the facets fully rendered as HTML."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:527
+msgid ""
+"We need to pass the `real` Solr response to the facet view. That's why we"
+" have to escape the batch (_sequence) and the contentlisting "
+"(_basesequence)"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:530
+msgid ""
+"Now we have a fully functional Plone search with faceting, "
+"autocompletion, suggestion and term highlighting. You can find the "
+"complete example on `GitHub "
+"<https://github.com/collective/plonetraining.solr_example>`_."
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:534
+msgid "Excercise"
+msgstr ""
+
+#: ../solr/a-fancy-custom-search-page.rst:536
+msgid ""
+"Have a custom search page with autocomplete, suggest, highlighting and "
+"faceting working."
+msgstr ""
+
+#: ../solr/about/glossary.rst:3
+msgid "Glossary"
+msgstr ""
+
+#: ../solr/about/glossary.rst:6
+msgid "AWS"
+msgstr ""
+
+#: ../solr/about/glossary.rst:8
+msgid ""
+"`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, "
+"scalable, and inexpensive cloud computing services. ree to join, pay only"
+" for what you use."
+msgstr ""
+
+#: ../solr/about/glossary.rst:10
+msgid "Linode"
+msgstr ""
+
+#: ../solr/about/glossary.rst:13
+msgid ""
+"`Linode.com <https://www.linode.com/>`_ is an American privately owned "
+"virtual private server provider company"
+msgstr ""
+
+#: ../solr/about/glossary.rst:13
+msgid "based in Galloway, New Jersey, United States."
+msgstr ""
+
+#: ../solr/about/glossary.rst:14
+msgid "DigitalOcean"
+msgstr ""
+
+#: ../solr/about/glossary.rst:17
+msgid ""
+"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American "
+"cloud infrastructure provider"
+msgstr ""
+
+#: ../solr/about/glossary.rst:17
+msgid "headquartered in New York City with data centers worldwide."
+msgstr ""
+
+#: ../solr/about/glossary.rst:18
+msgid "ZODB"
+msgstr ""
+
+#: ../solr/about/glossary.rst:20
+msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
+msgstr ""
+
+#: ../solr/about/glossary.rst:21
+msgid "TTW"
+msgstr ""
+
+#: ../solr/about/glossary.rst:23
+msgid "Through-The-Web, changes in the browser/"
+msgstr ""
+
+#: ../solr/about/glossary.rst:24
+msgid "S3"
+msgstr ""
+
+#: ../solr/about/glossary.rst:26
+msgid ""
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
+" and retrieve any amount of data from anywhere."
+msgstr ""
+
+#: ../solr/about/glossary.rst:27
+msgid "NFS"
+msgstr ""
+
+#: ../solr/about/glossary.rst:29
+msgid ""
+"`Network File System "
+"<https://en.wikipedia.org/wiki/Network_File_System>`_."
+msgstr ""
+
+#: ../solr/about/glossary.rst:30
+msgid "Amazon Opsworks"
+msgstr ""
+
+#: ../solr/about/glossary.rst:33
+msgid ""
+"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration "
+"management service that uses Chef,"
+msgstr ""
+
+#: ../solr/about/glossary.rst:33
+msgid "an automation platform that treats server configurations as code."
+msgstr ""
+
+#: ../solr/about/glossary.rst:34
+msgid "Ansible"
+msgstr ""
+
+#: ../solr/about/glossary.rst:37
+msgid ""
+"`Ansible <https://www.ansible.com/>`_ is an open source automation "
+"platform."
+msgstr ""
+
+#: ../solr/about/glossary.rst:37
+msgid ""
+"Ansible can help you with configuration management, application "
+"deployment, task automation."
+msgstr ""
+
+#: ../solr/about/glossary.rst:38
+msgid "Chef"
+msgstr ""
+
+#: ../solr/about/glossary.rst:40
+msgid ""
+"`A configuration management tool written in Ruby and Erlang "
+"<https://www.chef.io/chef/>`_."
+msgstr ""
+
+#: ../solr/about/glossary.rst:41
+msgid "CloudFormation"
+msgstr ""
+
+#: ../solr/about/glossary.rst:43
+msgid ""
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives "
+"developers and systems administrators an way to create and manage a "
+"collection of related AWS resources, provisioning and updating them in an"
+" orderly and predictable fashion."
+msgstr ""
+
+#: ../solr/about/glossary.rst:45
+msgid "Travis CI"
+msgstr ""
+
+#: ../solr/about/glossary.rst:47
+msgid ""
+"Travis CI is a hosted, distributed continuous integration service used to"
+" build and test software projects hosted at GitHub. Open source projects "
+"may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
+msgstr ""
+
+#: ../solr/about/glossary.rst:49
+msgid "Solr"
+msgstr ""
+
+#: ../solr/about/glossary.rst:51
+msgid ""
+"`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
+"open source enterprise search platform built on Apache Lucene."
+msgstr ""
+
+#: ../solr/about/glossary.rst:52
+msgid "ZCML"
+msgstr ""
+
+#: ../solr/about/glossary.rst:54
+msgid ""
+"The `Zope Configuration Mark-up Language "
+"<https://docs.plone.org/develop/addons/components/zcml.html>`_."
+msgstr ""
+
+#: ../solr/about/index.rst:3 ../solr/index.rst
+msgid "About"
+msgstr ""
+
+#: ../solr/first-steps.rst:3
+msgid "First Steps"
+msgstr ""
+
+#: ../solr/first-steps.rst:6
+msgid "Maintenance Task"
+msgstr ""
+
+#: ../solr/first-steps.rst:8
+msgid ""
+"All the maintenance tasks are accessible through the Solr controlpanel in"
+" Plone since version 6.0 of ``collective.solr``. It is good to know the "
+"direct URLs sometimes."
+msgstr ""
+
+#: ../solr/first-steps.rst:11
+msgid ""
+"Another goodie of accessing the URLs directly is they support GET "
+"parameters to limit and change their behavior."
+msgstr ""
+
+#: ../solr/first-steps.rst:13
+msgid "Let's see some examples:"
+msgstr ""
+
+#: ../solr/first-steps.rst:16
+msgid "Reindex"
+msgstr ""
+
+#: ../solr/first-steps.rst:18
+msgid "Reindex all Plone objects found in catalog:"
+msgstr ""
+
+#: ../solr/first-steps.rst:20
+msgid "http://localhost:8080/Plone/@@solr-maintainance/reindex"
+msgstr ""
+
+#: ../solr/first-steps.rst:22
+msgid ""
+"The call of this URL finds all contentish objects (meaning all objects "
+"derived from one of the catalog mixin classes) and (re)indexes them."
+msgstr ""
+
+#: ../solr/first-steps.rst:26 ../solr/first-steps.rst:56
+msgid "There are some parameters you can specify:"
+msgstr ""
+
+#: ../solr/first-steps.rst:28 ../solr/first-steps.rst:45
+#: ../solr/first-steps.rst:58
+msgid ""
+"*batch* (default:1000): Batch size for commit. Data is only send to Solr "
+"on commit."
+msgstr ""
+
+#: ../solr/first-steps.rst:29
+msgid ""
+"*skip* (default:0): Skip N elements when iterating over all contentish "
+"objects."
+msgstr ""
+
+#: ../solr/first-steps.rst:30
+msgid "*limit* (default:0): Only index N elements."
+msgstr ""
+
+#: ../solr/first-steps.rst:31
+msgid ""
+"*ignore_portal_types* (default:None): Blacklist of portal types not to be"
+" indexed."
+msgstr ""
+
+#: ../solr/first-steps.rst:32
+msgid ""
+"*only_portal_types* (default:None): Whiltelist of portal types not to be "
+"indexed."
+msgstr ""
+
+#: ../solr/first-steps.rst:33
+msgid "*idxs* (default:[]): Only this index fields will be updated."
+msgstr ""
+
+#: ../solr/first-steps.rst:37
+msgid "Cleanup"
+msgstr ""
+
+#: ../solr/first-steps.rst:39
+msgid ""
+"Remove entries from Solr that don't have a corresponding Zope object or "
+"have a different UID than the real object:"
+msgstr ""
+
+#: ../solr/first-steps.rst:41
+msgid "http://localhost:8080/Plone/@@solr-maintainance/cleanup"
+msgstr ""
+
+#: ../solr/first-steps.rst:43
+msgid "The only parameter you can specify is the batch size:"
+msgstr ""
+
+#: ../solr/first-steps.rst:49
+msgid "Sync Solr Index"
+msgstr ""
+
+#: ../solr/first-steps.rst:51
+msgid ""
+"Sync the Solr index with the portal catalog. Records contained in the "
+"catalog but not in Solr will be indexed and records not contained in the "
+"catalog will be removed."
+msgstr ""
+
+#: ../solr/first-steps.rst:54
+msgid "http://localhost:8080/Plone/@@solr-maintainance/sync"
+msgstr ""
+
+#: ../solr/first-steps.rst:59
+msgid ""
+"*preImportDeleteQuery* (default:*:*): This **delete** query will be "
+"executed on Solr before the sync process starts."
+msgstr ""
+
+#: ../solr/first-steps.rst:62
+msgid "Purge Solr Index"
+msgstr ""
+
+#: ../solr/first-steps.rst:64
+msgid "Clear **all** elements from the Solr default collection."
+msgstr ""
+
+#: ../solr/first-steps.rst:66
+msgid "http://localhost:8080/Plone/@@solr-maintainance/clear"
+msgstr ""
+
+#: ../solr/first-steps.rst:68
+msgid "There are no parameters you can specify for the clear action."
+msgstr ""
+
+#: ../solr/first-steps.rst:72
+msgid "Be careful with required fields."
+msgstr ""
+
+#: ../solr/first-steps.rst:74
+msgid ""
+"If you specify required fields in your schema, which are not present in "
+"your indexing record indexing will not happen."
+msgstr ""
+
+#: ../solr/first-steps.rst:77
+msgid "Indexing A New Dexterity Field"
+msgstr ""
+
+#: ../solr/first-steps.rst:79
+msgid ""
+"A common use case is to add an additional field to the index. We have to "
+"inform both sides (Solr and Plone) if we need a new field in the index."
+msgstr ""
+
+#: ../solr/first-steps.rst:82
+msgid ""
+"A simple use case is to pass through a raw dexterity field to the index. "
+"First we add the field to the schema."
+msgstr ""
+
+#: ../solr/first-steps.rst:85
+msgid "We do this :term:`TTW` (Through-The-Web) right now."
+msgstr ""
+
+#: ../solr/first-steps.rst:89
+msgid ""
+"In the production setup you will define your schema with an interface or "
+"a supermodel XML but this is beyond of this training."
+msgstr ""
+
+#: ../solr/first-steps.rst:91
+msgid ""
+"More information on dexterity schemas and fields can be found in the "
+"Plone documentation: "
+"https://docs.plone.org/external/plone.app.dexterity/docs/schema-driven-"
+"types.html"
+msgstr ""
+
+#: ../solr/first-steps.rst:94
+msgid ""
+"Let's add a field *email* to a task. We assume this is contact email "
+"which can be used to contact the responsible support person for this "
+"task. And we want to make this field to be found in fulltext search."
+msgstr ""
+
+#: ../solr/first-steps.rst:98
+msgid ""
+"It does not matter if we add the field TTW (Through-The-Web), via "
+"supermodel or via interface. The only thing you have to make sure the "
+"**name** of the field is identical in Plone and Solr."
+msgstr ""
+
+#: ../solr/first-steps.rst:101
+msgid ""
+"Next thing we do is to extend the Solr fields definition in our "
+"buildout.cfg."
+msgstr ""
+
+#: ../solr/first-steps.rst:103
+msgid "On the *fields* section of the *solr* part we add the following line: ::"
+msgstr ""
+
+#: ../solr/first-steps.rst:108
+msgid "After we have done that we need to rerun buildout"
+msgstr ""
+
+#: ../solr/first-steps.rst:114
+msgid "and restart Solr and Plone"
+msgstr ""
+
+#: ../solr/first-steps.rst:121
+msgid ""
+"This method works out of the box, if the name of the Dexterity field in "
+"Plone is the same as the field in the schema of Solr."
+msgstr ""
+
+#: ../solr/first-steps.rst:124
+msgid ""
+"And assuming you *have* the information you need for the index available "
+"as a Dexterity field."
+msgstr ""
+
+#: ../solr/first-steps.rst:126
+msgid ""
+"Let's assume we have a field *fullname* in Solr and in Plone we have "
+"separate fields for *firstname* and *surname*. We need an indexing "
+"adapter to have the fullname indexed. This is done like this:"
+msgstr ""
+
+#: ../solr/first-steps.rst:130
+msgid "First we need an indexer binding to our dexterity content"
+msgstr ""
+
+#: ../solr/first-steps.rst:143
+msgid ""
+"And we need a named adapter, which correlates with the name of the field "
+"in Solr (*fullname* in our case)"
+msgstr ""
+
+#: ../solr/first-steps.rst:149
+msgid ""
+"That's it. After adding a new Task or reindexing an existing one with "
+"firstname and surname set, the *fullname* in Solr appears."
+msgstr ""
+
+#: ../solr/first-steps.rst:156
+msgid "Pro tip:"
+msgstr ""
+
+#: ../solr/first-steps.rst:158
+msgid ""
+"If you need to modify or extend the existing fulltext implementation in "
+"Plone (This could be adding a custom field to it, or remove title or "
+"description from it), there is a handy add-on for this purpose."
+msgstr ""
+
+#: ../solr/first-steps.rst:162
+msgid ""
+"It is well documented but further investigation is out of the scope of "
+"this training, see "
+"https://pypi.python.org/pypi/collective.dexteritytextindexer"
+msgstr ""
+
+#: ../solr/first-steps.rst:166
+msgid "Boosting"
+msgstr ""
+
+#: ../solr/first-steps.rst:168
+msgid ""
+"In a standard installation of Solr all fields are treated equally "
+"important for searching. Usually this is not what we want. We want the "
+"Title to be more important, or a special type (e.g. News) to be "
+"prioritized."
+msgstr ""
+
+#: ../solr/first-steps.rst:172
+msgid ""
+"Solr offers boosting values at index and at search time. The search "
+"boosting is utilized automatically when you install collective.solr. It "
+"is configured in the control-panel with the default search pattern: ::"
+msgstr ""
+
+#: ../solr/first-steps.rst:179
+msgid ""
+"This reads like this. If a term occurs in the *Title* field prioritize it"
+" 5 times, if it is in the *Description* field prioritize it two times."
+msgstr ""
+
+#: ../solr/first-steps.rst:183
+msgid ""
+"Search but don't prioritize terms occuring in the *SearchableText* index."
+" If a term occurs in the *searchwords* priotize it by value 1000 so it "
+"will show always at the top."
+msgstr ""
+
+#: ../solr/first-steps.rst:186
+msgid "You can override this pattern to fit your needs."
+msgstr ""
+
+#: ../solr/first-steps.rst:188
+msgid ""
+"Another way to boost documents is at indexing time. For this purpose you "
+"can specify a Restricted Python script in Solr control panel. Let's "
+"assume we want to put a special emphasis on News Items."
+msgstr ""
+
+#: ../solr/first-steps.rst:192
+msgid "Our script looks like:"
+msgstr ""
+
+#: ../solr/first-steps.rst:198
+msgid ""
+"This will boost all fields of *News Items* by factor 20. Which means "
+"*News Items* will be prioritized in the ranking and show as first search "
+"results with the same term."
+msgstr ""
+
+#: ../solr/first-steps.rst:203
+msgid "Boosting at index time is only available if you turn off atomic updates."
+msgstr ""
+
+#: ../solr/first-steps.rst:206 ../solr/setup.rst:397
+#: ../solr/solr-configuration.rst:164 ../solr/solr-gui.rst:298
+#: ../solr/solr-testing.rst:74
+msgid "Exercise"
+msgstr "Ejercicio"
+
+#: ../solr/first-steps.rst:208
+msgid ""
+"Create or enhance a Dexterity type with an additional field which is "
+"indexed."
+msgstr ""
+
+#: ../solr/first-steps.rst:209
+msgid "Create a custom indexer in Plone."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:3
+msgid "How Does collective.solr Work"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:5
+msgid ""
+"We depend on ``collective.indexing`` as a means to hook into the normal "
+"catalog machinery of Plone to detect content changes. "
+"``collective.indexing`` before version two had some persistent data "
+"structures that frequently caused problems when removing the add-on. "
+"These problems have been fixed in version two."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:9
+msgid ""
+"``collective.indexing`` still has to hook the catalog machinery in "
+"various evil ways, as the machinery lacks the required hooks for its use-"
+"case."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:12
+msgid ""
+"Going forward it is expected for ``collective.indexing`` to be merged "
+"into the underlying ZCatalog implementation, at which point "
+"``collective.solr`` can use those hooks directly."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:16
+msgid "Base Functionality"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:18
+msgid "Patches the ZCatalog"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:19
+msgid "Some queries are faster in Solr some are not"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:20
+msgid "Indexes and Metadata duplicated"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:21
+msgid "Full text search with SearchableText"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:24
+msgid "Transactions"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:26
+msgid ""
+"Solr is not transaction-aware and does not support any kind of rollback "
+"or undo. We therefore only send data to Solr at the end of any successful"
+" request. This is done via collective.indexing, a transaction manager and"
+" an end request transaction hook."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:30
+msgid ""
+"This means you won’t see any changes done to content inside a request "
+"when doing Solr searches later on in the same request."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:33
+msgid "Querying Solr With collective.solr"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:35
+msgid "ZCatalog Query::"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:39
+msgid "Result is a Solr Object."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:41
+msgid "Direct Solr Queries::"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:49
+msgid ""
+"You can pass Solr query params directly to Solr and force a Solr response"
+" with ::"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:56
+msgid "Mangler"
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:58
+msgid ""
+"``collective.solr`` has a mangleQuery function that translates / mangles "
+"ZCatalog query parameters to replace Zope specifics with equivalent "
+"constructs for Solr."
+msgstr ""
+
+#: ../solr/how-does-collective-solr-work.rst:60
+msgid "https://github.com/collective/collective.solr/blob/master/src/collective/solr/mangler.py#L96"
+msgstr ""
+
+#: ../solr/index.rst:3
+msgid "Plone Training Solr"
+msgstr "Solr de Entrenamiento Plone"
+
+#: ../solr/index.rst:5
+msgid "Integrate Plone with Solr"
+msgstr ""
+
+#: ../solr/index.rst
+msgid "Level"
+msgstr ""
+
+#: ../solr/index.rst:6
+msgid "Experienced"
+msgstr ""
+
+#: ../solr/index.rst:9
+msgid ""
+"Apache :term:`Solr` is based on `Lucene "
+"<https://lucene.apache.org/core/>`_ and is the enterprise open source "
+"search engine."
+msgstr ""
+
+#: ../solr/index.rst:11
+msgid ""
+"It powers the search of sites like Twitter, the Apple and iTunes Stores, "
+"Wikipedia, Netflix and more."
+msgstr ""
+
+#: ../solr/production-setup.rst:3
+msgid "Production Setup"
+msgstr ""
+
+#: ../solr/production-setup.rst:6
+msgid "Multi Core"
+msgstr ""
+
+#: ../solr/production-setup.rst:8
+msgid ""
+"Multi core setup is the default for Solr 5 and above but unfortunately "
+"not supported by collective.solr. You can access a multicore Solr but "
+"only the default core, which can be specified in the "
+"``collective.recipe.solrinstance`` buildout recipe."
+msgstr ""
+
+#: ../solr/production-setup.rst:12
+msgid ""
+"The following options only apply if ``collective.recipe.solrinstance:mc``"
+" is specified. They are optional if the normal recipe is being used. All "
+"options defined in the solr-instance section will we inherited to cores. "
+"A core could override a previous defined option."
+msgstr ""
+
+#: ../solr/production-setup.rst:21
+msgid "cores"
+msgstr ""
+
+#: ../solr/production-setup.rst:18
+msgid ""
+"A list of identifiers of Buildout configuration sections that correspond "
+"to individual Solr core configurations. Each identifier specified will "
+"have the section it relates to processed according to the given options "
+"above to generate Solr configuration files for each core."
+msgstr ""
+
+#: ../solr/production-setup.rst:21
+msgid ""
+"Each identifier specified will result in a Solr ``instanceDir`` being "
+"created and entries for each core placed in Solr's ``solr.xml`` "
+"configuration."
+msgstr ""
+
+#: ../solr/production-setup.rst:27
+msgid "default-core-name"
+msgstr ""
+
+#: ../solr/production-setup.rst:24
+msgid ""
+"Optional and deprecated. This option controls which core is set as the "
+"default for incoming requests that do not specify a core name. This "
+"corresponds to the ``defaultCoreName`` option described at "
+"http://wiki.apache.org/solr/CoreAdmin#cores. *No longer* used in Solr 5."
+msgstr ""
+
+#: ../solr/production-setup.rst:29
+msgid ""
+"An example for a multi-core configuration you can find in the "
+"documentation of ``collective.recipe.solrinstance``:"
+msgstr ""
+
+#: ../solr/production-setup.rst:31
+msgid ""
+"https://github.com/collective/collective.recipe.solrinstance/blob/master/README.rst"
+"#multi-core-solr"
+msgstr ""
+
+#: ../solr/production-setup.rst:34
+msgid "Monitoring"
+msgstr ""
+
+#: ../solr/production-setup.rst:36
+msgid ""
+"``collective.solr`` comes with some predefined `Munin <http://munin-"
+"monitoring.org/>`_ configuration. The values for Munin are collected and "
+"exposed via the `Java JMX "
+"<http://www.oracle.com/technetwork/articles/java/javamanagement-140525.html>`_"
+" framework."
+msgstr ""
+
+#: ../solr/production-setup.rst:40
+msgid "You will need Munin and the JMX\\_ extension."
+msgstr ""
+
+#: ../solr/production-setup.rst:42
+msgid "https://github.com/collective/collective.solr/blob/master/docs/usage/monitoring.rst"
+msgstr ""
+
+#: ../solr/production-setup.rst:44
+msgid "The Munin config however seems a little outdated."
+msgstr ""
+
+#: ../solr/production-setup.rst:47
+msgid "Different host setup"
+msgstr ""
+
+#: ../solr/production-setup.rst:49
+msgid ""
+"One use case in a production setup might be the split between the Plone "
+"server runs on and the Solr server(s). To make this happen you have to "
+"consider a couple of things:"
+msgstr ""
+
+#: ../solr/production-setup.rst:52
+msgid ""
+"configure host of Solr in ``collective.solr``, it can be done TTW "
+"(Through-The-Web), via ZCML or via /etc/hosts"
+msgstr ""
+
+#: ../solr/production-setup.rst:53
+msgid ""
+"make sure the blobstorage directory of Plone is available via a network "
+"drive to the Solr host. You need to make sure Solr has read permissions "
+"which means it has the *SAME* User ID than the user which runs the Zope "
+"server."
+msgstr ""
+
+#: ../solr/production-setup.rst:57
+msgid "Further reading"
+msgstr ""
+
+#: ../solr/production-setup.rst:59
+msgid "Solr is documented in its own `Wiki <https://wiki.apache.org/solr/>`_."
+msgstr ""
+
+#: ../solr/production-setup.rst:61
+msgid "https://lucene.apache.org/solr/guide/6_6/"
+msgstr ""
+
+#: ../solr/production-setup.rst:63
+msgid "There are a couple of books available."
+msgstr ""
+
+#: ../solr/setup.rst:3 ../solr/solr-alternatives.rst:38
+msgid "Setup"
+msgstr ""
+
+#: ../solr/setup.rst:5
+msgid "For using :term:`Solr` with Plone you need:"
+msgstr ""
+
+#: ../solr/setup.rst:7
+msgid "A running Solr server"
+msgstr ""
+
+#: ../solr/setup.rst:8
+msgid ""
+"An integration product (like `collective.solr "
+"<https://github.com/collective/collective.solr>`_) for delegation of "
+"indexing and searching to the Solr server."
+msgstr ""
+
+#: ../solr/setup.rst:10
+msgid "In this training we will focus on collective.solr for this purpose."
+msgstr ""
+
+#: ../solr/setup.rst:12
+msgid "Bootstrap project:"
+msgstr ""
+
+#: ../solr/setup.rst:23
+msgid "Create a buildout (*buildout.cfg*) which installs both requirements"
+msgstr ""
+
+#: ../solr/setup.rst:42
+msgid "Run buildout:"
+msgstr ""
+
+#: ../solr/setup.rst:49
+msgid "Start Plone in foreground mode to see that everything is working:"
+msgstr ""
+
+#: ../solr/setup.rst:55
+msgid "Start Solr in another terminal in foreground mode:"
+msgstr ""
+
+#: ../solr/setup.rst:62
+msgid "Solr Buildout"
+msgstr ""
+
+#: ../solr/setup.rst:64
+msgid ""
+"We assume you are more or less familiar with the Plone buildout, but "
+"let's analyze the solr buildout configuration a bit."
+msgstr ""
+
+#: ../solr/setup.rst:67
+msgid "First we have two buildout parts in *solr.cfg*:"
+msgstr ""
+
+#: ../solr/setup.rst:76
+msgid ""
+"As the name suggests *solr-download* gets the full Solr package from the "
+"official download server and unpacks it. The part *solr-instance* is for "
+"configuring Solr. Let's continue with the details."
+msgstr ""
+
+#: ../solr/setup.rst:79
+msgid ""
+"The base Solr settings specify the host (usually localhost or 127.0.0.1),"
+" the port (8983 is the standard port of Solr) and two Java parameters for"
+" specifying lower and upper memory limit."
+msgstr ""
+
+#: ../solr/setup.rst:83
+msgid "More is usually better."
+msgstr ""
+
+#: ../solr/setup.rst:93
+msgid ""
+"If you want a rough idea on how much memory you should use, follow the "
+"guidelines found in this article:"
+msgstr ""
+
+#: ../solr/setup.rst:96
+msgid ""
+"https://lucidworks.com/2011/09/14/estimating-memory-and-storage-for-"
+"lucenesolr/"
+msgstr ""
+
+#: ../solr/setup.rst:98
+msgid "There is nothing fancy in the Solr download part."
+msgstr ""
+
+#: ../solr/setup.rst:100
+msgid "It takes an URL to the Solr binary and an md5 sum for verification."
+msgstr ""
+
+#: ../solr/setup.rst:104
+msgid "At time of writing the latest working version of Solr was 4.10.x"
+msgstr ""
+
+#: ../solr/setup.rst:106
+msgid "It looks like this in *solr.cfg* and *solr4.cfg*:"
+msgstr ""
+
+#: ../solr/setup.rst:118
+msgid ""
+"The Solr instance part is more complicated. It provides a subset of many,"
+" many configuration options of Solr and the possibility to define the "
+"schema of the index::"
+msgstr ""
+
+#: ../solr/setup.rst:144
+msgid "Let's analyze them one by one:"
+msgstr ""
+
+#: ../solr/setup.rst:150
+msgid "Specify the location of Solr, dowloaded with the previous part."
+msgstr ""
+
+#: ../solr/setup.rst:158
+msgid ""
+"Base configuration for running Solr referencing previously defined "
+"settings. With this configuration it is possible to access Solr in a "
+"browser with the following URL: http://localhost:8983/solr"
+msgstr ""
+
+#: ../solr/setup.rst:162
+msgid ""
+"The section-name defines the name which can be used to reflect custom "
+"address and/or basepath settings in zope.conf."
+msgstr ""
+
+#: ../solr/setup.rst:168
+msgid ""
+"It follows the following pattern in *zope.conf*: if you use standard "
+"settings no changes in *zope.conf* are necessary."
+msgstr ""
+
+#: ../solr/setup.rst:180
+msgid ""
+"Another easy way to use different hosts on development, staging and "
+"production machines is to define a host alias in /etc/hosts."
+msgstr ""
+
+#: ../solr/setup.rst:183
+msgid ""
+"Like the Zope ZCatalog the Solr index has a schema consisting of index "
+"and metadata fields. You can think of index fields as something you can "
+"use for querying / searching and metadata something you return as result "
+"list."
+msgstr ""
+
+#: ../solr/setup.rst:186
+msgid "Solr defines its schema in a big XML file called ``schema.xml``."
+msgstr ""
+
+#: ../solr/setup.rst:188
+msgid ""
+"There is a section in the ``collective.recipe.solrinstance`` buildout "
+"recipe which gives you access to the most common configuration options in"
+" a buildout way"
+msgstr ""
+
+#: ../solr/setup.rst:224
+msgid "name: Name of the field"
+msgstr ""
+
+#: ../solr/setup.rst:225
+msgid ""
+"type: Type of the field (e.g. ``string`` , ``text``, ``date``, "
+"``boolean``)"
+msgstr ""
+
+#: ../solr/setup.rst:226
+msgid "indexed: The field is searchable"
+msgstr ""
+
+#: ../solr/setup.rst:227
+msgid "stored: The field is returned as metadata"
+msgstr ""
+
+#: ../solr/setup.rst:228
+msgid ""
+"copyfield: copy content to another field, e.g. copy title, description, "
+"subject and SearchableText to default."
+msgstr ""
+
+#: ../solr/setup.rst:230
+msgid ""
+"For a complete list of schema configuration options refer to `Solr "
+"documentation <http://lucene.apache.org/solr/resources.html>`_."
+msgstr ""
+
+#: ../solr/setup.rst:232
+msgid "https://wiki.apache.org/solr/SchemaXml#Common_field_options"
+msgstr ""
+
+#: ../solr/setup.rst:234
+msgid ""
+"This is the bare minimum for configuring Solr. There are more options "
+"supported by the buildout recipe ``collective.recipe.solrinstance`` and "
+"even more by Solr itself. Most notably are the custom extensions for "
+"*schema.xml* and *solrconfig.xml*."
+msgstr ""
+
+#: ../solr/setup.rst:238
+msgid "We will see examples for this later on in the training."
+msgstr ""
+
+#: ../solr/setup.rst:240
+msgid ""
+"Or you can even point to a custom location for the main configuration "
+"files."
+msgstr ""
+
+#: ../solr/setup.rst:247
+msgid ""
+"After running the buildout, which downloads and configures Solr and Plone"
+" we are ready to fire both servers."
+msgstr ""
+
+#: ../solr/setup.rst:251
+msgid "Plone And Solr"
+msgstr ""
+
+#: ../solr/setup.rst:253
+msgid ""
+"To activate Solr in Plone *collective.solr* needs to be activated as an "
+"add-on in Plone."
+msgstr ""
+
+#: ../solr/setup.rst:255
+msgid ""
+"Activating the Solr add-on adds a configuration page to the controlpanel."
+" It can be accessed via <PORTAL_URL>/@@solr-controlpanel or via "
+"\"Configuration\" -> \"Solr Settings\""
+msgstr ""
+
+#: ../solr/setup.rst:258
+msgid "Check: :guilabel:`Active`, click :guilabel:`Save`"
+msgstr ""
+
+#: ../solr/setup.rst:260
+msgid ""
+"Activating Solr in the controlpanel activates a patch of Plones indexing "
+"and search methods to use Solr for indexing and querying."
+msgstr ""
+
+#: ../solr/setup.rst:265
+msgid ""
+"Note that ZCatalog is not replaced but Solr is *additionally* used for "
+"indexing and searching."
+msgstr ""
+
+#: ../solr/setup.rst:269
+msgid "Control Panel Configuration"
+msgstr ""
+
+#: ../solr/setup.rst:271
+msgid "*Active* - Turn connection between Plone and Solr on/off."
+msgstr ""
+
+#: ../solr/setup.rst:272
+msgid ""
+"*Host* - The host name of the Solr instance to be used. Defaults to "
+"127.0.0.1"
+msgstr ""
+
+#: ../solr/setup.rst:273
+msgid "*Port* - The port of the Solr instance to be used. Defaults to 8983"
+msgstr ""
+
+#: ../solr/setup.rst:274
+msgid ""
+"*Base* - The base prefix of the Solr instance to be used. Defaults to "
+"/solr"
+msgstr ""
+
+#: ../solr/setup.rst:275
+msgid ""
+"*Asynchronous indexing* - Check to enable asynchronous indexing "
+"operations, which will improve Zope response times in return for not "
+"having the Solr index updated immediately."
+msgstr ""
+
+#: ../solr/setup.rst:279
+msgid ""
+"*Automatic commit* - If enabled each index operation will cause a commit "
+"to be sent to Solr, which causes it to update its index. If you disable "
+"this, you need to configure commit policies on the Solr server side."
+msgstr ""
+
+#: ../solr/setup.rst:283
+msgid "*Commit within*"
+msgstr ""
+
+#: ../solr/setup.rst:286
+msgid "Timeouts And Search Limit"
+msgstr ""
+
+#: ../solr/setup.rst:288
+msgid "Index timeout"
+msgstr ""
+
+#: ../solr/setup.rst:289
+msgid "Search timeout"
+msgstr ""
+
+#: ../solr/setup.rst:290
+msgid "Maximum search results"
+msgstr ""
+
+#: ../solr/setup.rst:293
+msgid "Search Query Configuration"
+msgstr ""
+
+#: ../solr/setup.rst:295
+msgid "Required query parameters"
+msgstr ""
+
+#: ../solr/setup.rst:296
+msgid "Pattern for simple search queries"
+msgstr ""
+
+#: ../solr/setup.rst:297
+msgid "Default search facets"
+msgstr ""
+
+#: ../solr/setup.rst:298
+msgid "Filter query parameters"
+msgstr ""
+
+#: ../solr/setup.rst:299
+msgid "Slow query threshold"
+msgstr ""
+
+#: ../solr/setup.rst:300
+msgid "Effective date steps"
+msgstr ""
+
+#: ../solr/setup.rst:301
+msgid "Exclude user from allowedRolesAndUsers"
+msgstr ""
+
+#: ../solr/setup.rst:304
+msgid "Highlighting"
+msgstr ""
+
+#: ../solr/setup.rst:306
+msgid "https://wiki.apache.org/solr/HighlightingParameters"
+msgstr ""
+
+#: ../solr/setup.rst:308
+msgid "Highlighting fields"
+msgstr ""
+
+#: ../solr/setup.rst:309
+msgid "Highlight formatter: pre"
+msgstr ""
+
+#: ../solr/setup.rst:310
+msgid "Highlight formatter: post"
+msgstr ""
+
+#: ../solr/setup.rst:311
+msgid "Highlight Fragment Size"
+msgstr ""
+
+#: ../solr/setup.rst:314
+msgid "Default fields to be returned"
+msgstr ""
+
+#: ../solr/setup.rst:315
+msgid "Levensthein distance"
+msgstr ""
+
+#: ../solr/setup.rst:319
+msgid "Atomic Updates And Boosting"
+msgstr ""
+
+#: ../solr/setup.rst:321
+msgid "Enable atomic updates"
+msgstr ""
+
+#: ../solr/setup.rst:322
+msgid "Python script for custom index boosting"
+msgstr ""
+
+#: ../solr/setup.rst:325
+msgid "With Solr activated, searching in Plone works like the following:"
+msgstr ""
+
+#: ../solr/setup.rst:327
+msgid ""
+"Search contains one of the fields set as required (which is normally the "
+"fulltext field *SearchableText*) -> Solr results are returned"
+msgstr ""
+
+#: ../solr/setup.rst:331
+msgid ""
+"Search does not contain all fields marked as required -> ZCatalog results"
+" are returned. Which is the case for rendering the navigation, folder "
+"contents, etc."
+msgstr ""
+
+#: ../solr/setup.rst:336
+msgid ""
+"The search contains the stanza *use_solr=True*. -> Solr results are "
+"returned independent of the required fields."
+msgstr ""
+
+#: ../solr/setup.rst:339
+msgid "Then you are ready for your first search. Search for *Plone*."
+msgstr ""
+
+#: ../solr/setup.rst:342
+msgid ""
+"You should get the frontpage as a result--which is not super awesome at "
+"the first place because we have this without Solr too--but it is the "
+"first step in utilizing the full power of Solr."
+msgstr ""
+
+#: ../solr/setup.rst:345
+msgid "Configuration With ZCML"
+msgstr ""
+
+#: ../solr/setup.rst:347
+msgid ""
+"Another way to configure the connection is via :term:`ZCML`. You can use "
+"the following snippet to configure host, port und basepath:"
+msgstr ""
+
+#: ../solr/setup.rst:356
+msgid ""
+"The ZCML configuration takes presence over the configuration in the "
+"registry / control-panel."
+msgstr ""
+
+#: ../solr/setup.rst:359
+msgid "Committing Strategies"
+msgstr ""
+
+#: ../solr/setup.rst:362
+msgid "Synchronous Immediately"
+msgstr ""
+
+#: ../solr/setup.rst:364
+msgid ""
+"The default commit strategy is to commit to Solr on every Zope commit. "
+"This ensures an always up to date index but may come at cost of indexing "
+"time especially when doing batch operations like data import."
+msgstr ""
+
+#: ../solr/setup.rst:367
+msgid ""
+"To use this behavior, turn **Automatic commit** ON in the Solr "
+"controlpanel in Plone."
+msgstr ""
+
+#: ../solr/setup.rst:370
+msgid "Synchronous Batched"
+msgstr ""
+
+#: ../solr/setup.rst:372
+msgid ""
+"Another commit strategy is to do timed commits in Solr. This method is "
+"usually way faster but comes with the cost of index delays."
+msgstr ""
+
+#: ../solr/setup.rst:375
+msgid "To use this behavior you have to do two things:"
+msgstr ""
+
+#: ../solr/setup.rst:377
+msgid "Turn **Automatic commit** OFF in the Solr controlpanel in Plone."
+msgstr ""
+
+#: ../solr/setup.rst:378
+msgid ""
+"Set one or both of the following options in the Solr server configuration"
+" via the collective.recipe.solrinstance buildout recipe:"
+msgstr ""
+
+#: ../solr/setup.rst:380
+msgid ""
+"``autoCommitMaxDocs`` - The number of updates that have occurred since "
+"the last commit."
+msgstr ""
+
+#: ../solr/setup.rst:381
+msgid ""
+"``autoCommitMaxTime`` - The number of milliseconds since the oldest "
+"uncommitted update."
+msgstr ""
+
+#: ../solr/setup.rst:384
+msgid "Asynchronous"
+msgstr ""
+
+#: ../solr/setup.rst:386
+msgid ""
+"The third commit strategy is to do full asynchronous commits. This can be"
+" activated by setting the Flag **Asynchronous indexing** in the Solr "
+"control panel to :guilabel:`ON`. This behavior is the most efficient in "
+"terms of Zope response time."
+msgstr ""
+
+#: ../solr/setup.rst:390
+msgid ""
+"Since it is fire and forget the consistency could be harmed in midterm. "
+"It is advisable to to a sync or full-index from time to time if you work "
+"with this strategy."
+msgstr ""
+
+#: ../solr/setup.rst:393
+msgid "Additional information can be found in the Solr documentation:"
+msgstr ""
+
+#: ../solr/setup.rst:395
+msgid ""
+"https://lucene.apache.org/solr/guide/6_6/updatehandlers-in-"
+"solrconfig.html#UpdateHandlersinSolrConfig-commitWithin"
+msgstr ""
+
+#: ../solr/setup.rst:399
+msgid ""
+"Have a running Plone and Solr with collective.solr active and experiment "
+"with commit strategies."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:3
+msgid "Alternative Indexing/Search Solutions"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:6
+msgid "alm.solrindex"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:8
+msgid "``alm.solrindex`` is another addon for connecting Plone search to Solr."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:10
+msgid "It takes a different approach:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:12
+msgid ""
+"``collective.solr`` *wraps* the Zope catalog. Each item is indexed both "
+"in the ZCatalog and in Solr, typically including many indexes in both. "
+"When a search is performed, based on the indexes used, it decides to "
+"query either ZCatalog or solr but not both."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:16
+msgid ""
+"``alm.solrindex`` operates as an index *within* the Zope catalog, "
+"replacing the standard SearchableText index. Solr only needs to index the"
+" fulltext, and the ZCatalog no longer needs to do so. When a search is "
+"performed that includes a SearchableText criterion, first alm.solrindex "
+"will query solr for results, then those results will be further filtered "
+"by other ZCatalog indexes."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:24 ../solr/solr-alternatives.rst:260
+msgid "Pros:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:26
+msgid "Solr is more efficient than ZCTextIndex at indexing and querying fulltext."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:27
+msgid "Avoids duplication of index storage."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:28
+msgid "Less data needs to be sent between Plone and solr when indexing."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:29
+msgid "Don't need to add new indexes to Solr and reindex."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:31 ../solr/solr-alternatives.rst:268
+msgid "Cons:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:33
+msgid "No admin UI in Plone control panel."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:34
+msgid "Customizations can require monkey patching."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:35
+msgid "Potential for missing some results. (see below)"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:40
+msgid ""
+"We set up Solr in our buildout in a similar way, using the "
+"`hexagonit.recipe.download "
+"<https://pypi.python.org/pypi/hexagonit.recipe.download>`_ and "
+"``collective.recipe.solr`` buildout recipes."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:43
+msgid "The ``solr-instance`` buildout part looks a bit different."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:62
+msgid ""
+"We set the ``unique-key`` identifying the record to ``docid``. "
+"``alm.solrindex`` will pass the ZCatalog's internal integer record id "
+"(``rid``) in this field."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:65
+msgid ""
+"We set the ``default-search-field`` to SearchableText, so that Solr "
+"queries which don't specify a field will use SearchableText."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:67
+msgid ""
+"We configure fields for docid and each of the standard Plone fulltext "
+"indexes, but not any other fields."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:69
+msgid ""
+"We set ``stored: false`` on the indexes so that Solr will only store the "
+"docid."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:71
+msgid ""
+"We also need to reference the Solr URI in an environment variable for the"
+" Plone instance part, so that ``alm.solrindex`` knows where to connect"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:80
+msgid ""
+"After running buildout, we can start Plone and activate ``alm.solrindex``"
+" in the Add-ons control panel."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:85
+msgid ""
+"The default installation profile removes the existing SearchableText, "
+"Title, and Description indexes, but does not automatically reindex "
+"existing content."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:88
+msgid ""
+"If you have existing content in the site, you'll need to do a full "
+"reindex of the ZCatalog to get them indexed in Solr."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:92
+msgid "Why Are Results Missing?"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:94
+msgid "There is a limitation to this approach."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:96
+msgid ""
+"Solr is configured with a maximum limit on the number of results it will "
+"return (``max-num-results`` in the buildout configuration). This is done "
+"because it hurts performance if there are thousands and thousands of "
+"results, and Solr has to serialize all of them and Plone has to "
+"deserialize all of them."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:101
+msgid ""
+"For queries that only use indexes that are in Solr (i.e. the fulltext "
+"indexes), this is not a big problem."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:104
+msgid ""
+"Solr ranks the results so the limited set it returns should be the most "
+"relevant results, and most users are not going to navigate past more than"
+" a few pages of results anyway."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:107
+msgid ""
+"It can be a problem when the search term is very generic (so there are "
+"many results and its hard for Solr to determine the most relevant ones) "
+"and the results are also going to be filtered by other indexes (such as "
+"in a faceted search solution)."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:112
+msgid ""
+"In this case the limited result set from Solr is fairly arbitrary, the "
+"other filters only get to operate on this limited set, and we might end "
+"up missing results that should be there."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:116
+msgid ""
+"Example: Consider a site where there are 10,000 items with the term "
+"'pdf', including one in a folder \"/annual-reports/2015\". If a search is"
+" performed for 'pdf' within the path '/annual-reports/2015':"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:120
+msgid "First Solr finds all documents matching 'pdf', and ranks them."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:121
+msgid "Next it returns the top 500 results to Plone."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:122
+msgid ""
+"Next Plone filters those results by path. There is a good chance that our"
+" target document was not included in the 500 that Solr returned, so this "
+"filters down to no results."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:126
+msgid ""
+"There are a couple workarounds for this problem, both of which have their"
+" own tradeoff:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:128
+msgid ""
+"Increase ``max-num-results`` above the total number of documents (but "
+"this will hurt performance for queries that return many results)."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:130
+msgid ""
+"Make sure that other indexes that are likely to narrow down the results a"
+" lot are also included in Solr (but this detracts from the main "
+"advantages of using ``alm.solrindex`` over ``collective.solr``)."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:135
+msgid "Customization"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:137
+msgid ""
+"Each type of field has its own *handler* which takes care of translating "
+"between ZCatalog and Solr queries. These can be overridden to handle "
+"advanced customization:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:140
+msgid ""
+"Example: monkey patch the ``TextFieldHandler`` to use an ``edismax`` "
+"query that allows boosting some fields"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:173
+msgid ""
+"Example: Add a `path` index that works like Zope's ``ExtendedPathIndex`` "
+"(i.e. it'll find anything whose path begins with the query value):"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:176 ../solr/solr-configuration.rst:8
+#: ../solr/solr-configuration.rst:33 ../solr/solr-configuration.rst:79
+#: ../solr/solr-configuration.rst:120
+msgid "solr.cfg"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:186
+msgid "handlers.py"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:206
+msgid "ZCML::"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:213
+msgid "DIY Solr"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:215
+msgid ""
+"If both *collective.solr* and *alm.solrindex* are too much for you or you"
+" have special needs, you can access Solr by custom code. This might be, "
+"if you:"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:219
+msgid ""
+"need to access a Solr server with a newer version / multicore setup and "
+"you don't have access to the configuration of Solr"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:220
+msgid ""
+"Only want a fulltext search page of a small site with no need for full "
+"realtime support"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:222
+msgid ""
+"You can find a full-featured example of a full-fledged custom Solr "
+"integration at the Ploneintranet (**advanced!**):"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:224
+msgid "https://github.com/ploneintranet/ploneintranet/pull/299"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:227
+msgid "collective.elasticsearch"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:229
+msgid ""
+"Another option for an advanced search integration is the younger project "
+"`Elasticsearch <https://www.elastic.co/products/elasticsearch>`_. Like "
+"for Solr, the technical foundation is the Lucene index, written in Java."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:232
+msgid "Pros of Elasticsearch"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:234
+msgid ""
+"It uses JSON instead of an XML schema for (field) configuration, which "
+"might be easier to configure."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:236
+msgid ""
+"Clustering and replication is built in from the beginning. It is easier "
+"to configure. Especially ad-hoc cluster which can (re)configure "
+"automatically."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:239
+msgid "The project and community is agile and active."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:241
+msgid "Cons of Elasticsearch"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:243
+msgid ""
+"JSON is abused as Query DSL. It can lead to queries with up to 10 layers."
+" This can be annoying especially if you write them programatically."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:247
+msgid ""
+"The integration of Elasticsearch with Plone is done with "
+"https://pypi.python.org/pypi/collective.elasticsearch/"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:251
+msgid "Google Custom Search"
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:253
+msgid ""
+"Google provides a couple related tools for using Google as a site-"
+"specific search engine embedded in your site: Google Custom Search (free,"
+" ad-supported) and Google Site Search (paid)."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:257
+msgid ""
+"don't confuse these solutions with Google Search Appliance, which was a "
+"rack-mounted device which has been discontinued."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:262
+msgid "Better ranking of results compared to ZCTextIndex."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:263
+msgid "Fairly straightforward to integrate."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:264
+msgid "GUI control panel for basic configuration."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:265
+msgid "Don't have to run and maintain a separate Java service."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:266
+msgid "Can easily be configured to search multiple websites."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:270
+msgid "Free version includes Google branding and ads in results."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:271
+msgid "Cannot index private items."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:272
+msgid "Changes are not indexed immediately (usually within a week)."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:273
+msgid "Only returns top 100 results for a query."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:274
+msgid "Only useful for fulltext search, not searching specific fields."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:275
+msgid "Limited control over result ranking and formatting."
+msgstr ""
+
+#: ../solr/solr-alternatives.rst:276
+msgid "Google has a habit of discontinuing free services."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:3
+msgid "Solr Buildout Configuration"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:6
+msgid "Solr Multi Core"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:21
+msgid ""
+"collective.solr does not support multicore setups currently. It always "
+"uses the default core for indexing and searching."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:25
+msgid "Stopwords"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:27
+msgid ""
+"For indexes with lot of text, common uninteresting words like *\"the\"*, "
+"*\"a\"*, and so on, make the index large and slow down phrase queries. To"
+" deal with this problem, it is best to remove them from fields where they"
+" show up often."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:31
+msgid ""
+"We need to add the **StopFilterFactory** with a reference to a text file "
+"with one stop word per line to the Solr configuration:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:44
+msgid ""
+"Since we don't copy over the stopwords file to the *parts/solr-instance* "
+"directory we need to allow Solr reading resource files outside its home "
+"directory."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:47
+msgid "stopwords.txt::"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:53
+msgid "For some common language specific examples see the Solr git repository:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:55
+msgid ""
+"https://github.com/apache/lucene-"
+"solr/tree/master/lucene/analysis/common/src/resources/org/apache/lucene/analysis/snowball"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:59
+msgid "Stemming"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:61
+msgid ""
+"Stemming is a language specific operation which try to reduce terms to a "
+"base form."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:63
+msgid "Here is an example::"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:67
+msgid "This can help in some situations but may hurt in others."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:69
+msgid ""
+"For example, if you run an intranet and people usally know exactly what "
+"they are looking for it is probably not a good idea, but if you provide a"
+" Google-like search where you browse more than search then stemming is "
+"probably for you."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:73
+msgid "If you are interested in this feature look at the Solr documentation here:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:75
+msgid "https://wiki.apache.org/solr/LanguageAnalysis"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:77
+msgid ""
+"A short example to include a German stemming factory into the buildout is"
+" here:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:94
+msgid "stemdict.txt::"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:110
+msgid "Synonyms"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:112
+msgid ""
+"Solr can deal with synonyms. Maybe you run a shop for selling smartphones"
+" and you want people typing \"iphone\", \"i-phone\" or even \"ephone\", "
+"\"ifone\", or \"iphnoe\" to get the latest \"iPhone\" offers."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:116
+msgid ""
+"A simple synonym like solution is to use the *searchwords* extension "
+"which is provided by collective.solr. It is a schemaextender for all "
+"types and allows to specify terms which are boosted by factor 1000 in the"
+" default search query. For \"real\" synonyms implemented in Solr you can "
+"use the *SynonymFilterFactory*:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:132
+msgid ""
+"Note that the SynonymFilterFactory is an index filter and not a query "
+"filter."
+msgstr ""
+
+#: ../solr/solr-configuration.rst:134
+msgid "synonyms.txt::"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:159
+msgid ""
+"For a full list of index and query filter factories consult the Solr "
+"documentation:"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:161
+msgid ""
+"https://lucene.apache.org/solr/guide/6_6/understanding-analyzers-"
+"tokenizers-and-filters.html"
+msgstr ""
+
+#: ../solr/solr-configuration.rst:166
+msgid ""
+"Experiment with stemming, stop words and synonyms. Add your own values "
+"and see how Solr behaves."
+msgstr ""
+
+#: ../solr/solr-gui.rst:3
+msgid "Solr GUI And Query Syntax"
+msgstr ""
+
+#: ../solr/solr-gui.rst:5
+msgid ""
+"In the next part we will take a closer look the the search GUI of Solr "
+"and its query syntax."
+msgstr ""
+
+#: ../solr/solr-gui.rst:8
+msgid "Access Solr GUI"
+msgstr ""
+
+#: ../solr/solr-gui.rst:10
+msgid ""
+"Solr is a REST-based wrapper around the Java lucene index. It comes with "
+"its own web GUI. It is possible to access all of the SOLR API via REST "
+"and most of this functionality is exposed via its web GUI. To test it "
+"out, do the following:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:15
+msgid "Go to: http://localhost:8983/solr/#/"
+msgstr ""
+
+#: ../solr/solr-gui.rst:16
+msgid "Select Core \"collection1\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:17
+msgid "Go to: \"Schema Browser\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:18
+msgid "Select \"fullname\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:19
+msgid "Click: \"Load Term Info\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:20
+msgid "Click on term \"<fullname>\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:23
+msgid "Solr Query Syntax"
+msgstr ""
+
+#: ../solr/solr-gui.rst:25
+msgid "Solr Query Parameters:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:27
+msgid "Query \"q\"::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:32
+msgid "Solr response::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:75
+msgid "Filter Query \"fq\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:77
+msgid ""
+"This parameter can be used to specify a query that can be used to "
+"restrict the super set of documents that can be returned, without "
+"influencing the score."
+msgstr ""
+
+#: ../solr/solr-gui.rst:80
+msgid ""
+"It can be very useful for speeding up complex queries since the queries "
+"specified with fq are cached independently from the main query. Caching "
+"means the same filter is used again for a later query (i.e. there's a "
+"cache hit)."
+msgstr ""
+
+#: ../solr/solr-gui.rst:83
+msgid "See SolrCaching to learn about the caches Solr uses::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:87
+msgid "Sorting \"sort\"::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:92
+msgid "Filter List \"fl\"::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:96
+msgid ""
+"This parameter can be used to specify a set of fields to return, limiting"
+" the amount of information in the response."
+msgstr ""
+
+#: ../solr/solr-gui.rst:99
+msgid "Response Writer \"wt\"::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:103
+msgid "A Response Writer generates the formatted response of a search."
+msgstr ""
+
+#: ../solr/solr-gui.rst:106
+msgid "Solr Query Via URL"
+msgstr ""
+
+#: ../solr/solr-gui.rst:108
+msgid "Copy query from Solr GUI, e.g.::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:112
+msgid ""
+"You can use curl or the Python package `requests` "
+"(https://pypi.python.org/pypi/requests) to access the REST API of Solr."
+msgstr ""
+
+#: ../solr/solr-gui.rst:115
+msgid "Solr Query Via API"
+msgstr ""
+
+#: ../solr/solr-gui.rst:117
+msgid ""
+"Another way of accessing Solr is to use a Python wrapper, which exposes "
+"the Solr API in a Pythonic way."
+msgstr ""
+
+#: ../solr/solr-gui.rst:120
+msgid ""
+"``collective.solr`` has included such a wrapper (``solr.py``), which is "
+"old but still works for our case. Meanwhile there are other packages "
+"around. Here are some examples:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:125
+msgid "``mysolr``: https://pypi.python.org/pypi/mysolr/0.8.3"
+msgstr ""
+
+#: ../solr/solr-gui.rst:126
+msgid "``solrpy``: https://pypi.python.org/pypi/solrpy3/0.98"
+msgstr ""
+
+#: ../solr/solr-gui.rst:127
+msgid "``pysolr``: https://pypi.python.org/pypi/pysolr/3.5.0"
+msgstr ""
+
+#: ../solr/solr-gui.rst:129
+msgid ""
+"Sometimes it is handy to have a separate virtualenv available for doing "
+"batch operations (delete, update, etc.)"
+msgstr ""
+
+#: ../solr/solr-gui.rst:131
+msgid "I use the following script to delete all Plone Documents from Solr"
+msgstr ""
+
+#: ../solr/solr-gui.rst:141
+msgid "Advanced Solr Query Syntax"
+msgstr ""
+
+#: ../solr/solr-gui.rst:143
+msgid "Simple Query::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:147
+msgid ""
+"A clause can be **mandatory** (finds only articles containing the word "
+"*Boston*)::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:151
+msgid ""
+"A clause can be **probibited** (finds all articles except those "
+"containing the word *Vienna*)::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:155
+msgid "Operators::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:159
+msgid "\"AND\", \"OR\", \"+\", \"-\", \"||\", \"NOT\""
+msgstr ""
+
+#: ../solr/solr-gui.rst:161
+msgid "Be careful with combining operators such as::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:165
+msgid "which will probably lead to no results. You will need to use sub-queries."
+msgstr ""
+
+#: ../solr/solr-gui.rst:168
+msgid "Sub-queries::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:172
+msgid "Range Queries::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:176
+msgid "Boost Terms::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:180
+msgid "Fuzzy Search::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:184
+msgid "Proximity Search::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:188
+msgid "with treshold::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:192
+msgid "Wildcard queries:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:194
+msgid "Find all cities starting with *New* you can do::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:198
+msgid "Or a single character wildcard::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:202
+msgid "which will find *Müller*, *Miller*, etc."
+msgstr ""
+
+#: ../solr/solr-gui.rst:205
+msgid "Date math"
+msgstr ""
+
+#: ../solr/solr-gui.rst:207
+msgid ""
+"Solr provides some useful date units which are available for date "
+"queries. The units you can choose of are:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:210
+msgid ""
+"*YEAR*, *MONTH*, *DAY*, *DATE* (synonymous with *DAY*), *HOUR*, *MINUTE*,"
+" *SECOND*, *MILLISECOND*, *MILLI* (synonymous with *MILLISECOND*) and "
+"*NOW*. All of these units can be pluralized with an *S* as in *DAYS*. ::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:215
+msgid ""
+"*NOW* has a millisecond precision. To round down by using the */* "
+"operator (it never rounds up)::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:221
+msgid "Existing (And Non-existing) Queries"
+msgstr ""
+
+#: ../solr/solr-gui.rst:223
+msgid ""
+"Assume we want to find all documents which have a value in a certain "
+"field (whatever that value is, it doesn't matter)."
+msgstr ""
+
+#: ../solr/solr-gui.rst:226
+msgid "Find all documents with a description::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:230
+msgid "The oposite (finding all documents with no description) is also possible::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:235
+msgid "Faceting"
+msgstr ""
+
+#: ../solr/solr-gui.rst:237
+msgid ""
+"Faceting is one of the killer features of Solr. It allows the grouping nd"
+" filtering results for better find ability. To enable faceting you need o"
+" turn faceting on in the query and specify the fields you want tofacet "
+"upon:"
+msgstr ""
+
+#: ../solr/solr-gui.rst:241
+msgid ""
+"For a simple facet query in Solr you activate the feature and specify the"
+" facet fields(s)::"
+msgstr ""
+
+#: ../solr/solr-gui.rst:245
+msgid ""
+"Besides the matching documents this will give you an additional grouping "
+"of documents"
+msgstr ""
+
+#: ../solr/solr-gui.rst:274
+msgid ""
+"There are more complex scenarios possible. For a complete list of options"
+" see the according Solr documentation."
+msgstr ""
+
+#: ../solr/solr-gui.rst:277
+msgid "https://lucene.apache.org/solr/guide/6_6/faceting.html"
+msgstr ""
+
+#: ../solr/solr-gui.rst:279
+msgid ""
+"With ``collective.solr`` you don't have to worry about the faceting "
+"details too much. There is a convenient method to configure the faceting "
+"fields in the control panel of ``collective.solr``. All the other magic "
+"is handled by the product. We will see an example later."
+msgstr ""
+
+#: ../solr/solr-gui.rst:285
+msgid "Search GUIs"
+msgstr ""
+
+#: ../solr/solr-gui.rst:287
+msgid ""
+"``collective.solr`` out of the box: ``collective.solr`` comes with its "
+"own search view. For the new version 6.0 it is based on `React "
+"<https://reactjs.org/>`_ and looks similar to the Plone search view with "
+"native facet support of Solr."
+msgstr ""
+
+#: ../solr/solr-gui.rst:290
+msgid ""
+"`eea.facetednavigation <https://github.com/eea/eea.facetednavigation>`_: "
+"This add-on allows faceting out of the box even without Solr. It is a "
+"product for integrators to setup search and filter GUIs TTW (Through-The-"
+"Web). It can be used for several use cases: Search pages, collection "
+"replacements, etc.  **DEMO**"
+msgstr ""
+
+#: ../solr/solr-gui.rst:294
+msgid ""
+"custom: Another way is to create a custom search page. This is easy to do"
+" and we will see later on in this training how."
+msgstr ""
+
+#: ../solr/solr-gui.rst:300
+msgid "Do some queries in Solr directly."
+msgstr ""
+
+#: ../solr/solr-testing.rst:3
+msgid "Solr Testing"
+msgstr ""
+
+#: ../solr/solr-testing.rst:5
+msgid ""
+"``collective.solr`` comes with a few test fixtures that make it easier to"
+" test Solr."
+msgstr ""
+
+#: ../solr/solr-testing.rst:7
+msgid ""
+"``SOLR_FIXTURE`` fires up and tears down a Solr instance. This fixture "
+"can be used to write unit tests for a Solr configuration."
+msgstr ""
+
+#: ../solr/solr-testing.rst:10
+msgid ""
+"Usually you need the ``COLLECTIVE_SOLR_FIXTURE`` which spins off a Solr "
+"instance and installs ``collective.solr``."
+msgstr ""
+
+#: ../solr/solr-testing.rst:12
+msgid "A custom test layer based on this fixture looks like this"
+msgstr ""
+
+#: ../solr/solr-testing.rst:29
+msgid "A test for our suggest method in our fancy search looks like this"
+msgstr ""
+
+#: ../solr/solr-testing.rst:67
+msgid "Note the **activateAndReindex** method."
+msgstr ""
+
+#: ../solr/solr-testing.rst:69
+msgid ""
+"It is a nice testing helper to cleat the Solr index and reindex all "
+"objects again. If testing Solr it is advisable to call it at the test "
+"setup. Otherwise the documents created during the tests would pile up in "
+"the index."
+msgstr ""
+
+#: ../solr/solr-testing.rst:76
+msgid "Write a custom test for a Solr feature used in Plone."
+msgstr ""
+
+#~ msgid ""
+#~ "`Linode.com <https://linode.com/>`_ is an "
+#~ "American privately owned virtual private "
+#~ "server provider company"
+#~ msgstr ""
+
+#~ msgid "https://cwiki.apache.org/confluence/display/solr/Apache+Solr+Reference+Guide"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://cwiki.apache.org/confluence/display/solr/UpdateHandlers+in+SolrConfig"
+#~ "#UpdateHandlersinSolrConfig-commitWithin"
+#~ msgstr ""
+
+#~ msgid "https://cwiki.apache.org/confluence/display/solr/Understanding+Analyzers%2C+Tokenizers%2C+and+Filters"
+#~ msgstr ""
+
+#~ msgid "https://cwiki.apache.org/confluence/display/solr/Faceting"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``collective.solr`` out of the box: "
+#~ "``collective.solr`` comes with its own "
+#~ "search view. For the new version "
+#~ "6.0 it is based on `React "
+#~ "<https://facebook.github.io/react/>`_ and looks "
+#~ "similar to the Plone search view "
+#~ "with native facet support of Solr."
+#~ msgstr ""
+

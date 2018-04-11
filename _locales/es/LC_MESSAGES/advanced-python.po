@@ -1,0 +1,756 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Plone 5 Training
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone 5 Training 2017\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-19 05:42-0400\n"
+"PO-Revision-Date: 2018-04-03 19:12-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../advanced-python/background.rst:2
+msgid "The Web and Python"
+msgstr "La Web y Python"
+
+#: ../advanced-python/background.rst:3
+msgid ""
+"In the days before the popularity of frameworks like Django, Flask and "
+"other frameworks soared, development with Python for the web was a bit "
+"harder for comers."
+msgstr ""
+
+#: ../advanced-python/background.rst:7
+msgid ""
+"Python applications were often designed for only one of CGI, FastCGI, "
+"mod_python or some other custom API of a specific web server. This wide "
+"variety of choices can be a problem for new Python users,because "
+"generally speaking, their choice of web framework limited their choice of"
+" usable web servers, and vice versa."
+msgstr ""
+
+#: ../advanced-python/background.rst:15
+msgid "WSGI"
+msgstr "WSGI"
+
+#: ../advanced-python/background.rst:17
+msgid ""
+"WSGI was created as a low-level interface between web servers and web "
+"applications or  frameworks to promote a common ground for portable web "
+"application development. This is similar to Java's \"servlet\" API makes "
+"it possible for applications written with any Java web application "
+"framework to run in any web server that supports the servlet API. "
+"[pep-333]"
+msgstr ""
+
+#: ../advanced-python/background.rst:27
+msgid ""
+"As stated above, WSGI was created to ease the development of Python web "
+"applications. The handling of the requests from browser is done by a "
+"normal HTTP server, which routes the request to the WSGI container, which"
+" in turn runs the WSGI application."
+msgstr ""
+
+#: ../advanced-python/background.rst:32
+msgid "The following illustration demonstrates this setup:"
+msgstr ""
+
+#: ../advanced-python/background.rst:37
+msgid ""
+"This setup promotes scalability and flexibility. As a result you can mix "
+"and match any of the above mentioned servers, with any of the WSGI "
+"framework, below. In fact, if you desire to, you build a web application "
+"mixing parts from different WSGI frameworks."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:2
+msgid "Exploiting Python's data model"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:4
+msgid ""
+"To make our session store easy to as if it was a dictionary, we implement"
+" out middleware by crafting a class which behaves like that. For that "
+"purpose, we are taking a small diversion from WSGI to Python's Data "
+"Model. We enter the realm of so called **magic methods** also known as "
+"``__dunder__`` (which stands of double underscore)."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:10
+msgid ""
+"The first thing to know about special methods is that they are meant to "
+"be called by the Python interpreter, and not by you. [Fluent Python, pg. "
+"8]."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:13
+msgid "Our goal is to build the following elements of a WSGI framework."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:16
+msgid "A Dictionary like Session storage"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:18
+msgid ""
+"Using a Python session like storage we should be able to check membership"
+" use `in`, e.g.::"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:23
+msgid "We should also be able to retrieve items as if was a dictionary::"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:28
+msgid ""
+"Our goal is to create a middleware that stores information in some kind "
+"of a persistent storage. For simplicity we start by writing this "
+"information to a file on a disk, but this can easily be extended to a "
+"Redis storage, MongoDB or any database of your liking. Let's assume "
+"though that session data is unstructured might look like a dictionary of "
+"session ID as keys, with values which are another dictionary:"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:45
+msgid "Requests read only attributes"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:47
+msgid ""
+"A Request object is a wrapper around the environment. Some frameworks, "
+"like Bottle, Flask and WebOb, make the attribute of a Request object read"
+" only."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:50
+msgid ""
+"The most obvious way is to use ``@property``, but this creates a very "
+"verbose code, here is an example from `web.request.Request` (which is "
+"almost 1000 lines of code long!):"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:88
+msgid ""
+"We can do much better than creating methods and decorating them with "
+"properties. Instead we craft a special container class which wrapps the "
+"environment and allows us to access keys as if they where attributes."
+msgstr ""
+
+#: ../advanced-python/data_model.rst:98
+msgid "Quick access to properties"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:100
+msgid ""
+"Sometimes accessing a property can be expensive! As can be seen in the "
+"example above, building the host URL, we make 4 dictionary lookups, which"
+" isn't taking much, but if we pass our Request object through 4 "
+"middlewares each asking for this property, we already make 16 lookups. "
+"This could be improved by calculating such properties and save the "
+"result, by using a specially crafted decorator:"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:119
+msgid "Abitility to extened"
+msgstr ""
+
+#: ../advanced-python/data_model.rst:121
+msgid ""
+"If we want our framework to be public it might be a good idea to have "
+"some kind of a plugin system. But even if our framework is intended for a"
+" use of a small team of developers, it might be a good idea to supply "
+"some base classes and maybe meta-classes to make sure development and "
+"extension are easy enough, but also safe to use. For example, suppose we "
+"want to replace our dictionary based session with a Redis cache, but we "
+"don't want to break the API. We do this with caution, and we think, we "
+"might want to replace Redis in some other Key-Value storage. We "
+"demonstrate, how the use of meta classes can enforce programmers, to obay"
+" some certain structure, with out throwing a ``RuntimeError`` or an "
+"``AttributeError``, which in some cases might be too late."
+msgstr ""
+
+#: ../advanced-python/functional.rst:2
+msgid "Functional Python"
+msgstr "Python Funcional"
+
+#: ../advanced-python/functional.rst:4 ../advanced-python/metaclasses.rst:4
+msgid "HBD"
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:2
+msgid "Hello WSGI"
+msgstr "Hola WSGI"
+
+#: ../advanced-python/hello_world.rst:4
+msgid ""
+"A WSGI application is just a callable object the responds to requests by "
+"taking two arguments. The first one is the WSGI ``environment`` and the "
+"second is the ``start_response``. The ``environment`` is a Python "
+"dictionary containing information about the CGI environment. "
+"``start_response`` is a callback which takes two inputs the response "
+"``status`` and ``headers``. The status is astring representation like "
+"``200 OK`` or any other HTTP status code followed by a word. ``headers`` "
+"is a list of two values tuples or possible HTTP headers. The return value"
+" of ``start`` response is another callable which when invoked return the "
+"body of the response."
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:16
+msgid ""
+"It is the responsiblity of the WSGI server to implement this callback. "
+"That is, the Python web application or the framework simply recieve it."
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:19
+msgid ""
+"The WSGI application is invoked with the ``environment`` and "
+"``start_response``, it may or may not use information from the "
+"``environment``, when done it should return an iterable yielding zero or "
+"more strings which then become the body of the response. It may also "
+"manipulate the headers passed on to ``start_response`` before invoking "
+"it."
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:26
+msgid "The following is a complete valid WSGI application:"
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:41
+msgid "Running a WSGI application"
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:43
+msgid ""
+"To actually make use of the above example, you need to invoke it with a "
+"valid WSGI server. Luckily, we don't need to fully setup a HTTP server, "
+"because the Python standard library already has already s simple HTTP "
+"server which implements the WSGI protocal which we can use to test our "
+"app. To make use of it you can do:"
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:69
+msgid ""
+"In reality, a WSGI server is usually depoloyed behing a full blown HTTP "
+"server, which serves as a reverse proxy for the WSGI server. That is, the"
+" HTTP server (for example NGinx) listen to HTTP or HTTPS requests on port"
+" 80 or 443 and then redirects them to the appropriate socket to which the"
+" WSGI server is bound to."
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:76
+msgid "Excercise 1"
+msgstr "Ejercicio 1"
+
+#: ../advanced-python/hello_world.rst:78
+msgid "Write your own callable class which is a valid WSGI application."
+msgstr ""
+
+#: ../advanced-python/hello_world.rst:80 ../advanced-python/middlewares.rst:111
+#: ../advanced-python/middlewares.rst:148 ../advanced-python/routing.rst:45
+#: ../advanced-python/routing.rst:165
+msgid "Solution"
+msgstr "Solución"
+
+#: ../advanced-python/index.rst:7
+msgid "How to build your own webframework from scracth"
+msgstr ""
+
+#: ../advanced-python/index.rst:9
+msgid "Contents:"
+msgstr "Contenidos:"
+
+#: ../advanced-python/index.rst:26
+msgid "Indices and tables"
+msgstr "Indices y tablas"
+
+#: ../advanced-python/index.rst:28
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../advanced-python/index.rst:29
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../advanced-python/index.rst:30
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../advanced-python/intro.rst:2
+msgid "About this course"
+msgstr "Acerca de este curso"
+
+#: ../advanced-python/intro.rst:4
+msgid ""
+"This one day course invites you to build your own micro web framework in "
+"Python. It will help you to fundamentally understand how common Python "
+"web frameworks work."
+msgstr ""
+
+#: ../advanced-python/intro.rst:8
+msgid ""
+"To get the most out of this course, it is expected that you already, have"
+" some experience working with Python some background on web development "
+"with Python."
+msgstr ""
+
+#: ../advanced-python/intro.rst:12
+msgid ""
+"We will start by exploring WSGI, a Python protocol for connecting Python "
+"application to web servers. We continue our journey to build the "
+"framework using Python language features which might be less familiar to "
+"Python beginners and maybe even developers with several years of "
+"experience in Python."
+msgstr ""
+
+#: ../advanced-python/intro.rst:18
+msgid ""
+"These topics are Python's data model, meta-classes and functional "
+"programming."
+msgstr ""
+
+#: ../advanced-python/metaclasses.rst:2
+msgid "Metaclasses"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:2
+msgid "Middlewares"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:4
+msgid ""
+"A middleware is an object that wrapps the original application, hence the"
+" name. A middle is called between the application and the server. It can "
+"modify the response or the environment or route requests to different "
+"application objects."
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:13
+msgid ""
+"Middlewares and apps are agnostic to each other, so we can plumb any WSGI"
+" app to our middleware, and our middleware to any WSGI app. Middleware "
+"can be chained, allowing our response or request to go through multiple "
+"phases of processing."
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:19
+msgid ""
+"Here is for example how the Django web framework chains multiple "
+"middlewares before calling the application:"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:36
+msgid ""
+"Django imports these middlewares from the their specified module and "
+"plumbs them one after another. Let's see how we can do that too."
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:40
+msgid ""
+"Other frameworks use ``extensions`` sometimes also called ``plugins`` or "
+"``includes``. For example, the Flask framework really wraps the "
+"``Application`` instance:"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:61
+msgid "``Bottle.py`` has a similar approach:"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:78
+msgid ""
+"Bottle hides the fact the the ``app.install`` command is wrapping your "
+"application with a call plugin which takes place before your application "
+"and after your application login. These action could be for example "
+"opening and closing connections to the database before and after the "
+"request if needed."
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:85
+msgid "A Simple WSGI Middleware"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:87
+msgid ""
+"As an example we show a simple WSGI middle which logs the environment "
+"dictionary to the console:"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:106
+msgid "Exercise 2"
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:108
+msgid ""
+"Implement your own middleware which capitalizes the response you original"
+" application return."
+msgstr ""
+
+#: ../advanced-python/middlewares.rst:135
+msgid "Exercise 3"
+msgstr "Ejercicio 3"
+
+#: ../advanced-python/middlewares.rst:137
+msgid ""
+"Implement your own middleware which reverses the response. Upon calling "
+"this middleware twice you should see the original response, e.g.:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:2
+msgid "From Raw WSGI to a framework"
+msgstr "Desde un Crudo Raw WSGI a un framework"
+
+#: ../advanced-python/raw_wsgi.rst:4
+msgid ""
+"While useful for understanding how WSGI works, the examples shown until "
+"now are still far being called a framework. A Python webframework usually"
+" has the following attributes:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:8
+msgid ""
+"It pre-process the environment and yields some `request` object for the "
+"programmer to work with. This request is sometimes injected to the "
+"callable we program, as for example in Pyramid:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:25
+msgid "or in Django:"
+msgstr "o en Django:"
+
+#: ../advanced-python/raw_wsgi.rst:34
+msgid ""
+"In other cases it is a global instance object you have to explicitly "
+"import and make use of, as in the case of `Flask` or `Bottle`:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:48
+msgid ""
+"Add a Response wrapper, which makes it easier to write correct responses."
+"    As such, we don't have manually call `start_response` every time. Nor"
+" do we remember that our return value is some kind of iterable. Here is "
+"an example from `Flask`:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:60
+msgid ""
+"Add some smart way of handling URL and request query parameters. For "
+"example Django injects URL parameter to your application logic, which "
+"allowes you to make explicit use of them:"
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:82
+msgid ""
+"Forms are processed and saved into a Dictionary like object, "
+"request.POST_ and query data in saved into a request.GET_."
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:85
+msgid ""
+"Add session and cookie management such that you manage some state. Using "
+"cookies you can store information in the browser, for example login "
+"cookie. And using sessions you can remember how the user interacted with "
+"your website, for example you can remember the login date and time."
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:91
+msgid "Optionally, add HTML templating."
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:92
+msgid ""
+"Optionally, add some persistency layer, e.g ORM or a NoSQL abstraction "
+"layer."
+msgstr ""
+
+#: ../advanced-python/raw_wsgi.rst:95
+msgid ""
+"Alas, we are not going to implement all those in just a couple of hours. "
+"Instead, we are going to see how we can exploit Python's data model to "
+"build convenient Python APIs for out Nano Python framework. We start by "
+"implementing dictionary like session storage."
+msgstr ""
+
+#: ../advanced-python/routing.rst:2
+msgid "Routing"
+msgstr ""
+
+#: ../advanced-python/routing.rst:4
+msgid ""
+"Routing is the mechanism which allows our application to call different "
+"parts according to the requested URL. Until now only saw applications "
+"that always give the same response to any requested URL."
+msgstr ""
+
+#: ../advanced-python/routing.rst:10
+msgid "Using ``PATH_INFO``"
+msgstr ""
+
+#: ../advanced-python/routing.rst:11
+msgid ""
+"The requested URL contains a ``PATH_INFO`` which is passed to our WSGI "
+"application via the ``environment`` dictionary. We can write our "
+"application as a giant case switch to match a specific ``PATH_INFO`` to a"
+" specific behavior:"
+msgstr ""
+
+#: ../advanced-python/routing.rst:35
+msgid ""
+"This would be very un-pythonic and cumbersome to extend. Essentially, "
+"this problem is solved by all web framework with some kind of a routing "
+"middleware. But before we examine how it is done by some of the most "
+"famous WSGI frameworks, we implement a primitive routing middleware on "
+"our own."
+msgstr ""
+
+#: ../advanced-python/routing.rst:41
+msgid "Exercise 4"
+msgstr "Ejercicio 4"
+
+#: ../advanced-python/routing.rst:42
+msgid ""
+"A small improvement would be to replace the giant ``if ... elif ... "
+"else`` with a dictionary and map a ``PATH_INFO`` to a callable. The "
+"middleware should use this mapping to call the correct WSGI callable."
+msgstr ""
+
+#: ../advanced-python/routing.rst:73
+msgid ""
+"While this solution is pretty primitive it is understand and extend. "
+"Essententialy, many WSGI framework have some kind of a ``Mapping`` class "
+"which is responsible for this mechanism. For example, in Djanog one "
+"defines in ``urls.py`` a list of patters, which are a regular expression "
+"and callable ``view``. Here is an example from the most venerable Django "
+"polls tutorial:"
+msgstr ""
+
+#: ../advanced-python/routing.rst:93
+msgid ""
+"The ``url`` items are then matched by "
+"django.urls.resolvers.ResolverMatch_ A similar approach is also taken by "
+"the more modern ``aiohttp`` (an honorable reference, even though it's not"
+" a WSGI framework):"
+msgstr ""
+
+#: ../advanced-python/routing.rst:105
+msgid "Pyramid does this too:"
+msgstr ""
+
+#: ../advanced-python/routing.rst:114
+msgid ""
+"Here ``add_route`` creates an association between a ``route_name`` and a "
+"pattern. ``add_view`` connects the callable ``hello_world`` with the "
+"route just created."
+msgstr ""
+
+#: ../advanced-python/routing.rst:118
+msgid ""
+"``Flask`` and ``Bottle`` have an implicit way of adding ``route`` items "
+"to the ``Mapping``:"
+msgstr ""
+
+#: ../advanced-python/routing.rst:130
+msgid ""
+"``app.route`` adds the wrapped callable to the internal mapping inside "
+"the ``Flask`` instance. In a later part of this course, we will examine "
+"later how this decorator works."
+msgstr ""
+
+#: ../advanced-python/routing.rst:135
+msgid "Working with URL parameters"
+msgstr ""
+
+#: ../advanced-python/routing.rst:137
+msgid ""
+"So far, we have a simple routing middleware. But it can't work with "
+"parameters, as seen in the Django and Pyramid examples above. A "
+"middleware can modify the response or the environment. Modifying the "
+"latter, we can pass new objects via the environment dictionary to the "
+"callable."
+msgstr ""
+
+#: ../advanced-python/routing.rst:143
+msgid "Exercise 5"
+msgstr "Ejercicio 5"
+
+#: ../advanced-python/routing.rst:145
+msgid ""
+"Modify the main app matching mechanism to use regular expression groups, "
+"to match certain URL parts as groups. These groups are the URL args, the "
+"application can make use of. For example, calling ``/hello/`` should "
+"return ``hello wolrd!``. Calling ``/hello/frank`` should return "
+"``/hello/frank!``."
+msgstr ""
+
+#: ../advanced-python/summary.rst:2
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../advanced-python/summary.rst:4
+msgid ""
+"The amalgamation of the ideas we showed here can be demonstrated by the "
+"nano-framework ``Chick``:"
+msgstr ""
+
+#~ msgid "The following ilustration demonstartes this setup:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To make our session store easy to"
+#~ " as if it was a dictionary, we"
+#~ " implement out middleware by crafting "
+#~ "a class which behaves like that. "
+#~ "For that purpose, we are taking a"
+#~ " small diversion from WSGI to "
+#~ "Python's Data Model. We enter the "
+#~ "realm of so called **magic methods** "
+#~ "also known as ``__dunder__`` (which "
+#~ "stands of duble underscore)."
+#~ msgstr ""
+
+#~ msgid "We shoud also be able to retrieve items as if was a dictionary::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our goal is to create a middleware"
+#~ " that stores information in some kind"
+#~ " of a persistant storage. For "
+#~ "simplicity we start by writing this "
+#~ "infromation to a file on a disk,"
+#~ " but this can easily be extended "
+#~ "to a Redis storgae, MongoDB or any"
+#~ " database of your liking. Let's "
+#~ "assume though that session data is "
+#~ "unstructured might look like a "
+#~ "dictionary of session ID as keys, "
+#~ "with values which are another "
+#~ "dictionary:"
+#~ msgstr ""
+
+#~ msgid "Ouick access to properties"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If we want our framework to be "
+#~ "public it might be a good idea "
+#~ "to have some kind of a plugin "
+#~ "system. But even if our framework "
+#~ "is intended for a use of a "
+#~ "small team of developers, it might "
+#~ "be a good idea to supply some "
+#~ "base classes and maybe meta-classes "
+#~ "to make sure development and extension"
+#~ " are easy enough, but also safe "
+#~ "to use. For example, suppose we "
+#~ "want to replace our dictionary based "
+#~ "session with a Redis cache, but we"
+#~ " don't want to break the API. "
+#~ "We do this with caution, and we"
+#~ " think, we might want to replace "
+#~ "Redis in some other Key-Value "
+#~ "storage. We domenstrate, how the use "
+#~ "of meta classes can enforce programmers,"
+#~ " to obay some certain structure, with"
+#~ " out throwing a ``RuntimeError`` or "
+#~ "an ``AttributeError``, which in some "
+#~ "cases might be too late."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This one day course invites you to"
+#~ " build your own micro web framework"
+#~ " in Python. It will help you to"
+#~ " fundementally understand how common Python"
+#~ " web frameworks work."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Middlewares and apps are agnostic to "
+#~ "each other, so we can plumb any"
+#~ " WSGI app to our middleware, and "
+#~ "our middleware to any WSGI app. "
+#~ "Middleware can be chained, allowing our"
+#~ " response or request to go through"
+#~ " mulitple phases of processing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Other frameworks use ``extentions`` sometimes"
+#~ " also called ``plugins`` or ``includes``."
+#~ " For example, the Flask framework "
+#~ "really wraps the ``Application`` instance:"
+#~ msgstr ""
+
+#~ msgid "Excercise 2"
+#~ msgstr ""
+
+#~ msgid "Excercise 3"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While useful for unterstanding how WSGI"
+#~ " works, the examples shown until now"
+#~ " are still far being called a "
+#~ "framework. A Python webframework usually "
+#~ "has the following attributes:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In other cases it is a global "
+#~ "instace object you have to explicitly"
+#~ " import and make use of, as in"
+#~ " the case of `Flask` or `Bottle`:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add some smart way of handling URL"
+#~ " and request query paramters. For "
+#~ "example Django injects URL parameter to"
+#~ " your application logic, which allowes "
+#~ "you to make explicit use of them:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add session and cookie management such"
+#~ " that you manage some state. Using"
+#~ " cookies you can store information in"
+#~ " the browser, for example login "
+#~ "cookie. And using sessions you can "
+#~ "remember how the user interacted with"
+#~ " your website, for example you can"
+#~ " remeber the login date and time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alas, we are not going to "
+#~ "implement all those in just a "
+#~ "couple of hours. Instead, we are "
+#~ "going to see how we can exploit"
+#~ " Python's data model to build "
+#~ "convinient Python APIs for out Nano "
+#~ "Python framwork. We start by "
+#~ "implementing dictionary like session storage."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This would be very un-pythonic and"
+#~ " cumbersome to extend. Essentianly, this"
+#~ " problem is solved by all web "
+#~ "framework with some kind of a "
+#~ "routing middleware. But before we "
+#~ "examine how it is done by some "
+#~ "of the most famous WSGI frameworks, "
+#~ "we implement a primitive routing "
+#~ "middleware on our own."
+#~ msgstr ""

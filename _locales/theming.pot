@@ -1,20 +1,262 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Plone Training package.
+# This file is distributed under the same license as the Plone 5 Training package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Plone Training 1.2.5\n"
+"Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"POT-Creation-Date: 2018-03-22 21:00-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../theming/about/glossary.rst:3
+msgid "Glossary"
+msgstr ""
+
+#: ../theming/about/glossary.rst:6
+msgid "AWS"
+msgstr ""
+
+#: ../theming/about/glossary.rst:8
+msgid "`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, scalable, and inexpensive cloud computing services. ree to join, pay only for what you use."
+msgstr ""
+
+#: ../theming/about/glossary.rst:10
+msgid "Linode"
+msgstr ""
+
+#: ../theming/about/glossary.rst:13
+msgid "`Linode.com <https://www.linode.com/>`_ is an American privately owned virtual private server provider company"
+msgstr ""
+
+#: ../theming/about/glossary.rst:13
+msgid "based in Galloway, New Jersey, United States."
+msgstr ""
+
+#: ../theming/about/glossary.rst:14
+msgid "DigitalOcean"
+msgstr ""
+
+#: ../theming/about/glossary.rst:17
+msgid "`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American cloud infrastructure provider"
+msgstr ""
+
+#: ../theming/about/glossary.rst:17
+msgid "headquartered in New York City with data centers worldwide."
+msgstr ""
+
+#: ../theming/about/glossary.rst:18
+msgid "ZODB"
+msgstr ""
+
+#: ../theming/about/glossary.rst:20
+msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
+msgstr ""
+
+#: ../theming/about/glossary.rst:21
+msgid "Barceloneta"
+msgstr ""
+
+#: ../theming/about/glossary.rst:23
+msgid "The default theme for Plone 5."
+msgstr ""
+
+#: ../theming/about/glossary.rst:24
+msgid "CSS"
+msgstr ""
+
+#: ../theming/about/glossary.rst:26
+msgid "Cascading Style Sheets (CSS) is a stylesheet language used for describing the (most of the times visual) representation of web pages."
+msgstr ""
+
+#: ../theming/about/glossary.rst:27
+#: ../theming/about/glossary.rst:75
+msgid "Diazo"
+msgstr ""
+
+#: ../theming/about/glossary.rst:29
+msgid "`Diazo <http://docs.diazo.org/en/latest/>`_ allows you to apply a theme contained in a static HTML web page to a dynamic website created using any server-side technology."
+msgstr ""
+
+#: ../theming/about/glossary.rst:30
+msgid "Grunt"
+msgstr ""
+
+#: ../theming/about/glossary.rst:32
+msgid "The JavaScript Task Runner. Automates the creation and manipulation of static assets for the theme."
+msgstr ""
+
+#: ../theming/about/glossary.rst:34
+msgid "Less"
+msgstr ""
+
+#: ../theming/about/glossary.rst:36
+msgid "A dynamic stylesheet language that can be compiled into :term:`CSS` (Cascading Style Sheets)."
+msgstr ""
+
+#: ../theming/about/glossary.rst:37
+msgid "NPM"
+msgstr ""
+
+#: ../theming/about/glossary.rst:39
+msgid "npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js."
+msgstr ""
+
+#: ../theming/about/glossary.rst:41
+msgid "TTW"
+msgstr ""
+
+#: ../theming/about/glossary.rst:43
+msgid "Through-The-Web, changes in the browser."
+msgstr ""
+
+#: ../theming/about/glossary.rst:44
+msgid "S3"
+msgstr ""
+
+#: ../theming/about/glossary.rst:46
+msgid "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store and retrieve any amount of data from anywhere."
+msgstr ""
+
+#: ../theming/about/glossary.rst:47
+msgid "NFS"
+msgstr ""
+
+#: ../theming/about/glossary.rst:49
+msgid "`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
+msgstr ""
+
+#: ../theming/about/glossary.rst:50
+msgid "Amazon Opsworks"
+msgstr ""
+
+#: ../theming/about/glossary.rst:53
+msgid "`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration management service that uses Chef,"
+msgstr ""
+
+#: ../theming/about/glossary.rst:53
+msgid "an automation platform that treats server configurations as code."
+msgstr ""
+
+#: ../theming/about/glossary.rst:54
+msgid "Ansible"
+msgstr ""
+
+#: ../theming/about/glossary.rst:57
+msgid "`Ansible <https://www.ansible.com/>`_ is an open source automation platform."
+msgstr ""
+
+#: ../theming/about/glossary.rst:57
+msgid "Ansible can help you with configuration management, application deployment, task automation."
+msgstr ""
+
+#: ../theming/about/glossary.rst:58
+msgid "Chef"
+msgstr ""
+
+#: ../theming/about/glossary.rst:60
+msgid "`A configuration management tool written in Ruby and Erlang <https://www.chef.io/chef/>`_."
+msgstr ""
+
+#: ../theming/about/glossary.rst:61
+msgid "CloudFormation"
+msgstr ""
+
+#: ../theming/about/glossary.rst:63
+msgid "`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives developers and systems administrators an way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion."
+msgstr ""
+
+#: ../theming/about/glossary.rst:65
+msgid "Travis CI"
+msgstr ""
+
+#: ../theming/about/glossary.rst:67
+msgid "Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub. Open source projects may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
+msgstr ""
+
+#: ../theming/about/glossary.rst:69
+msgid "Solr"
+msgstr ""
+
+#: ../theming/about/glossary.rst:71
+msgid "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, open source enterprise search platform built on Apache Lucene."
+msgstr ""
+
+#: ../theming/about/glossary.rst:72
+#: ../theming/about/glossary.rst:102
+msgid "ZCML"
+msgstr ""
+
+#: ../theming/about/glossary.rst:74
+#: ../theming/about/glossary.rst:104
+msgid "The `Zope Configuration Mark-up Language <https://docs.plone.org/develop/addons/components/zcml.html>`_."
+msgstr ""
+
+#: ../theming/about/glossary.rst:77
+msgid "`Diazo theme engine guide <http://docs.diazo.org/en/latest/>`_ Diazo allows you to apply a theme contained in a static HTML web page to a dynamic website created using any server-side technology."
+msgstr ""
+
+#: ../theming/about/glossary.rst:79
+msgid "Dexterity"
+msgstr ""
+
+#: ../theming/about/glossary.rst:81
+msgid "`Dexterity <https://github.com/plone/plone.dexterity>`_, the base framework for building content types, both through-the-web and as filesystem code for Zope."
+msgstr ""
+
+#: ../theming/about/glossary.rst:82
+msgid "Dublin Core"
+msgstr ""
+
+#: ../theming/about/glossary.rst:84
+msgid "The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources (video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like artworks."
+msgstr ""
+
+#: ../theming/about/glossary.rst:86
+#: ../theming/about/glossary.rst:105
+msgid "ZMI"
+msgstr ""
+
+#: ../theming/about/glossary.rst:88
+#: ../theming/about/glossary.rst:107
+msgid "The Zope Management Interface. The ZMI is a direct interface into the backend software stack of Plone. While it can still serve as a valuable tool for Plone specialists to fix problems or accomplish certain tasks, it is not recommended as a regular tool for Plone maintenance."
+msgstr ""
+
+#: ../theming/about/glossary.rst:92
+msgid "XML"
+msgstr ""
+
+#: ../theming/about/glossary.rst:94
+msgid "The Extensible Markup Language."
+msgstr ""
+
+#: ../theming/about/glossary.rst:95
+msgid "XSLT"
+msgstr ""
+
+#: ../theming/about/glossary.rst:97
+msgid "The Extensible Stylesheet Language Transformations. A language which defines elements to describe transformations to be applied on a document."
+msgstr ""
+
+#: ../theming/about/glossary.rst:99
+msgid "XPath"
+msgstr ""
+
+#: ../theming/about/glossary.rst:101
+msgid "XPath (XML Path Language) is a query language for selecting nodes from an XML document."
+msgstr ""
+
+#: ../theming/about/index.rst:3
+#: ../theming/index.rst:0
+msgid "About"
+msgstr ""
 
 #: ../theming/adv-diazo.rst:3
 msgid "Advanced Diazo"
@@ -33,7 +275,7 @@ msgid "But sometimes basic rules are not enough and you need to write a bit of X
 msgstr ""
 
 #: ../theming/adv-diazo.rst:13
-msgid "Modify the theme and the content on the fly"
+msgid "Modify Theme And Content On The Fly"
 msgstr ""
 
 #: ../theming/adv-diazo.rst:15
@@ -41,7 +283,7 @@ msgid "Let's look at some examples from the `official diazo docs <http://docs.di
 msgstr ""
 
 #: ../theming/adv-diazo.rst:19
-msgid "Extend rules"
+msgid "Extend Rules"
 msgstr ""
 
 #: ../theming/adv-diazo.rst:21
@@ -52,958 +294,1731 @@ msgstr ""
 msgid "A good example of a use case is the one described by `Asko Soukka <https://twitter.com/datakurre>`_  (thanks!!!) in this blog post about `how to  Customize Plone 5 default theme on the fly <http://datakurre.pandala.org/2015/05/customize-plone-5-default-theme-on-fly.html>`_."
 msgstr ""
 
-#: ../theming.rst:17
-# 2866771da7f7402eb67a0a133d68718f
+#: ../theming/adv-diazo.rst:30
+msgid "Include External Content"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:32
+msgid "You can `include external content <http://docs.diazo.org/en/latest/advanced.html#including-external-content>`_ from another website or from a custom view."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:37
+msgid "Recipes And Snippets"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:39
+msgid "The docs provide `a basic recipe set <http://docs.diazo.org/en/latest/recipes/index.html>`_ and you can have your own, but how to remember and re-use them?"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:42
+msgid "`David Bain introduces a \"diazo snippets library\" <http://blog.dbain.com/2014/12/introducing-diazo-snippets-library.html>`_ that allows you to get snippets from a chrome extensions. `All the snippets are available here <http://pigeonflight.github.io/lessArcane/>`_."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:48
+msgid "More Snippets"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:51
+msgid "Make Some Links Open In New Window"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:60
+msgid "At `diazo.org <http://docs.diazo.org/en/latest/recipes/adding-an-attribute/index.html>`_ is another way described."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:63
+msgid "Add CSS Marker Classes Depending On Existing ``portal-columns``"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:65
+msgid "This adds a CSS class for every existing ``portal-column`` to the ``body`` tag. If ``portal-column-one`` exists, we add ``col-one``; if ``portal-column-content`` exists, we add ``col-content``; and if ``portal-column-two`` exists, we add ``col-two``."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:81
+msgid "Now, one can use these markers to define the grid in a semantic way like this:"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:112
+msgid "This way, you don't need the xsl-rules Barceloneta uses to create the main content area. It's more flexible than Barceloneta's approach."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:115
+msgid "Another way could be, to change Plone to provide these classes already ;)."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:118
+msgid "Move Plone Elements Around"
+msgstr ""
+
+#: ../theming/adv-diazo.rst:120
+msgid "Sometimes one needs to move Plone elements from one place to another or merge some elements together. In the following example we merge the language flags together with the document actions."
+msgstr ""
+
+#: ../theming/adv-diazo.rst:136
+msgid "Taking Over Specific Portlets"
+msgstr ""
+
+#: ../theming/basic.rst:3
+msgid "Basic: Customize The Logo And CSS From The Default Theme"
+msgstr ""
+
+#: ../theming/basic.rst:5
+#: ../theming/ttw-advanced.rst:5
+#: ../theming/ttw-advanced-2.rst:5
+msgid "In this section you will:"
+msgstr ""
+
+#: ../theming/basic.rst:7
+msgid "Use the Site control panel to add a custom logo"
+msgstr ""
+
+#: ../theming/basic.rst:8
+msgid "Customize the look of a Plone site by adjusting Less Variables"
+msgstr ""
+
+#: ../theming/basic.rst:9
+msgid "Add a custom toolbar logo"
+msgstr ""
+
+#: ../theming/basic.rst:11
+#: ../theming/ttw-advanced.rst:11
+#: ../theming/ttw-advanced-2.rst:13
+msgid "Topics covered:"
+msgstr ""
+
+#: ../theming/basic.rst:13
+msgid "The \"Site\" control panel"
+msgstr ""
+
+#: ../theming/basic.rst:14
+msgid "The \"Resource Registries\" Control Panel"
+msgstr ""
+
+#: ../theming/basic.rst:15
+msgid "Resource Registries > Development Mode"
+msgstr ""
+
+#: ../theming/basic.rst:18
+msgid "Customize Logo"
+msgstr ""
+
+#: ../theming/basic.rst:20
+#: ../theming/theme-package.rst:580
+msgid "Go to the Plone Control Panel: :menuselection:`toolbar --> admin --> Site Setup`"
+msgstr ""
+
+#: ../theming/basic.rst:21
+msgid "Go to the \"Site\" control panel."
+msgstr ""
+
+#: ../theming/basic.rst:22
+msgid "You will see this form:"
+msgstr ""
+
+#: ../theming/basic.rst:26
+msgid "You can now add/edit/remove your custom logo."
+msgstr ""
+
+#: ../theming/basic.rst:28
+msgid "For more information, take a look at the `official docs <https://docs.plone.org/adapt-and-extend/change-the-logo.html>`_."
+msgstr ""
+
+#: ../theming/basic.rst:32
+msgid "Customize CSS/Less Variables"
+msgstr ""
+
+#: ../theming/basic.rst:34
+msgid "Go back to the Control Panel."
+msgstr ""
+
+#: ../theming/basic.rst:35
+msgid "Go to the :guilabel:`Resource Registries` control panel."
+msgstr ""
+
+#: ../theming/basic.rst:36
+msgid "On the first tab: enable :guilabel:`Development Mode`."
+msgstr ""
+
+#: ../theming/basic.rst:37
+msgid "In the \"plone\" bundle below, click on \"develop CSS\"."
+msgstr ""
+
+#: ../theming/basic.rst:39
+msgid "Your panel should now look like this:"
+msgstr ""
+
+#: ../theming/basic.rst:45
+msgid "Now we can play with some Less variables:"
+msgstr ""
+
+#: ../theming/basic.rst:47
+msgid "Go to the :guilabel:`Less Variables` tab."
+msgstr ""
+
+#: ../theming/basic.rst:48
+msgid "Find the variable ``plone-left-toolbar-expanded`` and set it to 400px."
+msgstr ""
+
+#: ../theming/basic.rst:53
+msgid "Hit the :guilabel:`Save` button in the upper right and reload the page."
+msgstr ""
+
+#: ../theming/basic.rst:54
+msgid "Click on the toolbar logo to expand the toolbar: voilá!"
+msgstr ""
+
+#: ../theming/basic.rst:56
+msgid "You can play around with some other variables, if you want."
+msgstr ""
+
+#: ../theming/basic.rst:60
+msgid "\"Development Mode\" is expensive for the browser. Depending on the browser and on the system, you might encounter extreme slowness while rendering the page. You could see an unthemed page for a while."
+msgstr ""
+
+#: ../theming/basic.rst:64
+msgid "Remember to switch it off as soon as you finished tweaking."
+msgstr ""
+
+#: ../theming/collective-jbot.rst:3
+msgid "Jbot"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:7
+msgid "Customize templates on the fly with collective.jbot"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:11
+msgid "Not yet compatible with Plone 5!"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:14
+msgid "Back in the old days we used to customize views' templates from the tool `portal_view_customizations` from the ZMI."
+msgstr ""
+
+#: ../theming/collective-jbot.rst:16
+msgid "This tool has no UI (User Interface) and could beat you whenever you don't expect it."
+msgstr ""
+
+#: ../theming/collective-jbot.rst:18
+msgid "`Nathan Van Gheem <https://twitter.com/vangheezy>`_ has created this package that unfortunately is not (yet!) part of the core: `collective.jbot <https://github.com/collective/collective.jbot>`_."
+msgstr ""
+
+#: ../theming/collective-jbot.rst:20
+msgid "This package uses the well-known `z3c.jbot` under the hood and allows you to customize templates TTW (Through-The-Web) from the control panel."
+msgstr ""
+
+#: ../theming/collective-jbot.rst:23
+#: ../theming/ttw-advanced.rst:22
+msgid "Installation"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:25
+msgid "TODO"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:29
+msgid "Usage"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:33
+msgid "screen-shots"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:36
+msgid "Additional"
+msgstr ""
+
+#: ../theming/collective-jbot.rst:38
+msgid "Overrides are stored on the filesystem and you can version / backup them as you like!"
+msgstr ""
+
+#: ../theming/custom-components.rst:3
+msgid "Creating Custom Components"
+msgstr ""
+
+#: ../theming/custom-components.rst:5
+msgid "Plone is a powerful system and it provides many interesting features and function. To dive into this, we recommend to go through the ``Mastering Plone 5: Development`` of the training."
+msgstr ""
+
+#: ../theming/custom-components.rst:8
+msgid "For theming the most relevant part are the following components, which render some parts of Plone, you may want to customize or build new once."
+msgstr ""
+
+#: ../theming/custom-components.rst:11
+msgid "Views"
+msgstr ""
+
+#: ../theming/custom-components.rst:13
+msgid "In Plone a view usually consists of multiple components, a Python class based on BrowserView and a template which renders the markup. Is is possible to have a template which is only a view."
+msgstr ""
+
+#: ../theming/custom-components.rst:17
+msgid "It is also possible to have a view which has no template, but renders the output by it self, as JSON for example."
+msgstr ""
+
+#: ../theming/custom-components.rst:19
+msgid "For more details about views and there possibilities see the view sections of the ``Mastering Plone 5: Development`` chapters."
+msgstr ""
+
+#: ../theming/custom-components.rst:22
+msgid "Viewlets"
+msgstr ""
+
+#: ../theming/custom-components.rst:24
+msgid "Viewlets are small pieces which are rendered inside a view. The are registered for a ordered ViewletManager, which renders all Viewlets in the given order. You can change the order even TTW (Through-The-Web) or via configuration."
+msgstr ""
+
+#: ../theming/custom-components.rst:28
+msgid "A Viewlet consists of a Viewlet Python class and a template."
+msgstr ""
+
+#: ../theming/custom-components.rst:30
+msgid "Plone has default Viewlets and ViewletManagers like ContentAbove and BelowContent which you can use to register small pieces of functionality."
+msgstr ""
+
+#: ../theming/custom-components.rst:32
+msgid "For an overview of existing Viewlets and ViewletManagers look at the ``/@@manage-viewlets`` view."
+msgstr ""
+
+#: ../theming/custom-components.rst:34
+msgid "For more details about Viewlets/ViewletManagers and there possibilities see the Viewlets sections of the `Mastering Plone 5: Development chapters <https://training.plone.org/5/mastering-plone/viewlets_1.html>`_."
+msgstr ""
+
+#: ../theming/custom-components.rst:38
+msgid "Portlets"
+msgstr ""
+
+#: ../theming/custom-components.rst:40
+msgid "Portlets are a very flexible way of providing context related information in the right, left or footer area."
+msgstr ""
+
+#: ../theming/custom-components.rst:42
+msgid "For details on how to use, configure and create Portlets, look into the Plone docs `Plone docs Portlet sections <https://docs.plone.org/develop/plone/functionality/portlets.html>`_."
+msgstr ""
+
+#: ../theming/index.rst:5
+msgid "Plone Theming"
+msgstr ""
+
+#: ../theming/index.rst:7
+msgid "Adjusting the visual representation of Plone with :term:`Diazo`"
+msgstr ""
+
+#: ../theming/index.rst:0
+msgid "Level"
+msgstr ""
+
+#: ../theming/index.rst:8
+msgid "All levels"
+msgstr ""
+
+#: ../theming/index.rst:11
+msgid "**Training Objective**"
+msgstr ""
+
+#: ../theming/index.rst:13
+msgid "The most important objective of this training is to explain how to adjust the layout and design of a Plone site. It will cover basic customizations you can do :term:`TTW` (Through-The-Web) in your Plone site, as well as advanced theming methods and tools to create stunning themes for your Plone website based on existing HTML templates."
+msgstr ""
+
+#: ../theming/index.rst:18
+msgid "This training is **not** about:"
+msgstr ""
+
+#: ../theming/index.rst:20
+msgid "How to write JavaScript and integrate it into Plone"
+msgstr ""
+
+#: ../theming/index.rst:21
+msgid "How to create designs or templates used for the advanced theming"
+msgstr ""
+
+#: ../theming/index.rst:55
+msgid ":ref:`ttw-label`"
+msgstr ""
+
+#: ../theming/index.rst:56
 msgid "https://docs.plone.org/adapt-and-extend/theming/index.html"
 msgstr ""
 
-#: ../theming/static-theme.rst:3
-msgid "Make it reproducible: static theme"
-msgstr ""
-
-#: ../theming/static-theme.rst:5
-msgid "You just created your shiny brand new theme TTW."
-msgstr ""
-
-#: ../theming/static-theme.rst:7
-msgid "For more TTW configuring and customizing options, see :ref:`ttw-label`"
-msgstr ""
-
-#: ../theming/static-theme.rst:9
-msgid "Now, let's see how you can reuse it in another Plone site."
-msgstr ""
-
-#: ../theming/static-theme.rst:11
-msgid "go back to \"Theming\" control panel"
-msgstr ""
-
-#: ../theming/static-theme.rst:12
-msgid "click the \"Download\" button in the box of your theme"
-msgstr ""
-
-#: ../theming/static-theme.rst:13
-msgid "the browser will download a zip file"
-msgstr ""
-
-#: ../theming/static-theme.rst:14
-msgid "go to the ZMI root"
-msgstr ""
-
-#: ../theming/static-theme.rst:15
-msgid "create a new plone site"
-msgstr ""
-
-#: ../theming/static-theme.rst:16
-msgid "go to \"Theming\" control panel"
-msgstr ""
-
-#: ../theming/static-theme.rst:17
-msgid "click on \"Upload zip file\" and select your theme"
-msgstr ""
-
-#: ../theming/static-theme.rst:18
-msgid "tick \"Immediately enable new theme\" and click on \"import\""
-msgstr ""
-
-#: ../theming/static-theme.rst:19
-msgid "go back to your plone site: voilá!"
-msgstr ""
-
 #: ../theming/theme-package.rst:3
-msgid "Create a Plone Theme python package"
+msgid "Theme Package I: Preparations"
 msgstr ""
 
 #: ../theming/theme-package.rst:5
 msgid "Creating a theme product with the Diazo inline editor is an easy way to start and to test, but it is not a solid long term solution and you are also limited in what you can do that way."
 msgstr ""
 
-#: ../theming/theme-package.rst:9
+#: ../theming/theme-package.rst:8
 msgid "Even if :py:mod:`plone.app.theming` allows importing and exporting of a Diazo theme as a ZIP archive, it might be preferable to manage your theme as an actual Plone product."
 msgstr ""
 
-#: ../theming/theme-package.rst:13
+#: ../theming/theme-package.rst:11
 msgid "One of the most obvious reasons is that it will allow you to override Plone elements that are not accessible via pure Diazo features (such as overloading content view templates, viewlets, configuration settings, etc.)."
 msgstr ""
 
-#: ../theming/theme-package.rst:19
-msgid "Preparing your setup"
+#: ../theming/theme-package.rst:16
+msgid "Preparing Your Setup"
 msgstr ""
 
-#: ../theming/theme-package.rst:22
+#: ../theming/theme-package.rst:20
 msgid "Install npm"
 msgstr ""
 
-#: ../theming/theme-package.rst:24
-msgid "If you don't have already installed ``npm`` on your system please do it. Npm comes with nodejs, we just need to install ``npm``. On Debian/Ubuntu for example you can do this with apt:"
+#: ../theming/theme-package.rst:22
+msgid "If you don't have :term:`npm` already installed on your system please do it. :program:`npm` comes with :program:`nodejs`, we just need to install :program:`npm`."
 msgstr ""
 
-#: ../theming/theme-package.rst:32
-msgid "If you need a newer version of ``ǹpm`` just update your version with ``npm`` it self:"
+#: ../theming/theme-package.rst:25
+msgid "On Debian/Ubuntu for example you can do this with apt:"
 msgstr ""
 
-#: ../theming/theme-package.rst:40
-msgid "Installing Grunt"
+#: ../theming/theme-package.rst:31
+msgid "On a Mac you can install :program:`npm` using :program:`Homebrew`:"
 msgstr ""
 
-#: ../theming/theme-package.rst:42
-msgid "We also need to install ``grunt-cli`` globaly. If you already have it, you can skip this step."
+#: ../theming/theme-package.rst:37
+msgid "If you need a newer version of :program:`npm` just update your version with :command:`npm` itself:"
+msgstr ""
+
+#: ../theming/theme-package.rst:45
+msgid "Install Grunt"
+msgstr ""
+
+#: ../theming/theme-package.rst:47
+msgid "We also need to install :program:`grunt-cli` globally."
 msgstr ""
 
 #: ../theming/theme-package.rst:49
-msgid "If you get an error with node on Debian/Ubuntu, please check if you already have /usr/bin/node if not create a symlink like: ``ln -s /usr/bin/nodejs /usr/bin/node``."
+msgid "If you already have it, you can skip this step."
 msgstr ""
 
-#: ../theming/theme-package.rst:52
-msgid "virtualenv and mr.bob"
+#: ../theming/theme-package.rst:58
+msgid "If you get an error with :program:`node` on Debian/Ubuntu, please check if you already have ``/usr/bin/node``, if not create a symlink like:"
 msgstr ""
 
-#: ../theming/theme-package.rst:54
-msgid "First let's create a Python virtualenv:"
-msgstr ""
-
-#: ../theming/theme-package.rst:60
-msgid "Then we enable the virtualenv:"
+#: ../theming/theme-package.rst:67
+msgid "Setup A Python Virtual Environment"
 msgstr ""
 
 #: ../theming/theme-package.rst:69
-msgid "Create a product to handle your Diazo theme"
-msgstr ""
-
-#: ../theming/theme-package.rst:71
-msgid "To create a Plone 5 theme skeleton, you will use mr.bob's templates for Plone."
+msgid "First, let's create a Python :program:`virtualenv`:"
 msgstr ""
 
 #: ../theming/theme-package.rst:75
-msgid "Install mr.bob and bobtemplates.plone"
+msgid "Then we enable the virtualenv:"
 msgstr ""
 
-#: ../theming/theme-package.rst:77
+#: ../theming/theme-package.rst:84
+msgid "Create A Product To Handle Your Diazo Theme"
+msgstr ""
+
+#: ../theming/theme-package.rst:86
+msgid "To create a Plone 5 theme skeleton, you will use :program:`mr.bob`'s templates for Plone."
+msgstr ""
+
+#: ../theming/theme-package.rst:90
+msgid "Install mr.bob And bobtemplates.plone"
+msgstr ""
+
+#: ../theming/theme-package.rst:92
 msgid "To install :py:mod:`mr.bob`, you can use :command:`pip`:"
 msgstr ""
 
-#: ../theming/theme-package.rst:83
+#: ../theming/theme-package.rst:98
 msgid "and to install the required bobtemplates for Plone, do:"
 msgstr ""
 
-#: ../theming/theme-package.rst:89
-msgid "after bobtemplates.plone >= 1.0.5 is released do:"
+#: ../theming/theme-package.rst:104
+msgid "Create a Plone 5 theme product skeleton with :command:`mrbob`. It will ask you some questions about the new theme package:"
 msgstr ""
 
-#: ../theming/theme-package.rst:95
-msgid "Create a Plone 5 theme product skeleton with :command:`mrbob`:"
-msgstr ""
-
-#: ../theming/theme-package.rst:101
-msgid "It will ask you some question::"
-msgstr ""
-
-#: ../theming/theme-package.rst:105
-msgid "Here, choose \"Theme\" and fill out the rest of the questions however you like::"
-msgstr ""
-
-#: ../theming/theme-package.rst:121
+#: ../theming/theme-package.rst:129
 msgid "Now you have a new Python package in your current folder:"
 msgstr ""
 
-#: ../theming/theme-package.rst:130
-msgid "Deactivate mrbob virtualenv:"
+#: ../theming/theme-package.rst:139
+msgid "It is now safe to deactivate the ``mrbob`` virtualenv:"
 msgstr ""
 
-#: ../theming/theme-package.rst:138
-msgid "Install Buildout and boostrap your development environment"
+#: ../theming/theme-package.rst:148
+msgid "This would be the perfect time to initialize your package with Git and put your files under version control:"
 msgstr ""
 
-#: ../theming/theme-package.rst:140
-msgid "You can install Buildout globally or on a virtualenv. To install zc.buildout globally:"
+#: ../theming/theme-package.rst:160
+msgid "Install zc.buildout And Bootstrap Your Development Environment"
 msgstr ""
 
-#: ../theming/theme-package.rst:151
-msgid "Now you have everything in place and you can run buildout:"
+#: ../theming/theme-package.rst:162
+msgid "You can install Buildout globally or on a virtualenv."
 msgstr ""
 
-#: ../theming/theme-package.rst:157
-msgid "This will create the whole development environment for your package:"
+#: ../theming/theme-package.rst:164
+msgid "We will install ``zc.buildout`` in a new virtual environment using the provided :file:`requirements.txt`."
+msgstr ""
+
+#: ../theming/theme-package.rst:174
+msgid "Now you have everything in place and you can run :command:`buildout`."
 msgstr ""
 
 #: ../theming/theme-package.rst:176
-msgid "Inspect your package source"
+msgid "Depending on your internet connection and your local buildout cache this can take several minutes to complete."
 msgstr ""
 
-#: ../theming/theme-package.rst:178
+#: ../theming/theme-package.rst:182
+msgid "After buildout finished successfully it is now safe to deactivate the ``buildoutvenv`` virtualenv:"
+msgstr ""
+
+#: ../theming/theme-package.rst:188
+msgid "This will create the whole development environment for your package:"
+msgstr ""
+
+#: ../theming/theme-package.rst:208
+msgid "Inspect Your Package Source"
+msgstr ""
+
+#: ../theming/theme-package.rst:210
 msgid "Your package source code is in the ``src`` folder:"
 msgstr ""
 
-#: ../theming/theme-package.rst:336
-msgid "As you can see, the package already contains a Diazo theme including Barceloneta resources:"
+#: ../theming/theme-package.rst:504
+msgid "As you can see, the package already contains a :term:`Diazo` theme including the :term:`Barceloneta` resources:"
 msgstr ""
 
-#: ../theming/theme-package.rst:374
-msgid "This theme basically provides you with a copy of the Plone 5 default theme (Barceloneta), and you can change everything you need to create your own theme. The Barceloneta resources are in the folder barceloneta. This is basically a copy of the theme folder of plonetheme.barceloneta. We removed some unneeded files there, because we only need the LESS part for partially including it in our theme.less. We also have the icons and the backend.xml from Barceloneta in our them folder."
+#: ../theming/theme-package.rst:544
+msgid "This theme basically provides you with a copy of the Plone 5 default theme (Barceloneta), and you can change everything you need to create your own theme. The Barceloneta resources are in the folder ``barceloneta``."
 msgstr ""
 
-#: ../theming/theme-package.rst:376
-msgid "In ``theme/less`` we have our CSS/LESS files. Our own CSS goes into custom.less. You can also add more LESS files and include them in ``theme.less``, if you have a loot of custom CSS."
+#: ../theming/theme-package.rst:547
+msgid "This is basically a copy of the theme folder of :py:mod:`plonetheme.barceloneta`. We removed some unneeded files there, because we only need the :term:`Less` part for partially including it in our file :file:`theme.less`."
 msgstr ""
 
-#: ../theming/theme-package.rst:378
-msgid "The ``theme.less`` is our main LESS file. Here we include all other files we need. It already has some includes of Barceloneta, Bootstrap and our ``custom.less`` at the bottom."
+#: ../theming/theme-package.rst:550
+msgid "We also have the icons and the file :file:`backend.xml` from Barceloneta in our theme folder."
 msgstr ""
 
-#: ../theming/theme-package.rst:381
-msgid "We also have a package.json, in which we can define external dependencies like Bootstrap or other CSS/JS packages we want to use in our theme, see :ref:`install-ext-packages-with-npm`."
+#: ../theming/theme-package.rst:552
+msgid "In the folder ``theme/less`` we have our :term:`CSS`/:term:`Less` files. Our own CSS goes into the file :file:`custom.less`."
 msgstr ""
 
-#: ../theming/theme-package.rst:385
-msgid "Start Plone and install your theme product"
+#: ../theming/theme-package.rst:555
+msgid "You can also add more :term:`Less` files and include them in :file:`theme.less`, if you have a lot of custom CSS and you like to split it into multiple files."
 msgstr ""
 
-#: ../theming/theme-package.rst:387
-msgid "To start the Plone instance, run:"
+#: ../theming/theme-package.rst:557
+msgid "The file :file:`theme.less` is our main :term:`Less` file. Here we include all other files we need."
 msgstr ""
 
-#: ../theming/theme-package.rst:393
-msgid "The Plone instance will then run on http://localhost:8080. The default username and password is ``admin / admin``. Add a Plone site ``Plone``. Then activate/install your theme product on http://localhost:8080/Plone/prefs_install_products_form. The theme will be automatically enabled. If something is wrong with the theme, you can always go to http://localhost:8080/Plone/@@theming-controlpanel and disable it. This control panel will never be themed, so it works even if the theme might be broken."
+#: ../theming/theme-package.rst:560
+msgid "It already has some includes of :term:`Barceloneta`, Twitter Bootstrap and our cusomizations from the file :file:`custom.less` at the bottom."
 msgstr ""
 
-#: ../theming/theme-package.rst:403
-msgid "Build your Diazo-based theme"
-msgstr ""
-
-#: ../theming/theme-package.rst:405
-msgid "You can start with the example files in the theme folder and just change the index.html and custom.less file to customize the default theme to your needs. As stated above it's the Plone 5 default ``Barceloneta`` theme plus some custom files you can use to to override or write css/less."
-msgstr ""
-
-#: ../theming/theme-package.rst:409
-msgid "Use your own static mockup"
-msgstr ""
-
-#: ../theming/theme-package.rst:411
-msgid "If you got a static mockup from your designer or from a website like http://startbootstrap.com (where the example theme came from), you can use this without customization and just apply the Diazo rules to it."
-msgstr ""
-
-#: ../theming/theme-package.rst:415
-msgid "Another way is to change the static mockup a little bit is to use mostly the same CSS ids and classes. This way it is easier to reuse CSS/LESS from Barceloneta theme and Plone add-ons if needed."
-msgstr ""
-
-#: ../theming/theme-package.rst:421
-msgid "Download and prepare a static theme"
-msgstr ""
-
-#: ../theming/theme-package.rst:423
-msgid "Let's start with an untouched static theme, such as this bootstrap theme: http://startbootstrap.com/template-overviews/business-casual/. Just download it and extract it into the theme folder. Replace the ``index.html`` with the one in the downloaded theme:"
-msgstr ""
-
-#: ../theming/theme-package.rst:492
-msgid "Preparing the template"
-msgstr ""
-
-#: ../theming/theme-package.rst:494
-msgid "To make the given ``index.html`` more useful, we customize it a little bit. Right before the second box which contains:"
-msgstr ""
-
-#: ../theming/theme-package.rst:507
-msgid "Add this:"
-msgstr ""
-
-#: ../theming/theme-package.rst:519
-msgid "And then move the main content (the box 2 and box 3 including the parent row ``div``) into the ``content-container``."
-msgstr ""
-
-#: ../theming/theme-package.rst:522
-msgid "It should look like this:"
-msgstr ""
-
-#: ../theming/theme-package.rst:565
-msgid "Include theme CSS"
+#: ../theming/theme-package.rst:562
+msgid "We also have a file :file:`package.json`, which we can use to define external dependencies like Twitter Bootstrap or other CSS/JS packages we want to use in our theme. For more information on how to do this, see :ref:`install-ext-packages-with-npm`."
 msgstr ""
 
 #: ../theming/theme-package.rst:567
-msgid "We need to include the CSS from the theme into our ``theme.less`` file:"
+msgid "Start Plone And Install Your Theme Product"
 msgstr ""
 
-#: ../theming/theme-package.rst:668
-msgid "Here we mainly add the include of the css the theme provides us in ``theme/css/business-casual.css`` after the END OF UTILS marker, but before the custom.less include. We include the CSS file here as a LESS file. This way we can extend parts of the CSS in our theme, like we will do with the ``.box`` below."
+#: ../theming/theme-package.rst:569
+msgid "To start the Plone instance, run:"
 msgstr ""
 
-#: ../theming/theme-package.rst:670
-msgid "Don't forget to run ``grunt compile`` in your package root, after you changed the LESS files or use ``grunt watch`` to do this automatically after every change!"
+#: ../theming/theme-package.rst:575
+msgid "The Plone instance will then be available at http://localhost:8080. The default username is ``admin`` and password is ``admin``."
 msgstr ""
 
-#: ../theming/theme-package.rst:673
-msgid "Using Diazo rules to map the theme with Plone content"
+#: ../theming/theme-package.rst:578
+msgid "Go to http://localhost:8080 and click the button :guilabel:`Create a new Plone site` to add a new Plone site."
 msgstr ""
 
-#: ../theming/theme-package.rst:675
+#: ../theming/theme-package.rst:579
+msgid "Name the site ``Plone`` (which should be the default) and click on :guilabel:`Create Plone Site`."
+msgstr ""
+
+#: ../theming/theme-package.rst:581
+msgid "Go to the :guilabel:`Add-ons` control panel."
+msgstr ""
+
+#: ../theming/theme-package.rst:582
+msgid "Click on the :guilabel:`Install` next to ``Plone Theme: Ploneconf Theme`` to install your add-on."
+msgstr ""
+
+#: ../theming/theme-package.rst:583
+msgid "The theme will be automatically enabled."
+msgstr ""
+
+#: ../theming/theme-package.rst:585
+msgid "If something is wrong with the theme, you can always go to http://localhost:8080/Plone/@@theming-controlpanel and disable it."
+msgstr ""
+
+#: ../theming/theme-package.rst:587
+msgid "This control panel will never be themed, so it works even if the theme might be broken."
+msgstr ""
+
+#: ../theming/theme-package.rst:592
+msgid "Don't forget to commit any changes on your package to version control. After the first buildout run, there are some new files and folders. Some of them (:file:`node_modules` and :file:`package-lock.json`) can be ignored, while others (:file:`theme-compiled.css`) need to be added to the repository."
+msgstr ""
+
+#: ../theming/theme-package.rst:597
+msgid "Edit the :file:`.gitignore` file and add the following entries:"
+msgstr ""
+
+#: ../theming/theme-package.rst:604
+msgid "Then run the following commands:"
+msgstr ""
+
+#: ../theming/theme-package.rst:611
+msgid ":doc:`In the next section <theme-package-2>` we will adjust the skeleton we got from ``bobtemplates.plone`` and fill it with our custom theme."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:3
+msgid "Theme Package II: Build Your Diazo-Based Theme"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:5
+msgid "In the previous section we :doc:`prepared our setup for our custom theme package <theme-package>`. Now we will adjust the skeleton we got using ``bobtemplates.plone`` and build our Diazo theme."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:8
+msgid "You can start with the example files in the theme folder. Change the :file:`index.html` and :file:`custom.less` files to customize the default theme to your needs."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:11
+msgid "As stated above it's the Plone 5 default :term:`Barceloneta` theme plus some custom files you can use to to override or write CSS/Less."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:15
+msgid "Use Your Own Static Mockup"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:17
+msgid "If you got a static mockup from your designer or from a website like https://startbootstrap.com/ (where the example template came from), you can use this without customization and just apply the Diazo rules to it."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:20
+msgid "Another way is to change the static mockup a little bit to use mostly the same CSS id's and classes like Plone does. This way it is easier to reuse CSS/Less from Barceloneta and Plone add-ons if needed."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:25
+msgid "Download And Prepare A Static Theme"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:27
+msgid "Let's start with an untouched static template, such as this Twitter Bootstrap based one: https://startbootstrap.com/template-overviews/business-casual/. The latest version of that template uses a beta version of Twitter Bootstrap 4."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:30
+msgid "We are going to use the latest release which uses Twitter Bootstrap 3. Download it from https://github.com/BlackrockDigital/startbootstrap-business-casual/releases/tag/v3.3.7 and extract it into the theme folder."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:33
+msgid "Replace the :file:`index.html` with the one from the downloaded template."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:35
+msgid "The content of your theme folder should now look like this:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:104
+msgid "Preparing The Template"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:106
+msgid "To make the given template :file:`index.html` more useful, we customize it a little bit."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:108
+msgid "Right before the second box which contains:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:120
+msgid "Add this:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:132
+msgid "And then move the main content (the box 2 and box 3 including the parent ``div`` with the class ``row``) into the ``content-container``."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:134
+msgid "It should now look like this:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:180
+msgid "We added the portlet columns *after* the main content."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:182
+msgid "Using the correct Twitter Bootstrap grid classes we can later *push* the 1st portlet column visually before the main content."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:186
+msgid "Include Theme CSS"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:188
+msgid "Next we need to include the CSS from the template into our :file:`theme.less` file. We will add the include of the CSS the template provides in :file:`theme/css/business-casual.css` after the ``END OF UTILS`` marker, but before the ``custom.less`` include:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:289
+msgid "We include the CSS file here as a :term:`Less` file. This way we can extend parts of the CSS in our theme (we will do this with the ``.box`` class in the next section)."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:294
+msgid "Don't forget to run :command:`grunt compile` in your package root after you changed the :term:`Less` files."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:296
+msgid "You can use :command:`grunt watch` to automatically compile your :term:`Less` files to CSS whenver they are changed."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:300
+msgid "Using Diazo Rules To Map The Theme With Plone Content"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:302
 msgid "Now that we have the static theme, we need to apply the Diazo rules in :file:`rules.xml` to map the Plone content elements to the theme."
 msgstr ""
 
-#: ../theming/theme-package.rst:679
-msgid "First let me explain what we mean when we talk about *content* and *theme*. *Content* is usually the dynamic generated content on the Plone site, and the *theme* is the static template site."
+#: ../theming/theme-package-2.rst:304
+msgid "First let me explain what we mean when we talk about *content* and *theme*."
 msgstr ""
 
-#: ../theming/theme-package.rst:683
+#: ../theming/theme-package-2.rst:306
+msgid "*Content* is usually the dynamic generated content on the Plone site, and the *theme* is the static template site."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:308
 msgid "For example:"
 msgstr ""
 
-#: ../theming/theme-package.rst:689
-msgid "This means that the element ``#headline`` in the theme should be replaced by the ``#firstHeading`` element from the generated Plone content."
+#: ../theming/theme-package-2.rst:314
+msgid "This rule will replace the element with the CSS id ``#headline`` in the theme with the element with CSS id ``#firstHeading`` from the generated Plone content."
 msgstr ""
 
-#: ../theming/theme-package.rst:692
-msgid "To inspect the content side, you can open another Browser tab, but instead of http://localhost:8080/Plone, use http://127.0.0.1:8080/Plone. In this tab Diazo is disabled, allowing you to use your browser's Inspector or Developer tools to view the DOM structure of default Plone. This 'unthemed host name' is managed in the Theming control panel > Advanced Settings, where more domains can be added."
+#: ../theming/theme-package-2.rst:316
+msgid "To inspect the content side, you can open another Browser tab, but instead of http://localhost:8080/Plone, use http://127.0.0.1:8080/Plone. In this tab Diazo is disabled, allowing you to use your browser's Inspector or Developer tools to view the DOM structure of the default, unthemed Plone content."
 msgstr ""
 
-#: ../theming/theme-package.rst:696
-msgid "For more details on how to use Diazo rules, look at http://docs.diazo.org/en/latest/ and http://docs.plone.org/external/plone.app.theming/docs/index.html."
+#: ../theming/theme-package-2.rst:319
+msgid "This *unthemed host name* is managed in the :guilabel:`Theming Control Panel` under :guilabel:`Advanced Settings`, where more domains can be added."
 msgstr ""
 
-#: ../theming/theme-package.rst:701
-msgid "We already have a fully functional rule set based on the Plone 5 default Theme:"
+#: ../theming/theme-package-2.rst:321
+msgid "For more details on how to use Diazo rules, take a look at http://docs.diazo.org/en/latest/ and https://docs.plone.org/external/plone.app.theming/docs/index.html."
 msgstr ""
 
-#: ../theming/theme-package.rst:808
-msgid "As you probably noticed, the theme does not look like it should and is missing some important parts like the toolbar. That is because we are using an HTML template, which has different HTML structure, than the one Plone's default theme is using."
+#: ../theming/theme-package-2.rst:323
+msgid "With our theme generated from :py:mod:`bobtemplates.plone` we already got a fully functional rule set based on the Plone 5 default Theme:"
 msgstr ""
 
-#: ../theming/theme-package.rst:810
-msgid "We can either change our theme's template to use the same structure and naming for classes and ids, or we can change our rule set to work with the theme template like it is. We will mainly go the second way and customize our rule set to work with the provided theme template. In fact if you use a better theme template then this, where more useful CSS classes and ids used and the grid is defined in CSS/LESS and not in the HTML markup it self, it is a lot easier to work with touching the theme. But we use this popular example theme and therefor need also to make changes to the template it self a bit."
+#: ../theming/theme-package-2.rst:430
+msgid "As you probably noticed, the theme does not look like it should right now and is missing some important parts like the toolbar. That is because we are using an HTML template which has a different HTML structure than the one Plone's default theme is using."
 msgstr ""
 
-#: ../theming/theme-package.rst:813
-msgid "Customize the rule set"
+#: ../theming/theme-package-2.rst:433
+msgid "We can either change our theme's template to use the same structure and naming for classes and id's, or we can change our rule set to work with the theme template like it is. We will use the second approach and customize our rule set to work with the provided theme template."
 msgstr ""
 
-#: ../theming/theme-package.rst:815
-msgid "The most important part of Plone is the toolbar. So let's first make sure we have it in our theme template."
+#: ../theming/theme-package-2.rst:436
+msgid "In fact, if you use a better theme template then this one - where more useful CSS classes and id's are used and the grid is defined in CSS/Less and not in the HTML markup itself - it is a lot easier to work with without touching the template. But we decided to use this popular template as an example and therefor we have to make changes to the template itself."
 msgstr ""
 
-#: ../theming/theme-package.rst:818
+#: ../theming/theme-package-2.rst:441
+msgid "Customizing The Ruleset"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:443
+msgid "In this section we will adjust the Diazo rules to place the Plone content into the predefined template sections."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:447
 msgid "Plone Toolbar"
 msgstr ""
 
-#: ../theming/theme-package.rst:820
-msgid "We already have the needed Diazo rules in our rules.xml:"
+#: ../theming/theme-package-2.rst:449
+msgid "We start with the toolbar since it is the most important part of the Plone site (for logged in users). So let's first make sure we have it in our theme template. We already have the required Diazo rule in our :file:`rules.xml`:"
 msgstr ""
 
-#: ../theming/theme-package.rst:827
-msgid "The only thing we need is a placeholder in our theme template:"
+#: ../theming/theme-package-2.rst:458
+msgid "The only thing we need is the corresponding HTML part in our theme template:"
 msgstr ""
 
-#: ../theming/theme-package.rst:834
-msgid "You can put it right after the opening body tag in your index.html"
+#: ../theming/theme-package-2.rst:466
+msgid "You can add it right after the opening body tag in your :file:`index.html`."
 msgstr ""
 
-#: ../theming/theme-package.rst:839
-msgid "Login link & co"
+#: ../theming/theme-package-2.rst:470
+msgid "Unthemed Backend"
 msgstr ""
 
-#: ../theming/theme-package.rst:841
-msgid "If you want to have a login link for your users, you can put this placeholder in your theme template where you want the link to display. You can always log in by adding ``/login`` to the Plone url, so it's optional."
+#: ../theming/theme-package-2.rst:472
+msgid "If the only thing you want to do is theme your frontend, and use the default Barceloneta theme for your backend (edit, folder contents, settings), you can include Barceloneta's :file:`backend.xml`."
 msgstr ""
 
-#: ../theming/theme-package.rst:849
-msgid "The necessary rule to fill this with the Plone login link is already in our rules.xml:"
+#: ../theming/theme-package-2.rst:475
+msgid "To only have your frontend theme rules active when you visit the frontend part of your site, you can wrap the existing rules into another ``rules`` block:"
 msgstr ""
 
-#: ../theming/theme-package.rst:855
-msgid "This will replace your placeholder with ``#portal-personaltools-wrapper`` from Plone (for example the login link). The link will only be inserted if the user is not already logged in."
+#: ../theming/theme-package-2.rst:497
+msgid "Note that we include the file from the theme directly, and don't use the one we got from :py:mod:`bobtemplates.plone`."
 msgstr ""
 
-#: ../theming/theme-package.rst:859
-msgid "Top-navigation"
+#: ../theming/theme-package-2.rst:501
+msgid "Login Link & Co"
 msgstr ""
 
-#: ../theming/theme-package.rst:861
-msgid "Replace the placeholder with the real Plone top-navigation links. To do this we replace this rule from Barceloneta:"
+#: ../theming/theme-package-2.rst:503
+msgid "If you want to have a login link for your users, you can put this placeholder in your theme template where you want the link to display. You can always login into the Plone site by adding ``/login`` to the Plone url, so it's optional."
 msgstr ""
 
-#: ../theming/theme-package.rst:869
-msgid "with our new rule:"
+#: ../theming/theme-package-2.rst:506
+msgid "You can add it right before the tag ``<div class=\"brand\">Business Casual</div>`` in your :file:`index.html`."
 msgstr ""
 
-#: ../theming/theme-package.rst:878
-msgid "Here we take the list of links from Plone and replace the placeholder links in the theme with it. The Barceloneta rule copies the whole navigation container into the theme, but only need to copy the links over."
+#: ../theming/theme-package-2.rst:517
+msgid "The necessary rule to fill this with the Plone login link is already in our rules.xml. But because the id for the anonymous tools in Plone changed in one of the recent versions, we have to update it (change ``#portal-personaltools-wrapper`` to ``#portal-anontools``):"
 msgstr ""
 
-#: ../theming/theme-package.rst:883
-msgid "Breadcrumb & co"
+#: ../theming/theme-package-2.rst:525
+msgid "This will replace your placeholder with ``#portal-anontools`` from Plone (for example the login link). The link will only be inserted if the user is not already logged in."
 msgstr ""
 
-#: ../theming/theme-package.rst:885
-msgid "Plone provides some viewlets like the breadcrumbs (the current path) above the content area."
+#: ../theming/theme-package-2.rst:530
+msgid "Top Navigation"
 msgstr ""
 
-#: ../theming/theme-package.rst:887
-msgid "We already have the needed rule to insert the Plone above-content stuff into the theme:"
+#: ../theming/theme-package-2.rst:532
+msgid "In the next step we will replace the menu placeholder with the real Plone top-navigation links. To do this we adjust this rule from Barceloneta:"
 msgstr ""
 
-#: ../theming/theme-package.rst:894
-msgid "To get this into the theme layout, we add a placeholder with the CSS id ``#above-content`` to the theme's ``index.html``. This is the place where we want to insert Plone's \"above-content\" stuff."
+#: ../theming/theme-package-2.rst:540
+msgid "Change the rule to the following:"
 msgstr ""
 
-#: ../theming/theme-package.rst:897
-msgid "For example, at the top of the ``div.container`` after:"
+#: ../theming/theme-package-2.rst:547
+msgid "Here we take the list of links from Plone and replace the placeholder links in the theme. The Barceloneta rule copies the whole navigation container into the theme, but we only need to copy the links over."
 msgstr ""
 
-#: ../theming/theme-package.rst:910
-msgid "goes this before the row/box:"
+#: ../theming/theme-package-2.rst:552
+msgid "Breadcrumbs & Co"
 msgstr ""
 
-#: ../theming/theme-package.rst:919
-msgid "This will bring over everything from the ``viewlet-above-content`` block from Plone."
+#: ../theming/theme-package-2.rst:554
+msgid "Plone provides some viewlets like the breadcrumbs (showing the current path) which are rendered in the *above the content* area."
 msgstr ""
 
-#: ../theming/theme-package.rst:922
-msgid "This also includes the Breadcrumb bar. Because our current theme does not provide a breadcrumb bar, we can just drop it from the Plone content, like this:"
+#: ../theming/theme-package-2.rst:556
+msgid "We already have the required rule to insert the Plone above-content viewlets into the theme:"
 msgstr ""
 
-#: ../theming/theme-package.rst:928
+#: ../theming/theme-package-2.rst:563
+msgid "All we have to do to get this into the theme layout is to add a placeholder with the CSS id ``#above-content`` to the theme's :file:`index.html`."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:565
+msgid "We can add this for example as a first element in the main container with the CSS class ``.container``, after the main navigation:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:587
+msgid "This will bring over everything from the ``viewlet-above-content`` block from Plone. It also includes the breadcrumbs bar."
+msgstr ""
+
+#: ../theming/theme-package-2.rst:590
+msgid "Because our current theme does not provide a breadcrumbs bar, we can drop it from the Plone content, like this:"
+msgstr ""
+
+#: ../theming/theme-package-2.rst:596
 msgid "If you only want to drop this for non-administrators, you can do it like this:"
 msgstr ""
 
-#: ../theming/theme-package.rst:937
+#: ../theming/theme-package-2.rst:605
 msgid "Or for anonymous users only:"
 msgstr ""
 
-#: ../theming/theme-package.rst:948
+#: ../theming/theme-package-2.rst:616
 msgid "The classes like *userrole-anonymous* are provided by Plone in the ``body`` tag."
 msgstr ""
 
-#: ../theming/theme-package.rst:952
-msgid "Slider only on Front-page"
+#: ../theming/theme-package-2.rst:620
+msgid "Slider Only On Front Page"
 msgstr ""
 
-#: ../theming/theme-package.rst:954
-msgid "We want the slider in the template only on the front page, and we don't want it when we are editing the front page. To make this easier, we add ``#front-page-slider`` to the outer row ``div``-tag which contains the slider:"
+#: ../theming/theme-package-2.rst:622
+msgid "We want the slider in the template to be only visible on the front page. To make this easier, we add the CSS-ID ``#front-page-slider`` to the outer row ``div``-tag which contains the slider:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1006
+#: ../theming/theme-package-2.rst:675
 msgid "Now we can drop it if we are not on the front page and also in some other situations:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1014
+#: ../theming/theme-package-2.rst:684
 msgid "Currently the slider is still static, but we will change that later in :ref:`create-dynamic-slider-content-in-plone`."
 msgstr ""
 
-#: ../theming/theme-package.rst:1017
-msgid "Title and Description"
+#: ../theming/theme-package-2.rst:688
+msgid "Title And Description"
 msgstr ""
 
-#: ../theming/theme-package.rst:1019
-msgid "Let's delete the tag with the id ``brand-before`` from the theme template."
+#: ../theming/theme-package-2.rst:690
+msgid "The front page with the slider gives us a nice structure we can use for our title and description. We will use the ``<h1>`` tag with the class ``brand-name`` for the title and the following ``<h2>`` tag for the description. There is also an ``<h2>`` tag with the class ``brand-before`` which we don't need, so we will remove it."
 msgstr ""
 
-#: ../theming/theme-package.rst:1027
-msgid "Now let's put the necessary rules for the Title and Description in our rules.xml:"
+#: ../theming/theme-package-2.rst:694
+msgid "The resulting block of rules can be wrapped into a separate ``rules`` tag with the ``css:if-content`` condition, so we only have to write this once:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1048
-msgid "If we have the slider on the front page, the Plone title will be placed inside the tag with the class ``brand-name``. If we don't have the slider, we see the title inside the tag with the class ``documentFirstHeading``."
+#: ../theming/theme-package-2.rst:718
+msgid "If we are on the front page, the Plone title will be placed inside the tag with the class ``brand-name``. For all other pages, the title and description stay at their place in the content area."
 msgstr ""
 
-#: ../theming/theme-package.rst:1052
-msgid "Status messages"
+#: ../theming/theme-package-2.rst:723
+msgid "Status Messages"
 msgstr ""
 
-#: ../theming/theme-package.rst:1054
-msgid "Plone will render status messages in the ``#global_statusmessage`` element. We want to bring these messages across to the theme. For this, we add another placeholder into our theme template:"
+#: ../theming/theme-package-2.rst:725
+msgid "Plone will render status messages in an element with the CSS-ID ``#global_statusmessage``. To show the messages in our theme, we have to add another placeholder into our theme template (e.g. next to the ``above-content`` viewlets):"
 msgstr ""
 
-#: ../theming/theme-package.rst:1065
-msgid "and we already have this rule to bring the messages across:"
+#: ../theming/theme-package-2.rst:736
+msgid "The necessary rule is already available:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1072
-msgid "To test that, just edit the front page. You should see a confirmation message from Plone."
+#: ../theming/theme-package-2.rst:743
+msgid "To test that the status messages are working, you can for example edit the front page and then click on cancel or save, which will give you a confirmation message from Plone."
 msgstr ""
 
-#: ../theming/theme-package.rst:1075
-msgid "Main content area 1"
+#: ../theming/theme-package-2.rst:748
+msgid "Main Content Area"
 msgstr ""
 
-#: ../theming/theme-package.rst:1077
-msgid "To make the Plone content area flexible and containing the correct bootstrap grid classes, we use an inline XSL snippet. This is already in our rules.xml, but needs some customization for our theme:"
+#: ../theming/theme-package-2.rst:750
+msgid "To make the Plone content area flexible and containing the correct Twitter Bootstrap grid classes, we use an inline :term:`XSLT` snippet. This is already available in our :file:`rules.xml` file, but it needs some customization for our theme:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1114
-msgid "This will add the right grid classes to the content columns depending on one-column-, two-column- or three-column-layout. We need to wrap these elements in a div with the class ``box``."
+#: ../theming/theme-package-2.rst:753
+msgid "We need to wrap the grid columns into an element with the class ``box`` and ``clearfix``."
 msgstr ""
 
-#: ../theming/theme-package.rst:1119
-msgid "Left and right columns"
+#: ../theming/theme-package-2.rst:754
+msgid "We have to adjust the CSS class depending on the available portlets."
 msgstr ""
 
-#: ../theming/theme-package.rst:1121
-msgid "We have already added the ``column1-container`` and ``column2-container`` ids to our template. The following rules will incorporate the left and the right columns from Plone into the theme, and also change their markup to be an ``aside`` instead of a normal ``div``. That is the reason to use inline XSL here, but we already have it in our rules:"
+#: ../theming/theme-package-2.rst:799
+msgid "This code will add the correct Twitter Bootstrap grid classes to the content columns, depending on a one-, two- or three-column-layout. We had to adjust the column classes (we added ``col-md-push-3``) to push the main content (visually) after the 1st portlet column, if this one is available."
 msgstr ""
 
-#: ../theming/theme-package.rst:1150
-msgid "So nothing more to do here."
+#: ../theming/theme-package-2.rst:802
+msgid "For our template we also need to wrap the content and the viewlets showing below the content in a ``<div>`` tag with the CSS class ``box``. This will add the shiny white transparent background."
 msgstr ""
 
-#: ../theming/theme-package.rst:1153
-msgid "Footer"
+#: ../theming/theme-package-2.rst:807
+msgid "We also changed the column classes to use the ``col-sm-*`` size for small screens to use the full width and the ``col-md-*`` size for mid-size screens to use a column layout. This fits better on smaller screen sizes."
 msgstr ""
 
-#: ../theming/theme-package.rst:1155
-msgid "Bring across the footer from Plone:"
+#: ../theming/theme-package-2.rst:812
+msgid "Left And Right Columns"
 msgstr ""
 
-#: ../theming/theme-package.rst:1164
-msgid "That was basically all to bring the theme together with the dynamic elements from Plone. The rest is more or less CSS. Later we will :ref:`create-dynamic-slider-content-in-plone` to make the slider dynamic and let users change the pictures for the slider."
+#: ../theming/theme-package-2.rst:814
+msgid "We already added the necessary placeholders ``column1-container`` and ``column2-container`` for the two portlet columns to our template. The next set of rules will add the left and right portlet columns from Plone into the theme, and also change their markup to be an ``<aside>`` element instead of a normal ``<div>`` tag."
 msgstr ""
 
-#: ../theming/theme-package.rst:1168
-msgid "Understanding and using the Grunt build system"
+#: ../theming/theme-package-2.rst:817
+msgid "Because the main content column is coming before the two portlet columns, but we want to have the 1st column appear on the left side, we need to *pull* the column before the main content. This is done with the CSS classes ``col-md-pull-6`` (if both portlet columns are available) and ``col-md-pull-9`` (if only the left column is available)."
 msgstr ""
 
-#: ../theming/theme-package.rst:1170
-msgid "We already have a ``Gruntfile.js`` in the top level directory of our theme package:"
+#: ../theming/theme-package-2.rst:862
+msgid "Another thing we have to change are the CSS-IDs for the columns. The ruleset we got from ``bobtemplates.plone`` assigned the ID ``sidebar`` twice, which is not valid HTML."
 msgstr ""
 
-#: ../theming/theme-package.rst:1275
-msgid "At the end, we can see some registered ``Grunt`` tasks. We can use these tasks to control what happens when we run ``Grunt``."
+#: ../theming/theme-package-2.rst:867
+msgid "Footer Area"
 msgstr ""
 
-#: ../theming/theme-package.rst:1278
-msgid "By default ``Grunt`` will just run the ``compile task``, which means the less files are getting compiled and the postcss task is run:"
+#: ../theming/theme-package-2.rst:869
+msgid "Last but not least we have to integrate the footer area from Plone. The rule to move all footer portlets at once is already available, the only thing we have to adjust is the selector for the theme:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1292
-msgid "If we want ``grunt`` to watch for changes in our less files and let them compile it automatically after every change, we can run ``grunt watch``, and it will run the ``compile`` task after every change of a LESS file:"
+#: ../theming/theme-package-2.rst:881
+msgid "If we want to go advanced, we can create a doormat like footer. Therefore, we first have to select the *footer*, *site actions* and *colophon* (which are the default portlets available in the footer) and move them into place:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1300
-msgid "If some LESS file has changed, you will see something like this:"
+#: ../theming/theme-package-2.rst:918
+msgid "Next we have to select all other available footer portlets, if any, and add them before the *footer*, *site actions* and *colophon* portlets in the footer area."
 msgstr ""
 
-#: ../theming/theme-package.rst:1320
-msgid "They are also other useful tasks like ``plone-bsync``, which we can use to also update the Browser after changes."
+#: ../theming/theme-package-2.rst:920
+msgid "We will count the amount of portlets, and based on the number we get we set the column classes."
 msgstr ""
 
-#: ../theming/theme-package.rst:1340
-msgid "You will now see an open browser window, which is automatically reloaded any time a LESS file has changed and the CSS was recompiled."
+#: ../theming/theme-package-2.rst:974
+msgid "That was basically all to bring the theme together with the dynamic elements from Plone. The next part will :doc:`cover necessary CSS customizations <theme-package-3>` for our theme. Later we will :ref:`make the slider dynamic and let users change the pictures for the slider <create-dynamic-slider-content-in-plone>`."
 msgstr ""
 
-#: ../theming/theme-package.rst:1344
-msgid "If you use other ports or IP's for your Plone backend, you have to set up the proxy in the Gruntfile.js to the Plone backend address:port."
+#: ../theming/theme-package-3.rst:3
+msgid "Theme Package III: Customizations"
 msgstr ""
 
-#: ../theming/theme-package.rst:1348
-msgid "Theme manifest.xml"
+#: ../theming/theme-package-3.rst:5
+msgid "In the previous sections we :doc:`prepared our setup <theme-package>` and :doc:`created our custom theme, adjusted the template and modified and added some Diazo rules <theme-package-2>`."
 msgstr ""
 
-#: ../theming/theme-package.rst:1350
-msgid "Now let's have a look at our theme's ``manifest.cfg`` which declares ``development-css``, ``production-css`` and optionally ``tinymce-content-css``, like this:"
+#: ../theming/theme-package-3.rst:8
+msgid "We will add some final customizations to the theme using CSS and define theme attributes."
 msgstr ""
 
-#: ../theming/theme-package.rst:1376
-msgid "The ``development-css`` file is used when Plone is running in development mode, otherwise the file under ``production-css`` will be used."
+#: ../theming/theme-package-3.rst:12
+msgid "Understanding And Using The Grunt Build System"
 msgstr ""
 
-#: ../theming/theme-package.rst:1378
-msgid "The last one ``tinymce-content-css`` tells Plone to load that particular CSS file inside TinyMCE, wherever a TinyMCE rich text field is displayed."
+#: ../theming/theme-package-3.rst:14
+msgid "Before we begin customizing the CSS for our theme we have to take a look at the :term:`Grunt` Task Runner. We already have a ``Gruntfile.js`` - generated by ``bobtemplates.plone`` -  in the top level directory of our theme package."
 msgstr ""
 
-#: ../theming/theme-package.rst:1382
-msgid "After making manifest changes, we need to deactivate/activate the theme for them to take effect. Just go to ``/@@theming-controlpanel`` and do it."
+#: ../theming/theme-package-3.rst:17
+msgid "For our example we have to adjust the configuration for the ``browserSync:html`` and ``browserSync:plone`` tasks."
 msgstr ""
 
-#: ../theming/theme-package.rst:1387
-msgid "Final CSS customization"
+#: ../theming/theme-package-3.rst:19
+msgid "This allows us to get automatic reloads in the browser when we work on the HTML template (with or without Plone) and change any of the configured files (more on that later in this chapter)."
 msgstr ""
 
-#: ../theming/theme-package.rst:1389
-msgid "To make our theme look nicer, we add some CSS as follows to our ``custom.less`` file:"
+#: ../theming/theme-package-3.rst:131
+msgid "At the end of the file we can see some registered :term:`Grunt` tasks. We can use these tasks to control what happens when we run the :command:`grunt` command."
 msgstr ""
 
-#: ../theming/theme-package.rst:1478
-msgid "Install external CSS and JavaScript with npm and use them in your theme"
+#: ../theming/theme-package-3.rst:134
+msgid "By default, :command:`grunt` will run the :command:`compile` task, which compiles the configured Less files into CSS and afterwards transforms the generated CSS with :command:`postcss`:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1480
-msgid "As our theme is based on ``Bootstrap``, we want to install ``Bootstrap`` with ``npm`` to have more flexibility, for example to use the LESS file of Bootstrap. To do that, we use ``npm``, which you should already have globally installed on your system."
+#: ../theming/theme-package-3.rst:148
+msgid "We can automate this task by running :command:`grunt watch`, which will check the configured Less files for changes. If you change on of the Less files, you will see the output on the command line:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1484
-msgid "The following steps are already included in bobtemplates.plone template, they are here only for documentation reasons, to show how to install and use external packages like ``Bootstrap``."
+#: ../theming/theme-package-3.rst:166
+msgid "There are also two ``browserSync`` tasks pre-configured. The first one, ``bsync`` will watch for changes on the template files and reload the browser window for you automatically. This is especially useful when you want to make bigger changes on the template itself, without the Plone related Diazo rules."
 msgstr ""
 
-#: ../theming/theme-package.rst:1486
-msgid "To install ``Bootstrap`` with ``npm`` run the following command inside the theme folder:"
+#: ../theming/theme-package-3.rst:191
+msgid "The next task, ``plone-bsync``, will connect to your development Plone instance and open another browser window for you. If you now change one of the configured theme files in the :file:`less` or :file:`barceloneta` folder, the files will be compiled to CSS and your browser window will reload."
 msgstr ""
 
-#: ../theming/theme-package.rst:1492
-msgid "The ``--save`` option will add the package to ``package.json`` in the theme folder for us. Now, we can install all dependencies on any other system by running the following command from inside of our theme folder:"
+#: ../theming/theme-package-3.rst:195
+msgid "A change of the HTML template file :file:`index.html` or Diazo rules file :file:`rules.xml` will reload your browser as well:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1500
-msgid "Now that we have installed bootstrap using npm, we have all bootstrap components available in the subfolder called ``node_modules``:"
+#: ../theming/theme-package-3.rst:229
+msgid "Don't forget to start your Plone instance."
 msgstr ""
 
-#: ../theming/theme-package.rst:1630
-msgid "To include the needed \"carousel\" part and some other bootstrap components which our downloaded theme uses, we change our ``theme.less`` to look like this:"
+#: ../theming/theme-package-3.rst:234
+msgid "If you use other ports or IP addresses for your Plone backend, you have to adjust the proxy settings in the :file:`Gruntfile.js` to match your Plone configuration."
 msgstr ""
 
-#: ../theming/theme-package.rst:1730
-msgid "Here you can see how we include the resources like ``@import \"@{bootstrap_path}/carousel.less\";`` in our LESS file."
+#: ../theming/theme-package-3.rst:239
+msgid "Theme :file:`manifest.cfg`"
 msgstr ""
 
-#: ../theming/theme-package.rst:1732
-msgid "Also take notice of the definition:"
+#: ../theming/theme-package-3.rst:241
+msgid "Settings for our theme are declared in the file :file:`manifest.cfg`. It contains settings for CSS files to use for development and production, a CSS file for the content editor TinyMCE and several other optional settings."
 msgstr ""
 
-#: ../theming/theme-package.rst:1738
-msgid "here we define the bootstrap path, so that we can use it in all bootstrap includes."
+#: ../theming/theme-package-3.rst:244
+msgid "The one we get from ``bobtemplates.plone`` looks like this:"
 msgstr ""
 
-#: ../theming/theme-package.rst:1740
-msgid "Don't forget to run ``grunt compile`` after you changed the LESS files or use ``grunt watch`` to do this automatically after every change!"
+#: ../theming/theme-package-3.rst:270
+msgid "The :file:`development-css` file is used when Plone is running in development mode, otherwise the file defined in :file:`production-css` will be used. The file :file:`tinymce-content-css` tells Plone to load that particular CSS file inside TinyMCE, whenever a TinyMCE rich text field is displayed."
 msgstr ""
 
-#: ../theming/theme-package.rst:1744
-msgid "More Diazo and plone.app.theming details"
+#: ../theming/theme-package-3.rst:275
+msgid "After making changes to the file :file:`manifest.cfg`, we need to deactivate/activate the theme for them to take effect."
 msgstr ""
 
-#: ../theming/theme-package.rst:1746
-msgid "For more details how to build a Diazo based theme, look at http://docs.diazo.org/en/latest/ and http://docs.plone.org/external/plone.app.theming/docs/index.html."
+#: ../theming/theme-package-3.rst:279
+msgid "You can read more about the :file:`manifest.cfg` and the available options in the `plone.app.theming documentation <https://docs.plone.org/external/plone.app.theming/docs/index.html#the-manifest-file>`_."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:3
-msgid "Using TinyMCE templates"
+#: ../theming/theme-package-3.rst:283
+msgid "Final CSS Customization"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:5
-msgid "TinyMCE has a *templates* plugin which provides an easy way to create complex content in TinyMCE. You can use that to help users to add complex content structures like predefined tables or content. The users then only need to customize this content to their needs."
+#: ../theming/theme-package-3.rst:285
+msgid "Our example theme already looks pretty good. But with the help of some CSS we can give it the final touch."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:12
-msgid "Create your own TinyMCE templates"
+#: ../theming/theme-package-3.rst:288
+msgid "We will re-use the definition of the ``box`` class from the file :file:`theme/css/business-casual.css` for portlets in the left and right portlet column. Replace the example content with the following Less code in the file :file:`custom.less`:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:14
-msgid "We already have a folder named ``tinymce-templates`` in our theme folder. So we just need to add a file named ``content-box.html`` into the this folder:"
+#: ../theming/theme-package-3.rst:396
+msgid "Install External CSS And JavaScript Libraries With npm And Use Them In Your Theme"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:23
-msgid "In the file :file:`content-box.html` we put this HTML template content:"
+#: ../theming/theme-package-3.rst:398
+msgid "As our theme is based on ``Bootstrap``, we want to install ``Bootstrap`` with :program:`npm` to have more flexibility, for example to use the Less file of Bootstrap."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:45
+#: ../theming/theme-package-3.rst:401
+msgid "To do that, we use :program:`npm`, which we already :doc:`installed in the preparations <theme-package>`."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:405
+msgid "The following steps are already included in the ``bobtemplates.plone`` template We show them here for documentation reasons, so you see how you can install and use external packages like ``Bootstrap``."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:408
+msgid "To install ``Bootstrap`` with :program:`npm`, run the following command inside the theme folder:"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:415
+msgid "The ``--save`` option will add the ``bootstrap`` package to the file :file:`package.json` in the theme folder for us. Now we can install all dependencies on any other system by running the following command from inside of our theme folder:"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:422
+msgid "Now that we have installed bootstrap using :command:`npm` we have all the ``bootstrap`` components available in the subfolder called :file:`node_modules`:"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:558
+msgid "We will include the \"carousel\" part and some other bootstrap components which our downloaded theme uses. To do this, we include the required bootstrap components in our :file:`theme.less` file (they were already added from ``bobtemplates.plone``):"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:657
+msgid "Here you can see how we include the resources like ``@import \"@{bootstrap_path}/carousel.less\";`` in our Less file."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:659
+msgid "But before they can be used, it is important to add the path to the less files:"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:667
+msgid "This defines the path to the ``bootstrap`` files, so that we can use it in all bootstrap includes."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:671
+msgid "Don't forget to run :command:`grunt compile` after you changed any of the Less files or use :command:`grunt watch` to do this automatically after every file change."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:676
+msgid "More Diazo And plone.app.theming Details"
+msgstr ""
+
+#: ../theming/theme-package-3.rst:678
+msgid "For more information on how to build a Diazo based theme look at `the diazo documentation <http://docs.diazo.org/en/latest/>`_ and `the plone.app.theming manual <https://docs.plone.org/external/plone.app.theming/docs/index.html>`_."
+msgstr ""
+
+#: ../theming/theme-package-3.rst:681
+msgid "In the next part we will :doc:`take a look at template customizations <theme-package-4>` for our theme and :ref:`make the slider dynamic and let users change the pictures for the slider <create-dynamic-slider-content-in-plone>`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:3
+msgid "Theme Package IV: Creating And Customizing Plone Templates"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:5
+msgid "In the previous sections we :doc:`created our custom theme <theme-package-2>` and :doc:`customized it using CSS <theme-package-3>`. But sometimes CSS isn't enough, sometimes we have to adjust the HTML markup."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:8
+msgid "If we don't want to use Diazo rules and :term:`XSLT` for it, there is another way: customizing templates."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:10
+msgid "In this section we will show you how you can customize existing templates and create new ones specific for your theme."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:14
+msgid "Overriding A Plone Template"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:16
+msgid "A large part of the Plone UI is provided by *BrowserView* and *Viewlet* templates."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:18
+msgid "You can see all viewlets and their managers (sortable containers) when you view the URL ``./@@manage-viewlets``."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:22
+msgid "To override them from the ZMI, you can go to ``./portal_view_customizations``. But this is very limited and does not work for all views."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:25
+msgid "To override them from your theme product, the best way is to use ``z3c.jbot`` (Just a Bunch of Templates)."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:27
+msgid "Since jbot is already included in the ``bobtemplates.plone`` theme skeleton via ``plone.app.themingplugins``, you can start using it immediately by adding all the templates you want to override in the :file:`src/ploneconf/theme/theme/template-overrides` directory."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:30
+msgid "In order for jbot to match the override to the template which is being overridden, the name of the *new* template needs to include the complete path to the original template as a prefix (with every ``/`` replaced by a ``.``)."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:33
+msgid "For instance, to override the :file:`path_bar.pt` template (the breadcrumbs) from ``plone.app.layout``, knowing that this template is found in a sub folder named ``viewlets``, you need to name the overriding template :file:`plone.app.layout.viewlets.path_bar.pt`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:37
+msgid "Clicking the template in ZMI > portal_view_customizations is a handy way to find the template path. You can also copy the original template's code here."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:39
+msgid "When a new override has been added, the Plone instance needs to be restarted. After this, a page reload is enough to see any changes to the template."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:44
+msgid "Example: Overriding The Event Item Template"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:46
+msgid "The path to the original template is :file:`plone/app/event/browser/event_view.pt`, the full dotted name for our replacement template should be: :file:`plone.app.event.browser.event_view.pt`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:49
+msgid "Create a new file with this dotted name into the :file:`template-overrides` folder."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:51
+msgid "Let's say we want to move the full text of the event item to appear before the event details block. To do this, we copy over the original template code and change the order of the two blocks:"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:90
+msgid "You can now restart Plone and view an event to see the effect."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:94
+msgid "If your buildout is using ``omelette``, you can find the original template in :file:`buildout/parts/omelette/plone/app/event/browser`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:98
+msgid "Creating A New Plone Template"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:103
+msgid "Create Dynamic Slider Content In Plone"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:105
+msgid "To render our dynamic content for the slider we need a custom view in Plone. There are various ways to create views."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:108
+msgid "For now, we will use a very simple template-only-view via ``jbot`` and ``themingplugins``. The ``bobtemplates.plone`` skeleton includes already everything you need."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:111
+msgid "The only thing we need to do, is to add a template file in the :file:`theme/views` folder. Here we create a template file named :file:`slider-images.pt`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:114
+msgid "And we already have this file as an example."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:116
+msgid "The only thing we need to do is to rename the file :file:`slider-images.pt.example` to :file:`slider-images.pt`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:126
+msgid "The template code looks like this:"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:157
+msgid "This is all that's required to create a very simple template-only view. You can test the view after restarting your Plone instance."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:160
+msgid "For the view to show up, it needs some images to display. To supply the images, we have to create a folder in Plone named ``slider-images`` and add some images there."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:165
+msgid "We will show you later how to :ref:`create initial content for the theme <creating-initial-content-for-the-theme>`"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:167
+msgid "Now we can browse to the View on this folder by visiting: http://localhost:8080/Plone/slider-images/@@slider-images. This will render the markup required to render the slider."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:172
+msgid "Use The Dynamic Slider Content From Plone"
+msgstr ""
+
+#: ../theming/theme-package-4.rst:174
+msgid "Now that we have our ``slider-images`` view which renders our HTML markup for the slider, we need to replace that with the static markup in our template."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:176
+msgid "For that we use Diazo's ability to load the content from other URLs, using the ``href`` attribute in our :file:`rules.xml`."
+msgstr ""
+
+#: ../theming/theme-package-4.rst:178
+msgid "We also make use of the ``css:if-content`` attribute to make sure it is only on the front page:"
+msgstr ""
+
+#: ../theming/theme-package-5.rst:5
+msgid "Theme Package V: Creating Initial Content"
+msgstr ""
+
+#: ../theming/theme-package-5.rst:7
+msgid "Our theme relies on some initial content structure, specifically the :file:`slider-images` folder with some images inside."
+msgstr ""
+
+#: ../theming/theme-package-5.rst:9
+msgid "We will improve our theme package to create this content on install."
+msgstr ""
+
+#: ../theming/theme-package-5.rst:11
+msgid "To do that we create the :file:`slider-images` folder in our :file:`setuphandlers.py` and load some example images into that folder."
+msgstr ""
+
+#: ../theming/theme-package-5.rst:13
+msgid "We will add some images tp the :file:`theme/img` folder. To create the folder and the images add the following code in your setuphandlers.py:"
+msgstr ""
+
+#: ../theming/theme-package-5.rst:90
+msgid "After adding this code to the file :file:`setuphandlers.py`, we need to restart Plone and uninstall/install our theme package add-on."
+msgstr ""
+
+#: ../theming/theme-package-6.rst:3
+msgid "Theme Package VI: Using TinyMCE Templates"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:5
+msgid "TinyMCE has a *templates* plugin which provides an easy way to create complex content in TinyMCE."
+msgstr ""
+
+#: ../theming/theme-package-6.rst:7
+msgid "You can use that to help users to add complex content structures like predefined tables or content."
+msgstr ""
+
+#: ../theming/theme-package-6.rst:9
+msgid "The users then need to customize this content to their needs."
+msgstr ""
+
+#: ../theming/theme-package-6.rst:12
+msgid "Create Your Own TinyMCE Templates"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:14
+msgid "We already have a folder named :file:`tinymce-templates` in our theme folder. ``bobtemplates.plone`` already created an example template for us, but we will add another one."
+msgstr ""
+
+#: ../theming/theme-package-6.rst:17
+msgid "To create our first template we will add a new file named :file:`content-box.html` in this folder:"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:29
+msgid "In the file :file:`content-box.html` we add the following HTML template content:"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:51
 msgid "This is the template content we will get in TinyMCE when we use this template."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:49
-msgid "Activate TinyMCE templates plugin"
+#: ../theming/theme-package-6.rst:53
+msgid "In the next section we will see how we activate that template in our theme."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:51
-msgid "The activation of the TinyMCE template plugin is already provided by bobtemplates.plone, the only thing you have to do is to add your template tothe registry, like described below."
+#: ../theming/theme-package-6.rst:57
+msgid "Activate TinyMCE Templates Plugin"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:53
-msgid "If the -plugin is not already activated, you can activate the template plugin (the ``custom_plugins`` record) and register this template for TinyMCE (the ``template`` record):"
+#: ../theming/theme-package-6.rst:61
+msgid "The activation of the TinyMCE template plugin is already provided by ``bobtemplates.plone``. The only thing we have to do is to add our template to the registry in the file :file:`ploneconf.theme/src/ploneconf/theme/profiles/default/registry.xml`, like described below."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:90
-msgid "As we already have the configuration already in place and even a TinyMCE template already exists, we only need to extend the following list with our template file."
+#: ../theming/theme-package-6.rst:65
+msgid "If the plugin is not already activated, you can activate it using the ``plone.custom_plugins`` record:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:102
-msgid "Now you need to uninstall/install (or import the registry profile from ``portal_setup``) your package to update the registry configuration."
+#: ../theming/theme-package-6.rst:100
+msgid "In the next step we have to register our newly created TinyMCE template so we can use it in our Plone website."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:104
-msgid "You can also add the template TTW in the TinyMCE control panel by updating the following snippet:"
+#: ../theming/theme-package-6.rst:102
+msgid "To add the registration, we have to extend the ``plone.templates`` record:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:119
-msgid "Just remember to activate the plugin from the toolbar/plugins tab."
+#: ../theming/theme-package-6.rst:140
+msgid "After adding this code to the file :file:`registry.xml`, we need to restart Plone and uninstall/install our theme package add-on."
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:123
-msgid "Use TinyMCE templates for content creation"
+#: ../theming/theme-package-6.rst:144
+msgid "You can also add the template TTW (Trough-The-Web) in the TinyMCE control panel by updating the following snippet (*Plugins and Toolbar* tab, *Templates* setting):"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:125
+#: ../theming/theme-package-6.rst:160
+msgid "Remember to activate the plugin TTW (Through-The-Web) as well in the *Plugins and Toolbar* tab, *Custom plugins* setting:"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:168
+msgid "Use TinyMCE Templates For Content Creation"
+msgstr ""
+
+#: ../theming/theme-package-6.rst:170
 msgid "We can add template-based content from the *Insert* menu > *Insert template*:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:129
+#: ../theming/theme-package-6.rst:175
 msgid "Now we can choose one of the existing TinyMCE templates:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:133
+#: ../theming/theme-package-6.rst:180
 msgid "After we have chosen our template and then clicked on *OK*, we have our template-based content in the editor:"
 msgstr ""
 
-#: ../theming/tinymce-templates.rst:138
+#: ../theming/theme-package-6.rst:185
 msgid "We can now customize it or use more templates to create more content."
 msgstr ""
 
+#: ../theming/theme-package-7.rst:3
+msgid "Theme Package VII: Advanced Resource Registries Usage"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:7
+msgid "For theming in general you don't need to use the **Resource Registries**. The following infos are here as an example usage of the Plone **Resource Registries**."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:10
+msgid "In **Resource Registries** we can register our static resources, like CSS and LESS files and also JavaScript resources."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:12
+msgid "In fact even our resources we defined in the :file:`manifest.xml` are registered here automatically, but hidden."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:14
+msgid "In this chapter we will cover CSS and LESS, but you can also do nice things with your JavaScript resources (for example using ``requirejs`` to do the import correctly without worrying about import order)."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:17
+msgid "For details about this, take a look into the documentation of the **Plone Resource Registries** and in the :doc:`JavaScript part of the training <../javascript/index>`."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:22
+msgid "Register CSS And Less Resources In The Registry"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:24
+msgid "Because of the flexibility of Less over CSS we will only use Less files here, but static CSS files can be registered in the same way. Less files have the advantage that we can use imports, and with ``reference-imports`` we can even import only the parts of the files which we are really using."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:27
+msgid "We will now add a new resource to the **Resource Registries**. To do that, we add an ``IResourceRegistry`` entry into the :file:`registry.xml` file in our :file:`profiles/default` folder:"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:43
+msgid "This registers a file named :file:`custom.less` (from our theme package named ``ploneconf.theme``) as a *resource* named ``conf-main``. We can now add this resource to a *resource bundle* like the existing ``plone`` bundle:"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:67
+msgid "This has the advantage of reducing the number of bundles, which also means reducing the amount of files which are loaded for the site, because every bundle will result in *one* compiled CSS file and *one* compiled JavaScript file."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:70
+msgid "If we have multiple LESS resources in the same bundle, they will be merged into one compiled CSS file."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:72
+msgid "We can also create our own custom bundle which contains our resource:"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:99
+msgid "This can make sense if we only want to load that bundle under certain conditions, like only in a specific context. This could lead to a smaller size of loaded static resources, when they are not all needed."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:102
+msgid "After making changes to the registry, like adding resources to a bundle, you have to reload the registry configuration via an upgrade step, or via a uninstall/install of the package."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:105
+msgid "If you change a bundle, it has to be built or rebuilt. You can do this in the ``@@resourceregistry-controlpanel`` by clicking on *Build* for the bundle involved."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:111
+msgid "Before you can compile the bundles TTW (Through-The-Web) you have to adjust the ``@barceloneta_path`` and ``@bootstrap_path``"
+msgstr ""
+
+#: ../theming/theme-package-7.rst:111
+msgid "variables in the file :file:`theme.less`."
+msgstr ""
+
+#: ../theming/theme-package-7.rst:113
+msgid "Otherwise Plone can't find the resources and will give you an error during compilation."
+msgstr ""
+
 #: ../theming/ttw-advanced.rst:3
-msgid "TTW Theming I: Introduction to Diazo Theming"
+msgid "TTW Theming I: Introduction To Diazo Theming"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:7
-msgid "Use the \"Theming\" control panel to make a copy of Plone's default theme (barceloneta)"
+msgid "Use the \"Theming\" control panel to make a copy of Plone's default theme (:term:`Barceloneta`)"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:8
-msgid "Customize a theme using Diazo rules"
+msgid "Customize a theme using :term:`Diazo` rules"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:9
-msgid "Customize a theme by editing and compiling Less files"
+msgid "Customize a theme by editing and compiling :term:`Less` files"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:13
-msgid "Diazo and plone.app.theming"
+msgid ":term:`Diazo` and plone.app.theming"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:14
-msgid "\"Barceloneta\" - The Default Plone Theme"
+msgid "The Default Plone Theme (:term:`Barceloneta`)"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:15
-msgid "The \"Theming tool\""
+msgid "The \"Theming Tool\""
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:16
-msgid "Building CSS in the \"Theming tool\""
+msgid "Building CSS in the \"Theming Tool\""
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:17
-msgid "``<body>`` element CSS classes"
+msgid "CSS classes of the ``<body>`` element"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:18
-msgid "Conditionally activating rules"
+msgid "Conditionally activating :term:`Diazo` rules"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:23
+#: ../theming/ttw-advanced.rst:24
 msgid "We will use a `Plone pre-configured Heroku instance <https://github.com/collective/training-sandbox>`_."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:25
+#: ../theming/ttw-advanced.rst:26
 msgid "Once deployed, create a Plone site."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:28
-msgid "Two approaches to theming"
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:30
-msgid "There are two main approaches to creating a custom theme:"
+msgid "Two Approaches To Theming"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:32
+msgid "There are two main approaches to creating a custom theme:"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:34
 msgid "Copying the default Barceloneta theme"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:33
+#: ../theming/ttw-advanced.rst:35
 msgid "Inheriting from the default Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:35
-msgid "In this section we'll look at the first approach, part II will explore the second approach."
+#: ../theming/ttw-advanced.rst:37
+msgid "In this section we will work with the first approach"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:38
-msgid "What is Diazo?"
+#: ../theming/ttw-advanced.rst:39
+msgid "The second one will be covered in detail in :doc:`ttw-advanced-2`."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:40
-msgid ":program:`Diazo` is a theming engine used by Plone to make theming a site easier. At its core, a Diazo theme consists of an HTML page and :file:`rules.xml` file containing directives."
+#: ../theming/ttw-advanced.rst:43
+msgid "What Is Diazo?"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:45
-msgid "You can find extended information about Diazo and its integration package :py:mod:`plone.app.theming` in the official docs: `Diazo docs <http://docs.diazo.org/en/latest/>`_ and `plone.app.theming docs <http://docs.plone.org/external/plone.app.theming/docs/index.html#what-is-a-diazo-theme>`_."
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:48
-msgid "Principles"
+msgid ":program:`Diazo` is a theming engine used by Plone to make theming a site easier. At it's core, a :term:`Diazo` theme consists of an HTML page and :file:`rules.xml` file containing directives."
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:50
-msgid "For this part of the training you just need to know the basic principles of a Diazo theme:"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:52
-msgid "Plone renders the content of the page;"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:53
-msgid "Diazo rules inject the content into any static theme;"
+msgid "You can find extended information about Diazo and its integration package :py:mod:`plone.app.theming` in the official docs for `Diazo <http://docs.diazo.org/en/latest/>`_ and `plone.app.theming <https://docs.plone.org/external/plone.app.theming/docs/index.html#what-is-a-diazo-theme>`_."
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:56
-msgid "Copy barceloneta theme"
+msgid "Principles"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:58
-msgid "To create our playground we will copy the existing Barceloneta theme."
+msgid "For this part of the training you just need to know the basic principles of a Diazo theme:"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:60
-msgid "go to the :guilabel:`Theming` control panel"
+msgid "Plone renders the content of the page."
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:61
-msgid "you will see the available themes. In a bare new Plone site, you will see something like this:"
+msgid "Diazo rules inject the content into any static theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:66
-msgid "click on the :guilabel:`Copy` button and get to the copy form"
+#: ../theming/ttw-advanced.rst:65
+msgid "Copy Barceloneta Theme"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:67
-msgid "insert \"My theme\" as the name and activate it by default"
+msgid "To create our playground we will copy the existing Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:72
-msgid "click on :guilabel:`Create` and you get redirected to your new theme's inspector:"
+#: ../theming/ttw-advanced.rst:69
+#: ../theming/ttw-advanced-2.rst:48
+msgid "Go to the :guilabel:`Theming` control panel."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:79
-msgid "Anatomy of a Diazo theme"
+#: ../theming/ttw-advanced.rst:70
+msgid "You will see a list of the available themes. In a bare new Plone site, you will see something like this:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:81
+#: ../theming/ttw-advanced.rst:76
+msgid "Look for the *Barceloneta Theme* and click the :guilabel:`Copy` button next to it."
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:77
+msgid "Insert \"My theme\" as the name and click the checkbox to immediately enable the theme:"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:82
+msgid "Click on :guilabel:`Create` and you get redirected to your new theme's inspector:"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:89
+msgid "Anatomy Of A Diazo Theme"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:91
 msgid "The most important files:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:83
-msgid ":file:`manifest.cfg`: contains metadata about the theme (`manifest reference <http://docs.plone.org/external/plone.app.theming/docs/index.html#the-manifest-file>`_);"
+#: ../theming/ttw-advanced.rst:93
+msgid ":file:`manifest.cfg`: contains metadata about the theme (`manifest reference <https://docs.plone.org/external/plone.app.theming/docs/index.html#the-manifest-file>`_);"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:84
-msgid ":file:`rules.xml`: contains the theme rules (`rules reference <http://docs.plone.org/external/plone.app.theming/docs/index.html#rules-syntax>`_);"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:85
-msgid ":file:`index.html`: the static HTML of the theme."
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:88
-msgid "Exercise 1 - Inspecting the :file:`manifest.cfg`"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:90
-msgid "To better understand how your theme is arranged start by reading the :file:`manifest.cfg` file."
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:92
-msgid "In the theming tool, open the :file:`manifest.cfg` spend a minute or two looking through it, then see if you can answer the questions below."
+#: ../theming/ttw-advanced.rst:94
+msgid ":file:`rules.xml`: contains the theme rules (`rules reference <https://docs.plone.org/external/plone.app.theming/docs/index.html#rules-syntax>`_);"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:95
-msgid "Where are the main rules located for your theme?"
+msgid ":file:`index.html`: the static HTML of the theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:97
-msgid "What property in the :file:`manifest.cfg` file defines the source CSS/Less file used by the theme?"
+#: ../theming/ttw-advanced.rst:98
+msgid "Exercise 1 - Inspecting The :file:`manifest.cfg`"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:99
-msgid "What do you think is the purpose of the ``prefix`` property?"
+#: ../theming/ttw-advanced.rst:100
+msgid "To better understand how your theme is arranged start by reading the :file:`manifest.cfg` file."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:101
-#: ../theming/ttw-advanced.rst:178
-#: ../theming/ttw-advanced_2.rst:175
-msgid "Solution"
+#: ../theming/ttw-advanced.rst:102
+msgid "In the theming tool, open the :file:`manifest.cfg` spend a minute or two looking through it, then see if you can answer the questions below."
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:104
-msgid "The main rules are defined by the ``rules`` property (you could point this anywhere, however the accepted convention is to use a file named :file:`rules.xml`."
+msgid "Where are the main rules located for your theme?"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:105
+msgid "What property in the :file:`manifest.cfg` file defines the source CSS/Less file used by the theme?"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:106
+msgid "What do you think is the purpose of the ``prefix`` property?"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:108
+#: ../theming/ttw-advanced.rst:180
+#: ../theming/ttw-advanced-2.rst:132
+#: ../theming/ttw-advanced-2.rst:196
+msgid "Solution"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:111
+msgid "The main rules are defined by the ``rules`` property (you could point this anywhere, however the accepted convention is to use a file named :file:`rules.xml`."
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:112
 msgid "The ``development-css`` property points at the main Less file, when compiled to CSS it is placed in the location defined by the ``production-css`` property."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:109
+#: ../theming/ttw-advanced.rst:113
 msgid "The ``prefix`` property defines the default location to look for non prefixed files, for example if your prefix is set to ``/++theme++mytheme`` then a file like index.html will be expected at ``/++theme++mytheme/index.html``"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:115
-msgid "``<body>`` CSS classes"
+#: ../theming/ttw-advanced.rst:117
+msgid "CSS Classes For The ``<body>`` Element"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:117
+#: ../theming/ttw-advanced.rst:119
 msgid "As you browse a Plone site, Plone adds rich information about your current context. This information is represented as special classes in the ``<body>`` element. Information represented by the ``<body>`` classes includes:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:121
-msgid "the current user role, and permissions,"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:122
-msgid "the current content-type and its template,"
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:123
-msgid "the site section and sub section,"
+msgid "the current user role  and permissions,"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:124
-msgid "the current subsite (if any),"
+#: ../theming/ttw-advanced-2.rst:235
+msgid "the current content-type and its template,"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:125
-msgid "whether this is a frontend view,"
+#: ../theming/ttw-advanced-2.rst:236
+msgid "the site section and sub section,"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:126
+msgid "the current subsite (if any),"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:127
+msgid "whether this is a frontend view,"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:128
 msgid "whether icons are enabled."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:129
-msgid "``<body>`` classes for an anonymous visitor"
+#: ../theming/ttw-advanced.rst:131
+msgid "``<body>`` Classes For An Anonymous Visitor"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:131
+#: ../theming/ttw-advanced.rst:133
 msgid "Below you can see an example of the body classes for a page named \"front-page\", located in the root of a typical Plone site called \"acme\":"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:146
-msgid "``<body>`` classes for a manager"
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:148
-msgid "And here is what the classes for the same page look like when viewed by a manager that has logged in:"
+msgid "``<body>`` Classes For A Manager"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:167
+#: ../theming/ttw-advanced.rst:150
+msgid "And here is what the classes for the same page look like when viewed by a manager who has logged in:"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:169
 msgid "Notice the addition of ``userrole-manager``."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:170
-msgid "Exercise 2 - Discussion about the ``<body>`` classes"
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:172
-msgid "Look back at the ``<body>`` classes for a manager then see if you can answer the following questions."
+msgid "Exercise 2 - Discussion About The ``<body>`` Classes"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:174
-msgid "What other roles does the manager have?"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:175
-msgid "Can you see other differences?"
+msgid "Look back at the ``<body>`` classes for a manager. Can you answer the following questions?"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:176
+msgid "What other roles does the manager have?"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:177
+msgid "Can you see other differences?"
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:178
 msgid "What do you think the ``plone-toolbar-expanded`` class does?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:181
+#: ../theming/ttw-advanced.rst:183
 msgid "The manager also has the role \"member\" and \"authenticated\""
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:183
+#: ../theming/ttw-advanced.rst:184
 msgid "There are ``plone-toolbar`` classes added to the ``<body>`` element, these control the display of the toolbar"
 msgstr ""
 
@@ -1012,518 +2027,622 @@ msgid "The ``plone-toolbar-expanded`` class is used to control styles used by th
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:189
-msgid "Custom rules"
+msgid "Custom Rules"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:190
-msgid "Let's open :file:`rules.xml`. You will see all the rules that are used in the Barceloneta theme right now. For the time being let's concentrate on how to hack these rules."
+msgid "Let's open the default rules file :file:`rules.xml`. You will see all the rules that are used in the Barceloneta theme right now. For the time being let's concentrate on how to hack these rules."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:193
-msgid "Conditionally showing content"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:198
-msgid "Suppose that we want to make the \"above content\" block (the one that contains breadcrumbs) conditional, and show it only for authenticated users."
+#: ../theming/ttw-advanced.rst:195
+msgid "Conditionally Showing Content"
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:200
+msgid "Suppose that we want to make the \"above content\" block (the one that contains breadcrumbs) conditional, and show it only for authenticated users."
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:202
 msgid "In the :file:`rules.xml` find this line:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:206
+#: ../theming/ttw-advanced.rst:208
 msgid "This rule states that the element that comes from the content (Plone) with the id ``#viewlet-above-content`` must replace the element with the id ``#above-content`` in the static theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:208
-msgid "We want to hide it for anonymous users  (hint: We'll use the ``<body>`` classses discussed above)."
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:210
-msgid "The class we are looking for is ``userrole-authenticated``. Add another property to the rule so that we produce this code:"
+msgid "We want to hide it for anonymous users  (hint: we'll use the ``<body>`` classses we discussed above)."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:219
-msgid "The attribute ``css:if-content`` allows us to put a condition on the rules based on a CSS selector that acts on the content. In this way the rule will be applied only if the body element has the class ``.userrole-authenticated``."
+#: ../theming/ttw-advanced.rst:212
+msgid "The class we are looking for is ``userrole-authenticated``. Add another attribute to the rule so that we produce this code:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:221
-msgid "We will learn more about Diazo rules in :doc:`./ttw-advanced_2`."
+#: ../theming/ttw-advanced.rst:222
+msgid "The attribute ``css:if-content`` allows us to put a condition on the rule based on a CSS selector that acts on the content. In this way the rule will be applied only if the body element has the class ``.userrole-authenticated``."
 msgstr ""
 
 #: ../theming/ttw-advanced.rst:225
+msgid "We will learn more about Diazo rules in :doc:`ttw-advanced-2`."
+msgstr ""
+
+#: ../theming/ttw-advanced.rst:229
 msgid "Customize CSS"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:227
-msgid "from theming tool open the file :file:`less/barceloneta.plone.less`, that is the main Less file as specified in the manifest;"
+#: ../theming/ttw-advanced.rst:231
+msgid "In the theme editor open the file :file:`less/barceloneta.plone.less`. This file is the main Less file as specified in the :file:`manifest.cfg`."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:228
-msgid "add your own customization at the bottom, like:"
+#: ../theming/ttw-advanced.rst:233
+msgid "Add your own customization at the bottom of the file, like:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:234
+#: ../theming/ttw-advanced.rst:244
 msgid "Normally you would place this in a separate file to keep the main one clean but for this example it is enough."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:236
-msgid "push the buttons :guilabel:`Save` and :guilabel:`Build CSS`"
-msgstr ""
-
-#: ../theming/ttw-advanced.rst:241
-msgid "go back to the Plone site and reload the page: voilá!"
-msgstr ""
-
 #: ../theming/ttw-advanced.rst:246
-msgid "At the moment you need to \"Build CSS\" from the main file, the one declared in the manifest (in this case :file:`less/barceloneta.plone.less`). So, whatever Less file you edit, go back to the main one to compile. This behavior will be improved but for now, just remember this simple rule ;)"
+msgid "Click the buttons :guilabel:`Save` and :guilabel:`Build CSS`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:3
-msgid "TTW Theming II: Creating a custom theme based on Barceloneta"
+#: ../theming/ttw-advanced.rst:251
+msgid "Go back to the Plone site and reload the page: voilá!"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:7
-msgid "Create a theme by inheriting from the Barceloneta theme."
+#: ../theming/ttw-advanced.rst:255
+msgid "At the moment you need to \"Build CSS\" from the main file, the one declared in the manifest (in this case :file:`less/barceloneta.plone.less`). So, whatever Less file you edit, go back to the main one to compile. This behavior will be improved in the future, but for now remember this simple rule."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:8
-msgid "Using the :file:`manifest.cfg`, register a production CSS file."
+#: ../theming/ttw-advanced-2.rst:3
+msgid "TTW Theming II: Create A Custom Theme Based On Barceloneta"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:9
-msgid "Use an XInclude to incorporate rules from the Barceloneta theme."
+#: ../theming/ttw-advanced-2.rst:7
+msgid "Create a new theme by inheriting from the :term:`Barceloneta` theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:10
+#: ../theming/ttw-advanced-2.rst:8
+msgid "Use the :file:`manifest.cfg` to register a production CSS file."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:9
+msgid "Use an ``XInclude`` to incorporate rules from the :term:`Barceloneta` theme."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:10
 msgid "Use ``?diazo.off=1`` to view unthemed versions."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:11
+#: ../theming/ttw-advanced-2.rst:11
 msgid "Use conditional rules to have a different backend theme from the anonymous visitors theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:15
-msgid "Inheriting from Barceloneta."
+#: ../theming/ttw-advanced-2.rst:15
+msgid "Inheriting from Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:16
+#: ../theming/ttw-advanced-2.rst:16
 msgid "Diazo rule directives and attributes."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:17
+#: ../theming/ttw-advanced-2.rst:17
 msgid "Viewing the unthemed version of a Plone item."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:18
+#: ../theming/ttw-advanced-2.rst:18
 msgid "Creating a visitor-only theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:22
-msgid "Inheriting from Barceloneta"
+#: ../theming/ttw-advanced-2.rst:22
+msgid "Inheriting From Barceloneta"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:0
-msgid "Key Ideas"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:25
+#: ../theming/ttw-advanced-2.rst:25
 msgid "When inheriting from the Barceloneta theme keep the following in mind:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:27
+#: ../theming/ttw-advanced-2.rst:27
 msgid "The theme provides styles and assets used by Plone's backend tools."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:28
+#: ../theming/ttw-advanced-2.rst:28
 msgid "Inheritance involves including the Barceloneta :file:`rules.xml` (``++theme++barceloneta/rules.xml``) and styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:29
+#: ../theming/ttw-advanced-2.rst:29
 msgid "The prefix/unique path to the Barceloneta theme is ``++theme++barceloneta``."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:30
+#: ../theming/ttw-advanced-2.rst:30
 msgid "It is necessary to include a copy of Barceloneta's :file:`index.html` in the root of your custom theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:31
+#: ../theming/ttw-advanced-2.rst:31
 msgid "The three key files involved are :file:`manifest.cfg`, :file:`rules.xml` and a Less file defined in the manifest which we will call :file:`styles.less`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:33
+#: ../theming/ttw-advanced-2.rst:32
 msgid "Use \"Build CSS\" to generate a CSS file from your custom Less file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:35
+#: ../theming/ttw-advanced-2.rst:34
 msgid "Copying Barceloneta makes your theme heavier and will likely make upgrading more difficult."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:37
-msgid "The Barceloneta theme provides many assets used by Plone's utilities that you do not need to duplicate. Additionally new releases of the theme may introduce optimizations or bug fixes. By referencing the Barceloneta rules and styles, instead of copying them, you automatically benefit from any updates to the Barceloneta theme while also keeping your custom theme relatively small."
+#: ../theming/ttw-advanced-2.rst:36
+msgid "The Barceloneta theme provides many assets used by Plone's utilities that you do not need to duplicate."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:44
-msgid "Exercise 1 - Create a new theme that inherits from Barceloneta"
+#: ../theming/ttw-advanced-2.rst:38
+msgid "New releases of the theme may introduce optimizations or bug fixes."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:46
+#: ../theming/ttw-advanced-2.rst:40
+msgid "By referencing the Barceloneta rules and styles, instead of copying them, you automatically benefit from any updates to the Barceloneta theme while also keeping your custom theme relatively small."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:44
+msgid "Exercise 1 - Create A New Theme That Inherits From Barceloneta"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:46
 msgid "In this exercise we will create a new theme that inherits the Barceloneta rules and styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:48
-msgid "Create a new theme"
+#: ../theming/ttw-advanced-2.rst:49
+msgid "Click the :guilabel:`New theme` button to create a new theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:53
-msgid "and name it \"Custom\""
+#: ../theming/ttw-advanced-2.rst:53
+msgid "Give the theme a name, e.g. \"Custom\", and click the checkbox to immediately enable the theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:57
+#: ../theming/ttw-advanced-2.rst:57
+msgid "Click on :guilabel:`Create` and you get redirected to your new theme's inspector."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:59
 msgid "In the theming editor, ensure that your new theme contains the files :file:`manifest.cfg`, :file:`rules.xml`, :file:`index.html` (from Barceloneta) and :file:`styles.less`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:61
-msgid ":file:`manifest.cfg`, declaring your theme:"
+#: ../theming/ttw-advanced-2.rst:61
+msgid "Edit the file :file:`manifest.cfg` which contains the configuration for your theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:71
-msgid ":file:`rules.xml`, including the Barceloneta rules:"
+#: ../theming/ttw-advanced-2.rst:72
+msgid "Edit the file :file:`rules.xml` which includes the link to the Barceloneta rules:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:91
-msgid "a copy of :file:`index.html` from Barceloneta (this one cannot be imported or inherited, it must be local to your theme)."
+#: ../theming/ttw-advanced-2.rst:92
+msgid "Create a copy of the file :file:`index.html` from Barceloneta (this one cannot be imported or inherited, it must be local to your theme)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:93
-msgid ":file:`styles.less`, importing Barceloneta styles:"
+#: ../theming/ttw-advanced-2.rst:94
+msgid "Edit the file :file:`styles.less` which includes imports from the Barceloneta styles:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:107
-msgid "Then generate the :file:`styles.css` file using :file:`styles.less` and the \"Build CSS\" button."
+#: ../theming/ttw-advanced-2.rst:108
+msgid "Generate the :file:`styles.css` CSS file using :file:`styles.less`. Click the buttons :guilabel:`Save` and :guilabel:`Build CSS` to create the file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:109
+#: ../theming/ttw-advanced-2.rst:111
 msgid "Your theme is ready."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:113
-msgid "Diazo rule directives and attributes"
+#: ../theming/ttw-advanced-2.rst:115
+msgid "Viewing The Unthemed Plone Site"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:115
-msgid "The Diazo rules file is an XML document containing rules to specify where the content elements (title, footer, main text, etc.) will be located in the targeted theme page. The rules are created using *rule directives* which have *attributes*; attribute values are either CSS expressions or XPath expressions."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:121
-msgid "CSS selector based attributes"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:122
-msgid "It is generally recommended that you use CSS3 selectors to target elements in your content or theme. The CSS3 selectors used by Diazo directives are listed below:"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:125
-msgid "``css:theme``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:126
-msgid "Used to select target elements from the theme using CSS3 selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:127
-msgid "``css:content``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:128
-msgid "Used to specify the element that should be taken from the content."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:129
-msgid "``css:theme-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:130
-msgid "Used to select the children of matching elements."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:133
-msgid "``css:content-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:132
-msgid "Used to identify the children of an element that will be used."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:136
-msgid "XPath selector based attributes"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:138
-msgid "Depending on complexity of the required selector it is sometimes necessary or more convenient to use XPath selectors instead of CSS selectors. XPath selectors use the unprefixed attributes ``theme`` and ``content``. The common XPath selector attributes include:"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:142
-msgid "``theme``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:143
-msgid "Used to select target elements from the theme using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:144
-msgid "``content``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:145
-msgid "Used to specify the element that should be taken from the content using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:146
-msgid "``theme-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:147
-msgid "Used to select the children of matching elements using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:149
-msgid "``content-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:149
-msgid "Used to identify the children of an element that will be used using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:151
-msgid "You can also create conditions about the current path using ``if-path``."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:154
-msgid "For a more comprehensive overview of all the Diazo rule directives and related attributes see: http://docs.diazo.org/en/latest/basic.html#rule-directives"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:158
-msgid "Viewing the unthemed Plone site"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:160
+#: ../theming/ttw-advanced-2.rst:117
 msgid "When you create your Diazo rules, it is important to know how the content Diazo is receiving from Plone is structured. In order to see a \"non-diazoed\" version page, just add ``?diazo.off=1`` at the end of its URL."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:164
-msgid "Exercise 2 - Viewing the unthemed site"
+#: ../theming/ttw-advanced-2.rst:122
+msgid "Exercise 2 - Viewing The Unthemed Site"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:166
-msgid "Use ``diazo.off=1`` to view the unthemed version of your site."
+#: ../theming/ttw-advanced-2.rst:124
+msgid "Use ``?diazo.off=1`` to view the unthemed version of your site. Using your browser's inspector, find out the location/name of some of Plone's elements. Then try to answer the following:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:168
-msgid "Using your browser's inspector, find out the location/name of some of Plone's elements. Then try to answer the following:"
+#: ../theming/ttw-advanced-2.rst:128
+msgid "What do you think is the difference between \"content-core\" and \"content\"?"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:171
-msgid "What do you think is the difference between \"content-core\" and \"content\"? There are several viewlets, how many do you count? Can you identify any portlets, what do you think they are for?"
+#: ../theming/ttw-advanced-2.rst:129
+msgid "There are several viewlets, how many do you count?"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:178
+#: ../theming/ttw-advanced-2.rst:130
+msgid "Can you identify any portlets, what do you think they are for?"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:135
 msgid "The \"content-core\" does not include the \"title\" and \"description\" while the \"content\" combines the \"title\", \"description\" and \"content-core\"."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:181
-msgid "Out of the box there are six viewlets (``viewlet-above-content``, ``viewlet-above-content-title`` ``viewlet-below-content-title``, ``viewlet-above-content-body``, ``viewlet-below-content-body``, ``viewlet-below-content``)."
+#: ../theming/ttw-advanced-2.rst:136
+msgid "Out of the box there are six viewlets (``viewlet-above-content``, ``viewlet-above-content-title``, ``viewlet-below-content-title``, ``viewlet-above-content-body``, ``viewlet-below-content-body``, ``viewlet-below-content``)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:185
+#: ../theming/ttw-advanced-2.rst:137
 msgid "There are a few *footer* portlets which construct the footer of the site."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:189
-msgid "Exercise 3 - the ``<drop>`` directives"
+#: ../theming/ttw-advanced-2.rst:141
+msgid "Diazo Rule Directives And Attributes"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:191
-msgid "Add a rule that drops the \"search section\" checkbox from the search box."
+#: ../theming/ttw-advanced-2.rst:143
+msgid "The Diazo rules file is an :term:`XML` document containing rules to specify where the content elements (title, footer, main text, etc.) will be located in the targeted theme page. The rules are created using *rule directives* which have *attributes*; attribute values are either CSS expressions or :term:`XPath` expressions."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:192
-msgid "See the diagram below:"
+#: ../theming/ttw-advanced-2.rst:148
+msgid "CSS Selector Based Attributes"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:198
-msgid "Conditional attributes"
+#: ../theming/ttw-advanced-2.rst:149
+msgid "It is generally recommended that you use CSS3 selectors to target elements in your content or theme. The CSS3 selectors used by Diazo directives are listed below:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:199
+#: ../theming/ttw-advanced-2.rst:152
+msgid "``css:theme``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:153
+msgid "Used to select target elements from the theme using CSS3 selectors."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:154
+msgid "``css:content``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:155
+msgid "Used to specify the element that should be taken from the content."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:156
+msgid "``css:theme-children``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:157
+msgid "Used to select the children of matching elements."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:160
+msgid "``css:content-children``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:159
+msgid "Used to identify the children of an element that will be used."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:163
+msgid "XPath Selector Based Attributes"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:165
+msgid "Depending on complexity of the required selector it is sometimes necessary or more convenient to use :term:`XPath` selectors instead of CSS selectors. XPath selectors use the unprefixed attributes ``theme`` and ``content``."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:168
+msgid "The common XPath selector attributes include:"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:170
+msgid "``theme``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:171
+msgid "Used to select target elements from the theme using XPath selectors."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:172
+msgid "``content``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:173
+msgid "Used to specify the element that should be taken from the content using XPath selectors."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:174
+msgid "``theme-children``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:175
+msgid "Used to select the children of matching elements using XPath selectors."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:177
+msgid "``content-children``"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:177
+msgid "Used to identify the children of an element that will be used using XPath selectors."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:179
+msgid "You can also create conditions about the current path using ``if-path``."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:184
+msgid "For a more comprehensive overview of all the Diazo rule directives and related attributes see: http://docs.diazo.org/en/latest/basic.html#rule-directives"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:189
+msgid "Exercise 3 - The ``<drop>`` Directive"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:191
+msgid "Add a rule that drops the \"search section\" checkbox from the search box. See the diagram below:"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:199
+msgid "The ``div`` which contains the checkbox has the class ``searchSection`` applied. To remove it, extend your :file:`rules.xml` to include the following lines:"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:213
+msgid "Conditional Attributes"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:215
 msgid "The following attributes can be used to conditionally activate a directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:201
+#: ../theming/ttw-advanced-2.rst:217
 msgid "``css:if-content``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:202
+#: ../theming/ttw-advanced-2.rst:218
 msgid "Defines a CSS3 expression: if there is an element in the *content* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:203
+#: ../theming/ttw-advanced-2.rst:219
 msgid "``css:if-theme``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:204
+#: ../theming/ttw-advanced-2.rst:220
 msgid "Defines a CSS3 expression: if there is an element in the *theme* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:205
+#: ../theming/ttw-advanced-2.rst:221
 msgid "``if-content``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:206
+#: ../theming/ttw-advanced-2.rst:222
 msgid "Defines an XPath expression: if there is an element in the *content* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:207
+#: ../theming/ttw-advanced-2.rst:223
 msgid "``if-theme``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:208
+#: ../theming/ttw-advanced-2.rst:224
 msgid "Defines an XPath expression: if there is an element in the *theme* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:210
+#: ../theming/ttw-advanced-2.rst:226
 msgid "``if-path``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:210
+#: ../theming/ttw-advanced-2.rst:226
 msgid "Conditionally activate the current directive based on the current path."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:212
-msgid "In a previous chapter we discussed the Plone ``<body>`` element and how to take advantage of the custom CSS classes associated with it. We were introduced to the attribute ``css:if-content``. Remember that we are able to determine a lot of context related information from the classes, such as::"
+#: ../theming/ttw-advanced-2.rst:230
+msgid "In a previous chapter we discussed the Plone ``<body>`` element and how to take advantage of the custom CSS classes associated with it. We were introduced to the attribute ``css:if-content``. Remember that we are able to determine a lot of context related information from the classes, such as:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:222
-msgid "Here is an example"
+#: ../theming/ttw-advanced-2.rst:234
+msgid "the current user role and permissions,"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:246
-msgid "Converting an existing HTML template into an theme"
+#: ../theming/ttw-advanced-2.rst:237
+msgid "the current subsite (if any)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:247
-msgid "In the Plone \"universe\" it is not uncommon to convert an existing HTML template into a Diazo theme. Just ensure that when you zip up the source theme that there is a single folder in the root of the zip file. We will explore this in more detail in the next exercise."
+#: ../theming/ttw-advanced-2.rst:239
+msgid "Here is an example:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:252
-msgid "Exercise 4 - Convert a HTML template into a Diazo theme"
+#: ../theming/ttw-advanced-2.rst:263
+msgid "Converting An Existing HTML Template Into A Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:254
+#: ../theming/ttw-advanced-2.rst:264
+msgid "In the Plone \"universe\" it is not uncommon to convert an existing HTML template into a Diazo theme."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:266
+msgid "Ensure that when you zip up the source theme that there is a single folder in the root of the zip file."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:268
+msgid "We will explore this in more detail in the next exercise."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:272
+msgid "Exercise 4 - Convert A HTML Template Into A Diazo Theme"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:274
 msgid "In this exercise we will walk through the process of converting an existing free HTML theme into a Diazo-based Plone theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:259
+#: ../theming/ttw-advanced-2.rst:278
 msgid "We've selected the free `New Age Bootstrap theme <https://github.com/BlackrockDigital/startbootstrap-new-age>`_. The theme is already packaged in a manner that will work with the theming tool."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:262
-msgid "When being distributed, Plone themes are packaged as zip files. A theme should be structured such that there is only one top level directory in the root of the zip file. By convention the directory should contain your :file:`index.html` and supporting files, the supporting files (CSS, javascript and other files) may be in subdirectories."
+#: ../theming/ttw-advanced-2.rst:283
+msgid "When being distributed, Plone themes are packaged as zip files. A theme should be structured such that there is only one top-level directory in the root of the zip file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:267
-msgid "To get started `download a copy of the New Age theme as a zip file <https://github.com/BlackrockDigital/startbootstrap-new-age/archive/master.zip>`_. Then upload it to the theme controlpanel."
+#: ../theming/ttw-advanced-2.rst:286
+msgid "By convention the directory should contain your :file:`index.html`. The supporting files (CSS, JavasSript and other files) may be in subdirectories."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:273
-msgid "This is a generic theme, it does not provide the Plone/Diazo specific :file:`rules.xml` or :file:`manifest.cfg` file. When you upload the zip file the theming tool generates a :file:`rules.xml`. In the next steps you will add additional files including a :file:`manifest.cfg` (perhaps in the future the manifest.cfg will also be generated for you)."
+#: ../theming/ttw-advanced-2.rst:289
+msgid "To get started `download a copy of the New Age theme as a zip file <https://codeload.github.com/BlackrockDigital/startbootstrap-new-age/zip/master>`_. Then upload it to the theme control panel."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:280
+#: ../theming/ttw-advanced-2.rst:295
+msgid "This is a generic theme, it does not provide the Plone/Diazo specific :file:`rules.xml` or :file:`manifest.cfg` files. When you upload the zip file, the theming tool generates a :file:`rules.xml` file. In the next steps you will add additional files including a :file:`manifest.cfg` file (perhaps in the future the :file:`manifest.cfg` file will also be generated for you)."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:302
 msgid "Select the downloaded zip file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:284
-msgid "Add a :file:`styles.less` file and import the Barceloneta styles."
+#: ../theming/ttw-advanced-2.rst:306
+msgid "Add a :file:`styles.less` file and import the Barceloneta styles (look back to Exercise 1)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:286
+#: ../theming/ttw-advanced-2.rst:307
 msgid "Add a :file:`manifest.cfg` file, set ``production-css`` equal to ``styles.css``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:288
-msgid "Clean Blog is a free Bootstrap theme, the latest version is available on github `<https://github.com/BlackrockDigital/startbootstrap-clean-blog>`_"
+#: ../theming/ttw-advanced-2.rst:311
+msgid "*Clean Blog* is a free Bootstrap theme, the latest version is available on GitHub `<https://github.com/BlackrockDigital/startbootstrap-clean-blog>`_"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:294
-msgid "You can identify the theme path by reading your browser's address bar when your theme is open in the theming tool. You'll need to include the proper theme path in your :file:`manifest.cfg`, in this case it will most likely be something like ``++theme++startbootstrap-new-age-gh-pages``"
+#: ../theming/ttw-advanced-2.rst:316
+msgid "You can identify the theme path by reading your browser's address bar when your theme is open in the theming tool. You'll need to include the proper theme path in your :file:`manifest.cfg`, in this case it will most likely be something like ``++theme++startbootstrap-new-age-master``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:299
-msgid "[theme] title = New Age prefix = ++theme++startbootstrap-new-age-gh-pages/ production-css = ++theme++startbootstrap-new-age-gh-pages/styles.css"
+#: ../theming/ttw-advanced-2.rst:330
+msgid "Add rules to include the Barceloneta backend utilities."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:305
-msgid "Add rules to include the Barceloneta backend utilities ::"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:319
+#: ../theming/ttw-advanced-2.rst:350
 msgid "Add rules to include content, add site structure, drop unneeded elements, customize the menu."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:323
+#: ../theming/ttw-advanced-2.rst:354
 msgid "Look out for inline styles in this theme (i.e. the use of the ``style`` attribute on a tag). This is especially problematic with background images set with relative paths. The two issues that result are:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:327
+#: ../theming/ttw-advanced-2.rst:358
 msgid "the relative path does not translate properly in the context of the theme;"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:329
+#: ../theming/ttw-advanced-2.rst:359
 msgid "it can be tricky to dynamically replace background images provided by inline styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:333
-msgid "Creating a visitor-only theme - conditionally enabling Barceloneta"
+#: ../theming/ttw-advanced-2.rst:364
+msgid "Add the theme file:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:335
-msgid "Sometimes it is more convenient for your website administrators to use Barceloneta, Plone's default theme. Other visitors would see a completely different layout provided by your custom theme. To achieve this you will need to associate your visitor theme rules with an expression like ``css:if-content=\"body.userrole-anonymous\"``. For rules that will affect logged-in users you can use the expression ``css:if-content=\"body.:not(userrole-anonymous)\"``."
+#: ../theming/ttw-advanced-2.rst:370
+msgid "To add the Plone-related header data, add these rules:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:342
+#: ../theming/ttw-advanced-2.rst:393
+msgid "The attributes from the ``body`` element from Plone are important:"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:400
+msgid "Add content-related rules:"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:426
+msgid "Create A Visitor-Only Theme - Conditionally Enabling Barceloneta"
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:428
+msgid "Sometimes it is more convenient for your website administrators to use Barceloneta, Plone's default theme. Other visitors would see a completely different layout provided by your custom theme."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:431
+msgid "To achieve this you will need to associate your visitor theme rules with an expression like ``css:if-content=\"body.userrole-anonymous\"``. For rules that will affect logged-in users you can use the expression ``css:if-content=\"body:not(.userrole-anonymous)\"``."
+msgstr ""
+
+#: ../theming/ttw-advanced-2.rst:434
 msgid "Once you've combined the expressions above with the right Diazo rules you will be able to present an anonymous visitor with a specific HTML theme while presenting the Barceloneta theme to logged-in users."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:348
-msgid "The Barceloneta :file:`++theme++barceloneta/rules.xml` expects the Barceloneta :file:`index.html` to reside locally in your current theme. To avoid conflict and to accomodate the inherited Barceloneta, ensure that your theme file has a different name such as :file:`front.html`."
+#: ../theming/ttw-advanced-2.rst:439
+msgid "The Barceloneta :file:`++theme++barceloneta/rules.xml` expects the Barceloneta :file:`index.html` to reside locally in your current theme. To avoid conflict and to accommodate the inherited Barceloneta, ensure that your theme file has a different name such as :file:`front.html`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:355
-msgid "Exercise 5 - Convert the theme to be a visitor-only theme"
+#: ../theming/ttw-advanced-2.rst:444
+msgid "Exercise 5 - Convert The Theme To Be A Visitor-Only Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:357
+#: ../theming/ttw-advanced-2.rst:446
 msgid "In this exercise we will alter our theme from the previous exercise to make it into a visitor-only theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:360
+#: ../theming/ttw-advanced-2.rst:448
 msgid "Update the :file:`rules.xml` file to include Barceloneta rules."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:365
+#: ../theming/ttw-advanced-2.rst:453
 msgid "Use ``<xi:include href=\"++theme++barceloneta/rules.xml\" />``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:367
-msgid "Add conditional rules to :file:`rules.xml` so that the new theme is only shown to anonymous users, rename the theme's :file:`index.html` to :file:`front.html` and add a copy of the Barceloneta :file:`index.html`."
+#: ../theming/ttw-advanced-2.rst:455
+msgid "Add conditional rules to :file:`rules.xml` so that the new theme is only shown to anonymous users. Rename the theme's :file:`index.html` to :file:`front.html` and add a copy of the Barceloneta :file:`index.html`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:373
-msgid "Copy the contents of the Barceloneta :file:`index.html` file then add it to the theme as the new :file:`index.html` file."
+#: ../theming/ttw-advanced-2.rst:461
+msgid "Copy the contents of the Barceloneta :file:`index.html` file, then add it to the theme as the new :file:`index.html` file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:376
+#: ../theming/ttw-advanced-2.rst:463
 msgid "Change :file:`rules.xml` to look similar to this:"
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:3
+msgid "TTW Theming III: Make It Reproducible"
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:5
+msgid "You created your shiny brand new theme :term:`TTW`."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:9
+msgid "For more TTW (Through-The-Web) configuring and customizing options, see :ref:`ttw-label`."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:11
+msgid "Now, let's see how you can re-use it in another Plone site."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:13
+msgid "Go back to :guilabel:`Theming` control panel."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:14
+msgid "Click the :guilabel:`Download` button in the box of your theme."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:15
+msgid "The browser will download a zip file."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:16
+msgid "Go to the :term:`ZMI` root."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:17
+msgid "Create a new Plone site."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:18
+msgid "Go to the :guilabel:`Theming` control panel in that new Plone site."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:19
+msgid "Click on the :guilabel:`Upload zip file` button and select your downloaded theme."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:20
+msgid "Tick :guilabel:`Immediately enable new theme` and click on :guilabel:`Import`."
+msgstr ""
+
+#: ../theming/ttw-advanced-3.rst:21
+msgid "Go back to your Plone site: voilá!"
 msgstr ""
 

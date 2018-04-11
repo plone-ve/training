@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Plone Training package.
+# This file is distributed under the same license as the Plone 5 Training package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Plone Training 1.2.5\n"
+"Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"POT-Creation-Date: 2018-03-22 21:00-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,128 +16,151 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../about.rst:4
-msgid "About Plone Trainings"
+#: ../about/glossary.rst:3
+msgid "Glossary"
 msgstr ""
 
-#: ../about.rst:5
-# cbe06f3646cc4578a73dd3633c5e86a7
-msgid "History"
+#: ../about/glossary.rst:6
+msgid "AWS"
 msgstr ""
 
-#: ../about.rst:7
-# d2aa06f40a7b40e29b5410ae49847075
-msgid "This training was created for the \"Mastering Plone\"-trainings by Philip Bauer and Patrick Gerken of `starzel.de <http://www.starzel.de>`_. It was published in order to create a canonical Plone Training so that anyone with the appropriate knowledge can give a training based on it."
+#: ../about/glossary.rst:8
+msgid "`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, scalable, and inexpensive cloud computing services. ree to join, pay only for what you use."
 msgstr ""
 
-#: ../about.rst:11
-# 4c0daeaa0a024b7e993ef580e88e4d6d
-msgid "Using the documentation for a training"
+#: ../about/glossary.rst:10
+msgid "Linode"
 msgstr ""
 
-#: ../about.rst:13
-# 76cc101b2729439d9e8a03c413fb8b0a
-msgid "Feel free to organize a training yourself. Please be so kind to contribute any bugfixes or enhancements you made to the documentation for your training."
+#: ../about/glossary.rst:13
+msgid "`Linode.com <https://www.linode.com/>`_ is an American privately owned virtual private server provider company"
 msgstr ""
 
-#: ../about.rst:15
-# df2765882ba34c7096561d885919aff8
-msgid "If you want to contact the original authors about a training you can reach them at team@starzel.de."
+#: ../about/glossary.rst:13
+msgid "based in Galloway, New Jersey, United States."
 msgstr ""
 
-#: ../about.rst:17
-# 2d013ca1bbf043c6a54b3c14cbf13895
-msgid "The training is rendered using sphinx and builds in two flavors:"
+#: ../about/glossary.rst:14
+msgid "DigitalOcean"
 msgstr ""
 
-#: ../about.rst:20
-# f7af6301ad0744869eed7546a44bed3f
-msgid "default"
+#: ../about/glossary.rst:17
+msgid "`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American cloud infrastructure provider"
 msgstr ""
 
-#: ../about.rst:20
-# 8e3f4d13d23b4d2b9a7720d57e1ad713
-msgid "The verbose version used for the online-documentation and for the trainer. Build it in sphinx with ``make html`` or use the online-version."
+#: ../about/glossary.rst:17
+msgid "headquartered in New York City with data centers worldwide."
 msgstr ""
 
-#: ../about.rst:23
-# ac45a9c461d54d5c9e29a000dd87daef
-msgid "presentation"
+#: ../about/glossary.rst:18
+msgid "ZODB"
 msgstr ""
 
-#: ../about.rst:23
-# b6fd5c15662c449284fe636766fc1573
-msgid "A abbreviated version used for the projector during a training. It should uses more bullet-points than verbose text. Build it in sphinx with ``make presentation``."
+#: ../about/glossary.rst:20
+msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
 msgstr ""
 
-#: ../about.rst:27
-# d3c2a98f61464d66b4f2617a16c93ec7
-msgid "By prefixing an indented block of text or code with ``.. only:: presentation`` you can control that his block is used for the presentation-version only."
+#: ../about/glossary.rst:21
+msgid "TTW"
 msgstr ""
 
-#: ../about.rst:29
-# e613ed878de84978bbf859ac7d511150
-msgid "To hide a block from the presentation-version use ``.. only:: not presentation``"
+#: ../about/glossary.rst:23
+msgid "Through-The-Web, changes in the browser/"
 msgstr ""
 
-#: ../about.rst:31
-# 33ae14d0527842be9dbbfe69ab8f1ee3
-msgid "Content without a prefix will be included in both versions."
+#: ../about/glossary.rst:24
+msgid "S3"
 msgstr ""
 
-#: ../about.rst:33
-# 94fd8e73f5ca4f4dae16338a5e806ffc
-msgid "We slightly tweaked readthedocs-theme in ``_static/custom.css`` so that it works better with projectors:"
+#: ../about/glossary.rst:26
+msgid "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store and retrieve any amount of data from anywhere."
 msgstr ""
 
-#: ../about.rst:35
-# a46dcd30698d4606b26f1fbbae062fa3
-msgid "We start hiding the navbar much earlier so that it does not interfere with the text."
+#: ../about/glossary.rst:27
+msgid "NFS"
 msgstr ""
 
-#: ../about.rst:36
-# ae2eae021cf24f6faf3a9d67eedfa519
-msgid "We enlarge the default width of the content-area."
+#: ../about/glossary.rst:29
+msgid "`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
 
-#: ../about.rst:40
-# 31e8ce633bb84ce8ad741829c7e2f856
-msgid "To enable the readthedocs-theme for building the docs locally you will have to modify the ``conf.py`` before ``make presentation`` by removing the comments at the beginning of some lines::"
+#: ../about/glossary.rst:30
+msgid "Amazon Opsworks"
 msgstr ""
 
-#: ../about.rst:48
-# d13e2d0a15bd41908675cee838f5a250
-msgid "Contributing"
+#: ../about/glossary.rst:33
+msgid "`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration management service that uses Chef,"
 msgstr ""
 
-#: ../about.rst:50
-# b68215cec8a84d58b6a9497af60eea4d
-msgid "Everyone is welcome to contribute. Minor bugfixes can be pushed direcly in the `repository <https://github.com/plone/training>`_, bigger changes should made as `pull-requests <https://github.com/plone/training/pull/>`_."
+#: ../about/glossary.rst:33
+msgid "an automation platform that treats server configurations as code."
 msgstr ""
 
-#: ../about.rst:52
-# 197d9686aae3461ea0a56ec00928039e
-msgid "By prefixing a indented block of text or code with ``.. only:: presentation`` or ``.. only:: not presentation`` you can control which of the versions the indented block will show up. Content without a prefix will be included in both versions."
+#: ../about/glossary.rst:34
+msgid "Ansible"
 msgstr ""
 
-#: ../about.rst:56
-# a95c7b9d435d4a4d91cbd0a2861ea298
-msgid "License"
+#: ../about/glossary.rst:37
+msgid "`Ansible <https://www.ansible.com/>`_ is an open source automation platform."
 msgstr ""
 
-#: ../about.rst:58
-# 65b75ca907e247509414da1346f5b75b
-msgid "The Mastering Plone Training is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_."
+#: ../about/glossary.rst:37
+msgid "Ansible can help you with configuration management, application deployment, task automation."
 msgstr ""
 
-#: ../about.rst:60
-# 038d2dc625634e8abccdf82a9c4d8463
-msgid "Make sure you have filled out a `Contributor Agreement <http://plone.org/foundation/contributors-agreement>`_."
+#: ../about/glossary.rst:38
+msgid "Chef"
 msgstr ""
 
-#: ../about.rst:62
-# c9fef3f8bb5c49bbad724d1d2061cbb1
-msgid "If you haven't filled in a Contributor Agreement, you can still contribute. Contact the Documentation team, for instance via the `mailinglist <http://sourceforge.net/p/plone/mailman/plone-docs/>`_ or directly send a mail to plone-docs@lists.sourceforge.net Basically, all we need is your written confirmation that you are agreeing your contribution can be under Creative Commons. You can also add in a comment with your pull request \"I, <full name>, agree to have this published under Creative Commons 4.0 International BY\"."
->>>>>>> upstream/master
+#: ../about/glossary.rst:40
+msgid "`A configuration management tool written in Ruby and Erlang <https://www.chef.io/chef/>`_."
+msgstr ""
+
+#: ../about/glossary.rst:41
+msgid "CloudFormation"
+msgstr ""
+
+#: ../about/glossary.rst:43
+msgid "`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives developers and systems administrators an way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion."
+msgstr ""
+
+#: ../about/glossary.rst:45
+msgid "Travis CI"
+msgstr ""
+
+#: ../about/glossary.rst:47
+msgid "Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub. Open source projects may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
+msgstr ""
+
+#: ../about/glossary.rst:49
+msgid "Solr"
+msgstr ""
+
+#: ../about/glossary.rst:51
+msgid "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, open source enterprise search platform built on Apache Lucene."
+msgstr ""
+
+#: ../about/glossary.rst:52
+msgid "ZCML"
+msgstr ""
+
+#: ../about/glossary.rst:54
+msgid "The `Zope Configuration Mark-up Language <https://docs.plone.org/develop/addons/components/zcml.html>`_."
+msgstr ""
+
+#: ../about/glossary.rst:55
+msgid "Diazo"
+msgstr ""
+
+#: ../about/glossary.rst:57
+msgid "`Diazo theme engine guide <http://docs.diazo.org/en/latest/>`_ Diazo allows you to apply a theme contained in a static HTML web page to a dynamic website created using any server-side technology."
+msgstr ""
+
+#: ../about/index.rst:3
+msgid "About"
+msgstr ""
+
+#: ../about/index.rst:5
+msgid "`Plone Training <https://training.plone.org>`_ is a collection of different trainings, developed and created by the Plone Community."
 msgstr ""
 

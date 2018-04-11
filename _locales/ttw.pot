@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Plone Training package.
+# This file is distributed under the same license as the Plone 5 Training package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Plone Training 1.2.5\n"
+"Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"POT-Creation-Date: 2018-03-22 21:00-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3413 +16,3775 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../theming/basic.rst:3
-msgid "Basic: Customizing logo and CSS of default theme"
+#: ../ttw/about/glossary.rst:3
+msgid "Glossary"
 msgstr ""
 
-#: ../theming/basic.rst:5
-#: ../theming/ttw-advanced.rst:5
-#: ../theming/ttw-advanced_2.rst:5
-msgid "In this section you will:"
+#: ../ttw/about/glossary.rst:6
+msgid "AWS"
 msgstr ""
 
-#: ../theming/basic.rst:7
-msgid "Use the Site control panel to add a custom logo"
+#: ../ttw/about/glossary.rst:8
+msgid "`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, scalable, and inexpensive cloud computing services. ree to join, pay only for what you use."
 msgstr ""
 
-#: ../theming/basic.rst:8
-msgid "Customize the look of a Plone site by adjusting Less Variables"
+#: ../ttw/about/glossary.rst:10
+msgid "Linode"
 msgstr ""
 
-#: ../theming/basic.rst:9
-msgid "Add a custom toolbar logo"
+#: ../ttw/about/glossary.rst:13
+msgid "`Linode.com <https://www.linode.com/>`_ is an American privately owned virtual private server provider company"
 msgstr ""
 
-#: ../theming/basic.rst:11
-#: ../mastering_plone/dexterity.rst:11
-#: ../ttw/mosaic.rst:9
-#: ../ttw/rapido.rst:11
-#: ../theming/ttw-advanced.rst:11
-#: ../theming/ttw-advanced_2.rst:13
-msgid "Topics covered:"
+#: ../ttw/about/glossary.rst:13
+msgid "based in Galloway, New Jersey, United States."
 msgstr ""
 
-#: ../theming/basic.rst:13
-msgid "The \"Site\" control panel"
+#: ../ttw/about/glossary.rst:14
+msgid "DigitalOcean"
 msgstr ""
 
-#: ../theming/basic.rst:14
-msgid "The \"Resource Registries\" Control Panel"
+#: ../ttw/about/glossary.rst:17
+msgid "`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American cloud infrastructure provider"
 msgstr ""
 
-#: ../theming/basic.rst:15
-msgid "Resource Registries > Development Mode"
+#: ../ttw/about/glossary.rst:17
+msgid "headquartered in New York City with data centers worldwide."
 msgstr ""
 
-#: ../theming/basic.rst:18
-msgid "Customize logo"
+#: ../ttw/about/glossary.rst:18
+msgid "ZODB"
 msgstr ""
 
-#: ../theming/basic.rst:20
-msgid "Go to the Plone Control Panel: :menuselection:`toolbar --> admin --> Site Setup`"
+#: ../ttw/about/glossary.rst:20
+msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
 msgstr ""
 
-#: ../theming/basic.rst:21
-msgid "Go to the \"Site\" control panel."
+#: ../ttw/about/glossary.rst:21
+msgid "TTW"
 msgstr ""
 
-#: ../theming/basic.rst:22
-msgid "You will see this form:"
+#: ../ttw/about/glossary.rst:23
+msgid "Through-The-Web, changes in the browser/"
 msgstr ""
 
-#: ../theming/basic.rst:26
-msgid "You can now add / remove your custom logo"
+#: ../ttw/about/glossary.rst:24
+msgid "S3"
 msgstr ""
 
-#: ../theming/basic.rst:28
-msgid "See the `official docs <http://docs.plone.org/adapt-and-extend/change-the-logo.html>`_."
+#: ../ttw/about/glossary.rst:26
+msgid "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store and retrieve any amount of data from anywhere."
 msgstr ""
 
-#: ../theming/basic.rst:32
-msgid "Customize CSS/Less variables"
+#: ../ttw/about/glossary.rst:27
+msgid "NFS"
 msgstr ""
 
-#: ../theming/basic.rst:34
-msgid "Go back to the Control Panel."
+#: ../ttw/about/glossary.rst:29
+msgid "`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
 
-#: ../theming/basic.rst:35
-msgid "Go to the :guilabel:`Resource Registries` control panel."
+#: ../ttw/about/glossary.rst:30
+msgid "Amazon Opsworks"
 msgstr ""
 
-#: ../theming/basic.rst:36
-msgid "On the first tab: enable :guilabel:`Development Mode`."
+#: ../ttw/about/glossary.rst:33
+msgid "`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration management service that uses Chef,"
 msgstr ""
 
-#: ../theming/basic.rst:37
-msgid "In the \"plone\" bundle below, click on \"develop CSS\"."
+#: ../ttw/about/glossary.rst:33
+msgid "an automation platform that treats server configurations as code."
 msgstr ""
 
-#: ../theming/basic.rst:39
-msgid "Your panel should now look like this:"
+#: ../ttw/about/glossary.rst:34
+msgid "Ansible"
 msgstr ""
 
-#: ../theming/basic.rst:45
-msgid "Now we can play with some Less variables:"
+#: ../ttw/about/glossary.rst:37
+msgid "`Ansible <https://www.ansible.com/>`_ is an open source automation platform."
 msgstr ""
 
-#: ../theming/basic.rst:47
-msgid "Go to the :guilabel:`Less Variables` tab."
+#: ../ttw/about/glossary.rst:37
+msgid "Ansible can help you with configuration management, application deployment, task automation."
 msgstr ""
 
-#: ../theming/basic.rst:48
-msgid "Find the variable ``plone-left-toolbar-expanded`` and set it to 400px."
+#: ../ttw/about/glossary.rst:38
+msgid "Chef"
 msgstr ""
 
-#: ../theming/basic.rst:54
-msgid "Hit the :guilabel:`Save` button in the upper right and reload the page."
+#: ../ttw/about/glossary.rst:40
+msgid "`A configuration management tool written in Ruby and Erlang <https://www.chef.io/chef/>`_."
 msgstr ""
 
-#: ../theming/basic.rst:55
-msgid "Click on the toolbar logo to expand the toolbar: voilá!"
+#: ../ttw/about/glossary.rst:41
+msgid "CloudFormation"
 msgstr ""
 
-#: ../theming/basic.rst:57
-msgid "You can play around with some other variables, if you want."
+#: ../ttw/about/glossary.rst:43
+msgid "`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives developers and systems administrators an way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion."
 msgstr ""
 
-#: ../theming/basic.rst:61
-msgid "\"Development Mode\" is really expensive for the browser. Depending on the browser and on the system, you might encounter extreme slowness while rendering the page. You could see an unthemed page for a while. Remember to switch it off as soon as you finished tweaking."
+#: ../ttw/about/glossary.rst:45
+msgid "Travis CI"
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:4
-msgid "Configuring and Customizing Plone \"Through The Web\""
+#: ../ttw/about/glossary.rst:47
+msgid "Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub. Open source projects may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:8
-msgid "This chapter has not yet been updated for Plone 5!"
+#: ../ttw/about/glossary.rst:49
+msgid "Solr"
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:15
-msgid "The Control Panel"
+#: ../ttw/about/glossary.rst:51
+msgid "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, open source enterprise search platform built on Apache Lucene."
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:17
-msgid "The most important parts of Plone can be configured in the control panel."
+#: ../ttw/about/glossary.rst:52
+msgid "ZCML"
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:19
-msgid "Click on the portrait/username in the toolbar"
+#: ../ttw/about/glossary.rst:54
+msgid "The `Zope Configuration Mark-up Language <https://docs.plone.org/develop/addons/components/zcml.html>`_."
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:20
-msgid "Click :guilabel:`Site Setup`"
+#: ../ttw/about/glossary.rst:55
+msgid "Diazo"
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:22
-msgid "We'll explain every page and mention some of the actions you can perform here."
+#: ../ttw/about/glossary.rst:57
+msgid "`Diazo theme engine guide <http://docs.diazo.org/en/latest/>`_ Diazo allows you to apply a theme contained in a static HTML web page to a dynamic website created using any server-side technology."
 msgstr ""
 
-#: ../mastering_plone/configuring_customizing.rst:26
-msgid "General"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:28
-msgid "Date and Time"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:29
-msgid "Language"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:30
-msgid "Mail"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:31
-msgid "Navigation"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:32
-msgid "Site"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:33
-msgid "Add-ons"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:34
-msgid "Search"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:35
-msgid "Discussion"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:36
-msgid "Theming"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:37
-msgid "Social Media"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:38
-msgid "Syndication"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:39
-msgid "TinyMCE"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:43
-msgid "Content"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:45
-msgid "Content Rules"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:46
-msgid "Editing"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:47
-msgid "Image Handling"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:48
-msgid "Markup"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:49
-msgid "Content Settings"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:50
-msgid "Dexterity Content Types"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:53
-msgid "Users"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:55
-msgid "Users and Groups"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:58
-#: ../mastering_plone/configuring_customizing.rst:61
-msgid "Security"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:60
-msgid "HTML Filtering"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:62
-msgid "Errors"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:65
-msgid "Advanced"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:67
-msgid "Maintenance"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:68
-msgid "Management Interface"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:69
-msgid "Caching"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:70
-msgid "Configuration Registry"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:71
-msgid "Resource Registries"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:74
-msgid "Below the links you will find information on your Plone, Zope and Python Versions and an indicator as to whether you're running in production or development mode."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:77
-msgid "Change the logo"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:79
-msgid "Let's change the logo."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:81
-msgid "Download a ploneconf logo: https://www.starzel.de/plone-tutorial/ploneconf-logo-2014"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:82
-msgid "Go to http://localhost:8080/Plone/@@site-controlpanel"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:83
-msgid "Upload the Logo."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:87
-msgid "http://docs.plone.org/adapt-and-extend/change-the-logo.html"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:93
-msgid "Portlets"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:95
-msgid "In the toolbar under :guilabel:`More options` you can open the configuration for the different places where you can have portlets."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:97
-msgid "UI fit for smart content editors"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:98
-msgid "Various types"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:99
-msgid "Portlet configuration is inherited"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:100
-msgid "Managing"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:101
-msgid "Ordering/weighting"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:102
-msgid "The future: may be replaced by tiles"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:103
-msgid "``@@manage-portlets``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:105
-#: ../ttw/rapido.rst:402
-msgid "Example:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:107
-msgid "Go to http://localhost:8080/Plone/@@manage-portlets"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:108
-msgid "Add a static portlet \"Sponsors\" on the right side."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:109
-msgid "Remove the news portlet and add a new one on the left side."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:110
-msgid "Go to the training folder: http://localhost:8080/Plone/the-event/training and click ``Manage portlets``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:111
-msgid "Add a static portlet. \"Featured training: Become a Plone-Rockstar at Mastering Plone!\""
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:112
-msgid "Use the toolbar to configure the portlets of the footer:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:114
-msgid "Hide the portlets \"Footer\" and \"Colophon\"."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:115
-msgid "Add a \"Static text portlet\" enter \"Copyright 2015 by Plone Community\"."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:116
-msgid "Use \"Insert > Special Character\" to add a real © sign."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:117
-msgid "You could turn that into a link to a copyright page later."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:123
-msgid "Viewlets"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:125
-msgid "Portlets save data, Viewlets usually don't. Viewlets are often used for UI-Elements and have no nice UI to customize them."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:127
-msgid "``@@manage-viewlets``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:128
-msgid "Viewlets have no nice UI"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:129
-msgid "Not aimed at content editors"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:130
-msgid "Not locally addable, no configurable inheritance."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:131
-msgid "Usually global (depends on code)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:132
-msgid "Will be replaced by tiles?"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:133
-msgid "The code is much simpler (we'll create one tomorrow)."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:134
-msgid "Live in viewlet managers, can be nested (by adding a viewlet that contains a viewlet manager)."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:135
-msgid "TTW reordering only within the same viewlet manager."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:136
-msgid "The code decides when it is shown and what it shows."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:142
-msgid "ZMI (Zope Management Interface)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:144
-msgid "Go to http://localhost:8080/Plone/manage"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:146
-msgid "Zope is the foundation of Plone. Here you can access the inner workings of Zope and Plone alike."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:150
-msgid "Here you can easily break your site so you should know what you are doing!"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:154
-msgid "We only cover three parts of customization in the ZMI now. Later on when we added our own code we'll come back to the ZMI and will look for it."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:157
-msgid "At some point you'll have to learn what all those objects are about. But not today."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:161
-msgid "Actions (portal_actions)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:163
-msgid "Actions are mostly links. But **really flexible** links."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:164
-msgid "Actions are configurable ttw and through code."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:165
-msgid "These actions are usually iterated over in viewlets and displayed."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:167
-msgid "Examples:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:169
-msgid "Links in the Footer (``site_actions``)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:170
-msgid "Actions Dropdown (``folder_buttons``)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:172
-msgid "Actions have properties like:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:174
-msgid "description"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:175
-msgid "url"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:176
-msgid "i18n-domain"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:177
-msgid "condition"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:178
-msgid "permissions"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:183
-msgid "``site_actions``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:185
-msgid "These are the links at the bottom of the page:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:187
-msgid "Site Map"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:188
-msgid "Accessibility"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:189
-msgid "Contact"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:190
-msgid "Site Setup"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:192
-msgid "We want a new link to legal information, called \"Imprint\"."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:194
-msgid "Go to ``site_actions`` (we know that because we checked in ``@@manage-viewlets``)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:195
-msgid "Add a CMF Action ``imprint``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:196
-msgid "Set URL to ``string:${portal_url}/imprint``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:197
-msgid "Leave *condition* empty"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:198
-msgid "Set permission to ``View``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:199
-msgid "Save"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:203
-msgid "explain"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:205
-msgid "Check if the link is on the page"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:206
-msgid "Create new Document `Imprint` and publish"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:210
-msgid "http://docs.plone.org/develop/plone/functionality/actions.html"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:214
-msgid "Global navigation"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:216
-msgid "The horizontal navigation is called ``portal_tabs``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:217
-msgid "Go to :menuselection:`portal_actions --> portal_tabs` `Link <http://localhost:8080/Plone/portal_actions/portal_tabs/manage_main>`_"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:218
-msgid "Edit ``index_html``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:220
-msgid "Where is the navigation?"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:222
-msgid "The navigation shows content-objects, which are in Plone's root. Plus all actions in ``portal_tabs``."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:224
-msgid "Explain & edit ``index_html``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:226
-msgid "Configuring the navigation itself is done elsewhere: http://localhost:8080/Plone/@@navigation-controlpanel"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:228
-msgid "If time explain:"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:230
-msgid "user > undo (cool!)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:231
-msgid "user > login/logout"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:235
-msgid "Skins (``portal_skins``)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:237
-msgid "In ``portal_skins`` we can change certain images, CSS-files and templates."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:239
-msgid "``portal_skins`` is deprecated technology"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:240
-msgid "Plone 5 got rid of most files that lived in ``portal_skins``."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:244
-msgid "Change some CSS"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:246
-msgid "Go to ZMI"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:247
-msgid "Go to ``portal_skins``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:248
-msgid "Go to ``plone_styles``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:249
-msgid "Go to :file:`ploneCustom.css`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:250
-msgid "Click :guilabel:`customize`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:252
-msgid "The CSS you add to this file is instantly active on the site."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:256
-msgid "portal_view_customizations"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:259
-msgid "Change the footer"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:261
-msgid "Go to ``portal_view_customizations``"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:262
-msgid "Search ``plone.footer``, click and customize"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:263
-msgid "Replace the content with the following"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:279
-msgid "http://docs.plone.org/adapt-and-extend/theming/templates_css/skin_layers.html"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:283
-msgid "CSS Registry (``portal_css``)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:285
-msgid "*deprecated* (See the chapter on theming)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:289
-msgid "Further tools in the ZMI"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:291
-msgid "There are many more notable items in the ZMI. We'll visit some of them later."
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:293
-msgid ":guilabel:`acl_users`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:294
-msgid ":guilabel:`error_log`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:295
-msgid ":guilabel:`portal_properties` (deprecated)"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:296
-msgid ":guilabel:`portal_setup`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:297
-msgid ":guilabel:`portal_workflow`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:298
-msgid ":guilabel:`portal_catalog`"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:304
-msgid "Summary"
-msgstr ""
-
-#: ../mastering_plone/configuring_customizing.rst:306
-msgid "You can configure and customize a lot in Plone through the web. The most important options are accessible in the `Plone control panel <http://localhost:8080/Plone/@@overview-controlpanel>`_ but some are hidden away in the `ZMI <http://localhost:8080/Plone/manage>`_. The amount and presentation of information is overwhelming but you'll get the hang of it through a lot of practice."
-msgstr ""
-
-#: ../ttw/dexterity.rst:1
-msgid "This page is included here from the :ref:`mastering_plone-label`. The narrative is continued there."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:4
-msgid "Dexterity I: \"Through The Web\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:6
-#: ../ttw/rapido.rst:4
-msgid "In this part you will:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:8
-msgid "Create a new content type called *Talk*."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:13
-msgid "Content types"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:14
-msgid "Archetypes and Dexterity"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:15
-msgid "Fields"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:16
-msgid "Widgets"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:22
-msgid "What is a content type?"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:24
-msgid "A content type is a kind of object that can store information and is editable by users. We have different content types to reflect the different kinds of information about which we need to collect and display information. Pages, folders, events, news items, files (binary) and images are all content types."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:28
-msgid "It is common in developing a web site that you'll need customized versions of common content types, or perhaps even entirely new types."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:30
-msgid "Remember the requirements for our project? We wanted to be able to solicit and edit conference talks. We *could* use the **Page** content type for that purpose. But we need to make sure we collect certain bits of information about a talk and we couldn't be sure to get that information if we just asked potential presenters to create a page. Also, we'll want to be able to display talks featuring that special information, and we'll want to be able to show collections of talks. A custom content type will be ideal."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:39
-msgid "The makings of a Plone content type"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:41
-msgid "Every Plone content type has the following parts:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:45
-msgid "Schema"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:44
-msgid "A definition of fields that comprise a content type; properties of an object."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:48
-msgid "FTI"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:48
-msgid "The \"Factory Type Information\" configures the content type in Plone, assigns it a name, an icon, additional features and possible views to it."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:54
-msgid "Views"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:51
-msgid "A view is a representation of the object and the content of its fields that may be rendered in response to a request. You may have *one or more* views for an object. Some may be *visual* — intended for display as web pages — others may be intended to satisfy AJAX requests and render content in formats like JSON or XML."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:59
-msgid "Dexterity and Archetypes - A Comparison"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:61
-msgid "There are two content frameworks in Plone:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:63
-msgid "*Dexterity*: new and the coming default."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:64
-msgid "*Archetypes*: old, tried and tested. Widespread, used in many add-ons."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:65
-msgid "Plone 4.x: Archetypes is the default, with Dexterity available."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:66
-msgid "Plone 5.x: Dexterity is the default, with Archetypes available."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:67
-msgid "For both, add and edit forms are created automatically from a schema."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:69
-msgid "What are the differences?"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:71
-msgid "Dexterity: New, faster, modular, no dark magic for getters and setters."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:72
-msgid "Archetypes had magic setter/getter - use :py:meth:`talk.getAudience()` for the field :py:attr:`audience`."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:73
-msgid "Dexterity: fields are attributes: :py:attr:`talk.audience` instead of :py:meth:`talk.getAudience()`."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:75
-msgid "\"Through The Web\" or TTW, i.e. in the browser, without programming:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:77
-msgid "Dexterity has a good TTW story."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:78
-msgid "Archetypes has no TTW story."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:79
-msgid "UML-modeling: `ArchGenXML <http://docs.plone.org/4/en/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <http://agx.me>`_ for Dexterity"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:81
-msgid "Approaches for Developers:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:83
-msgid "Schema in Dexterity: TTW, XML, Python. Interface = schema, often no class needed."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:84
-msgid "Schema in Archetypes: Schema only in Python."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:86
-msgid "Dexterity: Easy permissions per field, easy custom forms."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:87
-msgid "Archetypes: Permissions per field are hard, custom forms even harder."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:88
-msgid "If you have to program for old sites you need to know Archetypes!"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:89
-msgid "If starting fresh, go with Dexterity."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:91
-msgid "Extending:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:93
-msgid "Dexterity has Behaviors: easily extendable. Just activate a behavior TTW and your content type is e.g. translatable (:py:mod:`plone.app.multilingual`)."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:94
-msgid "Archetypes has :py:mod:`archetypes.schemaextender`. Powerful but not as flexible."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:96
-msgid "We have only used Dexterity for the last few years. We teach Dexterity and not Archetypes because it's more accessible to beginners, has a great TTW story and is the future."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:99
-msgid "Views:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:101
-msgid "Both Dexterity and Archetypes have a default view for content types."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:102
-msgid "Browser Views provide custom views."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:103
-msgid "You can generate views for content types in the browser without programming (using the :py:mod:`plone.app.mosaic` Add-on)."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:104
-msgid "Display Forms."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:110
-msgid "Modifying existing types"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:112
-msgid "Go to the control panel http://localhost:8080/Plone/@@dexterity-types"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:113
-msgid "Inspect some of the existing default types."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:114
-msgid "Select the type :guilabel:`News Item` and add a new field ``Hot News`` of type :guilabel:`Yes/No`"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:115
-msgid "In another tab, add a *News Item* and you'll see the new field."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:116
-msgid "Go back to the schema-editor and click on `Edit XML Field Model <http://localhost:8080/Plone/dexterity-types/News%20Item/@@modeleditor>`_."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:117
-msgid "Note that the only field in the XML schema of the News Item is the one we just added. All others are provided by behaviors."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:118
-msgid "Edit the form-widget-type so it says:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:124
-msgid "Edit the News Item again. The widget changed from a radio field to a check box."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:125
-msgid "The new field ``Hot News`` is not displayed when rendering the News Item. We'll take care of this later."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:130
-msgid "http://docs.plone.org/external/plone.app.contenttypes/docs/README.html#extending-the-types"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:135
-msgid "Creating content types TTW"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:137
-msgid "In this step we will create a content type called *Talk* and try it out. When it's ready we will move the code from the web to the file system and into our own add-on. Later we will extend that type, add behaviors and a viewlet for Talks."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:139
-msgid "Add new content type \"Talk\" and some fields for it:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:141
-msgid ":guilabel:`Add new field` \"Type of talk\", type \"Choice\". Add options: talk, keynote, training."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:142
-msgid ":guilabel:`Add new field` \"Details\", type \"Rich Text\" with a maximal length of 2000."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:143
-msgid ":guilabel:`Add new field` \"Audience\", type \"Multiple Choice\". Add options: beginner, advanced, pro."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:144
-msgid "Check the behaviors that are enabled:  *Dublin Core metadata*, *Name from title*. Do we need them all?"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:146
-msgid "Test the content type."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:147
-msgid "Return to the control panel http://localhost:8080/Plone/@@dexterity-types"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:148
-msgid "Extend the new type: add the following fields:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:150
-msgid "\"Speaker\", type: \"Text line\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:151
-msgid "\"Email\", type: \"Email\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:152
-msgid "\"Image\", type: \"Image\", not required"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:153
-msgid "\"Speaker Biography\", type: \"Rich Text\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:155
-msgid "Test again."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:157
-msgid "Here is the complete XML schema created by our actions:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:220
-msgid "Moving contenttypes into code"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:222
-msgid "It's awesome that we can do so much through the web. But it's also a dead end if we want to reuse this content type in other sites."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:224
-msgid "Also, for professional development, we want to be able to use version control for our work, and we'll want to be able to add the kind of business logic that will require programming."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:226
-msgid "So, we'll ultimately want to move our new content type into a Python package. We're missing some skills to do that, and we'll cover those in the next couple of chapters."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:230
-msgid "`Dexterity Developer Manual <http://docs.plone.org/external/plone.app.dexterity/docs/index.html>`_"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:231
-msgid "`The standard behaviors <http://docs.plone.org/external/plone.app.dexterity/docs/reference/standard-behaviours.html>`_"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:237
-msgid "Exercises"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:240
-msgid "Exercise 1"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:242
-msgid "Modify Pages to allow uploading an image as decoration (like News Items do)."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:244
-#: ../mastering_plone/dexterity.rst:273
-#: ../ttw/mosaic.rst:198
-#: ../ttw/mosaic.rst:228
-#: ../ttw/rapido.rst:199
-#: ../ttw/rapido.rst:210
-#: ../ttw/rapido.rst:263
-#: ../ttw/rapido.rst:365
-#: ../ttw/rapido.rst:445
-#: ../ttw/rapido.rst:527
-#: ../ttw/rapido.rst:708
-#: ../ttw/rapido.rst:803
-#: ../ttw/rapido.rst:923
-#: ../theming/ttw-advanced.rst:101
-#: ../theming/ttw-advanced.rst:178
-#: ../theming/ttw-advanced_2.rst:175
-msgid "Solution"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:247
-msgid "Go to the dexterity control panel (http://localhost:8080/Plone/@@dexterity-types)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:248
-msgid "Click on *Page* (http://127.0.0.1:8080/Plone/dexterity-types/Document)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:249
-msgid "Select the tab *Behaviors* (http://127.0.0.1:8080/Plone/dexterity-types/Document/@@behaviors)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:250
-msgid "Check the box next to :guilabel:`Lead Image` and save."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:252
-msgid "The images are displayed above the title."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:255
-msgid "Exercise 2"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:257
-msgid "Create a new content type called *Speaker* and export the schema to a XML File. It should contain the following fields:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:260
-msgid "Title, type: \"Text Line\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:261
-msgid "Email, type: \"Email\""
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:262
-msgid "Homepage, type: \"URL\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:263
-msgid "Biography, type: \"Rich Text\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:264
-msgid "Company, type: \"Text Line\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:265
-msgid "Twitter Handle, type: \"Text Line\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:266
-msgid "IRC Handle, type: \"Text Line\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:267
-msgid "Image, type: \"Image\" (optional)"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:269
-msgid "Do not use the DublinCore or the Basic behavior since a speaker should not have a description (unselect it in the Behaviors tab)."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:271
-msgid "We could use this content type later to convert speakers into Plone users. We could then link them to their talks."
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:276
-msgid "The schema should look like this:"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:322
-msgid "`Dexterity XML <http://docs.plone.org/external/plone.app.dexterity/docs/reference/dexterity-xml.html>`_"
-msgstr ""
-
-#: ../mastering_plone/dexterity.rst:323
-msgid "`Model-driven types <http://docs.plone.org/external/plone.app.dexterity/docs/model-driven-types.html#model-driven-types>`_"
-msgstr ""
-
+#: ../ttw/about/glossary.rst:59
 #: ../ttw/dexterity.rst:5
-msgid "In one of the next chapters of :ref:`mastering_plone-label` it is explained how you can move the content-type you created into code: :ref:`export_code-label`."
+msgid "Dexterity"
 msgstr ""
 
-#: ../ttw/index.rst:4
-msgid "\"Through-the-web\" Plone customization"
+#: ../ttw/about/glossary.rst:61
+msgid "`Dexterity <https://github.com/plone/plone.dexterity>`_, the base framework for building content types, both through-the-web and as filesystem code for Zope."
 msgstr ""
 
-#: ../ttw/index.rst:8
-msgid "This chapter is still work in progress!"
+#: ../ttw/about/glossary.rst:62
+msgid "Dublin Core"
 msgstr ""
 
-#: ../ttw/mosaic.rst:2
-msgid "Mosaic"
+#: ../ttw/about/glossary.rst:64
+msgid "The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources (video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like artworks."
 msgstr ""
 
-#: ../ttw/mosaic.rst:4
-msgid "In this section we will:"
+#: ../ttw/about/glossary.rst:66
+msgid "Rapido application"
 msgstr ""
 
-#: ../ttw/mosaic.rst:6
-msgid "create a *home page* layout,"
+#: ../ttw/about/glossary.rst:68
+#: ../ttw/rapido.rst:115
+msgid "It contains the features you implement; it is a folder containing templates, Python code, and YAML files."
 msgstr ""
 
-#: ../ttw/mosaic.rst:7
-msgid "create a *specific talk detail* layout."
+#: ../ttw/about/glossary.rst:70
+msgid "block"
 msgstr ""
 
-#: ../ttw/mosaic.rst:11
-msgid "Create custom layouts."
-msgstr ""
-
-#: ../ttw/mosaic.rst:12
-msgid "Manage layouts."
-msgstr ""
-
-#: ../ttw/mosaic.rst:13
-msgid "Use the layout editor."
-msgstr ""
-
-#: ../ttw/mosaic.rst:16
-msgid "What is Mosaic?"
-msgstr ""
-
-#: ../ttw/mosaic.rst:18
-msgid "A Plone add-on,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:19
-msgid "which allows managing layouts from the Plone interface."
-msgstr ""
-
-#: ../ttw/mosaic.rst:22
-msgid "Some comparisons"
-msgstr ""
-
-#: ../ttw/mosaic.rst:31
-msgid "Compared to Diazo:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:33
-msgid "Diazo enables theming our Plone site by providing CSS, images, and HTML templates. It will apply to the entire page (footer, main content, portlets, etc.)."
-msgstr ""
-
-#: ../ttw/mosaic.rst:37
-msgid "Mosaic uses the grid provided by our design to dynamically build specific content layouts."
-msgstr ""
-
-#: ../ttw/mosaic.rst:40
-msgid "Compared to :py:mod:`collective.cover`:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:42
-msgid ":py:mod:`collective.cover` provides a specific content-type (a \"Cover page\") where we can manage the layout in order to build our homepage."
-msgstr ""
-
-#: ../ttw/mosaic.rst:45
-msgid "Mosaic does not provide any content-type, it allows to edit any existing content layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:48
-#: ../ttw/rapido.rst:70
-#: ../theming/ttw-advanced.rst:21
-msgid "Installation"
-msgstr ""
-
-#: ../ttw/mosaic.rst:0
-msgid "On an existing Plone Buildout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:52
-msgid "If you already have your own Plone installation you can install Mosaic by customizing it as follows:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:55
-msgid "Modify :file:`buildout.cfg` to add Mosaic as a dependency::"
-msgstr ""
-
-#: ../ttw/mosaic.rst:71
-#: ../ttw/rapido.rst:86
-msgid "Run your buildout::"
-msgstr ""
-
-#: ../ttw/mosaic.rst:75
-msgid "Then go to :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`."
-msgstr ""
-
-#: ../ttw/mosaic.rst:78
-#: ../theming/ttw-advanced.rst:23
-msgid "We will use a `Plone pre-configured Heroku instance <https://github.com/collective/training-sandbox>`_."
-msgstr ""
-
-#: ../ttw/mosaic.rst:80
-msgid "Once deployed, create a Plone site, then go to the :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`."
-msgstr ""
-
-#: ../ttw/mosaic.rst:83
-msgid "Principle"
-msgstr ""
-
-#: ../ttw/mosaic.rst:85
-msgid "The basic component of a Mosaic based layout is called a tile. A layout is a combination of several tiles."
-msgstr ""
-
-#: ../ttw/mosaic.rst:88
-msgid "A tile is a dynamic portion of a web page, it can be a text element, an image, a field, etc."
-msgstr ""
-
-#: ../ttw/mosaic.rst:90
-msgid "Mosaic provides an editor able to easily position tiles across our theme's grid."
-msgstr ""
-
-#: ../ttw/mosaic.rst:93
-msgid "The Mosaic editor"
-msgstr ""
-
-#: ../ttw/mosaic.rst:95
-msgid "To enable the Mosaic editor on a content item change its default display as follows: go to :menuselection:`Display --> Mosaic layout`."
-msgstr ""
-
-#: ../ttw/mosaic.rst:99
-msgid "You have now enabled the Mosaic editor as a replacement for the default edit form."
-msgstr ""
-
-#: ../ttw/mosaic.rst:101
-msgid "Click on :guilabel:`Edit` if this is the first time editing the current item you will be prompted to select a layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:105
-msgid "Choose a layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:107
-msgid "This editor allows to change our content fields content (just like the regular Plone form), but the fields are rendered into the view layout and they are edited in-place."
-msgstr ""
-
-#: ../ttw/mosaic.rst:111
-msgid "The top bar offers different buttons:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:113
-msgid ":guilabel:`Save`, to save our field entries."
-msgstr ""
-
-#: ../ttw/mosaic.rst:114
-msgid ":guilabel:`Cancel`, to cancel our changes."
-msgstr ""
-
-#: ../ttw/mosaic.rst:115
-msgid ":guilabel:`Properties`, to access the content properties: it displays the regular Plone form tabs, but the fields currently involved in the layout are hidden."
-msgstr ""
-
-#: ../ttw/mosaic.rst:116
-msgid ":guilabel:`Layout`, to manage the content layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:119
-msgid "Exercise 1 - Change the layout of the front page"
-msgstr ""
-
-#: ../ttw/mosaic.rst:120
-msgid "Go to the front page of the website and update the layout as follows:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:123
-msgid "Activate :menuselection:`Display --> Mosaic layout`"
-msgstr ""
-
-#: ../ttw/mosaic.rst:124
-msgid ":guilabel:`Edit` and select the \"Document\" layout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:125
-msgid "The select :menuselection:`Layout --> Customize`"
-msgstr ""
-
-#: ../ttw/mosaic.rst:126
-msgid "Add a Document Byline to the bottom of the layout :menuselection:`Insert > Document Byline`"
-msgstr ""
-
-#: ../ttw/mosaic.rst:127
-msgid "Click :guilabel:`Save`"
-msgstr ""
-
-#: ../ttw/mosaic.rst:129
-msgid "In the context of the Mosaic Editor, do you know the difference between :guilabel:`Save` and :menuselection:`Layout --> Save`?"
-msgstr ""
-
-#: ../ttw/mosaic.rst:132
-msgid "Change the content layout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:134
-msgid "If we click on :menuselection:`Layout --> Change`, we can choose the layout we want for our content. The choices are restricted to the layout applicable to the current content-type."
-msgstr ""
-
-#: ../ttw/mosaic.rst:137
-msgid "For instance for a Page, Mosaic proposes (by default) two layouts: Basic and Document."
-msgstr ""
-
-#: ../ttw/mosaic.rst:142
-msgid "Customize a content layout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:144
-msgid "If we click on :menuselection:`Layout --> Customize`, the Mosaic editor switches to the layout mode, where we can still change our field values, but also change the layout:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:146
-msgid "by hovering the page content, existing tiles are highlighted and we can drag & drop them in different places,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:147
-msgid "by clicking in a tile, we can edit its content,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:148
-msgid "by clicking outside the curently edited tile, we disable the edit mode."
-msgstr ""
-
-#: ../ttw/mosaic.rst:150
-msgid "In layout mode, the top bar contains two extra buttons:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:152
-msgid ":guilabel:`Format`, which provides different simple formatting options for tiles (text padding, floating) or for rows (change background color),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:153
-msgid ":guilabel:`Insert`, which allows to add new tiles to our layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:156
-msgid "The tiles"
-msgstr ""
-
-#: ../ttw/mosaic.rst:158
-msgid "Mosaic provides the following tiles:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:160
-msgid "Structure tiles:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:162
-msgid "heading,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:163
-msgid "subheading,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:164
-msgid "text,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:165
-msgid "table,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:166
-msgid "bulleted list,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:167
-msgid "numbered list,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:168
-msgid "table of contents,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:169
-msgid "navigation: this tiles displays a navigation menu, its settings can be changed in a modal window (click on the \"i\" button on the bottom-right corner to display the modal),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:171
-msgid "Media:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:173
-msgid "image,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:174
-msgid "embed: it allows to display any remote embeddable content (like a YouTube video for instance),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:175
-msgid "attachment,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:177
-msgid "Fields: all the existing fields of the current content,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:179
-msgid "Applications: for now, there is only Discussion, which shows the discussion form (discussion needs to be enable in the site setup),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:181
-msgid "Properties:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:183
-msgid "document byline,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:184
-msgid "related contents,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:185
-msgid "keywords,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:187
-msgid "Advanced:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:189
-msgid "content listing: it is a collection-like tile, it allows to list all contents matching given criterias (criterias can be changed in the modal window),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:190
-msgid "existing content: it allows to display another content in a tile"
-msgstr ""
-
-#: ../ttw/mosaic.rst:191
-msgid "if Rapido is installed, there is also a Rapido tile, which allows to display any Rapido block."
-msgstr ""
-
-#: ../ttw/mosaic.rst:194
-msgid "Exercise 2: Customize the home page layout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:196
-msgid "Create an attractive layout for the home page."
-msgstr ""
-
-#: ../ttw/mosaic.rst:201
-msgid "go to Display menu and select \"Mosaic layout\","
-msgstr ""
-
-#: ../ttw/mosaic.rst:202
-msgid "click Edit,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:203
-msgid "click on :menuselection:`Layout --> Customize`,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:204
-msgid "change the layout,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:205
-msgid "click Save."
-msgstr ""
-
-#: ../ttw/mosaic.rst:208
-msgid "Create a reusable layout"
-msgstr ""
-
-#: ../ttw/mosaic.rst:210
-msgid "When the layout has been customized, the :guilabel:`Layout` menu offers a :guilabel:`Save` action."
-msgstr ""
-
-#: ../ttw/mosaic.rst:212
-msgid "This action allows to save the current layout as a reusable layout."
-msgstr ""
-
-#: ../ttw/mosaic.rst:214
-msgid "If :file:`Global` is checked, the layout will be usable by any user (else it is restricted to the current user)."
-msgstr ""
-
-#: ../ttw/mosaic.rst:216
-msgid "The layout is associated to the current content type, by default it will not be usable for other content types."
-msgstr ""
-
-#: ../ttw/mosaic.rst:218
-msgid "Once saved, our layout will be listed with the other available layouts when we click on :menuselection:`Layout --> Change`."
-msgstr ""
-
-#: ../ttw/mosaic.rst:221
-msgid "Exercise 3: create a layout for talks"
-msgstr ""
-
-#: ../ttw/mosaic.rst:223
-msgid "This exercise assumes that you have created a content type called \"Talk\". you can quickly create one by the following the steps in `Dexterity: Creating TTW content types <dexterity.html#creating-contenttypes-ttw>`__ documentation."
-msgstr ""
-
-#: ../ttw/mosaic.rst:226
-msgid "Create an attractive layout for a talk, save it and reuse it for another talk."
-msgstr ""
-
-#: ../ttw/mosaic.rst:231
-msgid "customize a talk layout (see Exercise 2),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:232
-msgid "click on :menuselection::menuselection:`Layout --> Save`,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:233
-msgid "enter its title: \"Talk\", and select \"Global\","
-msgstr ""
-
-#: ../ttw/mosaic.rst:234
-msgid "click :guilabel:`Save`,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:235
-msgid "navigate to another talk,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:236
-msgid "go to :guilabel:`Display` menu and select \"Mosaic layout\","
-msgstr ""
-
-#: ../ttw/mosaic.rst:237
-msgid "click :guilabel:`Edit`,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:238
-msgid "click on Layout / Change,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:239
-msgid "choose \"Talk\"."
-msgstr ""
-
-#: ../ttw/mosaic.rst:242
-msgid "Manage custom layouts"
-msgstr ""
-
-#: ../ttw/mosaic.rst:244
-msgid "Custom layouts can be managed from the Plone control panel:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:246
-msgid "click on :menuselection:`user menu --> Site settings`,"
-msgstr ""
-
-#: ../ttw/mosaic.rst:247
-msgid "click on Mosaic Layout Editor (in the last section, named :guilabel:`Add-on configuration`),"
-msgstr ""
-
-#: ../ttw/mosaic.rst:249
-msgid "In the third tab of this control panel, named \"Show/hide content layouts\", we can see the existing layouts, their associated content types, and we can deactivate (or re-activate) them by clicking on :guilabel:`Hide` (or :guilabel:`Show`)."
-msgstr ""
-
-#: ../ttw/mosaic.rst:251
-msgid "In the first tab, named :guilabel:`Content layouts`, there is a source editor."
-msgstr ""
-
-#: ../ttw/mosaic.rst:253
-msgid "By editing :file:`manifest.cfg`, we can assign a layout to another content type by changing the ``for =`` line. If we remove this line, the layout is available for any content type."
-msgstr ""
-
-#: ../ttw/mosaic.rst:255
-msgid "We can also delete the layout section from :file:`manifest.cfg`, and the layout will be deleted (if we do so, it is recommended to delete its associated HTML file too)."
-msgstr ""
-
-#: ../ttw/mosaic.rst:257
-msgid "Deleting a custom layout can also be managed in another way:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:259
-msgid "Note: the second tab, named :guilabel:`Site layouts`, is not usable for now."
-msgstr ""
-
-#: ../ttw/mosaic.rst:263
-msgid "Edit the layout HTML structure"
-msgstr ""
-
-#: ../ttw/mosaic.rst:264
-msgid "In the Mosaic Layout Editor's first tab (\"Content layouts\"), :file:`manifest.cfg` is not the only editable file."
-msgstr ""
-
-#: ../ttw/mosaic.rst:266
-msgid "There is also some HTML files. Each of them corresponds to a layout and they represent what we have built by drag&dropping tiles in our layouts."
-msgstr ""
-
-#: ../ttw/mosaic.rst:268
-msgid "Using the code editor, we can change this HTML structure manually instead of using the WYSIWIG editor."
-msgstr ""
-
-#: ../ttw/mosaic.rst:270
-msgid "Layouts are implemented in regular HTML using nested ``<div>`` elements and specific CSS classes. Those classes are provided by the Mosaic grid which works like any CSS grid:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:274
-msgid "structure:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:274
-msgid "``mosaic-grid-row``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:275
-msgid "``mosaic-grid-cell``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:281
-msgid "sizes:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:277
-msgid "``mosaic-width-full``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:278
-msgid "``mosaic-width-half``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:279
-msgid "``mosaic-width-quarter``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:280
-msgid "``mosaic-width-three-quarters``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:281
-msgid "``mosaic-width-third``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:282
-msgid "``mosaic-width-two-thirds``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:289
-msgid "positions:"
-msgstr ""
-
-#: ../ttw/mosaic.rst:284
-msgid "``mosaic-position-leftmost``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:285
-msgid "``mosaic-position-third``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:286
-msgid "``mosaic-position-two-thirds``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:287
-msgid "``mosaic-position-quarter``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:288
-msgid "``mosaic-position-half``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:289
-msgid "``mosaic-position-three-quarters``"
-msgstr ""
-
-#: ../ttw/mosaic.rst:292
-msgid "Import layouts"
-msgstr ""
-
-#: ../ttw/mosaic.rst:294
-msgid "We might want to work on a layout on our development server, and then be able to deploy it on our production server."
-msgstr ""
-
-#: ../ttw/mosaic.rst:296
-msgid "We can achieve that using the Mosaic editor control panel, which allows to copy the layout HTML structure and its declaration in :file:`manifest.cfg`."
-msgstr ""
-
-#: ../ttw/rapido.rst:2
-msgid "Rapido"
-msgstr ""
-
-#: ../ttw/rapido.rst:6
-msgid "Create a :guilabel:`Like` button on any talk so that visitors can cast votes,"
-msgstr ""
-
-#: ../ttw/rapido.rst:7
-msgid "Display the total of votes next to the button,"
-msgstr ""
-
-#: ../ttw/rapido.rst:8
-msgid "Create a \"Top 5\" page,"
-msgstr ""
-
-#: ../ttw/rapido.rst:9
-msgid "Reset the votes on workflow change."
-msgstr ""
-
-#: ../ttw/rapido.rst:13
-msgid "Create a Rapido app."
-msgstr ""
-
-#: ../ttw/rapido.rst:14
-msgid "Insert Rapido blocks in Plone pages."
-msgstr ""
-
-#: ../ttw/rapido.rst:15
-msgid "Implement scripts in Rapido."
-msgstr ""
-
-#: ../ttw/rapido.rst:18
-msgid "What is Rapido?"
-msgstr ""
-
-#: ../ttw/rapido.rst:28
-msgid "Rapido is a Plone add-on that allows implementation of custom features on top of Plone. It is a simple yet powerful way to extend the behavior of your Plone site without using the underlying frameworks. The **Plone theming tool** is the interface used to build :py:mod:`rapido.plone` applications. This means that Rapido applications can be written both **on the file system** or using the **inline editor** of the Plone theming tool."
-msgstr ""
-
-#: ../ttw/rapido.rst:33
-msgid "A Rapido application is just a part of your current theme: It can be imported, exported, copied, modified, etc. just like the rest of the theme. But in addition to layout and design elements, it can contain business logic implemented in Python."
-msgstr ""
-
-#: ../ttw/rapido.rst:38
-msgid "A couple of comparisons"
-msgstr ""
-
-#: ../ttw/rapido.rst:48
-msgid "Compared to **Dexterity**:"
-msgstr ""
-
-#: ../ttw/rapido.rst:50
-msgid "Dexterity focuses on content types. Content types can only use the Plone business logic, you cannot implement your own logic."
-msgstr ""
-
-#: ../ttw/rapido.rst:53
-msgid "By contrast, using Rapido you can implement your own logic; however you can only store data records, not **Plone content items** (at least, not directly like Dexterity does)."
-msgstr ""
-
-#: ../ttw/rapido.rst:57
-msgid "Compared to **Diazo** and **Mosaic**:"
-msgstr ""
-
-#: ../ttw/rapido.rst:59
-msgid "Diazo manages the Plone theme,"
-msgstr ""
-
-#: ../ttw/rapido.rst:60
-msgid "Mosaic allows you to manage layouts by positioning tiles,"
-msgstr ""
-
-#: ../ttw/rapido.rst:61
-msgid "Rapido does not do either theming or layouts, but a Rapido block can be called from a Diazo rule or displayed in a Mosaic tile."
-msgstr ""
-
-#: ../ttw/rapido.rst:64
-msgid "Compared to conventional Plone development:"
-msgstr ""
-
-#: ../ttw/rapido.rst:66
-msgid "Rapido is simpler: no need to learn about any framework, no need to create Python eggs,"
-msgstr ""
-
-#: ../ttw/rapido.rst:67
-msgid "but Rapido code runs in restricted mode, so you cannot import any unsafe Python module in your code."
-msgstr ""
-
-#: ../ttw/rapido.rst:72
-msgid "For the training, we will use a `Heroku instance pre-configured with Plone <https://github.com/collective/training-sandbox>`_."
-msgstr ""
-
-#: ../ttw/rapido.rst:74
-msgid "Once deployed:"
-msgstr ""
-
-#: ../ttw/rapido.rst:76
-msgid "create a Plone site,"
-msgstr ""
-
-#: ../ttw/rapido.rst:77
-msgid "go to: :menuselection:`Plone control panel -> Add-ons` (http://localhost:8080/Plone/prefs_install_products_form),"
-msgstr ""
-
-#: ../ttw/rapido.rst:78
-msgid "finally: install Rapido."
-msgstr ""
-
-#: ../ttw/rapido.rst:80
-msgid "But to deploy Rapido on an actual Plone instance, modify :file:`buildout.cfg` to add Rapido as a dependency::"
-msgstr ""
-
-#: ../ttw/rapido.rst:90
-msgid "Then go to :menuselection:`Plone control panel -> Add-ons` ``http://localhost:8080/Plone/prefs_install_products_form``, and install Rapido."
-msgstr ""
-
-#: ../ttw/rapido.rst:95
-#: ../theming/ttw-advanced.rst:48
-msgid "Principles"
-msgstr ""
-
-#: ../ttw/rapido.rst:108
-msgid "Rapido :dfn:`application`"
-msgstr ""
-
-#: ../ttw/rapido.rst:107
-msgid "It contains the features you implement; it is just a folder containing templates, Python code, and YAML files."
-msgstr ""
-
-#: ../ttw/rapido.rst:111
-msgid ":dfn:`block`"
-msgstr ""
-
-#: ../ttw/rapido.rst:111
+#: ../ttw/about/glossary.rst:72
+#: ../ttw/rapido.rst:119
 msgid "Blocks display a chunk of HTML which can be inserted in your Plone pages."
 msgstr ""
 
+#: ../ttw/about/glossary.rst:73
+msgid "element"
+msgstr ""
+
+#: ../ttw/about/glossary.rst:75
+#: ../ttw/rapido.rst:122
+msgid "Elements are the dynamic components of your blocks. They can be input fields, buttons, or computed HTML. They can also return JSON if you call them from a JavaScript app,"
+msgstr ""
+
+#: ../ttw/about/glossary.rst:78
+msgid "record"
+msgstr ""
+
+#: ../ttw/about/glossary.rst:80
+#: ../ttw/rapido.rst:127
+msgid "A Rapido app is able to store data as records. Records are basic dictionaries."
+msgstr ""
+
+#: ../ttw/about/index.rst:3
+#: ../ttw/index.rst:0
+msgid "About"
+msgstr ""
+
+#: ../ttw/basic.rst:3
+msgid "Customizing Logo And CSS Of Default Theme"
+msgstr ""
+
+#: ../ttw/basic.rst:5
+#: ../ttw/ttw-advanced.rst:5
+#: ../ttw/ttw-advanced-2.rst:5
+msgid "In this section you will:"
+msgstr ""
+
+#: ../ttw/basic.rst:7
+msgid "Use the Site control panel to add a custom logo"
+msgstr ""
+
+#: ../ttw/basic.rst:8
+msgid "Customize the look of a Plone site by adjusting Less Variables"
+msgstr ""
+
+#: ../ttw/basic.rst:9
+msgid "Add a custom toolbar logo"
+msgstr ""
+
+#: ../ttw/basic.rst:11
+#: ../ttw/dexterity.rst:12
+#: ../ttw/mosaic.rst:10
+#: ../ttw/rapido.rst:15
+#: ../ttw/ttw-advanced.rst:11
+#: ../ttw/ttw-advanced-2.rst:13
+msgid "Topics covered:"
+msgstr ""
+
+#: ../ttw/basic.rst:13
+msgid "The :guilabel:`Site` control panel"
+msgstr ""
+
+#: ../ttw/basic.rst:14
+msgid "The :guilabel:`Resource Registries` Control Panel"
+msgstr ""
+
+#: ../ttw/basic.rst:15
+msgid "Resource Registries > Development Mode"
+msgstr ""
+
+#: ../ttw/basic.rst:18
+msgid "Customize Logo"
+msgstr ""
+
+#: ../ttw/basic.rst:20
+msgid "Go to the Plone Control Panel: :menuselection:`toolbar --> admin --> Site Setup`"
+msgstr ""
+
+#: ../ttw/basic.rst:21
+msgid "Go to the :guilabel:`Site` control panel."
+msgstr ""
+
+#: ../ttw/basic.rst:22
+msgid "You will see this form:"
+msgstr ""
+
+#: ../ttw/basic.rst:26
+msgid "You can now add / remove your custom logo"
+msgstr ""
+
+#: ../ttw/basic.rst:28
+msgid "See the `official docs <https://docs.plone.org/adapt-and-extend/change-the-logo.html>`_."
+msgstr ""
+
+#: ../ttw/basic.rst:32
+msgid "Customize CSS/Less Variables"
+msgstr ""
+
+#: ../ttw/basic.rst:34
+msgid "Go back to the Control Panel."
+msgstr ""
+
+#: ../ttw/basic.rst:35
+msgid "Go to the :guilabel:`Resource Registries` control panel."
+msgstr ""
+
+#: ../ttw/basic.rst:36
+msgid "On the first tab: enable :guilabel:`Development Mode`."
+msgstr ""
+
+#: ../ttw/basic.rst:37
+msgid "In the \"plone\" bundle below, click on :guilabel:`develop CSS`."
+msgstr ""
+
+#: ../ttw/basic.rst:39
+msgid "Your panel should now look like this:"
+msgstr ""
+
+#: ../ttw/basic.rst:46
+msgid "Now we can play with some Less variables:"
+msgstr ""
+
+#: ../ttw/basic.rst:48
+msgid "Go to the :guilabel:`Less Variables` tab."
+msgstr ""
+
+#: ../ttw/basic.rst:49
+msgid "Find the variable ``plone-left-toolbar-expanded`` and set it to 400px."
+msgstr ""
+
+#: ../ttw/basic.rst:56
+msgid "Hit the :guilabel:`Save` button in the upper right and reload the page."
+msgstr ""
+
+#: ../ttw/basic.rst:57
+msgid "Go back to the :guilabel:`Registry` tab and hit the :guilabel:`Build` button for the ``plone`` bundle."
+msgstr ""
+
+#: ../ttw/basic.rst:58
+msgid "Click on the toolbar logo to expand the toolbar: voilá!"
+msgstr ""
+
+#: ../ttw/basic.rst:60
+msgid "You can play around with some other variables, if you want."
+msgstr ""
+
+#: ../ttw/basic.rst:64
+msgid "\"Development Mode\" is really expensive for the browser. Depending on the browser and on the system, you might encounter extreme slowness while rendering the page."
+msgstr ""
+
+#: ../ttw/basic.rst:67
+msgid "You could see an unthemed page for a while. Remember to switch it off as soon as you finished tweaking."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:3
+msgid "Configuring And Customizing"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:7
+msgid "This chapter has not yet been updated for Plone 5!"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:14
+msgid "The Control Panel"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:16
+msgid "The most important parts of Plone can be configured in the control panel."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:18
+msgid "Click on the portrait/username in the toolbar"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:19
+msgid "Click :guilabel:`Site Setup`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:21
+msgid "We'll explain every page and mention some of the actions you can perform here."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:25
+msgid "General"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:27
+msgid "Date and Time"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:28
+msgid "Language"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:29
+msgid "Mail"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:30
+msgid "Navigation"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:31
+msgid "Site"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:32
+msgid "Add-ons"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:33
+msgid "Search"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:34
+msgid "Discussion"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:35
+msgid "Theming"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:36
+msgid "Social Media"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:37
+msgid "Syndication"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:38
+msgid "TinyMCE"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:42
+msgid "Content"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:44
+msgid "Content Rules"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:45
+msgid "Editing"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:46
+msgid "Image Handling"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:47
+msgid "Markup"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:48
+msgid "Content Settings"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:49
+msgid "Dexterity Content Types"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:52
+msgid "Users"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:54
+msgid "Users and Groups"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:57
+#: ../ttw/configuring-customizing.rst:60
+msgid "Security"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:59
+msgid "HTML Filtering"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:61
+msgid "Errors"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:64
+msgid "Advanced"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:66
+msgid "Maintenance"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:67
+msgid "Management Interface"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:68
+msgid "Caching"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:69
+msgid "Configuration Registry"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:70
+msgid "Resource Registries"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:73
+msgid "Below the links you will find information on your Plone, Zope and Python versions and an indicator as to whether you're running in production or development mode."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:76
+msgid "Change The Logo"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:78
+msgid "Let's change the logo."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:80
+msgid "Download a Plone Conference logo: https://www.starzel.de/plone-tutorial/ploneconf-logo-2014"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:81
+msgid "Go to http://localhost:8080/Plone/@@site-controlpanel"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:82
+msgid "Upload the Logo."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:86
+msgid "https://docs.plone.org/adapt-and-extend/change-the-logo.html"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:92
+msgid "Portlets"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:94
+msgid "In the toolbar under :guilabel:`More options` you can open the configuration for the different places where you can have portlets."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:96
+msgid "UI (User Interface) fit for smart content editors"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:97
+msgid "Various types"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:98
+msgid "Portlet configuration is inherited"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:99
+msgid "Managing"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:100
+msgid "Ordering/weighting"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:101
+msgid "The future: may be replaced by tiles"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:102
+msgid "``@@manage-portlets``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:104
+#: ../ttw/rapido.rst:414
+msgid "Example:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:106
+msgid "Go to http://localhost:8080/Plone/@@manage-portlets"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:107
+msgid "Add a static portlet \"Sponsors\" on the right side."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:108
+msgid "Remove the news portlet and add a new one on the left side."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:109
+msgid "Go to the training folder: http://localhost:8080/Plone/the-event/training and click :guilabel:`Manage portlets`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:110
+msgid "Add a static portlet. \"Featured training: Become a Plone-Rockstar at Mastering Plone!\""
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:111
+msgid "Use the toolbar to configure the portlets of the footer:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:113
+msgid "Hide the portlets \"Footer\" and \"Colophon\"."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:114
+msgid "Add a :guilabel:`Static text portlet` and enter \"Copyright 2015 by Plone Community\"."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:115
+msgid "Use :menuselection:`Insert --> Special Character` to add a real © sign."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:116
+msgid "You could turn that into a link to a copyright page later."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:122
+msgid "Viewlets"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:124
+msgid "Portlets save data, Viewlets usually don't. Viewlets are often used for UI-Elements and have no nice UI to customize them."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:127
+msgid "``@@manage-viewlets``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:128
+msgid "Viewlets have no nice UI"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:129
+msgid "Not aimed at content editors"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:130
+msgid "Not locally addable, no configurable inheritance."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:131
+msgid "Usually global (depends on code)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:132
+msgid "Will be replaced by tiles?"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:133
+msgid "The code is much simpler (we'll create one tomorrow)."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:134
+msgid "Live in viewlet managers, can be nested (by adding a viewlet that contains a viewlet manager)."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:135
+msgid "TTW (Trough-The-Web) reordering only within the same viewlet manager."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:136
+msgid "The code decides when it is shown and what it shows."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:142
+msgid "ZMI (Zope Management Interface)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:144
+msgid "Go to http://localhost:8080/Plone/manage"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:146
+msgid "Zope is the foundation of Plone. Here you can access the inner workings of Zope and Plone alike."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:150
+msgid "Here you can break your site so you should know what you are doing!"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:154
+msgid "We only cover three parts of customization in the ZMI now. Later on when we added our own code we'll come back to the ZMI and will look for it."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:157
+msgid "At some point you'll have to learn what all those objects are about. But not today."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:161
+msgid "Actions (:guilabel:`portal_actions`)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:163
+msgid "Actions are mostly links. But **really flexible** links."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:164
+msgid "Actions are configurable TTW (Through-The-Web) and through code."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:165
+msgid "These actions are usually iterated over in viewlets and displayed."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:167
+msgid "Examples:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:169
+msgid "Links in the Footer (:guilabel:`site_actions`)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:170
+msgid "Actions Dropdown (:guilabel:`folder_buttons`)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:172
+msgid "Actions have properties like:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:174
+msgid "description"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:175
+msgid "url"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:176
+msgid "i18n-domain"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:177
+msgid "condition"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:178
+msgid "permissions"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:183
+msgid ":guilabel:`site_actions`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:185
+msgid "These are the links at the bottom of the page:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:187
+msgid ":guilabel:`Site Map`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:188
+msgid ":guilabel:`Accessibility`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:189
+msgid ":guilabel:`Contact`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:190
+msgid ":guilabel:`Site Setup`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:192
+msgid "We want a new link to legal information, called \"Imprint\"."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:194
+msgid "Go to :guilabel:`site_actions` (we know that because we checked in ``@@manage-viewlets``)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:195
+msgid "Add a CMF Action ``imprint``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:196
+msgid "Set the *Title* to ``Imprint`` (this will be the link text)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:197
+msgid "Set URL to ``string:${portal_url}/imprint``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:198
+msgid "Leave *condition* empty"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:199
+msgid "Set permission to ``View``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:200
+msgid "Save"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:204
+msgid "explain"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:206
+msgid "Check if the link is on the page"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:207
+msgid "Create new Document \"Imprint\" and publish"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:211
+msgid "https://docs.plone.org/develop/plone/functionality/actions.html"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:215
+msgid "Global Navigation"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:217
+msgid "The horizontal navigation is called :guilabel:`portal_tabs`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:218
+msgid "Go to :menuselection:`portal_actions --> portal_tabs` (`link <http://localhost:8080/Plone/portal_actions/portal_tabs/manage_main>`_)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:219
+msgid "Edit ``index_html``"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:221
+msgid "Where is the navigation?"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:223
+msgid "The navigation shows content-objects, which are in Plone's root. Plus all actions in :guilabel:`portal_tabs`."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:226
+msgid "Explain & edit ``index_html``."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:228
+msgid "Configuring the navigation itself is done elsewhere: http://localhost:8080/Plone/@@navigation-controlpanel"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:230
+msgid "If time explain:"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:232
+msgid "user > undo"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:233
+msgid "user > login/logout"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:237
+msgid "Skins (``portal_skins``)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:240
+msgid "In :guilabel:`portal_skins` we can change certain images, CSS-files and templates."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:242
+msgid ":guilabel:`portal_skins` is deprecated technology"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:243
+msgid "Plone 5 got rid of most files that lived in :guilabel:`portal_skins`."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:247
+msgid "Change Some CSS"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:249
+msgid "Go to ZMI"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:250
+msgid "Go to :guilabel:`portal_skins`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:251
+msgid "Go to :guilabel:`plone_styles`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:252
+msgid "Go to :file:`ploneCustom.css`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:253
+msgid "Click :guilabel:`customize`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:255
+msgid "The CSS you add to this file is instantly active on the site."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:259
+msgid "Portal View Customizations"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:262
+msgid "Change the footer"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:264
+msgid "Go to :guilabel:`portal_view_customizations`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:265
+msgid "Search ``plone.footer``, and click :guilabel:`Customize`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:266
+msgid "Replace the content with the following"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:282
+msgid "https://docs.plone.org/adapt-and-extend/theming/templates_css/skin_layers.html"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:286
+msgid "Further Tools In The ZMI"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:288
+msgid "There are many more notable items in the ZMI. We'll visit some of them later."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:290
+msgid ":guilabel:`acl_users`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:291
+msgid ":guilabel:`error_log`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:292
+msgid ":guilabel:`portal_properties` (deprecated)"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:293
+msgid ":guilabel:`portal_setup`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:294
+msgid ":guilabel:`portal_workflow`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:295
+msgid ":guilabel:`portal_catalog`"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:301
+msgid "Summary"
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:303
+msgid "You can configure and customize a lot in Plone through the web. The most important options are accessible in the `Plone control panel <http://localhost:8080/Plone/@@overview-controlpanel>`_ but some are hidden away in the `ZMI <http://localhost:8080/Plone/manage>`_."
+msgstr ""
+
+#: ../ttw/configuring-customizing.rst:306
+msgid "The amount and presentation of information is overwhelming but you'll get the hang of it through a lot of practice."
+msgstr ""
+
+#: ../ttw/dexterity.rst:7
+#: ../ttw/rapido.rst:8
+msgid "In this part you will:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:9
+msgid "Create a new content type called *Talk*."
+msgstr ""
+
+#: ../ttw/dexterity.rst:14
+msgid "Content types"
+msgstr ""
+
+#: ../ttw/dexterity.rst:15
+msgid "Archetypes and Dexterity"
+msgstr ""
+
+#: ../ttw/dexterity.rst:16
+msgid "Fields"
+msgstr ""
+
+#: ../ttw/dexterity.rst:17
+msgid "Widgets"
+msgstr ""
+
+#: ../ttw/dexterity.rst:23
+msgid "What Is A Content Type?"
+msgstr ""
+
+#: ../ttw/dexterity.rst:25
+msgid "A content type is a kind of object that can store information and is editable by users. We have different content types to reflect the different kinds of information about which we need to collect and display information. Pages, folders, events, news items, files (binary) and images are all content types."
+msgstr ""
+
+#: ../ttw/dexterity.rst:29
+msgid "It is common in developing a web site that you'll need customized versions of common content types, or perhaps even entirely new types."
+msgstr ""
+
+#: ../ttw/dexterity.rst:31
+msgid "Remember the requirements for our project? We wanted to be able to solicit and edit conference talks. We *could* use the **Page** content type for that purpose."
+msgstr ""
+
+#: ../ttw/dexterity.rst:34
+msgid "But we need to make sure we collect certain bits of information about a talk and we couldn't be sure to get that information if we asked potential presenters to create a page."
+msgstr ""
+
+#: ../ttw/dexterity.rst:37
+msgid "Also, we'll want to be able to display talks featuring that special information, and we'll want to be able to show collections of talks."
+msgstr ""
+
+#: ../ttw/dexterity.rst:39
+msgid "A custom content type will be ideal."
+msgstr ""
+
+#: ../ttw/dexterity.rst:44
+msgid "The Makings Of A Plone Content Type"
+msgstr ""
+
+#: ../ttw/dexterity.rst:46
+msgid "Every Plone content type has the following parts:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:49
+msgid "Schema"
+msgstr ""
+
+#: ../ttw/dexterity.rst:49
+msgid "A definition of fields that comprise a content type; properties of an object."
+msgstr ""
+
+#: ../ttw/dexterity.rst:52
+msgid "FTI"
+msgstr ""
+
+#: ../ttw/dexterity.rst:52
+msgid "The \"Factory Type Information\" configures the content type in Plone, assigns it a name, an icon, additional features and possible views to it."
+msgstr ""
+
+#: ../ttw/dexterity.rst:58
+msgid "Views"
+msgstr ""
+
+#: ../ttw/dexterity.rst:55
+msgid "A view is a representation of the object and the content of its fields that may be rendered in response to a request. You may have *one or more* views for an object. Some may be *visual* — intended for display as web pages — others may be intended to satisfy AJAX requests and render content in formats like JSON or XML."
+msgstr ""
+
+#: ../ttw/dexterity.rst:63
+msgid "Dexterity And Archetypes"
+msgstr ""
+
+#: ../ttw/dexterity.rst:65
+msgid "There are two content frameworks in Plone:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:67
+msgid "*Dexterity*: new and the coming default."
+msgstr ""
+
+#: ../ttw/dexterity.rst:68
+msgid "*Archetypes*: old, tried and tested. Widespread, used in many add-ons."
+msgstr ""
+
+#: ../ttw/dexterity.rst:69
+msgid "Plone 4.x: Archetypes is the default, with Dexterity available."
+msgstr ""
+
+#: ../ttw/dexterity.rst:70
+msgid "Plone 5.x: Dexterity is the default, with Archetypes available."
+msgstr ""
+
+#: ../ttw/dexterity.rst:71
+msgid "For both, add and edit forms are created automatically from a schema."
+msgstr ""
+
+#: ../ttw/dexterity.rst:73
+msgid "What are the differences?"
+msgstr ""
+
+#: ../ttw/dexterity.rst:75
+msgid "Dexterity: New, faster, modular, no dark magic for getters and setters."
+msgstr ""
+
+#: ../ttw/dexterity.rst:76
+msgid "Archetypes had magic setter/getter - use :py:meth:`talk.getAudience()` for the field :py:attr:`audience`."
+msgstr ""
+
+#: ../ttw/dexterity.rst:77
+msgid "Dexterity: fields are attributes: :py:attr:`talk.audience` instead of :py:meth:`talk.getAudience()`."
+msgstr ""
+
+#: ../ttw/dexterity.rst:79
+msgid "\"Through The Web\" or TTW, i.e. in the browser, without programming:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:81
+msgid "Dexterity has a good TTW story."
+msgstr ""
+
+#: ../ttw/dexterity.rst:82
+msgid "Archetypes has no TTW story."
+msgstr ""
+
+#: ../ttw/dexterity.rst:83
+msgid "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://pypi.python.org/pypi/agx.generator.dexterity>`_ for Dexterity"
+msgstr ""
+
+#: ../ttw/dexterity.rst:85
+msgid "Approaches for Developers:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:87
+msgid "Schema in Dexterity: TTW, XML, Python. Interface = schema, often no class needed."
+msgstr ""
+
+#: ../ttw/dexterity.rst:88
+msgid "Schema in Archetypes: Schema only in Python."
+msgstr ""
+
+#: ../ttw/dexterity.rst:90
+msgid "Dexterity: Easy permissions per field, easy custom forms."
+msgstr ""
+
+#: ../ttw/dexterity.rst:91
+msgid "Archetypes: Permissions per field are hard, custom forms even harder."
+msgstr ""
+
+#: ../ttw/dexterity.rst:92
+msgid "If you have to program for old sites you need to know Archetypes!"
+msgstr ""
+
+#: ../ttw/dexterity.rst:93
+msgid "If starting fresh, go with Dexterity."
+msgstr ""
+
+#: ../ttw/dexterity.rst:95
+msgid "Extending:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:97
+msgid "Dexterity has *Behaviors*: easily extendable. Just activate a behavior TTW and your content type is e.g. translatable (:py:mod:`plone.app.multilingual`)."
+msgstr ""
+
+#: ../ttw/dexterity.rst:99
+msgid "Archetypes has :py:mod:`archetypes.schemaextender`. Powerful but not as flexible."
+msgstr ""
+
+#: ../ttw/dexterity.rst:101
+msgid "We have only used Dexterity for the last few years. We teach Dexterity and not Archetypes because it's more accessible to beginners, has a great TTW story and is the future."
+msgstr ""
+
+#: ../ttw/dexterity.rst:104
+msgid "Views:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:106
+msgid "Both Dexterity and Archetypes have a default view for content types."
+msgstr ""
+
+#: ../ttw/dexterity.rst:107
+msgid "Browser Views provide custom views."
+msgstr ""
+
+#: ../ttw/dexterity.rst:108
+msgid "You can generate views for content types in the browser without programming (using the :py:mod:`plone.app.mosaic` Add-on)."
+msgstr ""
+
+#: ../ttw/dexterity.rst:109
+msgid "Display Forms."
+msgstr ""
+
+#: ../ttw/dexterity.rst:115
+msgid "Modifying Existing Types"
+msgstr ""
+
+#: ../ttw/dexterity.rst:117
+msgid "Go to the control panel http://localhost:8080/Plone/@@dexterity-types"
+msgstr ""
+
+#: ../ttw/dexterity.rst:118
+msgid "Inspect some of the existing default types."
+msgstr ""
+
+#: ../ttw/dexterity.rst:119
+msgid "Select the type :guilabel:`News Item` and add a new field ``Hot News`` of type :guilabel:`Yes/No`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:120
+msgid "In another tab, add a *News Item* and you'll see the new field."
+msgstr ""
+
+#: ../ttw/dexterity.rst:121
+msgid "Go back to the schema-editor and click on :guilabel:`Edit XML Field Model`."
+msgstr ""
+
+#: ../ttw/dexterity.rst:122
+msgid "Note that the only field in the XML schema of the News Item is the one we just added. All others are provided by behaviors."
+msgstr ""
+
+#: ../ttw/dexterity.rst:123
+msgid "Edit the form-widget-type so it says:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:129
+msgid "Edit the News Item again. The widget changed from a radio field to a check box."
+msgstr ""
+
+#: ../ttw/dexterity.rst:130
+msgid "The new field ``Hot News`` is not displayed when rendering the News Item. We'll take care of this later."
+msgstr ""
+
+#: ../ttw/dexterity.rst:135
+msgid "https://docs.plone.org/external/plone.app.contenttypes/docs/README.html#extending-the-types"
+msgstr ""
+
+#: ../ttw/dexterity.rst:140
+msgid "Creating Content Types \"Through-The-Web\""
+msgstr ""
+
+#: ../ttw/dexterity.rst:142
+msgid "In this step we will create a content type called *Talk* and try it out. When it's ready, we will move the code from the web to the file system and into our own add-on. Later we will extend that type, add behaviors and a viewlet for Talks."
+msgstr ""
+
+#: ../ttw/dexterity.rst:146
+msgid "Add new content type \"Talk\" and some fields for it:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:148
+msgid ":guilabel:`Add new field` \"Type of talk\", type :guilabel:`Choice`. Go to :menuselection:`Settings` and add options: talk, keynote, training."
+msgstr ""
+
+#: ../ttw/dexterity.rst:150
+msgid ":guilabel:`Add new field` \"Details\", type :guilabel:`Rich Text` with a maximal length of 2000."
+msgstr ""
+
+#: ../ttw/dexterity.rst:151
+msgid ":guilabel:`Add new field` \"Audience\", type :guilabel:`Multiple Choice`. Add options: beginner, advanced, pro."
+msgstr ""
+
+#: ../ttw/dexterity.rst:152
+msgid "Check the behaviors that are enabled:  *Dublin Core metadata*, *Name from title*. Do we need them all?"
+msgstr ""
+
+#: ../ttw/dexterity.rst:154
+msgid "Test the content type."
+msgstr ""
+
+#: ../ttw/dexterity.rst:155
+msgid "Return to the control panel http://localhost:8080/Plone/@@dexterity-types"
+msgstr ""
+
+#: ../ttw/dexterity.rst:156
+msgid "Extend the new type: add the following fields:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:158
+msgid "\"Speaker\", type: :guilabel:`Text line`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:159
+msgid "\"Email\", type: :guilabel:`Email`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:160
+msgid "\"Image\", type: :guilabel:`Image`, not required"
+msgstr ""
+
+#: ../ttw/dexterity.rst:161
+msgid "\"Speaker Biography\", type: :guilabel:`Rich Text`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:163
+msgid "Test again."
+msgstr ""
+
+#: ../ttw/dexterity.rst:165
+msgid "Here is the complete XML schema created by our actions:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:228
+msgid "Moving Content Types Into Code"
+msgstr ""
+
+#: ../ttw/dexterity.rst:230
+msgid "It's awesome that we can do so much through the web. But it's also a dead end if we want to reuse this content type in other sites."
+msgstr ""
+
+#: ../ttw/dexterity.rst:233
+msgid "Also, for professional development, we want to be able to use version control for our work, and we'll want to be able to add the kind of business logic that will require programming."
+msgstr ""
+
+#: ../ttw/dexterity.rst:237
+msgid "So, we'll ultimately want to move our new content type into a Python package. We're missing some skills to do that, and we'll cover those in the next couple of chapters."
+msgstr ""
+
+#: ../ttw/dexterity.rst:242
+msgid "`Dexterity Developer Manual <https://docs.plone.org/external/plone.app.dexterity/docs/index.html>`_"
+msgstr ""
+
+#: ../ttw/dexterity.rst:243
+msgid "`The standard behaviors <https://docs.plone.org/external/plone.app.dexterity/docs/reference/standard-behaviours.html>`_"
+msgstr ""
+
+#: ../ttw/dexterity.rst:249
+msgid "Exercises"
+msgstr ""
+
+#: ../ttw/dexterity.rst:252
+msgid "Exercise 1"
+msgstr ""
+
+#: ../ttw/dexterity.rst:254
+msgid "Modify Pages to allow uploading an image as decoration (like *News Items* do)."
+msgstr ""
+
+#: ../ttw/dexterity.rst:256
+#: ../ttw/dexterity.rst:285
+#: ../ttw/mosaic.rst:204
+#: ../ttw/mosaic.rst:236
+#: ../ttw/rapido.rst:210
+#: ../ttw/rapido.rst:221
+#: ../ttw/rapido.rst:275
+#: ../ttw/rapido.rst:377
+#: ../ttw/rapido.rst:457
+#: ../ttw/rapido.rst:539
+#: ../ttw/rapido.rst:720
+#: ../ttw/rapido.rst:815
+#: ../ttw/rapido.rst:935
+#: ../ttw/ttw-advanced.rst:106
+#: ../ttw/ttw-advanced.rst:183
+#: ../ttw/ttw-advanced-2.rst:135
+#: ../ttw/ttw-advanced-2.rst:200
+msgid "Solution"
+msgstr ""
+
+#: ../ttw/dexterity.rst:259
+msgid "Go to the dexterity control panel (http://localhost:8080/Plone/@@dexterity-types)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:260
+msgid "Click on *Page* (http://127.0.0.1:8080/Plone/dexterity-types/Document)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:261
+msgid "Select the tab *Behaviors* (http://127.0.0.1:8080/Plone/dexterity-types/Document/@@behaviors)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:262
+msgid "Check the box next to :guilabel:`Lead Image` and save."
+msgstr ""
+
+#: ../ttw/dexterity.rst:264
+msgid "The images are displayed above the title."
+msgstr ""
+
+#: ../ttw/dexterity.rst:267
+msgid "Exercise 2"
+msgstr ""
+
+#: ../ttw/dexterity.rst:269
+msgid "Create a new content type called *Speaker* and export the schema to a XML File. It should contain the following fields:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:272
+msgid "Title, type: :guilabel:`Text Line`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:273
+msgid "Email, type: :guilabel:`Email`"
+msgstr ""
+
+#: ../ttw/dexterity.rst:274
+msgid "Homepage, type: :guilabel:`URL` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:275
+msgid "Biography, type: :guilabel:`Rich Text` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:276
+msgid "Company, type: :guilabel:`Text Line` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:277
+msgid "Twitter Handle, type: :guilabel:`Text Line` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:278
+msgid "IRC Handle, type: :guilabel:`Text Line` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:279
+msgid "Image, type: :guilabel:`Image` (optional)"
+msgstr ""
+
+#: ../ttw/dexterity.rst:281
+msgid "Do not use the :term:`Dublin Core` or the Basic behavior since a speaker should not have a description (unselect it in the Behaviors tab)."
+msgstr ""
+
+#: ../ttw/dexterity.rst:283
+msgid "We could use this content type later to convert speakers into Plone users. We could then link them to their talks."
+msgstr ""
+
+#: ../ttw/dexterity.rst:288
+msgid "The schema should look like this:"
+msgstr ""
+
+#: ../ttw/dexterity.rst:334
+msgid "`Dexterity XML <https://docs.plone.org/external/plone.app.dexterity/docs/reference/dexterity-xml.html>`_"
+msgstr ""
+
+#: ../ttw/dexterity.rst:335
+msgid "`Model-driven types <https://docs.plone.org/external/plone.app.dexterity/docs/model-driven-types.html#model-driven-types>`_"
+msgstr ""
+
+#: ../ttw/index.rst:5
+msgid "\"Through-The-Web\" Plone Customization"
+msgstr ""
+
+#: ../ttw/index.rst:9
+msgid "This chapter is still work in progress!"
+msgstr ""
+
+#: ../ttw/index.rst:11
+msgid "Customize Plone Through-The-Web"
+msgstr ""
+
+#: ../ttw/index.rst:0
+msgid "Level"
+msgstr ""
+
+#: ../ttw/index.rst:12
+msgid "Experienced"
+msgstr ""
+
+#: ../ttw/index.rst:0
+msgid "Status"
+msgstr ""
+
+#: ../ttw/index.rst:13
+msgid "Work in progress"
+msgstr ""
+
+#: ../ttw/mosaic.rst:3
+msgid "Mosaic"
+msgstr ""
+
+#: ../ttw/mosaic.rst:5
+msgid "In this section we will:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:7
+msgid "create a *home page* layout,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:8
+msgid "create a *specific talk detail* layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:12
+msgid "Create custom layouts."
+msgstr ""
+
+#: ../ttw/mosaic.rst:13
+msgid "Manage layouts."
+msgstr ""
+
+#: ../ttw/mosaic.rst:14
+msgid "Use the layout editor."
+msgstr ""
+
+#: ../ttw/mosaic.rst:17
+msgid "What is Mosaic?"
+msgstr ""
+
+#: ../ttw/mosaic.rst:19
+#: ../ttw/rapido.rst:26
+msgid "A Plone add-on,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:20
+msgid "which allows managing layouts from the Plone interface."
+msgstr ""
+
+#: ../ttw/mosaic.rst:23
+msgid "Some Comparisons"
+msgstr ""
+
+#: ../ttw/mosaic.rst:27
+msgid "It allows to manage the *layout*, not the *design* (unlike Diazo)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:28
+msgid "It can manage the layout of *any* page, it does not provide a specific layout-enabled content type (like :py:mod:`collective.cover`)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:32
+msgid "Compared to Diazo:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:34
+msgid "Diazo enables theming our Plone site by providing CSS, images, and HTML templates. It will apply to the entire page (footer, main content, portlets, etc.)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:38
+msgid "Mosaic uses the grid provided by our design to dynamically build specific content layouts."
+msgstr ""
+
+#: ../ttw/mosaic.rst:41
+msgid "Compared to :py:mod:`collective.cover`:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:43
+msgid ":py:mod:`collective.cover` provides a specific content-type (a \"Cover page\") where we can manage the layout in order to build our home page."
+msgstr ""
+
+#: ../ttw/mosaic.rst:46
+msgid "Mosaic does not provide any content-type, it allows to edit any existing content layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:49
+#: ../ttw/rapido.rst:74
+#: ../ttw/ttw-advanced.rst:21
+msgid "Installation"
+msgstr ""
+
+#: ../ttw/mosaic.rst:53
+msgid "If you already have your own Plone installation you can install Mosaic by customizing it as follows:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:56
+msgid "Modify :file:`buildout.cfg` to add Mosaic as a dependency"
+msgstr ""
+
+#: ../ttw/mosaic.rst:74
+msgid "Run your buildout"
+msgstr ""
+
+#: ../ttw/mosaic.rst:80
+msgid "Then go to :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:83
+#: ../ttw/ttw-advanced.rst:23
+msgid "We will use a `Plone pre-configured Heroku instance <https://github.com/collective/training-sandbox>`_."
+msgstr ""
+
+#: ../ttw/mosaic.rst:85
+msgid "Once deployed, create a Plone site, then go to the :menuselection:`Site Setup --> Add-ons` and Mosaic :guilabel:`Install`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:88
+msgid "Principle"
+msgstr ""
+
+#: ../ttw/mosaic.rst:90
+msgid "The basic component of a Mosaic based layout is called a tile. A layout is a combination of several tiles."
+msgstr ""
+
+#: ../ttw/mosaic.rst:93
+msgid "A tile is a dynamic portion of a web page, it can be a text element, an image, a field, etc."
+msgstr ""
+
+#: ../ttw/mosaic.rst:95
+msgid "Mosaic provides an editor able to position tiles across our theme's grid."
+msgstr ""
+
+#: ../ttw/mosaic.rst:98
+msgid "The Mosaic Editor"
+msgstr ""
+
+#: ../ttw/mosaic.rst:100
+msgid "To enable the Mosaic editor on a content item change its default display as follows: go to :menuselection:`Display --> Mosaic layout`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:103
+msgid "You have now enabled the Mosaic editor as a replacement for the default edit form."
+msgstr ""
+
+#: ../ttw/mosaic.rst:105
+msgid "Click on :guilabel:`Edit`. If this is the first time editing the current item, you will be prompted to select a layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:109
+msgid "Choose a layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:111
+msgid "This editor allows to change our content fields content (like the regular Plone form), but the fields are rendered into the view layout and they are edited in-place."
+msgstr ""
+
+#: ../ttw/mosaic.rst:116
+msgid "The top bar offers different buttons:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:118
+msgid ":guilabel:`Save`, to save our field entries."
+msgstr ""
+
+#: ../ttw/mosaic.rst:119
+msgid ":guilabel:`Cancel`, to cancel our changes."
+msgstr ""
+
+#: ../ttw/mosaic.rst:120
+msgid ":guilabel:`Properties`, to access the content properties: it displays the regular Plone form tabs, but the fields currently involved in the layout are hidden."
+msgstr ""
+
+#: ../ttw/mosaic.rst:121
+msgid ":guilabel:`Layout`, to manage the content layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:124
+msgid "Exercise 1 - Change The Layout Of The Front Page"
+msgstr ""
+
+#: ../ttw/mosaic.rst:125
+msgid "Go to the front page of the website and update the layout as follows:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:128
+msgid "Activate :menuselection:`Display --> Mosaic layout`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:129
+msgid ":guilabel:`Edit` and select the \"*Document*\" layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:130
+msgid "Then select :menuselection:`Layout --> Customize`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:131
+msgid "Add a *Document Byline* to the bottom of the layout :menuselection:`Insert > Document Byline`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:132
+#: ../ttw/mosaic.rst:211
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:134
+msgid "In the context of the Mosaic Editor, do you know the difference between :guilabel:`Save` and :menuselection:`Layout --> Save`?"
+msgstr ""
+
+#: ../ttw/mosaic.rst:137
+msgid "Change The Content Layout"
+msgstr ""
+
+#: ../ttw/mosaic.rst:139
+msgid "If we click on :menuselection:`Layout --> Change`, we can choose the layout we want for our content. The choices are restricted to the layout applicable to the current content-type."
+msgstr ""
+
+#: ../ttw/mosaic.rst:142
+msgid "For instance for a *Page*, Mosaic proposes (by default) two layouts: *Basic* and *Document*."
+msgstr ""
+
+#: ../ttw/mosaic.rst:147
+msgid "Customize A Content Layout"
+msgstr ""
+
+#: ../ttw/mosaic.rst:149
+msgid "If we click on :menuselection:`Layout --> Customize`, the Mosaic editor switches to the layout mode, where we can still change our field values, but also change the layout:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:152
+msgid "by hovering the page content, existing tiles are highlighted and we can drag & drop them in different places,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:153
+msgid "by clicking in a tile, we can edit its content,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:154
+msgid "by clicking outside the currently edited tile, we disable the edit mode."
+msgstr ""
+
+#: ../ttw/mosaic.rst:156
+msgid "In layout mode, the top bar contains two extra buttons:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:158
+msgid ":guilabel:`Format`, which provides different simple formatting options for tiles (text padding, floating) or for rows (change background color),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:159
+msgid ":guilabel:`Insert`, which allows to add new tiles to our layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:162
+msgid "The Tiles"
+msgstr ""
+
+#: ../ttw/mosaic.rst:164
+msgid "Mosaic provides the following tiles:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:166
+msgid "Structure tiles:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:168
+msgid "heading,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:169
+msgid "subheading,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:170
+msgid "text,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:171
+msgid "table,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:172
+msgid "bulleted list,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:173
+msgid "numbered list,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:174
+msgid "table of contents,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:175
+msgid "navigation: this tile displays a navigation menu. Its settings can be changed in a modal window (click on the :guilabel:`i` button on the bottom-right corner to display the modal),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:177
+msgid "Media:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:179
+msgid "image,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:180
+msgid "embed: it allows to display any remote embeddable content (like a YouTube video for instance),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:181
+msgid "attachment,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:183
+msgid "Fields: all the existing fields of the current content,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:185
+msgid "Applications: for now, there is only Discussion, which shows the discussion form (discussion needs to be enable in the site setup),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:187
+msgid "Properties:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:189
+msgid "document byline,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:190
+msgid "related contents,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:191
+msgid "keywords,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:193
+msgid "Advanced:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:195
+msgid "content listing: this is a collection-like tile. It allows to list all contents matching given criteria (which be edited in the modal window),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:196
+msgid "existing content: it allows to display any content item in a tile."
+msgstr ""
+
+#: ../ttw/mosaic.rst:197
+msgid "if Rapido is installed, there is also a Rapido tile, which allows to display any Rapido block."
+msgstr ""
+
+#: ../ttw/mosaic.rst:200
+msgid "Exercise 2: Customize The Home Page Layout"
+msgstr ""
+
+#: ../ttw/mosaic.rst:202
+msgid "Create an attractive layout for the home page."
+msgstr ""
+
+#: ../ttw/mosaic.rst:207
+msgid "Go to the :guilabel:`Display` menu and select :guilabel:`Mosaic layout`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:208
+msgid "Click :guilabel:`Edit`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:209
+msgid "Click on :menuselection:`Layout --> Customize`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:210
+msgid "Change the layout,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:214
+msgid "Create A Reusable Layout"
+msgstr ""
+
+#: ../ttw/mosaic.rst:216
+msgid "When the layout has been customized, the :guilabel:`Layout` menu offers a :guilabel:`Save` action."
+msgstr ""
+
+#: ../ttw/mosaic.rst:218
+msgid "This action allows to save the current layout as a reusable layout."
+msgstr ""
+
+#: ../ttw/mosaic.rst:220
+msgid "If :guilabel:`Global` is checked, the layout will be usable by any user (else it is restricted to the current user)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:222
+msgid "The layout is associated with the current content type. By default it will not be usable for other content types."
+msgstr ""
+
+#: ../ttw/mosaic.rst:224
+msgid "Once saved, our layout will be listed with the other available layouts when we click on :menuselection:`Layout --> Change`."
+msgstr ""
+
+#: ../ttw/mosaic.rst:227
+msgid "Exercise 3: Create A Layout For Talks"
+msgstr ""
+
+#: ../ttw/mosaic.rst:231
+msgid "This exercise assumes that you have created a content type called \"Talk\". You can quickly create one by the following the steps in the `Dexterity: Creating TTW content types <dexterity.html#creating-contenttypes-ttw>`_ documentation."
+msgstr ""
+
+#: ../ttw/mosaic.rst:234
+msgid "Create an attractive layout for a talk, save it and reuse it for another talk."
+msgstr ""
+
+#: ../ttw/mosaic.rst:239
+msgid "customize a talk layout (see Exercise 2),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:240
+msgid "click on :menuselection::menuselection:`Layout --> Save`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:241
+msgid "enter its title: \"Talk\", and select \"Global\","
+msgstr ""
+
+#: ../ttw/mosaic.rst:242
+msgid "click :guilabel:`Save`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:243
+msgid "navigate to another talk,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:244
+msgid "go to :guilabel:`Display` menu and select \"Mosaic layout\","
+msgstr ""
+
+#: ../ttw/mosaic.rst:245
+msgid "click :guilabel:`Edit`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:246
+msgid "click on :menuselection:`Layout --> Change`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:247
+msgid "choose \"Talk\"."
+msgstr ""
+
+#: ../ttw/mosaic.rst:250
+msgid "Manage Custom Layouts"
+msgstr ""
+
+#: ../ttw/mosaic.rst:252
+msgid "Custom layouts can be managed from the Plone control panel:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:254
+msgid "click on :menuselection:`user menu --> Site settings`,"
+msgstr ""
+
+#: ../ttw/mosaic.rst:255
+msgid "click on :guilabel:`Mosaic Layout Editor` (in the last section, namely :guilabel:`Add-on configuration`),"
+msgstr ""
+
+#: ../ttw/mosaic.rst:257
+msgid "In the third tab of this control panel, named :guilabel:`Show/hide content layouts`, we can see the existing layouts, their associated content types, and we can deactivate (or re-activate) them by clicking on :guilabel:`Hide` (or :guilabel:`Show`)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:259
+msgid "In the first tab, named :guilabel:`Content layouts`, there is a source editor."
+msgstr ""
+
+#: ../ttw/mosaic.rst:261
+msgid "By editing :file:`manifest.cfg`, we can assign a layout to another content type by changing the ``for =`` line. If we remove this line, the layout is available for any content type."
+msgstr ""
+
+#: ../ttw/mosaic.rst:263
+msgid "We can also delete the layout section from :file:`manifest.cfg`, and the layout will be deleted (if we do so, it is recommended to delete its associated HTML file too)."
+msgstr ""
+
+#: ../ttw/mosaic.rst:265
+msgid "Deleting a custom layout can also be managed in another way:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:269
+msgid "Note: the second tab, named :guilabel:`Site layouts`, is not usable for now."
+msgstr ""
+
+#: ../ttw/mosaic.rst:273
+msgid "Edit The Layout HTML Structure"
+msgstr ""
+
+#: ../ttw/mosaic.rst:275
+msgid "In the Mosaic Layout Editor's first tab (:guilabel:`Content layouts`), :file:`manifest.cfg` is not the only editable file."
+msgstr ""
+
+#: ../ttw/mosaic.rst:277
+msgid "There are also some HTML files. Each of them corresponds to a layout and they represent what we have built by drag & dropping tiles in our layouts."
+msgstr ""
+
+#: ../ttw/mosaic.rst:279
+msgid "Using the code editor, we can change this HTML structure manually instead of using the WYSIWIG editor."
+msgstr ""
+
+#: ../ttw/mosaic.rst:281
+msgid "Layouts are implemented in regular HTML using nested ``<div>`` elements and specific CSS classes. Those classes are provided by the Mosaic grid which works like any CSS grid:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:285
+msgid "structure:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:285
+msgid "``mosaic-grid-row``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:286
+msgid "``mosaic-grid-cell``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:292
+msgid "sizes:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:288
+msgid "``mosaic-width-full``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:289
+msgid "``mosaic-width-half``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:290
+msgid "``mosaic-width-quarter``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:291
+msgid "``mosaic-width-three-quarters``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:292
+msgid "``mosaic-width-third``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:293
+msgid "``mosaic-width-two-thirds``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:300
+msgid "positions:"
+msgstr ""
+
+#: ../ttw/mosaic.rst:295
+msgid "``mosaic-position-leftmost``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:296
+msgid "``mosaic-position-third``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:297
+msgid "``mosaic-position-two-thirds``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:298
+msgid "``mosaic-position-quarter``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:299
+msgid "``mosaic-position-half``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:300
+msgid "``mosaic-position-three-quarters``"
+msgstr ""
+
+#: ../ttw/mosaic.rst:303
+msgid "Import Layouts"
+msgstr ""
+
+#: ../ttw/mosaic.rst:305
+msgid "We might want to work on a layout on our development server, and then be able to deploy it on our production server."
+msgstr ""
+
+#: ../ttw/mosaic.rst:307
+msgid "We can achieve that using the Mosaic editor control panel, which allows to copy the layout HTML structure and its declaration in :file:`manifest.cfg`."
+msgstr ""
+
+#: ../ttw/rapido.rst:3
+msgid "Rapido"
+msgstr ""
+
+#: ../ttw/rapido.rst:5
+msgid "`Rapido <https://rapidoplone.readthedocs.io/en/latest/>`_ allows you to create Plone applications in the Theme."
+msgstr ""
+
+#: ../ttw/rapido.rst:10
+msgid "Create a :guilabel:`Like` button on any talk so that visitors can cast votes,"
+msgstr ""
+
+#: ../ttw/rapido.rst:11
+msgid "Display the total of votes next to the button,"
+msgstr ""
+
+#: ../ttw/rapido.rst:12
+msgid "Create a \"Top 5\" page,"
+msgstr ""
+
+#: ../ttw/rapido.rst:13
+msgid "Reset the votes on workflow change."
+msgstr ""
+
+#: ../ttw/rapido.rst:17
+msgid "Create a Rapido app."
+msgstr ""
+
+#: ../ttw/rapido.rst:18
+msgid "Insert Rapido blocks in Plone pages."
+msgstr ""
+
+#: ../ttw/rapido.rst:19
+msgid "Implement scripts in Rapido."
+msgstr ""
+
+#: ../ttw/rapido.rst:22
+msgid "What is Rapido?"
+msgstr ""
+
+#: ../ttw/rapido.rst:27
+msgid "used to extend your Plone site features,"
+msgstr ""
+
+#: ../ttw/rapido.rst:28
+msgid "which works entirely through the theming tool."
+msgstr ""
+
+#: ../ttw/rapido.rst:32
+msgid "Rapido is a Plone add-on that allows implementation of custom features on top of Plone. It is a simple yet powerful way to extend the behavior of your Plone site without using the underlying frameworks. The **Plone theming tool** is the interface used to build :py:mod:`rapido.plone` applications. This means that Rapido applications can be written both **on the file system** or using the **inline editor** of the Plone theming tool."
+msgstr ""
+
+#: ../ttw/rapido.rst:37
+msgid "A Rapido application is a part of your current theme: It can be imported, exported, copied, modified, etc. like the rest of the theme. But in addition to layout and design elements, it can contain business logic implemented in Python."
+msgstr ""
+
+#: ../ttw/rapido.rst:42
+msgid "A couple of comparisons"
+msgstr ""
+
+#: ../ttw/rapido.rst:46
+msgid "Unlike :term:`Dexterity`, it focuses on features, not on content types."
+msgstr ""
+
+#: ../ttw/rapido.rst:47
+msgid "Rapido apps can be displayed using :term:`Diazo`, or as a Mosaic tile, but they cannot manage design or layouts."
+msgstr ""
+
+#: ../ttw/rapido.rst:48
+msgid "Unlike Plone development, it is quick and easy to write Rapido apps."
+msgstr ""
+
+#: ../ttw/rapido.rst:52
+msgid "Compared to **Dexterity**:"
+msgstr ""
+
+#: ../ttw/rapido.rst:54
+msgid "Dexterity focuses on content types. Content types can only use the Plone business logic, you cannot implement your own logic."
+msgstr ""
+
+#: ../ttw/rapido.rst:57
+msgid "By contrast, using Rapido you can implement your own logic; however you can only store data records, not **Plone content items** (at least, not directly like Dexterity does)."
+msgstr ""
+
+#: ../ttw/rapido.rst:61
+msgid "Compared to **Diazo** and **Mosaic**:"
+msgstr ""
+
+#: ../ttw/rapido.rst:63
+msgid ":term:`Diazo` manages the Plone theme,"
+msgstr ""
+
+#: ../ttw/rapido.rst:64
+msgid "Mosaic allows you to manage layouts by positioning tiles,"
+msgstr ""
+
+#: ../ttw/rapido.rst:65
+msgid "Rapido does not do either theming or layouts, but a Rapido block can be called from a Diazo rule or displayed in a Mosaic tile."
+msgstr ""
+
+#: ../ttw/rapido.rst:68
+msgid "Compared to conventional Plone development:"
+msgstr ""
+
+#: ../ttw/rapido.rst:70
+msgid "Rapido is simpler: no need to learn about any framework, no need to create Python eggs,"
+msgstr ""
+
+#: ../ttw/rapido.rst:71
+msgid "but Rapido code runs in restricted mode, so you cannot import any unsafe Python module in your code."
+msgstr ""
+
+#: ../ttw/rapido.rst:76
+msgid "For the training, we will use a `Heroku instance pre-configured with Plone <https://github.com/collective/training-sandbox>`_."
+msgstr ""
+
+#: ../ttw/rapido.rst:78
+msgid "Once deployed:"
+msgstr ""
+
+#: ../ttw/rapido.rst:80
+msgid "Create a Plone site,"
+msgstr ""
+
+#: ../ttw/rapido.rst:81
+msgid "Go to: :menuselection:`Plone control panel -> Add-ons`,"
+msgstr ""
+
+#: ../ttw/rapido.rst:82
+msgid "Finally: install Rapido."
+msgstr ""
+
+#: ../ttw/rapido.rst:84
+msgid "But to deploy Rapido on an actual Plone instance, modify :file:`buildout.cfg` to add Rapido as a dependency:"
+msgstr ""
+
+#: ../ttw/rapido.rst:92
+msgid "Run your buildout:"
+msgstr ""
+
+#: ../ttw/rapido.rst:98
+msgid "Then go to :menuselection:`Plone control panel -> Add-ons` ``http://localhost:8080/Plone/prefs_install_products_form``, and install Rapido."
+msgstr ""
+
+#: ../ttw/rapido.rst:103
+#: ../ttw/ttw-advanced.rst:50
+msgid "Principles"
+msgstr ""
+
+#: ../ttw/rapido.rst:107
+msgid ":term:`Rapido application`"
+msgstr ""
+
+#: ../ttw/rapido.rst:108
+msgid ":term:`block`"
+msgstr ""
+
+#: ../ttw/rapido.rst:109
+msgid ":term:`element`"
+msgstr ""
+
+#: ../ttw/rapido.rst:110
+msgid ":term:`record`"
+msgstr ""
+
 #: ../ttw/rapido.rst:116
-msgid ":dfn:`element`"
-msgstr ""
-
-#: ../ttw/rapido.rst:114
-msgid "Elements are the dynamic components of your blocks. They can be input fields, buttons, or just computed HTML. They can also return JSON if you call them from a javascript app,"
+msgid ":dfn:`Rapido application`"
 msgstr ""
 
 #: ../ttw/rapido.rst:119
-msgid ":dfn:`records`"
-msgstr ""
-
-#: ../ttw/rapido.rst:119
-msgid "A Rapido app is able to store data as records. Records are just basic dictionaries."
+msgid ":dfn:`block`"
 msgstr ""
 
 #: ../ttw/rapido.rst:124
-msgid "How to create a Rapido app"
+msgid ":dfn:`element`"
+msgstr ""
+
+#: ../ttw/rapido.rst:127
+msgid ":dfn:`records`"
+msgstr ""
+
+#: ../ttw/rapido.rst:131
+msgid "How To Create A Rapido App"
+msgstr ""
+
+#: ../ttw/rapido.rst:135
+msgid "A folder in our Diazo theme::"
 msgstr ""
 
 #: ../ttw/rapido.rst:139
+msgid "A sub-folder with blocks::"
+msgstr ""
+
+#: ../ttw/rapido.rst:146
 msgid "A Rapido app is defined by a set of files in our Diazo theme."
 msgstr ""
 
-#: ../ttw/rapido.rst:141
-msgid "The files need to be in a specific location::"
+#: ../ttw/rapido.rst:148
+msgid "The files need to be in a specific location"
 msgstr ""
 
-#: ../ttw/rapido.rst:145
-msgid "Here is a typical layout for a Rapido app::"
+#: ../ttw/rapido.rst:154
+msgid "Here is a typical layout for a Rapido app"
 msgstr ""
 
-#: ../ttw/rapido.rst:0
-msgid "Todo"
-msgstr ""
-
-#: ../ttw/rapido.rst:158
+#: ../ttw/rapido.rst:169
 msgid "ADD SCREENSHOT HERE"
 msgstr ""
 
-#: ../ttw/rapido.rst:161
-msgid "Blocks and elements"
+#: ../ttw/rapido.rst:172
+msgid "Blocks And Elements"
 msgstr ""
 
-#: ../ttw/rapido.rst:175
-msgid "The app components are :dfn:`blocks`. A block is defined by a set of 3 files (HTML, Python, and YAML) located in the :file:`blocks` folder."
+#: ../ttw/rapido.rst:176
+msgid "Blocks are the app components."
+msgstr ""
+
+#: ../ttw/rapido.rst:177
+msgid "They contain *elements* (fields, buttons, etc.)"
 msgstr ""
 
 #: ../ttw/rapido.rst:178
-msgid "The **YAML file** defines the *elements*. An :dfn:`element` is any dynamically generated element in a block. It can be a form field (input, select, etc.), or a button (an ``ACTION`` element), or even just a piece of generated HTML (a ``BASIC`` element)."
+msgid "A block is defined by 3 files:"
 msgstr ""
 
-#: ../ttw/rapido.rst:184
-msgid "The **HTML file** contains the layout of the block. The templating mechanism is super simple: elements are simply enclosed in curly brackets, like this: ``{my_element}``."
+#: ../ttw/rapido.rst:180
+msgid "a YAML file to declare *elements*,"
 msgstr ""
 
-#: ../ttw/rapido.rst:188
-msgid "The **Python file** contains the application logic. We will see later how exactly we use those Python files."
+#: ../ttw/rapido.rst:181
+msgid "an HTML (or :file:`.pt`) file for the layout,"
 msgstr ""
 
-#: ../ttw/rapido.rst:193
-msgid "Exercise 1: Create the vote block"
+#: ../ttw/rapido.rst:182
+msgid "a Python file to implement the logic."
+msgstr ""
+
+#: ../ttw/rapido.rst:186
+msgid "The app components are :dfn:`blocks`. A block is defined by a set of 3 files (HTML, Python, and YAML) located in the :file:`blocks` folder."
+msgstr ""
+
+#: ../ttw/rapido.rst:189
+msgid "The **YAML file** defines the *elements*. An :dfn:`element` is any dynamically generated element in a block. It can be a form field (input, select, etc.), or a button (an ``ACTION`` element), or even a piece of generated HTML (a ``BASIC`` element)."
 msgstr ""
 
 #: ../ttw/rapido.rst:195
-msgid "Let's start by displaying a static counter showing \"0 votes\" on all talks."
+msgid "The **HTML file** contains the layout of the block. The templating mechanism is super simple: elements are enclosed in curly brackets, like this: ``{my_element}``."
 msgstr ""
 
-#: ../ttw/rapido.rst:197
-msgid "First, we need to create the ``rating`` Rapido app."
-msgstr ""
-
-#: ../ttw/rapido.rst:201
-msgid "Go to the Plone theming control panel: http://localhost:8080/Plone/@@theming-controlpanel"
-msgstr ""
-
-#: ../ttw/rapido.rst:202
-msgid "Copy the Barceloneta theme, name it ``training`` and enable it immediately,"
-msgstr ""
-
-#: ../ttw/rapido.rst:203
-msgid "Add a new folder named :file:`rapido`,"
+#: ../ttw/rapido.rst:199
+msgid "The **Python file** contains the application logic. We will see later how we use those Python files."
 msgstr ""
 
 #: ../ttw/rapido.rst:204
-msgid "And add a subfolder named :file:`rating`."
+msgid "Exercise 1: Create The Vote Block"
 msgstr ""
 
 #: ../ttw/rapido.rst:206
-msgid "The Rapido app is initialized."
+msgid "Let's start by displaying a static counter showing \"0 votes\" on all talks."
 msgstr ""
 
 #: ../ttw/rapido.rst:208
-msgid "And now, we need to create a ``rate`` block."
+msgid "First, we need to create the ``rating`` Rapido app."
 msgstr ""
 
 #: ../ttw/rapido.rst:212
-msgid "Add a folder named :file:`blocks` in :file:`rating`,"
+msgid "Go to the Plone theming control panel: http://localhost:8080/Plone/@@theming-controlpanel"
 msgstr ""
 
 #: ../ttw/rapido.rst:213
-msgid "In :file:`blocks`, add a file named :file:`rate.html`,"
+msgid "Copy the Barceloneta theme, name it ``training`` and enable it immediately,"
 msgstr ""
 
 #: ../ttw/rapido.rst:214
+msgid "Add a new folder named :file:`rapido`,"
+msgstr ""
+
+#: ../ttw/rapido.rst:215
+msgid "And add a subfolder named :file:`rating`."
+msgstr ""
+
+#: ../ttw/rapido.rst:217
+msgid "The Rapido app is initialized."
+msgstr ""
+
+#: ../ttw/rapido.rst:219
+msgid "And now, we need to create a ``rate`` block."
+msgstr ""
+
+#: ../ttw/rapido.rst:223
+msgid "Add a folder named :file:`blocks` in :file:`rating`,"
+msgstr ""
+
+#: ../ttw/rapido.rst:224
+msgid "In :file:`blocks`, add a file named :file:`rate.html`,"
+msgstr ""
+
+#: ../ttw/rapido.rst:225
 msgid "In the file, put the following content:"
 msgstr ""
 
-#: ../ttw/rapido.rst:220
+#: ../ttw/rapido.rst:231
 msgid "Once the block is ready, you can display it by visiting its URL in your browser:"
 msgstr ""
 
-#: ../ttw/rapido.rst:222
+#: ../ttw/rapido.rst:233
 msgid "http://localhost:8080/Plone/@@rapido/rating/blocks/rate"
 msgstr ""
 
-#: ../ttw/rapido.rst:227
+#: ../ttw/rapido.rst:238
 msgid "But we would prefer to display it inside our existing Plone pages."
 msgstr ""
 
-#: ../ttw/rapido.rst:230
-msgid "Include Rapido blocks in Plone pages"
+#: ../ttw/rapido.rst:241
+msgid "Include Rapido Blocks In Plone Pages"
 msgstr ""
 
-#: ../ttw/rapido.rst:232
+#: ../ttw/rapido.rst:243
 msgid "We can include Rapido blocks in Plone pages using Diazo rules."
 msgstr ""
 
-#: ../ttw/rapido.rst:234
+#: ../ttw/rapido.rst:245
 msgid "The ``include`` rule is able to load another URL than the current page, extract a piece of HTML from it, and include it in regular Diazo rules (such as ``after``, ``before``, etc.)."
 msgstr ""
 
-#: ../ttw/rapido.rst:238
+#: ../ttw/rapido.rst:249
 msgid "So the following rule:"
 msgstr ""
 
-#: ../ttw/rapido.rst:246
+#: ../ttw/rapido.rst:257
 msgid "would insert the ``stats`` block under the Plone main content."
 msgstr ""
 
-#: ../ttw/rapido.rst:248
+#: ../ttw/rapido.rst:259
 msgid "Rapido rules can be added directly in our theme's main :file:`rules.xml` file, but it is a good practice to put them in a dedicated rule file which can be located in our app folder."
 msgstr ""
 
-#: ../ttw/rapido.rst:251
-msgid "The app-specific rules file can be included in the main rules file as follows:"
+#: ../ttw/rapido.rst:262
+msgid "The app-specific rules file can be included in the main rules file as follows (where ``MYAPP`` is the name that you gave your application):"
 msgstr ""
 
-#: ../ttw/rapido.rst:259
-msgid "Exercise 2: Display the vote block in Plone pages"
+#: ../ttw/rapido.rst:271
+msgid "Exercise 2: Display The Vote Block In Plone Pages"
 msgstr ""
 
-#: ../ttw/rapido.rst:261
+#: ../ttw/rapido.rst:273
 msgid "Insert the ``rate`` block content under the Plone page main heading."
 msgstr ""
 
-#: ../ttw/rapido.rst:265
+#: ../ttw/rapido.rst:277
 msgid "in the main :file:`rules.xml`, add the following line just after the first ``<rules>`` opening tag:"
 msgstr ""
 
-#: ../ttw/rapido.rst:272
+#: ../ttw/rapido.rst:284
 msgid "In the :file:`rating` folder, add a new file named :file:`rules.xml` containing:"
 msgstr ""
 
-#: ../ttw/rapido.rst:289
+#: ../ttw/rapido.rst:301
 msgid "Let's detail what it does:"
 msgstr ""
 
-#: ../ttw/rapido.rst:291
+#: ../ttw/rapido.rst:303
 msgid "the ``after`` rule targets the page heading (identified by the ``.documentFirstHeading`` selector), but it only applies when we are viewing a talk (``.template-view.portaltype-talk``),"
 msgstr ""
 
-#: ../ttw/rapido.rst:295
+#: ../ttw/rapido.rst:307
 msgid "the ``include`` rule retrieves the Rapido block content."
 msgstr ""
 
-#: ../ttw/rapido.rst:297
+#: ../ttw/rapido.rst:309
 msgid "This presumes having completed :doc:`dexterity`."
 msgstr ""
 
-#: ../ttw/rapido.rst:299
+#: ../ttw/rapido.rst:311
 msgid "Now, if you visit a talk page, you see the counter below the heading."
 msgstr ""
 
-#: ../ttw/rapido.rst:306
-msgid "Make our blocks dynamic"
+#: ../ttw/rapido.rst:318
+msgid "Make Our Blocks Dynamic"
 msgstr ""
 
-#: ../ttw/rapido.rst:316
-msgid "The YAML file allows us to declare elements. The Python files allows computing the *element value* using a function named after the element id. And the HTML file can display elements using the curly-brackets notation. The 3 files must have the same name (only the extensions change)."
-msgstr ""
-
-#: ../ttw/rapido.rst:321
-msgid "As mentioned earlier, the **Python file** contains the application logic."
+#: ../ttw/rapido.rst:322
+msgid "We can include dynamic **elements** in our block layout."
 msgstr ""
 
 #: ../ttw/rapido.rst:323
-msgid "This file is a set of Python functions named to correspond to the elements or the events they relate to."
+msgid "Elements will be declared in the YAML file."
 msgstr ""
 
-#: ../ttw/rapido.rst:325
-msgid "For a ``BASIC`` element for instance, if we provide a function with the same name as the element, its return-value will be inserted in the block at the location of the element."
+#: ../ttw/rapido.rst:324
+msgid "They will computed using code provided in the Python file."
 msgstr ""
 
-#: ../ttw/rapido.rst:329
-msgid "For an ``ACTION``, if we provide a function with the same name as the element, it will be executed when a user clicks on the action button."
+#: ../ttw/rapido.rst:328
+msgid "The YAML file allows us to declare elements. The Python files allows computing the *element value* using a function named after the element id. And the HTML file can display elements using the curly-brackets notation. The 3 files must have the same name (only the extensions change)."
 msgstr ""
 
 #: ../ttw/rapido.rst:333
-msgid "A typical element is defined and used as follows:"
+msgid "As mentioned earlier, the **Python file** contains the application logic."
 msgstr ""
 
 #: ../ttw/rapido.rst:335
+msgid "This file is a set of Python functions named to correspond to the elements or the events they relate to."
+msgstr ""
+
+#: ../ttw/rapido.rst:337
+msgid "For a ``BASIC`` element for instance, if we provide a function with the same name as the element, its return-value will be inserted in the block at the location of the element."
+msgstr ""
+
+#: ../ttw/rapido.rst:341
+msgid "For an ``ACTION``, if we provide a function with the same name as the element, it will be executed when a user clicks on the action button."
+msgstr ""
+
+#: ../ttw/rapido.rst:345
+msgid "A typical element is defined and used as follows:"
+msgstr ""
+
+#: ../ttw/rapido.rst:347
 msgid "create a definition in the YAML file:"
 msgstr ""
 
-#: ../ttw/rapido.rst:343
+#: ../ttw/rapido.rst:355
 msgid "create an implementation in the Python file:"
 msgstr ""
 
-#: ../ttw/rapido.rst:350
+#: ../ttw/rapido.rst:362
 msgid "insert the element in the HTML template:"
 msgstr ""
 
-#: ../ttw/rapido.rst:358
-msgid "Exercise 3: Create an element to display the votes"
+#: ../ttw/rapido.rst:370
+msgid "Exercise 3: Create An Element To Display The Votes"
 msgstr ""
 
-#: ../ttw/rapido.rst:360
-msgid "Let's replace the \"0\" value in our rate block with a computed value."
+#: ../ttw/rapido.rst:372
+msgid "Let's replace the \"``0``\" value in our rate block with a computed value."
 msgstr ""
 
-#: ../ttw/rapido.rst:362
-msgid "To do this, you need to add an element to the block. For now the Python function will just return 10."
+#: ../ttw/rapido.rst:374
+msgid "To do this, you need to add an element to the block. For now the Python function will return ``10``."
 msgstr ""
 
-#: ../ttw/rapido.rst:367
+#: ../ttw/rapido.rst:379
 msgid "In the :file:`blocks` folder, add a new file named :file:`rate.yaml` containing:"
 msgstr ""
 
-#: ../ttw/rapido.rst:375
+#: ../ttw/rapido.rst:387
 msgid "Add also a file named :file:`rate.py` containing:"
 msgstr ""
 
-#: ../ttw/rapido.rst:382
+#: ../ttw/rapido.rst:394
 msgid "And change the existing :file:`rate.html` as follows:"
 msgstr ""
 
-#: ../ttw/rapido.rst:389
+#: ../ttw/rapido.rst:401
 msgid "Now, if you refresh your talk page, the counter will display the value returned by your Python function."
 msgstr ""
 
-#: ../ttw/rapido.rst:396
-msgid "Create actions"
+#: ../ttw/rapido.rst:408
+msgid "Create Actions"
 msgstr ""
 
-#: ../ttw/rapido.rst:398
+#: ../ttw/rapido.rst:410
 msgid "An :dfn:`action` is a regular element, but it is rendered as a button."
 msgstr ""
 
-#: ../ttw/rapido.rst:400
+#: ../ttw/rapido.rst:412
 msgid "Its associated function in the Python file will be called when the user clicks on the button."
 msgstr ""
 
-#: ../ttw/rapido.rst:404
+#: ../ttw/rapido.rst:416
 msgid "YAML:"
 msgstr ""
 
-#: ../ttw/rapido.rst:413
+#: ../ttw/rapido.rst:425
 msgid "Python:"
 msgstr ""
 
-#: ../ttw/rapido.rst:420
+#: ../ttw/rapido.rst:432
 msgid "HTML:"
 msgstr ""
 
-#: ../ttw/rapido.rst:426
+#: ../ttw/rapido.rst:438
 msgid "Every time the user clicks the action, the block is reloaded (so elements are refreshed)."
 msgstr ""
 
-#: ../ttw/rapido.rst:428
-msgid "When the block is inserted in a Plone page using a Diazo rule, the reloading will just replace the current page with the bare block. Usually this is not what we want. If we want the current Plone page to be preserved, we need to activate the AJAX mode in the YAML file:"
+#: ../ttw/rapido.rst:440
+msgid "When the block is inserted in a Plone page using a Diazo rule, the reloading will replace the current page with the bare block. This is not what we want."
 msgstr ""
 
-#: ../ttw/rapido.rst:439
-msgid "Exercise 4: Add the Like button"
+#: ../ttw/rapido.rst:444
+msgid "If we want the current Plone page to be preserved, we need to activate the AJAX mode in the YAML file:"
 msgstr ""
 
-#: ../ttw/rapido.rst:441
+#: ../ttw/rapido.rst:451
+msgid "Exercise 4: Add The Like Button"
+msgstr ""
+
+#: ../ttw/rapido.rst:453
 msgid "Add a :guilabel:`Like` button to the block. For now, the action itself will do nothing. Let's just insert it at the right place, and make sure the block is refreshed properly when we click."
 msgstr ""
 
-#: ../ttw/rapido.rst:447
+#: ../ttw/rapido.rst:459
 msgid "in :file:`rate.yaml`, add a new ``like`` element and change the target to ``ajax`` After doing this, your YAML file looks as follows:"
 msgstr ""
 
-#: ../ttw/rapido.rst:460
+#: ../ttw/rapido.rst:472
 msgid "in :file:`rate.py`, add a new function:"
 msgstr ""
 
-#: ../ttw/rapido.rst:468
+#: ../ttw/rapido.rst:480
 msgid "and in :file:`rate.html`:"
 msgstr ""
 
-#: ../ttw/rapido.rst:479
-msgid "Store data"
+#: ../ttw/rapido.rst:491
+msgid "Store Data"
 msgstr ""
 
-#: ../ttw/rapido.rst:481
+#: ../ttw/rapido.rst:493
 msgid "Each Rapido app provides an internal storage utility able to store records."
 msgstr ""
 
-#: ../ttw/rapido.rst:483
+#: ../ttw/rapido.rst:495
 msgid "Records are not Plone objects, they are just simple dictionaries of basic data (strings, numbers, dates, etc.). There is no constraint on the dictionary items but Rapido will always set an ``id`` item, so this key is reserved."
 msgstr ""
 
-#: ../ttw/rapido.rst:486
+#: ../ttw/rapido.rst:498
 msgid "Something like:"
 msgstr ""
 
-#: ../ttw/rapido.rst:492
+#: ../ttw/rapido.rst:504
 msgid "could be a valid record."
 msgstr ""
 
-#: ../ttw/rapido.rst:494
+#: ../ttw/rapido.rst:506
 msgid "The Rapido Python API allows us to create, get or delete records:"
 msgstr ""
 
-#: ../ttw/rapido.rst:502
+#: ../ttw/rapido.rst:514
 msgid "The record items are managed like regular Python dictionary items:"
 msgstr ""
 
-#: ../ttw/rapido.rst:512
-msgid "Exercise 5: Count votes"
+#: ../ttw/rapido.rst:524
+msgid "Exercise 5: Count Votes"
 msgstr ""
 
-#: ../ttw/rapido.rst:514
+#: ../ttw/rapido.rst:526
 msgid "The button is OK now, now let's focus on counting votes. To count the votes on a talk, you need store some information:"
 msgstr ""
 
-#: ../ttw/rapido.rst:517
+#: ../ttw/rapido.rst:529
 msgid "an identifier for the talk (we will use the talk path, from the Plone ``absolute_url_path()`` method),"
 msgstr ""
 
-#: ../ttw/rapido.rst:518
+#: ../ttw/rapido.rst:530
 msgid "the total votes it gets."
 msgstr ""
 
-#: ../ttw/rapido.rst:520
+#: ../ttw/rapido.rst:532
 msgid "Let's implement the :py:func:`like` function:"
 msgstr ""
 
-#: ../ttw/rapido.rst:522
+#: ../ttw/rapido.rst:534
 msgid "first we need to get the current talk: the Rapido :py:obj:`context` allows to get the current Plone content using :py:attr:`context.content`,"
 msgstr ""
 
-#: ../ttw/rapido.rst:523
+#: ../ttw/rapido.rst:535
 msgid "then we need to get the record corresponding to the current talk, - if it does not exist, we need to create it,"
 msgstr ""
 
-#: ../ttw/rapido.rst:525
+#: ../ttw/rapido.rst:537
 msgid "and then we need to increase the current total votes for that talk by 1."
 msgstr ""
 
-#: ../ttw/rapido.rst:542
+#: ../ttw/rapido.rst:554
 msgid "Note: we cannot just use the content ``id`` attribute as a valid identifier because it is not unique at site level, so we prefer the path."
 msgstr ""
 
-#: ../ttw/rapido.rst:545
+#: ../ttw/rapido.rst:557
 msgid "Now let's make sure to display the proper total in the ``display_votes`` element:"
 msgstr ""
 
-#: ../ttw/rapido.rst:547
+#: ../ttw/rapido.rst:559
 msgid "here also, we need to get the current talk,"
 msgstr ""
 
-#: ../ttw/rapido.rst:548
+#: ../ttw/rapido.rst:560
 msgid "then we get the corresponding record,"
 msgstr ""
 
-#: ../ttw/rapido.rst:549
+#: ../ttw/rapido.rst:561
 msgid "and we get its current total votes."
 msgstr ""
 
-#: ../ttw/rapido.rst:565
-msgid "HTML templating vs TAL templating"
+#: ../ttw/rapido.rst:577
+msgid "HTML Templating Vs TAL Templating"
 msgstr ""
 
-#: ../ttw/rapido.rst:568
+#: ../ttw/rapido.rst:580
 msgid "HTML templating"
 msgstr ""
 
-#: ../ttw/rapido.rst:570
+#: ../ttw/rapido.rst:582
 msgid "The Rapido HTML templating is very simple. It is just plain HTML with curly-bracket notations to insert elements:"
 msgstr ""
 
-#: ../ttw/rapido.rst:577
+#: ../ttw/rapido.rst:589
 msgid "If the element is an object, we can render its properties:"
 msgstr ""
 
-#: ../ttw/rapido.rst:588
+#: ../ttw/rapido.rst:600
 msgid "And if the element is a dictionary, we can access its items:"
 msgstr ""
 
-#: ../ttw/rapido.rst:599
+#: ../ttw/rapido.rst:611
 msgid "It is easy to use but it cannot perform loops or conditional insertion."
 msgstr ""
 
-#: ../ttw/rapido.rst:602
-msgid "TAL templating"
+#: ../ttw/rapido.rst:614
+msgid "TAL Templating"
 msgstr ""
 
-#: ../ttw/rapido.rst:604
+#: ../ttw/rapido.rst:616
 msgid "TAL templating is the templating format used in the core of Plone. If HTML templating is too limiting, Rapido allows you to use TAL instead."
 msgstr ""
 
-#: ../ttw/rapido.rst:607
+#: ../ttw/rapido.rst:619
 msgid "We just need to provide a file with the :file:`.pt` extension instead of the HTML file."
 msgstr ""
 
-#: ../ttw/rapido.rst:609
+#: ../ttw/rapido.rst:621
 msgid "The block elements are available in the :py:obj:`elements` object:"
 msgstr ""
 
-#: ../ttw/rapido.rst:620
+#: ../ttw/rapido.rst:632
 msgid "Elements can be used as conditions:"
 msgstr ""
 
-#: ../ttw/rapido.rst:631
+#: ../ttw/rapido.rst:643
 msgid "If an element returns an iterable object (list, dictionary), we can make a loop:"
 msgstr ""
 
-#: ../ttw/rapido.rst:650
+#: ../ttw/rapido.rst:662
 msgid "The current Rapido context is available in the :py:obj:`context` object:"
 msgstr ""
 
-#: ../ttw/rapido.rst:656
+#: ../ttw/rapido.rst:668
 msgid "See the `TAL commands documentation <http://www.owlfish.com/software/simpleTAL/tal-guide.html>`_ for more details about TAL."
 msgstr ""
 
-#: ../ttw/rapido.rst:659
-msgid "Create custom views"
-msgstr ""
-
-#: ../ttw/rapido.rst:661
-msgid "For now, we have just added small chunks of HTML in existing pages. But Rapido also allows you to create a whole new page (a Plone developer would call it a new **view**)."
-msgstr ""
-
-#: ../ttw/rapido.rst:664
-msgid "Let's imagine we want to display one of our Rapido blocks in the main content area instead of the regular content. We *could* do it with a simple ``replace`` Diazo rule:"
+#: ../ttw/rapido.rst:671
+msgid "Create Custom Views"
 msgstr ""
 
 #: ../ttw/rapido.rst:673
+msgid "For now, we have just added small chunks of HTML in existing pages. But Rapido also allows you to create a whole new page (a Plone developer would call it a new **view**)."
+msgstr ""
+
+#: ../ttw/rapido.rst:676
+msgid "Let's imagine we want to display one of our Rapido blocks in the main content area instead of the regular content. We *could* do it with a simple ``replace`` Diazo rule:"
+msgstr ""
+
+#: ../ttw/rapido.rst:685
 msgid "But if we do that, the regular content will not be accessible anymore. What if we want to be able to access both the regular content with its regular URL, and define an additional URL to display our block as main content?"
 msgstr ""
 
-#: ../ttw/rapido.rst:677
+#: ../ttw/rapido.rst:689
 msgid "To accomplish this, Rapido allows you to declare **neutral views**."
 msgstr ""
 
-#: ../ttw/rapido.rst:679
+#: ../ttw/rapido.rst:691
 msgid "By adding :samp:`@@rapido/view/{<any-name>}` to a content URL we get the content's default view. The ``any-name`` value can actually be **anything**, we do not really care, we just use it to match a Diazo rule in charge of replacing the default content with our block:"
 msgstr ""
 
-#: ../ttw/rapido.rst:691
+#: ../ttw/rapido.rst:703
 msgid "Now if we visit for instance::"
 msgstr ""
 
-#: ../ttw/rapido.rst:695
+#: ../ttw/rapido.rst:707
 msgid "we see our block instead of the regular page content."
 msgstr ""
 
-#: ../ttw/rapido.rst:697
+#: ../ttw/rapido.rst:709
 msgid "(And if we visit http://localhost:8080/Plone/page1, we get the regular content of course.)"
 msgstr ""
 
-#: ../ttw/rapido.rst:700
-msgid "Exercise 5: Create the Top 5 page"
+#: ../ttw/rapido.rst:712
+msgid "Exercise 5: Create The Top 5 Page"
 msgstr ""
 
-#: ../ttw/rapido.rst:702
+#: ../ttw/rapido.rst:714
 msgid "Let's create a block to display the Talks Top 5:"
 msgstr ""
 
-#: ../ttw/rapido.rst:704
+#: ../ttw/rapido.rst:716
 msgid "It needs to be a specific view."
 msgstr ""
 
-#: ../ttw/rapido.rst:705
+#: ../ttw/rapido.rst:717
 msgid "We will use a TAL template (but for now the content will be fake and static)."
 msgstr ""
 
-#: ../ttw/rapido.rst:706
+#: ../ttw/rapido.rst:718
 msgid "Visitors will access it from a footer link."
 msgstr ""
 
-#: ../ttw/rapido.rst:710
+#: ../ttw/rapido.rst:722
 msgid "First we create a :file:`top5.pt` file in the :file:`blocks` folder with the following content:"
 msgstr ""
 
-#: ../ttw/rapido.rst:717
+#: ../ttw/rapido.rst:729
 msgid "Now we add the following to our :file:`rules.xml` file:"
 msgstr ""
 
-#: ../ttw/rapido.rst:727
+#: ../ttw/rapido.rst:739
 msgid "And then we declare a new action in our footer:"
 msgstr ""
 
-#: ../ttw/rapido.rst:729
+#: ../ttw/rapido.rst:741
 msgid "go to the ``site_actions`` in the Zope Management Interface::"
 msgstr ""
 
-#: ../ttw/rapido.rst:733
+#: ../ttw/rapido.rst:745
 msgid "add a new ``top5`` action, with the :guilabel:`URL (Expression)` property set to::"
 msgstr ""
 
-#: ../ttw/rapido.rst:739
-msgid "go to :menuselection:`Site Setup -> Actions`"
+#: ../ttw/rapido.rst:751
+msgid "go to :menuselection:`Site Setup --> Actions`"
 msgstr ""
 
-#: ../ttw/rapido.rst:740
+#: ../ttw/rapido.rst:752
 msgid "add a new action in Site actions category with name \"Top 5\" and as URL::"
 msgstr ""
 
-#: ../ttw/rapido.rst:749
-msgid "Index and query records"
+#: ../ttw/rapido.rst:761
+msgid "Index And Query Records"
 msgstr ""
 
-#: ../ttw/rapido.rst:751
+#: ../ttw/rapido.rst:763
 msgid "Rapido record items can be indexed, so we can filter or sort records easily."
 msgstr ""
 
-#: ../ttw/rapido.rst:753
+#: ../ttw/rapido.rst:765
 msgid "Indexing is declared in the block YAML file using the ``index_type`` property. Example:"
 msgstr ""
 
-#: ../ttw/rapido.rst:764
+#: ../ttw/rapido.rst:776
 msgid "The ``index_type`` property can have two possible values:"
 msgstr ""
 
-#: ../ttw/rapido.rst:767
+#: ../ttw/rapido.rst:779
 msgid "``field``"
 msgstr ""
 
-#: ../ttw/rapido.rst:767
+#: ../ttw/rapido.rst:779
 msgid "A field index matches exact values, and supports comparison queries, range queries, and sorting."
 msgstr ""
 
-#: ../ttw/rapido.rst:770
+#: ../ttw/rapido.rst:782
 msgid "``text``"
 msgstr ""
 
-#: ../ttw/rapido.rst:770
+#: ../ttw/rapido.rst:782
 msgid "A text index matches contained words (applicable for text values only)."
 msgstr ""
 
-#: ../ttw/rapido.rst:772
+#: ../ttw/rapido.rst:784
 msgid "Queries use the *CQE format* (`see documentation <http://docs.repoze.org/catalog/usage.html#query-objects>`_."
 msgstr ""
 
-#: ../ttw/rapido.rst:774
+#: ../ttw/rapido.rst:786
 msgid "Example (assuming ``author``, ``title`` and ``price`` are existing indexes):"
 msgstr ""
 
-#: ../ttw/rapido.rst:782
+#: ../ttw/rapido.rst:794
 msgid "To reindex a record, we can use the Rapido Python API:"
 msgstr ""
 
-#: ../ttw/rapido.rst:789
+#: ../ttw/rapido.rst:801
 msgid "We can also reindex all the records using the ``refresh`` URL command::"
 msgstr ""
 
-#: ../ttw/rapido.rst:795
-msgid "Exercise 6: Compute the top 5"
+#: ../ttw/rapido.rst:807
+msgid "Exercise 6: Compute The Top 5"
 msgstr ""
 
-#: ../ttw/rapido.rst:797
+#: ../ttw/rapido.rst:809
 msgid "We want to be able to sort the records according to their votes:"
 msgstr ""
 
-#: ../ttw/rapido.rst:799
+#: ../ttw/rapido.rst:811
 msgid "we need to declare ``total`` as an indexed element,"
 msgstr ""
 
-#: ../ttw/rapido.rst:800
+#: ../ttw/rapido.rst:812
 msgid "we need to refresh all our stored records,"
 msgstr ""
 
-#: ../ttw/rapido.rst:801
+#: ../ttw/rapido.rst:813
 msgid "we need to update the ``top5`` block to display the first 5 ranked talks."
 msgstr ""
 
-#: ../ttw/rapido.rst:805
+#: ../ttw/rapido.rst:817
 msgid "We add the following to :file:`rate.yaml` containing:"
 msgstr ""
 
-#: ../ttw/rapido.rst:815
+#: ../ttw/rapido.rst:827
 msgid "To index the previously stored values, we have to refresh the storage index by calling the following URL::"
 msgstr ""
 
-#: ../ttw/rapido.rst:819
+#: ../ttw/rapido.rst:831
 msgid "And to make sure future changes will be indexed, we need to fix the :py:func:`like` function in the ``rate`` block: the indexing is triggered when we call the record's :py:meth:`save` method:"
 msgstr ""
 
-#: ../ttw/rapido.rst:835
+#: ../ttw/rapido.rst:847
 msgid "Now let's change the ``top5`` block:"
 msgstr ""
 
-#: ../ttw/rapido.rst:837
+#: ../ttw/rapido.rst:849
 msgid "create :file:`top5.yaml`:"
 msgstr ""
 
-#: ../ttw/rapido.rst:845
+#: ../ttw/rapido.rst:857
 msgid "create :file:`top5.py`:"
 msgstr ""
 
-#: ../ttw/rapido.rst:862
+#: ../ttw/rapido.rst:874
 msgid "update :file:`top5.pt`:"
 msgstr ""
 
-#: ../ttw/rapido.rst:882
-msgid "Create custom content-rules"
+#: ../ttw/rapido.rst:894
+msgid "Create Custom Content-rules"
 msgstr ""
 
-#: ../ttw/rapido.rst:884
+#: ../ttw/rapido.rst:896
 msgid "Plone content rules allow triggering a given action depending on an *event* (content modified, content created, etc.) and on a *list of criteria* (for example: only for certain content types, only in this folder, etc.)."
 msgstr ""
 
-#: ../ttw/rapido.rst:889
+#: ../ttw/rapido.rst:901
 msgid "Plone provides a set of useful ready-to-use content rule actions, such as moving some content somewhere, sending mail to an email address, executing a workflow change, etc."
 msgstr ""
 
-#: ../ttw/rapido.rst:894
+#: ../ttw/rapido.rst:906
 msgid "Rapido allows us to easily implement our own actions. To do this, it adds a generic \"Rapido action\" to the Plone content rules system. It allows us to enter the following parameters:"
 msgstr ""
 
-#: ../ttw/rapido.rst:898
-msgid "the app id,"
+#: ../ttw/rapido.rst:910
+msgid "The app id,"
 msgstr ""
 
-#: ../ttw/rapido.rst:899
-msgid "the block id,"
+#: ../ttw/rapido.rst:911
+msgid "The block id,"
 msgstr ""
 
-#: ../ttw/rapido.rst:900
-msgid "the function name."
+#: ../ttw/rapido.rst:912
+msgid "The function name."
 msgstr ""
 
-#: ../ttw/rapido.rst:902
+#: ../ttw/rapido.rst:914
 msgid "The :py:attr:`content` property in the function's :py:obj:`context` allows access to the content targeted by the content rule."
 msgstr ""
 
-#: ../ttw/rapido.rst:904
+#: ../ttw/rapido.rst:916
 msgid "For instance, to transform the content title to uppercase every time we edit something, we would use a function such as this:"
 msgstr ""
 
-#: ../ttw/rapido.rst:913
-msgid "Exercise 7: Reset the votes on workflow change"
+#: ../ttw/rapido.rst:925
+msgid "Exercise 7: Reset The Votes On Workflow change"
 msgstr ""
 
-#: ../ttw/rapido.rst:915
+#: ../ttw/rapido.rst:927
 msgid "We would like to reset the votes when we change the workflow status of a talk."
 msgstr ""
 
-#: ../ttw/rapido.rst:917
+#: ../ttw/rapido.rst:929
 msgid "We will need to:"
 msgstr ""
 
-#: ../ttw/rapido.rst:919
+#: ../ttw/rapido.rst:931
 msgid "create a new block to handle our :py:func:`reset` function,"
 msgstr ""
 
-#: ../ttw/rapido.rst:920
+#: ../ttw/rapido.rst:932
 msgid "add a content rule to our Plone site,"
 msgstr ""
 
-#: ../ttw/rapido.rst:921
+#: ../ttw/rapido.rst:933
 msgid "assign the rule to the proper location."
 msgstr ""
 
-#: ../ttw/rapido.rst:925
+#: ../ttw/rapido.rst:937
 msgid "create :file:`contentrule.py`:"
 msgstr ""
 
-#: ../ttw/rapido.rst:935
-msgid "go to :menuselection:`Site setup -> Content rules`, and add a rule for the event :guilabel:`State has changed`,"
-msgstr ""
-
-#: ../ttw/rapido.rst:936
-msgid "add a condition on the content type to only target *Talks*,"
-msgstr ""
-
-#: ../ttw/rapido.rst:937
-msgid "add a Rapido action where the application is ``rating``, the block is ``contentrule`` and the method is ``reset``,"
-msgstr ""
-
-#: ../ttw/rapido.rst:939
-msgid "activate the rule for the whole site."
-msgstr ""
-
-#: ../ttw/rapido.rst:942
-msgid "Other topics"
-msgstr ""
-
-#: ../ttw/rapido.rst:944
-msgid "The following Rapido features haven't been covered by this training:"
-msgstr ""
-
-#: ../ttw/rapido.rst:946
-msgid "using Rapido blocks as tiles in Mosaic,"
-msgstr ""
-
 #: ../ttw/rapido.rst:947
-msgid "using blocks as forms to create, display and edit records directly,"
+msgid "go to :menuselection:`Site setup --> Content rules`, and add a rule for the event :guilabel:`Workflow state changed`,"
 msgstr ""
 
 #: ../ttw/rapido.rst:948
-msgid "access control,"
+msgid "add a condition on the content type to only target *Talks*,"
 msgstr ""
 
 #: ../ttw/rapido.rst:949
-msgid "Rapido JSON REST API."
+msgid "add a Rapido action where the application is ``rating``, the block is ``contentrule`` and the method is ``reset``,"
 msgstr ""
 
 #: ../ttw/rapido.rst:951
+msgid "activate the rule for the whole site."
+msgstr ""
+
+#: ../ttw/rapido.rst:954
+msgid "Other Topics"
+msgstr ""
+
+#: ../ttw/rapido.rst:956
+msgid "The following Rapido features haven't been covered by this training:"
+msgstr ""
+
+#: ../ttw/rapido.rst:958
+msgid "using Rapido blocks as tiles in Mosaic,"
+msgstr ""
+
+#: ../ttw/rapido.rst:959
+msgid "using blocks as forms to create, display and edit records directly,"
+msgstr ""
+
+#: ../ttw/rapido.rst:960
+msgid "access control,"
+msgstr ""
+
+#: ../ttw/rapido.rst:961
+msgid "Rapido JSON REST API."
+msgstr ""
+
+#: ../ttw/rapido.rst:963
 msgid "You can find information about those features and also interesting use cases in the `Rapido documentation <http://rapidoplone.readthedocs.io/en/latest/>`_."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:3
-msgid "TTW Theming I: Introduction to Diazo Theming"
+#: ../ttw/ttw-advanced.rst:3
+msgid "Introduction To Diazo Theming"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:7
-msgid "Use the \"Theming\" control panel to make a copy of Plone's default theme (barceloneta)"
+#: ../ttw/ttw-advanced.rst:7
+msgid "Use the :guilabel:`Theming` control panel to make a copy of Plone's default theme (barceloneta)"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:8
+#: ../ttw/ttw-advanced.rst:8
 msgid "Customize a theme using Diazo rules"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:9
+#: ../ttw/ttw-advanced.rst:9
 msgid "Customize a theme by editing and compiling Less files"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:13
-msgid "Diazo and plone.app.theming"
+#: ../ttw/ttw-advanced.rst:13
+msgid "Diazo and :py:mod:`plone.app.theming`"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:14
+#: ../ttw/ttw-advanced.rst:14
 msgid "\"Barceloneta\" - The Default Plone Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:15
+#: ../ttw/ttw-advanced.rst:15
 msgid "The \"Theming tool\""
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:16
+#: ../ttw/ttw-advanced.rst:16
 msgid "Building CSS in the \"Theming tool\""
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:17
+#: ../ttw/ttw-advanced.rst:17
 msgid "``<body>`` element CSS classes"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:18
+#: ../ttw/ttw-advanced.rst:18
 msgid "Conditionally activating rules"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:25
+#: ../ttw/ttw-advanced.rst:25
 msgid "Once deployed, create a Plone site."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:28
-msgid "Two approaches to theming"
+#: ../ttw/ttw-advanced.rst:28
+msgid "Two Approaches To Theming"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:30
+#: ../ttw/ttw-advanced.rst:30
 msgid "There are two main approaches to creating a custom theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:32
+#: ../ttw/ttw-advanced.rst:32
 msgid "Copying the default Barceloneta theme"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:33
+#: ../ttw/ttw-advanced.rst:33
 msgid "Inheriting from the default Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:35
+#: ../ttw/ttw-advanced.rst:35
 msgid "In this section we'll look at the first approach, part II will explore the second approach."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:38
-msgid "What is Diazo?"
+#: ../ttw/ttw-advanced.rst:38
+msgid "What Is Diazo?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:40
+#: ../ttw/ttw-advanced.rst:40
 msgid ":program:`Diazo` is a theming engine used by Plone to make theming a site easier. At its core, a Diazo theme consists of an HTML page and :file:`rules.xml` file containing directives."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:45
-msgid "You can find extended information about Diazo and its integration package :py:mod:`plone.app.theming` in the official docs: `Diazo docs <http://docs.diazo.org/en/latest/>`_ and `plone.app.theming docs <http://docs.plone.org/external/plone.app.theming/docs/index.html#what-is-a-diazo-theme>`_."
+#: ../ttw/ttw-advanced.rst:45
+msgid "You can find extended information about Diazo and its integration package :py:mod:`plone.app.theming` in the official docs: `Diazo docs <http://docs.diazo.org/en/latest/>`_ and `plone.app.theming docs <https://docs.plone.org/external/plone.app.theming/docs/index.html#what-is-a-diazo-theme>`_."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:50
-msgid "For this part of the training you just need to know the basic principles of a Diazo theme:"
+#: ../ttw/ttw-advanced.rst:52
+msgid "For this part of the training you need to know the basic principles of a Diazo theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:52
+#: ../ttw/ttw-advanced.rst:54
 msgid "Plone renders the content of the page;"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:53
-msgid "Diazo rules inject the content into any static theme;"
+#: ../ttw/ttw-advanced.rst:55
+msgid "Diazo rules inject the content into any static theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:56
-msgid "Copy barceloneta theme"
+#: ../ttw/ttw-advanced.rst:58
+msgid "Copy Barceloneta Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:58
+#: ../ttw/ttw-advanced.rst:60
 msgid "To create our playground we will copy the existing Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:60
-msgid "go to the :guilabel:`Theming` control panel"
+#: ../ttw/ttw-advanced.rst:62
+msgid "Go to the :guilabel:`Theming` control panel"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:61
-msgid "you will see the available themes. In a bare new Plone site, you will see something like this:"
+#: ../ttw/ttw-advanced.rst:63
+msgid "You will see the available themes. In a bare new Plone site, you will see something like this:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:66
-msgid "click on the :guilabel:`Copy` button and get to the copy form"
+#: ../ttw/ttw-advanced.rst:69
+msgid "Click on the :guilabel:`Copy` button and get to the copy form"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:67
-msgid "insert \"My theme\" as the name and activate it by default"
+#: ../ttw/ttw-advanced.rst:70
+msgid "Insert \"My theme\" as the name and activate it by default"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:72
-msgid "click on :guilabel:`Create` and you get redirected to your new theme's inspector:"
+#: ../ttw/ttw-advanced.rst:76
+msgid "Click on :guilabel:`Create` and you get redirected to your new theme's inspector:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:79
-msgid "Anatomy of a Diazo theme"
+#: ../ttw/ttw-advanced.rst:84
+msgid "Anatomy Of A Diazo Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:81
+#: ../ttw/ttw-advanced.rst:86
 msgid "The most important files:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:83
-msgid ":file:`manifest.cfg`: contains metadata about the theme (`manifest reference <http://docs.plone.org/external/plone.app.theming/docs/index.html#the-manifest-file>`_);"
+#: ../ttw/ttw-advanced.rst:88
+msgid ":file:`manifest.cfg`: contains metadata about the theme (`manifest reference <https://docs.plone.org/external/plone.app.theming/docs/index.html#the-manifest-file>`_);"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:84
-msgid ":file:`rules.xml`: contains the theme rules (`rules reference <http://docs.plone.org/external/plone.app.theming/docs/index.html#rules-syntax>`_);"
+#: ../ttw/ttw-advanced.rst:89
+msgid ":file:`rules.xml`: contains the theme rules (`rules reference <https://docs.plone.org/external/plone.app.theming/docs/index.html#rules-syntax>`_);"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:85
+#: ../ttw/ttw-advanced.rst:90
 msgid ":file:`index.html`: the static HTML of the theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:88
+#: ../ttw/ttw-advanced.rst:93
 msgid "Exercise 1 - Inspecting the :file:`manifest.cfg`"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:90
-msgid "To better understand how your theme is arranged start by reading the :file:`manifest.cfg` file."
+#: ../ttw/ttw-advanced.rst:95
+msgid "To better understand how your theme is arranged, start by reading the :file:`manifest.cfg` file."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:92
-msgid "In the theming tool, open the :file:`manifest.cfg` spend a minute or two looking through it, then see if you can answer the questions below."
+#: ../ttw/ttw-advanced.rst:97
+msgid "In the theming tool, open :file:`manifest.cfg` spend a minute or two looking through it, then see if you can answer the questions below."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:95
+#: ../ttw/ttw-advanced.rst:100
 msgid "Where are the main rules located for your theme?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:97
+#: ../ttw/ttw-advanced.rst:102
 msgid "What property in the :file:`manifest.cfg` file defines the source CSS/Less file used by the theme?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:99
+#: ../ttw/ttw-advanced.rst:104
 msgid "What do you think is the purpose of the ``prefix`` property?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:104
+#: ../ttw/ttw-advanced.rst:109
 msgid "The main rules are defined by the ``rules`` property (you could point this anywhere, however the accepted convention is to use a file named :file:`rules.xml`."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:106
+#: ../ttw/ttw-advanced.rst:111
 msgid "The ``development-css`` property points at the main Less file, when compiled to CSS it is placed in the location defined by the ``production-css`` property."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:109
-msgid "The ``prefix`` property defines the default location to look for non prefixed files, for example if your prefix is set to ``/++theme++mytheme`` then a file like index.html will be expected at ``/++theme++mytheme/index.html``"
+#: ../ttw/ttw-advanced.rst:114
+msgid "The ``prefix`` property defines the default location to look for non-prefixed files, for example if your prefix is set to ``/++theme++mytheme`` then a file like :file:`index.html` will be expected at ``/++theme++mytheme/index.html``"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:115
-msgid "``<body>`` CSS classes"
+#: ../ttw/ttw-advanced.rst:120
+msgid "``<body>`` CSS Classes"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:117
+#: ../ttw/ttw-advanced.rst:122
 msgid "As you browse a Plone site, Plone adds rich information about your current context. This information is represented as special classes in the ``<body>`` element. Information represented by the ``<body>`` classes includes:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:121
+#: ../ttw/ttw-advanced.rst:126
 msgid "the current user role, and permissions,"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:122
+#: ../ttw/ttw-advanced.rst:127
+#: ../ttw/ttw-advanced-2.rst:239
 msgid "the current content-type and its template,"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:123
+#: ../ttw/ttw-advanced.rst:128
+#: ../ttw/ttw-advanced-2.rst:240
 msgid "the site section and sub section,"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:124
+#: ../ttw/ttw-advanced.rst:129
 msgid "the current subsite (if any),"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:125
+#: ../ttw/ttw-advanced.rst:130
 msgid "whether this is a frontend view,"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:126
+#: ../ttw/ttw-advanced.rst:131
 msgid "whether icons are enabled."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:129
-msgid "``<body>`` classes for an anonymous visitor"
+#: ../ttw/ttw-advanced.rst:134
+msgid "``<body>`` Classes For An Anonymous Visitor"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:131
+#: ../ttw/ttw-advanced.rst:136
 msgid "Below you can see an example of the body classes for a page named \"front-page\", located in the root of a typical Plone site called \"acme\":"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:146
-msgid "``<body>`` classes for a manager"
+#: ../ttw/ttw-advanced.rst:151
+msgid "``<body>`` Classes For A Manager"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:148
+#: ../ttw/ttw-advanced.rst:153
 msgid "And here is what the classes for the same page look like when viewed by a manager that has logged in:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:167
+#: ../ttw/ttw-advanced.rst:172
 msgid "Notice the addition of ``userrole-manager``."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:170
+#: ../ttw/ttw-advanced.rst:175
 msgid "Exercise 2 - Discussion about the ``<body>`` classes"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:172
-msgid "Look back at the ``<body>`` classes for a manager then see if you can answer the following questions."
+#: ../ttw/ttw-advanced.rst:177
+msgid "Look back at the ``<body>`` classes for a manager, then see if you can answer the following questions."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:174
+#: ../ttw/ttw-advanced.rst:179
 msgid "What other roles does the manager have?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:175
+#: ../ttw/ttw-advanced.rst:180
 msgid "Can you see other differences?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:176
+#: ../ttw/ttw-advanced.rst:181
 msgid "What do you think the ``plone-toolbar-expanded`` class does?"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:181
+#: ../ttw/ttw-advanced.rst:186
 msgid "The manager also has the role \"member\" and \"authenticated\""
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:183
+#: ../ttw/ttw-advanced.rst:188
 msgid "There are ``plone-toolbar`` classes added to the ``<body>`` element, these control the display of the toolbar"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:185
+#: ../ttw/ttw-advanced.rst:190
 msgid "The ``plone-toolbar-expanded`` class is used to control styles used by the expanded version of the toolbar."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:189
-msgid "Custom rules"
+#: ../ttw/ttw-advanced.rst:194
+msgid "Custom Rules"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:190
+#: ../ttw/ttw-advanced.rst:196
 msgid "Let's open :file:`rules.xml`. You will see all the rules that are used in the Barceloneta theme right now. For the time being let's concentrate on how to hack these rules."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:193
-msgid "Conditionally showing content"
+#: ../ttw/ttw-advanced.rst:200
+msgid "Conditionally Showing Content"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:198
+#: ../ttw/ttw-advanced.rst:206
 msgid "Suppose that we want to make the \"above content\" block (the one that contains breadcrumbs) conditional, and show it only for authenticated users."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:200
+#: ../ttw/ttw-advanced.rst:208
 msgid "In the :file:`rules.xml` find this line:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:206
+#: ../ttw/ttw-advanced.rst:214
 msgid "This rule states that the element that comes from the content (Plone) with the id ``#viewlet-above-content`` must replace the element with the id ``#above-content`` in the static theme."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:208
+#: ../ttw/ttw-advanced.rst:216
 msgid "We want to hide it for anonymous users  (hint: We'll use the ``<body>`` classses discussed above)."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:210
+#: ../ttw/ttw-advanced.rst:218
 msgid "The class we are looking for is ``userrole-authenticated``. Add another property to the rule so that we produce this code:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:219
+#: ../ttw/ttw-advanced.rst:227
 msgid "The attribute ``css:if-content`` allows us to put a condition on the rules based on a CSS selector that acts on the content. In this way the rule will be applied only if the body element has the class ``.userrole-authenticated``."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:221
-msgid "We will learn more about Diazo rules in :doc:`./ttw-advanced_2`."
+#: ../ttw/ttw-advanced.rst:230
+msgid "We will learn more about Diazo rules in :doc:`ttw-advanced-2`."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:225
+#: ../ttw/ttw-advanced.rst:234
 msgid "Customize CSS"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:227
-msgid "from theming tool open the file :file:`less/barceloneta.plone.less`, that is the main Less file as specified in the manifest;"
+#: ../ttw/ttw-advanced.rst:236
+msgid "From theming tool open the file :file:`less/barceloneta.plone.less`, that is the main Less file as specified in the manifest;"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:228
-msgid "add your own customization at the bottom, like:"
+#: ../ttw/ttw-advanced.rst:237
+msgid "Add your own customization at the bottom, like:"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:234
+#: ../ttw/ttw-advanced.rst:245
 msgid "Normally you would place this in a separate file to keep the main one clean but for this example it is enough."
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:236
-msgid "push the buttons :guilabel:`Save` and :guilabel:`Build CSS`"
+#: ../ttw/ttw-advanced.rst:247
+msgid "Push the buttons :guilabel:`Save` and :guilabel:`Build CSS`"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:241
-msgid "go back to the Plone site and reload the page: voilá!"
+#: ../ttw/ttw-advanced.rst:253
+msgid "Go back to the Plone site and reload the page: voilá!"
 msgstr ""
 
-#: ../theming/ttw-advanced.rst:246
-msgid "At the moment you need to \"Build CSS\" from the main file, the one declared in the manifest (in this case :file:`less/barceloneta.plone.less`). So, whatever Less file you edit, go back to the main one to compile. This behavior will be improved but for now, just remember this simple rule ;)"
+#: ../ttw/ttw-advanced.rst:258
+msgid "At the moment you need to \"Build CSS\" from the main file, the one declared in the manifest (in this case :file:`less/barceloneta.plone.less`)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:3
-msgid "TTW Theming II: Creating a custom theme based on Barceloneta"
+#: ../ttw/ttw-advanced.rst:260
+msgid "Whatever Less file you edit, go back to the main one to compile. This behavior will be improved but for now, just remember this simple rule ;)"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:7
-msgid "Create a theme by inheriting from the Barceloneta theme."
+#: ../ttw/ttw-advanced-2.rst:3
+msgid "TTW Theming II: Create A Custom Theme Based On Barceloneta"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:8
-msgid "Using the :file:`manifest.cfg`, register a production CSS file."
+#: ../ttw/ttw-advanced-2.rst:7
+msgid "Create a new theme by inheriting from the :term:`Barceloneta` theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:9
-msgid "Use an XInclude to incorporate rules from the Barceloneta theme."
+#: ../ttw/ttw-advanced-2.rst:8
+msgid "Use the :file:`manifest.cfg` to register a production CSS file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:10
+#: ../ttw/ttw-advanced-2.rst:9
+msgid "Use an ``XInclude`` to incorporate rules from the :term:`Barceloneta` theme."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:10
 msgid "Use ``?diazo.off=1`` to view unthemed versions."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:11
+#: ../ttw/ttw-advanced-2.rst:11
 msgid "Use conditional rules to have a different backend theme from the anonymous visitors theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:15
-msgid "Inheriting from Barceloneta."
+#: ../ttw/ttw-advanced-2.rst:15
+msgid "Inheriting from Barceloneta theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:16
+#: ../ttw/ttw-advanced-2.rst:16
 msgid "Diazo rule directives and attributes."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:17
+#: ../ttw/ttw-advanced-2.rst:17
 msgid "Viewing the unthemed version of a Plone item."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:18
+#: ../ttw/ttw-advanced-2.rst:18
 msgid "Creating a visitor-only theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:22
-msgid "Inheriting from Barceloneta"
+#: ../ttw/ttw-advanced-2.rst:22
+msgid "Inheriting From Barceloneta"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:0
-msgid "Key Ideas"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:25
+#: ../ttw/ttw-advanced-2.rst:25
 msgid "When inheriting from the Barceloneta theme keep the following in mind:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:27
+#: ../ttw/ttw-advanced-2.rst:27
 msgid "The theme provides styles and assets used by Plone's backend tools."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:28
+#: ../ttw/ttw-advanced-2.rst:28
 msgid "Inheritance involves including the Barceloneta :file:`rules.xml` (``++theme++barceloneta/rules.xml``) and styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:29
+#: ../ttw/ttw-advanced-2.rst:29
 msgid "The prefix/unique path to the Barceloneta theme is ``++theme++barceloneta``."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:30
+#: ../ttw/ttw-advanced-2.rst:30
 msgid "It is necessary to include a copy of Barceloneta's :file:`index.html` in the root of your custom theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:31
+#: ../ttw/ttw-advanced-2.rst:31
 msgid "The three key files involved are :file:`manifest.cfg`, :file:`rules.xml` and a Less file defined in the manifest which we will call :file:`styles.less`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:33
+#: ../ttw/ttw-advanced-2.rst:32
 msgid "Use \"Build CSS\" to generate a CSS file from your custom Less file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:35
+#: ../ttw/ttw-advanced-2.rst:34
 msgid "Copying Barceloneta makes your theme heavier and will likely make upgrading more difficult."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:37
-msgid "The Barceloneta theme provides many assets used by Plone's utilities that you do not need to duplicate. Additionally new releases of the theme may introduce optimizations or bug fixes. By referencing the Barceloneta rules and styles, instead of copying them, you automatically benefit from any updates to the Barceloneta theme while also keeping your custom theme relatively small."
+#: ../ttw/ttw-advanced-2.rst:36
+msgid "The Barceloneta theme provides many assets used by Plone's utilities that you do not need to duplicate."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:44
-msgid "Exercise 1 - Create a new theme that inherits from Barceloneta"
+#: ../ttw/ttw-advanced-2.rst:38
+msgid "New releases of the theme may introduce optimizations or bug fixes."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:46
+#: ../ttw/ttw-advanced-2.rst:40
+msgid "By referencing the Barceloneta rules and styles, instead of copying them, you automatically benefit from any updates to the Barceloneta theme while also keeping your custom theme relatively small."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:46
+msgid "Exercise 1 - Create A New Theme That Inherits From Barceloneta"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:48
 msgid "In this exercise we will create a new theme that inherits the Barceloneta rules and styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:48
-msgid "Create a new theme"
+#: ../ttw/ttw-advanced-2.rst:50
+msgid "Go to the :guilabel:`Theming` control panel."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:53
-msgid "and name it \"Custom\""
+#: ../ttw/ttw-advanced-2.rst:51
+msgid "Click the :guilabel:`New theme` button to create a new theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:57
+#: ../ttw/ttw-advanced-2.rst:55
+msgid "Give the theme a name, e.g. \"Custom\", and click the checkbox to immediately enable the theme:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:59
+msgid "Click on :guilabel:`Create` and you get redirected to your new theme's inspector."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:61
 msgid "In the theming editor, ensure that your new theme contains the files :file:`manifest.cfg`, :file:`rules.xml`, :file:`index.html` (from Barceloneta) and :file:`styles.less`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:61
-msgid ":file:`manifest.cfg`, declaring your theme:"
+#: ../ttw/ttw-advanced-2.rst:64
+msgid "Edit the file :file:`manifest.cfg` which contains the configuration for your theme:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:71
-msgid ":file:`rules.xml`, including the Barceloneta rules:"
+#: ../ttw/ttw-advanced-2.rst:75
+msgid "Edit the file :file:`rules.xml` which includes the link to the Barceloneta rules:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:91
-msgid "a copy of :file:`index.html` from Barceloneta (this one cannot be imported or inherited, it must be local to your theme)."
+#: ../ttw/ttw-advanced-2.rst:95
+msgid "Create a copy of the file :file:`index.html` from Barceloneta (this one cannot be imported or inherited, it must be local to your theme)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:93
-msgid ":file:`styles.less`, importing Barceloneta styles:"
+#: ../ttw/ttw-advanced-2.rst:97
+msgid "Edit the file :file:`styles.less` which includes imports from the Barceloneta styles:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:107
-msgid "Then generate the :file:`styles.css` file using :file:`styles.less` and the \"Build CSS\" button."
+#: ../ttw/ttw-advanced-2.rst:111
+msgid "Generate the :file:`styles.css` CSS file using :file:`styles.less`. Click the buttons :guilabel:`Save` and :guilabel:`Build CSS` to create the file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:109
+#: ../ttw/ttw-advanced-2.rst:114
 msgid "Your theme is ready."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:113
-msgid "Diazo rule directives and attributes"
+#: ../ttw/ttw-advanced-2.rst:118
+msgid "Viewing The Unthemed Plone Site"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:115
-msgid "The Diazo rules file is an XML document containing rules to specify where the content elements (title, footer, main text, etc.) will be located in the targeted theme page. The rules are created using *rule directives* which have *attributes*; attribute values are either CSS expressions or XPath expressions."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:121
-msgid "CSS selector based attributes"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:122
-msgid "It is generally recommended that you use CSS3 selectors to target elements in your content or theme. The CSS3 selectors used by Diazo directives are listed below:"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:125
-msgid "``css:theme``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:126
-msgid "Used to select target elements from the theme using CSS3 selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:127
-msgid "``css:content``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:128
-msgid "Used to specify the element that should be taken from the content."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:129
-msgid "``css:theme-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:130
-msgid "Used to select the children of matching elements."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:133
-msgid "``css:content-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:132
-msgid "Used to identify the children of an element that will be used."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:136
-msgid "XPath selector based attributes"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:138
-msgid "Depending on complexity of the required selector it is sometimes necessary or more convenient to use XPath selectors instead of CSS selectors. XPath selectors use the unprefixed attributes ``theme`` and ``content``. The common XPath selector attributes include:"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:142
-msgid "``theme``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:143
-msgid "Used to select target elements from the theme using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:144
-msgid "``content``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:145
-msgid "Used to specify the element that should be taken from the content using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:146
-msgid "``theme-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:147
-msgid "Used to select the children of matching elements using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:149
-msgid "``content-children``"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:149
-msgid "Used to identify the children of an element that will be used using XPath selectors."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:151
-msgid "You can also create conditions about the current path using ``if-path``."
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:154
-msgid "For a more comprehensive overview of all the Diazo rule directives and related attributes see: http://docs.diazo.org/en/latest/basic.html#rule-directives"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:158
-msgid "Viewing the unthemed Plone site"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:160
+#: ../ttw/ttw-advanced-2.rst:120
 msgid "When you create your Diazo rules, it is important to know how the content Diazo is receiving from Plone is structured. In order to see a \"non-diazoed\" version page, just add ``?diazo.off=1`` at the end of its URL."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:164
-msgid "Exercise 2 - Viewing the unthemed site"
+#: ../ttw/ttw-advanced-2.rst:125
+msgid "Exercise 2 - Viewing The Unthemed Site"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:166
-msgid "Use ``diazo.off=1`` to view the unthemed version of your site."
+#: ../ttw/ttw-advanced-2.rst:127
+msgid "Use ``?diazo.off=1`` to view the unthemed version of your site. Using your browser's inspector, find out the location/name of some of Plone's elements. Then try to answer the following:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:168
-msgid "Using your browser's inspector, find out the location/name of some of Plone's elements. Then try to answer the following:"
+#: ../ttw/ttw-advanced-2.rst:131
+msgid "What do you think is the difference between \"content-core\" and \"content\"?"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:171
-msgid "What do you think is the difference between \"content-core\" and \"content\"? There are several viewlets, how many do you count? Can you identify any portlets, what do you think they are for?"
+#: ../ttw/ttw-advanced-2.rst:132
+msgid "There are several viewlets, how many do you count?"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:178
+#: ../ttw/ttw-advanced-2.rst:133
+msgid "Can you identify any portlets, what do you think they are for?"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:138
 msgid "The \"content-core\" does not include the \"title\" and \"description\" while the \"content\" combines the \"title\", \"description\" and \"content-core\"."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:181
-msgid "Out of the box there are six viewlets (``viewlet-above-content``, ``viewlet-above-content-title`` ``viewlet-below-content-title``, ``viewlet-above-content-body``, ``viewlet-below-content-body``, ``viewlet-below-content``)."
+#: ../ttw/ttw-advanced-2.rst:139
+msgid "Out of the box there are six viewlets (``viewlet-above-content``, ``viewlet-above-content-title``, ``viewlet-below-content-title``, ``viewlet-above-content-body``, ``viewlet-below-content-body``, ``viewlet-below-content``)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:185
+#: ../ttw/ttw-advanced-2.rst:140
 msgid "There are a few *footer* portlets which construct the footer of the site."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:189
-msgid "Exercise 3 - the ``<drop>`` directives"
+#: ../ttw/ttw-advanced-2.rst:144
+msgid "Diazo Rule Directives And Attributes"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:191
-msgid "Add a rule that drops the \"search section\" checkbox from the search box."
+#: ../ttw/ttw-advanced-2.rst:146
+msgid "The Diazo rules file is an :term:`XML` document containing rules to specify where the content elements (title, footer, main text, etc.) will be located in the targeted theme page. The rules are created using *rule directives* which have *attributes*; attribute values are either CSS expressions or :term:`XPath` expressions."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:192
-msgid "See the diagram below:"
+#: ../ttw/ttw-advanced-2.rst:151
+msgid "CSS Selector Based Attributes"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:198
-msgid "Conditional attributes"
+#: ../ttw/ttw-advanced-2.rst:153
+msgid "It is generally recommended that you use CSS3 selectors to target elements in your content or theme. The CSS3 selectors used by Diazo directives are listed below:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:199
+#: ../ttw/ttw-advanced-2.rst:156
+msgid "``css:theme``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:157
+msgid "Used to select target elements from the theme using CSS3 selectors."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:158
+msgid "``css:content``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:159
+msgid "Used to specify the element that should be taken from the content."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:160
+msgid "``css:theme-children``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:161
+msgid "Used to select the children of matching elements."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:164
+msgid "``css:content-children``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:163
+msgid "Used to identify the children of an element that will be used."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:167
+msgid "XPath Selector Based Attributes"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:169
+msgid "Depending on complexity of the required selector it is sometimes necessary or more convenient to use :term:`XPath` selectors instead of CSS selectors. XPath selectors use the unprefixed attributes ``theme`` and ``content``."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:172
+msgid "The common XPath selector attributes include:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:174
+msgid "``theme``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:175
+msgid "Used to select target elements from the theme using XPath selectors."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:176
+msgid "``content``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:177
+msgid "Used to specify the element that should be taken from the content using XPath selectors."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:178
+msgid "``theme-children``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:179
+msgid "Used to select the children of matching elements using XPath selectors."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:181
+msgid "``content-children``"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:181
+msgid "Used to identify the children of an element that will be used using XPath selectors."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:183
+msgid "You can also create conditions about the current path using ``if-path``."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:188
+msgid "For a more comprehensive overview of all the Diazo rule directives and related attributes see: http://docs.diazo.org/en/latest/basic.html#rule-directives"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:193
+msgid "Exercise 3 - The ``<drop>`` Directive"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:195
+msgid "Add a rule that drops the \"search section\" checkbox from the search box. See the diagram below:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:203
+msgid "The ``div`` which contains the checkbox has the class ``searchSection`` applied. To remove it, extend your :file:`rules.xml` to include the following lines:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:217
+msgid "Conditional Attributes"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:219
 msgid "The following attributes can be used to conditionally activate a directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:201
+#: ../ttw/ttw-advanced-2.rst:221
 msgid "``css:if-content``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:202
+#: ../ttw/ttw-advanced-2.rst:222
 msgid "Defines a CSS3 expression: if there is an element in the *content* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:203
+#: ../ttw/ttw-advanced-2.rst:223
 msgid "``css:if-theme``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:204
+#: ../ttw/ttw-advanced-2.rst:224
 msgid "Defines a CSS3 expression: if there is an element in the *theme* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:205
+#: ../ttw/ttw-advanced-2.rst:225
 msgid "``if-content``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:206
+#: ../ttw/ttw-advanced-2.rst:226
 msgid "Defines an XPath expression: if there is an element in the *content* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:207
+#: ../ttw/ttw-advanced-2.rst:227
 msgid "``if-theme``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:208
+#: ../ttw/ttw-advanced-2.rst:228
 msgid "Defines an XPath expression: if there is an element in the *theme* that matches the expression then activate the directive."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:210
+#: ../ttw/ttw-advanced-2.rst:230
 msgid "``if-path``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:210
+#: ../ttw/ttw-advanced-2.rst:230
 msgid "Conditionally activate the current directive based on the current path."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:212
-msgid "In a previous chapter we discussed the Plone ``<body>`` element and how to take advantage of the custom CSS classes associated with it. We were introduced to the attribute ``css:if-content``. Remember that we are able to determine a lot of context related information from the classes, such as::"
+#: ../ttw/ttw-advanced-2.rst:234
+msgid "In a previous chapter we discussed the Plone ``<body>`` element and how to take advantage of the custom CSS classes associated with it. We were introduced to the attribute ``css:if-content``. Remember that we are able to determine a lot of context related information from the classes, such as:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:222
-msgid "Here is an example"
+#: ../ttw/ttw-advanced-2.rst:238
+msgid "the current user role and permissions,"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:246
-msgid "Converting an existing HTML template into an theme"
+#: ../ttw/ttw-advanced-2.rst:241
+msgid "the current subsite (if any)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:247
-msgid "In the Plone \"universe\" it is not uncommon to convert an existing HTML template into a Diazo theme. Just ensure that when you zip up the source theme that there is a single folder in the root of the zip file. We will explore this in more detail in the next exercise."
+#: ../ttw/ttw-advanced-2.rst:243
+msgid "Here is an example:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:252
-msgid "Exercise 4 - Convert a HTML template into a Diazo theme"
+#: ../ttw/ttw-advanced-2.rst:267
+msgid "Converting An Existing HTML Template Into A Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:254
+#: ../ttw/ttw-advanced-2.rst:268
+msgid "In the Plone \"universe\" it is not uncommon to convert an existing HTML template into a Diazo theme."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:270
+msgid "Ensure that when you zip up the source theme that there is a single folder in the root of the zip file."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:272
+msgid "We will explore this in more detail in the next exercise."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:276
+msgid "Exercise 4 - Convert A HTML Template Into A Diazo Theme"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:278
 msgid "In this exercise we will walk through the process of converting an existing free HTML theme into a Diazo-based Plone theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:259
+#: ../ttw/ttw-advanced-2.rst:282
 msgid "We've selected the free `New Age Bootstrap theme <https://github.com/BlackrockDigital/startbootstrap-new-age>`_. The theme is already packaged in a manner that will work with the theming tool."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:262
-msgid "When being distributed, Plone themes are packaged as zip files. A theme should be structured such that there is only one top level directory in the root of the zip file. By convention the directory should contain your :file:`index.html` and supporting files, the supporting files (CSS, javascript and other files) may be in subdirectories."
+#: ../ttw/ttw-advanced-2.rst:287
+msgid "When being distributed, Plone themes are packaged as zip files. A theme should be structured such that there is only one top-level directory in the root of the zip file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:267
-msgid "To get started `download a copy of the New Age theme as a zip file <https://github.com/BlackrockDigital/startbootstrap-new-age/archive/master.zip>`_. Then upload it to the theme controlpanel."
+#: ../ttw/ttw-advanced-2.rst:290
+msgid "By convention the directory should contain your :file:`index.html`. The supporting files (CSS, JavasSript and other files) may be in subdirectories."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:273
-msgid "This is a generic theme, it does not provide the Plone/Diazo specific :file:`rules.xml` or :file:`manifest.cfg` file. When you upload the zip file the theming tool generates a :file:`rules.xml`. In the next steps you will add additional files including a :file:`manifest.cfg` (perhaps in the future the manifest.cfg will also be generated for you)."
+#: ../ttw/ttw-advanced-2.rst:293
+msgid "To get started `download a copy of the New Age theme as a zip file <https://codeload.github.com/BlackrockDigital/startbootstrap-new-age/zip/master>`_. Then upload it to the theme control panel."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:280
+#: ../ttw/ttw-advanced-2.rst:299
+msgid "This is a generic theme, it does not provide the Plone/Diazo specific :file:`rules.xml` or :file:`manifest.cfg` files. When you upload the zip file, the theming tool generates a :file:`rules.xml` file. In the next steps you will add additional files including a :file:`manifest.cfg` file (perhaps in the future the :file:`manifest.cfg` file will also be generated for you)."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:306
 msgid "Select the downloaded zip file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:284
-msgid "Add a :file:`styles.less` file and import the Barceloneta styles."
+#: ../ttw/ttw-advanced-2.rst:310
+msgid "Add a :file:`styles.less` file and import the Barceloneta styles (look back to Exercise 1)."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:286
+#: ../ttw/ttw-advanced-2.rst:311
 msgid "Add a :file:`manifest.cfg` file, set ``production-css`` equal to ``styles.css``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:288
-msgid "Clean Blog is a free Bootstrap theme, the latest version is available on github `<https://github.com/BlackrockDigital/startbootstrap-clean-blog>`_"
+#: ../ttw/ttw-advanced-2.rst:315
+msgid "*Clean Blog* is a free Bootstrap theme, the latest version is available on GitHub `<https://github.com/BlackrockDigital/startbootstrap-clean-blog>`_"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:294
-msgid "You can identify the theme path by reading your browser's address bar when your theme is open in the theming tool. You'll need to include the proper theme path in your :file:`manifest.cfg`, in this case it will most likely be something like ``++theme++startbootstrap-new-age-gh-pages``"
+#: ../ttw/ttw-advanced-2.rst:320
+msgid "You can identify the theme path by reading your browser's address bar when your theme is open in the theming tool. You'll need to include the proper theme path in your :file:`manifest.cfg`, in this case it will most likely be something like ``++theme++startbootstrap-new-age-master``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:299
-msgid "[theme] title = New Age prefix = ++theme++startbootstrap-new-age-gh-pages/ production-css = ++theme++startbootstrap-new-age-gh-pages/styles.css"
+#: ../ttw/ttw-advanced-2.rst:334
+msgid "Add rules to include the Barceloneta backend utilities."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:305
-msgid "Add rules to include the Barceloneta backend utilities ::"
-msgstr ""
-
-#: ../theming/ttw-advanced_2.rst:319
+#: ../ttw/ttw-advanced-2.rst:354
 msgid "Add rules to include content, add site structure, drop unneeded elements, customize the menu."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:323
+#: ../ttw/ttw-advanced-2.rst:358
 msgid "Look out for inline styles in this theme (i.e. the use of the ``style`` attribute on a tag). This is especially problematic with background images set with relative paths. The two issues that result are:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:327
+#: ../ttw/ttw-advanced-2.rst:362
 msgid "the relative path does not translate properly in the context of the theme;"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:329
+#: ../ttw/ttw-advanced-2.rst:363
 msgid "it can be tricky to dynamically replace background images provided by inline styles."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:333
-msgid "Creating a visitor-only theme - conditionally enabling Barceloneta"
+#: ../ttw/ttw-advanced-2.rst:368
+msgid "Add the theme file:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:335
-msgid "Sometimes it is more convenient for your website administrators to use Barceloneta, Plone's default theme. Other visitors would see a completely different layout provided by your custom theme. To achieve this you will need to associate your visitor theme rules with an expression like ``css:if-content=\"body.userrole-anonymous\"``. For rules that will affect logged-in users you can use the expression ``css:if-content=\"body.:not(userrole-anonymous)\"``."
+#: ../ttw/ttw-advanced-2.rst:374
+msgid "To add the Plone-related header data, add these rules:"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:342
+#: ../ttw/ttw-advanced-2.rst:397
+msgid "The attributes from the ``body`` element from Plone are important:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:404
+msgid "Add content-related rules:"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:430
+msgid "Create A Visitor-Only Theme - Conditionally Enabling Barceloneta"
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:432
+msgid "Sometimes it is more convenient for your website administrators to use Barceloneta, Plone's default theme. Other visitors would see a completely different layout provided by your custom theme."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:435
+msgid "To achieve this you will need to associate your visitor theme rules with an expression like ``css:if-content=\"body.userrole-anonymous\"``. For rules that will affect logged-in users you can use the expression ``css:if-content=\"body:not(.userrole-anonymous)\"``."
+msgstr ""
+
+#: ../ttw/ttw-advanced-2.rst:438
 msgid "Once you've combined the expressions above with the right Diazo rules you will be able to present an anonymous visitor with a specific HTML theme while presenting the Barceloneta theme to logged-in users."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:348
-msgid "The Barceloneta :file:`++theme++barceloneta/rules.xml` expects the Barceloneta :file:`index.html` to reside locally in your current theme. To avoid conflict and to accomodate the inherited Barceloneta, ensure that your theme file has a different name such as :file:`front.html`."
+#: ../ttw/ttw-advanced-2.rst:443
+msgid "The Barceloneta :file:`++theme++barceloneta/rules.xml` expects the Barceloneta :file:`index.html` to reside locally in your current theme. To avoid conflict and to accommodate the inherited Barceloneta, ensure that your theme file has a different name such as :file:`front.html`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:355
-msgid "Exercise 5 - Convert the theme to be a visitor-only theme"
+#: ../ttw/ttw-advanced-2.rst:448
+msgid "Exercise 5 - Convert The Theme To Be A Visitor-Only Theme"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:357
+#: ../ttw/ttw-advanced-2.rst:450
 msgid "In this exercise we will alter our theme from the previous exercise to make it into a visitor-only theme."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:360
+#: ../ttw/ttw-advanced-2.rst:452
 msgid "Update the :file:`rules.xml` file to include Barceloneta rules."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:365
+#: ../ttw/ttw-advanced-2.rst:457
 msgid "Use ``<xi:include href=\"++theme++barceloneta/rules.xml\" />``"
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:367
-msgid "Add conditional rules to :file:`rules.xml` so that the new theme is only shown to anonymous users, rename the theme's :file:`index.html` to :file:`front.html` and add a copy of the Barceloneta :file:`index.html`."
+#: ../ttw/ttw-advanced-2.rst:459
+msgid "Add conditional rules to :file:`rules.xml` so that the new theme is only shown to anonymous users. Rename the theme's :file:`index.html` to :file:`front.html` and add a copy of the Barceloneta :file:`index.html`."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:373
-msgid "Copy the contents of the Barceloneta :file:`index.html` file then add it to the theme as the new :file:`index.html` file."
+#: ../ttw/ttw-advanced-2.rst:465
+msgid "Copy the contents of the Barceloneta :file:`index.html` file, then add it to the theme as the new :file:`index.html` file."
 msgstr ""
 
-#: ../theming/ttw-advanced_2.rst:376
+#: ../ttw/ttw-advanced-2.rst:467
 msgid "Change :file:`rules.xml` to look similar to this:"
 msgstr ""
 

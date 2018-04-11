@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Plone Training package.
+# This file is distributed under the same license as the Plone 5 Training package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Plone Training 1.2.5\n"
+"Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 12:20-0400\n"
+"POT-Creation-Date: 2018-03-22 21:00-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,275 +21,343 @@ msgid "Installing Plone for the Training"
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:6
-msgid "Keep in mind that you need a fast internet connection during installation since you'll have to download a lot of data!"
+msgid "Keep in mind that you need a fast Internet connection during installation since you'll have to download a lot of data!"
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:13
-msgid "If you feel the desire to try out both methods below (with Vagrant and without), make sure you use different :file:`training` directories!  The two installations do not coexist well."
+msgid "If you feel the desire to try out both methods below (with Vagrant and without), make sure you use different :file:`training` directories!"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:17
+#: ../plone_training_config/instructions.rst:16
+msgid "The two installations do not coexist well."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:20
 msgid "Installing Plone without vagrant"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:21
+#: ../plone_training_config/instructions.rst:24
 msgid "If you are **not** used to running Plone on your laptop skip this part and continue with :ref:`install-virtualbox`."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:23
+#: ../plone_training_config/instructions.rst:28
+msgid "To run Plone 5.1 you at least need Python 2.7.9!"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:30
 msgid "If you **are** experienced with running Plone on your own laptop, we encourage you to do so because you will have certain benefits:"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:25
+#: ../plone_training_config/instructions.rst:32
 msgid "You can use the editor you are used to."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:26
+#: ../plone_training_config/instructions.rst:33
 msgid "You can use *omelette* to have all the code of Plone at your fingertips."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:27
+#: ../plone_training_config/instructions.rst:34
 msgid "You do not have to switch between different operating systems during the training."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:29
-msgid "If you feel comfortable, please work on your own machine with your own Python. But **please** make sure that you have a system that will work, since we don't want you to lose valuable time!"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:33
-msgid "If you also want to follow the JavaScript training and install the JavaScript development tools, you need `NodeJS <https://nodejs.org/en/download/>`_ installed on your development computer."
+#: ../plone_training_config/instructions.rst:36
+msgid "If you feel comfortable, please work on your own machine with your own Python."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:38
-msgid "Please make sure you have your system properly prepared and installed all necessary prerequisites. For example, on Ubuntu/Debian, you need to install the following::"
+msgid "**Please** make sure that you have a system that will work, since we don't want you to lose valuable time!"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:44
-msgid "For more information or in case of problems see the `official installation instructions <http://docs.plone.org/manage/installing/installation.html>`_."
+#: ../plone_training_config/instructions.rst:42
+msgid "If you also want to follow the JavaScript training and install the JavaScript development tools, you need `NodeJS <https://nodejs.org/en/download/>`_ installed on your development computer."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:48
-msgid "Set up Plone for the training like this if you use your own OS (Linux or Mac):"
+#: ../plone_training_config/instructions.rst:47
+msgid "Please make sure you have your system properly prepared and installed all necessary prerequisites."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:58
-msgid "Now you can run the buildout for the first time:"
+#: ../plone_training_config/instructions.rst:49
+msgid "The following instructions are based on Ubuntu and macOS, if you use a different operating system (OS), please adjust them to fit your OS."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:51
+msgid "On Ubuntu/Debian, you need to install the following:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:59
+msgid "On macOS you at least need to install some dependencies with `Homebrew <https://brew.sh/>`_"
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:65
-msgid "This will take some time and produce a lot of output because it downloads and configures Plone. Once it is done you can start your instance with"
+msgid "For more information or in case of problems see the `official installation instructions <https://docs.plone.org/manage/installing/installation.html>`_."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:71
+#: ../plone_training_config/instructions.rst:67
+msgid "Set up Plone for the training like this if you use your own OS (Linux or Mac):"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:78
+msgid "This creates a virtualenv with Python 2.7 in the folder :file:`buildout` and installs some requirements in it."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:80
+msgid "Now you can run the buildout for the first time:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:86
+msgid "This will take a very lot of time and produce a lot of output because it downloads and configures more than 260 Python packages. Once it is done you can start your Plone instance with"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:92
 msgid "The output should be similar to:"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:106
+#: ../plone_training_config/instructions.rst:126
 msgid "If the output says ``INFO Zope Ready to handle requests`` then you are in business."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:108
-msgid "If you point your browser at http://localhost:8080 you see that Plone is running. There is no Plone site yet - we will create one in chapter 6."
+#: ../plone_training_config/instructions.rst:128
+msgid "If you point your browser at http://localhost:8080 you see that Plone is running."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:110
-msgid "Now you have a working Plone site up and running and can continue with the next chapter.  You can stop the running instance anytime using :kbd:`ctrl + c`."
+#: ../plone_training_config/instructions.rst:130
+#: ../plone_training_config/instructions.rst:339
+msgid "There is no Plone site yet - we will create one in chapter 6."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:114
+#: ../plone_training_config/instructions.rst:132
+msgid "Now you have a working Plone site up and running and can continue with the next chapter."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:134
+msgid "You can stop the running instance anytime using :kbd:`ctrl + c`."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:138
 msgid "If there is an error message you should either try to fix it or use vagrant and continue in this chapter."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:120
-msgid "Installing Plone with vagrant"
+#: ../plone_training_config/instructions.rst:144
+msgid "Installing Plone with Vagrant"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:122
-msgid "In order not to waste too much time with installing and debugging the differences between systems, we use a virtual machine (Ubuntu 14.04) to run Plone during the training. We rely on Vagrant and VirtualBox to give the same development environment to everyone."
+#: ../plone_training_config/instructions.rst:146
+msgid "We use a virtual machine (Ubuntu 16.04) to run Plone during the training."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:124
-msgid "`Vagrant <https://www.vagrantup.com>`_ is a tool for building complete development environments. We use it together with Oracle’s `VirtualBox <https://www.virtualbox.org>`_ to create and manage a virtual environment."
+#: ../plone_training_config/instructions.rst:148
+msgid "We rely on `Vagrant <https://www.vagrantup.com>`_ and `VirtualBox <https://www.virtualbox.org>`_ to give the same development environment to everyone."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:129
-msgid "Install VirtualBox"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:131
-msgid "Vagrant uses Oracle’s VirtualBox to create virtual environments. Here is a link directly to the download page: https://www.virtualbox.org/wiki/Downloads. We use VirtualBox 4.3.x"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:137
-msgid "Install and configure Vagrant"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:139
-msgid "Get the latest version from https://www.vagrantup.com/downloads.html for your operating system and install it."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:143
-msgid "In Windows there is a bug in the recent version of Vagrant. Here are the instructions for how to work around the warning ``Vagrant could not detect VirtualBox! Make sure VirtualBox is properly installed``."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:145
-msgid "Now your system has a command :command:`vagrant` that you can run in the terminal."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:149
-msgid "You don't need to install ``NodeJS`` as mentioned in the previous section. Our Vagrant configuration already does that for you."
+#: ../plone_training_config/instructions.rst:150
+msgid "`Vagrant <https://www.vagrantup.com>`_ is a tool for building complete development environments."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:152
-msgid "First, create a directory in which you want to do the training."
+msgid "We use it together with Oracle’s `VirtualBox <https://www.virtualbox.org>`_ to create and manage a virtual environment."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:156
-msgid "If you already have a :file:`training` directory because you followed the **Installing Plone without vagrant** instructions above, you should either delete it, rename it, or use a different name below."
+#: ../plone_training_config/instructions.rst:157
+msgid "Install VirtualBox"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:159
+msgid "Vagrant uses Oracle’s VirtualBox to create virtual environments."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:161
+msgid "Here is a link directly to the download page: https://www.virtualbox.org/wiki/Downloads."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:163
-msgid "Setup Vagrant to automatically install the current guest additions. You can choose to skip this step if you encounter any problems with it."
+msgid "We use VirtualBox 5.0.x"
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:169
-msgid "Now download :download:`plone_training_config.zip <../_static/plone_training_config.zip>` and copy its contents into your training directory."
+msgid "Install and configure Vagrant"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:176
-msgid "The training directory should now hold the file :file:`Vagrantfile` and the directory :file:`manifests` which again contains several files."
+#: ../plone_training_config/instructions.rst:171
+msgid "Get the latest version from https://www.vagrantup.com/downloads.html for your operating system and install it."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:178
-msgid "Now start setting up the VM that is configured in :file:`Vagrantfile`:"
+#: ../plone_training_config/instructions.rst:173
+msgid "Now your system has a command :command:`vagrant` that you can run in the terminal."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:184
-msgid "This takes a **veeeeery loooong time** (between 10 minutes and 1h depending on your internet connection and system speed) since it does all the following steps:"
+#: ../plone_training_config/instructions.rst:175
+msgid "First, create a directory in which you want to do the training."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:186
-msgid "downloads a virtual machine (Official Ubuntu Server 14.04 LTS, also called \"Trusty Tahr\")"
+#: ../plone_training_config/instructions.rst:179
+msgid "If you already have a :file:`training` directory because you followed the **Installing Plone without vagrant** instructions above, you should either delete it, rename it, or use a different name below."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:187
-msgid "sets up the VM"
+msgid "Setup Vagrant to automatically install the current guest additions. You can choose to skip this step if you encounter any problems with it."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:188
-msgid "updates the VM"
+#: ../plone_training_config/instructions.rst:194
+msgid "Now download :download:`plone_training_config.zip <../_static/plone_training_config.zip>` and copy its contents into your training directory."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:189
-msgid "installs various system-packages needed for Plone development"
+#: ../plone_training_config/instructions.rst:201
+msgid "The training directory should now hold the file :file:`Vagrantfile` and the directory :file:`manifests` which again contains several files."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:190
-msgid "downloads and unpacks the buildout-cache to get all the eggs for Plone"
+#: ../plone_training_config/instructions.rst:203
+msgid "Now start setting up the virtual machine (VM) that is configured in :file:`Vagrantfile`:"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:191
-msgid "clones the training buildout into /vagrant/buildout"
+#: ../plone_training_config/instructions.rst:209
+msgid "This takes a **veeeeery loooong time** (between 10 minutes and 1h depending on your Internet connection and system speed) since it does all the following steps:"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:192
-msgid "builds Plone using the eggs from the buildout-cache"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:196
-msgid "Sometimes this stops with the message:"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:202
-msgid "If this happens or you have the feeling that something has gone wrong and the installation has not finished correctly for some reason you need to run the following command to repeat the process. This will only repeat steps that have not finished correctly."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:208
-msgid "You can do this multiple times to fix problems, e.g. if your network connection was down and steps could not finish because of this."
+#: ../plone_training_config/instructions.rst:211
+msgid "downloads a virtual machine (Official Ubuntu Server 16.04 LTS, also called \"Xenial Xerus\")"
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:212
-msgid "If while bringing vagrant up you get an error similar to:"
+msgid "sets up the VM"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:218
-msgid "The configuration may have stalled out because your computer's BIOS requires virtualization to be enabled. Check with your computer's manufacturer on how to properly enable virtualization.  See: https://teamtreehouse.com/community/vagrant-ssh-sshexchangeidentification-read-connection-reset-by-peer"
+#: ../plone_training_config/instructions.rst:213
+msgid "updates the VM"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:220
-msgid "Once Vagrant finishes the provisioning process, you can login to the now running virtual machine."
+#: ../plone_training_config/instructions.rst:214
+msgid "installs various system-packages needed for Plone development"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:228
-msgid "If you use Windows you'll have to login with `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Connect to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``."
+#: ../plone_training_config/instructions.rst:215
+msgid "downloads and unpacks the buildout-cache to get all the eggs for Plone"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:216
+msgid "clones the training buildout into /vagrant/buildout"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:217
+msgid "builds Plone using the eggs from the buildout-cache"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:221
+msgid "Sometimes this stops with the message:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:227
+msgid "If this happens or you have the feeling that something has gone wrong and the installation has not finished correctly for some reason you need to run the following command to repeat the process."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:230
-msgid "You are now logged in as the user vagrant in :file:`/home/vagrant`. We'll do all steps of the training as this user."
+msgid "This will only repeat steps that have not finished correctly."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:107
-# ce04222f403e4a4bbf42048aa3db6ed9
-msgid "If you have to use Windows you'll have to login to with `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html/download.html>`_. Connect to vagrant@127.0.01 at port 2222. User _and_ password are `vagrant`."
+#: ../plone_training_config/instructions.rst:236
+msgid "You can do this multiple times to fix problems, e.g. if your network connection was down and steps could not finish because of this."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:270
-msgid "In rare cases when you are using OSX with an UTF-8 character set starting Plone might fail with the following error:"
+#: ../plone_training_config/instructions.rst:240
+msgid "If while bringing vagrant up you get an error similar to:"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:276
-msgid "In that case you have to put the localized keyboard and language settings in the .bash_profile of the vagrant user to your locale (like ``en_US.UTF-8`` or ``de_DE.UTF-8``)"
+#: ../plone_training_config/instructions.rst:246
+msgid "The configuration may have stalled out because your computer's BIOS requires virtualization to be enabled. Check with your computer's manufacturer on how to properly enable virtualization."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:283
-msgid "Now the Zope instance we're using is running. You can stop the running instance anytime using :kbd:`ctrl + c`."
+#: ../plone_training_config/instructions.rst:249
+msgid "See: https://teamtreehouse.com/community/vagrant-ssh-sshexchangeidentification-read-connection-reset-by-peer"
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:285
-msgid "If it doesn't, don't worry, your shell isn't blocked. Type :kbd:`reset` (even if you can't see the prompt) and press RETURN, and it should become visible again."
+#: ../plone_training_config/instructions.rst:251
+msgid "Once Vagrant finishes the provisioning process, you can login to the now running virtual machine."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:287
-msgid "If you point your local browser at http://localhost:8080 you see that Plone is running in vagrant. This works because VirtualBox forwards the port 8080 from the guest system (the vagrant Ubuntu) to the host system (your normal operating system).  There is no Plone site yet - we will create one in chapter 6."
+#: ../plone_training_config/instructions.rst:259
+msgid "If you use Windows you'll have to login with `putty <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_. Connect to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:289
-msgid "The Buildout for this Plone is in a shared folder.  This means we run it in the vagrant box from :file:`/vagrant/buildout` but we can also access it in our own operating system and use our favorite editor. You will find the directory :file:`buildout` in the directory :file:`training` that you created in the very beginning next to :file:`Vagrantfile` and :file:`manifests`."
+#: ../plone_training_config/instructions.rst:262
+msgid "You are now logged in as the user vagrant in :file:`/home/vagrant`."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:293
-msgid "The database and the python packages are not accessible in your own system since large files cannot make use of symlinks in shared folders. The database lies in ``/home/vagrant/var``, the python packages are in ``/home/vagrant/packages``."
+#: ../plone_training_config/instructions.rst:264
+msgid "We'll do all steps of the training as this user."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:295
-msgid "If you have any problems or questions please mail us at team@starzel.de or create a ticket at https://github.com/plone/training/issues."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:301
-msgid "What Vagrant does"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:303
-msgid "Installation is done automatically by vagrant and puppet. If you want to know which steps are actually done please see the chapter :doc:`what_vagrant_does`."
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:309
-msgid "**Vagrant Care and Handling**"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:311
-msgid "Keep in mind the following recommendations for using your Vagrant virtualboxes:"
-msgstr ""
-
-#: ../plone_training_config/instructions.rst:313
-msgid "Use the :command:`vagrant suspend` or :command:`vagrant halt` commands to put the virtualbox to \"sleep\" or to \"power it off\" before attempting to start another Plone instance anywhere else on your machine, if it uses the same port.  That's because vagrant \"reserves\" port 8080, and even if you stopped Plone in vagrant, that port is still in use by the guest OS."
+#: ../plone_training_config/instructions.rst:266
+msgid "Instead we use our own Plone instance during the training. It is in :file:`/vagrant/buildout/`. Start it in foreground with :command:`./bin/instance fg`."
 msgstr ""
 
 #: ../plone_training_config/instructions.rst:314
+msgid "In rare cases when you are using macOS with an UTF-8 character set starting Plone might fail with the following error:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:320
+msgid "In that case you have to put the localized keyboard and language settings in the .bash_profile of the vagrant user to your locale (like ``en_US.UTF-8`` or ``de_DE.UTF-8``)"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:328
+msgid "Now the Zope instance we're using is running. You can stop the running instance anytime using :kbd:`ctrl + c`."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:331
+msgid "If it doesn't, don't worry, your shell isn't blocked."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:333
+msgid "Type :kbd:`reset` (even if you can't see the prompt) and press RETURN, and it should become visible again."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:335
+msgid "If you point your local browser at http://localhost:8080 you see that Plone is running in Vagrant."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:337
+msgid "This works because VirtualBox forwards the port 8080 from the guest system (the vagrant Ubuntu) to the host system (your normal operating system)."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:341
+msgid "The Buildout for this Plone is in a shared folder. This means we run it in the vagrant box from :file:`/vagrant/buildout` but we can also access it in our own operating system and use our favorite editor."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:344
+msgid "You will find the directory :file:`buildout` in the directory :file:`training` that you created in the beginning next to :file:`Vagrantfile` and :file:`manifests`."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:349
+msgid "The database and the python packages are not accessible in your own system since large files cannot make use of symlinks in shared folders. The database lies in ``/home/ubuntu/var``, the python packages are in ``/home/ubuntu/packages``."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:352
+msgid "If you have any problems or questions please mail us at team@starzel.de or create a ticket at https://github.com/plone/training/issues."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:358
+msgid "What Vagrant does"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:360
+msgid "Installation is done automatically by vagrant and puppet. If you want to know which steps are actually done please see the chapter :doc:`what_vagrant_does`."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:367
+msgid "**Vagrant Care and Handling**"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:369
+msgid "Keep in mind the following recommendations for using your Vagrant VirtualBoxes:"
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:371
+msgid "Use the :command:`vagrant suspend` or :command:`vagrant halt` commands to put the VirtualBox to \"sleep\" or to \"power it off\" before attempting to start another Plone instance anywhere else on your machine, if it uses the same port.  That's because vagrant \"reserves\" port 8080, and even if you stopped Plone in vagrant, that port is still in use by the guest OS."
+msgstr ""
+
+#: ../plone_training_config/instructions.rst:372
 msgid "If you are done with a vagrant box, and want to delete it, always remember to run :command:`vagrant destroy` on it before actually deleting the directory containing it.  Otherwise you'll leave its \"ghost\" in the list of boxes managed by vagrant and possibly taking up disk space on your machine."
 msgstr ""
 
-#: ../plone_training_config/instructions.rst:315
+#: ../plone_training_config/instructions.rst:373
 msgid "See :command:`vagrant help` for all available commands, including :command:`suspend`, :command:`halt`, :command:`destroy`, :command:`up`, :command:`ssh` and :command:`resume`."
 msgstr ""
 
