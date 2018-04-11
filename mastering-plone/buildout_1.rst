@@ -69,7 +69,7 @@ All the lines after :samp:`recipe = xyz` are the configuration of the specified 
 
 .. note::
 
-    There are way to many buidout-recipes. See https://pypi.python.org/pypi?%3Aaction=search&term=buildout+recipe&submit=search
+    There are way to many buildout-recipes. See https://pypi.python.org/pypi?%3Aaction=search&term=buildout+recipe&submit=search
 
 .. _buildout1-references-label:
 

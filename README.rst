@@ -22,7 +22,7 @@ Different Plone Trainings:
 Documentation
 =============
 
-Documentation on how to use, build and contribute to the trainings can be found on the `Training Website <https://training.plone.org/5/about.html>`_ .
+Documentation on how to use, build and contribute to the trainings can be found on the `About page <https://training.plone.org/about/>`_ at Training Website.
 
 Contribute
 ==========

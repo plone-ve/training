@@ -98,7 +98,7 @@ We pass a object as `context` to query only for content in the current path. Oth
 
 .. note::
 
-    We use the method :py:meth:`find` in :py:mod:`plone.api` to query the catalog. It is one of many convenience-methods provided as a wrapper around otherwise more complex api's. If you query the catalog direcly you'd have to first get the catalog, and pass it the path for which you want to find items:
+    We use the method :py:meth:`find` in :py:mod:`plone.api` to query the catalog. It is one of many convenience-methods provided as a wrapper around otherwise more complex api's. If you query the catalog directly you'd have to first get the catalog, and pass it the path for which you want to find items:
 
     .. code-block:: python
 
@@ -474,4 +474,4 @@ Summary
 * You wrote your first fully grown BrowserView that combines a template, a class and a method in that class
 * You learned about portal_catalog, brains and how they objects
 * You learned about Acquisition and how it can have unintended effects
-* You extended the FTI of a existing content type to allow the use the new view to all Editior
+* You extended the FTI of a existing content type to allow the use the new view to all Editor
