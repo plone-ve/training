@@ -40,7 +40,7 @@ msgid ""
 "without), make sure you use different :file:`training` directories!"
 msgstr ""
 "Si siente el deseo de probar ambos métodos a continuación (con y sin Vagrant)"
-", ¡asegúrese de usar diferentes directorios :file:`training`!"
+", ¡asegúrese de usar copias distintas de la carpeta :file:`training`!"
 
 #: ../plone_training_config/instructions.rst:16
 msgid "The two installations do not coexist well."
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../plone_training_config/instructions.rst:28
 msgid "To run Plone 5.1 you at least need Python 2.7.9!"
-msgstr "Para ejecutar Plone 5.1, ¡al menos necesitas Python 2.7.9!"
+msgstr "Para ejecutar Plone 5.1, ¡al menos requiere instalado Python 2.7.9!"
 
 #: ../plone_training_config/instructions.rst:30
 msgid ""
@@ -128,7 +128,7 @@ msgid ""
 "different operating system (OS), please adjust them to fit your OS."
 msgstr ""
 "Las siguientes instrucciones están basadas en Ubuntu y macOS, si usa un "
-"sistema operativo (SO) diferente, ajústelo para que se ajuste a su "
+"sistema operativo (SO) diferente, ajústele para que se adapte a su "
 "sistema operativo."
 
 #: ../plone_training_config/instructions.rst:51
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../plone_training_config/instructions.rst:92
 msgid "The output should be similar to:"
-msgstr "La salida por la consola de comando es similar a:"
+msgstr "La salida por la consola de comando es similar a la siguiente:"
 
 #: ../plone_training_config/instructions.rst:126
 msgid ""
@@ -193,20 +193,20 @@ msgid ""
 " business."
 msgstr ""
 "La salida por consola debe decir ``INFO Zope Ready to handle requests`` "
-"entonces usted esta al aire y está en el negocio."
+"entonces usted está ejecutando correctamente el servidor."
 
 #: ../plone_training_config/instructions.rst:128
 msgid ""
 "If you point your browser at http://localhost:8080 you see that Plone is "
 "running."
 msgstr ""
-"Si apunta su navegador a http://localhost:8080 verá que Plone se está "
+"Si abre su navegador al dirección URL http://localhost:8080 verá que Plone se está "
 "ejecutando."
 
 #: ../plone_training_config/instructions.rst:130
 #: ../plone_training_config/instructions.rst:339
 msgid "There is no Plone site yet - we will create one in chapter 6."
-msgstr "Todavía no hay un sitio de Plone: crearemos uno en el capítulo 6."
+msgstr "Todavía no hay un sitio de Plone: crearemos uno sitio en el capítulo 6."
 
 #: ../plone_training_config/instructions.rst:132
 msgid ""
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../plone_training_config/instructions.rst:163
 msgid "We use VirtualBox 5.0.x"
-msgstr "Usamos VirtualBox 5.0.x"
+msgstr "Usamos VirtualBox en su versión 5.0.x"
 
 #: ../plone_training_config/instructions.rst:169
 msgid "Install and configure Vagrant"
@@ -305,7 +305,7 @@ msgid ""
 "terminal."
 msgstr ""
 "Ahora su sistema tiene un comando :command:`vagrant` que puede ejecutar "
-"en la terminal."
+"en la terminal de comando."
 
 #: ../plone_training_config/instructions.rst:175
 msgid "First, create a directory in which you want to do the training."
@@ -349,15 +349,15 @@ msgid ""
 msgstr ""
 "El directorio del entrenamiento ahora debería contener el archivo "
 ":file:`Vagrantfile` y el directorio se :file:`manifests` el cual contiene"
-" a su ves muchos archivos."
+" a su vez muchos archivos."
 
 #: ../plone_training_config/instructions.rst:203
 msgid ""
 "Now start setting up the virtual machine (VM) that is configured in "
 ":file:`Vagrantfile`:"
 msgstr ""
-"Ahora comience a configurar la máquina virtual (VM) que está configurada "
-"en :file:`Vagrantfile`:"
+"Ahora comience a establecer la máquina virtual (VM) que está configurada "
+"en el archivo :file:`Vagrantfile` ejecutando el siguiente comando:"
 
 #: ../plone_training_config/instructions.rst:209
 msgid ""
@@ -403,7 +403,7 @@ msgstr ""
 
 #: ../plone_training_config/instructions.rst:217
 msgid "builds Plone using the eggs from the buildout-cache"
-msgstr "construye Plone usando los paquetes eggs del buildout-cache"
+msgstr "construye Plone usando los paquetes eggs del directorio buildout-cache"
 
 #: ../plone_training_config/instructions.rst:221
 msgid "Sometimes this stops with the message:"
@@ -416,13 +416,13 @@ msgid ""
 "run the following command to repeat the process."
 msgstr ""
 "Si esto sucede o usted tiene la sensación de que algo ha ido mal y la "
-"instalación no ha finalizado correctamente por alguna razón usted "
-"necesita ejecutar para intentar el comando siguiente para repetir el "
+"instalación no ha finalizado correctamente por alguna razón, usted "
+"necesita ejecutar el comando siguiente para repetir el "
 "proceso."
 
 #: ../plone_training_config/instructions.rst:230
 msgid "This will only repeat steps that have not finished correctly."
-msgstr "Esto solo repetirá los pasos que no han terminado correctamente."
+msgstr "Este comando solo repetirá los pasos que no han culminado correctamente."
 
 #: ../plone_training_config/instructions.rst:236
 msgid ""
@@ -430,8 +430,8 @@ msgid ""
 "connection was down and steps could not finish because of this."
 msgstr ""
 "Usted puede hacer esto varias veces para arreglar los problemas, por "
-"ejemplo, si su conexión a red es limitada y los pasos no se pudieron "
-"terminar debido a esto."
+"ejemplo, si su conexión a red es limitada y los pasos de la instalación no "
+"se pudieron terminar debido a esto."
 
 #: ../plone_training_config/instructions.rst:240
 msgid "If while bringing vagrant up you get an error similar to:"
@@ -473,12 +473,12 @@ msgid ""
 msgstr ""
 "Si usted tiene que usar Windows tendrás que iniciar sesión para con `putty "
 "<https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_. Conecte "
-"a vagrant@127.0.01 en el puerto 2222. Con el usuario **y** contraseña son "
+"a vagrant@127.0.01 en el puerto 2222. El usuario **y** la contraseña son "
 "``vagrant``."
 
 #: ../plone_training_config/instructions.rst:262
 msgid "You are now logged in as the user vagrant in :file:`/home/vagrant`."
-msgstr "Ahora está iniciado con el usuario vagrant en ``/home/vagrant``."
+msgstr "Ahora está iniciado con el usuario vagrant en el directorio ``/home/vagrant``."
 
 #: ../plone_training_config/instructions.rst:264
 msgid "We'll do all steps of the training as this user."
@@ -509,7 +509,7 @@ msgid ""
 "``en_US.UTF-8`` or ``de_DE.UTF-8``)"
 msgstr ""
 "En ese caso, usted tiene que poner la configuración de idioma y del teclado "
-"localizados en el archivo .bash_profile del usuario vagrant a su entorno "
+"localizados en el archivo ``.bash_profile`` del usuario ``vagrant`` a su entorno "
 "local (como ``en_US.UTF-8`` o ``de_DE.UTF-8``)"
 
 #: ../plone_training_config/instructions.rst:328
@@ -519,7 +519,7 @@ msgid ""
 msgstr ""
 "Ahora la instancia Zope que estamos usando se está ejecutando. Puede "
 "detener la instancia en ejecución en cualquier momento utilizando "
-":kbd:`ctrl + c`."
+"la combinación de teclas :kbd:`ctrl + c`."
 
 #: ../plone_training_config/instructions.rst:331
 msgid "If it doesn't, don't worry, your shell isn't blocked."
@@ -538,7 +538,7 @@ msgid ""
 "If you point your local browser at http://localhost:8080 you see that "
 "Plone is running in Vagrant."
 msgstr ""
-"Si apunta su navegador a http://localhost:8080 verá que Plone se está "
+"Si abre su navegador a la dirección URL http://localhost:8080 verá que Plone se está "
 "ejecutando en Vagrant."
 
 #: ../plone_training_config/instructions.rst:337
@@ -560,7 +560,7 @@ msgstr ""
 "El Buildout para este Plone está en una carpeta compartida. Esto "
 "significa lo ejecutamos en la vagrant box desde el directorio "
 "``/vagrant/buildout`` pero también podemos acceder a este desde fuera del"
-" propio sistema operativo y el uso de nuestro editor favorito."
+" propio sistema operativo y usar de nuestro editor favorito con este."
 
 #: ../plone_training_config/instructions.rst:344
 msgid ""
@@ -570,7 +570,7 @@ msgid ""
 msgstr ""
 "Usted encontrará el directorio de :file:`buildout` en el directorio del "
 ":file:`training` que creó en el principio junto al archivo "
-":file:`Vagrantfile` y :file:`manifests`."
+":file:`Vagrantfile` y al archivo :file:`manifests`."
 
 #: ../plone_training_config/instructions.rst:349
 msgid ""
@@ -590,8 +590,8 @@ msgid ""
 "If you have any problems or questions please mail us at team@starzel.de "
 "or create a ticket at https://github.com/plone/training/issues."
 msgstr ""
-"Si usted tiene cualquier problema o pregunta, por favor envíenos un "
-"correo electrónico a team@starzel.de o cree un ticket en "
+"Si usted tiene cualquier problema o pregunta, por favor, envíenos un "
+"correo electrónico a team@starzel.de o cree un ticket en el repositorio "
 "https://github.com/plone/training/issues."
 
 #: ../plone_training_config/instructions.rst:358
@@ -644,7 +644,7 @@ msgid ""
 "the list of boxes managed by vagrant and possibly taking up disk space on"
 " your machine."
 msgstr ""
-"Si ha terminado con una caja vagrant, y desea eliminarla, siempre recuerde "
+"Si ha terminado con una vagrant box, y desea eliminarla, siempre recuerde "
 "ejecutar el comando :command:`vagrant destroy` en ella antes de borrar el "
 "directorio que la contiene.  De lo contrario, dejará ese \"fantasma\" en la "
 "lista de cajas administradas por vagrant y posiblemente ocupar espacio en "
@@ -671,8 +671,8 @@ msgid ""
 "preparing your virtual training environment."
 msgstr ""
 "Estos pasos son realizados automáticamente por Vagrant y Puppet para "
-"usted. Ellos están solamente interesantes si quieres saber lo que pasa "
-"bajo el capó para la preparación de su entorno de formación virtual."
+"usted. Ellos son solamente interesantes si quieres saber lo que pasa "
+"bajo el capó para la preparación de su entorno de entrenamiento virtual."
 
 #: ../plone_training_config/what_vagrant_does.rst:8
 msgid ""
@@ -685,9 +685,9 @@ msgid ""
 "to click and type together in Virtual machine application."
 msgstr ""
 "Vagrant es una herramienta de automatización para que los desarrolladores "
-"puedan programar la configuración y arrancar / parar máquinas virtuales "
-"usando aplicaciones como VirtualBox o Vmware Fusion / Workstation. La "
-"belleza de Vagrant es que es en gran parte independiente de la plataforma "
+"puedan programar la configuración y el arranque/detención de máquinas virtuales "
+"usando aplicaciones como VirtualBox o Vmware Fusion/Workstation. La "
+"belleza de Vagrant es que es una gran plataforma independiente "
 "para Linux, Windows y Apple, por lo que con un archivo 'Vagrantfile' por "
 "proyecto se describe una imagen virtual de instalación base y todo tipo de "
 "configuración de máquina virtual que de lo contrario tendría que hacer clic "
@@ -712,7 +712,7 @@ msgstr ""
 "pre-construir imágenes específicas sería mucho trabajo y desperdicio de "
 "ancho de banda descargando de nuevo una máquina de imágenes (los cuales "
 "son de 300 a 600 Mb) cada vez que nos gustaría cambiar cosas pequeñas en "
-"nuestro entorno de formación virtual."
+"nuestro entorno de entrenamiento virtual."
 
 #: ../plone_training_config/what_vagrant_does.rst:12
 msgid ""
@@ -725,8 +725,8 @@ msgstr ""
 "Puppet es una herramienta de gestión de la configuración (otros de los "
 "que habrás oído hablar son Chef, Ansible y SaltStack) y ayuda a los "
 "administradores de sistemas a gestionar automáticamente servidores "
-"(reales y virtuales). No vamos a entrar en Puppet en detalle, sino que se"
-" basa en la parte superior de nuestra imagen base Vagrant para configurar"
+"(reales y virtuales). No vamos a entrar en detalle en Puppet, sino que se"
+" basa en la parte superior de nuestra imagen Vagrant base para configurar"
 " aún más nuestro medio ambiente."
 
 #: ../plone_training_config/what_vagrant_does.rst:14
@@ -738,7 +738,7 @@ msgid ""
 " the *Provisioning* chapter."
 msgstr ""
 "Vagrant detecta cuando se configura una nueva máquina y se ejecuta Puppet u "
-"otros Provisioners por defecto sólo una vez, aunque también se puede "
+"otros Aprovisionadores por defecto sólo una vez, aunque también se puede "
 "utilizar para mantener las máquinas al día, lo que es un poco más difícil. "
 "Consulte la documentación del archivo :file:`Vagrantfile` y de `Vagrant "
 "<https://www.vagrantup.com/docs>`_, en si mismo, especialmente el capítulo "
@@ -765,7 +765,7 @@ msgid ""
 " your operating system as well for all kinds of system tools and "
 "scripting."
 msgstr ""
-"Entonces creamos un entorno virtual de python usando virtualenv. Esta es "
+"Entonces creamos un entorno virtual de python usando el paquete virtualenv. Esta es "
 "siempre una buena práctica ya que de esa manera conseguimos una copia limpia "
 "y aislada de nuestro sistema python, para que no rompamos el sistema python "
 "mediante la instalación de paquete egg python que podrían colisionar con "
@@ -793,7 +793,7 @@ msgid ""
 "Then we check out our tutorial buildout from "
 "https://github.com/collective/training_buildout and build it."
 msgstr ""
-"Entonces nosotros comprobamos nuestro buildout del tutorial de "
+"Entonces nosotros hacemos un check out de nuestro buildout del tutorial de "
 "https://github.com/collective/training_buildout y los construimos."
 
 #: ../plone_training_config/what_vagrant_does.rst:64
@@ -801,7 +801,7 @@ msgid ""
 "This will download additional eggs that are not yet part of the buildout-"
 "cache and configure Plone to be ready to run."
 msgstr ""
-"Esto descargará adicionales de paquetes egg que aún no forman parte del "
+"Esto descargará adicionales de paquetes eggs que aún no forman parte del "
 "directorio buildout-cache y configurará Plone para que esté listo para "
 "ejecutarse."
 
@@ -815,7 +815,7 @@ msgstr ""
 
 #: ../plone_training_config/what_vagrant_does.rst:68
 msgid "You can now connect to the machine and start Plone."
-msgstr "Ahora puede conectarse a la máquina y iniciar a Plone."
+msgstr "Ahora puede conectarse a la máquina y iniciar Plone."
 
 #: ../plone_training_config/what_vagrant_does.rst:76
 msgid ""
@@ -823,5 +823,5 @@ msgid ""
 "a Plone site. Go to http://localhost:8080 and create a Plone site."
 msgstr ""
 "Ahora tenemos un servidor de aplicación Zope basado en Buildout, "
-"dispuesto a agregar un sitio Plone. Ir a http://localhost:8080 y cree un "
+"dispuesto para agregar un sitio Plone. Ir a http://localhost:8080 y cree un "
 "sitio Plone."
