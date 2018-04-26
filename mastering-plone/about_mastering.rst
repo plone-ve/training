@@ -134,7 +134,7 @@ presentation
 The readthedocs theme
 +++++++++++++++++++++
 
-We slightly tweaked `Read the Docs Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>`_
+We slightly tweaked the `Read the Docs Theme <https://github.com/rtfd/sphinx_rtd_theme>`_ 
 in ``_static/custom.css`` so that it works better with projectors:
 
 - We start hiding the navigation bar much earlier so that it does not interfere with the text.

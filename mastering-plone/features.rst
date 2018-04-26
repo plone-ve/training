@@ -42,6 +42,9 @@ Some commands you will use rather often are::
 
     A standard installation listens on port 8080, so lets have a look at our Zope site by visiting http://localhost:8080
 
+	.. figure:: _static/features_plone_running.png
+		:scale: 50 %
+
     As you can see, there is no Plone site yet!
 
     We have a running Zope with a database but no content.
@@ -49,6 +52,9 @@ Some commands you will use rather often are::
     Click on that button (login: admin, password: admin).
     This opens a form to create a Plone site.
     Use :samp:`Plone` as the site id.
+    
+    .. figure:: _static/features_create_site_form.png
+		:scale: 50 %
 
     You now have the option to select some add-ons before you create the site.
     Since we will use Dexterity from the beginning we select :guilabel:`Dexterity-based Plone Default Types`.
@@ -207,6 +213,9 @@ Users
     To add a new user in Plone, click on the user icon at the bottom of the left vertical bar and then on :guilabel:`Site setup`.
     This is Plone's control panel.
     You can also access it by browsing to http://localhost:8080/Plone/@@overview-controlpanel
+    
+    .. figure:: _static/features_control_panel.png
+		:scale: 80 %
 
     Click on :guilabel:`Users and Groups` and add a user.
     If we had configured a mail server, Plone could send you a mail with a link to a form where you can choose a password.
@@ -214,6 +223,9 @@ Users
     We set a password here because we haven't yet configured a mail server.
 
     Make this user with your name an administrator.
+    
+    .. figure:: _static/features_add_user_form.png
+        :scale: 80 %
 
     Then create another user called ``testuser``.
     Make this one a normal user.
@@ -275,6 +287,7 @@ Edit a page:
 * :guilabel:`Summary` :samp:`Tutorial`
 * :guilabel:`Text` :samp:`...`
 
+
 Create a site structure:
 
 * Add a folder "The Event" and in it add:
@@ -282,6 +295,14 @@ Create a site structure:
   * Folder "Talks"
   * Folder "Training"
   * Folder "Sprint"
+  
+  
+  .. figure:: _static/features_the_event_folder_content.png
+      :scale: 60 %
+      :alt: The view of the newly created site structure.
+      
+      The view of the newly created site structure.
+      
 
 * In ``/news``: Add a News Item "Conference Website online!" with some image
 * In ``/news``: Add a News Item "Submit your talks!"
@@ -290,6 +311,12 @@ Create a site structure:
 * Add a Folder "Register"
 * Delete the Folder "Users"
 * Add a Folder "Intranet"
+
+.. figure:: _static/features_new_navigation.png
+	:scale: 60 %
+	:alt: The view of the extended navigation bar.
+	
+	The view of the extended navigation bar.
 
 
 The default Plone content types are:
@@ -329,6 +356,13 @@ Collections
 -----------
 
 * add a new collection: "all content that has ``pending`` as wf_state".
+
+.. figure:: _static/features_pending_collection.png
+	:scale: 60 %
+	:alt: Add a collection through the web.
+	
+	Add a collection through the web.
+
 * explain the default collection for events at http://localhost:8080/Plone/events/aggregator/edit
 * explain Topics
 * mention collection portlets
@@ -343,6 +377,30 @@ Content Rules
 
 * Create new rule "a new talk is in town"!
 * New content in folder "Talks" -> Send Mail to reviewers.
+
+.. figure:: _static/features_add_rule_1.png
+    :scale: 60 %
+    :alt: Add a rule through the web.
+	
+    Add a rule through the web.
+		
+.. figure:: _static/features_add_rule_2.png
+    :scale: 30 %
+    :alt: Add an action to the rule.
+	
+    Add an action to the rule.
+		
+.. figure:: _static/features_add_rule_3.png
+    :scale: 60 %
+    :alt: Add mail action.
+	
+    Add mail action.
+		
+.. figure:: _static/features_add_rule_4.png
+    :scale: 60 %
+    :alt: Assign the newly created rule.
+	
+    Assign the newly created rule.
 
 
 .. _features-history-label:

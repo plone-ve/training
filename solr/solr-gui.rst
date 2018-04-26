@@ -109,7 +109,7 @@ Copy query from Solr GUI, e.g.::
 
     http://localhost:8983/solr/collection1/select?q=Title%3A%22termine%22&wt=json&indent=true
 
-You can use curl or the Python package `requests` (https://pypi.python.org/pypi/requests) to access the REST API of Solr.
+You can use curl or the Python package `requests` (https://pypi.org/project/requests) to access the REST API of Solr.
 
 Solr Query Via API
 ==================
@@ -122,9 +122,9 @@ which is old but still works for our case.
 Meanwhile there are other packages around.
 Here are some examples:
 
- - ``mysolr``: https://pypi.python.org/pypi/mysolr/0.8.3
- - ``solrpy``: https://pypi.python.org/pypi/solrpy3/0.98
- - ``pysolr``: https://pypi.python.org/pypi/pysolr/3.5.0
+ - ``mysolr``: https://pypi.org/project/mysolr/0.8.3
+ - ``solrpy``: https://pypi.org/project/solrpy3/0.98
+ - ``pysolr``: https://pypi.org/project/pysolr/3.5.0
 
 Sometimes it is handy to have a separate virtualenv available for doing batch operations (delete, update, etc.)
 
@@ -235,8 +235,8 @@ Faceting
 ========
 
 Faceting is one of the killer features of Solr.
-It allows the grouping nd filtering results for better find ability.
-To enable faceting you need o turn faceting on in the query and specify the fields you want tofacet upon:
+It allows the grouping and filtering results for better findability.
+To enable faceting you need to turn faceting on in the query and specify the fields you want to facet upon:
 
 For a simple facet query in Solr you activate the feature and specify the facet fields(s)::
 
