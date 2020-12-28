@@ -15,7 +15,7 @@ This is a lot of steps to do, and there are a lot of actions that can go wrong. 
 
 There once was a book on python. It also had a chapter on releasing an egg with sample code. The sample code was about a printer of nested lists. There are a lot of packages to print out nested lists on pypi.
 
-We will avoid this. Everybody, go to `testpypi.python.org <https://testpypi.python.org>`_ and create an account now.
+We will avoid this. Everybody, go to `testpypi.python.org <https://test.pypi.org/>`_ and create an account now.
 
 Next, copy the pypirc_sample file to ~/.pypirc, modify it to contain your real username and password.
 

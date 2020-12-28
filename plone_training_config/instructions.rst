@@ -41,7 +41,7 @@ If you feel comfortable, please work on your own machine with your own Python. B
         sudo apt-get install libreadline-dev wv poppler-utils
         sudo apt-get install git
 
-    For more information or in case of problems see the `official installation instructions <http://docs.plone.org/4/en/manage/installing/installation.html>`_.
+    For more information or in case of problems see the `official installation instructions <https://docs.plone.org/4/en/manage/installing/installation.html>`_.
 
 
 
@@ -92,7 +92,7 @@ The output should be similar to:
     or remove ENABLE_PRINTING_MAILHOST from the environment variables to
     return to normal e-mail sending.
 
-    See https://pypi.python.org/pypi/Products.PrintingMailHost
+    See https://pypi.org/project/Products.PrintingMailHost
 
     ******************************************************************************
 
@@ -224,7 +224,7 @@ Once Vagrant finishes the provisioning process, you can login to the now running
 
 .. note::
 
-    If you use Windows you'll have to login with `putty <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>`_. Connect to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``.
+    If you use Windows you'll have to login with `putty <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_. Connect to vagrant@127.0.01 at port 2222. User **and** password are ``vagrant``.
 
 You are now logged in as the user vagrant in ``/home/vagrant``. We'll do all steps of the training as this user.
 
@@ -252,7 +252,7 @@ Instead we use our own Plone instance during the training. It is in ``/vagrant/b
     or remove ENABLE_PRINTING_MAILHOST from the environment variables to
     return to normal e-mail sending.
 
-    See https://pypi.python.org/pypi/Products.PrintingMailHost
+    See https://pypi.org/project/Products.PrintingMailHost
 
     ******************************************************************************
 

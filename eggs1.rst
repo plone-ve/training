@@ -24,7 +24,7 @@ Topics covered:
 Creating the distribution
 -------------------------
 
-Our own code has to be organized as a python distribution, also called *egg*. An egg is a zip file or a directory that follows certain conventions. We are going to use `bobtemplates.plone <https://pypi.python.org/pypi/bobtemplates.plone>`_ to create a skeleton project. We only need to fill in the blanks.
+Our own code has to be organized as a python distribution, also called *egg*. An egg is a zip file or a directory that follows certain conventions. We are going to use `bobtemplates.plone <https://pypi.org/project/bobtemplates.plone>`_ to create a skeleton project. We only need to fill in the blanks.
 
 We create and enter the ``src`` directory (*src* is short for *sources*) and call a script called ``mrbob`` from our buildout's bin directory:
 

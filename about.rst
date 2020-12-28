@@ -1,7 +1,7 @@
 About Mastering Plone
 =====================
 
-This training was created by Philip Bauer and Patrick Gerken of `starzel.de <https://www.starzel.de>`_ to create a canonical training for future Plone developers. The aim is that anyone with the appropriate knowledge can give a training based on it and contribute to it. It is published as Open Source on `github <https://github.com/plone/training>`_ and `readthedocs <http://plone-training.readthedocs.io/en/legacy/>`_.
+This training was created by Philip Bauer and Patrick Gerken of `starzel.de <https://www.starzel.de>`_ to create a canonical training for future Plone developers. The aim is that anyone with the appropriate knowledge can give a training based on it and contribute to it. It is published as Open Source on `github <https://github.com/plone/training>`_ and `readthedocs <https://plone-training.readthedocs.io/en/legacy/>`_.
 
 If you want to inquire the original authors about organizing a training please contact them at team@starzel.de.
 
@@ -22,9 +22,9 @@ The Mastering Plone Training was so far held publicly at the following occasions
 * `June 2014, Caracas <https://twitter.com/hellfish2/status/476906131970068480>`_
 * `May 2014, Munich <https://www.starzel.de/blog/mastering-plone>`_
 * `PythonBrasil/Plone Conference 2013, Brasilia <http://2013.pythonbrasil.org.br/program/training/mastering-plone>`_
-* `PyCon DE 2012, Leipzig <https://2012.de.pycon.org/>`_
+* `PyCon DE 2012, Leipzig <https://2012.de.pycon.org/home/>`_
 * `Plone Conference 2012, Arnheim <http://2012.ploneconf.org/the-event/training/conference-trainings/mastering-plone>`_
-* `PyCon De 2011, Leipzig <http://2011.de.pycon.org/2011/home/>`_
+* `PyCon De 2011, Leipzig <https://2011.de.pycon.org/2011/home/>`_
 
 
 Trainers
@@ -141,14 +141,14 @@ You can now open the output from ``_build/html/index.html``. To build the presen
 Things to do before a training (as a trainer)
 +++++++++++++++++++++++++++++++++++++++++++++
 
-- Prepare a mailserver for the user registration mail (http://plone-training.readthedocs.io/en/legacy/features.html#configure-a-mailserver)
+- Prepare a mailserver for the user registration mail (https://plone-training.readthedocs.io/en/legacy/features.html#configure-a-mailserver)
 - If you do only a part of the training (Advanced) prepare a database with the steps of the previous sections. Be aware that the file- and blobstorage in the Vagrant box is here: /home/vagrant/var/ (not at the buildout path /vagrant/buildout/)
 
 
 Contributing
 ------------
 
-Everyone is **very welcome** to contribute. Minor bugfixes can be pushed direcly in the `repository <https://github.com/plone/training>`_, bigger changes should made as `pull-requests <https://github.com/plone/training/pull/>`_ and discussed previously in tickets.
+Everyone is **very welcome** to contribute. Minor bugfixes can be pushed direcly in the `repository <https://github.com/plone/training>`_, bigger changes should made as `pull-requests <https://github.com/plone/training/pulls/>`_ and discussed previously in tickets.
 
 
 License
@@ -156,7 +156,7 @@ License
 
 The Mastering Plone Training is licensed under a `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_.
 
-Make sure you have filled out a `Contributor Agreement <https://old.plone.org/foundation/contributors-agreement>`_.
+Make sure you have filled out a `Contributor Agreement <https://plone.org/foundation/contributors-agreement>`_.
 
 If you haven't filled out a Contributor Agreement, you can still contribute. Contact the Documentation team, for instance via the `mailinglist <https://sourceforge.net/p/plone/mailman/plone-docs/>`_ or directly send a mail to plone-docs@lists.sourceforge.net
 Basically, all we need is your written confirmation that you are agreeing your contribution can be under Creative Commons. You can also add in a comment with your pull request "I, <full name>, agree to have this published under Creative Commons 4.0 International BY".

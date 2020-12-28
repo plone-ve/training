@@ -30,7 +30,7 @@ Changelog
 ------------------
 
 - Move sources to https://github.com/plone/training and render
-  at http://plone-training.readthedocs.io/en/legacy/
+  at https://plone-training.readthedocs.io/en/legacy/
   [pbauer]
 
 - Integrate with docs.plone.org and papyrus
@@ -128,5 +128,5 @@ Changelog
 0.1 (October 2009)
 ------------------
 
-- Initial parts created for the Plone-Einsteigerkurs (http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht)
+- Initial parts created for the Plone-Einsteigerkurs (hsttps://www.plone.de/trainings/einsteiger-kurs/kursuebersicht)
   [pbauer]

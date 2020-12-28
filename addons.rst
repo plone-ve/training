@@ -10,12 +10,12 @@
 How to find add-ons
 -------------------
 
-* https://pypi.python.org/pypi - use the search form!
+* https://pypi.org/ - use the search form!
 * https://github.com/collective >1200 repos
 * https://github.com/plone >260 repos
-* http://news.gmane.org/gmane.comp.web.zope.plone.user
-* google (e.g. `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)
-* Check shortlist `Plone Paragon <http://paragon.plone.org/>`_ (Launched August 2014)
+* https://www.mail-archive.com/search?l=all&q=plone-users
+* google (e.g. `Plone+Slider <https://lmgtfy.app/?q=plone+slider>`_)
+* Check shortlist `Plone Paragon <https://paragon.plone.org/>`_ (Launched August 2014)
 * ask in irc and on the mailing list
 
 .. seealso::
@@ -26,37 +26,37 @@ How to find add-ons
 Some notable add-ons
 ---------------------
 
-`Products.PloneFormGen <http://docs.plone.org/4/en/develop/plone/forms/ploneformgen.html>`_
+`Products.PloneFormGen <https://docs.plone.org/4/en/develop/plone/forms/ploneformgen.html>`_
   A form generator
 
-`collective.plonetruegallery <https://pypi.python.org/pypi/collective.plonetruegallery>`_
+`collective.plonetruegallery <https://pypi.org/project/collective.plonetruegallery>`_
   Photo galleries with a huge selection of various js-libraries
 
 `collective.cover <https://github.com/collective/collective.cover/blob/master/docs/end-user.rst>`_
   UI to create complex landing-pages
 
-`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_
+`collective.geo <https://collectivegeo.readthedocs.io/en/latest/>`_
   Flexible bundle of add-ons to georeference content and display in maps
 
-`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_
+`collective.mailchimp <https://pypi.org/project/collective.mailchimp>`_
   Allows visitors to subscribe to mailchimp newsletters
 
-`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_
+`eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_
   Create faceted navigation and searches through the web.
 
-`webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_
+`webcouturier.dropdownmenu <https://pypi.org/project/webcouturier.dropdownmenu>`_
   Turns global navigation into dropdowns
 
-`collective.quickupload <https://pypi.python.org/pypi/collective.quickupload>`_
+`collective.quickupload <https://pypi.org/project/collective.quickupload>`_
   Multi-file upload using drag&drop
 
-`Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_
+`Products.Doormat <https://pypi.org/project/Products.Doormat>`_
   A flexible doormat
 
 `collective.behavior.banner <https://github.com/collective/collective.behavior.banner>`_
   Add decorative banners and sliders
 
-`plone.app.multilingual <https://pypi.python.org/pypi/plone.app.multilingual>`_
+`plone.app.multilingual <https://pypi.org/project/plone.app.multilingual>`_
   Allows multilingual sites by translating content
 
 `Plomino <http://plomino.net/>`_
@@ -162,7 +162,7 @@ To advertise the conference we want to show some photos showing past conferences
 
 Instead of creating custom content types for galleries, it integrates with the Plone functionality to choose different views for folderish content types.
 
-https://pypi.python.org/pypi/collective.plonetruegallery
+https://pypi.org/project/collective.plonetruegallery
 
 * Activate the add-on
 * Enable the behavior ``Plone True Gallery`` on the type ``Folder``: http://localhost:8080/Plone/dexterity-types/Folder/@@behaviors (This step is only required because plonetruegallery does not yet know about the newer plone.app.contenttypes, which we activated to replace Plone's old content types with newer, Dexterity-style, ones.)
@@ -179,7 +179,7 @@ Plone can run the same site in many different languages.
 
 We're not doing this with the conference-site since the *lingua franca* of the Plone-community is English.
 
-We would use https://pypi.python.org/pypi/plone.app.multilingual for this. It is the successor of Products.LinguaPlone (which only works with Archetypes).
+We would use https://pypi.org/project/plone.app.multilingual for this. It is the successor of Products.LinguaPlone (which only works with Archetypes).
 
 .. note::
 

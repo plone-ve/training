@@ -58,7 +58,7 @@ We still need to fix a problem: Authenticated users can see all talks, even the 
 
 .. note::
 
-    The addon `plone.app.workflowmanager <https://pypi.python.org/pypi/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well.
+    The addon `plone.app.workflowmanager <https://pypi.org/project/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well.
 
 Done.
 
@@ -78,7 +78,7 @@ Workflow
 Self-registration
 *****************
 
-This has to happen in python in a custom `setuphandler.py <http://docs.plone.org/4/en/develop/addons/components/genericsetup.html#custom-installer-code-setuphandlers-py>`_ since there is not yet a exportable setting for this.
+This has to happen in python in a custom `setuphandler.py <https://docs.plone.org/4/en/develop/addons/components/genericsetup.html#custom-installer-code-setuphandlers-py>`_ since there is not yet a exportable setting for this.
 
 Register a import-step in ``configure.zcml``. It will be automatically run when (re-)installing the addon.
 

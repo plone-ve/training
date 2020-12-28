@@ -44,7 +44,7 @@ Some technologies and tools we use during the training:
 
     * `Virtualbox <https://www.virtualbox.org/>`_
     * `Vagrant <https://www.vagrantup.com/>`_
-    * `Ubuntu linux <https://www.ubuntu.com/>`_
+    * `Ubuntu linux <https://ubuntu.com/>`_
     * Through-the-web (TTW)
     * `Buildout <http://www.buildout.org/en/latest/>`_
     * A little XML
@@ -61,47 +61,47 @@ Some technologies and tools we use during the training:
     * `Python <https://www.python.org>`_
     * Dexterity
     * Viewlets
-    * `JQuery <http://jquery.com/>`_
+    * `JQuery <https://jquery.com/>`_
 
 What will we not do?
 --------------------
 
 We will not cover the following topics:
 
-* `Archetypes <http://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_
-* `Portlets <http://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_
-* `z3c.forms <http://docs.plone.org/4/en/develop/plone/forms/z3c.form.html>`_
-* `Theming <http://docs.plone.org/4/en/adapt-and-extend/theming/index.html>`_
-* `Testing <http://docs.plone.org/4/en/external/plone.app.testing/docs/source/index.html>`_
-* `i18n and locales <http://docs.plone.org/4/en/develop/plone/i18n/index.html>`_
-* `Deployment, Hosting and Caching <http://docs.plone.org/4/en/manage/deploying/index.html>`_
+* `Archetypes <https://docs.plone.org/4/en/old-reference-manuals/archetypes/index.html>`_
+* `Portlets <https://docs.plone.org/4/en/old-reference-manuals/portlets/index.html>`_
+* `z3c.forms <https://docs.plone.org/4/en/develop/plone/forms/z3c.form.html>`_
+* `Theming <https://docs.plone.org/4/en/adapt-and-extend/theming/index.html>`_
+* `Testing <https://docs.plone.org/4/en/external/plone.app.testing/docs/source/index.html>`_
+* `i18n and locales <https://docs.plone.org/4/en/develop/plone/i18n/index.html>`_
+* `Deployment, Hosting and Caching <https://docs.plone.org/4/en/manage/deploying/index.html>`_
 * :doc:`grok`
-* `References/Relations <http://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/references.html>`_
+* `References/Relations <https://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/references.html>`_
 
 Other topics are only covered lightly:
 
-* `Zope Component Architecture <http://docs.plone.org/4/en/develop/addons/components/index.html>`_
-* `GenericSetup <http://docs.plone.org/4/en/develop/addons/components/genericsetup.html>`_
-* `ZODB <http://docs.plone.org/4/en/develop/plone/persistency/index.html>`_
-* `Security <http://docs.plone.org/4/en/develop/plone/security/index.html>`_
-* `Permissions <http://docs.plone.org/4/en/develop/plone/security/permissions.html>`_
-* `Performance and Caching <http://docs.plone.org/4/en/manage/deploying/testing_tuning/performance/index.html>`_
+* `Zope Component Architecture <https://docs.plone.org/4/en/develop/addons/components/index.html>`_
+* `GenericSetup <https://docs.plone.org/4/en/develop/addons/components/genericsetup.html>`_
+* `ZODB <https://docs.plone.org/4/en/develop/plone/persistency/index.html>`_
+* `Security <https://docs.plone.org/4/en/develop/plone/security/index.html>`_
+* `Permissions <https://docs.plone.org/4/en/develop/plone/security/permissions.html>`_
+* `Performance and Caching <https://docs.plone.org/4/en/manage/deploying/testing_tuning/performance/index.html>`_
 
 What to expect
 --------------
 
-At the end of the first two days of training, you'll know many of the tools required for Plone installation, integration and configuration. You'll be able to install add-on packages and will know something about the technologies underlying Plone and their histories. You'll be ready to extend your skills via reading books like `Practical Plone <http://www.packtpub.com/practical-plone-3-beginners-guide-to-building-powerful-websites/book>`_ and the `Plone documentation <http://docs.plone.org>`_.
+At the end of the first two days of training, you'll know many of the tools required for Plone installation, integration and configuration. You'll be able to install add-on packages and will know something about the technologies underlying Plone and their histories. You'll be ready to extend your skills via reading books like `Practical Plone <https://www.packtpub.com/product/practical-plone-3-a-beginner-s-guide-to-building-powerful-websites/9781847191786>`_ and the `Plone documentation <https://docs.plone.org>`_.
 
 At the end of the second two days, you won't be a complete professional Plone-programmer, but you will know some of the more powerful features of Plone and should be able to construct a more complex website with custom themes and packages. You should also be able to find out where to look for instructions to do tasks we did not cover. You will know most of the core technologies involved in Plone programming.
 
-If you want to become a professional Plone developer or a highly sophisticated Plone integrator you should definitely read `Martin Aspeli's book <http://www.packtpub.com/professional-plone-4-development/book>`_ and then re-read it again while actually doing a complex project.
+If you want to become a professional Plone developer or a highly sophisticated Plone integrator you should definitely read `Martin Aspeli's book <https://www.packtpub.com/product/professional-plone-4-development/9781849514422>`_ and then re-read it again while actually doing a complex project.
 
-Most importantly you should practice your skills and not stop here but go forward! One recommended way would be to follow the `todo-app <http://tutorialtodoapp.readthedocs.io/en/latest/>`_.
+Most importantly you should practice your skills and not stop here but go forward! One recommended way would be to follow the `todo-app <https://tutorialtodoapp.readthedocs.io/en/latest/>`_.
 
 Documentation
 --------------
 
-Follow the training at http://plone-training.readthedocs.io/en/legacy/
+Follow the training at https://plone-training.readthedocs.io/en/legacy/
 
 .. note::
 
@@ -110,9 +110,9 @@ Follow the training at http://plone-training.readthedocs.io/en/legacy/
 
 Further Reading
 ---------------
-* `Martin Aspeli: Professional Plone4 Development <http://www.packtpub.com/professional-plone-4-development/book>`_
-* `Practical Plone <http://www.packtpub.com/practical-plone-3-beginners-guide-to-building-powerful-websites/book>`_
-* `Zope Page Templates Reference <http://docs.zope.org/zope2/zope2book/AppendixC.html>`_
+* `Martin Aspeli: Professional Plone4 Development <https://www.packtpub.com/product/professional-plone-4-development/9781849514422>`_
+* `Practical Plone <https://www.packtpub.com/product/practical-plone-3-a-beginner-s-guide-to-building-powerful-websites/9781847191786>`_
+* `Zope Page Templates Reference <https://zope.readthedocs.io/en/latest/zopebook/AppendixC.html>`_
 
 .. only:: not presentation
 

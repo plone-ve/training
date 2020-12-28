@@ -39,14 +39,14 @@ Zope2
 
     .. seealso::
 
-        http://www.zope.org/the-world-of-zope
-        http://docs.zope.org/zope2/zope2book/
+        https://www.zope.org/world.html
+        https://zope.readthedocs.io/en/latest/zopebook/
 
 
 Content Management Framework
 ----------------------------
 
-* `CMF (Content Management Framework) <http://old.zope.org/Products/CMF/index.html/>`_ is add-on for Zope to build Content Management Systems (like Plone).
+* `CMF (Content Management Framework) <https://old.zope.org/Products/CMF/index.html/>`_ is add-on for Zope to build Content Management Systems (like Plone).
 
 
 .. only:: not presentation
@@ -79,7 +79,7 @@ Zope Toolkit / Zope3
 
     .. seealso::
 
-        https://old.plone.org/documentation/faq/zope-3-and-plone
+        https://training.plone.org/4/anatomy.html#zope-toolkit-zope3
 
 
 Zope Component Architecture (ZCA)
@@ -91,8 +91,8 @@ The `Zope Component Architecture <http://muthukadan.net/docs/zca.html>`_, which 
 Pyramid
 -------
 
-* `Pyramid <http://docs.pylonsproject.org/en/latest/docs/pyramid.html>`_ is a Python web application development framework that is often seen as the successor to Zope.
-* It does less than Zope, is very pluggable and `uses the Zope Component Architecture <http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_.
+* `Pyramid <https://trypyramid.com/documentation.html>`_ is a Python web application development framework that is often seen as the successor to Zope.
+* It does less than Zope, is very pluggable and `uses the Zope Component Architecture <https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_.
 
 .. only:: not presentation
 

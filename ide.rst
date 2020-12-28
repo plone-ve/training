@@ -6,9 +6,9 @@ Plone consists of more than 20.000 files! You need a tool to manage that. No dev
 People pick editors themselves. Use whatever you are comfortable and productive with. These are the most used editors in the Plone community:
 
 * `Sublime <http://www.sublimetext.com/>`_
-* `PyCharm <http://www.jetbrains.com/pycharm/>`_
+* `PyCharm <https://www.jetbrains.com/pycharm/>`_
 * `Wing IDE <http://wingide.com/>`_
-* `PyDev <http://www.pydev.org/>`_ for `Eclipse <https://eclipse.org/>`_
+* `PyDev <https://www.pydev.org/>`_ for `Eclipse <https://www.eclipse.org/>`_
 * `Aptana Studio <http://www.aptana.com/products/studio3.html>`_
 * vim
 * emacs

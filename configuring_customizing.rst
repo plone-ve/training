@@ -151,7 +151,7 @@ We want a new link to legal information, called "Imprint".
 
 .. seealso::
 
-    http://docs.plone.org/4/en/develop/plone/functionality/actions.html
+    https://docs.plone.org/4/en/develop/plone/functionality/actions.html
 
 
 Global navigation
@@ -187,7 +187,7 @@ In portal_skins we can change certain images, css-files and templates.
 
     Plone 5 will get rid of a lot of functionality that still lives in portal_skins.
 
-    We used to do this part of the training with `plone.app.themeeditor <https://pypi.python.org/pypi/plone.app.themeeditor>`_ which has a much nicer UI than the ZMI but also has dependencies that are incompatible with ZopeSkel and is not widely used.
+    We used to do this part of the training with `plone.app.themeeditor <https://pypi.org/project/plone.app.themeeditor>`_ which has a much nicer UI than the ZMI but also has dependencies that are incompatible with ZopeSkel and is not widely used.
 
 
 Change some css
@@ -258,7 +258,7 @@ Let's change the Logo.
 
 .. seealso::
 
-   http://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html
+   https://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html
 
 
 portal_view_customizations
@@ -285,7 +285,7 @@ Change the footer
 
 .. seealso::
 
-   http://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/skin_layers.html
+   https://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/skin_layers.html
 
 
 CSS-Registry (portal_css)

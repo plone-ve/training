@@ -543,9 +543,9 @@ There is a lot more about TAL, TALES and METAL that we have not covered. You'll 
 
 .. seealso::
 
-  * http://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/template_basics.html
-  * Using Zope Page Templates: http://docs.zope.org/zope2/zope2book/ZPT.html
-  * Zope Page Templates Reference: http://docs.zope.org/zope2/zope2book/AppendixC.html
+  * https://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/template_basics.html
+  * Using Zope Page Templates: https://zope.readthedocs.io/en/latest/zopebook/ZPT.html
+  * Zope Page Templates Reference: https://zope.readthedocs.io/en/latest/zopebook/AppendixC.html
 
 Chameleon
 ---------
@@ -554,7 +554,7 @@ Chameleon is the successor of TAL and will be shipped in Plone 5.
 
 - Plip for Chameleon: https://dev.plone.org/ticket/12198
 - Homepage: http://www.pagetemplates.org/
-- Integration-layer for Plone: `five.pt <https://pypi.python.org/pypi/five.pt>`_
+- Integration-layer for Plone: `five.pt <https://pypi.org/project/five.pt>`_
 
 In Plone 4 we still use the default ZPT.
 

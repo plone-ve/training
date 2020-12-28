@@ -8,7 +8,7 @@ If the chapters about views seem complex, the now shown custom search addon migh
 eea.facetednavigation
 ---------------------
 
-* Install `eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_
+* Install `eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_
 * Enable faceted navigation on a new folder "Discover talks" by clicking on *actions* > *Enable faceted navigation*
 * Click on the tab *Faceted criteria* to configure it
 
@@ -20,15 +20,15 @@ eea.facetednavigation
 
 Examples:
 
-* http://www.dipf.de/en/research/projects
-* https://mountaineers.org/learn/find-courses-clinics-seminars
-* http://www.dynajet.de/en/hochdruckreiniger
+* https://www.dipf.de/en/research/current-projects
+* https://www.mountaineers.org/courses/courses-clinics-seminars
+* https://www.dyna-jet.com/hochdruckreiniger
 
 .. TODO: add custom eea-view using dates
 
 .. seealso::
 
-    We use the new catalog indexes to provide the data for the widgets and search the results. For other use-cases we could also use either the built-in vocabularies (https://pypi.python.org/pypi/plone.app.vocabularies) or create custom vocabularies for this.
+    We use the new catalog indexes to provide the data for the widgets and search the results. For other use-cases we could also use either the built-in vocabularies (https://pypi.org/project/plone.app.vocabularies) or create custom vocabularies for this.
 
-    * Custom vocabularies ttw using `Products.ATVocabularyManager <https://pypi.python.org/pypi/Products.ATVocabularyManager>`_
-    * Programming using Vocabularies: http://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/vocabularies.html
+    * Custom vocabularies ttw using `Products.ATVocabularyManager <https://pypi.org/project/Products.ATVocabularyManager>`_
+    * Programming using Vocabularies: https://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/vocabularies.html
