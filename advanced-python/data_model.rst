@@ -1,7 +1,7 @@
 Exploiting Python's data model
 ==============================
 
-To make our session store easy to as if it was a dictionary, we implement
+To make our session store easy to use as if it was a dictionary, we implement
 out middleware by crafting a class which behaves like that. For that purpose,
 we are taking a small diversion from WSGI to Python's Data Model. We enter
 the realm of so called **magic methods** also known as ``__dunder__``
@@ -86,7 +86,7 @@ verbose code, here is an example from `web.request.Request` (which is almost
              return url
 
 We can do much better than creating methods and decorating them with
-properties. Instead we craft a special container class which wrapps
+properties. Instead we craft a special container class which wraps
 the environment and allows us to access keys as if they where attributes.
 
 
@@ -115,8 +115,8 @@ specially crafted decorator:
        ...
        return url
 
-Abitility to extened
-++++++++++++++++++++
+Ability to extend
++++++++++++++++++
 
 If we want our framework to be public it might be a good idea to have some
 kind of a plugin system. But even if our framework is intended for a use
@@ -126,8 +126,8 @@ are easy enough, but also safe to use.
 For example, suppose we want to replace our dictionary based session with
 a Redis cache, but we don't want to break the API. We do this with caution,
 and we think, we might want to replace Redis in some other Key-Value
-storage. We demonstrate, how the use of meta classes can enforce programmers,
-to obay some certain structure, with out throwing a ``RuntimeError`` or an
+storage. We demonstrate how the use of meta classes can enforce programmers
+to obey some certain structure, without throwing a ``RuntimeError`` or an
 ``AttributeError``, which in some cases might be too late.
 
 

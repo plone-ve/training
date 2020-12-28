@@ -3,11 +3,23 @@
 Page Templates
 ==============
 
-.. sidebar:: Get the code!
+.. sidebar:: Classic chapter
 
-    Get the code for this chapter (:doc:`More info <code>`):
+  .. figure:: _static/plone.svg
+     :alt: Plone Logo
 
-    ..  code-block:: console
+  This chapter is about Plone Classic.
+
+  Solve the same tasks in the Volto frontend in chapter :doc:`volto_semantic_ui`
+
+
+.. sidebar:: Get the code! (:doc:`More info <code>`)
+
+   Code for the beginning of this chapter::
+
+       git checkout views_1
+
+   Code for the end of this chapter::
 
         git checkout zpt
 
@@ -47,15 +59,7 @@ The three languages are:
 TAL and METAL are written like HTML attributes (href, src, title).
 TALES are written like the values of HTML attributes.
 
-A typical TAL attribute looks like this:
-
-.. code-block:: html
-
-    <title tal:content="context/title">
-        The Title of the content
-    </title>
-
-It's used to modify the output:
+They are used to modify the output:
 
 .. code-block:: html
 
@@ -127,7 +131,7 @@ We used three TAL-Attributes here.
 This is the complete list of TAL-attributes:
 
 ``tal:define``
-    define variables. We defined the variable ``a_fine_url`` to the string "https://www.ploneconf.org/"
+    define variables. We defined the variable ``a_fine_url`` to the string ``"https://www.ploneconf.org/"``.
 
 ``tal:content``
     replace the content of an element. We replaced the default content above with "An even better conference"
@@ -151,24 +155,42 @@ This is the complete list of TAL-attributes:
     handle errors.
 
 
+.. _python-expressions-label:
+
 python expressions
 ++++++++++++++++++
 
 Till now we only used one TALES expression (the ``string:`` bit).
 Let's use a different TALES expression now.
 
-With ``Python:`` we can use Python code.
+With ``python:`` we can use Python code.
 
 A example:
 
 .. code-block:: html
 
-    <p tal:define="title context/title"
+    <p tal:define="title python:context.title"
        tal:content="python:title.upper()">
        A big title
     </p>
 
-And another:
+With ``context.title`` you access information from the context object, that is the object on which the view is called. Modify the template :file:`training.pt` like this
+
+.. code-block:: xml
+
+    <p>
+      ${python: 'This is the {0} "{1}" at {2}'.format(context.portal_type, context.title, context.absolute_url())}
+    </p>
+
+Now call the view on different urls and see what happens:
+
+* http://localhost:8080/Plone/training
+* http://localhost:8080/Plone/news/training
+* http://localhost:8080/Plone/events/aggregator/training
+* http://localhost:8080/Plone/the-event/training
+* http://localhost:8080/Plone/news/conference-website-online/training
+
+And another python-statement:
 
 .. code-block:: html
 
@@ -180,10 +202,10 @@ And another:
         A talk
     </p>
 
-With python expressions
+With python expressions:
 
 * you can only write single statements
-* you could import things but you should not (example: ``tal:define="something modules/Products.PythonScripts/something;``).
+* you could import things but you should not
 
 
 tal:condition
@@ -198,7 +220,7 @@ tal:condition
 
 Let's add another TAL Attribute to our above example::
 
-    tal:condition="talks"
+    tal:condition="python:talks"
 
 We could also test for the number of talks::
 
@@ -455,13 +477,12 @@ When an element has multiple TAL attributes, they are executed in this order:
 6. omit-tag
 
 
-Plone 5
--------
+Chameleon
+---------
 
-Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.readthedocs.io/en/latest/>`_.
+Since Plone 5 we have `Chameleon <https://chameleon.readthedocs.io/en/latest/>`_.
 
-Using the integration layer `five.pt <https://pypi.org/project/five.pt>`_ it is fully compatible with the normal TAL syntax
-but offers some additional features:
+Using the integration layer `five.pt <https://pypi.org/project/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:
 
 You can use ``${...}`` as short-hand for text insertion in pure html effectively making ``tal:content`` and ``tal:attributes`` obsolete.
 
@@ -750,7 +771,7 @@ if the ordinal index of the current iteration is an odd number).
             </tr>
         </table>
 
-6. Use the new syntax of Plone 5
+6. Use the syntax of Plone 5 replacing ``tal:attribute`` and ``tal:content`` with inline ``${}`` statements.
 
 ..  admonition:: Solution
     :class: toggle
@@ -832,7 +853,9 @@ if the ordinal index of the current iteration is an odd number).
             </tr>
         </table>
 
-    Do not use this trick in your projects! This level of python-logic belongs in a class, not in a template.
+    .. warning::
+
+        Do not use this trick in your projects! This level of python-logic belongs in a class, not in a template!
 
 
 METAL and macros
@@ -844,7 +867,7 @@ How do we get our HTML to render in Plone the UI?
 
 We use METAL (Macro Extension to TAL) to define slots that we can fill and macros that we can reuse.
 
-We add to the ``<html>`` tag::
+Add this to the ``<html>`` tag::
 
     metal:use-macro="context/main_template/macros/master"
 
@@ -852,11 +875,13 @@ And then wrap the code we want to put in the content area of Plone in:
 
 .. code-block:: xml
 
-    <metal:content-core fill-slot="content-core">
+    <metal:content-core fill-slot="main">
         ...
     </metal:content-core>
 
 This will put our code in a section defined in the main_template called "content-core".
+
+Now replace the ``main`` in ``fill-slot="main"`` with ``content-core`` and see what changes.
 
 The template should now look like below when we exclude the last exercise.
 
@@ -957,13 +982,51 @@ being used in our @@training browser view template.
 Accessing Plone from the template
 ---------------------------------
 
-In our template you have access to:
+In the template you have access to:
 
 * the **context** object on which your view is called on
-* the **view** itself (and all python methods we'll put in the view later on)
+* the **view** (and all python methods we'll put in the view later on)
 * the **request**
 
-With these three we can do almost anything!
+With these three you can do almost anything!
+
+Create a new talk object "Dexterity for the win!" and add some information to all fields, especially the speaker and the email-address.
+
+Now access the view ``training`` on that new talk by opening http://localhost:8080/Plone/dexterity-for-the-win/training in the browser.
+
+It will look the same as before.
+
+Now modify the template :file:`training.pt` to display the title of the context:
+
+.. code-block:: html
+
+    <h1>${python: context.title}</h1>
+
+
+Exercise 2
+----------
+
+* Render a mail-link to the speaker.
+* Display the speaker instead of the raw email-address.
+* If there is no speaker-name display the address.
+* Modify attributes of html-tags by adding your statements into the attributes directly like ``title="${python: context.type_of_talk.capitalize()}"``.
+
+..  admonition:: Solution
+    :class: toggle
+
+    .. code-block:: html
+
+        <a href="${python: 'mailto:{0}'.format(context.email)}">
+           ${python: context.speaker if context.speaker else context.email}
+        </a>
+
+    .. note::
+
+        Alternatively you can also use ``tal:attributes="<attr> <value>"`` to modify attributes.
+
+
+Accessing other views
+---------------------
 
 In templates we can also access other browser views. Some of those exist to provide easy access to methods we often need::
 
@@ -1008,6 +1071,6 @@ You'll only learn it if you keep reading, writing and customizing templates.
 .. seealso::
 
   * https://docs.plone.org/adapt-and-extend/theming/templates_css/template_basics.html
-  * Using Zope Page Templates: https://zope.readthedocs.io/en/latest/zope2book/ZPT.html
-  * Zope Page Templates Reference: https://zope.readthedocs.io/en/latest/zope2book/AppendixC.html
+  * Using Zope Page Templates: https://zope.readthedocs.io/en/latest/zopebook/ZPT.html
+  * Zope Page Templates Reference: https://zope.readthedocs.io/en/latest/zopebook/AppendixC.html
   * https://chameleon.readthedocs.io/en/latest/

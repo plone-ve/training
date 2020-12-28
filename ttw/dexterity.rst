@@ -80,7 +80,7 @@ What are the differences?
 
 * Dexterity has a good TTW story.
 * Archetypes has no TTW story.
-* UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://web.archive.org/web/20170411060701/http://agx.me/>`_ for Dexterity
+* UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://github.com/bluedynamics/agx.dev>`_ for Dexterity
 
 Approaches for Developers:
 
@@ -195,7 +195,7 @@ Here is the complete XML schema created by our actions:
           <values>
             <element>Beginner</element>
             <element>Advanced</element>
-            <element>Professionals</element>
+            <element>Professional</element>
           </values>
         </value_type>
       </field>

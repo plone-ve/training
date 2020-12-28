@@ -71,9 +71,9 @@ with a dictionary and map a ``PATH_INFO`` to a callable. The middleware should u
 
 
 While this solution is pretty primitive it is understand and extend.
-Essententialy, many WSGI framework have some kind of a ``Mapping``
+Essentially, many WSGI framework have some kind of a ``Mapping``
 class which is responsible for this mechanism.
-For example, in Djanog one defines in ``urls.py`` a list of patters,
+For example, in Django one defines in ``urls.py`` a list of patters,
 which are a regular expression and callable ``view``. Here is an
 example from the most venerable Django polls tutorial:
 

@@ -1,4 +1,4 @@
-.. _deployment-buildout-label:
+.. _deployment_sites-label:
 
 Buildout II: Getting Ready for Deployment
 =========================================
@@ -19,7 +19,7 @@ It has some notable features:
 
       [buildout]
       extends =
-          https://raw.githubusercontent.com/starzel/buildout/5.0.5/linkto/base.cfg
+          https://raw.githubusercontent.com/starzel/buildout/5.1.2/linkto/base.cfg
 
 * It allows to update a project simply by changing the version it extends.
 * It allows to update all projects of one version by changing remote files (very useful for HotFixes).
@@ -36,7 +36,36 @@ Another noteable buildout to look for inspiration:
 A deployment setup
 ------------------
 
-Deploying Plone and production-setups are outside the scope for this training. Please see https://docs.plone.org/manage/deploying/index.html
+A 'normal' deployment setup could look like this:
+
+
+.. code-block:: text
+
+    ZEO-Server   ->   ZEO-Server (ZRS)
+
+       / | \
+
+    ZEO Clients (as many as you want)
+
+       \ | /
+
+    Load balancer (nginx or haproxy)
+
+         |
+
+       Cache (varnish)
+
+         |
+
+    Webserver (nginx)
+
+
+Deploying Plone and production-setups are outside the scope for this training.
+
+.. seealso::
+
+    * https://docs.plone.org/manage/deploying/index.html
+    * https://training.plone.org/5/deployment
 
 .. _deployment-tools-label:
 

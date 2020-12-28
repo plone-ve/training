@@ -3,37 +3,106 @@
 The Anatomy of Plone
 ====================
 
+.. todo::
+
+    * Update or remove.
+
+
 In this part you will:
 
-* Learn a bit about the history of Plone.
+* Learn a bit about the history and architecture of Plone.
 
 Topics covered:
 
+* ZODB
 * CMF
 * Zope
-* Pyramid
-* Bluebream
+* REST API
+
+Plone started as a extension for CMF, which is a extension for Zope.
+Python, ZODB, Zope, CMF, Plone, Volto ... -- how does all that fit together?
 
 
-Python, Zope, CMF, Plone ... -- how does all that fit together?
+
+.. todo::
+
+    Add a diagram showing the different parts and how they fit together::
+
+        VOLTO
+          ↑
+        RESTAPI
+          ↑
+        PLONE
+          ↑
+        ZOPE
+          ↑
+        ZODB
+          ↑
+        Python
+
+
+Database
+--------
+
+To store data Plone uses a database called `ZODB`.
+
+* `ZODB <http://www.zodb.org/en/latest/>`_: A native object database for Python
+
+  * There is no separate language for database operations like SQL
+  * There is very little impact on code to make objects persistent
+  * Object database != ORM
+  * There is almost no seam between code and database.
+
+.. code-block:: python
+
+    import persistent
+
+    class Account(persistent.Persistent):
+
+        def __init__(self):
+            self.balance = 0.0
+
+        def deposit(self, amount):
+            self.balance += amount
+
+        def cash(self, amount):
+            assert amount < self.balance
+            self.balance -= amount
+
+* "NoSQL"
+* `ZEO <https://github.com/zopefoundation/ZEO>`_: Server + many clients
+* `ZRS <https://github.com/zopefoundation/zc.zrs>`_: DB-Replication
+* `RelStorage <https://relstorage.readthedocs.io/en/latest/>`_ (store pickles in a relational database) for Postgres, MySQL etc.
+* blobstorage (binary large objects) in filesystem
 
 
 .. _anatomy-zope2-label:
 
-Zope2
------
+Zope
+----
 
 * Zope is a web application framework that Plone runs on top of.
 * The majority of Zope's code is written in Python, like everything else written on top of it.
 * It serves applications that communicate with users via http.
 
+.. note::
+
+   **The great Version-Confusion**
+
+   * Plone was always based on Zope 2.x. Starting with Plone 5.2+ it uses Zope 4.x
+   * Starting with Zope 4.0, the package is only called Zope (not Zope2 or Zope4)
+   * *Zope 3* is **not** a version of Zope but an ill-named rewrite of Zope 2 *(sigh)*
+   * 4.x is a mayor new release of Zope that supports Python 3 (among many other improvements)
+
+
 .. only:: not presentation
 
-    Before Zope, there usually was an Apache server that would call a script and give the request as an input.
+    Before Zope, web applications were often realized using plain `CGI <https://en.wikipedia.org/wiki/Common_Gateway_Interface>`_.
+    An Apache web server would execute a script with the request data passed to it on standard input and as environment variables.
     The script would then just print HTML to the standard output.
     Apache returned that to the user.
     Opening database connections, checking permission constraints, generating valid HTML, configuring caching,
-    interpreting form data and everything else: you have to do it on your own.
+    interpreting form data and everything else: you had to do it on your own.
 
     When the second request comes in, you have to do everything again.
 
@@ -49,47 +118,49 @@ Zope2
 
     Traversal through the object database is security checked at every point via very fine grained access-control lists.
 
-    One missing piece is important and complicated: ``Acquisition``.
+    .. note::
 
-    Acquisition is a kind of magic. Imagine a programming system where you do not access the file system and where you do not need to import code.
-    You work with objects.
-    An object can be a folder that contains more objects, an HTML page, data, or another script.
+        **Acquisition**
 
-    To access an object, you need to know where the object is.
-    Objects are found by paths that look like URLs, but without the domain name.
-    Now Acquisition allows you to write an incomplete path.
+        One missing piece is important and complicated: ``Acquisition``.
 
-    An incomplete path is a relative path, it does not explicitly state that the path starts from the root,
-    it starts relative to where the content object is -- its context.
+        Acquisition is a kind of magic. Imagine a programming system where you do not access the file system and where you do not need to import code.
+        You work with objects.
+        An object can be a folder that contains more objects, an HTML page, data, or another script.
 
-    If Zope cannot resolve the path to an object relative to your code, it tries the same path in the containing folder.
-    And then the folder containing the folder.
+        To access an object, you need to know where the object is.
+        Objects are found by paths that look like URLs, but without the domain name.
+        Now Acquisition allows you to write an incomplete path.
 
-    This might sound weird, what do I gain with this?
+        An incomplete path is a relative path, it does not explicitly state that the path starts from the root,
+        it starts relative to where the content object is -- its context.
 
-    You can have different data or code depending on your :py:obj:`context`.
-    Imagine you want to have header images differing for each section of your page, sometimes even differing for a specific subsection of your site.
+        If Zope cannot resolve the path to an object relative to your code, it tries the same path in the containing folder.
+        And then the folder containing the folder.
 
-    You define a path ``header_image`` and put a header image at the root of your site.
-    If you want a folder with a different header image, you put the header image into this folder.
+        This might sound weird, what do I gain with this?
 
-    Please take a minute to let this settle and think about what this allows you to do.
+        You can have different data or code depending on your :py:obj:`context`.
+        Imagine you want to have header images differing for each section of your page, sometimes even differing for a specific subsection of your site.
 
-    - contact forms with different e-mail addresses per section
-    - different CSS styles for different parts of your site
-    - One site, multiple customers, everything looks different for each customer.
+        You define a path ``header_image`` and put a header image at the root of your site.
+        If you want a folder with a different header image, you put the header image into this folder.
 
-    As with all programming magic, acquisition exacts a price.
-    Zope code must be written carefully in order to avoid inheriting side effects via acquisition.
+        Please take a minute to let this settle and think about what this allows you to do.
 
-    The Zope community expresses this with the Python (Monty) maxim: Beware the `Spammish Acquisition`.
+        - contact forms with different e-mail addresses per section
+        - different CSS styles for different parts of your site
+        - One site, multiple customers, everything looks different for each customer.
 
-    Basically this is Zope.
+        As with all programming magic, acquisition exacts a price.
+        Zope code must be written carefully in order to avoid inheriting side effects via acquisition.
+
+        The Zope community expresses this with the Python (Monty) maxim: Beware the `Spammish Acquisition`.
 
     .. seealso::
 
-       * http://www.zope.org/en/latest/world.html
-       * https://zope.readthedocs.io/en/latest/zope2book/
+       * https://www.zope.org/world.html
+       * https://zope.readthedocs.io/en/latest/zopebook/
 
 
 .. _anatomy-CMF-label:
@@ -126,6 +197,7 @@ Zope Toolkit / Zope3
 
 * Zope 3 was originally intended as a rewrite of Zope from the ground up.
 * Plone uses parts of it provided by the `Zope Toolkit (ZTK) <https://zopetoolkit.readthedocs.io/en/latest/>`_.
+* The name was very unfortunate since it was in no way compatible with Zope 2
 
 .. only:: not presentation
 
@@ -185,12 +257,33 @@ Exercise
 
 Definition of the PYTHON_PATH makes up most of the `bin/instance` script's code.
 Look at the package list (and maybe also the links provided in the respective sections of this chapter).
-Try to identify 3 packages that belong to the original Zope2, 3 packages from CMF, 3 Zope Toolkit packages and 3 packages from the ZCA.
+Try to identify 3 packages that belong to Zope 4, 3 packages from CMF, 3 Zope Toolkit packages and 3 packages from the ZCA.
 
 ..  admonition:: Solution
     :class: toggle
 
-    * Zope2: Zope2, ZODB, Acquisition, AccessControl, ...
+    * Zope 4: Zope, ZODB, Acquisition, AccessControl, ...
     * CMF: Products.CMFCore, Products.CMFUid, Products.CMFEditions, ... Products.DCWorkflow doesn't fit the pattern but is a very important part of the CMF
     * ZTK: zope.browser, zope.container, zope.pagetemplate, ... You can find a complete list `here <https://dist.plone.org/versions/zopetoolkit-1-0-8-zopeapp-versions.cfg>`_
     * ZCA: zope.component, zope.interface, zope.event
+
+.. _anatomy-plone-label:
+
+Plone
+-----
+
+TBD
+
+.. _anatomy-restapi-label:
+
+REST API
+--------
+
+TBD
+
+.. _anatomy-volto-label:
+
+Volto
+-----
+
+TBD

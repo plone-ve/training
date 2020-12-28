@@ -3,26 +3,60 @@
 Extending Plone
 ===============
 
+.. sidebar:: Classic chapter
+
+  .. figure:: _static/plone.svg
+     :alt: Plone Logo
+
+  This chapter is about the Plone backend.
+
+  For extending Volto frontend see chapters 
+
+  * :ref:`volto_richtexteditor-label`
+  * :ref:`volto_custom_block-label`
+  * :ref:`volto_addon-label`
+  * :ref:`volto_custom_addon-label`
+
+
 In this part you will:
 
 * Get an overview over the technologies used to extend Plone
 
 Topics covered:
 
+* Overiding python or react components
 * Component Architecture
 * ZCML
 * GenericSetup
-* Skin folders
 
-Zope is extensible and so is Plone.
+Topic of the following chapter:
 
-.. only:: not presentation
+* Extending Plone with existing add-ons
 
-    If you want to install an add-on, you are going to install an Egg — a form of Python package. Eggs consist of Python files together with other needed files like page templates and the like and a bit of metadata, bundled to a single archive file.
+As a developer you want to go further than simply configuring Plone, you want to extend and customize it.
+Plone is built to be extended.
+Extendability is not an afterthought but is the core of Plone and the systems it is based on.
+Instead if is a the core of its architecture.
 
-    There is a huge variety of Plone-compatible packages available. See `Plone.org add-on listing <https://plone.org/download/add-ons/>`_. The source repository for many public Plone add-ons is `the GitHub Collective <https://github.com/collective>`_. You may also create your own packages or maintain custom repositories.
 
-    Eggs are younger than Zope. Zope needed something like eggs before there were eggs, and the Zope developers wrote their own system. Old, outdated Plone systems contain a lot of code that is not bundled in an egg. Older code did not have metadata to register things, instead you needed a special setup method. We don't need this method but you might see it in other code. It is usually used to register Archetypes code. Archetypes is the old content type system. Instead, we use the new content type system Dexterity.
+.. note::
+
+    Plone itself even started out as an extension for CMF, which is an extension for Zope. Now Plone is the basis for many applications that extend it.
+
+
+Plone consists of a Python backend and a React frontend. They are connected via the REST API. Thus you have two different layers that you can customize.
+
+Therefore we create two different extension-packages to customize and extend Plone:
+
+1. One is a python package that holds e.g. content types, dexterity-behaviors and configuration.
+2. The other is a javascript package that hold views, styling and customization of the frontend.
+
+Sometimes it is easy to know, which layer needs to be customized to achieve a certain result.
+
+* All styling and javascript-based interaction is customized on the Volto-layer of Plone
+* Content types and other persistent data should be customized or created in a python-package
+
+For more complex use-cases you will need to add code to both parts of our customization-story. For example a content type will be defined in the python-package and its visualization will be defined in the javascript-package.
 
 
 .. _extending-technologies-label:
@@ -36,10 +70,10 @@ This depends on what type of extension you want to create.
 
 .. only:: not presentation
 
-
-    * You can create extensions with new types of objects to add to your Plone site. Usually these are contenttypes.
+    * You can create extensions with new types of objects to add to your Plone site. Usually these are content types.
     * You can create an extension that changes or extends functionality. For example to change the way Plone displays search results, or to make pictures searchable by adding a converter from jpg to text.
 
+For most projects you mix all kinds of methods to extend Plone.
 
 Component Architecture
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -71,7 +105,8 @@ Component Architecture
 
     Monkey Patching, like subclassing via multiple inheritance, does not scale. Multiple plugins might overwrite each other, you would explain to people that they have to reorder the imports, and then, suddenly, you will be forced to import feature A before B, B before C and C before A, or else your application won't work.
 
-    As the new concepts were radically different from the old Zope concepts, the Zope developers renamed the new project to Zope 3. But it did not gain traction, the community somehow renamed it to Bluebream and this died off.
+    As the new concepts were radically different from the old Zope concepts, the Zope developers renamed the new project to Zope 3.
+    But it did not gain traction, was eventually renamed to Bluebream and then died out.
 
     But the component architecture itself is quite successful and the Zope developers extracted it into the Zope Toolkit. The Zope toolkit is part of Zope, and Plone developers use it extensively.
 
@@ -81,7 +116,13 @@ Component Architecture
 .. _extending-components-label:
 
 Configuring Zope Components with ZCML
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. only:: presentation
+
+    * zcml (Zope Component Markup Language) is used to register components
+    * components are distingushed by interfaces (contracts) that they require or provide
+
 
 .. only:: not presentation
 
@@ -89,19 +130,15 @@ Configuring Zope Components with ZCML
 
     Components are distinguished from one another by the interfaces (formal definitions of functionality) that they require or provide.
 
-    During startup, Zope reads all these ZCML statements, validates that there are not two declarations trying to register the same components and only then registers everything. All components are registered by interfaces required and provided. Components with the same interfaces may optionally also be named.
+    During startup, Zope reads all these ZCML statements, validates that there are not two declarations trying to register the same components and registers everything. All components are registered by interfaces required and provided. Components with the same interfaces may optionally also be named.
 
-    This is a good thing. ZCML is, by the way, only *one* way to declare your configuration.
+    It may seem a little cumbersome that you have to register all components. But thanks to ZCML, you hardly ever have a hard time to find what and where extensions or customizations are defined. ZCML files are like a phone book.
 
-    Grok provides another way, where some Python magic allows you to use decorators to register Python classes and functions as components. You can use ZCML and Grok together if you wish.
+.. epigraph::
 
-    Some like Grok because it allows you to do nearly everything in your Python source files. No additional XML wiring required. If you're XML-allergic, Grok is your ticket to Python nirvana.
+    Explicit is better than implicit
 
-    Not everybody loves Grok. Some parts of the Plone community think that there should only be one configuration language, others are against adding the relative big dependency of Grok to Plone. One real problem is the fact that you cannot customize components declared with grok with jbot (which we'll discuss later). Grok is not allowed in the Plone core for these reasons.
-
-    The choice to Grok or not to Grok is yours to make. In any case, if you start to write an extension that is reusable, convert your grok declarations to ZCML to get maximum acceptance.
-
-    Personally, I just find it cumbersome but even for me as a developer it offers a nice advantage: thanks to ZCML, I hardly ever have a hard time to find what and where extensions or customizations are defined. For me, ZCML files are like a phone book.
+    -- The Zen of Python
 
 
 GenericSetup
@@ -110,14 +147,11 @@ GenericSetup
 .. only:: presentation
 
     * Old style
-    * Limited use cases
-    * Full of surprises
+    * Does not cover 100% of use cases
 
 .. only:: not presentation
 
-    The next thing is *GenericSetup*. As the name clearly implies, *GenericSetup* is part of CMF.
-
-    GenericSetup is tough to master, I am afraid.
+    The next thing is :py:mod:`Products.GenericSetup`.
 
     *GenericSetup* lets you define persistent configuration in XML files. *GenericSetup* parses the XML files and updates the persistent configuration according to the configuration. This is a step you have to run on your own!
 
@@ -127,30 +161,32 @@ GenericSetup
 
     GenericSetup profiles may also be built into Python packages. Every package that is listed on the add-on package list inside a Plone installation has a GS profile that details how it fits into Plone. Packages that are part of Plone itself may have GS profiles, but are excluded from the active/inactive listing.
 
+Example:
 
-Deprecated: Skin Folders
-^^^^^^^^^^^^^^^^^^^^^^^^
+:file:`metadata.xml`:
 
-.. only:: presentation
+.. code-block:: xml
 
-    * Very old style
-    * Very quick
-    * Very unmaintainable
+    <?xml version="1.0" encoding="UTF-8"?>
+    <metadata>
+      <version>1000</version>
+      <dependencies>
+        <dependency>profile-pas.plugins.ldap:default</dependency>
+        <dependency>profile-collective.folderishtypes.dx:default</dependency>
+        <dependency>profile-collective.geolocationbehavior:default</dependency>
+        <dependency>profile-collective.behavior.banner:default</dependency>
+      </dependencies>
+    </metadata>
 
-.. only:: not presentation
+Most settings are stored in a tool called ``portal_registry``. Since it has great import/export handlers for GenericSetup it can be configures with :file:`registry.xml`:
 
-    Do you remember Acquisition? The Skin Folders extends the concepts of Acquisition. Your Plone site has a folder named ``portal_skins``. This folder has a number of sub folders. The ``portal_skins`` folder has a property that defines in which order Plone searches for attributes or objects in each sub folder.
+:file:`registry.xml`:
 
-    The Plone logo is in a skin folder.
+.. code-block:: xml
 
-    By default, your site has a ``custom`` folder, and items are first searched for in that folder.
-
-    To customize the logo, you copy it into the ``custom`` folder, and change it there. This way you can change templates, CSS styles, images and behavior, because a container may contain Python scripts.
-
-    Skin-folder style customization may be accomplished TTW via the ZMI, or with add-on packages. Many older-style packages create their own skin folder and add it to the skin layer for Plone when installed.
-
-.. only:: not presentation
-
-    .. warning::
-
-        This is deprecated technology.
+    <?xml version="1.0"?>
+    <registry>
+      <record name="plone.site_title" >
+        <value>Mastering Plone Development</value>
+      </record>
+    </registry>

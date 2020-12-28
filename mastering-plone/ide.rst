@@ -3,9 +3,14 @@
 IDEs and Editors
 ==================
 
+..  todo::
+
+    * Add info on linters and other editor-tools for React
+
+
 In this part you will:
 
-* Learn about Editors
+* Learn about editors
 
 Topics covered:
 
@@ -16,13 +21,12 @@ Plone consists of more than 20.000 files! You need a tool to manage that. No dev
 People pick editors themselves. Use whatever you are comfortable and productive with. Here are some of the most used editors in the Plone community:
 
 * `Sublime <https://www.sublimetext.com/>`_
-* `PyCharm <http://www.jetbrains.com/pycharm/>`_
-* `Wing IDE <http://wingide.com/>`_
 * `Visual Studio Code <https://code.visualstudio.com/>`_
-* vim
-* emacs
-* `Textmate <http://macromates.com/>`_
-* `PyDev <http://www.pydev.org/>`_ for `Eclipse <http://www.eclipse.org/>`_
+* `PyCharm <http://www.jetbrains.com/pycharm/>`_
+* `Atom <https://atom.io/>`_
+* `Wing IDE <http://wingide.com/>`_
+* `Vim <https://www.vim.org/>`_
+* `Emacs <https://www.gnu.org/software/emacs/>`_
 
 Some features that most editors have in one form or another are essential when developing with Plone.
 
@@ -36,9 +40,8 @@ The capability of performing a *full text search* through the complete Plone cod
 
 .. note::
 
-    Some Editors/IDE's have to be extend to be fully featured. Here are some packages we recommend when using Sublime Text 3:
+    Some editors and IDEs have to be extended to be fully featured. Here are some packages we recommend when using Sublime Text 3:
 
-    * SublimeCodeIntel (Goto Definition)
     * BracketHighlighter
     * GitGutter
     * FileDiffs
@@ -46,3 +49,8 @@ The capability of performing a *full text search* through the complete Plone cod
     * INI (syntax for ini-Files)
     * SideBarEnhancements
     * SyncedSideBar
+
+
+.. note::
+
+    This list of extensions gets out of date quickly, especially for VS Code.

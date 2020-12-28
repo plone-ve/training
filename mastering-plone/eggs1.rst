@@ -1,56 +1,67 @@
 .. _eggs1-label:
 
-Write Your Own Add-Ons to Customize Plone
-=========================================
+Write Your Own Python Add-On to Customize Plone
+================================================
 
-.. sidebar:: Get the code!
+.. sidebar:: Get the code! (:doc:`More info <code>`)
 
-    Get the code for this chapter (:doc:`More info <code>`):
+   Code for the beginning of this chapter::
 
-    ..  code-block:: bash
+        nothing here...
 
-        git checkout eggs1
+   Code for the end of this chapter::
+
+        git checkout initial
 
 .. _eggs1-create-label:
 
 
 In this part you will:
 
-* Create a custom Python package :py:mod:`ploneconf.site` to hold all the code
-* Modify buildout to install that package
+* Create a custom Python package :py:mod:`ploneconf.site`
+* Modify the buildout to install :py:mod:`ploneconf.site`
 
 
 Topics covered:
 
-* :py:mod:`mr.bob` and :py:mod:`bobtemplates.plone`
+* :py:mod:`plonecli`, a Plone CLI for creating Plone packages
 * the structure of python packages
 
 
 Creating the package
--------------------------
-
-Your own code has to be organized as a `Python package <https://docs.python.org/2/tutorial/modules.html#packages>`_. An python package is directory that follows certain conventions to hold python modules.
-
-We are going to use `bobtemplates.plone <https://pypi.org/project/bobtemplates.plone>`_ to create a skeleton package. You only need to fill in the blanks.
-
-:py:mod:`bobtemplates.plone` offers several Plone-specific templates for :py:mod:`mr.bob`, a project template builder similar to :py:mod:`cookiecutter`.
-
-Enter the :file:`src` directory (*src* is short for *sources*) and call a script called :command:`mrbob` from our buildout's :file:`bin` directory:
-
-.. code-block:: bash
-
-    $ cd src
-    $ ../bin/mrbob -O ploneconf.site bobtemplates.plone:addon
+--------------------
 
 .. warning::
 
-    Before version 2.0.0 of :py:mod:`bobtemplates.plone` the command to create a addon was different:
+    You can skip this part since you already added :py:mod:`ploneconf.site` as a source-checkout when running buildout.
+    And in :ref:`features-create-plonesite-label` you installed that package when creating your site.
 
-    .. code-block:: bash
+    You can still follow this chapter to learn hwo to create your own packages.
 
-        $ ../bin/mrbob -O ploneconf.site bobtemplates:plone_addon
+Your own code has to be organized as a `Python package <https://docs.python.org/3/tutorial/modules.html#packages>`_. A python package is a directory that follows certain conventions to hold python modules.
 
-You have to answer some questions about the add-on. Press :kbd:`Enter` (i.e. choosing the default value) for all questions except 3 (where you enter your GitHub username if you have one) and 5 (Plone version), where you enter :kbd:`5.1`::
+We are going to use `plonecli <https://pypi.org/project/plonecli>`_ to create a skeleton package. You only need to fill in some blanks.
+
+.. note::
+
+    :py:mod:`plonecli` uses :py:mod:`bobtemplates.plone` that offers several Plone-specific templates for :py:mod:`mr.bob`, a project template builder similar to :py:mod:`cookiecutter`.
+
+Install plonecli:
+
+.. code-block:: bash
+
+    $ pip install plonecli
+    $ pip install bobtemplates.plone==5.2.0
+
+Then create the addon:
+
+.. code-block:: bash
+
+    $ plonecli create addon src/ploneconf.site
+
+The new add-on will be created in the :file:`src` directory (*src* is short for *sources*)
+
+You have to answer some questions about the add-on. Press :kbd:`Enter` (i.e. choosing the default value) for most questions except where indicated (enter your GitHub username if you have one, do not initialize a GIT repository, Use Plone 5.2 and python 3.7)::
 
     --> Author's name [Philip Bauer]:
 
@@ -60,9 +71,16 @@ You have to answer some questions about the add-on. Press :kbd:`Enter` (i.e. cho
 
     --> Package description [An add-on for Plone]:
 
-    --> Plone version [5.0.8]: 5.1
+    --> Do you want me to initialize a GIT repository in your new package? (y/n) [y]: n
 
-    Generated file structure at /Users/pbauer/workspace/training_buildout/src/ploneconf.site
+    --> Plone version [5.2.1]: 5.2.3
+
+    --> Python version for virtualenv [python3.7]:
+
+    --> Do you want me to activate VS Code support? (y/n) [y]:
+
+    git init is disabled!
+    Generated file structure at /Users/pbauer/workspace/training/buildout/src/ploneconf.site
 
 .. only:: not presentation
 
@@ -71,16 +89,23 @@ You have to answer some questions about the add-on. Press :kbd:`Enter` (i.e. cho
     You generated a package with a lot files. It might look like too much boilerplate but all files in this package serve a clear purpose and it will take some time to learn about the meaning of each of them.
 
 
+Volto Add-ons
+-------------
+
+The package that will hold your own code for volto was already created when you installed the frontend with ``create-volto-app``.
+The folder :file:`frontend/` that you created in the chapter :ref:`instructions-install_frontend-label` not only holds the  default volto frontend but also gives you the option to extend and customize the frontend.
+
+
 Eggs
 ----
 
-When a python package is production-ready you can choose to distribute it as an egg over the python package index, `pypi <https://pypi.org>`_. This allows everyone to install and use your package without having to download the code from github. The over 260 python packages that are used by your current Plone instance are also distributed as eggs.
+When a python package is production-ready you can choose to distribute it as an egg over the python package index, `pypi <https://pypi.org>`_. This allows everyone to install and use your package without having to download the code from github. The over 250 python packages that are used by your current Plone instance are also distributed as eggs.
 
 
 .. _eggs1-inspect-label:
 
-Inspecting the package
----------------------------
+Inspecting the new package
+--------------------------
 
 In :file:`src` there is now a new folder :file:`ploneconf.site` and in there is the new package. Let's have a look at some of the files:
 
@@ -106,7 +131,7 @@ In :file:`src` there is now a new folder :file:`ploneconf.site` and in there is 
 
 
 :file:`configure.zcml` (:file:`src/ploneconf/site/configure.zcml`)
-    The phone book of the distribution. By reading it you can find out which functionality is registered using the component architecture. There are more registrations in other zcml-files in this addons (e.g. :file:`browser/configure.zcml`, :file:`upgrades.zcml` and :file:`permissions.zcml`) that are included in your main :file:`browser/configure.zcml`
+    The phone book of the distribution. By reading it you can find out which functionality is registered using the component architecture. There are more registrations in other zcml-files in this add-on (e.g. :file:`browser/configure.zcml`, :file:`upgrades.zcml` and :file:`permissions.zcml`) that are included in your main :file:`configure.zcml`
 
 :file:`setuphandlers.py` (:file:`src/ploneconf/site/setuphandlers.py`)
     This holds code that is automatically run when installing and uninstalling our add-on.
@@ -145,6 +170,13 @@ In :file:`src` there is now a new folder :file:`ploneconf.site` and in there is 
 ..    profiles/uninstall/
       This folder holds another GenericSetup profile. The steps in here are executed on uninstalling.
 
+.. note::
+
+    This seems like a lot of complicated boilerplate. In fact a Plone-package can be much smaller and simpler. See https://github.com/starzel/minimal for a minimal example.
+    But as stated above the stucture of the package and every part of it serves a well-defined purpose.
+
+    When you are working on large projects you will appreciate the best-practices laid down in this package.
+
 
 .. _eggs1-include-label:
 
@@ -162,7 +194,6 @@ Before we can use our new package we have to tell Plone about it. Look at :file:
 
     parts =
         checkversions
-        codeintel
         instance
         mrbob
         packages
@@ -180,6 +211,7 @@ Before we can use our new package we have to tell Plone about it. Look at :file:
         Products.PDBDebugMode
         plone.app.debugtoolbar
         Products.PrintingMailHost
+        pdbpp
 
     # TTW Forms
         collective.easyform
@@ -197,7 +229,7 @@ Before we can use our new package we have to tell Plone about it. Look at :file:
 
 This tells Buildout to add the egg :py:mod:`ploneconf.site`. The sources for this eggs are defined in the section ``[sources]`` at the bottom of :file:`buildout.cfg`.
 
-..  code-block:: cfg
+.. code-block:: cfg
     :emphasize-lines: 2
 
     [sources]
@@ -230,7 +262,7 @@ Now run buildout to reconfigure Plone with the updated configuration:
 
     $ ./bin/buildout
 
-After restarting Plone with :command:`./bin/instance fg` the new add-on :py:mod:`ploneconf.site` is available for install like EasyForm or Plone True Gallery.
+After restarting Plone with :command:`./bin/instance fg` the new add-on :py:mod:`ploneconf.site` is available for install.
 
 We will not install it now since we did not add any of our own code or configuration yet. Let's do that next.
 
@@ -238,7 +270,7 @@ We will not install it now since we did not add any of our own code or configura
 Exercises
 ---------
 
-1. Create a new package called :py:mod:`collective.behavior.myfeature`. Inspect the directory structure of this package. Delete it after you are done. Many packages that are part of Plone and some add-ons use a nested namespace such as :py:mod:`plone.app.contenttypes`.
+1. Create a new package called :py:mod:`collective.behavior.myfeature`. Inspect the directory structure of this package. Delete it after you are done. Many packages that are part of Plone and some add-ons use a *nested namespace* such as :py:mod:`plone.app.contenttypes`.
 
 2. Open https://github.com/plone/bobtemplates.plone and read about the templates and subtemplates it provides.
 
@@ -246,5 +278,6 @@ Exercises
 Summary
 -------
 
-* You created the package * :py:mod:`ploneconf.site` to hold your code.
+* You created the package :py:mod:`ploneconf.site` to hold your code.
 * You added the new package to buildout so that Plone can use it.
+* In one of the next chapter we will also create a add-on for Volto, the React frontend.

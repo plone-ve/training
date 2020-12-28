@@ -172,7 +172,7 @@ You may leave off the ``ansible_user`` if your user ID is the same on the server
 An inventory file may have many entries.
 You may run Ansible against one, two, all of the hosts in the inventory file, or against alias groups like "plone-servers".
 
-See `Ansible's inventory documentation <http://docs.ansible.com/ansible/intro_inventory.html>`_
+See `Ansible's inventory documentation <https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html>`_
 for information on grouping host entries and for more specialized host settings.
 
 Now, let's make things easier for us going forward by creating an :file:`ansible.cfg` file in our playbook directory.
@@ -302,7 +302,7 @@ If you wish to use our firewall playbook, use the command:
 
 :file:`firewall.yml` is a dispatcher.
 Actual firewall code is in the :file:`firewalls` subdirectory and is platform-specific.
-``ufw`` is used for the Debian-family; ``firewalld``
+``ufw`` is used for the Debian-family; ``firewalld`` is used for RedHat/CentOS.
 
 The general firewall strategy is to block everything but the ports for ssh, http, https and munin-node.
 The munin-node port is restricted to the monitor IP you specify.

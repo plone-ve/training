@@ -1,60 +1,75 @@
 .. _mastering_plone-label:
 
-===========================
-Mastering Plone Development
-===========================
+=============================
+Mastering Plone 6 Development
+=============================
 
-This is the documentation for the "Mastering Plone" training.
+`Mastering Plone Development` is intended as a training to learn proven practices of Plone development.
 
-Mastering Plone is intended as a week-long training for people who are new to Plone or want to learn about the current best practices of Plone development. It can be split in two trainings:
+It's both, an online course and a sketch for an on the spot training.
 
-- A beginner training (2 to 3 days) that covers chapters 1-18.
-- An advanced training (3 to 5 days) that covers the rest.
+The story of a conference platform provides a week-long training of several development topics that can be split in two trainings:
 
-At conferences a shortened 2-day version of the advanced training with a slightly modified order is held.
+- A beginner training (2 to 3 days) that covers the essentials of Plone and Plone Volto.
+- An advanced training (3 to 5 days) that covers advanced topics.
+
+..  warning::
+
+    This is the Mastering Plone 6 Training.
+
+    The biggest change from `Mastering Plone 5 <https://training.plone.org/5/mastering-plone-5/>`_ is that Mastering Plone 6 teaches developing for the React-based frontend Volto as well as for Plone Classic i.e. using server-side rendered templates.
+    In many chapters that use Volto there is a link to a chapter that covers the same tasks in Plone Classic, and vice versa.
+
+    Plone 6 is not yet released and thus the training is a work in-progress and there are still some rough edges.
 
 
 ..  toctree::
     :maxdepth: 2
     :numbered:
-    :caption: Mastering Plone
+    :caption: Mastering Plone 6
 
     about_mastering
     intro
+    case
+    what_is_plone
     installation
     ../plone_training_config/instructions.rst
-    case
     features
     anatomy
-    plone5
+    plone_versions
+    volto_basics
     configuring_customizing
-    theming
+    volto_overrides
+    volto_semantic_ui
+    volto_theming
     extending
     add-ons
-    dexterity
     buildout_1
     eggs1
-    export_code
-    views_1
-    zpt
-    zpt_2
-    views_2
-    views_3
-    testing
+    dexterity
+    dexterity_2_talk
+    dexterity_reference
+    volto_talkview
     behaviors_1
-    viewlets_1
+    volto_frontpage
+    volto_talk_listview
     api
     ide
-    dexterity_2
     custom_search
     events
-    user_generated_content
-    resources
+    registry
+    upgrade_steps
+    volto_testing
     thirdparty_behaviors
     dexterity_3
+    volto_components_sponsors
+    volto_addon
+    volto_richtexteditor
+    volto_custom_block
+    volto_custom_addon
+    volto_custom_addon2
+    user_generated_content
     relations
-    registry
-    frontpage
     eggs2
     behaviors_2
     viewlets_2
@@ -69,5 +84,12 @@ At conferences a shortened 2-day version of the advanced training with a slightl
 
 Please note that this document is *not complete* without the spoken word of a trainer.
 
-Even though we attempt to include the most important parts of what we teach in the narrative but
-reading it here can in no way be considered equal to attending a training.
+We attempt to include the most important parts of what we teach in the training. But reading it here can not be considered equal to attending a training.
+
+.. The following items are hidden in this toctree to prevent Sphinx warnings. They might be used by trainers only, or for historical purposes.
+
+..  toctree::
+    :hidden:
+
+    code
+    timing

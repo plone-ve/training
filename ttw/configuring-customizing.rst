@@ -180,7 +180,7 @@ Actions have properties like:
 
 
 :guilabel:`site_actions`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 These are the links at the bottom of the page:
 
@@ -235,7 +235,6 @@ If time explain:
 
 Skins (``portal_skins``)
 ^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 In :guilabel:`portal_skins` we can change certain images, CSS-files and templates.
 

@@ -1,17 +1,38 @@
 .. _instructions-label:
 
+.. todo::
+
+    * Skip Vagrant?
+    * Update Vagrant instructions for Plone 5 with Volto
+
+
 Installing Plone for the Training
 =================================
 
-Keep in mind that you need a fast Internet connection during installation since you'll have to download a lot of data!
+.. sidebar:: Installation for the training
+
+    .. contents:: Table of Contents
+        :depth: 4
+
+
+We need to install the backend **Plone** and the React-based frontend **Volto**.
+This will create a folder structure like this:
+
+.. code-block:: text
+
+    training
+    ├── backend
+    └── frontend
+
+In :file:`backend` we will install Plone and also add our custom Python code.
+In :file:`frontend` we will install Volto and also add our custom React code.
 
 
 .. _instructions-no-vagrant-label:
 
 .. warning::
 
-    If you feel the desire to try out both methods below (with Vagrant and without),
-    make sure you use different :file:`training` directories!
+    If you try both methods below (with Vagrant and without), make sure you use different :file:`training` directories!
 
     The two installations do not coexist well.
 
@@ -19,15 +40,15 @@ Keep in mind that you need a fast Internet connection during installation since 
 Installing Plone without vagrant
 --------------------------------
 
+
+Installing the backend
+++++++++++++++++++++++
+
 .. warning::
 
-    If you are **not** used to running Plone on your laptop skip this part and continue with :ref:`install-virtualbox`.
+    If you are new to running Plone on your computer you could skip this part and continue with :ref:`install-virtualbox`.
 
-.. warning::
-
-    To run Plone 5.1 you at least need Python 2.7.9!
-
-If you **are** experienced with running Plone on your own laptop, we encourage you to do so because you will have certain benefits:
+We encourage you to install and run Plone on your own machine, because you will have important benefits:
 
 * You can use the editor you are used to.
 * You can use *omelette* to have all the code of Plone at your fingertips.
@@ -48,15 +69,22 @@ If you feel comfortable, please work on your own machine with your own Python.
 
 The following instructions are based on Ubuntu and macOS, if you use a different operating system (OS), please adjust them to fit your OS.
 
-On Ubuntu/Debian, you need to install the following:
+On Ubuntu/Debian, you need to make sure you system is up-to-date:
 
 .. code-block:: console
 
-    sudo apt-get install python-setuptools python-virtualenv python-dev build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev libjpeg62-dev
+    sudo apt-get update
+    sudo apt-get -y upgrade
+
+Then, you need to install the following packages:
+
+.. code-block:: console
+
+    sudo apt-get install python3.7-dev python3.7-tk python3.7-venv build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev libjpeg62-dev
     sudo apt-get install libreadline-dev wv poppler-utils
     sudo apt-get install git
 
-On macOS you at least need to install some dependencies with `Homebrew <https://brew.sh/>`_
+On MacOS you at least need to install some dependencies with `Homebrew <https://brew.sh/>`_
 
 .. code-block:: console
 
@@ -64,18 +92,27 @@ On macOS you at least need to install some dependencies with `Homebrew <https://
 
 For more information or in case of problems see the `official installation instructions <https://docs.plone.org/manage/installing/installation.html>`_.
 
-Set up Plone for the training like this if you use your own OS (Linux or Mac):
+Set up Plone for the training like this if you use your own OS (Linux or macOS):
 
 .. code-block:: console
 
     mkdir training
     cd training
-    git clone https://github.com/collective/training_buildout.git buildout
-    cd buildout
-    virtualenv --python=python2.7 .
-    ./bin/pip install -r requirements.txt
+    git clone https://github.com/collective/training_buildout.git backend
+    cd backend
 
-This creates a virtualenv with Python 2.7 in the folder :file:`buildout` and installs some requirements in it.
+Until Mastering Plone 6 version is released you need to checkout the branch ``plone6``.
+
+.. code-block:: console
+
+    git checkout plone6
+
+Then create a virtual environment with Python 3.7 in the folder :file:`backend` and install some requirements into it.
+
+.. code-block:: console
+
+    python3.7 -m venv .
+    ./bin/pip install -r requirements.txt
 
 Now you can run the buildout for the first time:
 
@@ -83,7 +120,7 @@ Now you can run the buildout for the first time:
 
     ./bin/buildout
 
-This will take a very lot of time and produce a lot of output because it downloads and configures more than 260 Python packages. Once it is done you can start your Plone instance with
+This will take **very long** time and produce a lot of output because it downloads and configures more than 260 Python packages. Once it is done you can start your Plone instance with
 
 .. code-block:: console
 
@@ -91,14 +128,29 @@ This will take a very lot of time and produce a lot of output because it downloa
 
 The output should be similar to:
 
-.. code-block:: html
-    :emphasize-lines: 9
+.. code-block:: console
+    :emphasize-lines: 40
 
-    2015-09-24 15:51:02 INFO ZServer HTTP server started at Thu Sep 24 15:51:02 2015
-            Hostname: 0.0.0.0
-            Port: 8080
-    2015-09-24 15:51:05 WARNING PrintingMailHost Hold on to your hats folks, I'm a-patchin'
-    2015-09-24 15:51:05 WARNING PrintingMailHost
+    pbauer@bullet:/workspace/training/backend$  ./bin/instance fg
+    2019-09-05 20:11:03,708 WARNING [Init:89][MainThread] Class Products.CMFFormController.ControllerPythonScript.ControllerPythonScript has a security declaration for nonexistent method 'ZPythonScriptHTML_changePrefs'
+    2019-09-05 20:11:03,715 WARNING [Init:89][MainThread] Class Products.CMFFormController.ControllerValidator.ControllerValidator has a security declaration for nonexistent method 'ZPythonScriptHTML_changePrefs'
+    2019-09-05 20:11:03,776 WARNING [Products.PDBDebugMode:31][MainThread]
+
+    ******************************************************************************
+
+    Debug-Mode enabled!
+
+    This will result in a pdb when a exception happens.
+    Turn off debug mode or remove Products.PDBDebugMode to disable.
+
+    See https://pypi.python.org/pypi/Products.PDBDebugMode
+
+    ******************************************************************************
+
+    2019-09-05 20:11:04,858 INFO    [chameleon.config:38][MainThread] directory cache: /Users/pbauer/workspace/training/backend/var/cache.
+    2019-09-05 20:11:07,151 WARNING [plone.behavior:172][MainThread] Specifying 'for' in behavior 'Tiles' if no 'factory' is given has no effect and is superfluous.
+    2019-09-05 20:11:08,353 WARNING [PrintingMailHost:30][MainThread] Hold on to your hats folks, I'm a-patchin'
+    2019-09-05 20:11:08,353 WARNING [PrintingMailHost:124][MainThread]
 
     ******************************************************************************
 
@@ -112,30 +164,27 @@ The output should be similar to:
     or remove ENABLE_PRINTING_MAILHOST from the environment variables to
     return to normal e-mail sending.
 
-    See https://pypi.org/project/Products.PrintingMailHost
+    See https://pypi.python.org/pypi/Products.PrintingMailHost
 
     ******************************************************************************
 
-    2015-09-24 15:51:05 INFO ZODB.blob (54391) Blob directory `.../buildout/var/blobstorage` is unused and has no layout marker set. Selected `bushy` layout.
-    2015-09-24 15:51:05 INFO ZODB.blob (54391) Blob temporary directory '.../buildout/var/blobstorage/tmp' does not exist. Created new directory.
-    .../.buildout/eggs/plone.app.multilingual-3.0.11-py2.7.egg/plone/app/multilingual/browser/migrator.py:11: DeprecationWarning: LanguageRootFolder: LanguageRootFolders should be migrate to DexterityContainers
-      from plone.app.multilingual.content.lrf import LanguageRootFolder
-    2015-09-24 15:51:09 INFO Plone OpenID system packages not installed, OpenID support not available
-    2015-09-24 15:51:11 INFO Zope Ready to handle requests
+    2019-09-05 20:11:08,390 INFO    [Zope:45][MainThread] Ready to handle requests
+    Starting server in PID 30620.
+    Serving on http://0.0.0.0:8080
 
-If the output says ``INFO Zope Ready to handle requests`` then you are in business.
+
+If the output says ``Serving on http://0.0.0.0:8080`` then you are in business.
 
 If you point your browser at http://localhost:8080 you see that Plone is running.
 
 .. figure:: _static/instructions_plone_running.png
 	:scale: 50 %
-	:alt: A running Plone instance.
+	:alt: Plone is running.
 
 	A running plone instance.
 
-There is no Plone site yet - we will create one in chapter 6.
-
-Now you have a working Plone site up and running and can continue with the next chapter.
+There is no Plone site yet.
+We will create one in the next chapter.
 
 You can stop the running instance anytime using :kbd:`ctrl + c`.
 
@@ -143,13 +192,139 @@ You can stop the running instance anytime using :kbd:`ctrl + c`.
 
     If there is an error message you should either try to fix it or use vagrant and continue in this chapter.
 
+.. _instructions-install_frontend-label:
+
+Installing the frontend
++++++++++++++++++++++++
+
+You have two options:
+
+    1. Create the frontend from scratch using the Volto generator.
+    2. Use the existing Volto project for this training `volto-ploneconf <https://github.com/collective/volto-ploneconf.git>`_ with all the code for the training.
+
+.. note::
+
+    If you are completely new to node and companions, please see `Volto Documentation <https://docs.voltocms.com/getting-started/install/>`_ to find information about node, nvm, npx, yarn and the React thing.
+
+
+Option 1: Frontend from scratch with Volto generator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _instructions-install_frontend-prerequisites-label:
+
+
+Install pre-requisites.
+
+#.  Install ``nvm`` (Node Version Manager) to manage ``node`` versions.
+
+    .. code-block:: bash
+
+        # macOS
+        brew install nvm
+
+        #Linux
+        apt-get install nvm
+
+#.  Install node LTS (node version LTS: long time support)
+
+    .. code-block:: bash
+
+        nvm install --lts
+
+
+Create your Volto frontend project.
+
+#.  Generate a project with yeoman
+
+    .. code-block:: bash
+
+        npm init yo @plone/volto
+
+    | It will take a while to install all dependencies.
+    | `yo` will ask questions. Respond to the first by entering your project name, the next by pressing :kbd:`Enter` and to the other two by now with ``false``.
+
+    The output will look like this:
+
+    .. code-block:: bash
+
+        me@here training % npm init yo @plone/volto
+        npx: installed 14 in 3.392s
+        Getting latest Volto version
+        Retrieving Volto's yarn.lock
+        Using latest released Volto version: 10.4.1
+        ? Project name frontend
+        ? Project description A Volto-powered Plone frontend
+        ? Would you like to add addons? false
+        ? Would you like to add workspaces? false
+           create frontend/package.json
+           create frontend/yarn.lock
+           create frontend/.eslintrc.js
+           ...
+
+#.  Start up the project **frontend** with
+
+    .. code-block:: bash
+
+        cd frontend
+        yarn start
+
+If successful, you get:
+
+    🎭 Volto started at http://localhost:3000 🚀
+
+
+Create a Plone site object **Plone** on http://localhost:8080
+
+Point your browser to http://localhost:3000 and see that Plone is up and running.
+
+
+You can stop the frontend anytime using :kbd:`ctrl + c`.
+
+
+.. _volto-install-troubleshooting:
+
+Troubleshooting
+'''''''''''''''
+
+See https://docs.voltocms.com/getting-started/install/#install-volto
+
+
+Option 2. Start with existing training project ``volto-ploneconf`` with all code for the training
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Get the finished code for the frontend from github and install:
+
+.. code-block:: console
+
+    git clone https://github.com/collective/volto-ploneconf.git frontend
+    cd frontend
+    yarn
+
+Now you can start it with::
+
+    $ yarn start
+
+Create a Plone site object *Plone* on http://localhost:8080
+
+Point your browser to http://localhost:3000 and see that Plone is up and running.
+
+You can stop the frontend anytime using :kbd:`ctrl + c`.
+
+
 
 .. _instructions-vagrant-label:
 
 Installing Plone with Vagrant
 -----------------------------
 
-We use a virtual machine (Ubuntu 16.04) to run Plone during the training.
+.. warning::
+
+    This part is not yet updated to install the frontend Volto!
+
+    Use a local installtion (see above) until that is done.
+
+
+We use a virtual machine (Ubuntu 18.04) to run Plone during the training.
 
 We rely on `Vagrant <https://www.vagrantup.com>`_ and `VirtualBox <https://www.virtualbox.org>`_ to give the same development environment to everyone.
 
@@ -166,7 +341,7 @@ Vagrant uses Oracle’s VirtualBox to create virtual environments.
 
 Here is a link directly to the download page: https://www.virtualbox.org/wiki/Downloads.
 
-We use VirtualBox 5.0.x
+We use VirtualBox 6.0.x
 
 
 .. _instructions-configure-vagrant-label:
@@ -201,7 +376,7 @@ Now download :download:`plone_training_config.zip <../_static/plone_training_con
 
 .. code-block:: console
 
-    wget https://raw.githubusercontent.com/plone/training/master/_static/plone_training_config.zip
+    wget https://github.com/plone/training/raw/master/_static/plone_training_config.zip
     unzip plone_training_config.zip
 
 The training directory should now hold the file :file:`Vagrantfile` and the directory :file:`manifests` which again contains several files.
@@ -214,13 +389,12 @@ Now start setting up the virtual machine (VM) that is configured in :file:`Vagra
 
 This takes a **veeeeery loooong time** (between 10 minutes and 1h depending on your Internet connection and system speed) since it does all the following steps:
 
-* downloads a virtual machine (Official Ubuntu Server 16.04 LTS, also called "Xenial Xerus")
+* downloads a virtual machine (Official Ubuntu Server 18.04 LTS, also called "Bionic Beaver")
 * sets up the VM
 * updates the VM
 * installs various system-packages needed for Plone development
-* downloads and unpacks the buildout-cache to get all the eggs for Plone
 * clones the training buildout into /vagrant/buildout
-* builds Plone using the eggs from the buildout-cache
+* builds Plone annd installs all dependencies
 
 .. note::
 
@@ -274,12 +448,13 @@ It is in :file:`/vagrant/buildout/`. Start it in foreground with :command:`./bin
 
 .. code-block:: console
 
-    ubuntu@training:/vagrant/buildout$ bin/instance fg
-    2017-10-09 16:28:01 INFO ZServer HTTP server started at Mon Oct  9 16:28:01 2017
-        Hostname: 0.0.0.0
-        Port: 8080
-    2017-10-09 16:28:03 WARNING PrintingMailHost Hold on to your hats folks, I'm a-patchin'
-    2017-10-09 16:28:03 WARNING PrintingMailHost
+    vagrant@training:~$ cd /vagrant/buildout/
+    vagrant@training:/vagrant/buildout$ ./bin/instance fg
+    2019-03-07 10:38:17,666 WARNI [Init:88][MainThread] Class Products.CMFFormController.ControllerPythonScript.ControllerPythonScript has a security declaration for nonexistent method 'ZPythonScriptHTML_changePrefs'
+    2019-03-07 10:38:17,670 WARNI [Init:88][MainThread] Class Products.CMFFormController.ControllerValidator.ControllerValidator has a security declaration for nonexistent method 'ZPythonScriptHTML_changePrefs'
+    2019-03-07 10:38:21,160 WARNI [plone.behavior:172][MainThread] Specifying 'for' in behavior 'Tiles' if no 'factory' is given has no effect and is superfluous.
+    2019-03-07 10:38:22,473 WARNI [PrintingMailHost:30][MainThread] Hold on to your hats folks, I'm a-patchin'
+    2019-03-07 10:38:22,474 WARNI [PrintingMailHost:124][MainThread]
 
     ******************************************************************************
 
@@ -293,27 +468,13 @@ It is in :file:`/vagrant/buildout/`. Start it in foreground with :command:`./bin
     or remove ENABLE_PRINTING_MAILHOST from the environment variables to
     return to normal e-mail sending.
 
-    See https://pypi.org/project/Products.PrintingMailHost
+    See https://pypi.python.org/pypi/Products.PrintingMailHost
 
     ******************************************************************************
 
-    /home/ubuntu/buildout-cache/eggs/plone.formwidget.namedfile-2.0.4-py2.7.egg/plone/formwidget/namedfile/widget.py:18: DeprecationWarning: MimeTypeException is deprecated. Import from Products.MimetypesRegistry.interfaces instead
-      from Products.MimetypesRegistry.common import MimeTypeException
-    /home/ubuntu/buildout-cache/eggs/plone.app.dexterity-2.4.6-py2.7.egg/plone/app/dexterity/__init__.py:14: DeprecationWarning: Name clash, now use '_' as usual. Will be removed in Plone 5.2
-      DeprecationWarning)
-    /home/ubuntu/buildout-cache/eggs/plone.app.multilingual-5.1.2-py2.7.egg/plone/app/multilingual/browser/migrator.py:11: DeprecationWarning: LanguageRootFolder: LanguageRootFolders should be migrate to DexterityContainers
-      from plone.app.multilingual.content.lrf import LanguageRootFolder
-    /home/ubuntu/buildout-cache/eggs/plone.portlet.collection-3.2-py2.7.egg/plone/portlet/collection/collection.py:2: DeprecationWarning: isDefaultPage is deprecated. Import from Products.CMFPlone instead
-      from plone.app.layout.navigation.defaultpage import isDefaultPage
-    /home/ubuntu/buildout-cache/eggs/Products.CMFPlone-5.1rc1-py2.7.egg/Products/CMFPlone/browser/syndication/views.py:17: DeprecationWarning: wrap_form is deprecated. Import from plone.z3cform.layout instead.
-      from plone.app.z3cform.layout import wrap_form
-    /home/ubuntu/buildout-cache/eggs/Zope2-2.13.26-py2.7.egg/OFS/Application.py:102: DeprecationWarning: Expected text
-      transaction.get().note("Created Zope Application")
-    /home/ubuntu/buildout-cache/eggs/Zope2-2.13.26-py2.7.egg/OFS/Application.py:265: DeprecationWarning: Expected text
-      transaction.get().note(note)
-    /home/ubuntu/buildout-cache/eggs/Zope2-2.13.26-py2.7.egg/OFS/Application.py:521: DeprecationWarning: Expected text
-      transaction.get().note('Prior to product installs')
-    2017-10-09 16:28:07 INFO Zope Ready to handle requests
+    2019-03-07 10:38:22,510 INFO  [Zope:44][MainThread] Ready to handle requests
+    Starting server in PID 25230.
+    Serving on http://0.0.0.0:8080
 
 .. note::
 
@@ -353,7 +514,7 @@ next to :file:`Vagrantfile` and :file:`manifests`.
 .. note::
 
     The database and the python packages are not accessible in your own system since large files cannot make use of symlinks in shared folders.
-    The database lies in ``/home/ubuntu/var``, the python packages are in ``/home/ubuntu/packages``.
+    The database lies in ``/home/vagrant/var``, the python packages are in ``/home/vagrant/packages``.
 
 If you have any problems or questions please mail us at team@starzel.de or create a ticket at https://github.com/plone/training/issues.
 

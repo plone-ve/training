@@ -37,7 +37,7 @@ Glossary
        Ansible can help you with configuration management, application deployment, task automation.
 
    Chef
-      `A configuration management tool written in Ruby and Erlang <https://www.chef.io/chef/>`_.
+      `A configuration management tool written in Ruby and Erlang <https://www.chef.io/products/chef-infra/>`_.
 
    CloudFormation
       `AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives developers and systems administrators an way to create and manage
@@ -48,7 +48,7 @@ Glossary
       Open source projects may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_.
 
    Solr
-      `Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, open source enterprise search platform built on Apache Lucene.
+      `Solr <http://lucene.apache.org/solr/>`_ is a popular, blazing-fast, open source enterprise search platform built on Apache Lucene.
 
    ZCML
       The `Zope Configuration Mark-up Language <https://docs.plone.org/develop/addons/components/zcml.html>`_.

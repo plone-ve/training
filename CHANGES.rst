@@ -5,7 +5,30 @@ This changelog is only very rough. For the full changelog please refer to https:
 
 1.2.5 (unreleased)
 ------------------
-=======
+
+- Language tweaks to WSGI training [polyester]
+
+- Minor fixes, like using implementer and provider decorators [jensens]
+
+- Use behavior shortnames as best practice. [jensens]
+
+- Refine misleading explanation of IFormFieldProvider [jensens]
+
+- Tweaks to Mastering Plone testing page [tkimnguyen]
+
+- Fix React and Volto bootstrapping information. [jensens]
+
+- Fix a typo in Volto redux section and format according to style guide. [jensens]
+
+- Fix AGX links. [jensens]
+
+- Get rid of Grok, it is dead. No need any more to mention it here [jensens]
+
+- Fix a bunch of errors and links-check failure popping up in ``make test`` [jensens]
+
+- Fix Travis setup, use stages now. See #410. [jensens]
+
+- Explanation about less variables and development/production mode in the theming training first chapter. [fredvd]
 
 - Fixes to Advanced Python Training [oz123]
 
@@ -174,6 +197,9 @@ This changelog is only very rough. For the full changelog please refer to https:
 
 - Add support for translations on transifex
   [macagua]
+
+- Upgrade Vagrant setup to Ubuntu 18.04 LTS
+  [tschorr]
 
 
 1.2.3 (2014-07-11)

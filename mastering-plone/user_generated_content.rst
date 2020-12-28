@@ -1,13 +1,15 @@
 .. _user-content-label:
 
-User Generated Content
-======================
+Workflow, Roles and Permissions
+===============================
 
-.. sidebar:: Get the code!
+.. sidebar:: Get the code! (:doc:`More info <code>`)
 
-    Get the code for this chapter (:doc:`More info <code>`):
+   Code for the beginning of this chapter::
 
-    ..  code-block:: bash
+       git checkout events
+
+   Code for the end of this chapter::
 
         git checkout user_generated_content
 
@@ -17,7 +19,7 @@ How do prospective speakers submit talks? We let them register on the site and g
 In this chapter we:
 
 * allow self-registration
-* constrain types on the talk folder
+* constrain which content types can be added to the talk folder
 * grant local roles
 * create a custom workflow for talks
 
@@ -28,7 +30,7 @@ Self-registration
 -----------------
 
 * Go to the Security control panel at http://localhost:8080/Plone/@@security-controlpanel and Enable self-registration
-* Leave "Enable User Folders" off unless you want a community site.
+* Leave "Enable User Folders" off unless you want a community site, in which users can create any content they want in their home folder
 
 
 .. _user-content-constrain-types-label:
@@ -36,7 +38,7 @@ Self-registration
 Constrain types
 ---------------
 
-* On the talk folder select `Restrictions… <http://localhost:8080/Plone/the-event/talks/folder_constraintypes_form>`_ from the *Add new* menu. Only allow to add talks.
+* On the talk folder select `Restrictions… <http://localhost:8080/Plone/the-event/talks/folder_constraintypes_form>`_ from the *Add new* menu. Only allow adding talks.
 
 
 .. _user-content-local-roles-label:
@@ -44,9 +46,9 @@ Constrain types
 Grant local roles
 -----------------
 
-* Go to *Sharing* and grant the role *Can add* to the group logged-in users. Now every user can add content in this folder (and only this folder).
+* Go to *Sharing* and grant the role *Can add* to the group *logged-in users*. Now every logged-in user can add content in this folder (and only this folder).
 
-Now all logged-in users can create and submit talks in this folder with the permission of the default workflow.
+By combining the constrain types and the local roles on this folder, we have made it so only logged-in users can create and submit talks in this folder.
 
 
 .. _user-content-custom-workflow-label:
@@ -54,7 +56,7 @@ Now all logged-in users can create and submit talks in this folder with the perm
 A custom workflow for talks
 ---------------------------
 
-We still need to fix a problem: Authenticated users can see all talks, even the ones of other users in the private state. Since we don't want this we will create a modified workflow for talks. The new workflow will only let them see and edit talks they created themselves and not the ones of other users.
+We still need to fix a problem: Authenticated users can see all talks, including those of other users, even if those talks are in the private state. Since we don't want this, we will create a modified workflow for talks. The new workflow will only let them see and edit talks they created themselves and not the ones of other users.
 
 * Go to the :menuselection:`ZMI --> portal_workflow`
 * See how talks have the same workflow as most content, namely :guilabel:`(Default)`
@@ -68,7 +70,7 @@ We still need to fix a problem: Authenticated users can see all talks, even the 
 
 .. note::
 
-    The add-on `plone.app.workflowmanager <https://pypi.org/project/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well.
+    The add-on `plone.app.workflowmanager <https://pypi.org/project/plone.app.workflowmanager>`_ provides a much nicer graphical user interface for this. The problem is you need a big screen to work with complex workflows.
 
 Done.
 
@@ -105,7 +107,7 @@ Enable self-registration
 ************************
 
 To enable self-registration you need to change the global setting that controls this option.
-Most global setting are stored in the registry. You can modify it by adding following to :file:`profiles/default/registry.xml`:
+Most global setting are stored in the registry. You can modify it by adding the following to :file:`profiles/default/registry.xml`:
 
 ..  code-block:: xml
 
@@ -123,7 +125,7 @@ So let's make sure some initial content is created and configured on installing 
 
 To run arbitrary code during the installation of a package we use a `post_handler <https://docs.plone.org/develop/addons/components/genericsetup.html#custom-installer-code-setuphandlers-py>`_
 
-Our package already has such an method registered in :file:`configure.zcml`. It will be automatically run when (re-)installing the add-on.
+Our package already has such a method registered in :file:`configure.zcml`. It will be automatically run when (re-)installing the add-on.
 
 ..  code-block:: xml
     :linenos:
@@ -217,7 +219,7 @@ This makes sure the method :py:meth:`post_install` in :file:`setuphandlers.py` i
 
 Once we reinstall our package a folder :file:`talks` is created with the appropriate local roles and constraints.
 
-We wrote similar code to create the folder *The Event* in :ref:`dexterity2-upgrades-label`.
+We wrote similar code to create the folder *The Event* in :doc:`upgrade_steps`.
 We need it to make sure a sane structure gets created when we create a new site by hand or in tests.
 
 You would usually create a list of dictionaries containing the type, parent and title plus optionally layout, workflow state etc. to create an initial structure. In some projects it could also make sense to have a separate profile besides ``default`` which might be called ``demo`` or ``content`` that creates an initial structure and maybe another ``testing`` that creates dummy content (talks, speakers etc) for tests.
@@ -333,7 +335,7 @@ Create a profile ``content`` that runs its own post_handler in :file:`setuphandl
         ]
 
 
-    Add the method :py:meth:`content` to :file:`setuphandlers.py`. We pointed to that when registering the import step. And add some fancy logic to create the content from ``STRUCTURE``.
+    Add the method :py:meth:`post_content` to :file:`setuphandlers.py`. We pointed to that when registering the import step. And add some fancy logic to create the content from ``STRUCTURE``.
 
     ..  code-block:: python
         :linenos:

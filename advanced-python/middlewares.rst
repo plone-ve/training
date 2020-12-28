@@ -1,7 +1,7 @@
 Middlewares
 ===========
 
-A middleware is an object that wrapps the original application,
+A middleware is an object that wraps the original application,
 hence the name.
 A middle is called between the application and the server.
 It can modify the response or the environment or route requests to
@@ -32,6 +32,7 @@ before calling the application:
             'django.contrib.auth.middleware.AuthenticationMiddleware',
             'django.contrib.messages.middleware.MessageMiddleware',
             'django.middleware.clickjacking.XFrameOptionsMiddleware',
+        ]
 
 Django imports these middlewares from the their
 specified module and plumbs them one after another. Let's see how
@@ -75,9 +76,9 @@ Other frameworks use ``extensions`` sometimes also called ``plugins`` or
                return template('showitem', page=row)
             return HTTPError(404, "Page not found")
 
-Bottle hides the fact the the ``app.install`` command is wrapping your
+Bottle hides the fact that the ``app.install`` command is wrapping your
 application with a call plugin which takes place before your application
-and after your application login. These action could be for example opening
+and after your application login. These actions could be for example opening
 and closing connections to the database before and after the request if
 needed.
 
@@ -90,7 +91,7 @@ environment dictionary to the console:
 .. code-block:: python
 
     def log_environ(handler):
-        """print the envrionment dictionary to the console"""
+        """print the environment dictionary to the console"""
         from pprint import pprint
         def _inner(environ, start_function):
             pprint(environ)
@@ -103,7 +104,7 @@ environment dictionary to the console:
         app = log_environ(hello_world_app)
 
 Exercise 2
-+++++++++++
+++++++++++
 
 Implement your own middleware which capitalizes the response you original
 application return.
@@ -132,7 +133,7 @@ application return.
 
 
 Exercise 3
-+++++++++++
+++++++++++
 
 Implement your own middleware which reverses the response. Upon calling this
 middleware twice you should see the original response, e.g.:

@@ -3,11 +3,23 @@
 Creating a Dynamic Front Page
 =============================
 
-.. sidebar:: Get the code!
+.. sidebar:: Classic chapter
 
-    Get the code for this chapter (:doc:`More info <code>`):
+  .. figure:: _static/plone.svg
+     :alt: Plone Logo
 
-    ..  code-block:: bash
+  This chapter is about Plone Classic.
+
+  Solve the same tasks in the Volto frontend in chapter :doc:`volto_frontpage`
+
+
+.. sidebar:: Get the code! (:doc:`More info <code>`)
+
+   Code for the beginning of this chapter::
+
+       git checkout registry
+
+   Code for the end of this chapter::
 
         git checkout frontpage
 
@@ -23,7 +35,7 @@ The topics we cover are:
 
 * Standalone views
 * Querying the catalog by date
-* DRY
+* DRY ("Don't Repeat Yourself")
 * macros
 * patterns
 
@@ -135,7 +147,7 @@ Create the template ``browser/templates/frontpageview.pt`` (for now without talk
 
 Now you could add the whole code that we used for the talklistview again. But instead we go D.R.Y. and reuse the talklistview by turning it into a macro.
 
-Edit ``browser/templates/talkslistview.pt`` and wrap the list in a macro definition:
+Edit ``browser/templates/talklistview.pt`` and wrap the list in a macro definition:
 
 ..  code-block:: html
     :linenos:
@@ -214,7 +226,7 @@ Now use that macro in ``browser/templates/frontpageview.pt``
         </div>
     </div>
 
-Calling that macro in python looks like this ``metal:use-macro="python: context.restrictedTraverse('talklistview')['talklist']"``
+Calling that macro in Python looks like this ``metal:use-macro="python: context.restrictedTraverse('talklistview')['talklist']"``
 
 .. note::
 
@@ -245,7 +257,7 @@ Twitter
 -------
 
 You might also want to embed a twitter feed into the page. Luckily twitter makes it easy to do that.
-When you browse to the `twitter docs <https://dev.twitter.com/web/embedded-timelines/search>`_ and learn how to create the appropriate snippet of code and paste it in the template wrapped in a ``<div class="col-lg-6">...</div>`` to have the talklist next to the feeds:
+When you browse to the `publish.twitter.com <https://publish.twitter.com/>`_ and have them create a snippet for @ploneconf and paste it in the template wrapped in a ``<div class="col-lg-6">...</div>`` to have the talklist next to the feeds:
 
 ..  code-block:: html
     :emphasize-lines: 19-22
@@ -269,8 +281,7 @@ When you browse to the `twitter docs <https://dev.twitter.com/web/embedded-timel
       </div>
 
       <div class="col-lg-6">
-        <a class="twitter-timeline"  href="https://twitter.com/search?q=ploneconf" data-widget-id="786311347323535360">Tweets about ploneconf</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <a class="twitter-timeline" data-height="600" data-dnt="true" href="https://twitter.com/ploneconf?ref_src=twsrc%5Etfw">Tweets by ploneconf</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
 
     </metal:content-core>

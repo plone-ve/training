@@ -14,7 +14,7 @@ As stated above it's the Plone 5 default :term:`Barceloneta` theme plus some cus
 Use Your Own Static Mockup
 ==========================
 
-If you got a static mockup from your designer or from a website like https://startbootstrap.com/ (where the example template came from),
+If you got a static mockup from your designer or from a website like https://startbootstrap.com (where the example template came from),
 you can use this without customization and just apply the Diazo rules to it.
 
 Another way is to change the static mockup a little bit to use mostly the same CSS id's and classes like Plone does.

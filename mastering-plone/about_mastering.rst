@@ -3,21 +3,26 @@
 About Mastering Plone
 =====================
 
-This training was created by Philip Bauer and Patrick Gerken of `starzel.de <https://www.starzel.de>`_ to create
-a canonical training for future Plone developers.
+History
+-------
+
+This training was initially started by Philip Bauer and Patrick Gerken of `starzel.de <https://www.starzel.de>`_ to create a canonical training for future Plone developers.
 
 The aim is that anyone with the appropriate knowledge can give a training based on it and contribute to it.
 It is published as Open Source on `GitHub <https://github.com/plone/training>`_ and `training.plone.org <https://training.plone.org/>`_.
 
 If you want to inquire the original authors about organizing a training please contact them at team@starzel.de.
 
+It is updated every year to teach the current best practices.
 
 .. _about-upcoming-label:
 
 Upcoming Trainings
 ------------------
 
-If you want to have a training near you please ask for trainings on https://community.plone.org
+* `Plone Conference ONLINE 2020 <https://2020.ploneconf.org/>`_
+
+If you want to have a on-site training or want to attend a public training please ask for trainings on https://community.plone.org
 
 .. _about-previous-label:
 
@@ -26,12 +31,15 @@ Previous Trainings
 
 The Mastering Plone Training was so far held publicly at the following occasions:
 
-* `Ploneconf 2017 in Barcelona <https://2017.ploneconf.org/>`_
-* `Ploneconf 2016 in Boston <https://2016.ploneconf.org/>`_
-* October 2015, Bucharest
+* `Plone Conference 2019 in Ferrara <https://2019.ploneconf.org/>`_
+* `Plone Conference 2018 in Tokyo <https://2018.ploneconf.org/>`_
+* `August 2018, Munich <https://plone.org/events/community/mastering-plone-training-in-munich>`_
+* `Plone Conference 2017 in Barcelona <https://2017.ploneconf.org/>`_
+* `Plone Conference 2016 in Boston <https://2016.ploneconf.org/>`_
+* Plone Conference 2015, Bucharest
 * `March 2015, Munich <https://www.starzel.de/leistungen/training/>`_
 * Plone Conference 2014, Bristol
-* `June 2014, Caracas <https://twitter.com/hellfish2/status/476906131970068480>`_
+* `June 2014, Caracas <https://mobile.twitter.com/hellfish2/status/476906131970068480>`_
 * `May 2014, Munich <https://www.starzel.de/blog/mastering-plone>`_
 * `PythonBrasil/Plone Conference 2013, Brasilia <https://2013.pythonbrasil.org.br/>`_
 * PyCon DE 2012, Leipzig
@@ -159,7 +167,7 @@ Here is a full example
 
     Your mission, should you choose to accept it...
 
-    ..  admonition:: Solution
+    ..  admonition:: This is the heading for the solution
         :class: toggle
 
         To save the world with only seconds to spare do the following:
@@ -175,7 +183,7 @@ Exercise 1
 
 Your mission, should you choose to accept it...
 
-..  admonition:: Solution
+..  admonition:: This is the heading for the solution
     :class: toggle
 
     To save the world with only seconds to spare do the following:
@@ -188,10 +196,10 @@ Your mission, should you choose to accept it...
 Building the documentation locally
 ----------------------------------
 
-Dependencies
-++++++++++++
+Dependencies and new build
+++++++++++++++++++++++++++
 
-Please make sure that you have `Enchant <https://www.abisource.com/projects/enchant/>`_ installed. This is needed for spell-checking.
+Please make sure that you have `Enchant <https://abiword.github.io/enchant/>`_ installed. This is needed for spell-checking.
 
 Install Enchant on macOS:
 
@@ -210,10 +218,10 @@ To build the documentation follow these steps:
 
 .. code-block:: console
 
-    git clone https://github.com/plone/training.git --recursive
+    git clone https://github.com/plone/training.git
     cd training
-    virtualenv --python=python2.7 .
-    $ source bin/activate
+    python -m venv .
+    source bin/activate
 
 Now install dependencies and build.
 
@@ -222,24 +230,9 @@ Now install dependencies and build.
     pip install -r requirements.txt
     make html
 
-You can now open the output from ``_build/html/index.html``.
-To build the presentation version use ``make presentation`` instead of ``make html``.
+You can now open the output ``_build/html/index.html`` in your browser.
 
-You can open the presentation at ``presentation/index.html``.
-
-Build new
----------
-
-.. code-block:: console
-
-    git clone https://github.com/plone/training.git --recursive
-    cd training
-    virtualenv --python=python2.7 .
-    source bin/activate
-    pip install -r requirements.txt
-    make html
-
-Now you can open documentation with your web-bowser.
+To build the presentation version use ``make presentation`` instead of ``make html``. You can open the presentation at ``_build/presentation/index.html``.
 
 If you use macOS you can do:
 
@@ -253,14 +246,23 @@ In the case of Linux, Ubuntu for example you can do:
 
     firefox _build/html/index.html
 
-.. note::
+or with Chrome
 
-    If you do not use Firefox but Chrome, please replace firefox with google-chrome e.g
-
-.. code-block :: console
+.. code-block:: console
 
     google-chrome _build/html/index.html
 
+
+**All steps in short**
+
+.. code-block:: console
+
+    git clone https://github.com/plone/training.git
+    cd training
+    python -m venv .
+    source bin/activate
+    pip install -r requirements.txt
+    make html
 
 
 
@@ -269,10 +271,36 @@ Update existing
 
 .. code-block:: bash
 
-    $ git pull
-    $ source bin/activate
-    $ make html
-    $ open _build/html/index.html
+    git pull
+    source bin/activate
+    make html
+    open _build/html/index.html
+
+
+Sync the browser to your editing
+++++++++++++++++++++++++++++++++
+
+To watch the changes in browser while editing you can use gulp.
+
+Install once the gulp command line utility.
+
+.. code-block:: bash
+
+    npm install --global gulp-cli
+
+Install once the gulp project with
+
+.. code-block:: bash
+
+    npm install
+
+Run gulp when starting working on the training with
+
+.. code-block:: bash
+
+    gulp
+
+and see a browser window opening on http://localhost:3002/.
 
 
 Technical set up to do before a training (as a trainer)

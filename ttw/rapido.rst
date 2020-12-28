@@ -259,7 +259,7 @@ would insert the ``stats`` block under the Plone main content.
 Rapido rules can be added directly in our theme's main :file:`rules.xml` file,
 but it is a good practice to put them in a dedicated rule file which can be located in our app folder.
 
-The app-specific rules file can be included in the main rules file as follows 
+The app-specific rules file can be included in the main rules file as follows
 (where ``MYAPP`` is the name that you gave your application):
 
 .. code-block:: xml
@@ -781,7 +781,7 @@ The ``index_type`` property can have two possible values:
 ``text``
     A text index matches contained words (applicable for text values only).
 
-Queries use the *CQE format* (`see documentation <http://docs.repoze.org/catalog/usage.html#query-objects>`_.
+Queries use the *CQE format* (`see documentation <https://github.com/repoze/repoze.catalog/blob/master/docs/usage.rst#query-objects>`_.
 
 Example (assuming ``author``, ``title`` and ``price`` are existing indexes):
 
@@ -960,4 +960,4 @@ The following Rapido features haven't been covered by this training:
 - access control,
 - Rapido JSON REST API.
 
-You can find information about those features and also interesting use cases in the `Rapido documentation <http://rapidoplone.readthedocs.io/en/latest/>`_.
+You can find information about those features and also interesting use cases in the `Rapido documentation <https://rapidoplone.readthedocs.io/en/latest/>`_.

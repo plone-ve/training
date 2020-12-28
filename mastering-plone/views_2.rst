@@ -3,17 +3,29 @@
 Views II: A Default View for "Talk"
 ===================================
 
-.. sidebar:: Get the code!
+.. sidebar:: Classic chapter
 
-    Get the code for this chapter (:doc:`More info <code>`):
+  .. figure:: _static/plone.svg
+     :alt: Plone Logo
 
-    ..  code-block:: bash
+  This chapter is about Plone Classic.
+
+  Solve the same tasks in the Volto frontend in chapter :doc:`volto_talkview`
+
+
+.. sidebar:: Get the code! (:doc:`More info <code>`)
+
+   Code for the beginning of this chapter::
+
+       git checkout zpt_2
+
+   Code for the end of this chapter::
 
         git checkout views_2
 
 In this part you will:
 
-* Register a view with a python class
+* Register a view with a Python class
 * Write a template used in the default view for talks
 
 
@@ -30,7 +42,7 @@ View Classes
 ------------
 
 Earlier we wrote a demo view which we also used to experiment with page templates.
-Now we are going to enhance that view so that it will have some python code, in addition to a template.
+Now we are going to enhance that view so that it will have some Python code, in addition to a template.
 Let us have a look at the ZCML and the code.
 
 ``browser/configure.zcml``
@@ -77,7 +89,7 @@ The logic contained in the template can now be moved to the class:
 
 .. code-block:: python
     :linenos:
-    :emphasize-lines: 3, 12-39
+    :emphasize-lines: 3, 12-36
 
     # -*- coding: utf-8 -*-
     from Products.Five.browser import BrowserView
@@ -107,15 +119,12 @@ The logic contained in the template can now be moved to the class:
                  'url': 'https://www.starzel.de/blog/magic-templates-in-plone-5'},
             ]
             for item in data:
-                try:
-                    url = item['url']
-                except KeyError:
-                    url = 'https://www.google.com/search?q=%s' % item['title']
-                talk = dict(
-                    title=item['title'],
-                    subjects=', '.join(item['subjects']),
-                    url=url
-                )
+                url = item.get('url', 'https://www.google.com/search?q={}'.format(item['title']))
+                talk = {
+                    'title': item['title'],
+                    'subjects': ', '.join(item['subjects']),
+                    'url': url
+                    }
                 results.append(talk)
             return sorted(results, key=itemgetter('title'))
 
@@ -157,6 +166,118 @@ And the template will now be much simpler.
     </body>
     </html>
 
+.. note::
+
+    It is a very common pattern that you prepare the data you want to display in Python.
+
+Browser Views
+-------------
+
+In the next example you will access the ``context`` in which the view is called.
+
+Edit ``browser/views.py`` and add a method ``context_info`` to the view ``DemoView`` that returns information on the context.
+
+In a method of a Browser View the content object which was ``context`` in the template is now accessed as ``self.context``.
+
+.. code-block:: python
+    :linenos:
+
+    def context_info(self):
+        context = self.context
+        title = context.title
+        portal_type = context.portal_type
+        url = context.absolute_url()
+        return u"This is the {0} '{1}' at {2}".format(portal_type, title, url)
+
+.. note::
+
+    The result is the same as in :ref:`python-expressions-label` where you wrote ``<p tal:content="python: "This is the {0} '{1}' at {2}".format(context.portal_type, context.title, context.absolute_url()">
+    </p>`` in the template.
+
+The template :file:`training.pt` still needs to display that:
+
+.. code-block:: xml
+    :linenos:
+
+    <p tal:content="python: view.context_info()">
+        Info on the context
+    </p>
+
+Open the view on a talk and it will show you information on that talk.
+
+.. note::
+
+    Changes in Python files are picked up by restarting Plone or using the add-on ``plone.reload``: http://localhost:8080/@@reload
+
+
+Reusing Browser Views
+---------------------
+
+* Browser Views can be called by accessing their name in the browser.
+  Append ``/training`` to any URL and the view will be called.
+* Browser Views can be associated with a template (like ``training.pt``) to return some HTML.
+* Browser Views can be reused in your code using ``plone.api.content.get_view('<name of the view>', context, request)``.
+  This allows you to reuse code and methods.
+
+The method ``context_info`` that returned information on the current object can be reused any time like this:
+
+.. code-block:: python
+    :linenos:
+
+    from Products.Five.browser import BrowserView
+    from plone import api
+
+    class SomeOtherView(BrowserView):
+
+        def __call__(self):
+            training_view = api.content.get_view('training', self.context, self.request)
+            return training_view.context_info()
+
+You would still need to register the view in configure.zcml:
+
+.. code-block:: xml
+    :linenos:
+
+    <browser:page
+        name="some_view"
+        for="*"
+        class=".views.SomeOtherView"
+        permission="zope2.View"
+        />
+
+Using ``/some_view`` would now return infomation of the current object in the browser without a template.
+
+You can define which ``context``-object should be used:
+
+.. code-block:: python
+    :linenos:
+
+    from Products.Five.browser import BrowserView
+    from plone import api
+
+    class SomeOtherView(BrowserView):
+
+        def __call__(self):
+            portal = api.portal.get()
+            some_talk = portal['dexterity-for-the-win']
+            training_view = api.content.get_view('training', some_talk, self.request)
+            return training_view.context_info()
+
+``typeinfo`` will now be "This is the talk 'Dexterity for the win' at http://localhost:8080/Plone/dexterity-for-the-win"
+
+.. note::
+
+    Browser Views
+
+    * are the Swiss Army knife of every Plone developer
+    * can be called by appending their name to a URL in the browser.
+      Append ``/training`` to any URL and the view will be called.
+    * can be associated with a template (like ``training.pt``) to return some HTML.
+    * can be reused in your code using ``plone.api.content.get_view('<name of the view>', context, request)``.
+    * can be protected with permissions
+    * can be constrained to certain content types by using ``for="plonconf.site.content.sponsor.ISponsor"``
+    * can be constrained to certain addons by using ``layer="plonconf.site.interfaces.IPloneconfSiteLayer"``
+
 
 .. _views2-default-label:
 
@@ -165,11 +286,12 @@ The default view
 
 Now you know everything to create a nice view for talks in :file:`views.py`.
 
-First we will not write any methods for `view` but access the fields from the talk-schema as `context.<fieldname>`.
+First we will not write any methods for `view` but access the fields from the talk schema as `context.<fieldname>`.
 
 Register a view `talkview` in :file:`browser/configure.zcml`:
 
 .. code-block:: xml
+    :linenos:
 
     <browser:page
        name="talkview"
@@ -183,6 +305,7 @@ Register a view `talkview` in :file:`browser/configure.zcml`:
 :file:`browser/views.py`
 
 .. code-block:: python
+    :linenos:
 
     class TalkView(BrowserView):
         """ The default view for talks"""
@@ -198,7 +321,7 @@ Add the template :file:`templates/talkview.pt`:
         i18n:domain="ploneconf.site">
     <body>
         <metal:content-core fill-slot="content-core">
-            <p>Suitable for <em tal:content="python: ', '.join(context.subject)"></em>
+            <p>Suitable for <em tal:content="python: ', '.join(context.audience)"></em>
             </p>
 
             <div tal:condition="python: context.details"
@@ -211,15 +334,15 @@ Add the template :file:`templates/talkview.pt`:
     </body>
     </html>
 
-After a restart, we can test our view by going to a talk and adding */talkview* to the url.
+After a restart, we can test our view by going to a talk and adding */talkview* to the URL.
 
 
-Using helper-methods from :py:class:`DefaultView`
+Using helper methods from :py:class:`DefaultView`
 -------------------------------------------------
 
-In the previous section we used :py:class:`BrowserView` as the base-class for :py:class:`TalkView`.
+In the previous section we used :py:class:`BrowserView` as the base class for :py:class:`TalkView`.
 
-Dexterity comes with a nice helper-class suited for views of content-types: The :py:class:`DefaultView` base class in :py:mod:`plone.dexterity`.
+Dexterity comes with a nice helper class suited for views of content types: the :py:class:`DefaultView` base class in :py:mod:`plone.dexterity`.
 It has some very useful properties available to use in the template:
 
 * :py:attr:`view.w` is a dictionary of all the display widgets, keyed by field names. This includes widgets from alternative fieldsets.
@@ -231,6 +354,7 @@ It has some very useful properties available to use in the template:
 You can now change the :py:class:`TalkView` to use it
 
 .. code-block:: python
+    :linenos:
 
     from plone.dexterity.browser.view import DefaultView
 
@@ -257,14 +381,14 @@ to use the pattern :samp:`view/w/<fieldname>/render` to render the widgets:
 
             <div tal:content="structure view/w/details/render" />
 
-            <div tal:content="context/speaker">
+            <div tal:content="python: context.speaker">
                 User
             </div>
         </metal:content-core>
     </body>
     </html>
 
-After a restart, we can test the modified view by going to a talk and adding */talkview* to the url.
+After a restart, we can test the modified view by going to a talk and adding ``/talkview`` to the URL.
 
 We should tell Plone that the talkview should be used as the default view for talks instead of the built-in view.
 
@@ -288,13 +412,28 @@ We will have to either reinstall our add-on or run the GenericSetup import step 
 
 ..  note::
 
-    To change it ttw go to the ZMI (http://localhost:8080/Plone/manage), go to ``portal_types`` and select the type for which the new view should be selectable (*talk*).
+    To change it TTW go to the ZMI (http://localhost:8080/Plone/manage), go to ``portal_types`` and select the type for which the new view should be selectable (*talk*).
 
     Now add ``talkview`` to the list *Available view methods*.
     Now the new view is available in the menu *Display*.
     To make it the default view enter it in ``Default view method``.
 
-Now you can improve the talkview to show all the info:
+
+The complete template for talks
+-------------------------------
+
+Now you can improve the talkview to show data for all fields in the talk schema:
+
+* type_of_talk
+* details
+* audience
+* room
+* speaker
+* email
+* image
+* speaker_biography
+
+Since we will use the macro ``content-core`` the values for `title` and `description` of the talk will be rendered for us and we do not have to deal with them.
 
 :file:`templates/talkview.pt`:
 
@@ -308,7 +447,7 @@ Now you can improve the talkview to show all the info:
         <metal:content-core fill-slot="content-core">
 
             <p>
-                <span tal:content="context/type_of_talk">
+                <span tal:content="python:context.type_of_talk">
                     Talk
                 </span>
                 suitable for
@@ -317,18 +456,22 @@ Now you can improve the talkview to show all the info:
                 </span>
             </p>
 
+            <p tal:content="structure view/w/room/render">
+                Room
+            </p>
+
             <div tal:content="structure view/w/details/render">
                 Details
             </div>
 
             <div class="newsImageContainer">
                 <img tal:condition="python:getattr(context, 'image', None)"
-                     tal:attributes="src string:${context/absolute_url}/@@images/image/thumb" />
+                     tal:attributes="src python:context.absolute_url() + '/@@images/image/thumb'" />
             </div>
 
             <div>
-                <a class="email-link" tal:attributes="href string:mailto:${context/email}">
-                    <strong tal:content="context/speaker">
+                <a class="email-link" tal:attributes="href python:'mailto:' + context.email">
+                    <strong tal:content="python: context.speaker">
                         Jane Doe
                     </strong>
                 </a>
@@ -341,30 +484,63 @@ Now you can improve the talkview to show all the info:
     </body>
     </html>
 
-.. _views2-exercise-label:
+.. note::
 
-Exercise
---------
+    If you want to customize the rendering of `title` and `description` simply use the macro ``main`` and add your own version to your template.
+    The default rendering is defined in :py:mod:`Products.CMFPlone` in :file:`/Products/CMFPlone/browser/templates/main_template.pt`.
 
-Add the new choice field "room" to the Talk type (TTW) and display it below Audience in the browser view,
-it should contain the following data:
+    .. code-block:: xml
 
-* Title: Room
-* Possible values: Room 101, Room 102, Auditorium
+        <header>
+          <div id="viewlet-above-content-title" tal:content="structure provider:plone.abovecontenttitle" />
+          <metal:title define-slot="content-title">
+              <h1 class="documentFirstHeading"
+                  tal:define="title context/Title"
+                  tal:condition="title"
+                  tal:content="title">Title or id</h1>
+          </metal:title>
+          <div id="viewlet-below-content-title" tal:content="structure provider:plone.belowcontenttitle" />
 
-..  admonition:: Solution
-        :class: toggle
+          <metal:description define-slot="content-description">
+              <div class="documentDescription description"
+                   tal:define="description context/Description"
+                   tal:content="description"
+                   tal:condition="description">
+                  Description
+              </div>
+          </metal:description>
+        </header>
 
-        * Go to http://localhost:8080/Plone/dexterity-types/talk/@@fields and add the new field
-        * Add the new HTML below the audience part:
+    Note that both `title` and `description` are wrapped in `slots` and can be overwritten like this example:
 
-        .. code-block:: xml
+    .. code-block:: xml
 
-            <p>
-                <span tal:replace="structure view/w/room/render">
-                    Room
-                </span>
-            </p>
+        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+              lang="en"
+              metal:use-macro="context/main_template/macros/master"
+              i18n:domain="ploneconf.site">
+        <body>
+
+        <metal:foo fill-slot="content-title">
+          <h1 class="documentFirstHeading">
+            <span tal:replace="python:context.title" />
+            (<span class="pat-moment"
+                   data-pat-moment="format:relative"
+                   tal:content="python:context.Date()">
+            </span>)
+          </h1>
+        </metal:foo>
+
+        <metal:content-core fill-slot="content-core">
+            [...]
+        </metal:content-core>
+
+        </body>
+        </html>
+
+    Since in ``DefaultView`` you have access to the widget you can also use other information, like `label` which is the title of the field: ``<label tal:content="view/w/room/label"></label>``.
+    One benefit of this approach is that you automatically get the translated title.
+    This is used in the default-view for dexterity content ``plone/dexterity/browser/item.pt``.
 
 
 Behind the scenes
@@ -398,7 +574,7 @@ Behind the scenes
 
 Do you remember the term :py:class:`MultiAdapter`?
 
-The browser page is just a MultiAdapter.
+The BrowserView is just a MultiAdapter.
 The ZCML statement :samp:`browser:page` registers a :py:class:`MultiAdapter` and adds additional things needed for a browser view.
 
 An adapter adapts things, a :py:class:`MultiAdapter` adapts multiple things.

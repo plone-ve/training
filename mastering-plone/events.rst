@@ -3,16 +3,39 @@
 Turning Talks into Events
 =========================
 
-.. sidebar:: Get the code!
+.. sidebar:: Volto chapter
 
-    Get the code for this chapter (:doc:`More info <code>`):
+  .. figure:: _static/volto.svg
+     :alt: Volto Logo
 
-    ..  code-block:: bash
+  This chapter is about the React frontend Volto.
 
-        git checkout events
+  Solve the same tasks in Plone Classic in chapter :doc:`events_classic`
 
 
-We forgot something: A list of talks is great especially if you can sort it by your preferences. But if a visitor decides he wants to actually go to see a talk he needs to know when it will take place.
+.. sidebar:: Get the code! (:doc:`More info <code>`)
+
+    Code for the beginning of this chapter::
+
+        # frontent
+        git checkout talklist
+
+        # backend
+        git checkout talklist
+
+
+    Code for the end of this chapter::
+
+        # frontent
+        git checkout event
+
+        # backend
+        git checkout event
+
+
+
+
+We forgot something: a list of talks is great, especially if you can sort it according to your preferences. But if a visitor decides she wants to actually go to see a talk she needs to know when it will take place.
 
 We need a schedule and for this we need to store the information when a talk will happen.
 
@@ -23,186 +46,276 @@ In this chapter you will
 * enable this behavior for talks
 * display the date in the talkview and talklistview
 
-First enable the behavior :py:class:`IEventBasic` for talks in :file:`profiles/default/types/talk.xml`
+
+.. note::
+
+    This chapter uses Volto to change displaying the dates in talkview and talklistview.
+    To meet the same requirements in classic Plone see the chapter :doc:`events_classic`.
+
+
+Add date fields
+---------------
+
+Instead of adding Datetime-fields to the talk schema we will use the behavior ``plone.eventbasic``.
+
+Enable the behavior ``plone.eventbasic`` for talks in :file:`profiles/default/types/talk.xml`.
 
 .. code-block:: xml
     :linenos:
     :emphasize-lines: 6
 
     <property name="behaviors">
-      <element value="plone.app.dexterity.behaviors.metadata.IDublinCore"/>
-      <element value="plone.app.content.interfaces.INameFromTitle"/>
-      <element value="ploneconf.site.behavior.social.ISocial"/>
-      <element value="ploneconf.site.interfaces.ITalk"/>
-      <element value="plone.app.event.dx.behaviors.IEventBasic"/>
+      <element value="plone.dublincore"/>
+      <element value="plone.namefromtitle"/>
+      <element value="plone.versioning"/>
+      <element value="ploneconf.featured"/>
+      <element value="plone.eventbasic"/>
     </property>
 
-After you activate the behavior by hand or reinstalled the add-on you will now have some additional fields for ``start`` and ``end``.
-
-To display the new field we reuse a default event summary view as documented in http://ploneappevent.readthedocs.io/en/latest/development.html#reusing-the-event-summary-view-to-list-basic-event-information
-
-Edit :file:`browser/templates/talkview.pt`
-
-.. code-block:: html
-    :linenos:
-    :emphasize-lines: 7
-
-    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
-          metal:use-macro="context/main_template/macros/master"
-          i18n:domain="ploneconf.site">
-    <body>
-        <metal:content-core fill-slot="content-core" tal:define="widgets view/w">
-
-            <tal:eventsummary replace="structure context/@@event_summary"/>
-
-            <p>
-                <span tal:content="context/type_of_talk">
-                    Talk
-                </span>
-                suitable for
-                <span tal:replace="structure widgets/audience/render">
-                    Audience
-                </span>
-            </p>
-
-            <div tal:content="structure widgets/details/render">
-                Details
-            </div>
-
-            <div class="newsImageContainer">
-                <img tal:condition="python:getattr(context, 'image', None)"
-                     tal:attributes="src string:${context/absolute_url}/@@images/image/thumb" />
-            </div>
-
-            <div>
-                <a class="email-link" tal:attributes="href string:mailto:${context/email}">
-                    <strong tal:content="context/speaker">
-                        Jane Doe
-                    </strong>
-                </a>
-                <div tal:content="structure widgets/speaker_biography/render">
-                    Biography
-                </div>
-            </div>
-
-        </metal:content-core>
-    </body>
-    </html>
-
-Similar to the field `room` the problem now appears that speakers submitting their talks should not be able to set a time and day for their talks.
-Sadly it is not easy to modify permissions of fields provided by behaviors (unless you write the behavior yourself).
-At least in this case we can take the easy way out since the field does not contain secret information: We will simply hide the fields from contributors using css and show them for reviewers. We will do so in chapter :ref:`resources-label` when we add some css-files.
-
-Modify :file:`browser/static/ploneconf.css` and add:
-
-.. code-block:: css
-
-    body.userrole-contributor #formfield-form-widgets-IEventBasic-start,
-    body.userrole-contributor #formfield-form-widgets-IEventBasic-end > *,
-    body.userrole-contributor #formfield-form-widgets-IEventBasic-whole_day,
-    body.userrole-contributor #formfield-form-widgets-IEventBasic-open_end {
-        display: none;
-    }
-
-    body.userrole-reviewer #formfield-form-widgets-IEventBasic-start,
-    body.userrole-reviewer #formfield-form-widgets-IEventBasic-end > *,
-    body.userrole-reviewer #formfield-form-widgets-IEventBasic-whole_day,
-    body.userrole-reviewer #formfield-form-widgets-IEventBasic-open_end {
-        display: block;
-    }
-
-You can now display the start-date of a talk in the talklist.
-Modify the class :py:class:`TalkListView` and the template :file:`browser/templates/talklistview.pt` to show the new info:
-
-..  code-block:: python
-    :linenos:
-    :emphasize-lines: 17
-
-    class TalkListView(BrowserView):
-        """ A list of talks
-        """
-
-        def talks(self):
-            results = []
-            brains = api.content.find(context=self.context, portal_type='talk')
-            for brain in brains:
-                results.append({
-                    'title': brain.Title,
-                    'description': brain.Description,
-                    'url': brain.getURL(),
-                    'audience': ', '.join(brain.audience or []),
-                    'type_of_talk': brain.type_of_talk,
-                    'speaker': brain.speaker,
-                    'room': brain.room,
-                    'start': brain.start,
-                    })
-            return results
-
-
-..  code-block:: html
-    :linenos:
-    :emphasize-lines: 5-9
-
-    [...]
-    <td tal:content="python:talk['audience']">
-        Advanced
-    </td>
-    <td class="pat-moment"
-        data-pat-moment="format:calendar"
-        tal:content="python:talk['start']">
-        Time
-    </td>
-    <td tal:content="python:talk['room']">
-        101
-    </td>
-    [...]
+After you activate the behavior by hand or you reinstalled the add-on you will now have some additional fields for ``start``, ``end``, ``open_end`` and ``whole_day``.
 
 .. note::
 
-    If you changed the view :py:class:`TalkListView` to only return brains as described in :ref:`dexterity2-use_indexes-label` you can save youself a lot of work and simply use the existing index `start` (generously provided by :py:mod:`plone.app.event`) in the template as ``python:brain.start``.
+    While we're editing behaviors we can also add our own featured-behavior to News Items.
+
+    Add :file:`profiles/default/types/News_Item.xml`:
+
+    .. code-block::
+
+        <?xml version="1.0"?>
+        <object name="News Item" meta_type="Dexterity FTI" i18n:domain="plone"
+            xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+          <property name="behaviors" purge="false">
+            <element value="plone.constraintypes"/>
+            <element value="ploneconf.featured"/>
+          </property>
+        </object>
 
 
-Exercise 1
-++++++++++
+Display the dates
+-----------------
 
-Find out where ``event_summary`` comes from and describe how you could override it.
+Now we need to update the event view to show this information.
 
-..  admonition:: Solution
-    :class: toggle
+Unfortuanely displaying dates and times is not as simple as it might sound since we'd have to account for different use cases that all look different:
 
-    Use your editor or grep to search all zcml-files in the folder :file:`packages` for the string ``name="event_summary"``
+Here are some examples how dates might be displayed if they are full-day events, open-ended events or events with a defined end-time.
 
-    ..  code-block:: bash
+* Apr 22, 2020 from 3:00 PM to 5:00 PM
+* Apr 22, 2020
+* Apr 22, 2020 7:00 PM
+* Apr 22, 2020 to Apr 24, 2020
+* Apr 22, 2020 7:00 PM to Apr 29, 2020 8:00 PM
 
-        $ grep -sirn --include \*.zcml 'name="event_summary"' ./packages
-        ./packages/plone/app/event/browser/configure.zcml:66:        name="event_summary"
-        ./packages/plone/app/event/browser/configure.zcml:75:        name="event_summary"
+Now consider that dates are displayed different in other languages and it really gets complicated.
 
-    The relevant registration is:
+So it would be a good idea to reuse a component that already deals with these use-cases.
+Since we use the same behavior as the default content type Event in Plone, the default event-view might have what we need.
 
-    ..  code-block:: xml
+Add an event und use the React Developer Tools to inspect the component displaying the date.
+The component is called ``When`` and is defined in ``frontend/node_modules/@plone/volto/src/components/theme/View/EventDatesInfo.jsx``.
 
-        <browser:page
-            for="plone.event.interfaces.IEvent"
-            name="event_summary"
-            class=".event_summary.EventSummaryView"
-            template="event_summary.pt"
-            permission="zope2.View"
-            layer="..interfaces.IBrowserLayer"
-            />
+.. code-block:: jsx
 
-    So there is a class :py:class:`plone.app.event.browser.event_summary.EventSummaryView` and a template :file:`event_summary.pt` that could be overridden with :py:mod:`z3c.jbot` by copying it as :file:`plone.app.event.browser.event_summary.pt` in :file:`browser/overrides`.
+    <When
+      start={content.start}
+      end={content.end}
+      whole_day={content.whole_day}
+      open_end={content.open_end}
+    />
+
+We'll reuse it in :file:`frontend/src/components/Views/Talk.jsx`. We'll let us inspire by the event-view and add a ``<Segment floated="right">`` that will contain the date and also the room and the audience. In this box we will also use ``<Header dividing sub>`` (from `seamantic-ui <https://react.semantic-ui.com/elements/header/#types-subheaders>`_ to separate the data.
+
+:file:`frontend/src/components/Views/Talk.jsx`:
+
+.. code-block:: jsx
+    :emphasize-lines: 5,12,29-65
+
+    import React from 'react';
+    import { flattenToAppURL } from '@plone/volto/helpers';
+    import {
+      Container,
+      Header,
+      Image,
+      Icon,
+      Label,
+      Segment,
+    } from 'semantic-ui-react';
+    import { Helmet } from '@plone/volto/helpers';
+    import { When } from '@plone/volto/components/theme/View/EventDatesInfo';
+
+    const TalkView = props => {
+      const { content } = props;
+      const color_mapping = {
+        Beginner: 'green',
+        Advanced: 'yellow',
+        Professional: 'red',
+      };
+
+      return (
+        <Container id="page-talk">
+          <Helmet title={content.title} />
+          <h1 className="documentFirstHeading">
+            {content.type_of_talk.title || content.type_of_talk.token}:{' '}
+            {content.title}
+          </h1>
+          <Segment floated="right">
+            {content.start && !content.hide_date && (
+              <>
+                <Header dividing sub>
+                  When
+                </Header>
+                <When
+                  start={content.start}
+                  end={content.end}
+                  whole_day={content.whole_day}
+                  open_end={content.open_end}
+                />
+              </>
+            )}
+            {content.audience && (
+              <Header dividing sub>
+                Audience
+              </Header>
+            )}
+            {content.audience?.map(item => {
+              let audience = item.title || item.token;
+              let color = color_mapping[audience] || 'green';
+              return (
+                <Label key={audience} color={color}>
+                  {audience}
+                </Label>
+              );
+            })}
+          </Segment>
+          {content.description && (
+            <p className="documentDescription">{content.description}</p>
+          )}
+          {content.details && (
+            <div dangerouslySetInnerHTML={{ __html: content.details.data }} />
+          )}
+          {content.speaker && (
+            <Segment clearing>
+              <Header dividing>{content.speaker}</Header>
+              {content.website ? (
+                <p>
+                  <a href={content.website}>{content.company}</a>
+                </p>
+              ) : (
+                <p>{content.company}</p>
+              )}
+              {content.email && (
+                <p>
+                  <a href={`mailto:${content.email}`}>
+                    <Icon name="mail" /> {content.email}
+                  </a>
+                </p>
+              )}
+              {content.twitter && (
+                <p>
+                  <a href={`https://twitter.com/${content.twitter}`}>
+                    <Icon name="twitter" />{' '}
+                    {content.twitter.startsWith('@')
+                      ? content.twitter
+                      : '@' + content.twitter}
+                  </a>
+                </p>
+              )}
+              {content.github && (
+                <p>
+                  <a href={`https://github.com/${content.github}`}>
+                    <Icon name="github" /> {content.github}
+                  </a>
+                </p>
+              )}
+              {content.image && (
+                <Image
+                  src={flattenToAppURL(content.image.scales.preview.download)}
+                  size="small"
+                  floated="right"
+                  alt={content.image_caption}
+                  avatar
+                />
+              )}
+              {content.speaker_biography && (
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: content.speaker_biography.data,
+                  }}
+                />
+              )}
+            </Segment>
+          )}
+        </Container>
+      );
+    };
+    export default TalkView;
+
+The result should look like this:
+
+.. figure:: _static/event_view_volto.png
 
 
-Exercise 2
-++++++++++
+Hiding fields from certain users
+--------------------------------
+
+.. note::
+
+  This chapter is about displaying, not editing. So setting values is not the topic here.
+
+The problem now appears that speakers submitting their talks should not be able to set a time and day for their talks.
+
+Sadly it is not easy to modify permissions of fields provided by behaviors (unless you write the behavior yourself).
+At least in this case we can take the easy way out since the field does not contain secret information:
+We can simply hide the fields from contributors using css and show them for reviewers.
+
+.. warning::
+
+  This trick does not yet work in Volto because some css-classes are still missing from the body-tag (see https://github.com/plone/volto/issues/1189). Skip ahead!
+
+Modify :file:`frontend/theme/extras/custom.overrides` and add:
+
+.. code-block:: less
+
+    // Hide date fields from contributors
+    body.userrole-contributor {
+      #default-start.field,
+      #default-end.field,
+      #default-whole_day.field,
+      #default-open_end.field {
+        display: none;
+      }
+    }
+
+    body.userrole-reviewer {
+      #default-start.field,
+      #default-end.field,
+      #default-whole_day.field,
+      #default-open_end.field {
+        display: block;
+      }
+    }
+
+
+Display the date in the listing
+-------------------------------
+
+.. todo::
+
+  Adapt ``TalkListView`` to handle the date and time.
+
+
+Exercise
+++++++++
 
 Find out where the event behavior is defined and which fields it offers.
 
 ..  admonition:: Solution
     :class: toggle
 
-    The id with which the behavior is registered in :file:`Talk.xml` is a Python path. So :py:class:`plone.app.event.dx.behaviors.IEventBasic` can be found in :file:`packages/plone.app.event/plone/app/event/dx/behaviors.py`
+    The name you used to enable the behavior :file:`Talk.xml` is registered in zcml.
+    So ``name="plone.eventbasic"`` should be easy to find.
+    You will find it in :file:`backend/packages/plone/app/event/dx/configure.zcml` and it points to ``IEventBasic`` in :file:`packages/plone.app.event/plone/app/event/dx/behaviors.py`
 
     ..  code-block:: python
 
@@ -290,5 +403,9 @@ Summary
 -------
 
 * You reused a existing behavior to add new fields
-* You reused existing indexes to display the time of a talk
-* You did not have to write your own datetime-fields and indexers \o/
+* You reused a existing component to display the date
+* You did not have to write your own datetime fields and indexers \o/
+
+.. note::
+
+    To meet the same requirements in classic Plone see the chapter :doc:`events_classic`

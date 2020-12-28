@@ -1,9 +1,15 @@
 Relations
 =========
 
-You can model relationships between content items by placing them in a hierarchy (a folder *speakers* containing the (folderish) speakers and within each speaker the talks) or by linking them to each other in Richtext-Fields. But where would you store a talk that two speakers give together?
+.. todo::
 
-Relations allow developers to model relationships between objects without a links or a hierarchy. The behavior :py:class:`plone.app.relationfield.behavior.IRelatedItems` provides the field :guilabel:`Related Items` in the tab :guilabel:`Categorization`. That field simply says ``a`` is somehow related to ``b``.
+    * Add screenshots for relationfields in Volto
+    * Create relations between talk and speaker
+    * Display relations (and backrelations)
+
+You can model relationships between content items by placing them in a hierarchy (a folder *speakers* containing the (folderish) speakers and within each speaker the talks) or by linking them to each other in Richtext fields. But where would you store a talk that two speakers give together?
+
+Relations allow developers to model relationships between objects without using links or a hierarchy. The behavior :py:class:`plone.app.relationfield.behavior.IRelatedItems` provides the field :guilabel:`Related Items` in the tab :guilabel:`Categorization`. That field simply says ``a`` is somehow related to ``b``.
 
 By using custom relations you can model your data in a much more meaningful way.
 
@@ -14,13 +20,14 @@ Creating relations in a schema
 Relate to one item only.
 
 .. code-block:: python
+    :linenos:
 
     from plone.app.vocabularies.catalog import CatalogSource
     from z3c.relationfield.schema import RelationChoice
     from z3c.relationfield.schema import RelationList
 
     evil_mastermind = RelationChoice(
-        title=_(u'The Evil Masterimind'),
+        title=_(u'The Evil Mastermind'),
         vocabulary='plone.app.vocabularies.Catalog',
         required=False,
     )
@@ -43,9 +50,59 @@ Relate to multiple items.
 
 We can see that the `code for the behavior IRelatedItems <https://github.com/plone/plone.app.relationfield/blob/master/plone/app/relationfield/behavior.py>`_ does exactly the same.
 
+Controlling what to relate to
+-----------------------------
+
+The best way to control wich item should be relatable to is to configure the widget with ``directives.widget()``.
+In the following example you can only relate to Documents:
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 12
+
+    from plone.app.z3cform.widget import RelatedItemsFieldWidget
+
+    relationchoice_field = RelationChoice(
+        title=u"Relationchoice field",
+        vocabulary='plone.app.vocabularies.Catalog',
+        required=False,
+    )
+    directives.widget(
+        "relationchoice_field",
+        RelatedItemsFieldWidget,
+        pattern_options={
+            "selectableTypes": ["Document"],
+        },
+    )
+
+The following example applies *pattern-option* ``basePath`` to force the widget to start browsing the site at the site-root using the method ``plone.app.multilingual.browser.interfaces.make_relation_root_path``.
+By default the widget starts with the current context.
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 11
+
+    relationlist_field = RelationList(
+        title=u"Relationlist Field",
+        default=[],
+        value_type=RelationChoice(vocabulary='plone.app.vocabularies.Catalog'),
+        required=False,
+        missing_value=[],
+    )
+    directives.widget(
+        "relationlist_field",
+        RelatedItemsFieldWidget,
+        vocabulary='plone.app.vocabularies.Catalog',
+        pattern_options={
+            "basePath": make_relation_root_path,
+        },
+    )
+
 Instead of using a named vocabulary we can also use ``source``:
 
 .. code-block:: python
+    :linenos:
+    :emphasize-lines: 9
 
     from plone.app.vocabularies.catalog import CatalogSource
     from z3c.relationfield.schema import RelationChoice
@@ -59,72 +116,131 @@ Instead of using a named vocabulary we can also use ``source``:
         required=False,
     )
 
-To ``CatalogSource`` you can pass the same argument that you use for catalog-queries.
-This makes it very flexible to limit relateable items by type, path, date etc.
+You can pass to ``CatalogSource`` the same arguments you use for catalog queries.
+This makes it very flexible for limiting relateable items by type, path, date, and so on.
 
-For even more flexibility you can create your own `dynamic vocabularies <https://docs.plone.org/external/plone.app.dexterity/docs/advanced/vocabularies.html#dynamic-sources>`_.
+For even more flexibility, you can create your own `dynamic vocabularies <https://docs.plone.org/external/plone.app.dexterity/docs/advanced/vocabularies.html#dynamic-sources>`_.
+
+For more examples how to use relationfields look at :ref:`dexterity_reference-label`.
+
+
+Use a tailor shaped widget for relations
+----------------------------------------
+
+Sometimes the widget for relations is not what you want since it can be hard to navigate to the content you want to relate to. With SelectFieldWidget and a custom vocabulary you can shape a widget for an easier selection of related items:
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 9, 15
+
+    from plone.app.z3cform.widget import SelectFieldWidget
+    from plone.autoform import directives
+    from z3c.relationfield.schema import RelationChoice
+    from z3c.relationfield.schema import RelationList
+
+    relationlist_field_select = RelationList(
+        title=u'Relationlist with select widget',
+        default=[],
+        value_type=RelationChoice(vocabulary='ploneconf.site.vocabularies.documents'),
+        required=False,
+        missing_value=[],
+    )
+    directives.widget(
+        'relationlist_field_select',
+        SelectFieldWidget,
+    )
+
+Register the vocabulary like this in `configure.zcml`:
+
+.. code-block:: xml
+
+    <utility
+        name="ploneconf.site.vocabularies.documents"
+        component="ploneconf.site.vocabularies.DocumentVocabularyFactory" />
+
+Note that the value is the object itself, not the uuid. This is a requirement of the field-type:
+
+.. code-block:: python
+    :linenos:
+
+    from plone import api
+    from zope.interface import implementer
+    from zope.schema.interfaces import IVocabularyFactory
+    from zope.schema.vocabulary import SimpleTerm
+    from zope.schema.vocabulary import SimpleVocabulary
+
+    @implementer(IVocabularyFactory)
+    class DocumentVocabulary(object):
+        def __call__(self, context=None):
+            terms = []
+            # Use getObject since the DataConverter expects a real object.
+            for brain in api.content.find(portal_type='Document', sort_on='sortable_title'):
+                terms.append(SimpleTerm(
+                    value=brain.getObject(),
+                    token=brain.UID,
+                    title=u'{} ({})'.format(brain.Title, brain.getPath()),
+                ))
+            return SimpleVocabulary(terms)
+
+    DocumentVocabularyFactory = DocumentVocabulary()
+
+The field should then look like this:
+
+.. figure:: _static/relations_with_selectwidget.png
+   :alt: RelationList field with select widget SelectFieldWidget
+
+   RelationList field with select widget SelectFieldWidget and custom vocabulary
+
+..  warning::
+
+    This approach is bad for performance if the vocabulary will contain a lot of content.
 
 
 Accessing and displaying related items
 --------------------------------------
 
-One would think that it would be the easiest approach to simply use the render-method of the default-widget like we did in the chapter "Views II: A Default View for 'Talk'". Sadly that is wrong. Adding the approriate code to te template:
+To display related items you can use the render method of the default widget e.g.:
 
-..  code-block::html
+.. code-block:: html
 
     <div tal:content="structure view/w/evil_mastermind/render" />
 
-would only render the UIDs of the related items:
+This would render the related items like this:
 
-..  code-block::html
+.. figure:: https://user-images.githubusercontent.com/453208/77223704-4b714100-6b5f-11ea-855b-c6e209f1c25c.png
+    :alt: Default rendering of a RelationList (since Plone 5.2.2)
 
-    <span class="text-widget relationchoice-field" id="form-widgets-evil_mastermind">
-        1ccb5787517947da90a8ca32d6251c57
-    </span>
+If you want to access and render relations yourself you can use the Plone add-on `collective.relationhelpers <https://pypi.org/project/collective.relationhelpers>`_ and add a method like in the following example.
 
-This is not very useful but anyway it is very likely that you want to control closely how to render these items.
+.. code-block:: python
+    :linenos:
 
-So we add a method to the view to return the related items so that we're able to render anyway we like.
-
-..  code-block:: python
-
-    def minions(self):
-        """Returns a list of brains of related items."""
-        results = []
-        catalog = api.portal.get_tool('portal_catalog')
-        for rel in self.context.underlings:
-            if rel.isBroken():
-                # skip broken relations
-                continue
-            # query by path so we don't have to wake up any objects
-            brains = catalog(path={'query': rel.to_path, 'depth': 0})
-            results.append(brains[0])
-        return results
-
-We use :py:meth:`rel.to_path` and use the items path to query the catalog for its catalog-entry. This is much more efficient than using :py:meth:`rel.to_object` since we don't have to wake up any objects. Setting ``depth`` to ``0`` will only return items with exactly this path, so it will always return a list with one item.
-
-..  note::
-
-    Using the path sounds a little complicated and it would indeed be more convenient if a :py:class:`RelationItem` would contain the ``UID`` (so we can query the catalog for that) or if the ``portal_catalog`` would index the ``IntId``. But that's the way it is for now.
-
-For reference look at how the default viewlet displays the information for related items stored by the behavior :py:class:`IRelatedItems`. See how it does exactly the same in ``related2brains``.
-This is the Python-path for the viewlet: :py:class:`plone.app.layout.viewlets.content.ContentRelatedItems`
-This is the file-path for the template: :file:`plone/app/layout/viewlets/document_relateditems.pt`
+    from collective.relationhelpers import api as relapi
+    from Products.Five import BrowserView
 
 
-Creating Relationfields through the web
+    class EvilMastermindView(BrowserView):
+
+        def minions(self):
+            """Returns a list of related items."""
+            return relapi.relations(self.context, 'underlings')
+
+It returns the related items so that you will able to render them anyhow you like.
+
+
+Creating RelationFields through the web
 ---------------------------------------
 
 It is surprisingly easy to create RelationFields through the web
 
-- In the dexterity schema-editor add a new field and select *Relation List* or *Relation Choice*, depending on wether you want to relate to multiple items or not.
-- When configuring the field you can even select the content-type the relation should be limited to.
+- Using the Dexterity schema editor, add a new field and select *Relation List* or *Relation Choice*, depending on whether you want to relate to multiple items or not.
+- When configuring the field you can even select the content type the relation should be limited to.
 
-When you click on ``Edit xml field model`` you will see the fields in the xml-schema:
+When you click on ``Edit XML field model`` you will see the fields in the XML schema:
 
 RelationChoice:
 
-..  code-block:: python
+.. code-block:: python
 
     <field name="boss" type="z3c.relationfield.schema.RelationChoice">
       <description/>
@@ -134,7 +250,8 @@ RelationChoice:
 
 RelationList:
 
-..  code-block:: python
+.. code-block:: python
+    :linenos:
 
     <field name="underlings" type="z3c.relationfield.schema.RelationList">
       <description/>
@@ -150,17 +267,23 @@ RelationList:
     </field>
 
 
+Accessing relations and backrelations from code
+-----------------------------------------------
+
+The recommended way to create and read relations and backrelations as a developer is to use `collective.relationhelpers <https://pypi.org/project/collective.relationhelpers>`_.
+
+
 The stack
 ---------
 
 Relations are based on `zc.relation <https://pypi.org/project/zc.relation/>`_.
-This package allows to store transitive and intransitive relationships.
-It allows for complex relationships and searches along them.
+This package stores transitive and intransitive relationships.
+It allows complex relationships and searches along them.
 Because of this functionality, the package is a bit complicated.
 
 The package `zc.relation` provides its own catalog, a relation catalog.
 This is a storage optimized for the queries needed.
-`zc.relation` is sort of an outlier with regards to zope documentation. It has extensive documentation, with a good level of doctests for explaining things.
+`zc.relation` is sort of an outlier with regards to Zope documentation. It has extensive documentation, with a good level of doctests for explaining things.
 
 You can use `zc.relation` to store the objects and its relations directly into the catalog.
 But the additional packages that make up the relation functionality don't use the catalog this way.
@@ -176,7 +299,7 @@ Widgets are provided by `plone.app.z3cform` and some converters are provided by 
 The widget that Plone uses can also store objects directly.
 Because of this, the following happens when saving a relation via a form:
 
-1. The html shows some nice representation of selectable objects.
+1. The HTML shows some nice representation of selectable objects.
 2. When the user submits the form, selected items are submitted by their UUIDs.
 3. The Widget retrieves the original object with the UUID.
 4. Some datamanager gets another unique ID from an IntID Tool.
@@ -196,7 +319,7 @@ There are alternatives to using Relations. You could instead just store the UUID
 But using real relations and the catalog allows for very powerful things.
 The simplest concrete advantage is the possibility to see what links to your object.
 
-The builtin linkintegrity-feature of Plone 5 is also built using relations.
+The built-in linkintegrity feature of Plone 5 is also implemented using relations.
 
 
 RelationValues
@@ -212,71 +335,5 @@ So the API for getting the target is:
 - `to_object`
 
 In addition, the relation value knows under which attribute it has been stored as `from_attribute`. It is usually the name of the field with which the relation is created.
-But it can also be the name of a relation that is created by code, e.g. linkintegrity-relations (`isReferencing`) or the relation between a working copy and the original (`iterate-working-copy`).
+But it can also be the name of a relation that is created by code, e.g. linkintegrity relations (`isReferencing`) or the relation between a working copy and the original (`iterate-working-copy`).
 
-
-Accessing relations and backrelations from code
------------------------------------------------
-
-If you want to find out what objects are related to each other, you use the relation catalog. Here is a convenience-method that allows you to find all kinds of relations.
-
-.. code-block:: python
-
-    from zc.relation.interfaces import ICatalog
-    from zope.component import getUtility
-    from zope.intid.interfaces import IIntIds
-    from plone.app.linkintegrity.handlers import referencedRelationship
-
-
-    def example_get_backlinks(obj):
-        backlinks = []
-        for rel in get_backrelations(attribute=referencedRelationship):
-            if rel.isBroken():
-                backlinks.append(dict(href='',
-                                      title='broken reference',
-                                      relation=rel.from_attribute))
-            else:
-                obj = rel.from_object
-                backlinks.append(dict(href=obj.absolute_url(),
-                                      title=obj.title,
-                                      relation=rel.from_attribute))
-        return backlinks
-
-    def get_relations(obj, attribute=None, backrefs=False):
-        """Get any kind of references and backreferences"""
-        int_id = get_intid(obj)
-        if not int_id:
-            return retval
-
-        relation_catalog = getUtility(ICatalog)
-        if not relation_catalog:
-            return retval
-
-        query = {}
-        if attribute:
-            # Constrain the search for certain relation-types.
-            query['from_attribute'] = attribute
-
-        if backrefs:
-            query['to_id'] = int_id
-        else:
-            query['from_id'] = int_id
-
-        return relation_catalog.findRelations(query)
-
-
-    def get_backrelations(obj, attribute=None):
-        return get_relations(obj, attribute=attribute, backrefs=True)
-
-
-    def get_intid(obj):
-        """Return the intid of an object from the intid-catalog"""
-        intids = component.queryUtility(IIntIds)
-        if intids is None:
-            return
-        # check that the object has an intid, otherwise there's nothing to be done
-        try:
-            return intids.getId(obj)
-        except KeyError:
-            # The object has not been added to the ZODB yet
-            return

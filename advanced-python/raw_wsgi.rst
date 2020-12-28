@@ -3,9 +3,9 @@ From Raw WSGI to a framework
 
 While useful for understanding how WSGI works, the examples
 shown until now are still far being called a framework.
-A Python webframework usually has the following attributes:
+A Python web framework usually has the following attributes:
 
- 1. It pre-process the environment and yields some `request` object
+ 1. It pre-processes the environment and yields some `request` object
     for the programmer to work with.
     This request is sometimes injected to the callable we program, as
     for example in Pyramid:
@@ -59,7 +59,7 @@ A Python webframework usually has the following attributes:
 
  3. Add some smart way of handling URL and request query parameters.
     For example Django injects URL parameter to your application logic,
-    which allowes you to make explicit use of them:
+    which allows you to make explicit use of them:
 
     .. code:: python
 
