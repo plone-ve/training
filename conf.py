@@ -52,7 +52,7 @@ linkcheck_ignore = [
     r'http://wiki.apache.org',
 ]
 linkcheck_anchors = False
-linkcheck_timeout = 30.0
+linkcheck_timeout = 30
 
 
 # See http://sphinx-doc.org/ext/todo.html#confval-todo_include_todos
