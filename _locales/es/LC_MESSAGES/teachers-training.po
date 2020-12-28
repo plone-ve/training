@@ -55,7 +55,7 @@ msgstr "Obtener citas"
 #: ../teachers-training/before.rst:4
 msgid "Before the training: Create  material, invite trainees, preparation"
 msgstr ""
-"Antes de la capacitación: Crear  material, invitar a los alumnos, preparación"
+"Antes del entrenamiento: Crear  material, invitar a los alumnos, preparación"
 
 #: ../teachers-training/before.rst:8
 msgid "This chapter is a first version."
@@ -107,7 +107,7 @@ msgid ""
 "evaluate your training offer?"
 msgstr ""
 "¿Qué información necesita proporcionar a los clientes potenciales para que "
-"puedan evaluar su oferta de capacitación?"
+"puedan evaluar su oferta de entrenamiento?"
 
 #: ../teachers-training/before.rst:27
 msgid "The basic What, Where, When."
@@ -523,7 +523,7 @@ msgstr "Formación de entrenadores"
 
 #: ../teachers-training/index.rst:8
 msgid "How To Give Technical Training(s)"
-msgstr "Cómo dar capacitación(ones) técnica"
+msgstr "Cómo dar entrenamiento(s) técnico"
 
 #: ../teachers-training/index.rst:12
 msgid "WORK IN PROGRESS"

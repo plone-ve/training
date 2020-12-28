@@ -5,22 +5,21 @@
 # This file is distributed under the same license as the Plone 5 Training
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
-"2018\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
+"PO-Revision-Date: 2018-04-26 08:50-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 "Generated-By: Babel 2.5.0\n"
 
 #: ../solr/a-fancy-custom-search-page.rst:3
@@ -47,7 +46,7 @@ msgstr ""
 
 #: ../solr/a-fancy-custom-search-page.rst:14
 msgid "Autocomplete"
-msgstr ""
+msgstr "Autocompletar"
 
 #: ../solr/a-fancy-custom-search-page.rst:16
 msgid ""
@@ -67,7 +66,7 @@ msgstr ""
 
 #: ../solr/a-fancy-custom-search-page.rst:32
 msgid ":file:`solr.cfg`"
-msgstr ""
+msgstr ":file:`solr.cfg`"
 
 #: ../solr/a-fancy-custom-search-page.rst:82
 msgid ""
@@ -77,7 +76,7 @@ msgstr ""
 
 #: ../solr/a-fancy-custom-search-page.rst:84
 msgid ":file:`search.pt`:"
-msgstr ""
+msgstr ":file:`search.pt`:"
 
 #: ../solr/a-fancy-custom-search-page.rst:121
 msgid "Suggest"
@@ -240,7 +239,7 @@ msgstr ""
 
 #: ../solr/a-fancy-custom-search-page.rst:534
 msgid "Excercise"
-msgstr ""
+msgstr "Ejercicio"
 
 #: ../solr/a-fancy-custom-search-page.rst:536
 msgid ""
@@ -250,11 +249,11 @@ msgstr ""
 
 #: ../solr/about/glossary.rst:3
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #: ../solr/about/glossary.rst:6
 msgid "AWS"
-msgstr ""
+msgstr "AWS"
 
 #: ../solr/about/glossary.rst:8
 msgid ""
@@ -262,114 +261,137 @@ msgid ""
 "scalable, and inexpensive cloud computing services. ree to join, pay only"
 " for what you use."
 msgstr ""
+"`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de "
+"computación en la nube confiables, escalables y económicos. libre de unirse, "
+"pague solo por lo que usa."
 
 #: ../solr/about/glossary.rst:10
 msgid "Linode"
-msgstr ""
+msgstr "Linode"
 
 #: ../solr/about/glossary.rst:13
 msgid ""
 "`Linode.com <https://www.linode.com/>`_ is an American privately owned "
 "virtual private server provider company"
 msgstr ""
+"`Linode.com <https://www.linode.com/>`_ es una empresa proveedora de "
+"servidores privada virtual de propiedad privada estadounidense"
 
 #: ../solr/about/glossary.rst:13
 msgid "based in Galloway, New Jersey, United States."
-msgstr ""
+msgstr "con sede en Galloway, New Jersey, Estados Unidos."
 
 #: ../solr/about/glossary.rst:14
 msgid "DigitalOcean"
-msgstr ""
+msgstr "DigitalOcean"
 
 #: ../solr/about/glossary.rst:17
 msgid ""
 "`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American "
 "cloud infrastructure provider"
 msgstr ""
+"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ es un proveedor "
+"estadounidense de infraestructura en la nube "
 
 #: ../solr/about/glossary.rst:17
 msgid "headquartered in New York City with data centers worldwide."
 msgstr ""
+"con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
 
 #: ../solr/about/glossary.rst:18
 msgid "ZODB"
-msgstr ""
+msgstr "ZODB"
 
 #: ../solr/about/glossary.rst:20
 msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
 msgstr ""
+"`Una base de datos de objetos nativos para Python "
+"<http://www.zodb.org/en/latest/>`_."
 
 #: ../solr/about/glossary.rst:21
 msgid "TTW"
-msgstr ""
+msgstr "TTW"
 
 #: ../solr/about/glossary.rst:23
 msgid "Through-The-Web, changes in the browser/"
-msgstr ""
+msgstr "A través de la web, cambios en el navegador."
 
 #: ../solr/about/glossary.rst:24
 msgid "S3"
-msgstr ""
+msgstr "S3"
 
 #: ../solr/about/glossary.rst:26
 msgid ""
 "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
 " and retrieve any amount of data from anywhere."
 msgstr ""
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos creado "
+"para almacenar y recuperar cualquier cantidad de datos desde cualquier lugar."
 
 #: ../solr/about/glossary.rst:27
 msgid "NFS"
-msgstr ""
+msgstr "NFS"
 
 #: ../solr/about/glossary.rst:29
 msgid ""
 "`Network File System "
 "<https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
+"`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
 
 #: ../solr/about/glossary.rst:30
 msgid "Amazon Opsworks"
-msgstr ""
+msgstr "Amazon Opsworks"
 
 #: ../solr/about/glossary.rst:33
 msgid ""
 "`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration "
 "management service that uses Chef,"
 msgstr ""
+"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ es un servicio de "
+"administración de configuración que usa Chef,"
 
 #: ../solr/about/glossary.rst:33
 msgid "an automation platform that treats server configurations as code."
 msgstr ""
+"una plataforma de automatización que trata las configuraciones del servidor "
+"como código."
 
 #: ../solr/about/glossary.rst:34
 msgid "Ansible"
-msgstr ""
+msgstr "Ansible"
 
 #: ../solr/about/glossary.rst:37
 msgid ""
 "`Ansible <https://www.ansible.com/>`_ is an open source automation "
 "platform."
 msgstr ""
+"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización de "
+"fuente abierta."
 
 #: ../solr/about/glossary.rst:37
 msgid ""
 "Ansible can help you with configuration management, application "
 "deployment, task automation."
 msgstr ""
+"Ansible puede ayudarlo con la administración de configuraciones, el "
+"despliegue de aplicaciones y la automatización de tareas."
 
 #: ../solr/about/glossary.rst:38
 msgid "Chef"
-msgstr ""
+msgstr "Chef"
 
 #: ../solr/about/glossary.rst:40
 msgid ""
 "`A configuration management tool written in Ruby and Erlang "
 "<https://www.chef.io/chef/>`_."
 msgstr ""
+"`Una herramienta de gestión de configuración escrita en Ruby y Erlang "
+"<https://www.chef.io/chef/>`_."
 
 #: ../solr/about/glossary.rst:41
 msgid "CloudFormation"
-msgstr ""
+msgstr "CloudFormation"
 
 #: ../solr/about/glossary.rst:43
 msgid ""
@@ -378,10 +400,14 @@ msgid ""
 "collection of related AWS resources, provisioning and updating them in an"
 " orderly and predictable fashion."
 msgstr ""
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a los "
+"desarrolladores y administradores de sistemas una forma de crear y "
+"administrar una colección de recursos relacionados de AWS, aprovisionándolos "
+"y actualizándolos de manera ordenada y predecible."
 
 #: ../solr/about/glossary.rst:45
 msgid "Travis CI"
-msgstr ""
+msgstr "Travis CI"
 
 #: ../solr/about/glossary.rst:47
 msgid ""
@@ -389,38 +415,46 @@ msgid ""
 " build and test software projects hosted at GitHub. Open source projects "
 "may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
+"Travis CI es un servicio de integración continua alojado que se utiliza para "
+"crear y probar proyectos de software alojados en GitHub. Los proyectos de "
+"código abierto pueden probarse sin cargo a través de `travis-ci.org <https"
+"://travis-ci.org>`_."
 
 #: ../solr/about/glossary.rst:49
 msgid "Solr"
-msgstr ""
+msgstr "Solr"
 
 #: ../solr/about/glossary.rst:51
 msgid ""
 "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
 "open source enterprise search platform built on Apache Lucene."
 msgstr ""
+"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de búsqueda "
+"empresarial de código abierto, desarrollada en Apache Lucene."
 
 #: ../solr/about/glossary.rst:52
 msgid "ZCML"
-msgstr ""
+msgstr "ZCML"
 
 #: ../solr/about/glossary.rst:54
 msgid ""
 "The `Zope Configuration Mark-up Language "
 "<https://docs.plone.org/develop/addons/components/zcml.html>`_."
 msgstr ""
+"El `Lenguaje de marcado de configuración Zope "
+"<https://docs.plone.org/develop/addons/components/zcml.html>`_."
 
 #: ../solr/about/index.rst:3 ../solr/index.rst
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 #: ../solr/first-steps.rst:3
 msgid "First Steps"
-msgstr ""
+msgstr "Primeros Pasos"
 
 #: ../solr/first-steps.rst:6
 msgid "Maintenance Task"
-msgstr ""
+msgstr "Tarea de Mantenimiento"
 
 #: ../solr/first-steps.rst:8
 msgid ""
@@ -449,7 +483,7 @@ msgstr ""
 
 #: ../solr/first-steps.rst:20
 msgid "http://localhost:8080/Plone/@@solr-maintainance/reindex"
-msgstr ""
+msgstr "http://localhost:8080/Plone/@@solr-maintainance/reindex"
 
 #: ../solr/first-steps.rst:22
 msgid ""
@@ -464,7 +498,7 @@ msgstr ""
 #: ../solr/first-steps.rst:28 ../solr/first-steps.rst:45
 #: ../solr/first-steps.rst:58
 msgid ""
-"*batch* (default:1000): Batch size for commit. Data is only send to Solr "
+"*batch* (default:1000): Batch size for commit. Data is only sent to Solr "
 "on commit."
 msgstr ""
 
@@ -491,7 +525,7 @@ msgid ""
 msgstr ""
 
 #: ../solr/first-steps.rst:33
-msgid "*idxs* (default:[]): Only this index fields will be updated."
+msgid "*idxs* (default:[]): Only these index fields will be updated."
 msgstr ""
 
 #: ../solr/first-steps.rst:37
@@ -506,7 +540,7 @@ msgstr ""
 
 #: ../solr/first-steps.rst:41
 msgid "http://localhost:8080/Plone/@@solr-maintainance/cleanup"
-msgstr ""
+msgstr "http://localhost:8080/Plone/@@solr-maintainance/cleanup"
 
 #: ../solr/first-steps.rst:43
 msgid "The only parameter you can specify is the batch size:"
@@ -525,7 +559,7 @@ msgstr ""
 
 #: ../solr/first-steps.rst:54
 msgid "http://localhost:8080/Plone/@@solr-maintainance/sync"
-msgstr ""
+msgstr "http://localhost:8080/Plone/@@solr-maintainance/sync"
 
 #: ../solr/first-steps.rst:59
 msgid ""
@@ -543,7 +577,7 @@ msgstr ""
 
 #: ../solr/first-steps.rst:66
 msgid "http://localhost:8080/Plone/@@solr-maintainance/clear"
-msgstr ""
+msgstr "http://localhost:8080/Plone/@@solr-maintainance/clear"
 
 #: ../solr/first-steps.rst:68
 msgid "There are no parameters you can specify for the clear action."
@@ -582,7 +616,7 @@ msgstr ""
 #: ../solr/first-steps.rst:89
 msgid ""
 "In the production setup you will define your schema with an interface or "
-"a supermodel XML but this is beyond of this training."
+"a supermodel XML but this is beyond the scope of this training."
 msgstr ""
 
 #: ../solr/first-steps.rst:91
@@ -597,7 +631,7 @@ msgstr ""
 msgid ""
 "Let's add a field *email* to a task. We assume this is contact email "
 "which can be used to contact the responsible support person for this "
-"task. And we want to make this field to be found in fulltext search."
+"task. And we want this field to be found in fulltext search."
 msgstr ""
 
 #: ../solr/first-steps.rst:98
@@ -667,7 +701,7 @@ msgstr ""
 #: ../solr/first-steps.rst:158
 msgid ""
 "If you need to modify or extend the existing fulltext implementation in "
-"Plone (This could be adding a custom field to it, or remove title or "
+"Plone (this could be adding a custom field to it, or removing title or "
 "description from it), there is a handy add-on for this purpose."
 msgstr ""
 
@@ -675,7 +709,7 @@ msgstr ""
 msgid ""
 "It is well documented but further investigation is out of the scope of "
 "this training, see "
-"https://pypi.python.org/pypi/collective.dexteritytextindexer"
+"https://pypi.org/project/collective.dexteritytextindexer"
 msgstr ""
 
 #: ../solr/first-steps.rst:166
@@ -684,7 +718,7 @@ msgstr ""
 
 #: ../solr/first-steps.rst:168
 msgid ""
-"In a standard installation of Solr all fields are treated equally "
+"In a standard installation of Solr all fields are treated as equally "
 "important for searching. Usually this is not what we want. We want the "
 "Title to be more important, or a special type (e.g. News) to be "
 "prioritized."
@@ -706,8 +740,8 @@ msgstr ""
 #: ../solr/first-steps.rst:183
 msgid ""
 "Search but don't prioritize terms occuring in the *SearchableText* index."
-" If a term occurs in the *searchwords* priotize it by value 1000 so it "
-"will show always at the top."
+" If a term occurs in the *searchwords* priotize it by the value 1000 so "
+"it will show always at the top."
 msgstr ""
 
 #: ../solr/first-steps.rst:186
@@ -736,7 +770,7 @@ msgstr ""
 msgid "Boosting at index time is only available if you turn off atomic updates."
 msgstr ""
 
-#: ../solr/first-steps.rst:206 ../solr/setup.rst:397
+#: ../solr/first-steps.rst:206 ../solr/setup.rst:398
 #: ../solr/solr-configuration.rst:164 ../solr/solr-gui.rst:298
 #: ../solr/solr-testing.rst:74
 msgid "Exercise"
@@ -853,6 +887,8 @@ msgstr ""
 #: ../solr/how-does-collective-solr-work.rst:60
 msgid "https://github.com/collective/collective.solr/blob/master/src/collective/solr/mangler.py#L96"
 msgstr ""
+"https://github.com/collective/collective.solr/blob/master/src/collective/solr"
+"/mangler.py#L96"
 
 #: ../solr/index.rst:3
 msgid "Plone Training Solr"
@@ -860,15 +896,15 @@ msgstr "Solr de Entrenamiento Plone"
 
 #: ../solr/index.rst:5
 msgid "Integrate Plone with Solr"
-msgstr ""
+msgstr "Integrar Plone con Solr"
 
 #: ../solr/index.rst
 msgid "Level"
-msgstr ""
+msgstr "Nivel"
 
 #: ../solr/index.rst:6
 msgid "Experienced"
-msgstr ""
+msgstr "Experimentado"
 
 #: ../solr/index.rst:9
 msgid ""
@@ -949,6 +985,8 @@ msgid ""
 "https://github.com/collective/collective.recipe.solrinstance/blob/master/README.rst"
 "#multi-core-solr"
 msgstr ""
+"https://github.com/collective/collective.recipe.solrinstance/blob/master/READ"
+"ME.rst#multi-core-solr"
 
 #: ../solr/production-setup.rst:34
 msgid "Monitoring"
@@ -970,6 +1008,8 @@ msgstr ""
 #: ../solr/production-setup.rst:42
 msgid "https://github.com/collective/collective.solr/blob/master/docs/usage/monitoring.rst"
 msgstr ""
+"https://github.com/collective/collective.solr/blob/master/docs/usage/monitori"
+"ng.rst"
 
 #: ../solr/production-setup.rst:44
 msgid "The Munin config however seems a little outdated."
@@ -1007,10 +1047,11 @@ msgstr ""
 #: ../solr/production-setup.rst:59
 msgid "Solr is documented in its own `Wiki <https://wiki.apache.org/solr/>`_."
 msgstr ""
+"Solr esta documentado en su propia `Wiki <https://wiki.apache.org/solr/>`_."
 
 #: ../solr/production-setup.rst:61
 msgid "https://lucene.apache.org/solr/guide/6_6/"
-msgstr ""
+msgstr "https://lucene.apache.org/solr/guide/6_6/"
 
 #: ../solr/production-setup.rst:63
 msgid "There are a couple of books available."
@@ -1018,7 +1059,7 @@ msgstr ""
 
 #: ../solr/setup.rst:3 ../solr/solr-alternatives.rst:38
 msgid "Setup"
-msgstr ""
+msgstr "Instalación"
 
 #: ../solr/setup.rst:5
 msgid "For using :term:`Solr` with Plone you need:"
@@ -1102,6 +1143,8 @@ msgid ""
 "https://lucidworks.com/2011/09/14/estimating-memory-and-storage-for-"
 "lucenesolr/"
 msgstr ""
+"https://lucidworks.com/2011/09/14/estimating-memory-and-storage-for-"
+"lucenesolr/"
 
 #: ../solr/setup.rst:98
 msgid "There is nothing fancy in the Solr download part."
@@ -1210,13 +1253,13 @@ msgstr ""
 
 #: ../solr/setup.rst:232
 msgid "https://wiki.apache.org/solr/SchemaXml#Common_field_options"
-msgstr ""
+msgstr "https://wiki.apache.org/solr/SchemaXml#Common_field_options"
 
 #: ../solr/setup.rst:234
 msgid ""
 "This is the bare minimum for configuring Solr. There are more options "
 "supported by the buildout recipe ``collective.recipe.solrinstance`` and "
-"even more by Solr itself. Most notably are the custom extensions for "
+"even more by Solr itself. Most notably the custom extensions for "
 "*schema.xml* and *solrconfig.xml*."
 msgstr ""
 
@@ -1232,8 +1275,8 @@ msgstr ""
 
 #: ../solr/setup.rst:247
 msgid ""
-"After running the buildout, which downloads and configures Solr and Plone"
-" we are ready to fire both servers."
+"After running the buildout, which downloads and configures Solr and "
+"Plone, we are ready to fire up both servers."
 msgstr ""
 
 #: ../solr/setup.rst:251
@@ -1365,7 +1408,7 @@ msgstr ""
 
 #: ../solr/setup.rst:306
 msgid "https://wiki.apache.org/solr/HighlightingParameters"
-msgstr ""
+msgstr "https://wiki.apache.org/solr/HighlightingParameters"
 
 #: ../solr/setup.rst:308
 msgid "Highlighting fields"
@@ -1432,9 +1475,9 @@ msgstr ""
 
 #: ../solr/setup.rst:342
 msgid ""
-"You should get the frontpage as a result--which is not super awesome at "
-"the first place because we have this without Solr too--but it is the "
-"first step in utilizing the full power of Solr."
+"You should get the frontpage as a result--which is not super awesome to "
+"begin with because we have this without Solr too--but it is the first "
+"step in utilizing the full power of Solr."
 msgstr ""
 
 #: ../solr/setup.rst:345
@@ -1449,7 +1492,7 @@ msgstr ""
 
 #: ../solr/setup.rst:356
 msgid ""
-"The ZCML configuration takes presence over the configuration in the "
+"The ZCML configuration takes precedence over the configuration in the "
 "registry / control-panel."
 msgstr ""
 
@@ -1464,8 +1507,8 @@ msgstr ""
 #: ../solr/setup.rst:364
 msgid ""
 "The default commit strategy is to commit to Solr on every Zope commit. "
-"This ensures an always up to date index but may come at cost of indexing "
-"time especially when doing batch operations like data import."
+"This ensures an always up to date index but may come at the cost of "
+"indexing time especially when doing batch operations like data import."
 msgstr ""
 
 #: ../solr/setup.rst:367
@@ -1481,7 +1524,7 @@ msgstr ""
 #: ../solr/setup.rst:372
 msgid ""
 "Another commit strategy is to do timed commits in Solr. This method is "
-"usually way faster but comes with the cost of index delays."
+"usually way faster but comes with the downside of index delays."
 msgstr ""
 
 #: ../solr/setup.rst:375
@@ -1524,9 +1567,9 @@ msgstr ""
 
 #: ../solr/setup.rst:390
 msgid ""
-"Since it is fire and forget the consistency could be harmed in midterm. "
-"It is advisable to to a sync or full-index from time to time if you work "
-"with this strategy."
+"Since it is fire and forget the consistency could be harmed in the "
+"interim. It is advisable to do a sync or full-index from time to time if "
+"you work with this strategy."
 msgstr ""
 
 #: ../solr/setup.rst:393
@@ -1538,8 +1581,10 @@ msgid ""
 "https://lucene.apache.org/solr/guide/6_6/updatehandlers-in-"
 "solrconfig.html#UpdateHandlersinSolrConfig-commitWithin"
 msgstr ""
+"https://lucene.apache.org/solr/guide/6_6/updatehandlers-in-solrconfig.html"
+"#UpdateHandlersinSolrConfig-commitWithin"
 
-#: ../solr/setup.rst:399
+#: ../solr/setup.rst:400
 msgid ""
 "Have a running Plone and Solr with collective.solr active and experiment "
 "with commit strategies."
@@ -1551,7 +1596,7 @@ msgstr ""
 
 #: ../solr/solr-alternatives.rst:6
 msgid "alm.solrindex"
-msgstr ""
+msgstr "alm.solrindex"
 
 #: ../solr/solr-alternatives.rst:8
 msgid "``alm.solrindex`` is another addon for connecting Plone search to Solr."
@@ -1619,7 +1664,7 @@ msgstr ""
 msgid ""
 "We set up Solr in our buildout in a similar way, using the "
 "`hexagonit.recipe.download "
-"<https://pypi.python.org/pypi/hexagonit.recipe.download>`_ and "
+"<https://pypi.org/project/hexagonit.recipe.download>`_ and "
 "``collective.recipe.solr`` buildout recipes."
 msgstr ""
 
@@ -1831,7 +1876,7 @@ msgstr ""
 
 #: ../solr/solr-alternatives.rst:224
 msgid "https://github.com/ploneintranet/ploneintranet/pull/299"
-msgstr ""
+msgstr "https://github.com/ploneintranet/ploneintranet/pull/299"
 
 #: ../solr/solr-alternatives.rst:227
 msgid "collective.elasticsearch"
@@ -1878,8 +1923,10 @@ msgstr ""
 #: ../solr/solr-alternatives.rst:247
 msgid ""
 "The integration of Elasticsearch with Plone is done with "
-"https://pypi.python.org/pypi/collective.elasticsearch/"
+"https://pypi.org/project/collective.elasticsearch/"
 msgstr ""
+"La integración de Elasticsearch con Plone esta hecha con complemento "
+"https://pypi.org/project/collective.elasticsearch/"
 
 #: ../solr/solr-alternatives.rst:251
 msgid "Google Custom Search"
@@ -1987,7 +2034,7 @@ msgstr ""
 
 #: ../solr/solr-configuration.rst:47
 msgid "stopwords.txt::"
-msgstr ""
+msgstr "stopwords.txt::"
 
 #: ../solr/solr-configuration.rst:53
 msgid "For some common language specific examples see the Solr git repository:"
@@ -1998,6 +2045,8 @@ msgid ""
 "https://github.com/apache/lucene-"
 "solr/tree/master/lucene/analysis/common/src/resources/org/apache/lucene/analysis/snowball"
 msgstr ""
+"https://github.com/apache/lucene-solr/tree/master/lucene/analysis/common/src/"
+"resources/org/apache/lucene/analysis/snowball"
 
 #: ../solr/solr-configuration.rst:59
 msgid "Stemming"
@@ -2031,7 +2080,7 @@ msgstr ""
 
 #: ../solr/solr-configuration.rst:75
 msgid "https://wiki.apache.org/solr/LanguageAnalysis"
-msgstr ""
+msgstr "https://wiki.apache.org/solr/LanguageAnalysis"
 
 #: ../solr/solr-configuration.rst:77
 msgid ""
@@ -2041,7 +2090,7 @@ msgstr ""
 
 #: ../solr/solr-configuration.rst:94
 msgid "stemdict.txt::"
-msgstr ""
+msgstr "stemdict.txt::"
 
 #: ../solr/solr-configuration.rst:110
 msgid "Synonyms"
@@ -2071,7 +2120,7 @@ msgstr ""
 
 #: ../solr/solr-configuration.rst:134
 msgid "synonyms.txt::"
-msgstr ""
+msgstr "synonyms.txt::"
 
 #: ../solr/solr-configuration.rst:159
 msgid ""
@@ -2084,6 +2133,8 @@ msgid ""
 "https://lucene.apache.org/solr/guide/6_6/understanding-analyzers-"
 "tokenizers-and-filters.html"
 msgstr ""
+"https://lucene.apache.org/solr/guide/6_6/understanding-analyzers-tokenizers-"
+"and-filters.html"
 
 #: ../solr/solr-configuration.rst:166
 msgid ""
@@ -2115,7 +2166,7 @@ msgstr ""
 
 #: ../solr/solr-gui.rst:15
 msgid "Go to: http://localhost:8983/solr/#/"
-msgstr ""
+msgstr "Valla a: http://localhost:8983/solr/#/"
 
 #: ../solr/solr-gui.rst:16
 msgid "Select Core \"collection1\""
@@ -2209,7 +2260,7 @@ msgstr ""
 #: ../solr/solr-gui.rst:112
 msgid ""
 "You can use curl or the Python package `requests` "
-"(https://pypi.python.org/pypi/requests) to access the REST API of Solr."
+"(https://pypi.org/project/requests) to access the REST API of Solr."
 msgstr ""
 
 #: ../solr/solr-gui.rst:115
@@ -2230,16 +2281,16 @@ msgid ""
 msgstr ""
 
 #: ../solr/solr-gui.rst:125
-msgid "``mysolr``: https://pypi.python.org/pypi/mysolr/0.8.3"
-msgstr ""
+msgid "``mysolr``: https://pypi.org/project/mysolr/0.8.3"
+msgstr "``mysolr``: https://pypi.org/project/mysolr/0.8.3"
 
 #: ../solr/solr-gui.rst:126
-msgid "``solrpy``: https://pypi.python.org/pypi/solrpy3/0.98"
-msgstr ""
+msgid "``solrpy``: https://pypi.org/project/solrpy3/0.98"
+msgstr "``solrpy``: https://pypi.org/project/solrpy3/0.98"
 
 #: ../solr/solr-gui.rst:127
-msgid "``pysolr``: https://pypi.python.org/pypi/pysolr/3.5.0"
-msgstr ""
+msgid "``pysolr``: https://pypi.org/project/pysolr/3.5.0"
+msgstr "``pysolr``: https://pypi.org/project/pysolr/3.5.0"
 
 #: ../solr/solr-gui.rst:129
 msgid ""
@@ -2374,10 +2425,10 @@ msgstr ""
 
 #: ../solr/solr-gui.rst:237
 msgid ""
-"Faceting is one of the killer features of Solr. It allows the grouping nd"
-" filtering results for better find ability. To enable faceting you need o"
-" turn faceting on in the query and specify the fields you want tofacet "
-"upon:"
+"Faceting is one of the killer features of Solr. It allows the grouping "
+"and filtering results for better findability. To enable faceting you need"
+" to turn faceting on in the query and specify the fields you want to "
+"facet upon:"
 msgstr ""
 
 #: ../solr/solr-gui.rst:241
@@ -2400,7 +2451,7 @@ msgstr ""
 
 #: ../solr/solr-gui.rst:277
 msgid "https://lucene.apache.org/solr/guide/6_6/faceting.html"
-msgstr ""
+msgstr "https://lucene.apache.org/solr/guide/6_6/faceting.html"
 
 #: ../solr/solr-gui.rst:279
 msgid ""

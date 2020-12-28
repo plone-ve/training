@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -546,7 +546,7 @@ msgid "You're likely to want to add Python packages to your Plone installation t
 msgstr ""
 
 #: ../deployment/customization.rst:46
-msgid "Let's say you want to add `collective.easyform <https://pypi.python.org/pypi/collective.easyform>`_ and `webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_."
+msgid "Let's say you want to add `collective.easyform <https://pypi.org/project/collective.easyform>`_ and `webcouturier.dropdownmenu <https://pypi.org/project/webcouturier.dropdownmenu/>`_."
 msgstr ""
 
 #: ../deployment/customization.rst:48
@@ -558,7 +558,7 @@ msgid "If you add eggs, you should nearly always specify their versions:"
 msgstr ""
 
 #: ../deployment/customization.rst:64
-msgid "That takes care of packages that are available on the `Python Package Index <https://pypi.python.org/pypi>`_. What if your developing packages via git?"
+msgid "That takes care of packages that are available on the `Python Package Index <https://pypi.org/>`_. What if your developing packages via git?"
 msgstr ""
 
 #: ../deployment/customization.rst:72

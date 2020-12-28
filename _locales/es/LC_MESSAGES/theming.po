@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
-"PO-Revision-Date: 2018-04-03 18:40-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
+"PO-Revision-Date: 2018-04-28 12:03-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -37,8 +37,8 @@ msgid ""
 " for what you use."
 msgstr ""
 "`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de "
-"computación en la nube confiables, escalables y económicos. libre de unirse, "
-"pague solo por lo que usa."
+"computación en la nube confiables, escalables y económicos. libre de "
+"unirse, pague solo por lo que usa."
 
 #: ../theming/about/glossary.rst:10
 msgid "Linode"
@@ -70,8 +70,7 @@ msgstr ""
 
 #: ../theming/about/glossary.rst:17
 msgid "headquartered in New York City with data centers worldwide."
-msgstr ""
-"con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
+msgstr "con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
 
 #: ../theming/about/glossary.rst:18
 msgid "ZODB"
@@ -100,6 +99,9 @@ msgid ""
 "Cascading Style Sheets (CSS) is a stylesheet language used for describing"
 " the (most of the times visual) representation of web pages."
 msgstr ""
+"Cascading Style Sheets (CSS) es un lenguaje de hojas de estilo utilizado "
+"para describir la representación (la mayoría de las veces visual) de las "
+"páginas web."
 
 #: ../theming/about/glossary.rst:27 ../theming/about/glossary.rst:75
 msgid "Diazo"
@@ -111,9 +113,9 @@ msgid ""
 "contained in a static HTML web page to a dynamic website created using "
 "any server-side technology."
 msgstr ""
-"`Diazo <http://docs.diazo.org/en/latest/>`_ Diazo le permite aplicar un tema "
-"contenido en una página web HTML estática a un sitio web dinámico creado "
-"utilizando cualquier tecnología del lado del servidor."
+"`Diazo <http://docs.diazo.org/en/latest/>`_ Diazo le permite aplicar un "
+"tema contenido en una página web HTML estática a un sitio web dinámico "
+"creado utilizando cualquier tecnología del lado del servidor."
 
 #: ../theming/about/glossary.rst:30
 msgid "Grunt"
@@ -124,6 +126,8 @@ msgid ""
 "The JavaScript Task Runner. Automates the creation and manipulation of "
 "static assets for the theme."
 msgstr ""
+"El JavaScript Task Runner. Automatiza la creación y manipulación de activos "
+"estáticos para el tema."
 
 #: ../theming/about/glossary.rst:34
 msgid "Less"
@@ -134,10 +138,12 @@ msgid ""
 "A dynamic stylesheet language that can be compiled into :term:`CSS` "
 "(Cascading Style Sheets)."
 msgstr ""
+"Un lenguaje de hoja de estilo dinámico que se puede compilar en :term:`CSS` ("
+"Hojas de estilo en cascada)."
 
 #: ../theming/about/glossary.rst:37
 msgid "NPM"
-msgstr ""
+msgstr "NPM"
 
 #: ../theming/about/glossary.rst:39
 msgid ""
@@ -145,6 +151,9 @@ msgid ""
 "the default package manager for the JavaScript runtime environment "
 "Node.js."
 msgstr ""
+"npm es un administrador de paquetes para el lenguaje de programación "
+"JavaScript. Es el administrador de paquetes predeterminado para el entorno "
+"de tiempo de ejecución de JavaScript Node.js."
 
 #: ../theming/about/glossary.rst:41
 msgid "TTW"
@@ -163,8 +172,9 @@ msgid ""
 "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
 " and retrieve any amount of data from anywhere."
 msgstr ""
-"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos creado "
-"para almacenar y recuperar cualquier cantidad de datos desde cualquier lugar."
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos "
+"creado para almacenar y recuperar cualquier cantidad de datos desde "
+"cualquier lugar."
 
 #: ../theming/about/glossary.rst:47
 msgid "NFS"
@@ -175,11 +185,12 @@ msgid ""
 "`Network File System "
 "<https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
-"`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
+"`Network File System "
+"<https://en.wikipedia.org/wiki/Network_File_System>`_."
 
 #: ../theming/about/glossary.rst:50
 msgid "Amazon Opsworks"
-msgstr ""
+msgstr "Amazon Opsworks"
 
 #: ../theming/about/glossary.rst:53
 msgid ""
@@ -192,8 +203,8 @@ msgstr ""
 #: ../theming/about/glossary.rst:53
 msgid "an automation platform that treats server configurations as code."
 msgstr ""
-"una plataforma de automatización que trata las configuraciones del servidor "
-"como código."
+"una plataforma de automatización que trata las configuraciones del "
+"servidor como código."
 
 #: ../theming/about/glossary.rst:54
 msgid "Ansible"
@@ -204,8 +215,8 @@ msgid ""
 "`Ansible <https://www.ansible.com/>`_ is an open source automation "
 "platform."
 msgstr ""
-"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización de "
-"fuente abierta."
+"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización"
+" de fuente abierta."
 
 #: ../theming/about/glossary.rst:57
 msgid ""
@@ -238,10 +249,10 @@ msgid ""
 "collection of related AWS resources, provisioning and updating them in an"
 " orderly and predictable fashion."
 msgstr ""
-"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a los "
-"desarrolladores y administradores de sistemas una forma de crear y "
-"administrar una colección de recursos relacionados de AWS, aprovisionándolos "
-"y actualizándolos de manera ordenada y predecible."
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a "
+"los desarrolladores y administradores de sistemas una forma de crear y "
+"administrar una colección de recursos relacionados de AWS, "
+"aprovisionándolos y actualizándolos de manera ordenada y predecible."
 
 #: ../theming/about/glossary.rst:65
 msgid "Travis CI"
@@ -253,10 +264,10 @@ msgid ""
 " build and test software projects hosted at GitHub. Open source projects "
 "may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
-"Travis CI es un servicio de integración continua alojado que se utiliza para "
-"crear y probar proyectos de software alojados en GitHub. Los proyectos de "
-"código abierto pueden probarse sin cargo a través de `travis-ci.org <https"
-"://travis-ci.org>`_."
+"Travis CI es un servicio de integración continua alojado que se utiliza "
+"para crear y probar proyectos de software alojados en GitHub. Los "
+"proyectos de código abierto pueden probarse sin cargo a través de "
+"`travis-ci.org <https://travis-ci.org>`_."
 
 #: ../theming/about/glossary.rst:69
 msgid "Solr"
@@ -267,8 +278,8 @@ msgid ""
 "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
 "open source enterprise search platform built on Apache Lucene."
 msgstr ""
-"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de búsqueda "
-"empresarial de código abierto, desarrollada en Apache Lucene."
+"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de "
+"búsqueda empresarial de código abierto, desarrollada en Apache Lucene."
 
 #: ../theming/about/glossary.rst:72 ../theming/about/glossary.rst:102
 msgid "ZCML"
@@ -288,9 +299,10 @@ msgid ""
 "allows you to apply a theme contained in a static HTML web page to a "
 "dynamic website created using any server-side technology."
 msgstr ""
-"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo le "
-"permite aplicar un tema contenido en una página web HTML estática a un sitio "
-"web dinámico creado utilizando cualquier tecnología del lado del servidor."
+"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo"
+" le permite aplicar un tema contenido en una página web HTML estática a "
+"un sitio web dinámico creado utilizando cualquier tecnología del lado del"
+" servidor."
 
 #: ../theming/about/glossary.rst:79
 msgid "Dexterity"
@@ -302,6 +314,9 @@ msgid ""
 "framework for building content types, both through-the-web and as "
 "filesystem code for Zope."
 msgstr ""
+"`Dexterity <https://github.com/plone/plone.dexterity>`_, el framework base "
+"para crear tipos de contenido, tanto a través de la web y como en el sistema "
+"de archivo en código fuente para Zope."
 
 #: ../theming/about/glossary.rst:82
 msgid "Dublin Core"
@@ -313,6 +328,10 @@ msgid ""
 "used to describe web resources (video, images, web pages, etc.), as well "
 "as physical resources such as books or CDs, and objects like artworks."
 msgstr ""
+"El Dublin Core Schema es un pequeño conjunto de términos de vocabulario que "
+"se pueden utilizar para describir recursos web (video, imágenes, páginas "
+"web, etc.), así como recursos físicos como libros o CD y objetos como obras "
+"de arte."
 
 #: ../theming/about/glossary.rst:86 ../theming/about/glossary.rst:105
 msgid "ZMI"
@@ -325,6 +344,11 @@ msgid ""
 "tool for Plone specialists to fix problems or accomplish certain tasks, "
 "it is not recommended as a regular tool for Plone maintenance."
 msgstr ""
+"La Zope Management Interface. La ZMI es una interfaz directa en el stack de "
+"software backend de Plone. Si bien todavía puede servir como una herramienta "
+"valiosa para los especialistas de Plone para solucionar problemas o realizar "
+"ciertas tareas, no se recomienda como una herramienta habitual para el "
+"mantenimiento de Plone."
 
 #: ../theming/about/glossary.rst:92
 msgid "XML"
@@ -332,7 +356,7 @@ msgstr "XML"
 
 #: ../theming/about/glossary.rst:94
 msgid "The Extensible Markup Language."
-msgstr ""
+msgstr "El lenguaje de marcado extensible."
 
 #: ../theming/about/glossary.rst:95
 msgid "XSLT"
@@ -343,6 +367,9 @@ msgid ""
 "The Extensible Stylesheet Language Transformations. A language which "
 "defines elements to describe transformations to be applied on a document."
 msgstr ""
+"El Extensible Stylesheet Language Transformations, o las transformaciones "
+"del lenguaje de hoja de estilo extensible. Un lenguaje que define elementos "
+"para describir las transformaciones que se aplicarán en un documento."
 
 #: ../theming/about/glossary.rst:99
 msgid "XPath"
@@ -353,6 +380,8 @@ msgid ""
 "XPath (XML Path Language) is a query language for selecting nodes from an"
 " XML document."
 msgstr ""
+"XPath (XML Path Language) es un lenguaje de consulta para seleccionar nodos "
+"desde un documento XML."
 
 #: ../theming/about/index.rst:3 ../theming/index.rst
 msgid "About"
@@ -368,8 +397,8 @@ msgid ""
 " to a dynamic website created using any server-side technology.\"**"
 msgstr ""
 "**\"Diazo le permite aplicar un tema contenido en una página web HTML "
-"estática a un sitio web dinámico creado utilizando cualquier tecnología del "
-"lado del servidor.\"**"
+"estática a un sitio web dinámico creado utilizando cualquier tecnología "
+"del lado del servidor.\"**"
 
 #: ../theming/adv-diazo.rst:7
 msgid ""
@@ -436,34 +465,31 @@ msgid ""
 "your own, but how to remember and re-use them?"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:42
+#: ../theming/adv-diazo.rst:43
 msgid ""
-"`David Bain introduces a \"diazo snippets library\" "
-"<http://blog.dbain.com/2014/12/introducing-diazo-snippets-library.html>`_"
-" that allows you to get snippets from a chrome extensions. `All the "
-"snippets are available here "
+"`All the snippets are available here "
 "<http://pigeonflight.github.io/lessArcane/>`_."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:48
+#: ../theming/adv-diazo.rst:47
 msgid "More Snippets"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:51
+#: ../theming/adv-diazo.rst:50
 msgid "Make Some Links Open In New Window"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:60
+#: ../theming/adv-diazo.rst:59
 msgid ""
 "At `diazo.org <http://docs.diazo.org/en/latest/recipes/adding-an-"
 "attribute/index.html>`_ is another way described."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:63
+#: ../theming/adv-diazo.rst:62
 msgid "Add CSS Marker Classes Depending On Existing ``portal-columns``"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:65
+#: ../theming/adv-diazo.rst:64
 msgid ""
 "This adds a CSS class for every existing ``portal-column`` to the "
 "``body`` tag. If ``portal-column-one`` exists, we add ``col-one``; if "
@@ -471,34 +497,34 @@ msgid ""
 "``portal-column-two`` exists, we add ``col-two``."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:81
+#: ../theming/adv-diazo.rst:80
 msgid ""
 "Now, one can use these markers to define the grid in a semantic way like "
 "this:"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:112
+#: ../theming/adv-diazo.rst:111
 msgid ""
 "This way, you don't need the xsl-rules Barceloneta uses to create the "
 "main content area. It's more flexible than Barceloneta's approach."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:115
+#: ../theming/adv-diazo.rst:114
 msgid "Another way could be, to change Plone to provide these classes already ;)."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:118
+#: ../theming/adv-diazo.rst:117
 msgid "Move Plone Elements Around"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:120
+#: ../theming/adv-diazo.rst:119
 msgid ""
 "Sometimes one needs to move Plone elements from one place to another or "
 "merge some elements together. In the following example we merge the "
 "language flags together with the document actions."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:136
+#: ../theming/adv-diazo.rst:135
 msgid "Taking Over Specific Portlets"
 msgstr ""
 

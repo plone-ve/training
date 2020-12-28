@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-11 07:22-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid "The readthedocs theme"
 msgstr ""
 
 #: ../mastering-plone/about_mastering.rst:137
-msgid "We slightly tweaked `Read the Docs Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>`_ in ``_static/custom.css`` so that it works better with projectors:"
+msgid "We slightly tweaked the `Read the Docs Theme <https://github.com/rtfd/sphinx_rtd_theme>`_ in ``_static/custom.css`` so that it works better with projectors:"
 msgstr ""
 
 #: ../mastering-plone/about_mastering.rst:140
@@ -247,8 +247,8 @@ msgstr ""
 #: ../mastering-plone/about_mastering.rst:144
 #: ../mastering-plone/behaviors_2.rst:325
 #: ../mastering-plone/dexterity.rst:237
-#: ../mastering-plone/eggs1.rst:238
-#: ../mastering-plone/features.rst:72
+#: ../mastering-plone/eggs1.rst:239
+#: ../mastering-plone/features.rst:78
 #: ../mastering-plone/views_3.rst:230
 msgid "Exercises"
 msgstr ""
@@ -276,7 +276,7 @@ msgstr ""
 #: ../mastering-plone/dexterity_3.rst:347
 #: ../mastering-plone/events.rst:166
 #: ../mastering-plone/export_code.rst:402
-#: ../mastering-plone/features.rst:75
+#: ../mastering-plone/features.rst:81
 #: ../mastering-plone/frontpage.rst:226
 #: ../mastering-plone/testing.rst:165
 #: ../mastering-plone/user_generated_content.rst:227
@@ -299,14 +299,14 @@ msgstr ""
 #: ../mastering-plone/dexterity_2.rst:341
 #: ../mastering-plone/dexterity_2.rst:461
 #: ../mastering-plone/dexterity_3.rst:351
-#: ../mastering-plone/dexterity_3.rst:617
-#: ../mastering-plone/dexterity_3.rst:756
+#: ../mastering-plone/dexterity_3.rst:626
+#: ../mastering-plone/dexterity_3.rst:765
 #: ../mastering-plone/events.rst:170
 #: ../mastering-plone/events.rst:202
 #: ../mastering-plone/export_code.rst:406
-#: ../mastering-plone/features.rst:79
-#: ../mastering-plone/features.rst:107
-#: ../mastering-plone/features.rst:117
+#: ../mastering-plone/features.rst:85
+#: ../mastering-plone/features.rst:113
+#: ../mastering-plone/features.rst:123
 #: ../mastering-plone/frontpage.rst:230
 #: ../mastering-plone/restapi.rst:69
 #: ../mastering-plone/restapi.rst:494
@@ -508,390 +508,398 @@ msgstr ""
 msgid "Some notable add-ons"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:18
-msgid "`collective.easyform <https://pypi.python.org/pypi/collective.easyform>`_"
+#: ../mastering-plone/add-ons.rst:31
+msgid "`collective.easyform <https://pypi.org/project/collective.easyform>`_"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:18
 msgid "A form generator and the successor to `Products.PloneFormGen <https://docs.plone.org/develop/plone/forms/ploneformgen.html>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:21
+#: ../mastering-plone/add-ons.rst:24
+msgid "A simple form created with collective.easyform."
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:30
+msgid "Editing a form field through the web."
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:34
 msgid "`plone.app.mosaic <https://github.com/plone/plone.app.mosaic>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:21
+#: ../mastering-plone/add-ons.rst:34
 msgid "Layout solution to easily create complex layouts through the web."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:24
+#: ../mastering-plone/add-ons.rst:37
 msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:24
+#: ../mastering-plone/add-ons.rst:37
 msgid "Flexible bundle of add-ons to geo-reference content and display in maps"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:27
-msgid "`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_"
+#: ../mastering-plone/add-ons.rst:40
+msgid "`collective.mailchimp <https://pypi.org/project/collective.mailchimp>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:27
+#: ../mastering-plone/add-ons.rst:40
 msgid "Allows visitors to subscribe to mailchimp newsletters"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:30
-msgid "`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
+#: ../mastering-plone/add-ons.rst:43
+msgid "`eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:30
+#: ../mastering-plone/add-ons.rst:43
 msgid "Create faceted navigation and searches through the web."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:33
-msgid "`collective.lineage <https://pypi.python.org/pypi/collective.lineage>`_"
+#: ../mastering-plone/add-ons.rst:46
+msgid "`collective.lineage <https://pypi.org/project/collective.lineage>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:33
+#: ../mastering-plone/add-ons.rst:46
 msgid "Microsites for Plone - makes subfolders appear to be autonomous Plone sites"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:36
-msgid "`Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_"
+#: ../mastering-plone/add-ons.rst:49
+msgid "`Products.Doormat <https://pypi.org/project/Products.Doormat>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:36
+#: ../mastering-plone/add-ons.rst:49
 msgid "A flexible doormat"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:39
+#: ../mastering-plone/add-ons.rst:52
 msgid "`collective.behavior.banner <https://github.com/collective/collective.behavior.banner>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:39
+#: ../mastering-plone/add-ons.rst:52
 msgid "Add decorative banners and sliders"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:42
+#: ../mastering-plone/add-ons.rst:55
 msgid "`Rapido <https://rapidoplone.readthedocs.io/en/latest/>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:42
+#: ../mastering-plone/add-ons.rst:55
 msgid "Allows developers with a little knowledge of HTML and a little knowledge of Python to implement custom elements and insert them anywhere they want."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:45
+#: ../mastering-plone/add-ons.rst:58
 msgid "`Plomino <http://plomino.net/>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:45
+#: ../mastering-plone/add-ons.rst:58
 msgid "Powerful and flexible web-based application builder for Plone"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:48
-msgid "`collective.disqus <https://pypi.python.org/pypi/collective.disqus/>`_"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:48
-msgid "Integrates the Disqus commenting platform API into Plone"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:52
-msgid "`collective.plonetruegallery <https://pypi.python.org/pypi/collective.plonetruegallery>`_"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:51
-msgid "Photo galleries with a huge selection of various js-libraries."
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:57
-msgid "How to find add-ons"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:59
-msgid "It can be very hard to find the right addon for your requirements. Here are some tips:"
+#: ../mastering-plone/add-ons.rst:61
+msgid "`collective.disqus <https://pypi.org/project/collective.disqus/>`_"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:61
-msgid "Make a list of required features. You'll almost never find an add-on that exactly ﬁts your needs."
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:62
-msgid "Either adapt your requirements to what is available, invest the time & money to modify an existing addons to ﬁt your needs or create a new addon that does exactly what you need."
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:63
-msgid "Then search using the following links below."
+msgid "Integrates the Disqus commenting platform API into Plone"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:65
-msgid "https://plone.org/download/add-ons"
+msgid "`collective.plonetruegallery <https://pypi.org/project/collective.plonetruegallery>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:66
-msgid "https://pypi.python.org/pypi >3400 Plone related packages - use the search form!"
+#: ../mastering-plone/add-ons.rst:64
+msgid "Photo galleries with a huge selection of various js-libraries."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:67
-msgid "https://github.com/collective >1500 repos"
+#: ../mastering-plone/add-ons.rst:70
+msgid "How to find add-ons"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:68
-msgid "https://github.com/plone >310 repos"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:69
-msgid "google (e.g. `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:71
-msgid "Once you have a shortlist test these addons. Here are the main issues you need to test before you install a addon on a production site:"
-msgstr ""
-
-#: ../mastering-plone/add-ons.rst:73
-msgid "Test all required features. Read but do not trust the documentation"
+#: ../mastering-plone/add-ons.rst:72
+msgid "It can be very hard to find the right addon for your requirements. Here are some tips:"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:74
-msgid "Check if the addon runs on your required version and is currently maintained"
+msgid "Make a list of required features. You'll almost never find an add-on that exactly ﬁts your needs."
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:75
-msgid "Does it have i18n-support, i.e. is the user-interface translated to your language?"
+msgid "Either adapt your requirements to what is available, invest the time & money to modify an existing addons to ﬁt your needs or create a new addon that does exactly what you need."
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:76
-msgid "Does it uninstall cleanly? A tough one. See http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html for the reason why."
+msgid "Then search using the following links below."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:77
-msgid "Check for unwanted dependencies"
+#: ../mastering-plone/add-ons.rst:78
+msgid "https://plone.org/download/add-ons"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:79
-msgid "Once you found an addon you like you should ask the community if you made a good choice or if you missed something:"
+msgid "https://pypi.org >3400 Plone related packages - use the search form!"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:80
+msgid "https://github.com/collective >1500 repos"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:81
-msgid "Message Board: https://community.plone.org"
+msgid "https://github.com/plone >310 repos"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:82
-msgid "Chat: https://plone.org/support/chat"
+msgid "google (e.g. `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:84
-msgid "There is also a talk that discusses in depth how to find the right addon: https://www.youtube.com/watch?v=Sc6NkqaSjqw"
+msgid "Once you have a shortlist test these addons. Here are the main issues you need to test before you install a addon on a production site:"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:86
+msgid "Test all required features. Read but do not trust the documentation"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:87
+msgid "Check if the addon runs on your required version and is currently maintained"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:88
+msgid "Does it have i18n-support, i.e. is the user-interface translated to your language?"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:89
-msgid "Installing Add-ons"
+msgid "Does it uninstall cleanly? A tough one. See http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html for the reason why."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:91
-msgid "Installation is a two-step process."
+#: ../mastering-plone/add-ons.rst:90
+msgid "Check for unwanted dependencies"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:92
+msgid "Once you found an addon you like you should ask the community if you made a good choice or if you missed something:"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:94
-msgid "Making the add-on packages available to Zope"
+msgid "Message Board: https://community.plone.org"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:96
-msgid "First, we must make the add-on packages available to Zope. This means that Zope can import the code. Buildout is responsible for this."
+#: ../mastering-plone/add-ons.rst:95
+msgid "Chat: https://plone.org/support/chat"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:98
-msgid "Look at the :file:`buildout.cfg` file in :file:`/vagrant/buildout`."
+#: ../mastering-plone/add-ons.rst:97
+msgid "There is also a talk that discusses in depth how to find the right addon: https://www.youtube.com/watch?v=Sc6NkqaSjqw"
 msgstr ""
 
 #: ../mastering-plone/add-ons.rst:102
+msgid "Installing Add-ons"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:104
+msgid "Installation is a two-step process."
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:107
+msgid "Making the add-on packages available to Zope"
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:109
+msgid "First, we must make the add-on packages available to Zope. This means that Zope can import the code. Buildout is responsible for this."
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:111
+msgid "Look at the :file:`buildout.cfg` file in :file:`/vagrant/buildout`."
+msgstr ""
+
+#: ../mastering-plone/add-ons.rst:115
 msgid "If you're using our Vagrant kit, the Plone configuration is available in a folder that is shared between the host and guest operating systems. Look in your Vagrant install directory for the :file:`buildout` folder. You may edit configuration files using your favorite text editor in the host operating system, then switch into your virtual machine to run buildout on the guest operating system."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:106
+#: ../mastering-plone/add-ons.rst:119
 msgid "In the section ``[instance]`` there is a variable called ``eggs``, which has a list of *eggs* as a value. For example::"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:113
+#: ../mastering-plone/add-ons.rst:126
 msgid "You add an egg by adding a new line containing the package name to the configuration. You must write the egg name indented: this way, buildout understands that the current line is part of the last variable and not a new variable."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:116
+#: ../mastering-plone/add-ons.rst:129
 msgid "If you add new add-ons here you will have to run buildout and restart the site:"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:123
+#: ../mastering-plone/add-ons.rst:136
 msgid "Now the code is available from within Plone."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:126
+#: ../mastering-plone/add-ons.rst:139
 msgid "Installing add-ons in your Plone Site"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:128
+#: ../mastering-plone/add-ons.rst:141
 msgid "Your Plone site has not yet been told to use the add-on. For this, you have to activate the add-on in your Plone Site."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:132
+#: ../mastering-plone/add-ons.rst:145
 msgid "Why the extra step of activating the add-on package? You may have multiple Plone sites in a single Zope installation. It's common to want to activate some add-ons in one site, others in another."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:134
+#: ../mastering-plone/add-ons.rst:147
 msgid "In your browser, go to Site Setup (shortcut: add ``/@@overview-controlpanel`` to the Plone site URL), and open the ``Add-ons`` Panel. You will see that you can install the add-ons there."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:136
+#: ../mastering-plone/add-ons.rst:149
 msgid "Install EasyForm (the human-readable name of :py:mod:`collective.easyform`) now."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:138
+#: ../mastering-plone/add-ons.rst:151
 msgid "This is what happens: The GenericSetup profile of the product gets loaded. This does things like:"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:140
+#: ../mastering-plone/add-ons.rst:153
 msgid "Configuring new actions"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:141
+#: ../mastering-plone/add-ons.rst:154
 msgid "Registering new content types"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:142
+#: ../mastering-plone/add-ons.rst:155
 msgid "Registering css and js files"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:143
+#: ../mastering-plone/add-ons.rst:156
 msgid "Creating some content/configuration objects in your Plone site."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:145
+#: ../mastering-plone/add-ons.rst:158
 msgid "Let's have a look at what we just installed."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:151
+#: ../mastering-plone/add-ons.rst:164
 msgid "collective.easyform"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:153
+#: ../mastering-plone/add-ons.rst:166
 msgid "There are many ways to create forms in Plone:"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:155
+#: ../mastering-plone/add-ons.rst:168
 msgid "Pure: html and python in a BrowserView"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:156
+#: ../mastering-plone/add-ons.rst:169
 msgid "Framework: :py:mod:`z3c.form`"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:157
+#: ../mastering-plone/add-ons.rst:170
 msgid "TTW: :py:mod:`Products.PloneFormGen` and :py:mod:`collective.easyform`"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:159
+#: ../mastering-plone/add-ons.rst:172
 msgid "The concept of :py:mod:`collective.easyform` is that you add a form, to which you add form fields as schema-fields exactly like the dexterity schema-editor. Fields are added, deleted, edited and moved just as with any other type of content. Form submissions may be automatically emailed and/or saved for download."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:161
+#: ../mastering-plone/add-ons.rst:174
 msgid "Let's build a registration form:"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:163
+#: ../mastering-plone/add-ons.rst:176
 msgid "Add an object of the new type 'EasyForm' in the site root. Call it \"Registration\""
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:164
+#: ../mastering-plone/add-ons.rst:177
 msgid "Save and view the result, a simple contact form that we may customize"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:165
+#: ../mastering-plone/add-ons.rst:178
 msgid "In the `Actions` Menu click on \"Define form fields\""
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:166
+#: ../mastering-plone/add-ons.rst:179
 msgid "Remove field \"comments\""
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:167
+#: ../mastering-plone/add-ons.rst:180
 msgid "Add fields for food preference (a choice field) and shirt size (also choice)"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:168
+#: ../mastering-plone/add-ons.rst:181
 msgid "In the `Actions` Menu click on \"Define form actions\""
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:169
+#: ../mastering-plone/add-ons.rst:182
 msgid "Add a new action and select \"Save Data\" as the type. This stores all entered data."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:170
+#: ../mastering-plone/add-ons.rst:183
 msgid "Customize the mailer"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:174
+#: ../mastering-plone/add-ons.rst:187
 msgid "Need CAPTCHAs? Read the `instructions how to add Recapcha-field to easyform <https://github.com/collective/collective.easyform#recaptcha-support>`_"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:180
+#: ../mastering-plone/add-ons.rst:193
 msgid "Add Photo Gallery with :py:mod:`collective.plonetruegallery`"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:182
+#: ../mastering-plone/add-ons.rst:195
 msgid "To advertise the conference we want to show some photos showing past conferences and the city where the conference is taking place."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:184
+#: ../mastering-plone/add-ons.rst:197
 msgid "Instead of creating new content types for galleries, it integrates with the Plone functionality to choose different views for folderish content types."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:186
-msgid "https://pypi.python.org/pypi/collective.plonetruegallery"
+#: ../mastering-plone/add-ons.rst:199
+msgid "https://pypi.org/project/collective.plonetruegallery"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:188
+#: ../mastering-plone/add-ons.rst:201
 msgid "Activate the add-on"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:189
+#: ../mastering-plone/add-ons.rst:202
 msgid "Enable the behavior ``Plone True Gallery`` on the type ``Folder``: http://localhost:8080/Plone/dexterity-types/Folder/@@behaviors"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:190
+#: ../mastering-plone/add-ons.rst:203
 msgid "Add a folder ``/the-event/location``"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:191
+#: ../mastering-plone/add-ons.rst:204
 msgid "Upload some photos from lorempixel.com"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:192
+#: ../mastering-plone/add-ons.rst:205
 msgid "Enable the view ``galleryview``"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:198
+#: ../mastering-plone/add-ons.rst:211
 msgid "Internationalization"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:200
+#: ../mastering-plone/add-ons.rst:213
 msgid "Plone can run the same site in many different languages."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:202
+#: ../mastering-plone/add-ons.rst:215
 msgid "We're not doing this with the conference site since the *lingua franca* of the Plone community is English."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:204
-msgid "We would use the built-in addon https://pypi.python.org/pypi/plone.app.multilingual for this."
+#: ../mastering-plone/add-ons.rst:217
+msgid "We would use the built-in addon https://pypi.org/project/plone.app.multilingual for this."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:206
+#: ../mastering-plone/add-ons.rst:219
 msgid "Building a multi-lingual site requires activating :py:mod:`plone.app.multilingual`, but no add-on is necessary to build a site in only one language. Just select a different site language when creating a Plone site, and all text in the user-interface will be switched to that language."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:212
-#: ../mastering-plone/configuring_customizing.rst:304
+#: ../mastering-plone/add-ons.rst:225
+#: ../mastering-plone/configuring_customizing.rst:310
 #: ../mastering-plone/dexterity_2.rst:640
-#: ../mastering-plone/eggs1.rst:246
+#: ../mastering-plone/eggs1.rst:247
 #: ../mastering-plone/events.rst:290
 #: ../mastering-plone/export_code.rst:423
 #: ../mastering-plone/views_3.rst:471
@@ -899,27 +907,27 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:214
+#: ../mastering-plone/add-ons.rst:227
 msgid "You are now able to customize and extend many parts of our website. You can even install extensions that add new functionality."
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:216
+#: ../mastering-plone/add-ons.rst:229
 msgid "But:"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:218
+#: ../mastering-plone/add-ons.rst:231
 msgid "Can we submit talks now?"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:219
+#: ../mastering-plone/add-ons.rst:232
 msgid "Can we create lists with the most important properties of each talk?"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:220
+#: ../mastering-plone/add-ons.rst:233
 msgid "Can we allow a jury to vote on talks?"
 msgstr ""
 
-#: ../mastering-plone/add-ons.rst:222
+#: ../mastering-plone/add-ons.rst:235
 msgid "We often have to work with structured data. Up to a degree we can do all this TTW, but at some point we run into barriers. In the next part of the training, we'll teach you how to break through these barriers."
 msgstr ""
 
@@ -1611,47 +1619,47 @@ msgstr ""
 msgid "You can avoid this by using the :py:class:`plone.behavior.AnnotationStorage` factory. This stores your attributes in an `Annotation <https://docs.plone.org/develop/plone/misc/annotations.html>`_. But then you *must* use a marker interface if you want to have custom viewlets, browser views or portlets."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:91
+#: ../mastering-plone/behaviors_1.rst:92
 msgid "Without it, you would have no interface against which you could register your views."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:112
+#: ../mastering-plone/behaviors_1.rst:113
 msgid "And a :file:`behaviors/social.py` containing:"
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:145
+#: ../mastering-plone/behaviors_1.rst:146
 msgid "Let's go through this step by step."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:147
+#: ../mastering-plone/behaviors_1.rst:148
 msgid "We register a behavior in :ref:`behaviors/configure.zcml <social-behavior-zcml-label>`. We do not say for which content type this behavior is valid. You do this through the web or in the GenericSetup profile."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:148
+#: ../mastering-plone/behaviors_1.rst:149
 msgid "We create a marker interface in :ref:`behaviors/social.py <social-behavior-python-label>` for our behavior and make it also a schema containing the fields we want to declare. We could just define schema fields on a zope.interface class, but we use an extended form from `plone.supermodel`_, else we could not use the fieldset features."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:150
+#: ../mastering-plone/behaviors_1.rst:151
 msgid "We also add a `fieldset`_ so that our fields are not mixed with the normal fields of the object."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:151
+#: ../mastering-plone/behaviors_1.rst:152
 msgid "We add a normal `URI`_ schema field to store the URI to lanyrd."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:152
+#: ../mastering-plone/behaviors_1.rst:153
 msgid "We mark our schema as a class that also implements the `IFormFieldProvider`_ interface. This is a marker interface, we do not need to implement anything to provide the interface."
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:157
+#: ../mastering-plone/behaviors_1.rst:158
 msgid "Adding it to our talk"
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:161
+#: ../mastering-plone/behaviors_1.rst:162
 msgid "We could add this behavior now via the plone control panel. But instead, we will do it directly and properly in our GenericSetup profile"
 msgstr ""
 
-#: ../mastering-plone/behaviors_1.rst:163
+#: ../mastering-plone/behaviors_1.rst:164
 msgid "We must add the behavior to :file:`profiles/default/types/talk.xml`:"
 msgstr ""
 
@@ -1861,9 +1869,9 @@ msgstr ""
 
 #: ../mastering-plone/behaviors_2.rst:385
 #: ../mastering-plone/dexterity.rst:255
-#: ../mastering-plone/dexterity_3.rst:600
+#: ../mastering-plone/dexterity_3.rst:609
 #: ../mastering-plone/events.rst:198
-#: ../mastering-plone/features.rst:103
+#: ../mastering-plone/features.rst:109
 #: ../mastering-plone/viewlets_1.rst:230
 #: ../mastering-plone/views_3.rst:257
 msgid "Exercise 2"
@@ -1904,7 +1912,7 @@ msgid "mr.developer"
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:19
-msgid "`Buildout <https://pypi.python.org/pypi/zc.buildout>`_ composes your application for you, according to your rules."
+msgid "`Buildout <https://pypi.org/project/zc.buildout>`_ composes your application for you, according to your rules."
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:21
@@ -1952,7 +1960,7 @@ msgid "One example is the section"
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:65
-msgid "This uses the python package `plone.recipe.zope2instance <https://pypi.python.org/pypi/plone.recipe.zope2instance>`_ to create and configure the Zope 2 instance which we use to run Plone."
+msgid "This uses the python package `plone.recipe.zope2instance <https://pypi.org/project/plone.recipe.zope2instance>`_ to create and configure the Zope 2 instance which we use to run Plone."
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:68
@@ -1960,7 +1968,7 @@ msgid "All the lines after :samp:`recipe = xyz` are the configuration of the spe
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:72
-msgid "There are way to many buildout-recipes. See https://pypi.python.org/pypi?%3Aaction=search&term=buildout+recipe&submit=search"
+msgid "There are way to many buildout-recipes. See https://pypi.org/search/?q=buildout+recipe"
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:77
@@ -1976,7 +1984,7 @@ msgid "If you have a big setup with many Plone sites with minor changes between 
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:85
-msgid "Even in smaller buildouts this is a useful feature. We are using `collective.recipe.omelette <https://pypi.python.org/pypi/collective.recipe.omelette>`_. A very practical recipe that creates a virtual directory that eases the navigation to the source code of each egg."
+msgid "Even in smaller buildouts this is a useful feature. We are using `collective.recipe.omelette <https://pypi.org/project/collective.recipe.omelette>`_. A very practical recipe that creates a virtual directory that eases the navigation to the source code of each egg."
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:87
@@ -2076,7 +2084,7 @@ msgid "As you can see, you can build very complex systems with Buildout. It is t
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:323
-msgid "The configuration for this recipe is more complicated than the supervisor configuration itself! By using this recipe, you force others to understand the recipe's specific configuration syntax *and* the supervisor syntax. For such cases, `collective.recipe.template <https://pypi.python.org/pypi/collective.recipe.template>`_ is a better match."
+msgid "The configuration for this recipe is more complicated than the supervisor configuration itself! By using this recipe, you force others to understand the recipe's specific configuration syntax *and* the supervisor syntax. For such cases, `collective.recipe.template <https://pypi.org/project/collective.recipe.template>`_ is a better match."
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:325
@@ -2156,7 +2164,7 @@ msgid "https://github.com/plone/Installers-UnifiedInstaller/blob/master/base_ske
 msgstr ""
 
 #: ../mastering-plone/buildout_1.rst:368
-msgid "https://pypi.python.org/pypi/mr.developer/"
+msgid "https://pypi.org/project/mr.developer/"
 msgstr ""
 
 #: ../mastering-plone/case.rst:4
@@ -2727,7 +2735,7 @@ msgid "Content"
 msgstr ""
 
 #: ../mastering-plone/configuring_customizing.rst:45
-#: ../mastering-plone/features.rst:342
+#: ../mastering-plone/features.rst:376
 msgid "Content Rules"
 msgstr ""
 
@@ -2752,7 +2760,7 @@ msgid "Dexterity Content Types"
 msgstr ""
 
 #: ../mastering-plone/configuring_customizing.rst:53
-#: ../mastering-plone/features.rst:189
+#: ../mastering-plone/features.rst:195
 msgid "Users"
 msgstr ""
 
@@ -2821,443 +2829,447 @@ msgstr ""
 msgid "Upload the Logo."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:87
-msgid "https://docs.plone.org/adapt-and-extend/change-the-logo.html"
+#: ../mastering-plone/configuring_customizing.rst:89
+msgid "The view of the homepage with the customized logo."
 msgstr ""
 
 #: ../mastering-plone/configuring_customizing.rst:93
+msgid "https://docs.plone.org/adapt-and-extend/change-the-logo.html"
+msgstr ""
+
+#: ../mastering-plone/configuring_customizing.rst:99
 #: ../mastering-plone/optional.rst:7
 msgid "Portlets"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:95
+#: ../mastering-plone/configuring_customizing.rst:101
 msgid "In the toolbar under :guilabel:`More options` you can open the configuration for the different places where you can have portlets."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:97
+#: ../mastering-plone/configuring_customizing.rst:103
 msgid "UI fit for smart content editors"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:98
+#: ../mastering-plone/configuring_customizing.rst:104
 msgid "Various types"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:99
+#: ../mastering-plone/configuring_customizing.rst:105
 msgid "Portlet configuration is inherited"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:100
+#: ../mastering-plone/configuring_customizing.rst:106
 msgid "Managing"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:101
+#: ../mastering-plone/configuring_customizing.rst:107
 msgid "Ordering/weighting"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:102
+#: ../mastering-plone/configuring_customizing.rst:108
 msgid "The future: may be replaced by tiles"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:103
+#: ../mastering-plone/configuring_customizing.rst:109
 msgid "``@@manage-portlets``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:105
+#: ../mastering-plone/configuring_customizing.rst:111
 #: ../mastering-plone/zpt.rst:378
 msgid "Example:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:107
+#: ../mastering-plone/configuring_customizing.rst:113
 msgid "Go to http://localhost:8080/Plone/@@manage-portlets"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:108
+#: ../mastering-plone/configuring_customizing.rst:114
 msgid "Add a static portlet \"Sponsors\" on the right side."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:109
+#: ../mastering-plone/configuring_customizing.rst:115
 msgid "Remove the news portlet and add a new one on the left side."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:110
+#: ../mastering-plone/configuring_customizing.rst:116
 msgid "Go to the training folder: http://localhost:8080/Plone/the-event/training and click :guilabel:`Manage portlets`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:111
+#: ../mastering-plone/configuring_customizing.rst:117
 msgid "Add a static portlet. \"Featured training: Become a Plone-Rockstar at Mastering Plone!\""
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:112
+#: ../mastering-plone/configuring_customizing.rst:118
 msgid "Use the toolbar to configure the portlets of the footer:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:114
+#: ../mastering-plone/configuring_customizing.rst:120
 msgid "Hide the portlets \"Footer\" and \"Colophon\"."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:115
+#: ../mastering-plone/configuring_customizing.rst:121
 msgid "Add a :guilabel:`Static text portlet` and enter \"Copyright 2015 by Plone Community\"."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:116
+#: ../mastering-plone/configuring_customizing.rst:122
 msgid "Use :menuselection:`Insert --> Special Character` to add a real © sign."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:117
+#: ../mastering-plone/configuring_customizing.rst:123
 msgid "You could turn that into a link to a copyright page later."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:123
+#: ../mastering-plone/configuring_customizing.rst:129
 #: ../mastering-plone/intro.rst:70
 #: ../mastering-plone/viewlets_1.rst:21
 #: ../mastering-plone/viewlets_2.rst:20
 msgid "Viewlets"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:125
+#: ../mastering-plone/configuring_customizing.rst:131
 msgid "Portlets save data, Viewlets usually don't. Viewlets are often used for UI-Elements and have no nice UI to customize them."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:127
+#: ../mastering-plone/configuring_customizing.rst:133
 msgid "``@@manage-viewlets``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:128
+#: ../mastering-plone/configuring_customizing.rst:134
 msgid "Viewlets have no nice UI"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:129
+#: ../mastering-plone/configuring_customizing.rst:135
 msgid "Not aimed at content editors"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:130
+#: ../mastering-plone/configuring_customizing.rst:136
 msgid "Not locally addable, no configurable inheritance."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:131
+#: ../mastering-plone/configuring_customizing.rst:137
 msgid "Usually global (depends on code)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:132
+#: ../mastering-plone/configuring_customizing.rst:138
 msgid "Will be replaced by tiles?"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:133
+#: ../mastering-plone/configuring_customizing.rst:139
 msgid "The code is much simpler (we'll create one tomorrow)."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:134
+#: ../mastering-plone/configuring_customizing.rst:140
 msgid "Live in viewlet managers, can be nested (by adding a viewlet that contains a viewlet manager)."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:135
+#: ../mastering-plone/configuring_customizing.rst:141
 msgid "TTW reordering only within the same viewlet manager."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:136
+#: ../mastering-plone/configuring_customizing.rst:142
 msgid "The code decides when it is shown and what it shows."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:142
+#: ../mastering-plone/configuring_customizing.rst:148
 msgid "ZMI (Zope Management Interface)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:144
+#: ../mastering-plone/configuring_customizing.rst:150
 msgid "Go to http://localhost:8080/Plone/manage"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:146
+#: ../mastering-plone/configuring_customizing.rst:152
 msgid "Zope is the foundation of Plone. Here you can access the inner workings of Zope and Plone alike."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:150
+#: ../mastering-plone/configuring_customizing.rst:156
 msgid "Here you can easily break your site so you should know what you are doing!"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:154
+#: ../mastering-plone/configuring_customizing.rst:160
 msgid "We only cover three parts of customization in the ZMI now. Later on when we added our own code we'll come back to the ZMI and will look for it."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:157
+#: ../mastering-plone/configuring_customizing.rst:163
 msgid "At some point you'll have to learn what all those objects are about. But not today."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:161
+#: ../mastering-plone/configuring_customizing.rst:167
 msgid "Actions (portal_actions)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:163
+#: ../mastering-plone/configuring_customizing.rst:169
 msgid "Actions are mostly links. But **really flexible** links."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:164
+#: ../mastering-plone/configuring_customizing.rst:170
 msgid "Actions are configurable TTW (Through-The-Web) and through code."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:165
+#: ../mastering-plone/configuring_customizing.rst:171
 msgid "These actions are usually iterated over in viewlets and displayed."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:167
+#: ../mastering-plone/configuring_customizing.rst:173
 #: ../mastering-plone/custom_search.rst:31
 #: ../mastering-plone/zpt.rst:355
 msgid "Examples:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:169
+#: ../mastering-plone/configuring_customizing.rst:175
 msgid "Links in the Footer (``site_actions``)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:170
+#: ../mastering-plone/configuring_customizing.rst:176
 msgid "Actions Dropdown (``folder_buttons``)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:172
+#: ../mastering-plone/configuring_customizing.rst:178
 msgid "Actions have properties like:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:174
+#: ../mastering-plone/configuring_customizing.rst:180
 msgid "description"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:175
+#: ../mastering-plone/configuring_customizing.rst:181
 msgid "url"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:176
+#: ../mastering-plone/configuring_customizing.rst:182
 msgid "i18n-domain"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:177
+#: ../mastering-plone/configuring_customizing.rst:183
 #: ../mastering-plone/zpt.rst:451
 msgid "condition"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:178
+#: ../mastering-plone/configuring_customizing.rst:184
 msgid "permissions"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:183
+#: ../mastering-plone/configuring_customizing.rst:189
 msgid "``site_actions``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:185
+#: ../mastering-plone/configuring_customizing.rst:191
 msgid "These are the links at the bottom of the page:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:187
+#: ../mastering-plone/configuring_customizing.rst:193
 msgid ":guilabel:`Site Map`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:188
+#: ../mastering-plone/configuring_customizing.rst:194
 msgid ":guilabel:`Accessibility`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:189
+#: ../mastering-plone/configuring_customizing.rst:195
 msgid ":guilabel:`Contact`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:190
+#: ../mastering-plone/configuring_customizing.rst:196
 msgid ":guilabel:`Site Setup`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:192
+#: ../mastering-plone/configuring_customizing.rst:198
 msgid "We want a new link to legal information, called \"Imprint\"."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:194
+#: ../mastering-plone/configuring_customizing.rst:200
 msgid "Go to ``site_actions`` (we know that because we checked in ``@@manage-viewlets``)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:195
+#: ../mastering-plone/configuring_customizing.rst:201
 msgid "Add a CMF Action ``imprint``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:196
+#: ../mastering-plone/configuring_customizing.rst:202
 msgid "Set URL to ``string:${portal_url}/imprint``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:197
+#: ../mastering-plone/configuring_customizing.rst:203
 msgid "Leave *condition* empty"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:198
+#: ../mastering-plone/configuring_customizing.rst:204
 msgid "Set permission to ``View``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:199
+#: ../mastering-plone/configuring_customizing.rst:205
 msgid "Save"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:203
+#: ../mastering-plone/configuring_customizing.rst:209
 msgid "explain"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:205
+#: ../mastering-plone/configuring_customizing.rst:211
 msgid "Check if the link is on the page"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:206
+#: ../mastering-plone/configuring_customizing.rst:212
 msgid "Create new Document \"Imprint\" and publish"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:210
+#: ../mastering-plone/configuring_customizing.rst:216
 msgid "https://docs.plone.org/develop/plone/functionality/actions.html"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:214
+#: ../mastering-plone/configuring_customizing.rst:220
 msgid "Global navigation"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:216
+#: ../mastering-plone/configuring_customizing.rst:222
 msgid "The horizontal navigation is called ``portal_tabs``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:217
+#: ../mastering-plone/configuring_customizing.rst:223
 msgid "Go to :menuselection:`portal_actions --> portal_tabs` `Link <http://localhost:8080/Plone/portal_actions/portal_tabs/manage_main>`_"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:218
+#: ../mastering-plone/configuring_customizing.rst:224
 msgid "Edit ``index_html``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:220
+#: ../mastering-plone/configuring_customizing.rst:226
 msgid "Where is the navigation?"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:222
+#: ../mastering-plone/configuring_customizing.rst:228
 msgid "The navigation shows content-objects, which are in Plone's root. Plus all actions in ``portal_tabs``."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:224
+#: ../mastering-plone/configuring_customizing.rst:230
 msgid "Explain & edit ``index_html``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:226
+#: ../mastering-plone/configuring_customizing.rst:232
 msgid "Configuring the navigation itself is done elsewhere: http://localhost:8080/Plone/@@navigation-controlpanel"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:228
+#: ../mastering-plone/configuring_customizing.rst:234
 msgid "If time explain:"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:230
+#: ../mastering-plone/configuring_customizing.rst:236
 msgid "user > undo (cool!)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:231
+#: ../mastering-plone/configuring_customizing.rst:237
 msgid "user > login/logout"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:235
+#: ../mastering-plone/configuring_customizing.rst:241
 msgid "Skins (``portal_skins``)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:237
+#: ../mastering-plone/configuring_customizing.rst:243
 msgid "In ``portal_skins`` we can change certain images, CSS-files and templates."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:239
+#: ../mastering-plone/configuring_customizing.rst:245
 msgid "``portal_skins`` is deprecated technology"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:240
+#: ../mastering-plone/configuring_customizing.rst:246
 msgid "Plone 5 got rid of most files that lived in ``portal_skins``."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:244
+#: ../mastering-plone/configuring_customizing.rst:250
 msgid "Change some CSS"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:246
+#: ../mastering-plone/configuring_customizing.rst:252
 msgid "Go to ZMI"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:247
+#: ../mastering-plone/configuring_customizing.rst:253
 msgid "Go to ``portal_skins``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:248
+#: ../mastering-plone/configuring_customizing.rst:254
 msgid "Go to ``plone_styles``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:249
+#: ../mastering-plone/configuring_customizing.rst:255
 msgid "Go to :file:`ploneCustom.css`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:250
+#: ../mastering-plone/configuring_customizing.rst:256
 msgid "Click :guilabel:`customize`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:252
+#: ../mastering-plone/configuring_customizing.rst:258
 msgid "The CSS you add to this file is instantly active on the site."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:256
+#: ../mastering-plone/configuring_customizing.rst:262
 msgid "portal_view_customizations"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:259
+#: ../mastering-plone/configuring_customizing.rst:265
 msgid "Change the footer"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:261
+#: ../mastering-plone/configuring_customizing.rst:267
 msgid "Go to ``portal_view_customizations``"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:262
+#: ../mastering-plone/configuring_customizing.rst:268
 msgid "Search ``plone.footer``, click and customize"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:263
+#: ../mastering-plone/configuring_customizing.rst:269
 msgid "Replace the content with the following"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:279
+#: ../mastering-plone/configuring_customizing.rst:285
 msgid "https://docs.plone.org/adapt-and-extend/theming/templates_css/skin_layers.html"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:283
+#: ../mastering-plone/configuring_customizing.rst:289
 msgid "CSS Registry (``portal_css``)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:285
+#: ../mastering-plone/configuring_customizing.rst:291
 msgid "*deprecated* (See the chapter on theming)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:289
+#: ../mastering-plone/configuring_customizing.rst:295
 msgid "Further tools in the ZMI"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:291
+#: ../mastering-plone/configuring_customizing.rst:297
 msgid "There are many more notable items in the ZMI. We'll visit some of them later."
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:293
+#: ../mastering-plone/configuring_customizing.rst:299
 msgid ":guilabel:`acl_users`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:294
+#: ../mastering-plone/configuring_customizing.rst:300
 msgid ":guilabel:`error_log`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:295
+#: ../mastering-plone/configuring_customizing.rst:301
 msgid ":guilabel:`portal_properties` (deprecated)"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:296
+#: ../mastering-plone/configuring_customizing.rst:302
 msgid ":guilabel:`portal_setup`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:297
+#: ../mastering-plone/configuring_customizing.rst:303
 msgid ":guilabel:`portal_workflow`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:298
+#: ../mastering-plone/configuring_customizing.rst:304
 msgid ":guilabel:`portal_catalog`"
 msgstr ""
 
-#: ../mastering-plone/configuring_customizing.rst:306
+#: ../mastering-plone/configuring_customizing.rst:312
 msgid "You can configure and customize a lot in Plone through the web. The most important options are accessible in the `Plone control panel <http://localhost:8080/Plone/@@overview-controlpanel>`_ but some are hidden away in the `ZMI <http://localhost:8080/Plone/manage>`_. The amount and presentation of information is overwhelming but you'll get the hang of it through a lot of practice."
 msgstr ""
 
@@ -3286,7 +3298,7 @@ msgid "It lets you gradually select and explore different facets (metadata/prope
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:22
-msgid "Install `eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
+msgid "Install `eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_"
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:23
@@ -3326,11 +3338,11 @@ msgid "https://www.dyna-jet.com/hochdruckreiniger"
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:39
-msgid "We use the new catalog indexes to provide the data for the widgets and search the results. For other use cases we could also use either the built-in vocabularies (https://pypi.python.org/pypi/plone.app.vocabularies) or create custom vocabularies for this."
+msgid "We use the new catalog indexes to provide the data for the widgets and search the results. For other use cases we could also use either the built-in vocabularies (https://pypi.org/project/plone.app.vocabularies) or create custom vocabularies for this."
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:42
-msgid "Custom vocabularies TTW (Through-The-Web) using `Products.ATVocabularyManager <https://pypi.python.org/pypi/Products.ATVocabularyManager>`_"
+msgid "Custom vocabularies TTW (Through-The-Web) using `Products.ATVocabularyManager <https://pypi.org/project/Products.ATVocabularyManager>`_"
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:43
@@ -3342,7 +3354,7 @@ msgid "collective.portlet.collectionfilter"
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:49
-msgid "A more light-weight solution for custom searches and faceted navigation is `collective.portlet.collectionfilter <https://pypi.python.org/pypi/collective.portlet.collectionfilter>`_. By default it allows you to search among the results of a collection and/or filter the results by keywords, author or type."
+msgid "A more light-weight solution for custom searches and faceted navigation is `collective.portlet.collectionfilter <https://pypi.org/project/collective.portlet.collectionfilter>`_. By default it allows you to search among the results of a collection and/or filter the results by keywords, author or type."
 msgstr ""
 
 #: ../mastering-plone/custom_search.rst:52
@@ -3382,7 +3394,7 @@ msgid "There once was a book on python. Among other things, it had a chapter on 
 msgstr ""
 
 #: ../mastering-plone/deployment_code.rst:18
-msgid "We will avoid this. Everybody, go to `testpypi.python.org <https://testpypi.python.org/pypi>`_ and create an account now."
+msgid "We will avoid this. Everybody, go to `test.pypi.org <https://test.pypi.org>`_ and create an account now."
 msgstr ""
 
 #: ../mastering-plone/deployment_code.rst:20
@@ -3643,7 +3655,7 @@ msgid "Archetypes has no TTW story."
 msgstr ""
 
 #: ../mastering-plone/dexterity.rst:79
-msgid "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://pypi.python.org/pypi/agx.generator.dexterity>`_ for Dexterity"
+msgid "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://web.archive.org/web/20170411060701/http://agx.me/>`_ for Dexterity"
 msgstr ""
 
 #: ../mastering-plone/dexterity.rst:81
@@ -4060,7 +4072,7 @@ msgid "GenericSetup now expects the code as a method :py:meth:`upgrade_site` in 
 msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:237
-#: ../mastering-plone/registry.rst:232
+#: ../mastering-plone/registry.rst:241
 msgid "Note:"
 msgstr ""
 
@@ -4459,7 +4471,7 @@ msgid "`Validation <https://docs.plone.org/develop/addons/schema-driven-forms/cu
 msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:271
-msgid "`z3c.form documentation <https://pypi.python.org/pypi/z3c.form#validators>`_"
+msgid "`z3c.form documentation <https://pypi.org/project/z3c.form#validators>`_"
 msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:272
@@ -4571,84 +4583,92 @@ msgstr ""
 msgid "You can now add some CSS in :file:`browser/static/ploneconf.css` to make it look OK."
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:602
-msgid "Turn the content type Speaker from :ref:`Exercise 2 of the first chapter on dexterity <dexterity1-excercises-label>` into a Python-based type."
+#: ../mastering-plone/dexterity_3.rst:599
+msgid "Result:"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:604
-msgid "When we're done, it should have the following fields:"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:606
-msgid "title"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:607
-msgid "email"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:608
-msgid "homepage"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:609
-msgid "biography"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:610
-msgid "company"
+#: ../mastering-plone/dexterity_3.rst:605
+msgid "The result of the newly created content type."
 msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:611
-msgid "twitter_name"
-msgstr ""
-
-#: ../mastering-plone/dexterity_3.rst:612
-msgid "irc_name"
+msgid "Turn the content type Speaker from :ref:`Exercise 2 of the first chapter on dexterity <dexterity1-excercises-label>` into a Python-based type."
 msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:613
-msgid "image"
+msgid "When we're done, it should have the following fields:"
 msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:615
+msgid "title"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:616
+msgid "email"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:617
+msgid "homepage"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:618
+msgid "biography"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:619
+msgid "company"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:620
+msgid "twitter_name"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:621
+msgid "irc_name"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:622
+msgid "image"
+msgstr ""
+
+#: ../mastering-plone/dexterity_3.rst:624
 msgid "Do *not* use the :py:class:`IBasic` or :py:class:`IDublinCore` behavior to add title and description. Instead add your own field ``title`` and give it the title *Name*."
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:678
+#: ../mastering-plone/dexterity_3.rst:687
 msgid "Register the type in :file:`profiles/default/types.xml`"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:693
+#: ../mastering-plone/dexterity_3.rst:702
 msgid "The FTI goes in :file:`profiles/default/types/speaker.xml`. Again we use :py:class:`Item` as the base-class:"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:742
+#: ../mastering-plone/dexterity_3.rst:751
 msgid "After reinstalling the package the new type is usable."
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:746
-#: ../mastering-plone/features.rst:113
+#: ../mastering-plone/dexterity_3.rst:755
+#: ../mastering-plone/features.rst:119
 msgid "Exercise 3"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:748
+#: ../mastering-plone/dexterity_3.rst:757
 msgid "This is more of a Python exercise. The gold- and bronze sponsors should also have a bigger logo than the others. Scale the sponsors logos to the following logo-sizes without using CSS."
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:750
+#: ../mastering-plone/dexterity_3.rst:759
 msgid "Platinum: 500x200"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:751
+#: ../mastering-plone/dexterity_3.rst:760
 msgid "Gold: 350x150"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:752
+#: ../mastering-plone/dexterity_3.rst:761
 msgid "Silver: 200x80"
 msgstr ""
 
-#: ../mastering-plone/dexterity_3.rst:753
+#: ../mastering-plone/dexterity_3.rst:762
 msgid "Bronze: 150x60"
 msgstr ""
 
@@ -4681,7 +4701,7 @@ msgid "Your own code has to be organized as a `Python package <https://docs.pyth
 msgstr ""
 
 #: ../mastering-plone/eggs1.rst:34
-msgid "We are going to use `bobtemplates.plone <https://pypi.python.org/pypi/bobtemplates.plone>`_ to create a skeleton package. You only need to fill in the blanks."
+msgid "We are going to use `bobtemplates.plone <https://pypi.org/project/bobtemplates.plone>`_ to create a skeleton package. You only need to fill in the blanks."
 msgstr ""
 
 #: ../mastering-plone/eggs1.rst:36
@@ -4713,7 +4733,7 @@ msgid "Eggs"
 msgstr ""
 
 #: ../mastering-plone/eggs1.rst:77
-msgid "When a python package is production-ready you can choose to distribute it as an egg over the python package index, `pypi <https://pypi.python.org/pypi>`_. This allows everyone to install and use your package without having to download the code from github. The over 260 python packages that are used by your current Plone instance are also distributed as eggs."
+msgid "When a python package is production-ready you can choose to distribute it as an egg over the python package index, `pypi <https://pypi.org>`_. This allows everyone to install and use your package without having to download the code from github. The over 260 python packages that are used by your current Plone instance are also distributed as eggs."
 msgstr ""
 
 #: ../mastering-plone/eggs1.rst:83
@@ -4800,7 +4820,7 @@ msgstr ""
 msgid "This holds the tests."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:124
+#: ../mastering-plone/eggs1.rst:125
 msgid ":file:`browser/`"
 msgstr ""
 
@@ -4808,107 +4828,107 @@ msgstr ""
 msgid "This directory is a python package (because it has a :file:`__init__.py`) and will by convention hold most things that are visible in the browser."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:127
+#: ../mastering-plone/eggs1.rst:128
 msgid ":file:`browser/configure.zcml`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:127
+#: ../mastering-plone/eggs1.rst:128
 msgid "The phonebook of the browser package. Here views, resources and overrides are registered."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:130
+#: ../mastering-plone/eggs1.rst:131
 msgid ":file:`browser/overrides/`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:130
+#: ../mastering-plone/eggs1.rst:131
 msgid "This folder is here to allow overriding existing default Plone templates."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:133
+#: ../mastering-plone/eggs1.rst:134
 msgid ":file:`browser/static/`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:133
+#: ../mastering-plone/eggs1.rst:134
 msgid "A directory that holds static resources (images/css/js). The files in here will be accessible through URLs like ``++resource++ploneconf.site/myawesome.css``"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:136
+#: ../mastering-plone/eggs1.rst:137
 msgid ":file:`locales/`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:136
+#: ../mastering-plone/eggs1.rst:137
 msgid "This directory can hold translations of text used in the package to allow for multiple languages of your user-interface."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:139
+#: ../mastering-plone/eggs1.rst:140
 msgid ":file:`profiles/default/`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:139
+#: ../mastering-plone/eggs1.rst:140
 msgid "This folder contains the GenericSetup profile. During the training we will put some XML files here that hold configuration for the site."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:142
+#: ../mastering-plone/eggs1.rst:143
 msgid ":file:`profiles/default/metadata.xml`"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:142
+#: ../mastering-plone/eggs1.rst:143
 msgid "Version number and dependencies that are auto-installed when installing our add-on."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:151
+#: ../mastering-plone/eggs1.rst:152
 msgid "Including the package in Plone"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:153
+#: ../mastering-plone/eggs1.rst:154
 msgid "Before we can use our new package we have to tell Plone about it. Look at :file:`buildout.cfg` and see how ``ploneconf.site`` is included in `auto-checkout`, `eggs` and `test`:"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:197
+#: ../mastering-plone/eggs1.rst:198
 msgid "This tells Buildout to add the egg :py:mod:`ploneconf.site`. The sources for this eggs are defined in the section ``[sources]`` at the bottom of :file:`buildout.cfg`."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:206
+#: ../mastering-plone/eggs1.rst:207
 msgid "This tells buildout to not download it from pypi but to do a checkout from GitHub put the code in :file:`src/ploneconf.site`."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:210
+#: ../mastering-plone/eggs1.rst:211
 msgid "The package :py:mod:`ploneconf.site` is now downloaded from GitHub and automatically in the branch master. :py:mod:`ploneconf.site` can be called an egg even though it has not been released on pypi. Plone can use it like it uses an egg."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:214
+#: ../mastering-plone/eggs1.rst:215
 msgid "If you do **not** want to use the prepared package for ploneconf.site from GitHub but write it yourself (we suggest you try that) then add the following instead:"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:223
+#: ../mastering-plone/eggs1.rst:224
 msgid "This tells buildout to expect `ploneconf.site` in :file:`src/ploneconf.site`. The directive ``fs`` allows you to add eggs on the filesystem without a version control system."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:226
+#: ../mastering-plone/eggs1.rst:227
 msgid "Now run buildout to reconfigure Plone with the updated configuration:"
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:232
+#: ../mastering-plone/eggs1.rst:233
 msgid "After restarting Plone with :command:`./bin/instance fg` the new add-on :py:mod:`ploneconf.site` is available for install like EasyForm or Plone True Gallery."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:234
+#: ../mastering-plone/eggs1.rst:235
 msgid "We will not install it now since we did not add any of our own code or configuration yet. Let's do that next."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:240
+#: ../mastering-plone/eggs1.rst:241
 msgid "Create a new package called :py:mod:`collective.behavior.myfeature`. Inspect the directory structure of this package. Delete it after you are done. Many packages that are part of Plone and some add-ons use a nested namespace such as :py:mod:`plone.app.contenttypes`."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:242
+#: ../mastering-plone/eggs1.rst:243
 msgid "Open https://github.com/plone/bobtemplates.plone and read about the templates and subtemplates it provides."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:248
+#: ../mastering-plone/eggs1.rst:249
 msgid "You created the package * :py:mod:`ploneconf.site` to hold your code."
 msgstr ""
 
-#: ../mastering-plone/eggs1.rst:249
+#: ../mastering-plone/eggs1.rst:250
 msgid "You added the new package to buildout so that Plone can use it."
 msgstr ""
 
@@ -4986,7 +5006,7 @@ msgid "Permissions"
 msgstr ""
 
 #: ../mastering-plone/embed.rst:13
-#: ../mastering-plone/features.rst:373
+#: ../mastering-plone/features.rst:431
 msgid "Workflows"
 msgstr ""
 
@@ -5677,587 +5697,615 @@ msgstr ""
 msgid "A standard installation listens on port 8080, so lets have a look at our Zope site by visiting http://localhost:8080"
 msgstr ""
 
-#: ../mastering-plone/features.rst:45
+#: ../mastering-plone/features.rst:48
 msgid "As you can see, there is no Plone site yet!"
 msgstr ""
 
-#: ../mastering-plone/features.rst:47
+#: ../mastering-plone/features.rst:50
 msgid "We have a running Zope with a database but no content. But luckily there is a button to create a Plone site. Click on that button (login: admin, password: admin). This opens a form to create a Plone site. Use :samp:`Plone` as the site id."
 msgstr ""
 
-#: ../mastering-plone/features.rst:53
+#: ../mastering-plone/features.rst:59
 msgid "You now have the option to select some add-ons before you create the site. Since we will use Dexterity from the beginning we select :guilabel:`Dexterity-based Plone Default Types`. This way even the initial content on our page will be built with Dexterity using the add-on :py:mod:`plone.app.contenttypes` which is the default in Plone 5."
 msgstr ""
 
-#: ../mastering-plone/features.rst:57
+#: ../mastering-plone/features.rst:63
 msgid "You will be automatically redirected to the new site."
 msgstr ""
 
-#: ../mastering-plone/features.rst:61
+#: ../mastering-plone/features.rst:67
 msgid "By default Plone listens on port 8080. Look at http://localhost:8080"
 msgstr ""
 
-#: ../mastering-plone/features.rst:62
+#: ../mastering-plone/features.rst:68
 msgid "No Plone site yet! Create a new Plone site."
 msgstr ""
 
-#: ../mastering-plone/features.rst:63
+#: ../mastering-plone/features.rst:69
 msgid "Use :samp:`Plone` (the default) as the site id."
 msgstr ""
 
-#: ../mastering-plone/features.rst:67
+#: ../mastering-plone/features.rst:73
 msgid "Plone has many message boxes. They contain important information. Read them and make sure you understand them!"
 msgstr ""
 
-#: ../mastering-plone/features.rst:77
+#: ../mastering-plone/features.rst:83
 msgid "Open the `bin/instance` script in your favorite editor. Now let's say you want Plone to listen on port 9080 instead of the default 8080. Looking at the script, how could you do this?"
 msgstr ""
 
-#: ../mastering-plone/features.rst:82
+#: ../mastering-plone/features.rst:88
 msgid "At the end of the `bin/instance` script, you'll see the following code:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:91
+#: ../mastering-plone/features.rst:97
 msgid "The second to last line points to the configuration file your Plone instance is using. An absolute path is used so it might differ depending on the installation method. Open the `zope.conf` file in your editor and look for the section:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:100
+#: ../mastering-plone/features.rst:106
 msgid "Change the address to 9080 and restart your instance."
 msgstr ""
 
-#: ../mastering-plone/features.rst:105
+#: ../mastering-plone/features.rst:111
 msgid "Knowing that `bin/instance debug` basically offers you a Python prompt, how would you start to explore Plone?"
 msgstr ""
 
-#: ../mastering-plone/features.rst:110
+#: ../mastering-plone/features.rst:116
 msgid "Use `locals()` or `locals().keys()` to see Python objects available in Plone"
 msgstr ""
 
-#: ../mastering-plone/features.rst:115
+#: ../mastering-plone/features.rst:121
 msgid "The `app` object you encountered in the previous exercise can be seen as the root of Plone. Once again using Python, can you find your newly created Plone site?"
 msgstr ""
 
-#: ../mastering-plone/features.rst:120
+#: ../mastering-plone/features.rst:126
 msgid "`app.__dict__.keys()` will show `app`'s attribute names - there is one called `Plone`, this is your Plone site object. Use `app.Plone` to access and further explore it."
 msgstr ""
 
-#: ../mastering-plone/features.rst:124
+#: ../mastering-plone/features.rst:130
 msgid "Plone and its objects are stored in an object database, the ZODB. You can use `bin/instance debug` as a database client (in the same way e.g. `psql` is a client for PostgreSQL). Instead of a special query language (like SQL) you simply use Python to access and manipulate ZODB objects. Don't worry if you accidentally change objects in `bin/instance debug` - you would have to commit your changes explicitly to make them permanent. The Python code to do so is:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:133
+#: ../mastering-plone/features.rst:139
 msgid "You have been warned."
 msgstr ""
 
-#: ../mastering-plone/features.rst:138
+#: ../mastering-plone/features.rst:144
 msgid "Walkthrough of the UI"
 msgstr ""
 
-#: ../mastering-plone/features.rst:140
+#: ../mastering-plone/features.rst:146
 msgid "Let's see what is there..."
 msgstr ""
 
-#: ../mastering-plone/features.rst:142
+#: ../mastering-plone/features.rst:148
 msgid ":guilabel:`header`:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:144
+#: ../mastering-plone/features.rst:150
 msgid ":guilabel:`logo`: with a link to the front page"
 msgstr ""
 
-#: ../mastering-plone/features.rst:145
+#: ../mastering-plone/features.rst:151
 msgid ":guilabel:`searchbox`: search (with live-search)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:147
+#: ../mastering-plone/features.rst:153
 msgid ":guilabel:`navigation`: The global navigation"
 msgstr ""
 
-#: ../mastering-plone/features.rst:148
+#: ../mastering-plone/features.rst:154
 msgid ":guilabel:`banner`: A banner. Only visible on the front page."
 msgstr ""
 
-#: ../mastering-plone/features.rst:150
+#: ../mastering-plone/features.rst:156
 msgid ":guilabel:`portal-columns`: a container holding:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:152
+#: ../mastering-plone/features.rst:158
 msgid ":guilabel:`portal-column-one`: portlets (configurable boxes with tools like navigation, news etc.)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:153
+#: ../mastering-plone/features.rst:159
 msgid ":guilabel:`portal-column-content`: the content and the editor"
 msgstr ""
 
-#: ../mastering-plone/features.rst:154
+#: ../mastering-plone/features.rst:160
 msgid ":guilabel:`portal-column-two`: portlets"
 msgstr ""
 
-#: ../mastering-plone/features.rst:156
+#: ../mastering-plone/features.rst:162
 msgid ":guilabel:`portal-footer`: portlets for the footer, site actions, and colophon"
 msgstr ""
 
-#: ../mastering-plone/features.rst:158
+#: ../mastering-plone/features.rst:164
 msgid ":guilabel:`edit-zone`: a vertical bar on the left side of the browser window with editing options for the content"
 msgstr ""
 
-#: ../mastering-plone/features.rst:162
+#: ../mastering-plone/features.rst:168
 msgid "These are also the CSS classes of the respective divs. If you want to do theming, you'll need them."
 msgstr ""
 
-#: ../mastering-plone/features.rst:165
+#: ../mastering-plone/features.rst:171
 msgid "On the edit bar, we find options affecting the current context..."
 msgstr ""
 
-#: ../mastering-plone/features.rst:167
+#: ../mastering-plone/features.rst:173
 msgid ":guilabel:`folder contents`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:168
+#: ../mastering-plone/features.rst:174
 msgid ":guilabel:`edit`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:169
+#: ../mastering-plone/features.rst:175
 msgid ":guilabel:`view`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:170
+#: ../mastering-plone/features.rst:176
 msgid ":guilabel:`add`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:171
+#: ../mastering-plone/features.rst:177
 msgid ":guilabel:`state`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:172
+#: ../mastering-plone/features.rst:178
 msgid ":guilabel:`actions`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:173
+#: ../mastering-plone/features.rst:179
 msgid ":guilabel:`display`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:174
+#: ../mastering-plone/features.rst:180
 msgid ":guilabel:`manage portlets`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:175
+#: ../mastering-plone/features.rst:181
 msgid ":guilabel:`history`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:176
+#: ../mastering-plone/features.rst:182
 msgid ":guilabel:`sharing`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:177
+#: ../mastering-plone/features.rst:183
 msgid ":guilabel:`rules`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:178
+#: ../mastering-plone/features.rst:184
 msgid ":guilabel:`user actions`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:180
+#: ../mastering-plone/features.rst:186
 msgid "Some edit bar options only show when appropriate; for example, :guilabel:`folder contents` and :guilabel:`add` are only shown for Folders. :guilabel:`rules` is currently invisible because we have no content rules available."
 msgstr ""
 
-#: ../mastering-plone/features.rst:193
+#: ../mastering-plone/features.rst:199
 msgid "Let's create our first users within Plone. So far we used the admin user (admin:admin) configured in the buildout. This user is often called \"Zope root\" and is not managed in Plone but only by Zope. Therefore the user is missing some features like email and full name and won't be able to use some of Plone's features. But the user has all possible permissions. As with the root user of a server, it's bad practice to make unnecessary use of Zope root. Use it to create Plone sites and their initial users, but not much else."
 msgstr ""
 
-#: ../mastering-plone/features.rst:201
+#: ../mastering-plone/features.rst:207
 msgid "You can also add Zope users via the terminal by entering::"
 msgstr ""
 
-#: ../mastering-plone/features.rst:205
+#: ../mastering-plone/features.rst:211
 msgid "That way you can access databases you get from customers where you have no Plone user."
 msgstr ""
 
-#: ../mastering-plone/features.rst:207
+#: ../mastering-plone/features.rst:213
 msgid "To add a new user in Plone, click on the user icon at the bottom of the left vertical bar and then on :guilabel:`Site setup`. This is Plone's control panel. You can also access it by browsing to http://localhost:8080/Plone/@@overview-controlpanel"
 msgstr ""
 
-#: ../mastering-plone/features.rst:211
+#: ../mastering-plone/features.rst:220
 msgid "Click on :guilabel:`Users and Groups` and add a user. If we had configured a mail server, Plone could send you a mail with a link to a form where you can choose a password. (Or, if you have Products.PrintingMailHost in your buildout, you can see the email scrolling by in the console, just the way it would be sent out.) We set a password here because we haven't yet configured a mail server."
 msgstr ""
 
-#: ../mastering-plone/features.rst:216
+#: ../mastering-plone/features.rst:225
 msgid "Make this user with your name an administrator."
 msgstr ""
 
-#: ../mastering-plone/features.rst:218
+#: ../mastering-plone/features.rst:230
 msgid "Then create another user called ``testuser``. Make this one a normal user. You can use this user to see how Plone looks and behaves to users that have no admin permissions."
 msgstr ""
 
-#: ../mastering-plone/features.rst:222
+#: ../mastering-plone/features.rst:234
 msgid "Now let's see the site in 3 different browsers with three different roles:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:224
+#: ../mastering-plone/features.rst:236
 msgid "as anonymous"
 msgstr ""
 
-#: ../mastering-plone/features.rst:225
+#: ../mastering-plone/features.rst:237
 msgid "as editor"
 msgstr ""
 
-#: ../mastering-plone/features.rst:226
+#: ../mastering-plone/features.rst:238
 msgid "as admin"
 msgstr ""
 
-#: ../mastering-plone/features.rst:230
+#: ../mastering-plone/features.rst:242
 msgid "Create some Plone users:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:232
+#: ../mastering-plone/features.rst:244
 msgid ":guilabel:`admin` > :guilabel:`Site setup` > :guilabel:`Users and Groups`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:233
+#: ../mastering-plone/features.rst:245
 msgid "Add user <yourname> (groups: Administrators)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:234
+#: ../mastering-plone/features.rst:246
 msgid "Add another user \"tester\" (groups: None)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:235
+#: ../mastering-plone/features.rst:247
 msgid "Add another user \"editor\" (groups: None)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:236
+#: ../mastering-plone/features.rst:248
 msgid "Add another user \"reviewer\" (groups: Reviewers)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:237
+#: ../mastering-plone/features.rst:249
 msgid "Add another user \"jurymember\" (groups: None)"
 msgstr ""
 
-#: ../mastering-plone/features.rst:239
+#: ../mastering-plone/features.rst:251
 msgid "Logout as admin by clicking 'Logout' and following the instructions."
 msgstr ""
 
-#: ../mastering-plone/features.rst:241
+#: ../mastering-plone/features.rst:253
 msgid "Login to the site with your user now."
 msgstr ""
 
-#: ../mastering-plone/features.rst:247
+#: ../mastering-plone/features.rst:259
 msgid "Configure a Mailserver"
 msgstr ""
 
-#: ../mastering-plone/features.rst:252
+#: ../mastering-plone/features.rst:264
 msgid "We have to configure a mailserver since later we will create some content rules that send emails when new content is put on our site."
 msgstr ""
 
-#: ../mastering-plone/features.rst:254
+#: ../mastering-plone/features.rst:266
 msgid "Server: :samp:`localhost`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:255
+#: ../mastering-plone/features.rst:267
 msgid "Username: leave blank"
 msgstr ""
 
-#: ../mastering-plone/features.rst:256
+#: ../mastering-plone/features.rst:268
 msgid "Password: leave blank"
 msgstr ""
 
-#: ../mastering-plone/features.rst:257
+#: ../mastering-plone/features.rst:269
 msgid "Site 'From' name: Your name"
 msgstr ""
 
-#: ../mastering-plone/features.rst:258
+#: ../mastering-plone/features.rst:270
 msgid "Site 'From' address: Your email address"
 msgstr ""
 
-#: ../mastering-plone/features.rst:262
+#: ../mastering-plone/features.rst:274
 msgid "Click on `Save and send test e-mail`. Since we have configured PrintingMailHost, you will see the mail content in the console output of your instance. Plone will not actually send the email to the receivers address."
 msgstr ""
 
-#: ../mastering-plone/features.rst:269
+#: ../mastering-plone/features.rst:281
 msgid "Content-Types"
 msgstr ""
 
-#: ../mastering-plone/features.rst:271
+#: ../mastering-plone/features.rst:283
 msgid "Edit a page:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:273
+#: ../mastering-plone/features.rst:285
 msgid ":guilabel:`Edit front-page`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:274
+#: ../mastering-plone/features.rst:286
 msgid ":guilabel:`Title` :samp:`Plone Conference 2017, Barcelona`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:275
+#: ../mastering-plone/features.rst:287
 msgid ":guilabel:`Summary` :samp:`Tutorial`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:276
+#: ../mastering-plone/features.rst:288
 msgid ":guilabel:`Text` :samp:`...`"
 msgstr ""
 
-#: ../mastering-plone/features.rst:278
+#: ../mastering-plone/features.rst:291
 msgid "Create a site structure:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:280
+#: ../mastering-plone/features.rst:293
 msgid "Add a folder \"The Event\" and in it add:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:282
+#: ../mastering-plone/features.rst:295
 msgid "Folder \"Talks\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:283
+#: ../mastering-plone/features.rst:296
 msgid "Folder \"Training\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:284
+#: ../mastering-plone/features.rst:297
 msgid "Folder \"Sprint\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:286
+#: ../mastering-plone/features.rst:304
+msgid "The view of the newly created site structure."
+msgstr ""
+
+#: ../mastering-plone/features.rst:307
 msgid "In ``/news``: Add a News Item \"Conference Website online!\" with some image"
 msgstr ""
 
-#: ../mastering-plone/features.rst:287
+#: ../mastering-plone/features.rst:308
 msgid "In ``/news``: Add a News Item \"Submit your talks!\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:288
+#: ../mastering-plone/features.rst:309
 msgid "In ``/events``: Add an Event \"Deadline for talk submission\" Date: 2017/08/10"
 msgstr ""
 
-#: ../mastering-plone/features.rst:290
+#: ../mastering-plone/features.rst:311
 msgid "Add a Folder \"Register\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:291
+#: ../mastering-plone/features.rst:312
 msgid "Delete the Folder \"Users\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:292
+#: ../mastering-plone/features.rst:313
 msgid "Add a Folder \"Intranet\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:295
-msgid "The default Plone content types are:"
-msgstr ""
-
-#: ../mastering-plone/features.rst:297
-msgid "Collection"
-msgstr ""
-
-#: ../mastering-plone/features.rst:298
-msgid "Event"
-msgstr ""
-
-#: ../mastering-plone/features.rst:299
-msgid "File"
-msgstr ""
-
-#: ../mastering-plone/features.rst:300
-msgid "Folder"
-msgstr ""
-
-#: ../mastering-plone/features.rst:301
-msgid "Image"
-msgstr ""
-
-#: ../mastering-plone/features.rst:302
-msgid "Link"
-msgstr ""
-
-#: ../mastering-plone/features.rst:303
-msgid "News Item"
-msgstr ""
-
-#: ../mastering-plone/features.rst:304
-msgid "Page"
-msgstr ""
-
-#: ../mastering-plone/features.rst:308
-msgid "Please keep in mind that we use `plone.app.contenttypes <https://docs.plone.org/external/plone.app.contenttypes/docs/README.html>`_ for the training, which are the default in Plone 5. Therefore the types are based on Dexterity and slightly different from the types that you will find in a default Plone 4.3.x site."
-msgstr ""
-
-#: ../mastering-plone/features.rst:314
-msgid "Folders"
-msgstr ""
-
-#: ../mastering-plone/features.rst:316
-msgid "Go to 'the-event'"
-msgstr ""
-
-#: ../mastering-plone/features.rst:317
-msgid "explain the difference between title, ID, and URL"
-msgstr ""
-
-#: ../mastering-plone/features.rst:318
-msgid "explain /folder_contents"
-msgstr ""
-
 #: ../mastering-plone/features.rst:319
-msgid "change the order of items"
-msgstr ""
-
-#: ../mastering-plone/features.rst:320
-msgid "explain bulk actions"
-msgstr ""
-
-#: ../mastering-plone/features.rst:321
-msgid "dropdown \"display\""
+msgid "The view of the extended navigation bar."
 msgstr ""
 
 #: ../mastering-plone/features.rst:322
-msgid "default pages"
+msgid "The default Plone content types are:"
 msgstr ""
 
-#: ../mastering-plone/features.rst:323
-msgid "Add a page to 'the-event': \"The Event\" and make it the default page"
+#: ../mastering-plone/features.rst:324
+msgid "Collection"
+msgstr ""
+
+#: ../mastering-plone/features.rst:325
+msgid "Event"
+msgstr ""
+
+#: ../mastering-plone/features.rst:326
+msgid "File"
+msgstr ""
+
+#: ../mastering-plone/features.rst:327
+msgid "Folder"
+msgstr ""
+
+#: ../mastering-plone/features.rst:328
+msgid "Image"
 msgstr ""
 
 #: ../mastering-plone/features.rst:329
-msgid "Collections"
+msgid "Link"
+msgstr ""
+
+#: ../mastering-plone/features.rst:330
+msgid "News Item"
 msgstr ""
 
 #: ../mastering-plone/features.rst:331
-msgid "add a new collection: \"all content that has ``pending`` as wf_state\"."
-msgstr ""
-
-#: ../mastering-plone/features.rst:332
-msgid "explain the default collection for events at http://localhost:8080/Plone/events/aggregator/edit"
-msgstr ""
-
-#: ../mastering-plone/features.rst:333
-msgid "explain Topics"
-msgstr ""
-
-#: ../mastering-plone/features.rst:334
-msgid "mention collection portlets"
+msgid "Page"
 msgstr ""
 
 #: ../mastering-plone/features.rst:335
-msgid "multi-path queries"
+msgid "Please keep in mind that we use `plone.app.contenttypes <https://docs.plone.org/external/plone.app.contenttypes/docs/README.html>`_ for the training, which are the default in Plone 5. Therefore the types are based on Dexterity and slightly different from the types that you will find in a default Plone 4.3.x site."
 msgstr ""
 
-#: ../mastering-plone/features.rst:336
-msgid "constraints, e.g. ``/Plone/folder::1``"
+#: ../mastering-plone/features.rst:341
+msgid "Folders"
+msgstr ""
+
+#: ../mastering-plone/features.rst:343
+msgid "Go to 'the-event'"
 msgstr ""
 
 #: ../mastering-plone/features.rst:344
-msgid "Create new rule \"a new talk is in town\"!"
+msgid "explain the difference between title, ID, and URL"
 msgstr ""
 
 #: ../mastering-plone/features.rst:345
-msgid "New content in folder \"Talks\" -> Send Mail to reviewers."
+msgid "explain /folder_contents"
 msgstr ""
 
-#: ../mastering-plone/features.rst:351
-msgid "History"
+#: ../mastering-plone/features.rst:346
+msgid "change the order of items"
 msgstr ""
 
-#: ../mastering-plone/features.rst:353
-msgid "Show and explain; mention versioning and its relation to types."
+#: ../mastering-plone/features.rst:347
+msgid "explain bulk actions"
 msgstr ""
 
-#: ../mastering-plone/features.rst:359
-msgid "Manage members and groups"
+#: ../mastering-plone/features.rst:348
+msgid "dropdown \"display\""
 msgstr ""
 
-#: ../mastering-plone/features.rst:361
-msgid "add/edit/delete Users"
+#: ../mastering-plone/features.rst:349
+msgid "default pages"
 msgstr ""
 
-#: ../mastering-plone/features.rst:362
-msgid "roles"
+#: ../mastering-plone/features.rst:350
+msgid "Add a page to 'the-event': \"The Event\" and make it the default page"
 msgstr ""
 
-#: ../mastering-plone/features.rst:363
-msgid "groups"
+#: ../mastering-plone/features.rst:356
+msgid "Collections"
 msgstr ""
 
-#: ../mastering-plone/features.rst:365
-msgid "Add group \"Editors\" and add the user 'editor' to it"
+#: ../mastering-plone/features.rst:358
+msgid "add a new collection: \"all content that has ``pending`` as wf_state\"."
+msgstr ""
+
+#: ../mastering-plone/features.rst:364
+msgid "Add a collection through the web."
 msgstr ""
 
 #: ../mastering-plone/features.rst:366
-msgid "Add group: ``orga``"
+msgid "explain the default collection for events at http://localhost:8080/Plone/events/aggregator/edit"
 msgstr ""
 
 #: ../mastering-plone/features.rst:367
-msgid "Add group: ``jury`` and add user 'jurymember' to it."
+msgid "explain Topics"
 msgstr ""
 
-#: ../mastering-plone/features.rst:375
-msgid "Take a look at the :guilabel:`state` drop down on the edit bar on the homepage. Now, navigate to one of the folders just added. The homepage has the status ``published`` and the new content is ``private``."
+#: ../mastering-plone/features.rst:368
+msgid "mention collection portlets"
+msgstr ""
+
+#: ../mastering-plone/features.rst:369
+msgid "multi-path queries"
+msgstr ""
+
+#: ../mastering-plone/features.rst:370
+msgid "constraints, e.g. ``/Plone/folder::1``"
+msgstr ""
+
+#: ../mastering-plone/features.rst:378
+msgid "Create new rule \"a new talk is in town\"!"
 msgstr ""
 
 #: ../mastering-plone/features.rst:379
-msgid "Let's look at the state transitions available for each type. We can make a published item private and a private item published. We can also submit an item for review."
-msgstr ""
-
-#: ../mastering-plone/features.rst:383
-msgid "Each of these states connects roles to permissions."
+msgid "New content in folder \"Talks\" -> Send Mail to reviewers."
 msgstr ""
 
 #: ../mastering-plone/features.rst:385
-msgid "In ``published`` state, the content is available to anonymous visitors;"
+msgid "Add a rule through the web."
 msgstr ""
 
-#: ../mastering-plone/features.rst:386
-msgid "In ``private`` state, the content is only viewable by the author (owner) and users who have the ``can view`` role for the content."
+#: ../mastering-plone/features.rst:391
+msgid "Add an action to the rule."
 msgstr ""
 
-#: ../mastering-plone/features.rst:388
-msgid "A *workflow state* is an association between a role and one or more permissions. Moving from one state to another is a ``transition``. Transitions (like ``submit for review``) may have actions — such as the execution of a content rule or script — associated with them."
-msgstr ""
-
-#: ../mastering-plone/features.rst:392
-msgid "A complete set of workflow states and transitions makes up a *workflow*. Plone allows you to select among several pre-configured workflows that are appropriate for different types of sites. Individual content types may have their own workflow. Or, and this is particularly interesting, they may have no workflow. In that case, which initially applies to file and image uploads, the content object inherits the workflow state of its container."
-msgstr ""
-
-#: ../mastering-plone/features.rst:400
-msgid "An oddity in all of the standard Plone workflows: a content item may be viewable even if its container is not. Making a container private does **not** automatically make its contents private."
+#: ../mastering-plone/features.rst:397
+msgid "Add mail action."
 msgstr ""
 
 #: ../mastering-plone/features.rst:403
-msgid "Read more at: https://docs.plone.org/working-with-content/collaboration-and-workflow/index.html"
+msgid "Assign the newly created rule."
 msgstr ""
 
-#: ../mastering-plone/features.rst:408
-msgid "Working copy"
+#: ../mastering-plone/features.rst:409
+msgid "History"
 msgstr ""
 
-#: ../mastering-plone/features.rst:410
-msgid "Published content, even in an intranet setting, can pose a special problem for editing. It may need to be reviewed before changes are made available. In fact, the original author may not even have permission to change the document without review. Or, you may need to make a partial edit. In either case, it may be undesirable for changes to be immediately visible."
+#: ../mastering-plone/features.rst:411
+msgid "Show and explain; mention versioning and its relation to types."
 msgstr ""
 
-#: ../mastering-plone/features.rst:416
-msgid "Plone's working copy support solves this problem by adding a check-out/check-in function for content — available on the actions menu. A content item may be checked out, worked on, then checked back in. Or it may abandoned if the changes weren't acceptable. Not until check in is the new content visible."
+#: ../mastering-plone/features.rst:417
+msgid "Manage members and groups"
+msgstr ""
+
+#: ../mastering-plone/features.rst:419
+msgid "add/edit/delete Users"
+msgstr ""
+
+#: ../mastering-plone/features.rst:420
+msgid "roles"
 msgstr ""
 
 #: ../mastering-plone/features.rst:421
-msgid "While it's shipped with Plone, working copy support is not a common need. So, if you need it, you need to activate it via the add-on packages configuration page. Unless activated, check-in/check-out options are not visible."
+msgid "groups"
 msgstr ""
 
-#: ../mastering-plone/features.rst:427
-msgid "Working Copy Support has limited support for Dexterity content types. The limitation is that there are some outstanding issues with folderish items that contain many items. See: `plone/Products.CMFPlone#665 <https://github.com/plone/Products.CMFPlone/issues/665>`_"
+#: ../mastering-plone/features.rst:423
+msgid "Add group \"Editors\" and add the user 'editor' to it"
+msgstr ""
+
+#: ../mastering-plone/features.rst:424
+msgid "Add group: ``orga``"
+msgstr ""
+
+#: ../mastering-plone/features.rst:425
+msgid "Add group: ``jury`` and add user 'jurymember' to it."
 msgstr ""
 
 #: ../mastering-plone/features.rst:433
-msgid "Placeful workflows"
+msgid "Take a look at the :guilabel:`state` drop down on the edit bar on the homepage. Now, navigate to one of the folders just added. The homepage has the status ``published`` and the new content is ``private``."
 msgstr ""
 
-#: ../mastering-plone/features.rst:435
-msgid "You may need to have different workflows in different parts of a site. For example, we created an intranet folder. Since this is intended for use by our conference organizers — but not the public — the simple workflow we wish to use for the rest of the site will not be desirable."
+#: ../mastering-plone/features.rst:437
+msgid "Let's look at the state transitions available for each type. We can make a published item private and a private item published. We can also submit an item for review."
 msgstr ""
 
-#: ../mastering-plone/features.rst:439
-msgid "Plone's ``Workflow Policy Support`` package gives you the ability to set different workflows in different sections of a site. Typically, you use it to set a special workflow in a folder that will govern everything under that folder. Since it has effect in a \"place\" in a site, this mechanism is often called \"Placeful Workflow\"."
+#: ../mastering-plone/features.rst:441
+msgid "Each of these states connects roles to permissions."
 msgstr ""
 
 #: ../mastering-plone/features.rst:443
+msgid "In ``published`` state, the content is available to anonymous visitors;"
+msgstr ""
+
+#: ../mastering-plone/features.rst:444
+msgid "In ``private`` state, the content is only viewable by the author (owner) and users who have the ``can view`` role for the content."
+msgstr ""
+
+#: ../mastering-plone/features.rst:446
+msgid "A *workflow state* is an association between a role and one or more permissions. Moving from one state to another is a ``transition``. Transitions (like ``submit for review``) may have actions — such as the execution of a content rule or script — associated with them."
+msgstr ""
+
+#: ../mastering-plone/features.rst:450
+msgid "A complete set of workflow states and transitions makes up a *workflow*. Plone allows you to select among several pre-configured workflows that are appropriate for different types of sites. Individual content types may have their own workflow. Or, and this is particularly interesting, they may have no workflow. In that case, which initially applies to file and image uploads, the content object inherits the workflow state of its container."
+msgstr ""
+
+#: ../mastering-plone/features.rst:458
+msgid "An oddity in all of the standard Plone workflows: a content item may be viewable even if its container is not. Making a container private does **not** automatically make its contents private."
+msgstr ""
+
+#: ../mastering-plone/features.rst:461
+msgid "Read more at: https://docs.plone.org/working-with-content/collaboration-and-workflow/index.html"
+msgstr ""
+
+#: ../mastering-plone/features.rst:466
+msgid "Working copy"
+msgstr ""
+
+#: ../mastering-plone/features.rst:468
+msgid "Published content, even in an intranet setting, can pose a special problem for editing. It may need to be reviewed before changes are made available. In fact, the original author may not even have permission to change the document without review. Or, you may need to make a partial edit. In either case, it may be undesirable for changes to be immediately visible."
+msgstr ""
+
+#: ../mastering-plone/features.rst:474
+msgid "Plone's working copy support solves this problem by adding a check-out/check-in function for content — available on the actions menu. A content item may be checked out, worked on, then checked back in. Or it may abandoned if the changes weren't acceptable. Not until check in is the new content visible."
+msgstr ""
+
+#: ../mastering-plone/features.rst:479
+msgid "While it's shipped with Plone, working copy support is not a common need. So, if you need it, you need to activate it via the add-on packages configuration page. Unless activated, check-in/check-out options are not visible."
+msgstr ""
+
+#: ../mastering-plone/features.rst:485
+msgid "Working Copy Support has limited support for Dexterity content types. The limitation is that there are some outstanding issues with folderish items that contain many items. See: `plone/Products.CMFPlone#665 <https://github.com/plone/Products.CMFPlone/issues/665>`_"
+msgstr ""
+
+#: ../mastering-plone/features.rst:491
+msgid "Placeful workflows"
+msgstr ""
+
+#: ../mastering-plone/features.rst:493
+msgid "You may need to have different workflows in different parts of a site. For example, we created an intranet folder. Since this is intended for use by our conference organizers — but not the public — the simple workflow we wish to use for the rest of the site will not be desirable."
+msgstr ""
+
+#: ../mastering-plone/features.rst:497
+msgid "Plone's ``Workflow Policy Support`` package gives you the ability to set different workflows in different sections of a site. Typically, you use it to set a special workflow in a folder that will govern everything under that folder. Since it has effect in a \"place\" in a site, this mechanism is often called \"Placeful Workflow\"."
+msgstr ""
+
+#: ../mastering-plone/features.rst:501
 msgid "As with working-copy support, Placeful Workflow ships with Plone but needs to be activated via the add-on configuration page. Once it's added, a :guilabel:`Policy` option will appear on the state menu to allow setting a placeful workflow policy."
 msgstr ""
 
@@ -6844,51 +6892,47 @@ msgstr ""
 msgid "on `Heroku <https://www.heroku.com>`_ you can run Plone for *free* using the `Heroku buildpack for Plone <https://github.com/plone/heroku-buildpack-plone>`_"
 msgstr ""
 
-#: ../mastering-plone/installation.rst:101
-msgid "in the cloud (e.g. using Amazon EC2 or `Codio.com <http://blog.dbain.com/2014/04/install-plone-in-under-5-minutes-on.html>`_)"
-msgstr ""
-
-#: ../mastering-plone/installation.rst:105
+#: ../mastering-plone/installation.rst:106
 msgid "Plone Installation Requirements: https://docs.plone.org/manage/installing/requirements.html"
 msgstr ""
 
-#: ../mastering-plone/installation.rst:106
+#: ../mastering-plone/installation.rst:107
 msgid "Run Plone on a 5$ plan: https://www.stevemcmahon.com/steves-blog/plone-on-5-a-month"
 msgstr ""
 
-#: ../mastering-plone/installation.rst:107
+#: ../mastering-plone/installation.rst:108
 msgid "Where to host Plone: https://old.plone.org/documentation/faq/where-can-i-host-my-plone-site"
 msgstr ""
 
-#: ../mastering-plone/installation.rst:113
+#: ../mastering-plone/installation.rst:114
 msgid "Production Deployment"
 msgstr ""
 
-#: ../mastering-plone/installation.rst:115
+#: ../mastering-plone/installation.rst:116
 msgid "The way we are setting up a Plone site during this class may be adequate for a small site — or even a large one that's not very busy — but you are likely to want to do much more if you are using Plone for anything demanding."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:118
+#: ../mastering-plone/installation.rst:119
 msgid "Using a production web server like Apache or Nginx for URL rewriting, SSL and combining multiple, best-of-breed solutions into a single web site."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:120
+#: ../mastering-plone/installation.rst:121
 msgid "Reverse proxy caching with a tool like Varnish to improve site performance."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:122
+#: ../mastering-plone/installation.rst:123
 msgid "Load balancing to make best use of multiple core CPUs and even multiple servers."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:124
+#: ../mastering-plone/installation.rst:125
 msgid "Optimizing cache headers and Plone's internal caching schemes with plone.app.caching."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:126
+#: ../mastering-plone/installation.rst:127
 msgid "And, you will need to learn strategies for efficient backup and log file rotation."
 msgstr ""
 
-#: ../mastering-plone/installation.rst:128
+#: ../mastering-plone/installation.rst:129
 msgid "All these topics are introduced in `Guide to deploying and installing Plone in production <https://docs.plone.org/manage/deploying/index.html>`_."
 msgstr ""
 
@@ -7555,7 +7599,7 @@ msgid "All global settings in Plone 5 are stored in the registry."
 msgstr ""
 
 #: ../mastering-plone/registry.rst:34
-msgid "The registry itself is provided by `plone.registry <https://pypi.python.org/pypi/plone.registry>`_ and the UI to interact with it by `plone.app.registry <https://pypi.python.org/pypi/plone.app.registry>`_"
+msgid "The registry itself is provided by `plone.registry <https://pypi.org/project/plone.registry>`_ and the UI to interact with it by `plone.app.registry <https://pypi.org/project/plone.app.registry>`_"
 msgstr ""
 
 #: ../mastering-plone/registry.rst:36
@@ -7670,43 +7714,51 @@ msgstr ""
 msgid "Create a file :file:`vocabularies.py` and write the vocabulary:"
 msgstr ""
 
-#: ../mastering-plone/registry.rst:234
-msgid "We turn the values freom the registry into a dynamic `SimpleVocabulary` that can be used in the schema."
+#: ../mastering-plone/registry.rst:231
+msgid "You can now register this vocabulary as a named utility in :file:`configure.zcml` as `ploneconf.site.vocabularies.Rooms`:"
 msgstr ""
 
-#: ../mastering-plone/registry.rst:235
-msgid "We use the handy helper-method `safe_simplevocabulary_from_values` to create the vocabulary since the `token` of a `SimpleTerm` in a `SimpleVocabulary` needs to be bytes, not unicode."
-msgstr ""
-
-#: ../mastering-plone/registry.rst:236
-msgid "You could use the context in which the vocabulary is created to further control the values in the vocabulary."
-msgstr ""
-
-#: ../mastering-plone/registry.rst:238
-msgid "You need to register this vocabulary as a utility in :file:`configure.zcml` as `ploneconf.site.vocabularies.Rooms`:"
-msgstr ""
-
-#: ../mastering-plone/registry.rst:246
+#: ../mastering-plone/registry.rst:239
 msgid "From now on you can use this vocabulary by only referring to its name `ploneconf.site.vocabularies.Rooms`."
 msgstr ""
 
-#: ../mastering-plone/registry.rst:248
+#: ../mastering-plone/registry.rst:243
+msgid "Plone comes with many useful vocabularies that you can use in your own projects. See https://github.com/plone/plone.app.vocabularies/ for a list of them."
+msgstr ""
+
+#: ../mastering-plone/registry.rst:244
+msgid "We turn the values from the registry into a dynamic `SimpleVocabulary` that can be used in the schema."
+msgstr ""
+
+#: ../mastering-plone/registry.rst:245
+msgid "You could use the context with which the vocabulary is called or the request (using `getRequest` from `from zope.globalrequest import getRequest`) to constrain the values in the vocabulary."
+msgstr ""
+
+#: ../mastering-plone/registry.rst:246
+msgid "We use the handy helper-method `safe_simplevocabulary_from_values` to create the vocabulary since the `token` of a `SimpleTerm` in a `SimpleVocabulary` needs to be bytes, not unicode."
+msgstr ""
+
+#: ../mastering-plone/registry.rst:247
+msgid "You can write your own helper to further control the creation of the vocabulary terms. The `value` is stored on the object, the `token` used to communicate with the widget during editing and `title` is what is displayed in the widget. This example allows you to translate the displayed title while keeping the value stored on the object the same in all languages:"
+msgstr ""
+
+#: ../mastering-plone/registry.rst:262
 msgid "Use the new vocabulary in the talk-schema. Edit :file:`content/talk.xml`"
 msgstr ""
 
-#: ../mastering-plone/registry.rst:265
+#: ../mastering-plone/registry.rst:278
 msgid "In a python-schema that would look like this:"
 msgstr ""
 
-#: ../mastering-plone/registry.rst:276
+#: ../mastering-plone/registry.rst:289
 msgid "A admin can now configure the rooms available for the conference."
 msgstr ""
 
-#: ../mastering-plone/registry.rst:278
+#: ../mastering-plone/registry.rst:291
 msgid "We could use the same pattern for the fields `type_of_talk` and `audience`."
 msgstr ""
 
-#: ../mastering-plone/registry.rst:282
+#: ../mastering-plone/registry.rst:295
 msgid "https://docs.plone.org/external/plone.app.dexterity/docs/advanced/vocabularies.html"
 msgstr ""
 
@@ -7819,7 +7871,7 @@ msgid "The stack"
 msgstr ""
 
 #: ../mastering-plone/relations.rst:156
-msgid "Relations are based on `zc.relation <https://pypi.python.org/pypi/zc.relation/>`_. This package allows to store transitive and intransitive relationships. It allows for complex relationships and searches along them. Because of this functionality, the package is a bit complicated."
+msgid "Relations are based on `zc.relation <https://pypi.org/project/zc.relation/>`_. This package allows to store transitive and intransitive relationships. It allows for complex relationships and searches along them. Because of this functionality, the package is a bit complicated."
 msgstr ""
 
 #: ../mastering-plone/relations.rst:161
@@ -7831,7 +7883,7 @@ msgid "You can use `zc.relation` to store the objects and its relations directly
 msgstr ""
 
 #: ../mastering-plone/relations.rst:168
-msgid "We want to work with schemas to get auto generated forms. The logic for this is provided by the package `z3c.relationfield <https://pypi.python.org/pypi/z3c.relationfield/>`_. This package contains the RelationValue object and everything needed to define a relation schema, and all the code that is necessary to automatically update the catalog."
+msgid "We want to work with schemas to get auto generated forms. The logic for this is provided by the package `z3c.relationfield <https://pypi.org/project/z3c.relationfield/>`_. This package contains the RelationValue object and everything needed to define a relation schema, and all the code that is necessary to automatically update the catalog."
 msgstr ""
 
 #: ../mastering-plone/relations.rst:172
@@ -8039,7 +8091,7 @@ msgid "Explore the API"
 msgstr ""
 
 #: ../mastering-plone/restapi.rst:38
-msgid "Make sure you add some talks to the talks folder and then start exploring the API. We recommend using `Postman <https://www.getpostman.com>`_ or a similar tool, but you can also use `requests <https://pypi.python.org/pypi/requests>`_ in a Python virtual env."
+msgid "Make sure you add some talks to the talks folder and then start exploring the API. We recommend using `Postman <https://www.getpostman.com>`_ or a similar tool, but you can also use `requests <https://pypi.org/project/requests>`_ in a Python virtual env."
 msgstr ""
 
 #: ../mastering-plone/restapi.rst:41
@@ -8598,7 +8650,7 @@ msgid "`plone.app.testing documentation <https://docs.plone.org/external/plone.a
 msgstr ""
 
 #: ../mastering-plone/testing.rst:237
-msgid "`plone.testing package <https://pypi.python.org/pypi/plone.testing>`_"
+msgid "`plone.testing package <https://pypi.org/project/plone.testing>`_"
 msgstr ""
 
 #: ../mastering-plone/theming.rst:7
@@ -9516,7 +9568,7 @@ msgid "Go back to :file:`portal_workflow` and set the new workflow :file:`talks_
 msgstr ""
 
 #: ../mastering-plone/user_generated_content.rst:71
-msgid "The add-on `plone.app.workflowmanager <https://pypi.python.org/pypi/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well."
+msgid "The add-on `plone.app.workflowmanager <https://pypi.org/project/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well."
 msgstr ""
 
 #: ../mastering-plone/user_generated_content.rst:73
@@ -10552,7 +10604,7 @@ msgid "You wrote your first fully grown BrowserView that combines a template, a 
 msgstr ""
 
 #: ../mastering-plone/views_3.rst:475
-msgid "You learned about portal_catalog, brains and how they objects"
+msgid "You learned about portal_catalog, brains and how they are related to objects"
 msgstr ""
 
 #: ../mastering-plone/views_3.rst:476
@@ -10996,7 +11048,7 @@ msgid "Plone 5 uses a new rendering engine called `Chameleon <https://chameleon.
 msgstr ""
 
 #: ../mastering-plone/zpt.rst:463
-msgid "Using the integration layer `five.pt <https://pypi.python.org/pypi/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:"
+msgid "Using the integration layer `five.pt <https://pypi.org/project/five.pt>`_ it is fully compatible with the normal TAL syntax but offers some additional features:"
 msgstr ""
 
 #: ../mastering-plone/zpt.rst:466

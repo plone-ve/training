@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
-"PO-Revision-Date: 2018-04-03 19:48-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
+"PO-Revision-Date: 2018-04-26 08:35-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -37,8 +37,8 @@ msgid ""
 " for what you use."
 msgstr ""
 "`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de "
-"computación en la nube confiables, escalables y económicos. libre de unirse, "
-"pague solo por lo que usa."
+"computación en la nube confiables, escalables y económicos. libre de "
+"unirse, pague solo por lo que usa."
 
 #: ../deployment/about/glossary.rst:10
 msgid "Linode"
@@ -70,8 +70,7 @@ msgstr ""
 
 #: ../deployment/about/glossary.rst:17
 msgid "headquartered in New York City with data centers worldwide."
-msgstr ""
-"con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
+msgstr "con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
 
 #: ../deployment/about/glossary.rst:18
 msgid "ZODB"
@@ -100,8 +99,9 @@ msgid ""
 "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
 " and retrieve any amount of data from anywhere."
 msgstr ""
-"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos creado "
-"para almacenar y recuperar cualquier cantidad de datos desde cualquier lugar."
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos "
+"creado para almacenar y recuperar cualquier cantidad de datos desde "
+"cualquier lugar."
 
 #: ../deployment/about/glossary.rst:27
 msgid "NFS"
@@ -112,7 +112,8 @@ msgid ""
 "`Network File System "
 "<https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
-"`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
+"`Network File System "
+"<https://en.wikipedia.org/wiki/Network_File_System>`_."
 
 #: ../deployment/about/glossary.rst:30
 msgid "Amazon OpsWorks"
@@ -129,8 +130,8 @@ msgstr ""
 #: ../deployment/about/glossary.rst:33
 msgid "an automation platform that treats server configurations as code."
 msgstr ""
-"una plataforma de automatización que trata las configuraciones del servidor "
-"como código."
+"una plataforma de automatización que trata las configuraciones del "
+"servidor como código."
 
 #: ../deployment/about/glossary.rst:34 ../deployment/intro.rst:54
 msgid "Ansible"
@@ -141,8 +142,8 @@ msgid ""
 "`Ansible <https://www.ansible.com/>`_ is an open source automation "
 "platform."
 msgstr ""
-"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización de "
-"fuente abierta."
+"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización"
+" de fuente abierta."
 
 #: ../deployment/about/glossary.rst:37
 msgid ""
@@ -175,10 +176,10 @@ msgid ""
 "collection of related AWS resources, provisioning and updating them in an"
 " orderly and predictable fashion."
 msgstr ""
-"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a los "
-"desarrolladores y administradores de sistemas una forma de crear y "
-"administrar una colección de recursos relacionados de AWS, aprovisionándolos "
-"y actualizándolos de manera ordenada y predecible."
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a "
+"los desarrolladores y administradores de sistemas una forma de crear y "
+"administrar una colección de recursos relacionados de AWS, "
+"aprovisionándolos y actualizándolos de manera ordenada y predecible."
 
 #: ../deployment/about/glossary.rst:45
 msgid "Travis CI"
@@ -190,10 +191,10 @@ msgid ""
 " build and test software projects hosted at GitHub. Open source projects "
 "may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
-"Travis CI es un servicio de integración continua alojado que se utiliza para "
-"crear y probar proyectos de software alojados en GitHub. Los proyectos de "
-"código abierto pueden probarse sin cargo a través de `travis-ci.org <https"
-"://travis-ci.org>`_."
+"Travis CI es un servicio de integración continua alojado que se utiliza "
+"para crear y probar proyectos de software alojados en GitHub. Los "
+"proyectos de código abierto pueden probarse sin cargo a través de "
+"`travis-ci.org <https://travis-ci.org>`_."
 
 #: ../deployment/about/glossary.rst:49
 msgid "Solr"
@@ -204,8 +205,8 @@ msgid ""
 "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
 "open source enterprise search platform built on Apache Lucene."
 msgstr ""
-"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de búsqueda "
-"empresarial de código abierto, desarrollada en Apache Lucene."
+"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de "
+"búsqueda empresarial de código abierto, desarrollada en Apache Lucene."
 
 #: ../deployment/about/glossary.rst:52
 msgid "ZCML"
@@ -226,7 +227,7 @@ msgstr "Acerca de"
 
 #: ../deployment/ansible.rst:3
 msgid "Intro To Ansible"
-msgstr ""
+msgstr "Introducción a Ansible"
 
 #: ../deployment/ansible.rst:5
 msgid ""
@@ -767,9 +768,9 @@ msgstr ""
 #: ../deployment/customization.rst:46
 msgid ""
 "Let's say you want to add `collective.easyform "
-"<https://pypi.python.org/pypi/collective.easyform>`_ and "
+"<https://pypi.org/project/collective.easyform>`_ and "
 "`webcouturier.dropdownmenu "
-"<https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_."
+"<https://pypi.org/project/webcouturier.dropdownmenu/>`_."
 msgstr ""
 
 #: ../deployment/customization.rst:48
@@ -783,8 +784,7 @@ msgstr ""
 #: ../deployment/customization.rst:64
 msgid ""
 "That takes care of packages that are available on the `Python Package "
-"Index <https://pypi.python.org/pypi>`_. What if your developing packages "
-"via git?"
+"Index <https://pypi.org/>`_. What if your developing packages via git?"
 msgstr ""
 
 #: ../deployment/customization.rst:72
@@ -1708,9 +1708,8 @@ msgid ""
 msgstr ""
 
 #: ../deployment/maintenance.rst:3
-#, fuzzy
 msgid "Maintenance Strategies"
-msgstr "Mantenimiento"
+msgstr "Estrategias de mantenimiento"
 
 #: ../deployment/maintenance.rst:7
 msgid "This section covers strategies for long-run maintenance of your playbook."
@@ -3188,9 +3187,8 @@ msgid "An example of an ignored failure::"
 msgstr ""
 
 #: ../deployment/playbook-use.rst:93
-#, fuzzy
 msgid "Vagrant Ports"
-msgstr "Vagrant"
+msgstr "Puertos de Vagrant"
 
 #: ../deployment/playbook-use.rst:95
 msgid ""

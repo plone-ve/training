@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,51 +310,51 @@ msgstr ""
 msgid "The docs provide `a basic recipe set <http://docs.diazo.org/en/latest/recipes/index.html>`_ and you can have your own, but how to remember and re-use them?"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:42
-msgid "`David Bain introduces a \"diazo snippets library\" <http://blog.dbain.com/2014/12/introducing-diazo-snippets-library.html>`_ that allows you to get snippets from a chrome extensions. `All the snippets are available here <http://pigeonflight.github.io/lessArcane/>`_."
+#: ../theming/adv-diazo.rst:43
+msgid "`All the snippets are available here <http://pigeonflight.github.io/lessArcane/>`_."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:48
+#: ../theming/adv-diazo.rst:47
 msgid "More Snippets"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:51
+#: ../theming/adv-diazo.rst:50
 msgid "Make Some Links Open In New Window"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:60
+#: ../theming/adv-diazo.rst:59
 msgid "At `diazo.org <http://docs.diazo.org/en/latest/recipes/adding-an-attribute/index.html>`_ is another way described."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:63
+#: ../theming/adv-diazo.rst:62
 msgid "Add CSS Marker Classes Depending On Existing ``portal-columns``"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:65
+#: ../theming/adv-diazo.rst:64
 msgid "This adds a CSS class for every existing ``portal-column`` to the ``body`` tag. If ``portal-column-one`` exists, we add ``col-one``; if ``portal-column-content`` exists, we add ``col-content``; and if ``portal-column-two`` exists, we add ``col-two``."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:81
+#: ../theming/adv-diazo.rst:80
 msgid "Now, one can use these markers to define the grid in a semantic way like this:"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:112
+#: ../theming/adv-diazo.rst:111
 msgid "This way, you don't need the xsl-rules Barceloneta uses to create the main content area. It's more flexible than Barceloneta's approach."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:115
+#: ../theming/adv-diazo.rst:114
 msgid "Another way could be, to change Plone to provide these classes already ;)."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:118
+#: ../theming/adv-diazo.rst:117
 msgid "Move Plone Elements Around"
 msgstr ""
 
-#: ../theming/adv-diazo.rst:120
+#: ../theming/adv-diazo.rst:119
 msgid "Sometimes one needs to move Plone elements from one place to another or merge some elements together. In the following example we merge the language flags together with the document actions."
 msgstr ""
 
-#: ../theming/adv-diazo.rst:136
+#: ../theming/adv-diazo.rst:135
 msgid "Taking Over Specific Portlets"
 msgstr ""
 

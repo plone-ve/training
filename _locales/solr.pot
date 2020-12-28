@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -361,7 +361,7 @@ msgstr ""
 #: ../solr/first-steps.rst:28
 #: ../solr/first-steps.rst:45
 #: ../solr/first-steps.rst:58
-msgid "*batch* (default:1000): Batch size for commit. Data is only send to Solr on commit."
+msgid "*batch* (default:1000): Batch size for commit. Data is only sent to Solr on commit."
 msgstr ""
 
 #: ../solr/first-steps.rst:29
@@ -381,7 +381,7 @@ msgid "*only_portal_types* (default:None): Whiltelist of portal types not to be 
 msgstr ""
 
 #: ../solr/first-steps.rst:33
-msgid "*idxs* (default:[]): Only this index fields will be updated."
+msgid "*idxs* (default:[]): Only these index fields will be updated."
 msgstr ""
 
 #: ../solr/first-steps.rst:37
@@ -457,7 +457,7 @@ msgid "We do this :term:`TTW` (Through-The-Web) right now."
 msgstr ""
 
 #: ../solr/first-steps.rst:89
-msgid "In the production setup you will define your schema with an interface or a supermodel XML but this is beyond of this training."
+msgid "In the production setup you will define your schema with an interface or a supermodel XML but this is beyond the scope of this training."
 msgstr ""
 
 #: ../solr/first-steps.rst:91
@@ -465,7 +465,7 @@ msgid "More information on dexterity schemas and fields can be found in the Plon
 msgstr ""
 
 #: ../solr/first-steps.rst:94
-msgid "Let's add a field *email* to a task. We assume this is contact email which can be used to contact the responsible support person for this task. And we want to make this field to be found in fulltext search."
+msgid "Let's add a field *email* to a task. We assume this is contact email which can be used to contact the responsible support person for this task. And we want this field to be found in fulltext search."
 msgstr ""
 
 #: ../solr/first-steps.rst:98
@@ -517,11 +517,11 @@ msgid "Pro tip:"
 msgstr ""
 
 #: ../solr/first-steps.rst:158
-msgid "If you need to modify or extend the existing fulltext implementation in Plone (This could be adding a custom field to it, or remove title or description from it), there is a handy add-on for this purpose."
+msgid "If you need to modify or extend the existing fulltext implementation in Plone (this could be adding a custom field to it, or removing title or description from it), there is a handy add-on for this purpose."
 msgstr ""
 
 #: ../solr/first-steps.rst:162
-msgid "It is well documented but further investigation is out of the scope of this training, see https://pypi.python.org/pypi/collective.dexteritytextindexer"
+msgid "It is well documented but further investigation is out of the scope of this training, see https://pypi.org/project/collective.dexteritytextindexer"
 msgstr ""
 
 #: ../solr/first-steps.rst:166
@@ -529,7 +529,7 @@ msgid "Boosting"
 msgstr ""
 
 #: ../solr/first-steps.rst:168
-msgid "In a standard installation of Solr all fields are treated equally important for searching. Usually this is not what we want. We want the Title to be more important, or a special type (e.g. News) to be prioritized."
+msgid "In a standard installation of Solr all fields are treated as equally important for searching. Usually this is not what we want. We want the Title to be more important, or a special type (e.g. News) to be prioritized."
 msgstr ""
 
 #: ../solr/first-steps.rst:172
@@ -541,7 +541,7 @@ msgid "This reads like this. If a term occurs in the *Title* field prioritize it
 msgstr ""
 
 #: ../solr/first-steps.rst:183
-msgid "Search but don't prioritize terms occuring in the *SearchableText* index. If a term occurs in the *searchwords* priotize it by value 1000 so it will show always at the top."
+msgid "Search but don't prioritize terms occuring in the *SearchableText* index. If a term occurs in the *searchwords* priotize it by the value 1000 so it will show always at the top."
 msgstr ""
 
 #: ../solr/first-steps.rst:186
@@ -565,7 +565,7 @@ msgid "Boosting at index time is only available if you turn off atomic updates."
 msgstr ""
 
 #: ../solr/first-steps.rst:206
-#: ../solr/setup.rst:397
+#: ../solr/setup.rst:398
 #: ../solr/solr-configuration.rst:164
 #: ../solr/solr-gui.rst:298
 #: ../solr/solr-testing.rst:74
@@ -938,7 +938,7 @@ msgid "https://wiki.apache.org/solr/SchemaXml#Common_field_options"
 msgstr ""
 
 #: ../solr/setup.rst:234
-msgid "This is the bare minimum for configuring Solr. There are more options supported by the buildout recipe ``collective.recipe.solrinstance`` and even more by Solr itself. Most notably are the custom extensions for *schema.xml* and *solrconfig.xml*."
+msgid "This is the bare minimum for configuring Solr. There are more options supported by the buildout recipe ``collective.recipe.solrinstance`` and even more by Solr itself. Most notably the custom extensions for *schema.xml* and *solrconfig.xml*."
 msgstr ""
 
 #: ../solr/setup.rst:238
@@ -950,7 +950,7 @@ msgid "Or you can even point to a custom location for the main configuration fil
 msgstr ""
 
 #: ../solr/setup.rst:247
-msgid "After running the buildout, which downloads and configures Solr and Plone we are ready to fire both servers."
+msgid "After running the buildout, which downloads and configures Solr and Plone, we are ready to fire up both servers."
 msgstr ""
 
 #: ../solr/setup.rst:251
@@ -1122,7 +1122,7 @@ msgid "Then you are ready for your first search. Search for *Plone*."
 msgstr ""
 
 #: ../solr/setup.rst:342
-msgid "You should get the frontpage as a result--which is not super awesome at the first place because we have this without Solr too--but it is the first step in utilizing the full power of Solr."
+msgid "You should get the frontpage as a result--which is not super awesome to begin with because we have this without Solr too--but it is the first step in utilizing the full power of Solr."
 msgstr ""
 
 #: ../solr/setup.rst:345
@@ -1134,7 +1134,7 @@ msgid "Another way to configure the connection is via :term:`ZCML`. You can use 
 msgstr ""
 
 #: ../solr/setup.rst:356
-msgid "The ZCML configuration takes presence over the configuration in the registry / control-panel."
+msgid "The ZCML configuration takes precedence over the configuration in the registry / control-panel."
 msgstr ""
 
 #: ../solr/setup.rst:359
@@ -1146,7 +1146,7 @@ msgid "Synchronous Immediately"
 msgstr ""
 
 #: ../solr/setup.rst:364
-msgid "The default commit strategy is to commit to Solr on every Zope commit. This ensures an always up to date index but may come at cost of indexing time especially when doing batch operations like data import."
+msgid "The default commit strategy is to commit to Solr on every Zope commit. This ensures an always up to date index but may come at the cost of indexing time especially when doing batch operations like data import."
 msgstr ""
 
 #: ../solr/setup.rst:367
@@ -1158,7 +1158,7 @@ msgid "Synchronous Batched"
 msgstr ""
 
 #: ../solr/setup.rst:372
-msgid "Another commit strategy is to do timed commits in Solr. This method is usually way faster but comes with the cost of index delays."
+msgid "Another commit strategy is to do timed commits in Solr. This method is usually way faster but comes with the downside of index delays."
 msgstr ""
 
 #: ../solr/setup.rst:375
@@ -1190,7 +1190,7 @@ msgid "The third commit strategy is to do full asynchronous commits. This can be
 msgstr ""
 
 #: ../solr/setup.rst:390
-msgid "Since it is fire and forget the consistency could be harmed in midterm. It is advisable to to a sync or full-index from time to time if you work with this strategy."
+msgid "Since it is fire and forget the consistency could be harmed in the interim. It is advisable to do a sync or full-index from time to time if you work with this strategy."
 msgstr ""
 
 #: ../solr/setup.rst:393
@@ -1201,7 +1201,7 @@ msgstr ""
 msgid "https://lucene.apache.org/solr/guide/6_6/updatehandlers-in-solrconfig.html#UpdateHandlersinSolrConfig-commitWithin"
 msgstr ""
 
-#: ../solr/setup.rst:399
+#: ../solr/setup.rst:400
 msgid "Have a running Plone and Solr with collective.solr active and experiment with commit strategies."
 msgstr ""
 
@@ -1268,7 +1268,7 @@ msgid "Potential for missing some results. (see below)"
 msgstr ""
 
 #: ../solr/solr-alternatives.rst:40
-msgid "We set up Solr in our buildout in a similar way, using the `hexagonit.recipe.download <https://pypi.python.org/pypi/hexagonit.recipe.download>`_ and ``collective.recipe.solr`` buildout recipes."
+msgid "We set up Solr in our buildout in a similar way, using the `hexagonit.recipe.download <https://pypi.org/project/hexagonit.recipe.download>`_ and ``collective.recipe.solr`` buildout recipes."
 msgstr ""
 
 #: ../solr/solr-alternatives.rst:43
@@ -1452,7 +1452,7 @@ msgid "JSON is abused as Query DSL. It can lead to queries with up to 10 layers.
 msgstr ""
 
 #: ../solr/solr-alternatives.rst:247
-msgid "The integration of Elasticsearch with Plone is done with https://pypi.python.org/pypi/collective.elasticsearch/"
+msgid "The integration of Elasticsearch with Plone is done with https://pypi.org/project/collective.elasticsearch/"
 msgstr ""
 
 #: ../solr/solr-alternatives.rst:251
@@ -1724,7 +1724,7 @@ msgid "Copy query from Solr GUI, e.g.::"
 msgstr ""
 
 #: ../solr/solr-gui.rst:112
-msgid "You can use curl or the Python package `requests` (https://pypi.python.org/pypi/requests) to access the REST API of Solr."
+msgid "You can use curl or the Python package `requests` (https://pypi.org/project/requests) to access the REST API of Solr."
 msgstr ""
 
 #: ../solr/solr-gui.rst:115
@@ -1740,15 +1740,15 @@ msgid "``collective.solr`` has included such a wrapper (``solr.py``), which is o
 msgstr ""
 
 #: ../solr/solr-gui.rst:125
-msgid "``mysolr``: https://pypi.python.org/pypi/mysolr/0.8.3"
+msgid "``mysolr``: https://pypi.org/project/mysolr/0.8.3"
 msgstr ""
 
 #: ../solr/solr-gui.rst:126
-msgid "``solrpy``: https://pypi.python.org/pypi/solrpy3/0.98"
+msgid "``solrpy``: https://pypi.org/project/solrpy3/0.98"
 msgstr ""
 
 #: ../solr/solr-gui.rst:127
-msgid "``pysolr``: https://pypi.python.org/pypi/pysolr/3.5.0"
+msgid "``pysolr``: https://pypi.org/project/pysolr/3.5.0"
 msgstr ""
 
 #: ../solr/solr-gui.rst:129
@@ -1868,7 +1868,7 @@ msgid "Faceting"
 msgstr ""
 
 #: ../solr/solr-gui.rst:237
-msgid "Faceting is one of the killer features of Solr. It allows the grouping nd filtering results for better find ability. To enable faceting you need o turn faceting on in the query and specify the fields you want tofacet upon:"
+msgid "Faceting is one of the killer features of Solr. It allows the grouping and filtering results for better findability. To enable faceting you need to turn faceting on in the query and specify the fields you want to facet upon:"
 msgstr ""
 
 #: ../solr/solr-gui.rst:241

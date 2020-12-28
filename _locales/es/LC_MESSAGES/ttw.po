@@ -5,22 +5,21 @@
 # This file is distributed under the same license as the Plone 5 Training
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
-#, fuzzy
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
-"2016\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
+"PO-Revision-Date: 2018-04-26 09:23-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 "Generated-By: Babel 2.5.0\n"
 
 #: ../ttw/about/glossary.rst:3
@@ -46,13 +45,12 @@ msgid "Linode"
 msgstr "Linode"
 
 #: ../ttw/about/glossary.rst:13
-#, fuzzy
 msgid ""
 "`Linode.com <https://www.linode.com/>`_ is an American privately owned "
 "virtual private server provider company"
 msgstr ""
-"`Linode.com <https://linode.com/>`_ es una empresa proveedora de "
-"servidores privada virtual de propiedad privada estadounidense"
+"`Linode.com <https://linode.com/>`_ es una empresa proveedora de servidores "
+"privada virtual de propiedad privada estadounidense"
 
 #: ../ttw/about/glossary.rst:13
 msgid "based in Galloway, New Jersey, United States."
@@ -801,9 +799,8 @@ msgid ""
 msgstr ""
 
 #: ../ttw/configuring-customizing.rst:161
-#, fuzzy
 msgid "Actions (:guilabel:`portal_actions`)"
-msgstr "Acciones (portal_actions)"
+msgstr "Acciones (:guilabel:`portal_actions`)"
 
 #: ../ttw/configuring-customizing.rst:163
 msgid "Actions are mostly links. But **really flexible** links."
@@ -812,11 +809,9 @@ msgstr ""
 "flexibles**."
 
 #: ../ttw/configuring-customizing.rst:164
-#, fuzzy
 msgid "Actions are configurable TTW (Through-The-Web) and through code."
 msgstr ""
-"Las acciones son configurable a través de la Web y a través de código "
-"fuente."
+"Las acciones son configurable a través de la Web y a través de código fuente."
 
 #: ../ttw/configuring-customizing.rst:165
 msgid "These actions are usually iterated over in viewlets and displayed."
@@ -871,9 +866,8 @@ msgid ":guilabel:`Site Map`"
 msgstr ""
 
 #: ../ttw/configuring-customizing.rst:188
-#, fuzzy
 msgid ":guilabel:`Accessibility`"
-msgstr "Accesibilidad"
+msgstr ":guilabel:`Accesibilidad`"
 
 #: ../ttw/configuring-customizing.rst:189
 msgid ":guilabel:`Contact`"
@@ -888,12 +882,11 @@ msgid "We want a new link to legal information, called \"Imprint\"."
 msgstr "Queremos un nuevo enlace a la información legal, llamado \"Aviso Legal\"."
 
 #: ../ttw/configuring-customizing.rst:194
-#, fuzzy
 msgid ""
 "Go to :guilabel:`site_actions` (we know that because we checked in "
 "``@@manage-viewlets``)"
 msgstr ""
-"Ir a ``site_actions`` (lo sabemos porque lo chequeamos en ``@@manage-"
+"Ir a :guilabel:`site_actions` (lo sabemos porque lo chequeamos en ``@@manage-"
 "viewlets``)"
 
 #: ../ttw/configuring-customizing.rst:195
@@ -929,24 +922,20 @@ msgid "Check if the link is on the page"
 msgstr "Verifique si el enlace de esta en la página funciona"
 
 #: ../ttw/configuring-customizing.rst:207
-#, fuzzy
 msgid "Create new Document \"Imprint\" and publish"
-msgstr "Cree un nuevo Documento llamado `Aviso legal` y publíquelo"
+msgstr "Cree un nuevo Documento llamado \"Aviso legal\" y publíquelo"
 
 #: ../ttw/configuring-customizing.rst:211
-#, fuzzy
 msgid "https://docs.plone.org/develop/plone/functionality/actions.html"
 msgstr "https://docs.plone.org/develop/plone/functionality/actions.html"
 
 #: ../ttw/configuring-customizing.rst:215
-#, fuzzy
 msgid "Global Navigation"
 msgstr "Navegación global"
 
 #: ../ttw/configuring-customizing.rst:217
-#, fuzzy
 msgid "The horizontal navigation is called :guilabel:`portal_tabs`"
-msgstr "La navegación horizontal es llamada ``portal_tabs``"
+msgstr "La navegación horizontal es llamada :guilabel:`portal_tabs`"
 
 #: ../ttw/configuring-customizing.rst:218
 msgid ""
@@ -969,9 +958,8 @@ msgid ""
 msgstr ""
 
 #: ../ttw/configuring-customizing.rst:226
-#, fuzzy
 msgid "Explain & edit ``index_html``."
-msgstr "Edite ``index_html``"
+msgstr "Explique y Edite el objeto ``index_html``."
 
 #: ../ttw/configuring-customizing.rst:228
 msgid ""
@@ -986,18 +974,16 @@ msgid "If time explain:"
 msgstr "Si hay tiempo explique:"
 
 #: ../ttw/configuring-customizing.rst:232
-#, fuzzy
 msgid "user > undo"
-msgstr "user > undo (¡chevere!)"
+msgstr "user > undo"
 
 #: ../ttw/configuring-customizing.rst:233
 msgid "user > login/logout"
 msgstr "user > login/logout"
 
 #: ../ttw/configuring-customizing.rst:237
-#, fuzzy
 msgid "Skins (``portal_skins``)"
-msgstr "Acciones (portal_actions)"
+msgstr "Skins (``portal_skins``)"
 
 #: ../ttw/configuring-customizing.rst:240
 msgid ""
@@ -1042,18 +1028,16 @@ msgid "The CSS you add to this file is instantly active on the site."
 msgstr "El CSS que agrega a este archivo está instantáneamente activo en el sitio."
 
 #: ../ttw/configuring-customizing.rst:259
-#, fuzzy
 msgid "Portal View Customizations"
-msgstr "portal_view_customizations"
+msgstr "Portal View Customizations"
 
 #: ../ttw/configuring-customizing.rst:262
 msgid "Change the footer"
 msgstr "Cambiar el pie de página"
 
 #: ../ttw/configuring-customizing.rst:264
-#, fuzzy
 msgid "Go to :guilabel:`portal_view_customizations`"
-msgstr "Ir a ``portal_view_customizations``"
+msgstr "Valla a :guilabel:`portal_view_customizations`"
 
 #: ../ttw/configuring-customizing.rst:265
 msgid "Search ``plone.footer``, and click :guilabel:`Customize`"
@@ -1064,7 +1048,6 @@ msgid "Replace the content with the following"
 msgstr "Reemplace el contenido con lo siguiente"
 
 #: ../ttw/configuring-customizing.rst:282
-#, fuzzy
 msgid ""
 "https://docs.plone.org/adapt-and-"
 "extend/theming/templates_css/skin_layers.html"
@@ -1073,7 +1056,6 @@ msgstr ""
 "extend/theming/templates_css/skin_layers.html"
 
 #: ../ttw/configuring-customizing.rst:286
-#, fuzzy
 msgid "Further Tools In The ZMI"
 msgstr "Más herramientas en el ZMI"
 
@@ -1247,9 +1229,8 @@ msgstr ""
 "satisfacer las peticiones AJAX y estar en formatos como JSON o XML."
 
 #: ../ttw/dexterity.rst:63
-#, fuzzy
 msgid "Dexterity And Archetypes"
-msgstr "Dexterity y Archetypes - Una comparación"
+msgstr "Dexterity y Archetypes"
 
 #: ../ttw/dexterity.rst:65
 msgid "There are two content frameworks in Plone:"
@@ -1320,15 +1301,15 @@ msgid "Archetypes has no TTW story."
 msgstr "Archetypes no tiene historia a través de la Web."
 
 #: ../ttw/dexterity.rst:83
-#, fuzzy
 msgid ""
 "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-"
 "manuals/archgenxml/index.html>`_ for Archetypes, `agx "
-"<https://pypi.python.org/pypi/agx.generator.dexterity>`_ for Dexterity"
+"<https://web.archive.org/web/20170411060701/http://agx.me/>`_ for "
+"Dexterity"
 msgstr ""
 "Modelado UML: `ArchGenXML <https://docs.plone.org/old-reference-"
-"manuals/archgenxml/index.html>`_  para Archetypes, `agx <http://agx.me>`_"
-" para Dexterity"
+"manuals/archgenxml/index.html>`_  para Archetypes, `agx "
+"<https://web.archive.org/web/20170411060701/http://agx.me/>`_ para Dexterity"
 
 #: ../ttw/dexterity.rst:85
 msgid "Approaches for Developers:"
@@ -1498,7 +1479,6 @@ msgid "Creating Content Types \"Through-The-Web\""
 msgstr "Creando tipos de contenidos a través de la Web"
 
 #: ../ttw/dexterity.rst:142
-#, fuzzy
 msgid ""
 "In this step we will create a content type called *Talk* and try it out. "
 "When it's ready, we will move the code from the web to the file system "
@@ -1506,10 +1486,10 @@ msgid ""
 "and a viewlet for Talks."
 msgstr ""
 "En este paso vamos a crear un tipo de contenido llamado *Talk* (para las "
-"charlas) y probarlo. Cuando esté listo vamos a mover el código fuente de "
-"la Web para el sistema de archivos y en nuestro propio complemento. Más "
-"tarde vamos a ampliar ese tipo, los comportamientos y añadir un viewlet "
-"de las Charlas."
+"charlas) y probarlo. Cuando esté listo, vamos a mover el código fuente de la "
+"Web para el sistema de archivos y en nuestro propio complemento. Más tarde "
+"vamos a ampliar ese tipo, los comportamientos y añadir un viewlet de las "
+"Charlas."
 
 #: ../ttw/dexterity.rst:146
 msgid "Add new content type \"Talk\" and some fields for it:"
@@ -1621,24 +1601,22 @@ msgstr ""
 "hacer eso, y vamos a cubrir aquellos en los próximos dos capítulos."
 
 #: ../ttw/dexterity.rst:242
-#, fuzzy
 msgid ""
 "`Dexterity Developer Manual "
 "<https://docs.plone.org/external/plone.app.dexterity/docs/index.html>`_"
 msgstr ""
-"`Dexterity Developer Manual "
+"`Manual del desarrollador Dexterity "
 "<https://docs.plone.org/external/plone.app.dexterity/docs/index.html>`_"
 
 #: ../ttw/dexterity.rst:243
-#, fuzzy
 msgid ""
 "`The standard behaviors "
 "<https://docs.plone.org/external/plone.app.dexterity/docs/reference"
 "/standard-behaviours.html>`_"
 msgstr ""
 "`Los comportamientos estándar "
-"<https://docs.plone.org/external/plone.app.dexterity/docs/reference"
-"/standard-behaviours.html>`_"
+"<https://docs.plone.org/external/plone.app.dexterity/docs/reference/standard-"
+"behaviours.html>`_"
 
 #: ../ttw/dexterity.rst:249
 msgid "Exercises"
@@ -2038,9 +2016,8 @@ msgid ""
 msgstr ""
 
 #: ../ttw/mosaic.rst:137
-#, fuzzy
 msgid "Change The Content Layout"
-msgstr "Cambiar el pie de página"
+msgstr "Cambiar el diseño del contenido"
 
 #: ../ttw/mosaic.rst:139
 msgid ""
@@ -4686,4 +4663,3 @@ msgstr ""
 #: ../ttw/ttw-advanced-2.rst:467
 msgid "Change :file:`rules.xml` to look similar to this:"
 msgstr ""
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1960,7 +1960,7 @@ msgid "General Advises"
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:13
-msgid "When providing static resources (JS/Less/CSS) for Plone 5's resource registry, use `plone.resource <https://pypi.python.org/pypi/plone.resource>`_ based resources instead of Zope's browser resources. The latter are cached heavily and you won't get your changes built with Zope resources."
+msgid "When providing static resources (JS/Less/CSS) for Plone 5's resource registry, use `plone.resource <https://pypi.org/project/plone.resource>`_ based resources instead of Zope's browser resources. The latter are cached heavily and you won't get your changes built with Zope resources."
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:19
@@ -1988,7 +1988,7 @@ msgid "There is currently no API to build JavaScript and Less resources programm
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:40
-msgid "The resources are downloaded to your browser, compiled there and re-upload to the Plone server, where they are stored in ZODB as `plone.resource <https://pypi.python.org/pypi/plone.resource>`_` resources."
+msgid "The resources are downloaded to your browser, compiled there and re-upload to the Plone server, where they are stored in ZODB as `plone.resource <https://pypi.org/project/plone.resource>`_` resources."
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:42
@@ -2136,7 +2136,7 @@ msgid "Not because the new ones look much better, but because they offer a much 
 msgstr ""
 
 #: ../javascript/mockup.rst:14
-msgid "To update Plone's widgets was the goal of `plone.app.widgets <https://pypi.python.org/pypi/plone.app.widgets>`_, started by Nathan van Gheem and pushed wide forward by Rok Garbas. Rok forked Patternslib and created the Mockup project."
+msgid "To update Plone's widgets was the goal of `plone.app.widgets <https://pypi.org/project/plone.app.widgets>`_, started by Nathan van Gheem and pushed wide forward by Rok Garbas. Rok forked Patternslib and created the Mockup project."
 msgstr ""
 
 #: ../javascript/mockup.rst:17

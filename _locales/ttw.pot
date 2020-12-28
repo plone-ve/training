@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1097,7 +1097,7 @@ msgid "Archetypes has no TTW story."
 msgstr ""
 
 #: ../ttw/dexterity.rst:83
-msgid "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://pypi.python.org/pypi/agx.generator.dexterity>`_ for Dexterity"
+msgid "UML-modeling: `ArchGenXML <https://docs.plone.org/old-reference-manuals/archgenxml/index.html>`_ for Archetypes, `agx <https://web.archive.org/web/20170411060701/http://agx.me/>`_ for Dexterity"
 msgstr ""
 
 #: ../ttw/dexterity.rst:85

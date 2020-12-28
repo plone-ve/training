@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 21:00-0400\n"
-"PO-Revision-Date: 2018-04-03 20:33-0400\n"
+"POT-Creation-Date: 2018-04-26 08:29-0400\n"
+"PO-Revision-Date: 2018-04-26 09:36-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -37,8 +37,8 @@ msgid ""
 " for what you use."
 msgstr ""
 "`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de "
-"computación en la nube confiables, escalables y económicos. libre de unirse, "
-"pague solo por lo que usa."
+"computación en la nube confiables, escalables y económicos. libre de "
+"unirse, pague solo por lo que usa."
 
 #: ../javascript/about/glossary.rst:10
 msgid "Linode"
@@ -70,8 +70,7 @@ msgstr ""
 
 #: ../javascript/about/glossary.rst:17
 msgid "headquartered in New York City with data centers worldwide."
-msgstr ""
-"con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
+msgstr "con sede en la ciudad de Nueva York y centros de datos en todo el mundo."
 
 #: ../javascript/about/glossary.rst:18
 msgid "ZODB"
@@ -100,8 +99,9 @@ msgid ""
 "`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
 " and retrieve any amount of data from anywhere."
 msgstr ""
-"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos creado "
-"para almacenar y recuperar cualquier cantidad de datos desde cualquier lugar."
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos "
+"creado para almacenar y recuperar cualquier cantidad de datos desde "
+"cualquier lugar."
 
 #: ../javascript/about/glossary.rst:27
 msgid "NFS"
@@ -112,7 +112,8 @@ msgid ""
 "`Network File System "
 "<https://en.wikipedia.org/wiki/Network_File_System>`_."
 msgstr ""
-"`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
+"`Network File System "
+"<https://en.wikipedia.org/wiki/Network_File_System>`_."
 
 #: ../javascript/about/glossary.rst:30
 msgid "Amazon Opsworks"
@@ -129,8 +130,8 @@ msgstr ""
 #: ../javascript/about/glossary.rst:33
 msgid "an automation platform that treats server configurations as code."
 msgstr ""
-"una plataforma de automatización que trata las configuraciones del servidor "
-"como código."
+"una plataforma de automatización que trata las configuraciones del "
+"servidor como código."
 
 #: ../javascript/about/glossary.rst:34
 msgid "Ansible"
@@ -141,8 +142,8 @@ msgid ""
 "`Ansible <https://www.ansible.com/>`_ is an open source automation "
 "platform."
 msgstr ""
-"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización de "
-"fuente abierta."
+"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización"
+" de fuente abierta."
 
 #: ../javascript/about/glossary.rst:37
 msgid ""
@@ -175,10 +176,10 @@ msgid ""
 "collection of related AWS resources, provisioning and updating them in an"
 " orderly and predictable fashion."
 msgstr ""
-"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a los "
-"desarrolladores y administradores de sistemas una forma de crear y "
-"administrar una colección de recursos relacionados de AWS, aprovisionándolos "
-"y actualizándolos de manera ordenada y predecible."
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a "
+"los desarrolladores y administradores de sistemas una forma de crear y "
+"administrar una colección de recursos relacionados de AWS, "
+"aprovisionándolos y actualizándolos de manera ordenada y predecible."
 
 #: ../javascript/about/glossary.rst:45
 msgid "Travis CI"
@@ -190,10 +191,10 @@ msgid ""
 " build and test software projects hosted at GitHub. Open source projects "
 "may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
-"Travis CI es un servicio de integración continua alojado que se utiliza para "
-"crear y probar proyectos de software alojados en GitHub. Los proyectos de "
-"código abierto pueden probarse sin cargo a través de `travis-ci.org <https"
-"://travis-ci.org>`_."
+"Travis CI es un servicio de integración continua alojado que se utiliza "
+"para crear y probar proyectos de software alojados en GitHub. Los "
+"proyectos de código abierto pueden probarse sin cargo a través de "
+"`travis-ci.org <https://travis-ci.org>`_."
 
 #: ../javascript/about/glossary.rst:49
 msgid "Solr"
@@ -204,8 +205,8 @@ msgid ""
 "`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
 "open source enterprise search platform built on Apache Lucene."
 msgstr ""
-"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de búsqueda "
-"empresarial de código abierto, desarrollada en Apache Lucene."
+"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de "
+"búsqueda empresarial de código abierto, desarrollada en Apache Lucene."
 
 #: ../javascript/about/glossary.rst:52
 msgid "ZCML"
@@ -229,9 +230,10 @@ msgid ""
 "allows you to apply a theme contained in a static HTML web page to a "
 "dynamic website created using any server-side technology."
 msgstr ""
-"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo le "
-"permite aplicar un tema contenido en una página web HTML estática a un sitio "
-"web dinámico creado utilizando cualquier tecnología del lado del servidor."
+"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo"
+" le permite aplicar un tema contenido en una página web HTML estática a "
+"un sitio web dinámico creado utilizando cualquier tecnología del lado del"
+" servidor."
 
 #: ../javascript/about/glossary.rst:59
 msgid "Dexterity"
@@ -2127,9 +2129,8 @@ msgid "Level"
 msgstr "Nivel"
 
 #: ../javascript/index.rst:8
-#, fuzzy
 msgid "Experienced"
-msgstr "Experiencia"
+msgstr "Experimentado"
 
 #: ../javascript/index.rst
 msgid "Status"
@@ -2353,10 +2354,9 @@ msgstr ""
 #: ../javascript/javascript-scratchpad.rst:13
 msgid ""
 "When providing static resources (JS/Less/CSS) for Plone 5's resource "
-"registry, use `plone.resource "
-"<https://pypi.python.org/pypi/plone.resource>`_ based resources instead "
-"of Zope's browser resources. The latter are cached heavily and you won't "
-"get your changes built with Zope resources."
+"registry, use `plone.resource <https://pypi.org/project/plone.resource>`_"
+" based resources instead of Zope's browser resources. The latter are "
+"cached heavily and you won't get your changes built with Zope resources."
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:19
@@ -2403,8 +2403,7 @@ msgstr ""
 msgid ""
 "The resources are downloaded to your browser, compiled there and re-"
 "upload to the Plone server, where they are stored in ZODB as "
-"`plone.resource <https://pypi.python.org/pypi/plone.resource>`_` "
-"resources."
+"`plone.resource <https://pypi.org/project/plone.resource>`_` resources."
 msgstr ""
 
 #: ../javascript/javascript-scratchpad.rst:42
@@ -2569,8 +2568,8 @@ msgstr ""
 #: ../javascript/mockup.rst:14
 msgid ""
 "To update Plone's widgets was the goal of `plone.app.widgets "
-"<https://pypi.python.org/pypi/plone.app.widgets>`_, started by Nathan van"
-" Gheem and pushed wide forward by Rok Garbas. Rok forked Patternslib and "
+"<https://pypi.org/project/plone.app.widgets>`_, started by Nathan van "
+"Gheem and pushed wide forward by Rok Garbas. Rok forked Patternslib and "
 "created the Mockup project."
 msgstr ""
 
