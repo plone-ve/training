@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "How to find add-ons"
 msgstr ""
 
 #: ../addons.rst:13
-msgid "https://pypi.python.org/pypi - use the search form!"
+msgid "https://pypi.org/ - use the search form!"
 msgstr ""
 
 #: ../addons.rst:14
@@ -53,15 +53,15 @@ msgid "https://github.com/plone >260 repos"
 msgstr ""
 
 #: ../addons.rst:16
-msgid "http://news.gmane.org/gmane.comp.web.zope.plone.user"
+msgid "https://www.mail-archive.com/search?l=all&q=plone-users"
 msgstr ""
 
 #: ../addons.rst:17
-msgid "google (e.g. `Plone+Slider <http://lmgtfy.com/?q=plone+slider>`_)"
+msgid "google (e.g. `Plone+Slider <https://lmgtfy.app/?q=plone+slider>`_)"
 msgstr ""
 
 #: ../addons.rst:18
-msgid "Check shortlist `Plone Paragon <http://paragon.plone.org/>`_ (Launched August 2014)"
+msgid "Check shortlist `Plone Paragon <https://paragon.plone.org/>`_ (Launched August 2014)"
 msgstr ""
 
 #: ../addons.rst:19
@@ -77,7 +77,7 @@ msgid "Some notable add-ons"
 msgstr ""
 
 #: ../addons.rst:30
-msgid "`Products.PloneFormGen <http://docs.plone.org/4/en/develop/plone/forms/ploneformgen.html>`_"
+msgid "`Products.PloneFormGen <https://docs.plone.org/4/en/develop/plone/forms/ploneformgen.html>`_"
 msgstr ""
 
 #: ../addons.rst:30
@@ -85,7 +85,7 @@ msgid "A form generator"
 msgstr ""
 
 #: ../addons.rst:33
-msgid "`collective.plonetruegallery <https://pypi.python.org/pypi/collective.plonetruegallery>`_"
+msgid "`collective.plonetruegallery <https://pypi.org/project/collective.plonetruegallery>`_"
 msgstr ""
 
 #: ../addons.rst:33
@@ -101,7 +101,7 @@ msgid "UI to create complex landing-pages"
 msgstr ""
 
 #: ../addons.rst:39
-msgid "`collective.geo <http://collectivegeo.readthedocs.io/en/latest/>`_"
+msgid "`collective.geo <https://collectivegeo.readthedocs.io/en/latest/>`_"
 msgstr ""
 
 #: ../addons.rst:39
@@ -109,7 +109,7 @@ msgid "Flexible bundle of add-ons to georeference content and display in maps"
 msgstr ""
 
 #: ../addons.rst:42
-msgid "`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_"
+msgid "`collective.mailchimp <https://pypi.org/project/collective.mailchimp>`_"
 msgstr ""
 
 #: ../addons.rst:42
@@ -117,7 +117,7 @@ msgid "Allows visitors to subscribe to mailchimp newsletters"
 msgstr ""
 
 #: ../addons.rst:45
-msgid "`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
+msgid "`eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_"
 msgstr ""
 
 #: ../addons.rst:45
@@ -125,7 +125,7 @@ msgid "Create faceted navigation and searches through the web."
 msgstr ""
 
 #: ../addons.rst:48
-msgid "`webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_"
+msgid "`webcouturier.dropdownmenu <https://pypi.org/project/webcouturier.dropdownmenu>`_"
 msgstr ""
 
 #: ../addons.rst:48
@@ -133,7 +133,7 @@ msgid "Turns global navigation into dropdowns"
 msgstr ""
 
 #: ../addons.rst:51
-msgid "`collective.quickupload <https://pypi.python.org/pypi/collective.quickupload>`_"
+msgid "`collective.quickupload <https://pypi.org/project/collective.quickupload>`_"
 msgstr ""
 
 #: ../addons.rst:51
@@ -141,7 +141,7 @@ msgid "Multi-file upload using drag&drop"
 msgstr ""
 
 #: ../addons.rst:54
-msgid "`Products.Doormat <https://pypi.python.org/pypi/Products.Doormat>`_"
+msgid "`Products.Doormat <https://pypi.org/project/Products.Doormat>`_"
 msgstr ""
 
 #: ../addons.rst:54
@@ -157,7 +157,7 @@ msgid "Add decorative banners and sliders"
 msgstr ""
 
 #: ../addons.rst:60
-msgid "`plone.app.multilingual <https://pypi.python.org/pypi/plone.app.multilingual>`_"
+msgid "`plone.app.multilingual <https://pypi.org/project/plone.app.multilingual>`_"
 msgstr ""
 
 #: ../addons.rst:60
@@ -357,7 +357,7 @@ msgid "Instead of creating custom content types for galleries, it integrates wit
 msgstr ""
 
 #: ../addons.rst:165
-msgid "https://pypi.python.org/pypi/collective.plonetruegallery"
+msgid "https://pypi.org/project/collective.plonetruegallery"
 msgstr ""
 
 #: ../addons.rst:167
@@ -397,7 +397,7 @@ msgid "We're not doing this with the conference-site since the *lingua franca* o
 msgstr ""
 
 #: ../addons.rst:182
-msgid "We would use https://pypi.python.org/pypi/plone.app.multilingual for this. It is the successor of Products.LinguaPlone (which only works with Archetypes)."
+msgid "We would use https://pypi.org/project/plone.app.multilingual for this. It is the successor of Products.LinguaPlone (which only works with Archetypes)."
 msgstr ""
 
 #: ../addons.rst:186

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,6 +82,10 @@ msgstr ""
 
 #: ../viewlets_2.rst:82
 msgid "Writing the Viewlet code"
+msgstr ""
+
+#: ../viewlets_2.rst:86
+msgid "Now that we have the everything in place, we can add the Logic"
 msgstr ""
 
 #: ../viewlets_2.rst:88

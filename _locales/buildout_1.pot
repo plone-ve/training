@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Buildout I"
 msgstr ""
 
 #: ../buildout_1.rst:6
-msgid "`Buildout <https://pypi.python.org/pypi/zc.buildout>`_ composes your application for you, according to your rules."
+msgid "`Buildout <https://pypi.org/project/zc.buildout>`_ composes your application for you, according to your rules."
 msgstr ""
 
 #: ../buildout_1.rst:8
@@ -69,11 +69,11 @@ msgid "One example is the section"
 msgstr ""
 
 #: ../buildout_1.rst:43
-msgid "This uses the python-package `plone.recipe.zope2instance <https://pypi.python.org/pypi/plone.recipe.zope2instance>`_ to create and configure the Zope 2 instance which we use to run Plone. All the lines after ``recipe = xyz`` are the configuration of the used recipe."
+msgid "This uses the python-package `plone.recipe.zope2instance <https://pypi.org/project/plone.recipe.zope2instance>`_ to create and configure the Zope 2 instance which we use to run Plone. All the lines after ``recipe = xyz`` are the configuration of the used recipe."
 msgstr ""
 
 #: ../buildout_1.rst:47
-msgid "http://www.buildout.org/en/latest/docs/recipelist.html"
+msgid "https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Buildout&c=Framework+%3A%3A+Buildout+%3A%3A+Recipe"
 msgstr ""
 
 #: ../buildout_1.rst:50
@@ -89,7 +89,7 @@ msgid "If you have a big setup with many Plone sites with minor changes between 
 msgstr ""
 
 #: ../buildout_1.rst:58
-msgid "Even in smaller buildouts this is a useful feature. We are using `collective.recipe.omelette <https://pypi.python.org/pypi/collective.recipe.omelette>`_. A very practical recipe that creates a virtual directory that eases the navigation to the source code of each egg."
+msgid "Even in smaller buildouts this is a useful feature. We are using `collective.recipe.omelette <https://pypi.org/project/collective.recipe.omelette>`_. A very practical recipe that creates a virtual directory that eases the navigation to the source code of each egg."
 msgstr ""
 
 #: ../buildout_1.rst:60
@@ -177,7 +177,7 @@ msgid "As you can see, you can build very complex systems with Buildout. It is t
 msgstr ""
 
 #: ../buildout_1.rst:283
-msgid "The configuration for this recipe is more complicated than the supervisor configuration itself! By using this recipe, you force others to understand the recipes specific configuration syntax *and* the supervisor syntax. For such cases, `collective.recipe.template <https://pypi.python.org/pypi/collective.recipe.template>`_ is a better match."
+msgid "The configuration for this recipe is more complicated than the supervisor configuration itself! By using this recipe, you force others to understand the recipes specific configuration syntax *and* the supervisor syntax. For such cases, `collective.recipe.template <https://pypi.org/project/collective.recipe.template>`_ is a better match."
 msgstr ""
 
 #: ../buildout_1.rst:285
@@ -209,11 +209,11 @@ msgid "Buildout-Documentation"
 msgstr ""
 
 #: ../buildout_1.rst:304
-msgid "http://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
+msgid "https://docs.plone.org/4/en/old-reference-manuals/buildout/index.html"
 msgstr ""
 
 #: ../buildout_1.rst:305
-msgid "http://www.buildout.org/en/latest/docs/index.html"
+msgid "http://www.buildout.org/en/latest/"
 msgstr ""
 
 #: ../buildout_1.rst:308
@@ -221,7 +221,7 @@ msgid "Troubleshooting"
 msgstr ""
 
 #: ../buildout_1.rst:308
-msgid "http://docs.plone.org/4/en/manage/troubleshooting/buildout.html"
+msgid "https://docs.plone.org/4/en/manage/troubleshooting/buildout.html"
 msgstr ""
 
 #: ../buildout_1.rst:311
@@ -253,6 +253,6 @@ msgid "mr.developer"
 msgstr ""
 
 #: ../buildout_1.rst:319
-msgid "https://pypi.python.org/pypi/mr.developer/"
+msgid "https://pypi.org/project/mr.developer/"
 msgstr ""
 

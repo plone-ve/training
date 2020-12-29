@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "If you want to install an add-on, you are going to install an Egg — a f
 msgstr ""
 
 #: ../extending.rst:10
-msgid "There is a huge variety of Plone-compatible packages available. Most are listed in the `Python Package Index <https://pypi.python.org/pypi>`_. A more browse-able listing is available at the `Plone.org add-on listing <https://old.plone.org/products/>`_. The source repository for many public Plone add-ons is `the GitHub Collective <https://github.com/collective>`_. You may also create your own packages or maintain custom repositories."
+msgid "There is a huge variety of Plone-compatible packages available. Most are listed in the `Python Package Index <https://pypi.org/>`_. A more browse-able listing is available at the `Plone.org add-on listing <https://plone.org/download/add-ons>`_. The source repository for many public Plone add-ons is `the GitHub Collective <https://github.com/collective>`_. You may also create your own packages or maintain custom repositories."
 msgstr ""
 
 #: ../extending.rst:12
@@ -60,6 +60,18 @@ msgstr ""
 msgid "skin_folders"
 msgstr ""
 
+#: ../extending.rst:34
+msgid "Very old style"
+msgstr ""
+
+#: ../extending.rst:35
+msgid "Very quick"
+msgstr ""
+
+#: ../extending.rst:36
+msgid "Very unmaintainable"
+msgstr ""
+
 #: ../extending.rst:40
 msgid "Do you remember Acquisition? The Skin Folders extends the concepts of Acquisition. Your Plone site has a folder named ``portal_skins``. This folder has a number of sub folders. The ``portal_skins`` folder has a property that defines in which order Plone searches for attributes or objects in each sub folder."
 msgstr ""
@@ -82,6 +94,18 @@ msgstr ""
 
 #: ../extending.rst:52
 msgid "GenericSetup"
+msgstr ""
+
+#: ../extending.rst:56
+msgid "Old style"
+msgstr ""
+
+#: ../extending.rst:57
+msgid "Limited use cases"
+msgstr ""
+
+#: ../extending.rst:58
+msgid "Full of surprises"
 msgstr ""
 
 #: ../extending.rst:62
@@ -110,6 +134,22 @@ msgstr ""
 
 #: ../extending.rst:76
 msgid "Component Architecture"
+msgstr ""
+
+#: ../extending.rst:80
+msgid "State of the art"
+msgstr ""
+
+#: ../extending.rst:81
+msgid "verbose"
+msgstr ""
+
+#: ../extending.rst:82
+msgid "cryptic"
+msgstr ""
+
+#: ../extending.rst:83
+msgid "Powerful and flexible"
 msgstr ""
 
 #: ../extending.rst:87

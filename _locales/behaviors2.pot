@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,6 +36,14 @@ msgstr ""
 msgid "So using annotations avoids namespace conflicts. The cost is an indirection. The dictionary is persistent so it has to be stored separately. Also, one could give attributes a name containing a namespace prefix to avoid naming collisions."
 msgstr ""
 
+#: ../behaviors2.rst:16
+msgid "What are annotations"
+msgstr ""
+
+#: ../behaviors2.rst:17
+msgid "When to use them"
+msgstr ""
+
 #: ../behaviors2.rst:22
 msgid "Using Schema"
 msgstr ""
@@ -46,6 +54,10 @@ msgstr ""
 
 #: ../behaviors2.rst:28
 msgid "For example, when files have been migrated to blobs, new objects had to be created and every schema field was copied. The code can't know about our field, except if we provide schema information."
+msgstr ""
+
+#: ../behaviors2.rst:32
+msgid "Why to use schemas always"
 msgstr ""
 
 #: ../behaviors2.rst:35
@@ -162,6 +174,10 @@ msgstr ""
 
 #: ../behaviors2.rst:239
 msgid "As you have seen in the Schema declaration, if you run your site in debug mode, you will see an edit field for these fields. But trying to change these fields will throw an exception."
+msgstr ""
+
+#: ../behaviors2.rst:245
+msgid "Explain ZODB and Persistent Classes"
 msgstr ""
 
 #: ../behaviors2.rst:247

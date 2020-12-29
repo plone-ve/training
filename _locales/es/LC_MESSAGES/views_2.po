@@ -1,38 +1,38 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Mastering Plone package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Mastering Plone
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-11 11:13-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2016\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
+"PO-Revision-Date: 2020-12-28 21:28-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
 "Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../views_2.rst:2
 msgid "Views II: A default view for \"talk\""
 msgstr "Vistas - Parte II: Una vista por defecto para la \"charla\""
 
-#: ../views_2.rst:0
-msgid "Get the code!"
-msgstr "¡Obtén el código!"
-
 #: ../views_2.rst:6
 msgid ""
-"Get the code for this chapter (:doc:`More info <sneak>`) using this command "
-"in the buildout-directory:"
+"Get the code for this chapter (:doc:`More info <sneak>`) using this "
+"command in the buildout-directory:"
 msgstr ""
-"Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando "
-"este comando en el directorio buildout:"
+"Obtén el código para este capítulo (:doc:`Más información <sneak>`) "
+"usando este comando en el directorio buildout:"
 
 #: ../views_2.rst:14
 msgid "View-Classes"
@@ -44,9 +44,10 @@ msgid ""
 "templates. Let us have a look at the zcml and the Page Template again. I "
 "have extended the code just slightly."
 msgstr ""
-"Anteriormente hemos escrito una vista de demostración que también utilizamos"
-" para experimentar con las plantillas de página. Vamos a echar un vistazo a "
-"la ZCML y la Page Template de nuevo. Yo he ampliado el código sólo un poco."
+"Anteriormente hemos escrito una vista de demostración que también "
+"utilizamos para experimentar con las plantillas de página. Vamos a echar "
+"un vistazo a la ZCML y la Page Template de nuevo. Yo he ampliado el "
+"código sólo un poco."
 
 #: ../views_2.rst:20 ../views_2.rst:97
 msgid "``browser/configure.zcml``"
@@ -59,12 +60,13 @@ msgstr "El archivo ``browser/views.py``"
 #: ../views_2.rst:70
 msgid ""
 "Do you remember the term MultiAdapter? The browser page is just a "
-"MultiAdapter. The ZCML statement ``browser:page`` registers a MultiAdapter "
-"and adds additional things needed for a browser view."
+"MultiAdapter. The ZCML statement ``browser:page`` registers a "
+"MultiAdapter and adds additional things needed for a browser view."
 msgstr ""
-"¿Recuerdas el término MultiAdapter? La browser page es sólo un MultiAdapter."
-" La declaración ZCML ``browser:page`` registra un MultiAdapter y agrega "
-"cosas adicionales que se necesitan para una browser view."
+"¿Recuerdas el término MultiAdapter? La browser page es sólo un "
+"MultiAdapter. La declaración ZCML ``browser:page`` registra un "
+"MultiAdapter y agrega cosas adicionales que se necesitan para una browser"
+" view."
 
 #: ../views_2.rst:72
 msgid "An adapter adapts things, a MultiAdapter adapts multiple things."
@@ -72,76 +74,76 @@ msgstr "Un adaptador adapta cosas, un MultiAdapter adapta múltiple cosas."
 
 #: ../views_2.rst:74
 msgid ""
-"When you enter an url, Zope tries to find an object for it. At the end, when"
-" Zope does not find any more objects but there is still a path item left, or"
-" there are no more path items, Zope looks for an adapter that will reply to "
-"the request."
+"When you enter an url, Zope tries to find an object for it. At the end, "
+"when Zope does not find any more objects but there is still a path item "
+"left, or there are no more path items, Zope looks for an adapter that "
+"will reply to the request."
 msgstr ""
-"Al introducir una dirección URL, Zope trata de encontrar un objeto para él. "
-"Al final, cuando Zope no encuentra ningún objeto más, pero todavía hay un "
-"elemento de ruta, o no hay más elementos de rutas, Zope busca un adaptador "
-"que va a responder a la solicitud."
+"Al introducir una dirección URL, Zope trata de encontrar un objeto para "
+"él. Al final, cuando Zope no encuentra ningún objeto más, pero todavía "
+"hay un elemento de ruta, o no hay más elementos de rutas, Zope busca un "
+"adaptador que va a responder a la solicitud."
 
 #: ../views_2.rst:76
 msgid ""
-"The adapter adapts the request and the object that Zope found with the URL. "
-"The adapter class gets instantiated with the objects to be adapted, then it "
-"gets called."
+"The adapter adapts the request and the object that Zope found with the "
+"URL. The adapter class gets instantiated with the objects to be adapted, "
+"then it gets called."
 msgstr ""
-"El adaptador se adapta la solicitud y el objeto que Zope ha encontrado con "
-"la dirección URL. La clase de adaptador se crea instanciada con los objetos "
-"que han de adaptarse, entonces se llama."
+"El adaptador se adapta la solicitud y el objeto que Zope ha encontrado "
+"con la dirección URL. La clase de adaptador se crea instanciada con los "
+"objetos que han de adaptarse, entonces se llama."
 
 #: ../views_2.rst:78
 msgid ""
-"The code above does the same thing that the standard implementation would "
-"do. It makes context and request available as variables on the object."
+"The code above does the same thing that the standard implementation would"
+" do. It makes context and request available as variables on the object."
 msgstr ""
-"El código fuente anterior hace la misma cosa que la implementación estándar "
-"haría. Hace que el contexto y la solicitud estén disponibles como variables "
-"en el objeto."
+"El código fuente anterior hace la misma cosa que la implementación "
+"estándar haría. Hace que el contexto y la solicitud estén disponibles "
+"como variables en el objeto."
 
 #: ../views_2.rst:80
 msgid ""
-"I have written down these methods because it important to understand some "
-"important concepts."
+"I have written down these methods because it important to understand some"
+" important concepts."
 msgstr ""
-"Yo he escrito estos métodos porque es importante entender algunos conceptos "
-"importantes."
+"Yo he escrito estos métodos porque es importante entender algunos "
+"conceptos importantes."
 
 #: ../views_2.rst:82
 msgid ""
-"The init method gets called while Zope is still *trying* to find a view. At "
-"that phase, the security has not been resolved. Your code is not security "
-"checked. For historic reasons, many errors that happen in the init method "
-"can result in a page not found error instead of an exception."
+"The init method gets called while Zope is still *trying* to find a view. "
+"At that phase, the security has not been resolved. Your code is not "
+"security checked. For historic reasons, many errors that happen in the "
+"init method can result in a page not found error instead of an exception."
 msgstr ""
 "El método init es llamado mientras Zope es todavía esta *tratando* de "
-"encontrar una vista. En esa fase, la seguridad no se ha resuelto. El código "
-"no comprueba la seguridad. Por razones históricas, muchos errores que se "
-"producen en el método init puede resultar en una página no encuentre el "
-"error en lugar de una excepción."
+"encontrar una vista. En esa fase, la seguridad no se ha resuelto. El "
+"código no comprueba la seguridad. Por razones históricas, muchos errores "
+"que se producen en el método init puede resultar en una página no "
+"encuentre el error en lugar de una excepción."
 
 #: ../views_2.rst:84
 msgid ""
-"Don't do much at all in the init method. Instead you have the guarantee that"
-" the call method is called before anything else (except the init method). It"
-" has the security checks in place and so on."
+"Don't do much at all in the init method. Instead you have the guarantee "
+"that the call method is called before anything else (except the init "
+"method). It has the security checks in place and so on."
 msgstr ""
 "No hagas mucho a todos en el método init. En su lugar usted tiene la "
-"garantía que el método call es llamado antes de cualquier otra cosa (excepto"
-" el método init). Tiene los controles de seguridad en su lugar y así "
-"sucesivamente."
+"garantía que el método call es llamado antes de cualquier otra cosa "
+"(excepto el método init). Tiene los controles de seguridad en su lugar y "
+"así sucesivamente."
 
 #: ../views_2.rst:86
 msgid ""
-"From a practical standpoint, consider the call method your init method, the "
-"biggest difference is that this method is supposed to return the html "
-"already. Let your base class handle the html generation."
+"From a practical standpoint, consider the call method your init method, "
+"the biggest difference is that this method is supposed to return the html"
+" already. Let your base class handle the html generation."
 msgstr ""
 "Desde un punto de vista práctico, considere el método call en su método "
-"init, la mayor diferencia es que este método debe retornar el HTML listo. "
-"Deje a su clase base manejar la generación de HTML."
+"init, la mayor diferencia es que este método debe retornar el HTML listo."
+" Deje a su clase base manejar la generación de HTML."
 
 #: ../views_2.rst:93
 msgid "The default-view"
@@ -150,8 +152,8 @@ msgstr "La vista por defecto"
 #: ../views_2.rst:95
 msgid "Now we finally add the default-view for talks in views.py"
 msgstr ""
-"Ahora nosotros finalmente agregamos la vista por defecto para las charlas en"
-" views.py"
+"Ahora nosotros finalmente agregamos la vista por defecto para las charlas"
+" en views.py"
 
 #: ../views_2.rst:122
 msgid ""
@@ -159,8 +161,8 @@ msgid ""
 "Objects and has some very useful available to the template:"
 msgstr ""
 "La clase base DefaultView en el paquete plone.dexterity solamente existe "
-"para los Objetos Dextertity y tiene algo de gran utilidad a disposición de "
-"la plantilla:"
+"para los Objetos Dextertity y tiene algo de gran utilidad a disposición "
+"de la plantilla:"
 
 #: ../views_2.rst:124
 msgid ""
@@ -168,7 +170,8 @@ msgid ""
 "This includes widgets from alternative fieldsets."
 msgstr ""
 "view.w es un diccionario de todos los widgets de pantalla, con clave de "
-"nombres de campos. Esto incluye widgets de conjunto de campos alternativos."
+"nombres de campos. Esto incluye widgets de conjunto de campos "
+"alternativos."
 
 #: ../views_2.rst:125
 msgid ""
@@ -181,8 +184,8 @@ msgstr ""
 #: ../views_2.rst:126
 msgid "view.groups contains a list of fieldsets in fieldset order."
 msgstr ""
-"view.groups contiene una lista de conjunto de campos con el fin de ordenar "
-"conjunto de campo."
+"view.groups contiene una lista de conjunto de campos con el fin de "
+"ordenar conjunto de campo."
 
 #: ../views_2.rst:127
 msgid "view.fieldsets contains a dict mapping fieldset name to fieldset"
@@ -192,16 +195,16 @@ msgstr ""
 
 #: ../views_2.rst:128
 msgid ""
-"On a fieldset (group), you can access a widgets list to get widgets in that "
-"fieldset"
+"On a fieldset (group), you can access a widgets list to get widgets in "
+"that fieldset"
 msgstr ""
-"En un conjunto de campos (grupo), puede acceder a una lista de widgets para "
-"obtener los widgets en ese conjunto de campo"
+"En un conjunto de campos (grupo), puede acceder a una lista de widgets "
+"para obtener los widgets en ese conjunto de campo"
 
 #: ../views_2.rst:132
 msgid ""
-"``plone.dexterity.browser.view.DefaultView`` has the same features as the "
-"grok-equivalent ``plone.directives.dexterity.DisplayForm``."
+"``plone.dexterity.browser.view.DefaultView`` has the same features as the"
+" grok-equivalent ``plone.directives.dexterity.DisplayForm``."
 msgstr ""
 "La vista ``plone.dexterity.browser.view.DefaultView`` tiene las mismas "
 "características que el equivalente Grok "
@@ -217,44 +220,44 @@ msgstr ""
 
 #: ../views_2.rst:157
 msgid ""
-"After a restart, we can test our view by going to a talk and add /talkview "
-"to the url."
+"After a restart, we can test our view by going to a talk and add "
+"/talkview to the url."
 msgstr ""
 "Después de un reinicio, podemos probar nuestra vista, yendo a un tipo de "
 "contenido talk agregado y agrégale a la dirección URL /talkview."
 
 #: ../views_2.rst:159
 msgid ""
-"We should tell Plone, that the talkview should be used as the default view "
-"for talks instead of the built-in view."
+"We should tell Plone, that the talkview should be used as the default "
+"view for talks instead of the built-in view."
 msgstr ""
-"Debemos decirle a Plone, que la vista talkview debe ser utilizado como la "
-"vista predeterminada para las charlas en lugar de la vista incorporada."
+"Debemos decirle a Plone, que la vista talkview debe ser utilizado como la"
+" vista predeterminada para las charlas en lugar de la vista incorporada."
 
 #: ../views_2.rst:161
 msgid ""
-"This is a configuration that you can change during runtime and is stored in "
-"the database, as such it is also managed by GenericSetup profiles."
+"This is a configuration that you can change during runtime and is stored "
+"in the database, as such it is also managed by GenericSetup profiles."
 msgstr ""
 "Esta es una configuración que puede cambiar en tiempo de ejecución y se "
-"almacena en la base de datos, como tal, también es gestionado por perfiles "
-"GenericSetup."
+"almacena en la base de datos, como tal, también es gestionado por "
+"perfiles GenericSetup."
 
 #: ../views_2.rst:165
 msgid ""
-"To change it ttw got to the ZMI (http://localhost:8080/Plone/manage), go to "
-"``portal_types`` and select the type for which the new should be selectable "
-"(*talk*). Now add ``talkview`` to the list *Available view methods*. Now the"
-" new view is available in the menu *Display*. To make it the default view "
-"enter it in ``Default view method``."
+"To change it ttw got to the ZMI (http://localhost:8080/Plone/manage), go "
+"to ``portal_types`` and select the type for which the new should be "
+"selectable (*talk*). Now add ``talkview`` to the list *Available view "
+"methods*. Now the new view is available in the menu *Display*. To make it"
+" the default view enter it in ``Default view method``."
 msgstr ""
 "Para cambiarlo a través de la Web valla a la ZMI "
 "(http://localhost:8080/Plone/manage), luego vaya a la herramienta "
 "``portal_types`` y seleccione el tipo para el cual el nuevo tipo de "
-"contenido debe ser seleccionable (*talk*). Ahora agregue ``talkview`` a la "
-"lista *Available view methods*. Ahora la nueva vista está disponible en el "
-"menú *Mostrar*. Para que sea la vista predeterminada ingrese esta vista en "
-"la sección ``Default view method``."
+"contenido debe ser seleccionable (*talk*). Ahora agregue ``talkview`` a "
+"la lista *Available view methods*. Ahora la nueva vista está disponible "
+"en el menú *Mostrar*. Para que sea la vista predeterminada ingrese esta "
+"vista en la sección ``Default view method``."
 
 #: ../views_2.rst:167
 msgid "open ``profiles/default/types/talk.xml``:"
@@ -278,8 +281,7 @@ msgstr ""
 
 #: ../views_2.rst:185
 msgid "Let's improve the talkview to show all the info we want."
-msgstr ""
-"Mejoremos la vista talkview para mostrar toda la información que queremos."
+msgstr "Mejoremos la vista talkview para mostrar toda la información que queremos."
 
 #: ../views_2.rst:187
 msgid "``templates/talkview.pt``:"
@@ -294,9 +296,9 @@ msgid ""
 "Add the new field \"room\" to the Talk type (TTW) and display it below "
 "Audience in the browser view, it should contain the following data:"
 msgstr ""
-"Agregar el nuevo campo \"room\" con el tipo de contenido Talk (a través de "
-"la Web) y mostrarlo debajo del campo Audience en la browser view, debe "
-"contener los siguientes datos:"
+"Agregar el nuevo campo \"room\" con el tipo de contenido Talk (a través "
+"de la Web) y mostrarlo debajo del campo Audience en la browser view, debe"
+" contener los siguientes datos:"
 
 #: ../views_2.rst:238
 msgid "Title: Room"
@@ -312,8 +314,8 @@ msgstr "Solución"
 
 #: ../views_2.rst:244
 msgid ""
-"Go to http://localhost:8080/Plone/dexterity-types/talk/@@fields and add the "
-"new fields"
+"Go to http://localhost:8080/Plone/dexterity-types/talk/@@fields and add "
+"the new fields"
 msgstr ""
 "Valla a la dirección URL http://localhost:8080/Plone/dexterity-"
 "types/talk/@@fields y agregue los nuevos campos"
@@ -323,5 +325,8 @@ msgid "Add the new HTML below the audience part:"
 msgstr "Agregar el nuevo HTML siguiente en la parte de audiencia:"
 
 #: ../views_2.rst:258
-msgid "http://docs.plone.org/4/en/develop/plone/views/browserviews.html"
-msgstr "http://docs.plone.org/4/en/develop/plone/views/browserviews.html"
+msgid "https://docs.plone.org/4/en/develop/plone/views/browserviews.html"
+msgstr "https://docs.plone.org/4/en/develop/plone/views/browserviews.html"
+
+#~ msgid "Get the code!"
+#~ msgstr "¡Obtén el código!"

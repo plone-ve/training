@@ -1,46 +1,47 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
-# This file is distributed under the same license as the Mastering Plone package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# Copyright (C) The text and illustrations in this website are licensed by
+# the Plone Foundation under a Creative Commons Attribution 4.0
+# International license.
+# This file is distributed under the same license as the Mastering Plone
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-11 11:13-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2016\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
+"2016\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../resources.rst:2
 msgid "Resources"
 msgstr "Recursos"
 
-#: ../resources.rst:0
-msgid "Get the code!"
-msgstr "¡Obtén el código!"
-
 #: ../resources.rst:6
 msgid ""
-"Get the code for this chapter (:doc:`More info <sneak>`) using this command "
-"in the buildout-directory:"
+"Get the code for this chapter (:doc:`More info <sneak>`) using this "
+"command in the buildout-directory:"
 msgstr ""
-"Obtén el código para este capítulo (:doc:`Más información <sneak>`) usando "
-"este comando en el directorio buildout:"
+"Obtén el código para este capítulo (:doc:`Más información <sneak>`) "
+"usando este comando en el directorio buildout:"
 
 #: ../resources.rst:13
 msgid ""
 "We have not yet talked about CSS and Javascript. At the moment these are "
 "considered static resources."
 msgstr ""
-"Todavía no hemos hablado de los archivos CSS y Javascript. Por el momento "
-"estos son considerados recursos estáticos."
+"Todavía no hemos hablado de los archivos CSS y Javascript. Por el momento"
+" estos son considerados recursos estáticos."
 
 #: ../resources.rst:15
 msgid ""
@@ -48,40 +49,39 @@ msgid ""
 "configure.zcml of our package already has a declaration for resources:"
 msgstr ""
 "Puede declarar y acceder a recursos estáticos con direcciones URLs "
-"especiales. El archivo ``configure.zcml`` de nuestro paquete ya tiene una "
-"declaración de recursos:"
+"especiales. El archivo ``configure.zcml`` de nuestro paquete ya tiene una"
+" declaración de recursos:"
 
 #: ../resources.rst:23
 msgid ""
 "Now all files we put in the resources-folder can be found via the url "
 "http://localhost:8080/Plone/++resource++ploneconf.site/something.js"
 msgstr ""
-"Ahora todos los archivos que ponemos en la carpeta llamada ``resources`` se pueden "
-"encontrar a través de la dirección URL "
+"Ahora todos los archivos que ponemos en la carpeta llamada ``resources`` "
+"se pueden encontrar a través de la dirección URL "
 "http://localhost:8080/Plone/++resource++ploneconf.site/something.js"
 
 #: ../resources.rst:25
-msgid ""
-"Let's create a ``ploneconf.css`` and a ``ploneconf.js`` in that folder."
+msgid "Let's create a ``ploneconf.css`` and a ``ploneconf.js`` in that folder."
 msgstr ""
-"Vamos a crear un archivo ``ploneconf.css`` y un archivo ``ploneconf.js`` en "
-"la carpeta ``resources``."
+"Vamos a crear un archivo ``ploneconf.css`` y un archivo ``ploneconf.js`` "
+"en la carpeta ``resources``."
 
 #: ../resources.rst:56
 msgid ""
 "If we access "
-"http://localhost:8080/Plone/++resource++ploneconf.site/ploneconf.css we see "
-"our css-file."
+"http://localhost:8080/Plone/++resource++ploneconf.site/ploneconf.css we "
+"see our css-file."
 msgstr ""
 "Si accedemos a la dirección URL "
-"http://localhost:8080/Plone/++resource++ploneconf.site/ploneconf.css para "
-"ver nuestro archivo CSS."
+"http://localhost:8080/Plone/++resource++ploneconf.site/ploneconf.css para"
+" ver nuestro archivo CSS."
 
 #: ../resources.rst:58
 msgid ""
-"How do our javascript and css files get used when visiting the page? Adding "
-"them directly into the html is not a good solution, having many css- and js-"
-"files slows down the page loading."
+"How do our javascript and css files get used when visiting the page? "
+"Adding them directly into the html is not a good solution, having many "
+"css- and js-files slows down the page loading."
 msgstr ""
 "¿Cómo hacer que nuestros archivos Javascript y CSS sean usados cuando "
 "visiten la página? Añadiendo directamente en el HTML no es una buena "
@@ -89,16 +89,16 @@ msgstr ""
 
 #: ../resources.rst:60
 msgid ""
-"With ``portal_css`` and ``portal_javascript`` Plone has resource managers "
-"that are able to merge and compress js and css files. Resources can be added"
-" conditionally and Plone automatically stops merging files when you are "
-"debugging Plone in the foreground."
+"With ``portal_css`` and ``portal_javascript`` Plone has resource managers"
+" that are able to merge and compress js and css files. Resources can be "
+"added conditionally and Plone automatically stops merging files when you "
+"are debugging Plone in the foreground."
 msgstr ""
 "Con las herramientas ``portal_css`` y ``portal_javascript`` Plone tiene "
-"administradores de recursos que son capaces de *combinar* y *comprimir archivos*"
-" JS y CSS. Los recursos pueden ser añadidos de forma condicional y Plone "
-"detiene automáticamente la combinación de archivos cuando se está depurando "
-"Plone en modo ``foreground``."
+"administradores de recursos que son capaces de *combinar* y *comprimir "
+"archivos* JS y CSS. Los recursos pueden ser añadidos de forma condicional"
+" y Plone detiene automáticamente la combinación de archivos cuando se "
+"está depurando Plone en modo ``foreground``."
 
 #: ../resources.rst:62
 msgid "We need to register our resources with GenericSetup."
@@ -106,8 +106,16 @@ msgstr "Tenemos que registrar nuestros recursos dentro de un perfil GenericSetup
 
 #: ../resources.rst:64
 msgid "Add a new file ``profiles/default/cssregistry.xml``"
-msgstr "Agregar un nuevo archivo ``profiles/default/cssregistry.xml``, con el siguiente código XML:"
+msgstr ""
+"Agregar un nuevo archivo ``profiles/default/cssregistry.xml``, con el "
+"siguiente código XML:"
 
 #: ../resources.rst:88
 msgid "Add a new file ``profiles/default/jsregistry.xml``"
-msgstr "Agregar un nuevo archivo ``profiles/default/jsregistry.xml``, con el siguiente código XML:"
+msgstr ""
+"Agregar un nuevo archivo ``profiles/default/jsregistry.xml``, con el "
+"siguiente código XML:"
+
+#~ msgid "Get the code!"
+#~ msgstr "¡Obtén el código!"
+

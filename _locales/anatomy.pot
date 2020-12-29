@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Basically this is Zope."
 msgstr ""
 
 #: ../anatomy.rst:42
-msgid "http://www.zope.org/the-world-of-zope http://docs.zope.org/zope2/zope2book/"
+msgid "https://www.zope.org/world.html https://zope.readthedocs.io/en/latest/zopebook/"
 msgstr ""
 
 #: ../anatomy.rst:47
@@ -97,7 +97,7 @@ msgid "Content Management Framework"
 msgstr ""
 
 #: ../anatomy.rst:49
-msgid "`CMF (Content Management Framework) <http://old.zope.org/Products/CMF/index.html/>`_ is add-on for Zope to build Content Management Systems (like Plone)."
+msgid "`CMF (Content Management Framework) <https://old.zope.org/Products/CMF/index.html/>`_ is add-on for Zope to build Content Management Systems (like Plone)."
 msgstr ""
 
 #: ../anatomy.rst:54
@@ -145,7 +145,7 @@ msgid "To make the history complete, since people stayed on Zope 2, the Zope com
 msgstr ""
 
 #: ../anatomy.rst:82
-msgid "https://old.plone.org/documentation/faq/zope-3-and-plone"
+msgid "https://training.plone.org/4/anatomy.html#zope-toolkit-zope3"
 msgstr ""
 
 #: ../anatomy.rst:86
@@ -161,11 +161,11 @@ msgid "Pyramid"
 msgstr ""
 
 #: ../anatomy.rst:94
-msgid "`Pyramid <http://docs.pylonsproject.org/en/latest/docs/pyramid.html>`_ is a Python web application development framework that is often seen as the successor to Zope."
+msgid "`Pyramid <https://trypyramid.com/documentation.html>`_ is a Python web application development framework that is often seen as the successor to Zope."
 msgstr ""
 
 #: ../anatomy.rst:95
-msgid "It does less than Zope, is very pluggable and `uses the Zope Component Architecture <http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_."
+msgid "It does less than Zope, is very pluggable and `uses the Zope Component Architecture <https://docs.pylonsproject.org/projects/pyramid/en/latest/narr/zca.html>`_."
 msgstr ""
 
 #: ../anatomy.rst:99

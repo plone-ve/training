@@ -5,21 +5,22 @@
 # This file is distributed under the same license as the Mastering Plone
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
-#, fuzzy
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
-"2016\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
+"PO-Revision-Date: 2020-12-28 18:40-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../configuring_customizing.rst:2
 msgid "Configuring and Customizing Plone through the web"
@@ -208,8 +209,8 @@ msgid ""
 "Go to the training-folder: http://localhost:8080/Plone/the-event/training"
 " and click ``Manage portlets``"
 msgstr ""
-"Ve a la carpeta de training: http://localhost:8080/Plone/training y has "
-"clic ``Administrar portlets``"
+"Ve a la carpeta de training: http://localhost:8080/Plone/training y has clic "
+"``Administrar portlets``"
 
 #: ../configuring_customizing.rst:61
 msgid ""
@@ -452,8 +453,8 @@ msgid "Create new Document `Imprint` and publish"
 msgstr "Cree un nuevo Documento llamado `Aviso legal` y publíquelo"
 
 #: ../configuring_customizing.rst:154
-msgid "http://docs.plone.org/4/en/develop/plone/functionality/actions.html"
-msgstr "http://docs.plone.org/4/en/develop/plone/functionality/actions.html"
+msgid "https://docs.plone.org/4/en/develop/plone/functionality/actions.html"
+msgstr "https://docs.plone.org/4/en/develop/plone/functionality/actions.html"
 
 #: ../configuring_customizing.rst:158
 msgid "Global navigation"
@@ -541,15 +542,14 @@ msgstr ""
 #: ../configuring_customizing.rst:190
 msgid ""
 "We used to do this part of the training with `plone.app.themeeditor "
-"<https://pypi.python.org/pypi/plone.app.themeeditor>`_ which has a much "
-"nicer UI than the ZMI but also has dependencies that are incompatible "
-"with ZopeSkel and is not widely used."
+"<https://pypi.org/project/plone.app.themeeditor>`_ which has a much nicer"
+" UI than the ZMI but also has dependencies that are incompatible with "
+"ZopeSkel and is not widely used."
 msgstr ""
-"Antes solíamos usar como parte del entrenamiento el complemento "
-"`plone.app.themeeditor "
-"<https://pypi.python.org/pypi/plone.app.themeeditor>`_ que tiene una "
-"interfaz de usuario mucho más agradable que la ZMI pero también tiene "
-"dependencias que no son compatibles con ZopeSkel y no es muy utilizada."
+"Antes solíamos usar como parte del entrenamiento el complemento `"
+"plone.app.themeeditor <https://pypi.org/project/plone.app.themeeditor>`_ que "
+"tiene una interfaz de usuario mucho más agradable que la ZMI pero también "
+"tiene dependencias que no son compatibles con ZopeSkel y no es muy utilizada."
 
 #: ../configuring_customizing.rst:194
 msgid "Change some css"
@@ -561,11 +561,11 @@ msgstr "Ir a ZMI"
 
 #: ../configuring_customizing.rst:197
 msgid "go to portal_skins"
-msgstr "Ir a la herramienta portal_skins"
+msgstr "Ir a la herramienta ``portal_skins``"
 
 #: ../configuring_customizing.rst:198
 msgid "go to plone_styles"
-msgstr "Ir a la herramienta plone_styles"
+msgstr "Ir a la herramienta ``plone_styles``"
 
 #: ../configuring_customizing.rst:199
 msgid "go to ``ploneCustom.css``"
@@ -579,12 +579,16 @@ msgstr "Haga clic en ``customize``"
 msgid "Enter the following css:"
 msgstr "Ingrese el siguiente CSS:"
 
+#: ../configuring_customizing.rst:214
+msgid "Save and check the results"
+msgstr "Guarde y compruebe los resultados"
+
 #: ../configuring_customizing.rst:218
 msgid ""
 "Click 'save' and check results in the a different browser-tab. How did "
 "that happen?"
 msgstr ""
-"Haga clic en ``Save`` y verifique los resultados en otra pestaña del "
+"Haga clic en 'save ' y verifique los resultados en otra pestaña del "
 "navegador. ¿Cómo sucedió eso?"
 
 #: ../configuring_customizing.rst:220
@@ -596,7 +600,7 @@ msgid ""
 msgstr ""
 "La interfaz de usuario deja mucho que desear. En un contexto profesional "
 "esto es inútil (sin control de versiones, no resaltado de sintaxis, etc. "
-"pp.). Pero todo el mundo usa la herramienta portal_skins, para hacer "
+"``pp``.). Pero todo el mundo usa la herramienta ``portal_skins``, para hacer "
 "arreglos rápidos a los sitios que ya están en línea."
 
 #: ../configuring_customizing.rst:222
@@ -604,6 +608,10 @@ msgid "Let's add some more css to make our site a little responsive:"
 msgstr ""
 "Vamos a añadir un poco más estilos CSS para hacer nuestro sitio un poco "
 "adaptativo:"
+
+#: ../configuring_customizing.rst:226
+msgid "Add some more css"
+msgstr "Añada algunos archivos css"
 
 #: ../configuring_customizing.rst:251
 msgid "Change the logo"
@@ -632,8 +640,8 @@ msgstr ""
 "Logotipo."
 
 #: ../configuring_customizing.rst:261
-msgid "http://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
-msgstr "http://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
+msgid "https://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
+msgstr "https://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
 
 #: ../configuring_customizing.rst:265
 msgid "portal_view_customizations"
@@ -653,15 +661,15 @@ msgstr "Busque ``plone.footer``, haga clic y personalice"
 
 #: ../configuring_customizing.rst:272
 msgid "replace the content with the following"
-msgstr "Reemplace el contenido con lo siguiente"
+msgstr "reemplace el contenido con lo siguiente"
 
 #: ../configuring_customizing.rst:288
 msgid ""
-"http://docs.plone.org/4/en/adapt-and-"
+"https://docs.plone.org/4/en/adapt-and-"
 "extend/theming/templates_css/skin_layers.html"
 msgstr ""
-"http://docs.plone.org/4/en/adapt-and-"
-"extend/theming/templates_css/skin_layers.html"
+"https://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/"
+"skin_layers.html"
 
 #: ../configuring_customizing.rst:292
 msgid "CSS-Registry (portal_css)"
@@ -763,4 +771,3 @@ msgstr ""
 " más están escondidas en la `ZMI <http://localhost:8080/Plone/manage>`_. "
 "La cantidad y presentación de la información es abrumadora, pero usted "
 "conseguirá la caída de ella a través de mucha práctica."
-

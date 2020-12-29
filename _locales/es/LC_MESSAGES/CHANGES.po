@@ -5,21 +5,22 @@
 # This file is distributed under the same license as the Mastering Plone
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-#
-#, fuzzy
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-05 03:32-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
-"2016\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
+"PO-Revision-Date: 2020-12-28 18:28-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../CHANGES.rst:2
 msgid "Changelog"
@@ -31,7 +32,9 @@ msgstr "1.2.5 (sin publicar)"
 
 #: ../CHANGES.rst:7
 msgid "Completed the Spanish translations for the Plone 4 training [macagua]"
-msgstr "Completada la traducción al Español para el entrenamiento de Plone 4 [macagua]"
+msgstr ""
+"Completada la traducción al Español para el entrenamiento de Plone 4 "
+"[macagua]"
 
 #: ../CHANGES.rst:10
 msgid "Revision of part one for Ploneconf 2014, Bristol [smcmahon]"
@@ -50,7 +53,7 @@ msgid ""
 "Add first exercises and create css+js for expanding/collapsing the "
 "solutions [pbauer]"
 msgstr ""
-"Agregue los primeros ejercicios y cree archivos css + js para expandir / "
+"Agregue los primeros ejercicios y cree archivos css + js para expandir/"
 "colapsar las soluciones de las practicas [pbauer]"
 
 #: ../CHANGES.rst:22
@@ -59,7 +62,7 @@ msgstr "Corregir la compilación local con el paquete rtd-Theme [pbauer]"
 
 #: ../CHANGES.rst:25
 msgid "Add spanish translation. [macagua]"
-msgstr "Agregar traducción al Español. [macagua]"
+msgstr "Agregar traducción al español. [macagua]"
 
 #: ../CHANGES.rst:28
 msgid ""
@@ -75,15 +78,15 @@ msgstr "1.2.3 (2014-07-11)"
 
 #: ../CHANGES.rst:35
 msgid ""
-"Move sources to https://github.com/plone/training and render at http"
+"Move sources to https://github.com/plone/training and render at https"
 "://plone-training.readthedocs.io/en/legacy/ [pbauer]"
 msgstr ""
 "Mover las fuentes de https://github.com/plone/training y renderizarlo en "
-"http://plone-training.readthedocs.io/en/legacy/ [pbauer]"
+"https://plone-training.readthedocs.io/en/legacy/ [pbauer]"
 
 #: ../CHANGES.rst:39
 msgid "Integrate with docs.plone.org and papyrus [do3cc]"
-msgstr "integrar con docs.plone.org y papyrus [do3cc, hellfish2]"
+msgstr "Integrar con docs.plone.org y papyrus [do3cc]"
 
 #: ../CHANGES.rst:42
 msgid "Change license to https://creativecommons.org/licenses/by/4.0/ [pbauer]"
@@ -135,11 +138,11 @@ msgstr ""
 
 #: ../CHANGES.rst:69
 msgid "include vagrant-setup as zip-file [pbauer]"
-msgstr "Incluir vagrant-setup como un archivo Zip [pbauer, hellfish2]"
+msgstr "incluir vagrant-setup como un archivo zip [pbauer]"
 
 #: ../CHANGES.rst:72
 msgid "several small bugfixes [pbauer]"
-msgstr "Serios pequeños bugfixes [pbauer, hellfish2]"
+msgstr "serios pequeños bugfixes [pbauer]"
 
 #: ../CHANGES.rst:77
 msgid "1.2 (2014-05-23)"
@@ -153,7 +156,7 @@ msgstr ""
 
 #: ../CHANGES.rst:82
 msgid "remove grok [pbauer]"
-msgstr "Remover grok [pbauer, hellfish2]"
+msgstr "remover grok [pbauer]"
 
 #: ../CHANGES.rst:85
 msgid "use plone.app.contenttypes from the beginning [pbauer]"
@@ -165,15 +168,15 @@ msgstr "usar plone.api [pbauer, hellfish2]"
 
 #: ../CHANGES.rst:91
 msgid "rewrite vagrant-setup [pbauer]"
-msgstr "Reescribir vagrant-setup [pbauer, hellfish2]"
+msgstr "reescribir vagrant-setup [pbauer]"
 
 #: ../CHANGES.rst:94
 msgid "drop use of plone.app.themeeditor [pbauer]"
-msgstr "Eliminar el uso de plone.app.themeeditor [pbauer, hellfish2]"
+msgstr "eliminar el uso de plone.app.themeeditor [pbauer]"
 
 #: ../CHANGES.rst:97
 msgid "add more chapters:"
-msgstr "Agregue más capítulos:"
+msgstr "agregue más capítulos:"
 
 #: ../CHANGES.rst:99
 msgid "Dexterity Types II: Growing up"
@@ -246,9 +249,7 @@ msgstr "0.1 (Octubre 2009)"
 #: ../CHANGES.rst:134
 msgid ""
 "Initial parts created for the Plone-Einsteigerkurs "
-"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer]"
+"(https://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer]"
 msgstr ""
-"Partes iniciales creadas para el Plone-Einsteigerkurs "
-"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer, "
-"hellfish2]"
-
+"Partes iniciales creadas para el Plone-Einsteigerkurs (https://www.plone.de/"
+"trainings/einsteiger-kurs/kursuebersicht) [pbauer]"

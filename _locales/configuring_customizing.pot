@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -390,7 +390,7 @@ msgid "Create new Document `Imprint` and publish"
 msgstr ""
 
 #: ../configuring_customizing.rst:154
-msgid "http://docs.plone.org/4/en/develop/plone/functionality/actions.html"
+msgid "https://docs.plone.org/4/en/develop/plone/functionality/actions.html"
 msgstr ""
 
 #: ../configuring_customizing.rst:158
@@ -458,7 +458,7 @@ msgid "Plone 5 will get rid of a lot of functionality that still lives in portal
 msgstr ""
 
 #: ../configuring_customizing.rst:190
-msgid "We used to do this part of the training with `plone.app.themeeditor <https://pypi.python.org/pypi/plone.app.themeeditor>`_ which has a much nicer UI than the ZMI but also has dependencies that are incompatible with ZopeSkel and is not widely used."
+msgid "We used to do this part of the training with `plone.app.themeeditor <https://pypi.org/project/plone.app.themeeditor>`_ which has a much nicer UI than the ZMI but also has dependencies that are incompatible with ZopeSkel and is not widely used."
 msgstr ""
 
 #: ../configuring_customizing.rst:194
@@ -489,6 +489,10 @@ msgstr ""
 msgid "Enter the following css:"
 msgstr ""
 
+#: ../configuring_customizing.rst:214
+msgid "Save and check the results"
+msgstr ""
+
 #: ../configuring_customizing.rst:218
 msgid "Click 'save' and check results in the a different browser-tab. How did that happen?"
 msgstr ""
@@ -499,6 +503,10 @@ msgstr ""
 
 #: ../configuring_customizing.rst:222
 msgid "Let's add some more css to make our site a little responsive:"
+msgstr ""
+
+#: ../configuring_customizing.rst:226
+msgid "Add some more css"
 msgstr ""
 
 #: ../configuring_customizing.rst:251
@@ -522,7 +530,7 @@ msgid "Click on ``logo.png``, click ``Customize`` and Upload the Logo."
 msgstr ""
 
 #: ../configuring_customizing.rst:261
-msgid "http://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
+msgid "https://docs.plone.org/4/en/adapt-and-extend/change-the-logo.html"
 msgstr ""
 
 #: ../configuring_customizing.rst:265
@@ -546,7 +554,7 @@ msgid "replace the content with the following"
 msgstr ""
 
 #: ../configuring_customizing.rst:288
-msgid "http://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/skin_layers.html"
+msgid "https://docs.plone.org/4/en/adapt-and-extend/theming/templates_css/skin_layers.html"
 msgstr ""
 
 #: ../configuring_customizing.rst:292

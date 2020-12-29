@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-21 00:23-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
 "2016\n"
@@ -19,15 +19,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../viewlets_1.rst:2
 msgid "Writing Viewlets"
 msgstr "Escribiendo Viewlets"
-
-#: ../viewlets_1.rst
-msgid "Get the code!"
-msgstr "¡Obtén el código!"
 
 #: ../viewlets_1.rst:6
 msgid ""
@@ -47,9 +43,9 @@ msgid ""
 "in various places in the site. These places are called "
 "``viewletmanager``."
 msgstr ""
-"Un viewlet no es una vista, pero es un fragmento de HTML y la lógica Python que "
-"se puede colocar en varios lugares en el sitio. Estos lugares se llaman "
-"``ViewletManager``."
+"Un viewlet no es una vista, pero es un fragmento de HTML y la lógica "
+"Python que se puede colocar en varios lugares en el sitio. Estos lugares "
+"se llaman ``ViewletManager``."
 
 #: ../viewlets_1.rst:20
 msgid ""
@@ -64,8 +60,8 @@ msgid ""
 "We already customized a viewlet (:file:`collophon.pt`). Now we add a new "
 "one."
 msgstr ""
-"Ya hemos personalizado un viewlet (el archivo :file:`collophon.pt`). Ahora "
-"agregamos un nuevo viewlet."
+"Ya hemos personalizado un viewlet (el archivo :file:`collophon.pt`). "
+"Ahora agregamos un nuevo viewlet."
 
 #: ../viewlets_1.rst:22
 msgid "Viewlets don't save data (portlets do)"
@@ -89,7 +85,9 @@ msgstr ""
 
 #: ../viewlets_1.rst:32
 msgid "We register the viewlet in :file:`browser/configure.zcml`."
-msgstr "Registramos el viewlet en el archivo :file:`browser/configure.zcml`, agregando el siguiente código ZCML:"
+msgstr ""
+"Registramos el viewlet en el archivo :file:`browser/configure.zcml`, "
+"agregando el siguiente código ZCML:"
 
 #: ../viewlets_1.rst:49
 msgid ""
@@ -102,7 +100,8 @@ msgstr ""
 "contenidos que implementa la interfaz ``ISocial`` de nuestro "
 "comportamiento. También es una buena práctica de obligar a la "
 "`BrowserLayer`_ llamada ``IPloneconfSiteLayer`` de nuestro complemento "
-"para que sólo sea mostrado si nuestro complemento esta instalado en realidad."
+"para que sólo sea mostrado si nuestro complemento esta instalado en "
+"realidad."
 
 #: ../viewlets_1.rst:53
 msgid ""
@@ -128,7 +127,8 @@ msgid ""
 msgstr ""
 "Si utilizamos ``Grok`` no necesitaríamos registrar los viewlets en el "
 "archivo ``configure.zcml`` pero si hay que hacerlo en código Python. Nos "
-"gustaría añadir un archivo ``viewlets.py`` que contiene la clase viewlet, la cual se presenta a continuación:"
+"gustaría añadir un archivo ``viewlets.py`` que contiene la clase viewlet,"
+" la cual se presenta a continuación:"
 
 #: ../viewlets_1.rst:84
 msgid ""
@@ -138,9 +138,10 @@ msgid ""
 "``viewlet/lanyrd_link``)."
 msgstr ""
 "Esto haría lo mismo que el código anterior utilizando el paradigma de "
-"``Grok`` de la convención sobre la configuración. En las browser views la "
-"referencia es llamada ``view``, usted tenga en cuenta que en las viewlets Grok se "
-"llama ``viewlets`` (en ese caso ``viewlet/lanyrd_link``)."
+"``Grok`` de la convención sobre la configuración. En las browser views la"
+" referencia es llamada ``view``, usted tenga en cuenta que en las "
+"viewlets Grok se llama ``viewlets`` (en ese caso "
+"``viewlet/lanyrd_link``)."
 
 #: ../viewlets_1.rst:86
 msgid "Let's add the missing template :file:`templates/social_viewlet.pt`."
@@ -154,27 +155,22 @@ msgid ""
 "because we don't want a complete view here, just a html snippet."
 msgstr ""
 "Como se puede ver esto no es un documento válido HTML. Eso no es "
-"necesario, porque no queremos una ``view`` completa aquí, sólo un fragmento"
-" de código HTML."
+"necesario, porque no queremos una ``view`` completa aquí, sólo un "
+"fragmento de código HTML."
 
 #: ../viewlets_1.rst:106
 msgid ""
 "There is a tal define statement, querying for `view/lanyrd_link`. Like in"
 " page templates the template has access to its class."
 msgstr ""
-"Hay una sentencia ``tal:define``, para la consulta "
-"`view/lanyrd_link`. Al igual en la page templates de la plantilla tiene"
-" acceso a su clase."
+"Hay una sentencia ``tal:define``, para la consulta `view/lanyrd_link`. Al"
+" igual en la page templates de la plantilla tiene acceso a su clase."
 
 #: ../viewlets_1.rst:108
 msgid "We have to extend the Social Viewlet now to add the missing attribute:"
 msgstr ""
-"Entonces, ahora tenemos que ampliar el Viewlet Social para añadir el atributo que "
-"le falta, agregando el siguiente código Python:"
-
-#: ../viewlets_1.rst
-msgid "Why not to access context directly"
-msgstr "¿Por qué no acceder directamente contexto?"
+"Entonces, ahora tenemos que ampliar el Viewlet Social para añadir el "
+"atributo que le falta, agregando el siguiente código Python:"
 
 #: ../viewlets_1.rst:115
 msgid ""
@@ -240,11 +236,11 @@ msgid ""
 "not do this but there is plenty of code out there that does it...)"
 msgstr ""
 "Registrar una viewlet ``number_of_talks`` en el pie de página que es "
-"visible sólo para los administradores del sitio (el permiso que usted busca es "
-"``cmf.ManagePortal``). Utilice sólo una plantilla (sin clase) para "
-"mostrar el número de charlas ya enviadas. Sugerencia: Utilice Aquisition"
-" para obtener al catálogo (Usted sabe, no debe hacer esto, pero hay un "
-"montón de código por ahí que lo hace...)"
+"visible sólo para los administradores del sitio (el permiso que usted "
+"busca es ``cmf.ManagePortal``). Utilice sólo una plantilla (sin clase) "
+"para mostrar el número de charlas ya enviadas. Sugerencia: Utilice "
+"Aquisition para obtener al catálogo (Usted sabe, no debe hacer esto, pero"
+" hay un montón de código por ahí que lo hace...)"
 
 #: ../viewlets_1.rst:147
 msgid "Solution"
@@ -252,7 +248,9 @@ msgstr "Solución"
 
 #: ../viewlets_1.rst:150
 msgid "Register the viewlet in :file:`browser/configure.zcml`"
-msgstr "Registrar el viewlet en el archivo :file:`browser/configure.zcml`, agregando el siguiente código ZCML:"
+msgstr ""
+"Registrar el viewlet en el archivo :file:`browser/configure.zcml`, "
+"agregando el siguiente código ZCML:"
 
 #: ../viewlets_1.rst:164
 msgid ""
@@ -270,7 +268,8 @@ msgstr ""
 msgid "Add the template :file:`browser/templates/number_of_talks.pt`:"
 msgstr ""
 "Agregar el archivo de la plantilla "
-":file:`browser/templates/number_of_talks.pt`, agregando el siguiente código HTML:"
+":file:`browser/templates/number_of_talks.pt`, agregando el siguiente "
+"código HTML:"
 
 #: ../viewlets_1.rst:176
 msgid ""
@@ -329,4 +328,10 @@ msgstr ""
 "conferencia. Usted consigue muchos puntos de bonificación si se muestra "
 "en un formato agradable (pensar \"En 2 días\" y \"Último mes\") "
 "utilizando un Javascript existentes o biblioteca Python."
+
+#~ msgid "Get the code!"
+#~ msgstr "¡Obtén el código!"
+
+#~ msgid "Why not to access context directly"
+#~ msgstr "¿Por qué no acceder directamente contexto?"
 

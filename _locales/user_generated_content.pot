@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,6 @@ msgstr ""
 
 #: ../user_generated_content.rst:2
 msgid "User generated content"
-msgstr ""
-
-#: ../user_generated_content.rst:0
-msgid "Get the code!"
 msgstr ""
 
 #: ../user_generated_content.rst:6
@@ -131,7 +127,7 @@ msgid "Go back to *portal_workflow* and set the new workflow ``talks_workflow`` 
 msgstr ""
 
 #: ../user_generated_content.rst:61
-msgid "The addon `plone.app.workflowmanager <https://pypi.python.org/pypi/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well."
+msgid "The addon `plone.app.workflowmanager <https://pypi.org/project/plone.app.workflowmanager>`_ provides a much nicer user-interface for this. The problem is you need a big screen for it and it can be pretty confusing as well."
 msgstr ""
 
 #: ../user_generated_content.rst:63
@@ -163,7 +159,7 @@ msgid "drop ``workflows/talks_workflow/definition.xml`` in ``profiles/default/wo
 msgstr ""
 
 #: ../user_generated_content.rst:81
-msgid "This has to happen in python in a custom `setuphandler.py <http://docs.plone.org/4/en/develop/addons/components/genericsetup.html#custom-installer-code-setuphandlers-py>`_ since there is not yet a exportable setting for this."
+msgid "This has to happen in python in a custom `setuphandler.py <https://docs.plone.org/4/en/develop/addons/components/genericsetup.html#custom-installer-code-setuphandlers-py>`_ since there is not yet a exportable setting for this."
 msgstr ""
 
 #: ../user_generated_content.rst:83

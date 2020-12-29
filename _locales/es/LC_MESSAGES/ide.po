@@ -5,21 +5,22 @@
 # This file is distributed under the same license as the Mastering Plone
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-#
-#, fuzzy
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-21 00:23-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>, "
-"2016\n"
-"Language-Team: Spanish (https://www.transifex.com/plone/teams/21152/es/)\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
+"PO-Revision-Date: 2020-12-28 20:54-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../ide.rst:2
 msgid "IDE's and Editors"
@@ -48,16 +49,19 @@ msgid "`Sublime <http://www.sublimetext.com/>`_"
 msgstr "`Sublime <http://www.sublimetext.com/>`_."
 
 #: ../ide.rst:9
-msgid "`PyCharm <http://www.jetbrains.com/pycharm/>`_"
-msgstr "`PyCharm <http://www.jetbrains.com/pycharm/>`_."
+msgid "`PyCharm <https://www.jetbrains.com/pycharm/>`_"
+msgstr "`PyCharm <https://www.jetbrains.com/pycharm/>`_"
 
 #: ../ide.rst:10
 msgid "`Wing IDE <http://wingide.com/>`_"
 msgstr "`Wing IDE <http://wingide.com/>`_."
 
 #: ../ide.rst:11
-msgid "`PyDev <http://www.pydev.org/>`_ for `Eclipse <https://eclipse.org/>`_"
-msgstr "`PyDev <http://www.pydev.org/>`_ para `Eclipse <https://eclipse.org/>`_"
+msgid ""
+"`PyDev <https://www.pydev.org/>`_ for `Eclipse "
+"<https://www.eclipse.org/>`_"
+msgstr ""
+"`PyDev <https://www.pydev.org/>`_ para `Eclipse <https://www.eclipse.org/>`_"
 
 #: ../ide.rst:12
 msgid "`Aptana Studio <http://www.aptana.com/products/studio3.html>`_"
@@ -114,9 +118,9 @@ msgid ""
 "you can search through the complete Plone-code in 3 seconds."
 msgstr ""
 "La capacidad de realizar una *búsqueda a texto completo* a través del "
-"código completo de Plone es inestimable. gracias a la receta ``omelette``, con "
-"una unidad de estado sólido y mucha RAM puedes buscar en el código de "
-"Plone en 3 segundos."
+"código completo de Plone es inestimable. gracias a la receta "
+"``omelette``, con una unidad de estado sólido y mucha RAM puedes buscar "
+"en el código de Plone en 3 segundos."
 
 #: ../ide.rst:29
 msgid ""
@@ -162,4 +166,3 @@ msgstr "MacTerminal"
 #: ../ide.rst:39
 msgid "SyncedSideBar"
 msgstr "SyncedSideBar"
-

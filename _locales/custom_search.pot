@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mastering Plone 1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-22 16:14-0400\n"
+"POT-Creation-Date: 2020-12-28 17:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "eea.facetednavigation"
 msgstr ""
 
 #: ../custom_search.rst:11
-msgid "Install `eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
+msgid "Install `eea.facetednavigation <https://pypi.org/project/eea.facetednavigation/>`_"
 msgstr ""
 
 #: ../custom_search.rst:12
@@ -69,26 +69,26 @@ msgid "Examples:"
 msgstr ""
 
 #: ../custom_search.rst:23
-msgid "http://www.dipf.de/en/research/projects"
+msgid "https://www.dipf.de/en/research/current-projects"
 msgstr ""
 
 #: ../custom_search.rst:24
-msgid "https://mountaineers.org/learn/find-courses-clinics-seminars"
+msgid "https://www.mountaineers.org/courses/courses-clinics-seminars"
 msgstr ""
 
 #: ../custom_search.rst:25
-msgid "http://www.dynajet.de/en/hochdruckreiniger"
+msgid "https://www.dyna-jet.com/hochdruckreiniger"
 msgstr ""
 
 #: ../custom_search.rst:31
-msgid "We use the new catalog indexes to provide the data for the widgets and search the results. For other use-cases we could also use either the built-in vocabularies (https://pypi.python.org/pypi/plone.app.vocabularies) or create custom vocabularies for this."
+msgid "We use the new catalog indexes to provide the data for the widgets and search the results. For other use-cases we could also use either the built-in vocabularies (https://pypi.org/project/plone.app.vocabularies) or create custom vocabularies for this."
 msgstr ""
 
 #: ../custom_search.rst:33
-msgid "Custom vocabularies ttw using `Products.ATVocabularyManager <https://pypi.python.org/pypi/Products.ATVocabularyManager>`_"
+msgid "Custom vocabularies ttw using `Products.ATVocabularyManager <https://pypi.org/project/Products.ATVocabularyManager>`_"
 msgstr ""
 
 #: ../custom_search.rst:34
-msgid "Programming using Vocabularies: http://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/vocabularies.html"
+msgid "Programming using Vocabularies: https://docs.plone.org/4/en/external/plone.app.dexterity/docs/advanced/vocabularies.html"
 msgstr ""
 
