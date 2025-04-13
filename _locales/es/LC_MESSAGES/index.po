@@ -127,7 +127,7 @@ msgstr ":doc:`solr/index`"
 
 #: ../index.rst:60
 msgid "How to add enterprise-grade search to your Plone site."
-msgstr "Cómo agregar una búsqueda de nivel empresarial a su sitio de Plone."
+msgstr "Cómo añadir una búsqueda de nivel empresarial a su sitio de Plone."
 
 #: ../index.rst:62
 msgid ":doc:`angular/index`"
