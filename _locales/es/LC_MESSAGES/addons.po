@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
 # This file is distributed under the same license as the Mastering Plone package.
-# 
+#
 # Translators:
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
@@ -11,14 +11,15 @@ msgstr ""
 "Project-Id-Version: Mastering Plone Training\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-16 08:09-0430\n"
-"PO-Revision-Date: 2014-07-16 12:46+0000\n"
+"PO-Revision-Date: 2025-04-13 19:28+0200\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/mastering-plone-training/language/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
 
 # 77b58025b3fc49fc90685e42dacac7ce
 #: ../addons.rst:2
@@ -27,9 +28,7 @@ msgstr "Extiende Plone con Complementos"
 
 # 4359c4b3b0a646f1981df667beac4a3a
 #: ../addons.rst:4
-msgid ""
-"There are more than 2000 addons for Plone. We will cover only a handfull "
-"today."
+msgid "There are more than 2000 addons for Plone. We will cover only a handfull today."
 msgstr "Hay mas de 2000 Complementos para Plone. Cubriremos solamente una porción de ellos."
 
 # 66c523e1318c4c2d84f5cf48df5c7c11
@@ -85,13 +84,11 @@ msgstr "Revisa la lista corta (Plone Paragon) que vendrá en el 2014 en plone.or
 # 5199a166753e495099cf623a627a9e2f
 #: ../addons.rst:19
 msgid "ask in irc and on the mailing list"
-msgstr "Pregunta en el canal irc y la lista de correo"
+msgstr "pregunta en el canal irc y la lista de correo"
 
 # 84fe0f9926bd4c01bd7d52ddde34a1ea
 #: ../addons.rst:23
-msgid ""
-"A talk on finding and managing addons: "
-"http://www.youtube.com/watch?v=Sc6NkqaSjqw"
+msgid "A talk on finding and managing addons: http://www.youtube.com/watch?v=Sc6NkqaSjqw"
 msgstr "Una conversación sobre encontrar y administrar complementos: http://www.youtube.com/watch?v=Sc6NkqaSjqw"
 
 # 554b30c8681244e6a536143b54107182
@@ -101,9 +98,7 @@ msgstr "Algunos complementos notables"
 
 # 16e25707739940cd9218f172ffbdb708
 #: ../addons.rst:30
-msgid ""
-"`Products.PloneFormGen "
-"<https://docs.plone.org/develop/plone/forms/ploneformgen.html>`_"
+msgid "`Products.PloneFormGen <https://docs.plone.org/develop/plone/forms/ploneformgen.html>`_"
 msgstr "`Products.PloneFormGen <https://docs.plone.org/develop/plone/forms/ploneformgen.html>`_"
 
 # faec4eb14e824339aeb11b2285108ec7
@@ -113,9 +108,7 @@ msgstr "Un generador de formularios"
 
 # f445ec2850bc4fb49f3202c48f9bf0d6
 #: ../addons.rst:33
-msgid ""
-"`collective.plonetruegallery "
-"<https://pypi.python.org/pypi/collective.plonetruegallery>`_"
+msgid "`collective.plonetruegallery <https://pypi.python.org/pypi/collective.plonetruegallery>`_"
 msgstr "`collective.plonetruegallery <https://pypi.python.org/pypi/collective.plonetruegallery>`_"
 
 # e8ea29be05444865bae23aa367e1085e
@@ -125,10 +118,7 @@ msgstr "Galerías de fotos con una gran selección de varios librerías javascri
 
 # 5e175089ee0c43569ce85f06907644f8
 #: ../addons.rst:36
-msgid ""
-"`collective.cover "
-"<https://github.com/collective/collective.cover/blob/master/docs/end-"
-"user.rst>`_"
+msgid "`collective.cover <https://github.com/collective/collective.cover/blob/master/docs/end-user.rst>`_"
 msgstr "`collective.cover <https://github.com/collective/collective.cover/blob/master/docs/end-user.rst>`_"
 
 # 8a059255065b4edc9f5fc8be56f41c32
@@ -148,8 +138,7 @@ msgstr "Paquete flexible de complementos para georeferenciar contenido y mostrar
 
 # de4a41385fdf4266ae0fd418c5f5d0f4
 #: ../addons.rst:42
-msgid ""
-"`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_"
+msgid "`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_"
 msgstr "`collective.mailchimp <https://pypi.python.org/pypi/collective.mailchimp>`_"
 
 # a831c9ef7e01403992e2d6210301dfda
@@ -159,9 +148,7 @@ msgstr "Permite a los visitantes suscribirse a noticias Mailchimp"
 
 # 8a3bdbb45fd240fea1e431907ecaf973
 #: ../addons.rst:45
-msgid ""
-"`eea.facetednavigation "
-"<https://pypi.python.org/pypi/eea.facetednavigation/>`_"
+msgid "`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
 msgstr "`eea.facetednavigation <https://pypi.python.org/pypi/eea.facetednavigation/>`_"
 
 # b298866dc64843c291725b1b6ed33485
@@ -171,9 +158,7 @@ msgstr "Crear la navegación facetada y búsquedas a través de la web."
 
 # dbe1d01d6fa8441db6ffce28690bc196
 #: ../addons.rst:48
-msgid ""
-"`webcouturier.dropdownmenu "
-"<https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_"
+msgid "`webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_"
 msgstr "`webcouturier.dropdownmenu <https://pypi.python.org/pypi/webcouturier.dropdownmenu>`_"
 
 # 2d185be58b4248059cbd93d09d90e390
@@ -183,9 +168,7 @@ msgstr "Convierte la navegación global en menú desplegables"
 
 # e6825aaa1c354d6780f8f76f190de910
 #: ../addons.rst:51
-msgid ""
-"`collective.quickupload "
-"<https://pypi.python.org/pypi/collective.quickupload>`_"
+msgid "`collective.quickupload <https://pypi.python.org/pypi/collective.quickupload>`_"
 msgstr "`collective.quickupload <https://pypi.python.org/pypi/collective.quickupload>`_"
 
 # 3c967773f4fa44bd8bfc3d2166c3fbae
@@ -205,21 +188,17 @@ msgstr "Un flexible pie de pagina basado en el patrón de diseño doormat"
 
 # b3c5aa07d3944278ba2d41b9925a624a
 #: ../addons.rst:57
-msgid ""
-"`collective.behavior.banner "
-"<https://github.com/starzel/collective.behavior.banner>`_"
+msgid "`collective.behavior.banner <https://github.com/starzel/collective.behavior.banner>`_"
 msgstr "`collective.behavior.banner <https://github.com/starzel/collective.behavior.banner>`_"
 
 # 8ab50455391744ea9fd681ee58886e97
 #: ../addons.rst:57
 msgid "Add decorative banners and sliders"
-msgstr "Agrega banners decorativos y pasarelas"
+msgstr "Añada banners decorativos y pasarelas"
 
 # ccaf85e29e474d09accf749e9cc3e4a4
 #: ../addons.rst:60
-msgid ""
-"`plone.app.multilingual "
-"<http://pypi.python.org/pypi/plone.app.multilingual>`_"
+msgid "`plone.app.multilingual <http://pypi.python.org/pypi/plone.app.multilingual>`_"
 msgstr "`plone.app.multilingual <http://pypi.python.org/pypi/plone.app.multilingual>`_"
 
 # 7fff1778d4fa46228d34333343ed53b6
@@ -254,9 +233,7 @@ msgstr "Haciendo el código de los complementos disponibles para Zope"
 
 # 40ce9f190e37463d8bffc7a077b388bd
 #: ../addons.rst:75
-msgid ""
-"First, we must make the addons code available to Zope. This means, that Zope"
-" can import the code. Buildout is responsible for this."
+msgid "First, we must make the addons code available to Zope. This means, that Zope can import the code. Buildout is responsible for this."
 msgstr "Primero, debemos hacer el código de los complementos disponible para Zope, Buildout es responsable de esto."
 
 # e750e0aa7c024f428b76e07a6f94d9b4
@@ -266,15 +243,13 @@ msgstr "Busca el archivo ``buildout.cfg`` en ``/vagrant/buildout``."
 
 # eaa227d8b5684f96bc61d18a4f1850c6
 #: ../addons.rst:79
-msgid ""
-"In the section ``[instance]`` there is a variable called ``eggs``, which has"
-" multiple *eggs* as a value. Add the following eggs:"
-msgstr "En la sección ``[instance]`` existe una variable llamada ``eggs``, la cual tiene múltiples *eggs* como valor. Agrega los siguientes eggs:"
+msgid "In the section ``[instance]`` there is a variable called ``eggs``, which has multiple *eggs* as a value. Add the following eggs:"
+msgstr "En la sección ``[instance]`` existe una variable llamada ``eggs``, la cual tiene múltiples *eggs* como valor. Añada los siguientes eggs:"
 
 # 8f8286c52c884d4aa0d1bd88bd3d21f8
 #: ../addons.rst:81
 msgid "We already have added the addons that we will use now:"
-msgstr "Ya hemos agregado los complementos que usaras ahora:"
+msgstr "Ya hemos añadido los complementos que usaras ahora:"
 
 # 3924889e61ce45a1bfb30ee4d9ca8ccc
 #: ../addons.rst:83
@@ -288,25 +263,17 @@ msgstr "``collective.plonetruegallery``"
 
 # 0b62a9f33a544afda75ed1889d3b3ca9
 #: ../addons.rst:86
-msgid ""
-"Usually, one enters the eggs by adding one more line per egg into the "
-"configuration. You must write the egg name indented, this way buildout "
-"understands that the current line is part of the last variable and not a new"
-" variable."
-msgstr "Generalmente, uno ingresa los paquetes eggs agregando una linea adicional por paquete egg en la configuración, Debes escribir el nombre del paquete egg de forma indentada, así el buildout entiende que la linea actual es parte de la ultima variable y no una nueva variable."
+msgid "Usually, one enters the eggs by adding one more line per egg into the configuration. You must write the egg name indented, this way buildout understands that the current line is part of the last variable and not a new variable."
+msgstr "Generalmente, uno ingresa los paquetes eggs añadiendo una linea adicional por paquete egg en la configuración, Debes escribir el nombre del paquete egg de forma indentada, así el buildout entiende que la linea actual es parte de la ultima variable y no una nueva variable."
 
 # c24d12ce1d2e4064984275219db20891
 #: ../addons.rst:88
-msgid ""
-"If you add new addons here you will have to run buildout and restart the "
-"site:"
-msgstr "Si agregas nuevos complementos tendrás que ejecutar buildout y reiniciar el sitio:"
+msgid "If you add new addons here you will have to run buildout and restart the site:"
+msgstr "Si añades nuevos complementos tendrás que ejecutar buildout y reiniciar el sitio:"
 
 # d94699058d87469b9cc34c2b72e398ed
 #: ../addons.rst:95
-msgid ""
-"Now the code is importable from within Plone and everything got registered "
-"via ZCML."
+msgid "Now the code is importable from within Plone and everything got registered via ZCML."
 msgstr "Ahora el código es importable dentro de Plone y todo ha quedado registrado vía ZCML."
 
 # 626c79f4313a4b45b8d97a381ef0954d
@@ -316,16 +283,12 @@ msgstr "Instalando complementos en tu sitio de Plone"
 
 # ad4532f1e8044f2ab9cb32131c2181af
 #: ../addons.rst:100
-msgid ""
-"Your Plone-site has not yet been told to use the addon. For this, you have "
-"to install the addons in your Plone Site."
+msgid "Your Plone-site has not yet been told to use the addon. For this, you have to install the addons in your Plone Site."
 msgstr "Tu sitio de Plone no ha sido especificado para usar el complemento. Para esto debes instalar los complementos en tu sitio de Plone."
 
 # 5543b3a4631b426dbc0b8599688a25ce
 #: ../addons.rst:102
-msgid ""
-"In your browser, go the control panel ``@@plone_control_panel``, and open "
-"the ``Addons`` Panel. You will see that you can install the addons there."
+msgid "In your browser, go the control panel ``@@plone_control_panel``, and open the ``Addons`` Panel. You will see that you can install the addons there."
 msgstr "En su navegador Web, ve a panel de control ``@@plone_control_panel``, y abre el panel de ``Complementos``. Usted vera que puedes instalar los complementos desde allí."
 
 # 55d25c9765c2424d9527e9b8c69ad167
@@ -335,30 +298,28 @@ msgstr "Instala **PloneFormGen** y **Plone True Gallery** ahora."
 
 # 53549fb25bf8493ca59a1e31361c7da1
 #: ../addons.rst:106
-msgid ""
-"This is what happens: The GenericSetup profile of the product gets loaded. "
-"This does things like:"
+msgid "This is what happens: The GenericSetup profile of the product gets loaded. This does things like:"
 msgstr "Esto es lo que sucede: el perfil GenericSetup del producto se ha cargado. esto hace cosas como:"
 
 # e3656bbf2a264935b1f32b3e41049e5c
 #: ../addons.rst:108
 msgid "configuring new actions,"
-msgstr "Configurando nuevas acciones,"
+msgstr "configurando nuevas acciones,"
 
 # dd3c0cdd81b3460d93d676a8b6c3fdf3
 #: ../addons.rst:109
 msgid "registering new content types"
-msgstr "Registrando nuevos tipos de contenido"
+msgstr "registrando nuevos tipos de contenido"
 
 # 52a0775f31144fec9c19a984dd7cdca7
 #: ../addons.rst:110
 msgid "registering css- and js-files"
-msgstr "Registrando archivos css y javascripts"
+msgstr "registrando archivos css y javascripts"
 
 # c3d7802afcf445029a9764dcc4ee7180
 #: ../addons.rst:111
 msgid "creating some content/configuration objects in your Plone site."
-msgstr "Creando algunos objetos contenidos / configuración en tu sitio de Plone."
+msgstr "creando algunos objetos contenidos / configuración en tu sitio de Plone."
 
 # 75b2e0ece010472484269eb93997088f
 #: ../addons.rst:113
@@ -397,10 +358,8 @@ msgstr "Formulario de registro:"
 
 # e1d1687e67a8421fbdac27138c83633d
 #: ../addons.rst:127
-msgid ""
-"Add a object of the new type 'Form Folder' in the site-root. Call it "
-"\"Registration\""
-msgstr "Agrega un objeto del nuevo tipo 'Form Folder' en el raíz del sitio llamado \"Registro\""
+msgid "Add a object of the new type 'Form Folder' in the site-root. Call it \"Registration\""
+msgstr "Añada un objeto del nuevo tipo 'Form Folder' en el raíz del sitio llamado \"Registro\""
 
 # d8a6f7edc558475c88e2a02235c3712b
 #: ../addons.rst:128
@@ -420,38 +379,31 @@ msgstr "Remueva el campo \"Subject\""
 # d68888eacda24e719a777b42c23fa354
 #: ../addons.rst:131
 msgid "Add fields for food-preference and shirt-size"
-msgstr "Agrega campos para food-preference y shirt-size"
+msgstr "Añada campos para food-preference y shirt-size"
 
 # 2cae5be81c1a461b8019b05e0d7ce320
 #: ../addons.rst:132
 msgid "Add a DataSave Adapter"
-msgstr "Agrega un adaptador DataSave"
+msgstr "Añada un adaptador DataSave"
 
 # ed3103ea787149c08255a26403f016b3
 #: ../addons.rst:136
 msgid "Add Photogallery with collective.plonetruegallery"
-msgstr "Agrega galerías de fotos con collective.plonetruegallery"
+msgstr "Añada galerías de fotos con collective.plonetruegallery"
 
 # 38a7686b83024dcd90e6c004a88c7894
 #: ../addons.rst:138
-msgid ""
-"To advertice the conference we want to show some photos showing past "
-"conferences and the city where conference is taking place in."
+msgid "To advertice the conference we want to show some photos showing past conferences and the city where conference is taking place in."
 msgstr "Para promocionar la conferencia, se quiere mostrar algunas fotos mostrando conferencias pasadas y la ciudad donde la conferencia se esta realizando."
 
 # a4099a84155a48cd9d5bd73dac4ac318
 #: ../addons.rst:140
-msgid ""
-"collective.plonetruegallery is a role model on how to write a Plone "
-"Extension."
+msgid "collective.plonetruegallery is a role model on how to write a Plone Extension."
 msgstr "collective.plonetruegallery es un modelo a seguir sobre cómo escribir una extensión de Plone."
 
 # a270fc9bec3e4b4fb62da1d361b161bf
 #: ../addons.rst:142
-msgid ""
-"Instead of creating custom content types for galleries, it integrates with "
-"the Plone functionality to choose different views for folderish content "
-"types."
+msgid "Instead of creating custom content types for galleries, it integrates with the Plone functionality to choose different views for folderish content types."
 msgstr "En vez de crear tipos de contenido personalizados para galerías, este se integra con la funcionalidad de Plone para elegir diferentes vistas de tipos de contenidos en carpeta."
 
 # f5833f4282054a8c99def66bf888b75b
@@ -461,21 +413,18 @@ msgstr "https://pypi.python.org/pypi/collective.plonetruegallery"
 
 # 6c1fef2557944cada2daec028031fe02
 #: ../addons.rst:146
-msgid ""
-"Install the addon: http://localhost:8080/Plone/prefs_install_products_form"
+msgid "Install the addon: http://localhost:8080/Plone/prefs_install_products_form"
 msgstr "Instala el complemento: http://localhost:8080/Plone/prefs_install_products_form"
 
 # 4f581df745934e52aa5440e8f852ed11
 #: ../addons.rst:147
-msgid ""
-"Enable the behavior ``Plone True Gallery`` on the type ``Folder``: "
-"http://localhost:8080/Plone/dexterity-types/Folder/@@behaviors"
+msgid "Enable the behavior ``Plone True Gallery`` on the type ``Folder``: http://localhost:8080/Plone/dexterity-types/Folder/@@behaviors"
 msgstr "Habilite el comportamiento \"Plone True Gallery\" en el tipo \"Folder\": http://localhost:8080/Plone/dexterity-types/Folder/@@behaviors"
 
 # 84321e1513d44a2585d9212b3f9aece0
 #: ../addons.rst:148
 msgid "Add a folder /the-event/location"
-msgstr "Agregue una carpeta /the-event/location"
+msgstr "Añada una carpeta /the-event/location"
 
 # 0463f45ed3504a12bcbd3231902e737f
 #: ../addons.rst:149
@@ -499,17 +448,12 @@ msgstr "Plone puede ejecutar el mismo sitio en múltiples lenguajes."
 
 # 2f3138dbea80436eb6e0bcfb478e7943
 #: ../addons.rst:158
-msgid ""
-"We're not doing this with the conference-site since the lingua franca of the"
-" plone-community is english."
+msgid "We're not doing this with the conference-site since the lingua franca of the plone-community is english."
 msgstr "No estamos haciendo esto con el sitio de la conferencia desde que el lenguaje Franco de la comunidad Plone es el Ingles."
 
 # 7272b4da294c4a34bcf531f43f5321b7
 #: ../addons.rst:160
-msgid ""
-"We would use http://pypi.python.org/pypi/plone.app.multilingual for this. It"
-" is the successor of Products.LinguaPlone (which only works with "
-"Archetypes)."
+msgid "We would use http://pypi.python.org/pypi/plone.app.multilingual for this. It is the successor of Products.LinguaPlone (which only works with Archetypes)."
 msgstr "Para esto debe usar http://pypi.python.org/pypi/plone.app.multilingual. Ese es el sucesor del Products.LinguaPlone (el cual solo usa Arquetipos)."
 
 # 08a250046961417c919c07f40320349f
@@ -519,9 +463,7 @@ msgstr "Resumen"
 
 # a2aa3127a8c948478dd8b08582b7bf78
 #: ../addons.rst:166
-msgid ""
-"We are now able to customize and extend many parts of our website. We can "
-"even install extensions that add new functionality."
+msgid "We are now able to customize and extend many parts of our website. We can even install extensions that add new functionality."
 msgstr "Ahora somos capaces de personalizar y ampliar muchas partes de nuestro sitio web. Incluso podemos instalar extensiones que añaden nuevas funcionalidades."
 
 # bfb1596948b543e698651206ab4619bc
@@ -546,8 +488,5 @@ msgstr "¿Podemos permitir a un jurado votar en las Charlas?"
 
 # 2d074ec67aad4cdd96696841440533cf
 #: ../addons.rst:174
-msgid ""
-"We often have to work with structured data. Up to a degree we can do all "
-"this TTW, but at some point we reach barriers. In the next part of the "
-"training, we'll teach you, how to break through these barriers."
+msgid "We often have to work with structured data. Up to a degree we can do all this TTW, but at some point we reach barriers. In the next part of the training, we'll teach you, how to break through these barriers."
 msgstr "Algunas veces trabajamos con data estructurada. Hasta un grado podemos hacer todo a través de la web, pero a algún punto nos encontramos con barreras, en la siguiente parte de nuestro entrenamiento, te enseñaremos como romper esas barreras."
