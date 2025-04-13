@@ -439,7 +439,7 @@ msgstr ""
 
 #: ../mastering-plone/about_mastering.rst:141
 msgid "We enlarge the default width of the content-area."
-msgstr "Ampliamos el ancho predeterminado del área de contenido."
+msgstr "Ampliamos el ancho por defecto del área de contenido."
 
 #: ../mastering-plone/about_mastering.rst:144
 #: ../mastering-plone/behaviors_2.rst:325 ../mastering-plone/dexterity.rst:237
@@ -772,7 +772,7 @@ msgid ""
 "agree to have this published under Creative Commons 4.0 International "
 "BY\"."
 msgstr ""
-"También puede agregar en un comentario con su pull request \"Yo, <nombre "
+"También puede añadir en un comentario con su pull request \"Yo, <nombre "
 "completo>, estoy acuerdo en que esta publicado bajo licencia Creative "
 "Commons 4.0 International BY\"."
 
@@ -892,7 +892,7 @@ msgstr ""
 
 #: ../mastering-plone/add-ons.rst:52
 msgid "Add decorative banners and sliders"
-msgstr "Agregue pancartas decorativas y persianas deslizantes"
+msgstr "Añada pancartas decorativas y persianas deslizantes"
 
 #: ../mastering-plone/add-ons.rst:55
 msgid "`Rapido <https://rapidoplone.readthedocs.io/en/latest/>`_"
@@ -1130,7 +1130,7 @@ msgid ""
 "understands that the current line is part of the last variable and not a "
 "new variable."
 msgstr ""
-"Generalmente, uno agrega los paquetes eggs ingresando una linea adicional"
+"Generalmente, uno añada los paquetes eggs ingresando una linea adicional"
 " por cada paquete egg en la configuración. Debes escribir el nombre del "
 "paquete egg de forma indentada: así el buildout entiende que la linea "
 "actual es parte de la ultima variable y no una nueva variable."
@@ -1140,7 +1140,7 @@ msgid ""
 "If you add new add-ons here you will have to run buildout and restart the"
 " site:"
 msgstr ""
-"Si agregas nuevos complementos tendrás que ejecutar buildout y reiniciar "
+"Si añades nuevos complementos tendrás que ejecutar buildout y reiniciar "
 "el sitio:"
 
 #: ../mastering-plone/add-ons.rst:136
@@ -1250,9 +1250,9 @@ msgid ""
 "and/or saved for download."
 msgstr ""
 "El concepto básico del complemento :py:mod:`collective.easyform` es que "
-"usted agregue un formulario el cual usted pueda agregar campos de "
+"usted añada un formulario el cual usted pueda añadir campos de "
 "formularios como campos esquemas exactamente como el editor de esquemas "
-"dexterity. Los campos son agregados, eliminados, editados y mueven al "
+"dexterity. Los campos son añadidos, eliminados, editados y mueven al "
 "igual que con cualquier otro tipo de contenido. Los envíos de formularios"
 " pueden ser enviados de forma automática por correo electrónico y/o "
 "guardarse para descargar."
@@ -1266,7 +1266,7 @@ msgid ""
 "Add an object of the new type 'EasyForm' in the site root. Call it "
 "\"Registration\""
 msgstr ""
-"Agrega un objeto del nuevo tipo 'EasyForm' en el raíz del sitio. "
+"Añada un objeto del nuevo tipo 'EasyForm' en el raíz del sitio. "
 "Llamándolo \"Registro\""
 
 #: ../mastering-plone/add-ons.rst:177
@@ -1288,7 +1288,7 @@ msgid ""
 "Add fields for food preference (a choice field) and shirt size (also "
 "choice)"
 msgstr ""
-"Agregue campos para preferencia de comida (un campo de elección) y el "
+"Añada campos para preferencia de comida (un campo de elección) y el "
 "tamaño de la camisa (también elección)"
 
 #: ../mastering-plone/add-ons.rst:181
@@ -1300,7 +1300,7 @@ msgid ""
 "Add a new action and select \"Save Data\" as the type. This stores all "
 "entered data."
 msgstr ""
-"Agregue una nueva acción y seleccione \"Guardar datos\" como el tipo. "
+"Añada una nueva acción y seleccione \"Guardar datos\" como el tipo. "
 "Esto almacena todos los datos ingresados."
 
 #: ../mastering-plone/add-ons.rst:183
@@ -1313,14 +1313,14 @@ msgid ""
 "easyform <https://github.com/collective/collective.easyform#recaptcha-"
 "support>`_"
 msgstr ""
-"¿Necesitas CAPTCHAs? Lea las `instrucciones de cómo agregar campo "
+"¿Necesitas CAPTCHAs? Lea las `instrucciones de cómo añadir campo "
 "Recaptcha a su formulario easyform "
 "<https://github.com/collective/collective.easyform#recaptcha-support>`_"
 
 #: ../mastering-plone/add-ons.rst:193
 msgid "Add Photo Gallery with :py:mod:`collective.plonetruegallery`"
 msgstr ""
-"Agregar Galerías de fotos con el complemento "
+"Añadir Galerías de fotos con el complemento "
 ":py:mod:`collective.plonetruegallery`"
 
 #: ../mastering-plone/add-ons.rst:195
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: ../mastering-plone/add-ons.rst:203
 msgid "Add a folder ``/the-event/location``"
-msgstr "Agregue una carpeta ``/el-evento/ubicacion``"
+msgstr "Añada una carpeta ``/el-evento/ubicacion``"
 
 #: ../mastering-plone/add-ons.rst:204
 msgid "Upload some photos from lorempixel.com"
@@ -2267,7 +2267,7 @@ msgstr ""
 " todos los mensajes de registro que Plone imprime. Cuando ocurre una "
 "excepción Plone lanza un rastreo detallado. La mayoría del tiempo el "
 "rastreo es todo lo que necesitas para averiguar que esta sucediendo. "
-"También agregando tu propia información al registro es muy simple."
+"También añadiendo tu propia información al registro es muy simple."
 
 #: ../mastering-plone/api.rst:92
 msgid "pdb"
@@ -2280,7 +2280,7 @@ msgid ""
 "debug away!"
 msgstr ""
 "El depurador de Python pdb, es la herramienta simple más importante para "
-"nosotros cuando programemos. ¡Solo agrega ``import pdb; pdb.set_trace()``"
+"nosotros cuando programemos. ¡Solo añada ``import pdb; pdb.set_trace()``"
 " en tu código y empieza a depurar!"
 
 #: ../mastering-plone/api.rst:92
@@ -2290,7 +2290,7 @@ msgid ""
 "calling the template. Look at the variable :py:obj:`econtext` to see what"
 " might have gone wrong."
 msgstr ""
-"Desde Plone 5, incluso puedes agregarlo a las plantillas: agrega "
+"Desde Plone 5, incluso puedes añadirlo a las plantillas: añada "
 "``<?python import pdb; pdb.set_trace() ?>`` a una plantilla y termina en "
 "un shell pdb al llamar a la plantilla. Mire la variable "
 ":py:obj:`econtext` para ver qué pudo haber salido mal."
@@ -2349,7 +2349,7 @@ msgid ""
 "with the current context as :py:obj:`self.context`. From there you can do"
 " just about anything."
 msgstr ""
-"**pdb view**: simplemente agregando ``/pdb`` a una dirección URL, le "
+"**pdb view**: simplemente añadiendo ``/pdb`` a una dirección URL, le "
 "lanza a una sesión pdb con el contexto actual como "
 ":py:obj:`self.context`. De allí puedes hacer casi todo."
 
@@ -2453,7 +2453,7 @@ msgid ""
 "in the traceback. We use it in all our production sites."
 msgstr ""
 "`Sentry <https://github.com/getsentry/sentry>`_ es una aplicación de log "
-"de errores que puede usar usted mismo. Ese agrega rastreos de muchas "
+"de errores que puede usar usted mismo. Ese añada rastreos de muchas "
 "fuentes y (aquí viene la característica esencial para su uso) incluso los"
 " valores de las variables en el rastreo. Lo usamos en todos nuestros "
 "sitios de producción."
@@ -2469,7 +2469,7 @@ msgid ""
 msgstr ""
 "Buildout puede crear un script de shell de Python para usted que tiene "
 "los paquetes de su sitio Plone en su ruta de acceso de python "
-"``PYTHONPATH``. Agregue la sección en la declarativa ``parts`` y la "
+"``PYTHONPATH``. Añada la sección en la declarativa ``parts`` y la "
 "finalizar del archivo la configuración como esta::"
 
 #: ../mastering-plone/api.rst:142
@@ -2503,7 +2503,7 @@ msgstr "Obtén el código para este capítulo (:doc:`Más información <code>`):
 
 #: ../mastering-plone/behaviors_1.rst:16
 msgid "Add another field to talks by using a behavior"
-msgstr "Agregue otro campo a las charlas mediante el uso de un comportamiento"
+msgstr "Añada otro campo a las charlas mediante el uso de un comportamiento"
 
 #: ../mastering-plone/behaviors_1.rst:25
 msgid ""
@@ -2512,7 +2512,7 @@ msgid ""
 "aspect."
 msgstr ""
 "Usted puede extender la funcionalidad de su objeto dexterity solo creando"
-" un adaptador que se adapte a su objeto dexterity para agregar otra "
+" un adaptador que se adapte a su objeto dexterity para añadir otra "
 "característica o aspecto."
 
 #: ../mastering-plone/behaviors_1.rst:27
@@ -2522,7 +2522,7 @@ msgid ""
 " with such an approach."
 msgstr ""
 "Pero si desea utilizar este adaptador, debe saber de alguna manera que un"
-" objeto implementa eso. Además, agregar más campos a un objeto no sería "
+" objeto implementa eso. Además, añadir más campos a un objeto no sería "
 "fácil con este enfoque."
 
 #: ../mastering-plone/behaviors_1.rst:32
@@ -2542,7 +2542,7 @@ msgid ""
 "A behavior can be added to any content type through the web and at "
 "runtime."
 msgstr ""
-"Un comportamiento puede ser agregado a cualquier tipo de contenido a "
+"Un comportamiento puede ser añadido a cualquier tipo de contenido a "
 "través de la Web y durante el tiempo de ejecución."
 
 #: ../mastering-plone/behaviors_1.rst:40
@@ -2552,7 +2552,7 @@ msgid ""
 " are behaviors referenced with the current context and if these behaviors"
 " have a schema of their own, these fields get shown in addition."
 msgstr ""
-"Todas las vistas predeterminadas (e.j. el formulario agregar y editar) "
+"Todas las vistas predeterminadas (e.j. el formulario añadir y editar) "
 "deben conocer el concepto de comportamientos y cuando renderizar los "
 "formularios, las vistas también comprueban si hay comportamientos "
 "referenciados con el contexto actual y si estos comportamientos tienen un"
@@ -2573,7 +2573,7 @@ msgid ""
 msgstr ""
 "El nombre del comportamiento no es un término estándar en el desarrollo "
 "de software. Pero es una buena idea pensar en un comportamiento como un "
-"aspecto. Usted está agregando un aspecto a tu tipo de contenido y usted "
+"aspecto. Usted está añadiendo un aspecto a tu tipo de contenido y usted "
 "quiere escribir su aspecto de tal manera, que funciona independientemente"
 " del tipo de contenido en el que se aplica el aspecto. Usted no debe "
 "tener dependencias a campos específicos de su objeto o de otros "
@@ -2634,7 +2634,7 @@ msgid ""
 "Then, we add an empty :file:`behaviors/__init__.py` and a "
 ":file:`behaviors/configure.zcml` containing"
 msgstr ""
-"Entonces, agregamos un archivo vacío :file:`behaviors/__init__.py` y un "
+"Entonces, añadimos un archivo vacío :file:`behaviors/__init__.py` y un "
 "archivo :file:`behaviors/configure.zcml` conteniendo el siguiente código"
 
 #: ../mastering-plone/behaviors_1.rst:84
@@ -2737,7 +2737,7 @@ msgstr ""
 
 #: ../mastering-plone/behaviors_1.rst:158
 msgid "Adding it to our talk"
-msgstr "Agregándolo a nuestra charla"
+msgstr "Añadiendo a nuestra charla"
 
 #: ../mastering-plone/behaviors_1.rst:162
 msgid ""
@@ -2751,7 +2751,7 @@ msgstr ""
 #: ../mastering-plone/behaviors_1.rst:164
 msgid "We must add the behavior to :file:`profiles/default/types/talk.xml`:"
 msgstr ""
-"Debemos agregar el comportamiento al archivo "
+"Debemos añadir el comportamiento al archivo "
 ":file:`profiles/default/types/talk.xml`:"
 
 #: ../mastering-plone/behaviors_2.rst:4
@@ -2870,7 +2870,7 @@ msgid ""
 "First, add the information that there will be another ZCML file in "
 ":file:`configure.zcml`"
 msgstr ""
-"Primero, agregue la información de que habrá otro archivo ZCML en "
+"Primero, añada la información de que habrá otro archivo ZCML en "
 ":file:`configure.zcml`"
 
 #: ../mastering-plone/behaviors_2.rst:71
@@ -2935,7 +2935,7 @@ msgid ""
 "viewlets to contenttypes that provide our behavior, so no code needed."
 msgstr ""
 "Se trata de una gran cantidad de código. El IVotableLayer nosotros lo "
-"necesitaremos más tarde para viewlets y browser views. Permite agregar "
+"necesitaremos más tarde para viewlets y browser views. Permite añadir "
 "aquí mismo. La interfaz IVotable es la interfaz marcador simple. Sólo se "
 "utiliza para enlazar las browser views y viewlets a tipos de contenido "
 "que proporcionan nuestro comportamiento, por lo que no hay código "
@@ -3145,7 +3145,7 @@ msgstr ""
 "A continuación ofrecemos los campos internos a través de propiedades. El "
 "uso de este formulario de propiedad, hace que lean solamente propiedades,"
 " ya que no nos definimos manipuladores de escritura. Nosotros no los "
-"necesitamos para que no nos agregarlos."
+"necesitamos para que no nos añadirlos."
 
 #: ../mastering-plone/behaviors_2.rst:258
 msgid ""
@@ -3267,7 +3267,7 @@ msgstr ""
 ":file:`starzel.votable_behavior/starzel/votable_behavior/tests/test_voting`."
 " Recuerde que necesita un archivo vacío :file:`__init__.py` en el "
 "directorio :file:`tests` para que las pruebas funcionen. También necesita"
-" agregar `starzel.votable_behavior` a `test-eggs` en :file:`buildout.cfg`"
+" añadir `starzel.votable_behavior` a `test-eggs` en :file:`buildout.cfg`"
 " y volver a ejecutar buildout."
 
 #: ../mastering-plone/buildout_1.rst:4
@@ -4024,7 +4024,7 @@ msgid ""
 "If you want to add the code for the chapter yourself you have to checkout"
 " the tag for the previous chapter."
 msgstr ""
-"Si usted quiere agregar el código para el capítulo usted mismo tiene que "
+"Si usted quiere añadir el código para el capítulo usted mismo tiene que "
 "hacer checkout a la tag de git para el capítulo previo."
 
 #: ../mastering-plone/code.rst:30
@@ -4742,11 +4742,11 @@ msgstr "Valla a la dirección URL http://localhost:8080/Plone/@@manage-portlets"
 
 #: ../mastering-plone/configuring_customizing.rst:114
 msgid "Add a static portlet \"Sponsors\" on the right side."
-msgstr "Agregue un portlet \"Patrocinadores\" en el lado derecho."
+msgstr "Añada un portlet \"Patrocinadores\" en el lado derecho."
 
 #: ../mastering-plone/configuring_customizing.rst:115
 msgid "Remove the news portlet and add a new one on the left side."
-msgstr "Retire el portlet de noticias y agregue uno nuevo en el lado izquierdo."
+msgstr "Retire el portlet de noticias y añada uno nuevo en el lado izquierdo."
 
 #: ../mastering-plone/configuring_customizing.rst:116
 msgid ""
@@ -4761,7 +4761,7 @@ msgid ""
 "Add a static portlet. \"Featured training: Become a Plone-Rockstar at "
 "Mastering Plone!\""
 msgstr ""
-"Agregue un portlet estático. \"Entrenamiento destacado: Conviértete en un"
+"Añada un portlet estático. \"Entrenamiento destacado: Conviértete en un"
 " Rockstar de Plone en la ¡Maestría en Plone!\""
 
 #: ../mastering-plone/configuring_customizing.rst:118
@@ -4779,13 +4779,13 @@ msgid ""
 "Add a :guilabel:`Static text portlet` and enter \"Copyright 2015 by Plone"
 " Community\"."
 msgstr ""
-"Agregue un :guilabel:`Portlet de texto estático`, ingrese \"Copyright "
+"Añada un :guilabel:`Portlet de texto estático`, ingrese \"Copyright "
 "2015 by Plone Community\"."
 
 #: ../mastering-plone/configuring_customizing.rst:122
 msgid "Use :menuselection:`Insert --> Special Character` to add a real © sign."
 msgstr ""
-"Use :menuselection:`Insertar --> Carácter especial` para agregar un signo"
+"Use :menuselection:`Insertar --> Carácter especial` para añadir un signo"
 " real ©."
 
 #: ../mastering-plone/configuring_customizing.rst:123
@@ -4823,7 +4823,7 @@ msgstr "No está dirigido a editores de contenido"
 
 #: ../mastering-plone/configuring_customizing.rst:136
 msgid "Not locally addable, no configurable inheritance."
-msgstr "No se puede agregar localmente, no hay herencia configurable."
+msgstr "No se puede añadir localmente, no hay herencia configurable."
 
 #: ../mastering-plone/configuring_customizing.rst:137
 msgid "Usually global (depends on code)"
@@ -4842,7 +4842,7 @@ msgid ""
 "Live in viewlet managers, can be nested (by adding a viewlet that "
 "contains a viewlet manager)."
 msgstr ""
-"En vivo en los administradores de viewlets, se puede anidar (agregando un"
+"En vivo en los administradores de viewlets, se puede anidar (añadiendo un"
 " viewlet que contiene un administrador de viewlets)."
 
 #: ../mastering-plone/configuring_customizing.rst:141
@@ -4989,7 +4989,7 @@ msgstr ""
 #: ../mastering-plone/configuring_customizing.rst:201
 msgid "Add a CMF Action ``imprint``"
 msgstr ""
-"Agregar una CMF Action con el ID ``imprint``, luego haga clic en el para "
+"Añadir una CMF Action con el ID ``imprint``, luego haga clic en el para "
 "editarlo y asignando a ``title`` el valor \"Aviso Legal\"."
 
 #: ../mastering-plone/configuring_customizing.rst:202
@@ -5127,7 +5127,7 @@ msgstr "Haga clic en :guilabel:`customize`"
 
 #: ../mastering-plone/configuring_customizing.rst:258
 msgid "The CSS you add to this file is instantly active on the site."
-msgstr "El CSS que agrega a este archivo está instantáneamente activo en el sitio."
+msgstr "El CSS que añada a este archivo está instantáneamente activo en el sitio."
 
 #: ../mastering-plone/configuring_customizing.rst:262
 msgid "portal_view_customizations"
@@ -5236,7 +5236,7 @@ msgid ""
 "Here are two add-ons that allow you to add custom searches and content "
 "listings through the web in Plone."
 msgstr ""
-"Aquí hay dos complementos que permitan agregar impresionantes búsquedas "
+"Aquí hay dos complementos que permitan añadir impresionantes búsquedas "
 "personalizadas y listados de contenidos a través de la Web en Plone."
 
 #: ../mastering-plone/custom_search.rst:14
@@ -5297,16 +5297,16 @@ msgid ""
 "Add a checkboxes widget to the left and use the catalog index *Audience* "
 "for it."
 msgstr ""
-"Agregue un widget de selección a la izquierda y usa el indice de catalogo"
+"Añada un widget de selección a la izquierda y usa el indice de catalogo"
 " *Audience* para eso."
 
 #: ../mastering-plone/custom_search.rst:28
 msgid "Add a select widget for speaker"
-msgstr "Agrega un widget de selección para el tipo de contenido speaker"
+msgstr "Añada un widget de selección para el tipo de contenido speaker"
 
 #: ../mastering-plone/custom_search.rst:29
 msgid "Add a radio widget for type_of_talk"
-msgstr "Agregue un widget de radio para type_of_talk"
+msgstr "Añada un widget de radio para type_of_talk"
 
 #: ../mastering-plone/custom_search.rst:33
 msgid "https://www.dipf.de/en/research/projects"
@@ -5910,7 +5910,7 @@ msgstr "Vistas:"
 #: ../mastering-plone/dexterity.rst:101
 msgid "Both Dexterity and Archetypes have a default view for content types."
 msgstr ""
-"Tanto Dexterity y Archetypes tienen una vista predeterminada de tipos de "
+"Tanto Dexterity y Archetypes tienen una vista por defecto de tipos de "
 "contenido."
 
 #: ../mastering-plone/dexterity.rst:102
@@ -5946,13 +5946,13 @@ msgid ""
 "Select the type :guilabel:`News Item` and add a new field ``Hot News`` of"
 " type :guilabel:`Yes/No`"
 msgstr ""
-"Seleccione el tipo de contenidos ``Noticias`` y agregar un nuevo campo "
+"Seleccione el tipo de contenidos ``Noticias`` y añadir un nuevo campo "
 "``Hot News`` de tipo :guilabel:`Sí/No`"
 
 #: ../mastering-plone/dexterity.rst:115
 msgid "In another tab, add a *News Item* and you'll see the new field."
 msgstr ""
-"En otra pestaña agregar un tipo de contenido Noticia y entonces se ve el "
+"En otra pestaña añadir un tipo de contenido Noticia y entonces se ve el "
 "nuevo campo."
 
 #: ../mastering-plone/dexterity.rst:116
@@ -5971,7 +5971,7 @@ msgid ""
 " just added. All others are provided by behaviors."
 msgstr ""
 "Note que el único campo en el esquema XML de la Noticia es el que acaba "
-"de agregar. Todos los demás son proporcionados por los comportamientos."
+"de añadir. Todos los demás son proporcionados por los comportamientos."
 
 #: ../mastering-plone/dexterity.rst:118
 msgid "Edit the form-widget-type so it says:"
@@ -6021,7 +6021,7 @@ msgstr ""
 #: ../mastering-plone/dexterity.rst:139
 msgid "Add new content type \"Talk\" and some fields for it:"
 msgstr ""
-"Agregar un nuevo tipo de contenido llamado \"Talk\" y algunos campos para"
+"Añadir un nuevo tipo de contenido llamado \"Talk\" y algunos campos para"
 " el:"
 
 #: ../mastering-plone/dexterity.rst:141
@@ -6029,15 +6029,15 @@ msgid ""
 ":guilabel:`Add new field` \"Type of talk\", type \"Choice\". Add options:"
 " talk, keynote, training."
 msgstr ""
-":guilabel:`Agregue nuevo campo` \"Type of talk\", de tipo \"Selección\". "
-"Agregar opciones talk, keynote, training."
+":guilabel:`Añada nuevo campo` \"Type of talk\", de tipo \"Selección\". "
+"Añadir opciones talk, keynote, training."
 
 #: ../mastering-plone/dexterity.rst:142
 msgid ""
 ":guilabel:`Add new field` \"Details\", type \"Rich Text\" with a maximal "
 "length of 2000."
 msgstr ""
-":guilabel:`Agregue nuevo campo` \"Details\", de tipo \"Rich Text\" con un"
+":guilabel:`Añada nuevo campo` \"Details\", de tipo \"Rich Text\" con un"
 " tamaño máximo de 2000."
 
 #: ../mastering-plone/dexterity.rst:143
@@ -6045,8 +6045,8 @@ msgid ""
 ":guilabel:`Add new field` \"Audience\", type \"Multiple Choice\". Add "
 "options: beginner, advanced, pro."
 msgstr ""
-":guilabel:`Agregue nuevo campo` \"Audience\", de tipo \"Selección "
-"múltiple\". Agregar opciones: beginner, advanced, pro."
+":guilabel:`Añada nuevo campo` \"Audience\", de tipo \"Selección "
+"múltiple\". Añadir opciones: beginner, advanced, pro."
 
 #: ../mastering-plone/dexterity.rst:144
 msgid ""
@@ -6066,7 +6066,7 @@ msgstr "Regrese al panel de control http://localhost:8080/Plone/@@dexterity-type
 
 #: ../mastering-plone/dexterity.rst:148
 msgid "Extend the new type: add the following fields:"
-msgstr "Extienda el nuevo tipo: agregue los siguientes campos:"
+msgstr "Extienda el nuevo tipo: añada los siguientes campos:"
 
 #: ../mastering-plone/dexterity.rst:150
 msgid "\"Speaker\", type: \"Text line\""
@@ -6295,7 +6295,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:28
 msgid "Add a marker interface to the talk type"
-msgstr "Agregar una interfaz marcador para el tipo de contenido talk"
+msgstr "Añadir una interfaz marcador para el tipo de contenido talk"
 
 #: ../mastering-plone/dexterity_2.rst:31
 msgid "Marker Interfaces"
@@ -6334,7 +6334,7 @@ msgid ""
 "To create a real name-tag we add a new :py:class:`Interface` to "
 ":file:`interfaces.py`:"
 msgstr ""
-"Para crear una etiqueta de nombre real, agregamos una nueva "
+"Para crear una etiqueta de nombre real, añadimos una nueva "
 ":py:class:`Interface` al archivo :file:`interfaces.py`:"
 
 #: ../mastering-plone/dexterity_2.rst:58
@@ -6508,7 +6508,7 @@ msgstr ""
 "Los pasos de actualización pueden ser registrados en su propios archivo "
 "ZCML para prevenir el cluttering del archivo principal "
 ":file:`configure.zcml`. Incluir un nuevo archivo :file:`upgrades.zcml` en"
-" nuestro archivo :file:`configure.zcml` para agregar:"
+" nuestro archivo :file:`configure.zcml` para añadir:"
 
 #: ../mastering-plone/dexterity_2.rst:155
 msgid "Create :file:`upgrades.zcml`:"
@@ -6627,7 +6627,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:276
 msgid "Add a browserlayer"
-msgstr "Agregar una browserlayer"
+msgstr "Añadir una browserlayer"
 
 #: ../mastering-plone/dexterity_2.rst:278
 msgid ""
@@ -6654,7 +6654,7 @@ msgid ""
 "Our package already has a browserlayer (added by "
 ":py:mod:`bobtemplates.plone`). See :file:`interfaces.py`:"
 msgstr ""
-"Nuestro paquete ya tiene un browser layer (agregado por "
+"Nuestro paquete ya tiene un browser layer (añadido por "
 ":py:mod:`bobtemplates.plone`). Ver el archivo :file:`interfaces.py`:"
 
 #: ../mastering-plone/dexterity_2.rst:303
@@ -6703,7 +6703,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:349
 msgid "Add catalog indexes"
-msgstr "Agregar índices del catálogo"
+msgstr "Añadir índices del catálogo"
 
 #: ../mastering-plone/dexterity_2.rst:351
 msgid ""
@@ -6727,7 +6727,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:356
 msgid "Add a new file :file:`profiles/default/catalog.xml`"
-msgstr "Agregar un nuevo archivo :file:`profiles/default/catalog.xml`"
+msgstr "Añadir un nuevo archivo :file:`profiles/default/catalog.xml`"
 
 #: ../mastering-plone/dexterity_2.rst:378
 msgid ""
@@ -6736,7 +6736,7 @@ msgid ""
 "field is multi-valued, but we want a separate index entry for every value"
 " in an object."
 msgstr ""
-"Esto agrega los nuevos índices para los tres campos que queremos mostrar "
+"Esto añada los nuevos índices para los tres campos que queremos mostrar "
 "en el listado. No es que *audience* es un :py:class:`KeywordIndex` porque"
 " el campo es de varios valores, pero queremos una entrada de índice "
 "independiente para cada valor a un objeto."
@@ -6858,7 +6858,7 @@ msgstr "Aquí es la plantilla:"
 
 #: ../mastering-plone/dexterity_2.rst:532
 msgid "Add collection criteria"
-msgstr "Agregar criterio de colección"
+msgstr "Añadir criterio de colección"
 
 #: ../mastering-plone/dexterity_2.rst:534
 msgid ""
@@ -6874,7 +6874,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:537
 msgid "Add a new file :file:`profiles/default/registry.xml`"
-msgstr "Agregar un nuevo archivo :file:`profiles/default/registry.xml`"
+msgstr "Añadir un nuevo archivo :file:`profiles/default/registry.xml`"
 
 #: ../mastering-plone/dexterity_2.rst:580
 msgid ""
@@ -6898,11 +6898,11 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_2.rst:590
 msgid "Add new file :file:`profiles/default/repositorytool.xml`"
-msgstr "Agregar nuevo archivo :file:`profiles/default/repositorytool.xml`"
+msgstr "Añadir nuevo archivo :file:`profiles/default/repositorytool.xml`"
 
 #: ../mastering-plone/dexterity_2.rst:606
 msgid "Add new file :file:`profiles/default/diff_tool.xml`"
-msgstr "Agregar nuevo archivo :file:`profiles/default/diff_tool.xml`"
+msgstr "Añadir nuevo archivo :file:`profiles/default/diff_tool.xml`"
 
 #: ../mastering-plone/dexterity_2.rst:620
 msgid ""
@@ -7018,7 +7018,7 @@ msgstr ""
 
 #: ../mastering-plone/dexterity_3.rst:40
 msgid "Now add a new file :file:`content/sponsor.py`."
-msgstr "Ahora agregue un nuevo archivo :file:`content/sponsor.py`."
+msgstr "Ahora añada un nuevo archivo :file:`content/sponsor.py`."
 
 #: ../mastering-plone/dexterity_3.rst:105
 msgid "Some things are notable here:"
@@ -7042,7 +7042,7 @@ msgid ""
 "https://docs.plone.org/external/plone.app.dexterity/docs/reference/widgets.html"
 msgstr ""
 "En :samp:`directives.widget(level=RadioFieldWidget)` cambiamos el widget "
-"predeterminado para un campo de elección de un menú desplegable para "
+"por defecto para un campo de elección de un menú desplegable para "
 "casilla de selección simple. Una referencia incompleta de widgets "
 "disponibles está en "
 "https://docs.plone.org/external/plone.app.dexterity/docs/reference/widgets.html"
@@ -7075,7 +7075,7 @@ msgid ""
 "later) checks for the permission."
 msgstr ""
 ":samp:`directives.read_permission(...)` establece la lectura y escritura,"
-" el permiso para el campo ``note`` a los usuarios que pueden agregar "
+" el permiso para el campo ``note`` a los usuarios que pueden añadir "
 "nuevos miembros. Por lo general, este permiso sólo se concede a "
 "Administradores de Sitio y Administradores. Lo utilizamos para almacenar "
 "información que no debe ser visible públicamente. Tenga en cuenta que "
@@ -7154,7 +7154,7 @@ msgid ""
 " the add-form, it will still show up in the edit-form."
 msgstr ""
 "Puede aplicar directivas solo a ciertos formularios. Aquí soltamos un "
-"campo del formulario de agregar, aún aparecerá en el formulario de "
+"campo del formulario de añadir, aún aparecerá en el formulario de "
 "edición."
 
 #: ../mastering-plone/dexterity_3.rst:171
@@ -7174,7 +7174,7 @@ msgstr ""
 "utilizado para un campo. Con :py:data:`pattern_options` puede pasar "
 "parámetros adicionales al widget. Aquí configuramos el widget de fecha y "
 "hora impulsado por la biblioteca javascript `pickadate "
-"<http://amsul.ca/pickadate.js>`_  agregando las opciones que usa. Plone "
+"<http://amsul.ca/pickadate.js>`_  añadiendo las opciones que usa. Plone "
 "solo pasa las opciones a la biblioteca."
 
 #: ../mastering-plone/dexterity_3.rst:192
@@ -7184,7 +7184,7 @@ msgstr "Validación y valores por defecto"
 #: ../mastering-plone/dexterity_3.rst:194
 msgid "In the following example we add a validator and a default value."
 msgstr ""
-"En el siguiente ejemplo nosotros agregamos un validador y un valor por "
+"En el siguiente ejemplo nosotros añadimos un validador y un valor por "
 "defecto."
 
 #: ../mastering-plone/dexterity_3.rst:221
@@ -7203,7 +7203,7 @@ msgid ""
 msgstr ""
 "Para los valores por defecto de contexto, necesita usar a "
 ":py:class:`IContextAwareDefaultFactory`. Se pasará el contenedor para el "
-"que se muestra el formulario de agregar:"
+"que se muestra el formulario de añadir:"
 
 #: ../mastering-plone/dexterity_3.rst:242
 msgid "For context-aware validators you need to use :py:meth:`invariant`:"
@@ -7235,7 +7235,7 @@ msgid ""
 "`Default values for fields on add forms "
 "<https://docs.plone.org/external/plone.app.dexterity/docs/advanced/defaults.html>`_"
 msgstr ""
-"`Valores por defecto para los campos al agregar formularios "
+"`Valores por defecto para los campos al añadir formularios "
 "<https://docs.plone.org/external/plone.app.dexterity/docs/advanced/defaults.html>`_"
 
 #: ../mastering-plone/dexterity_3.rst:276
@@ -7284,7 +7284,7 @@ msgid ""
 "We use the default view provided by dexterity for testing since we will "
 "only display the sponsors in a viewlet and not in their own page."
 msgstr ""
-"Utilizamos la vista predeterminada proporcionada por dexterity para las "
+"Utilizamos la vista por defecto proporcionada por dexterity para las "
 "pruebas ya que solo mostraremos los patrocinadores en un viewlet y no en "
 "su propia página."
 
@@ -7293,8 +7293,8 @@ msgid ""
 "But we could tweak the default view with some CSS to make it less ugly. "
 "Add the following to :file:`resources/ploneconf.css`:"
 msgstr ""
-"Pero podríamos modificar la vista predeterminada con algo de CSS para que"
-" sea menos feo. Agregue lo siguiente al archivo "
+"Pero podríamos modificar la vista por defecto con algo de CSS para que"
+" sea menos feo. Añada lo siguiente al archivo "
 ":file:`resources/ploneconf.css`:"
 
 #: ../mastering-plone/dexterity_3.rst:382
@@ -7341,7 +7341,7 @@ msgstr "Registrar el viewlet en el archivo :file:`browser/configure.zcml`"
 
 #: ../mastering-plone/dexterity_3.rst:449
 msgid "Add the viewlet class in :file:`browser/viewlets.py`"
-msgstr "Agregue en la clase viewlet en el archivo :file:`browser/viewlets.py`"
+msgstr "Añada en la clase viewlet en el archivo :file:`browser/viewlets.py`"
 
 #: ../mastering-plone/dexterity_3.rst:519
 msgid ""
@@ -7435,7 +7435,7 @@ msgstr "La plantilla para el viewlet"
 #: ../mastering-plone/dexterity_3.rst:550
 msgid "Add the template :file:`browser/templates/sponsors_viewlet.pt`"
 msgstr ""
-"Agregar la plantilla en el archivo "
+"Añadir a plantilla en el archivo "
 ":file:`browser/templates/sponsors_viewlet.pt`"
 
 #: ../mastering-plone/dexterity_3.rst:583
@@ -7443,7 +7443,7 @@ msgid ""
 "You can now add some CSS in :file:`browser/static/ploneconf.css` to make "
 "it look OK."
 msgstr ""
-"Ahora puede agregar algo de CSS en el archivo "
+"Ahora puede añadir algo de CSS en el archivo "
 ":file:`browser/static/ploneconf.css` para que se vea bien."
 
 #: ../mastering-plone/dexterity_3.rst:599
@@ -7506,7 +7506,7 @@ msgid ""
 "give it the title *Name*."
 msgstr ""
 "*No* use el comportamiento :py:class:`IBasic` o :py:class:`IDublinCore` "
-"para agregar título y descripción. En su lugar, agregue su propio campo "
+"para añadir título y descripción. En su lugar, añada su propio campo "
 "``title`` y asígnele el título *Nombre*."
 
 #: ../mastering-plone/dexterity_3.rst:687
@@ -7947,7 +7947,7 @@ msgid ""
 "for this eggs are defined in the section ``[sources]`` at the bottom of "
 ":file:`buildout.cfg`."
 msgstr ""
-"Esto le dice a Buildout que agregue el paquete egg "
+"Esto le dice a Buildout que añada el paquete egg "
 ":py:mod:`ploneconf.site`. Las fuentes para estos paquetes eggs se definen"
 " en la sección ``[sources]`` en la parte inferior de "
 ":file:`buildout.cfg`."
@@ -7980,7 +7980,7 @@ msgid ""
 msgstr ""
 "Si **no** desea utilizar el paquete preparado para ploneconf.site desde "
 "GitHub, puede escribirlo usted mismo (le sugerimos que lo intente) y "
-"luego agregue lo siguiente:"
+"luego añada lo siguiente:"
 
 #: ../mastering-plone/eggs1.rst:224
 msgid ""
@@ -7990,7 +7990,7 @@ msgid ""
 msgstr ""
 "Esto le dice a Buildout añadir el paquete egg `ploneconf.site` en el "
 "directorio :file:`src/ploneconf.site`. La directiva ``fs`` le permite "
-"añadir paquetes eggs en el sistema de ficheros sin un sistema de control "
+"añadir paquetes eggs en el sistema de archivos sin un sistema de control "
 "de versiones."
 
 #: ../mastering-plone/eggs1.rst:227
@@ -8014,7 +8014,7 @@ msgid ""
 "We will not install it now since we did not add any of our own code or "
 "configuration yet. Let's do that next."
 msgstr ""
-"No lo instalaremos ahora ya que no agregamos ningún código o "
+"No lo instalaremos ahora ya que no añadimos ningún código o "
 "configuración propios todavía. Hagámoslo a continuación."
 
 #: ../mastering-plone/eggs1.rst:241
@@ -8082,7 +8082,7 @@ msgstr ""
 
 #: ../mastering-plone/eggs2.rst:21
 msgid "We are going to add a voting behavior."
-msgstr "Vamos a agregar el comportamiento voting."
+msgstr "Vamos a añadir el comportamiento voting."
 
 #: ../mastering-plone/eggs2.rst:23
 msgid "For this we need:"
@@ -8173,7 +8173,7 @@ msgstr "No vamos a dejar que todos voten todo."
 #: ../mastering-plone/embed.rst:31
 msgid "First, we must add our package as a dependency to ploneconf.site."
 msgstr ""
-"Primero, debemos agregar nuestro paquete como una dependencia al paquete "
+"Primero, debemos añadir nuestro paquete como una dependencia al paquete "
 "ploneconf.site."
 
 #: ../mastering-plone/embed.rst:35
@@ -8237,7 +8237,7 @@ msgid ""
 "To add the behavior to talks, we do this in "
 ":file:`profiles/default/types/talk.xml`"
 msgstr ""
-"Agregar el comportamiento al tipo de contenidos talks, haremos esto en el"
+"Añadir  comportamiento al tipo de contenidos talks, haremos esto en el"
 " archivo :file:`profiles/default/types/talk.xml`"
 
 #: ../mastering-plone/embed.rst:81
@@ -8260,7 +8260,7 @@ msgid ""
 msgstr ""
 "Administrar dependencias en el archivo :file:`metadata.xml` es una buena "
 "práctica. No podemos confiar en recordar lo que tendríamos que hacer a "
-"mano. En Plone 4 también deberíamos haber agregado :samp:`<dependency"
+"mano. En Plone 4 también deberíamos haber añadido :samp:`<dependency"
 ">profile-plone.app.contenttypes:plone-content</dependency>` como la "
 "`documentación para plone.app.contenttypes "
 "<https://docs.plone.org/external/plone.app.contenttypes/docs/README.html"
@@ -8375,7 +8375,7 @@ msgid ""
 "Create the :file:`events` directory and add an empty "
 ":file:`events/__init__.py` file."
 msgstr ""
-"Crear el directorio :file:`events` y agregar un archivo vacio "
+"Crear el directorio :file:`events` y añadir un archivo vacio "
 ":file:`events/__init__.py`."
 
 #: ../mastering-plone/embed.rst:185
@@ -8495,7 +8495,7 @@ msgid ""
 "the-event-summary-view-to-list-basic-event-information"
 msgstr ""
 "Para mostrar el nuevo campo, reutilizamos una vista de resumen de evento "
-"predeterminada como se documenta en "
+"por defecto como se documenta en "
 "http://ploneappevent.readthedocs.io/en/latest/development.html#reusing-"
 "the-event-summary-view-to-list-basic-event-information"
 
@@ -8527,7 +8527,7 @@ msgstr ""
 
 #: ../mastering-plone/events.rst:96
 msgid "Modify :file:`browser/static/ploneconf.css` and add:"
-msgstr "Modificar el archivo :file:`browser/static/ploneconf.css` y agregar:"
+msgstr "Modificar el archivo :file:`browser/static/ploneconf.css` y añadir:"
 
 #: ../mastering-plone/events.rst:114
 msgid ""
@@ -8610,7 +8610,7 @@ msgstr "Observe cómo usa ``defaultFactory`` para establecer un valor inicial."
 
 #: ../mastering-plone/events.rst:292
 msgid "You reused a existing behavior to add new fields"
-msgstr "Usted reusa un comportamiento existente para agregar nuevos campos"
+msgstr "Usted reusa un comportamiento existente para añadir nuevos campos"
 
 #: ../mastering-plone/events.rst:293
 msgid "You reused existing indexes to display the time of a talk"
@@ -8735,7 +8735,7 @@ msgstr "Reinstale el paquete ploneconf.site (desactive y active)."
 #: ../mastering-plone/export_code.rst:155
 msgid "Test the type by adding an object or editing one of the old ones."
 msgstr ""
-"Pruebe el tipo de contenido agregando un objeto o la edición de una de "
+"Pruebe el tipo de contenido añadiendo un objeto o la edición de una de "
 "las entradas antiguas."
 
 #: ../mastering-plone/export_code.rst:156
@@ -8763,7 +8763,7 @@ msgstr ""
 "Cree una nueva carpeta :file:`content` en el directorio principal (desde "
 "la perspectiva del directorio de compilación que es "
 ":file:`src/ploneconf.site/src/ploneconf/site/content/`). En el interior, "
-"agregue un archivo vacío :file:`__init__.py` y un archivo "
+"añada un archivo vacío :file:`__init__.py` y un archivo "
 ":file:`talk.xml` que contenga el XML real (copiado de "
 "http://localhost:8080/Plone/dexterity-types/talk/@@modeleditor y "
 "embellecido con algún formateador XML en línea "
@@ -8790,8 +8790,8 @@ msgstr ""
 "será encontrado en la ruta Python ``ploneconf.site.content``. El archivo "
 ":file:`__ìnit__.py` es necesario para convertir la carpeta "
 ":file:`content` en un paquete Python. Eso es la mejor práctica para "
-"agregar esquemas en esta carpeta, y en capítulos posteriores usted "
-"agregará nuevos tipos de esquemas python en la misma carpeta."
+"Añadir squemas en esta carpeta, y en capítulos posteriores usted "
+"añadirá nuevos tipos de esquemas python en la misma carpeta."
 
 #: ../mastering-plone/export_code.rst:232
 msgid ""
@@ -8853,7 +8853,7 @@ msgid ""
 "it got accepted at all)? So we need to hide this field from them by "
 "requiring a permission that they do not have."
 msgstr ""
-"Nosotros también queremos agregar un nuevo campo `room` para mostrar "
+"Nosotros también queremos añadir un nuevo campo `room` para mostrar "
 "donde una charla será dictada. Nuestro caso de estudio dice que los "
 "speakers podrán enviar las talks en linea. ¿Cómo podrían ellos saber en "
 "cual salón la talk será dictada (si esa fue aceptada del todo)? entonces "
@@ -8919,10 +8919,10 @@ msgid ""
 "unless you change some container like the type *Folder*: Enable *Filter "
 "contenttypes?* for it and add *Talk* to the items that are allowed."
 msgstr ""
-"Al deshabilitar *Implicitly addable*, ya no puede agregar más tipos de "
+"Al deshabilitar *Implicitly addable*, ya no puede añadir más tipos de "
 "contenidos Talks a menos que cambie algún contenedor como el tipo "
 "*Carpeta*: Habilite *¿Filtrar los tipos de contenido?* para ello y "
-"agregue *Talk* a los elementos que están permitidos."
+"añada *Talk* a los elementos que están permitidos."
 
 #: ../mastering-plone/export_code.rst:413
 msgid ""
@@ -9052,7 +9052,7 @@ msgid ""
 "You can create extensions with new types of objects to add to your Plone "
 "site. Usually these are contenttypes."
 msgstr ""
-"Usted puede crear extensiones con nuevos tipos de objetos para agregar a "
+"Usted puede crear extensiones con nuevos tipos de objetos para añadir a "
 "su sitio Plone. Usualmente esos son tipos de contenidos."
 
 #: ../mastering-plone/extending.rst:41
@@ -9347,7 +9347,7 @@ msgid ""
 "type definitions."
 msgstr ""
 "Normalmente, utiliza *GenericSetup* para cambiar los flujos de trabajo o "
-"agregar nuevas definiciones de tipo de contenido."
+"Añadir evas definiciones de tipo de contenido."
 
 #: ../mastering-plone/extending.rst:128
 msgid ""
@@ -9424,7 +9424,7 @@ msgid ""
 msgstr ""
 "La personalización del estilo de la Skin folder puede lograrse a través "
 "de la Web vía la ZMI o con paquetes adicionales. Muchos paquetes de "
-"estilo antiguo crean su propia skin folder y la agregan a la skin layer "
+"estilo antiguo crean su propia skin folder y la añadan a la skin layer "
 "para Plone cuando está instalada."
 
 #: ../mastering-plone/extending.rst:156
@@ -9540,7 +9540,7 @@ msgstr ""
 ":guilabel:`Dexterity-based Plone Default Types`. De esta forma, incluso "
 "el contenido inicial en nuestra página se construirá con Dexterity "
 "utilizando el complemento :py:mod:`plone.app.contenttypes` que es el "
-"predeterminado en Plone 5."
+"por defecto en Plone 5."
 
 #: ../mastering-plone/features.rst:63
 msgid "You will be automatically redirected to the new site."
@@ -9751,7 +9751,7 @@ msgstr ":guilabel:`Visualizar`"
 
 #: ../mastering-plone/features.rst:176
 msgid ":guilabel:`add`"
-msgstr ":guilabel:`Agregar nuevo...`"
+msgstr ":guilabel:`Añadir nuevo...`"
 
 #: ../mastering-plone/features.rst:177
 msgid ":guilabel:`state`"
@@ -9794,7 +9794,7 @@ msgid ""
 msgstr ""
 "Algunas opciones de barra de edición solo se muestran cuando es "
 "apropiado; por ejemplo, :guilabel:`Contenido de carpeta` y "
-":guilabel:`Agregar nuevo...` solo se muestran para Carpetas. "
+":guilabel:`Añadir nuevo...` solo se muestran para Carpetas. "
 ":guilabel:`Reglas` es actualmente invisible porque no tenemos reglas de "
 "contenido disponibles."
 
@@ -9822,7 +9822,7 @@ msgstr ""
 
 #: ../mastering-plone/features.rst:207
 msgid "You can also add Zope users via the terminal by entering::"
-msgstr "También puede agregar usuarios Zope a través de la terminal ingresando::"
+msgstr "También puede añadir usuarios Zope a través de la terminal ingresando::"
 
 #: ../mastering-plone/features.rst:211
 msgid ""
@@ -9839,7 +9839,7 @@ msgid ""
 "control panel. You can also access it by browsing to "
 "http://localhost:8080/Plone/@@overview-controlpanel"
 msgstr ""
-"Para agregar un nuevo usuario en Plone, haga clic en el icono del usuario"
+"Para añadir un nuevo usuario en Plone, haga clic en el icono del usuario"
 " en la parte inferior de la barra vertical izquierda y luego en "
 ":guilabel:`Configuración del sitio`. Este es el panel de control de "
 "Plone. También puede acceder a él navegando por la dirección URL "
@@ -9854,7 +9854,7 @@ msgid ""
 "scrolling by in the console, just the way it would be sent out.) We set a"
 " password here because we haven't yet configured a mail server."
 msgstr ""
-"Haga clic en :guilabel:`Usuarios y Grupos` y agregue un usuario. Si "
+"Haga clic en :guilabel:`Usuarios y Grupos` y añada un usuario. Si "
 "hubiéramos configurado un servidor de correo, Plone podría enviarle un "
 "correo electrónico con un enlace a un formulario donde puede elegir una "
 "contraseña. (O bien, si tiene el complemento Products.PrintingMailHost en"
@@ -9906,23 +9906,23 @@ msgstr ""
 
 #: ../mastering-plone/features.rst:245
 msgid "Add user <yourname> (groups: Administrators)"
-msgstr "Agregar usuario <sunombre> (groups: Administrators)"
+msgstr "Añadir rio <sunombre> (groups: Administrators)"
 
 #: ../mastering-plone/features.rst:246
 msgid "Add another user \"tester\" (groups: None)"
-msgstr "Agregar otro usuario \"tester\" (grupos: Ninguno)"
+msgstr "Añadir otro usuario \"tester\" (grupos: Ninguno)"
 
 #: ../mastering-plone/features.rst:247
 msgid "Add another user \"editor\" (groups: None)"
-msgstr "Agregar otro usuario \"editor\" (grupos: Ninguno)"
+msgstr "Añadir otro usuario \"editor\" (grupos: Ninguno)"
 
 #: ../mastering-plone/features.rst:248
 msgid "Add another user \"reviewer\" (groups: Reviewers)"
-msgstr "Agregar otro usuario \"reviewer\" (grupos: Reviewers)"
+msgstr "Añadir otro usuario \"reviewer\" (grupos: Reviewers)"
 
 #: ../mastering-plone/features.rst:249
 msgid "Add another user \"jurymember\" (groups: None)"
-msgstr "Agregar otro usuario \"jurymember\" (grupos: Ninguno)"
+msgstr "Añadir otro usuario \"jurymember\" (grupos: Ninguno)"
 
 #: ../mastering-plone/features.rst:251
 msgid "Logout as admin by clicking 'Logout' and following the instructions."
@@ -10011,7 +10011,7 @@ msgstr "Crear un estructura del sitio:"
 
 #: ../mastering-plone/features.rst:293
 msgid "Add a folder \"The Event\" and in it add:"
-msgstr "Agregar una carpeta llamada \"El Evento\" y que contenga:"
+msgstr "Añadir una carpeta llamada \"El Evento\" y que contenga:"
 
 #: ../mastering-plone/features.rst:295
 msgid "Folder \"Talks\""
@@ -10034,24 +10034,24 @@ msgid ""
 "In ``/news``: Add a News Item \"Conference Website online!\" with some "
 "image"
 msgstr ""
-"En ``/news``: Agregue una noticia \"Sitio web de la Conferencia en "
+"En ``/news``: Añada una noticia \"Sitio web de la Conferencia en "
 "linea!\" con alguna imagen"
 
 #: ../mastering-plone/features.rst:308
 msgid "In ``/news``: Add a News Item \"Submit your talks!\""
-msgstr "En ``/news``: Agregue una noticia \"¡Envíe su charla!\""
+msgstr "En ``/news``: Añada una noticia \"¡Envíe su charla!\""
 
 #: ../mastering-plone/features.rst:309
 msgid ""
 "In ``/events``: Add an Event \"Deadline for talk submission\" Date: "
 "2017/08/10"
 msgstr ""
-"En ``/events``: Agregue un Evento \"Fecha tope para presentar las tasks\""
+"En ``/events``: Añada un Evento \"Fecha tope para presentar las tasks\""
 " Fecha: 2017/08/10"
 
 #: ../mastering-plone/features.rst:311
 msgid "Add a Folder \"Register\""
-msgstr "Agregar carpeta \"Registro\""
+msgstr "Añadir carpeta \"Registro\""
 
 #: ../mastering-plone/features.rst:312
 msgid "Delete the Folder \"Users\""
@@ -10059,7 +10059,7 @@ msgstr "Eliminar la Carpeta \"Users\""
 
 #: ../mastering-plone/features.rst:313
 msgid "Add a Folder \"Intranet\""
-msgstr "Agregar carpeta \"Intranet\""
+msgstr "Añadir carpeta \"Intranet\""
 
 #: ../mastering-plone/features.rst:319
 msgid "The view of the extended navigation bar."
@@ -10151,7 +10151,7 @@ msgstr "páginas por defecto"
 #: ../mastering-plone/features.rst:350
 msgid "Add a page to 'the-event': \"The Event\" and make it the default page"
 msgstr ""
-"Agregar una página a a la carpeta 'el-evento': \"El Evento\" y hacerla "
+"Añadir una página a a la carpeta 'el-evento': \"El Evento\" y hacerla "
 "página por defecto"
 
 #: ../mastering-plone/features.rst:356
@@ -10161,12 +10161,12 @@ msgstr "Colecciones"
 #: ../mastering-plone/features.rst:358
 msgid "add a new collection: \"all content that has ``pending`` as wf_state\"."
 msgstr ""
-"agregue una nueva colección: \"todo el contenido que tiene ``pending`` "
+"añada una nueva colección: \"todo el contenido que tiene ``pending`` "
 "como estado de flujo de trabajo\"."
 
 #: ../mastering-plone/features.rst:364
 msgid "Add a collection through the web."
-msgstr "Agregar una colección a traves de la web."
+msgstr "Añadir una colección a traves de la web."
 
 #: ../mastering-plone/features.rst:366
 msgid ""
@@ -10202,15 +10202,15 @@ msgstr "Nuevo contenido en Carpeta \"Charlas\" -> Enviar correo a revisores."
 
 #: ../mastering-plone/features.rst:385
 msgid "Add a rule through the web."
-msgstr "Agregar una regla a traves de la web."
+msgstr "Añadir una regla a traves de la web."
 
 #: ../mastering-plone/features.rst:391
 msgid "Add an action to the rule."
-msgstr "Agregar una acción a traves de la web."
+msgstr "Añadir una acción a traves de la web."
 
 #: ../mastering-plone/features.rst:397
 msgid "Add mail action."
-msgstr "Agregar una acción de correo."
+msgstr "Añadir una acción de correo."
 
 #: ../mastering-plone/features.rst:403
 msgid "Assign the newly created rule."
@@ -10230,7 +10230,7 @@ msgstr "Administrar usuarios y grupos"
 
 #: ../mastering-plone/features.rst:419
 msgid "add/edit/delete Users"
-msgstr "agregar/editar/eliminar Usuarios"
+msgstr "añadir/editar/eliminar Usuarios"
 
 #: ../mastering-plone/features.rst:420
 msgid "roles"
@@ -10242,15 +10242,15 @@ msgstr "grupos"
 
 #: ../mastering-plone/features.rst:423
 msgid "Add group \"Editors\" and add the user 'editor' to it"
-msgstr "Agregar grupo \"Editores\" y agregar el usuario 'editor' a ese."
+msgstr "Añadir grupo \"Editores\" y añadir el usuario 'editor' a ese."
 
 #: ../mastering-plone/features.rst:424
 msgid "Add group: ``orga``"
-msgstr "Agregar grupo: ``orga``"
+msgstr "Añadir grupo: ``orga``"
 
 #: ../mastering-plone/features.rst:425
 msgid "Add group: ``jury`` and add user 'jurymember' to it."
-msgstr "Agregar grupo: ``jury`` y agregue usuario 'jurymember' a ese."
+msgstr "Añadir grupo: ``jury`` y añada usuario 'jurymember' a ese."
 
 #: ../mastering-plone/features.rst:433
 msgid ""
@@ -10260,7 +10260,7 @@ msgid ""
 msgstr ""
 "Eche un vistazo al menú desplegable :guilabel:`Estado` en la barra de "
 "edición en la página de inicio. Ahora, navegue a una de las carpetas que "
-"acaba de agregar. La página de inicio tiene el estado ``publicado`` y el "
+"acaba de añadir. La página de inicio tiene el estado ``publicado`` y el "
 "nuevo contenido es ``privado``."
 
 #: ../mastering-plone/features.rst:437
@@ -10447,7 +10447,7 @@ msgid ""
 msgstr ""
 "Al igual que con la compatibilidad de copia de trabajo, Flujo de trabajo "
 "Placeful se incorpora con Plone pero debe activarse a través de la página"
-" de configuración de complementos. Una vez que se agrega, una opción "
+" de configuración de complementos. Una vez que se añada, una opción "
 ":guilabel:`Política` aparecerá en el menú de estado para permitir "
 "establecer una política de flujo de trabajo placeful."
 
@@ -10508,7 +10508,7 @@ msgid ""
 "Add the view to a file ``browser/frontpage.py``. We want a list of all "
 "talks that happen today."
 msgstr ""
-"Agregar la vista al archivo ``browser/frontpage.py``. Nosotros queremos "
+"Añadir la vista al archivo ``browser/frontpage.py``. Nosotros queremos "
 "una lista de todas las talks que sucederán hoy."
 
 #: ../mastering-plone/frontpage.rst:88
@@ -10580,7 +10580,7 @@ msgid ""
 " But instead we go D.R.Y. and reuse the talklistview by turning it into a"
 " macro."
 msgstr ""
-"Ahora podría agregar todo el código que usamos para la vista talklistview"
+"Ahora podría añadir todo el código que usamos para la vista talklistview"
 " nuevamente. Pero en su lugar vamos D.R.Y. y reutilizar la vista "
 "talklistview convirtiéndola en una macro."
 
@@ -10669,8 +10669,8 @@ msgid ""
 msgstr ""
 "La vista está destinada a ser utilizada con documentos (o cualquier otro "
 "tipo que tenga un campo de texto enriquecido 'texto'). La forma más fácil"
-" de usarlo es configurarlo como la vista predeterminada para el documento"
-" que actualmente es la página predeterminada para el portal. Por defecto,"
+" de usarlo es configurarlo como la vista por defecto para el documento"
+" que actualmente es la página por defecto para el portal. Por defecto,"
 " ese documento tiene el id ``front-page``."
 
 #: ../mastering-plone/frontpage.rst:287
@@ -10681,7 +10681,7 @@ msgid ""
 "http://localhost:8080/Plone/front-page/frontpageview."
 msgstr ""
 "Puede acceder directamente a http://localhost:8080/Plone/front-page o "
-"deshabilitar la página predeterminada para el portal y debe aparecer en "
+"deshabilitar la página por defecto para el portal y debe aparecer en "
 "la navegación. Pruebe la nueva vista de esta manera: "
 "http://localhost:8080/Plone/front-page/frontpageview."
 
@@ -10691,9 +10691,9 @@ msgid ""
 "ZMI: http://localhost:8080/Plone/front-page/manage_propertiesForm. Add a "
 "new property ``layout`` and set it to ``frontpageview``."
 msgstr ""
-"Para establecer esa vista a mano como la vista predeterminada para "
+"Para establecer esa vista a mano como la vista por defecto para "
 "``front-page`` en la ZMI: http://localhost:8080/Plone/front-"
-"page/manage_propertiesForm. Agregue una nueva propiedad ``layout`` y "
+"page/manage_propertiesForm. Añada una nueva propiedad ``layout`` y "
 "configúrela como ``frontpageview``."
 
 #: ../mastering-plone/frontpage.rst:291
@@ -10775,7 +10775,7 @@ msgstr ""
 "fuente y cree contenido conforme a nombres de archivo específicos para "
 "que se encuentren automáticamente. Ha habido discusiones si grok se debe "
 "utilizar en el núcleo del plone. La comunidad plone decidió en contra, "
-"porque aumenta la pila de tecnología sin agregar funcionalidad."
+"porque aumenta la pila de tecnología sin añadir funcionalidad."
 
 #: ../mastering-plone/grok.rst:10
 msgid ""
@@ -10829,7 +10829,7 @@ msgid ""
 "Open :file:`setup.py`, and add :py:mod:`five.grok` to the list of add-ons"
 " in ``install_requires``::"
 msgstr ""
-"Abra el archivo :file:`setup.py`, y agregue :py:mod:`five.grok` a la "
+"Abra el archivo :file:`setup.py`, y añada :py:mod:`five.grok` a la "
 "lista de complemento en ``install_requires``::"
 
 #: ../mastering-plone/grok.rst:31
@@ -10857,7 +10857,7 @@ msgstr ""
 #: ../mastering-plone/grok.rst:55
 msgid "Now we can add a grok view in a new file :file:`views.py`:"
 msgstr ""
-"Ahora nosotros podemos agregar una vista grok en un nuevo archivo "
+"Ahora nosotros podemos añadir una vista grok en un nuevo archivo "
 ":file:`views.py`:"
 
 #: ../mastering-plone/grok.rst:69
@@ -10876,7 +10876,7 @@ msgid ""
 msgstr ""
 "Si utilizáramos ``grok`` para viewlets, no necesitaríamos registrarlos en"
 " el archivo :file:`configure.zcml`, pero haremos eso en python. "
-"Agregaríamos un archivo :file:`viewlets.py` que contiene la clase "
+"Añadiriamos un archivo :file:`viewlets.py` que contiene la clase "
 "viewlet."
 
 #: ../mastering-plone/grok.rst:83
@@ -12195,7 +12195,7 @@ msgstr ""
 
 #: ../mastering-plone/plone5.rst:117
 msgid "You can also add real Python blocks inside templates."
-msgstr "También puede agregar bloques reales de Python dentro de las plantillas."
+msgstr "También puede añadir bloques reales de Python dentro de las plantillas."
 
 #: ../mastering-plone/plone5.rst:138
 msgid "Don't overdo it!"
@@ -12253,7 +12253,7 @@ msgid ""
 msgstr ""
 "`plone.app.multilingual "
 "<https://github.com/plone/plone.app.multilingual>`_ es el nuevo "
-"complemento predeterminado para sitios de más de un idioma."
+"complemento por defecto para sitios de más de un idioma."
 
 #: ../mastering-plone/plone5.rst:183
 msgid "New portlet manager"
@@ -12465,7 +12465,7 @@ msgid ""
 "Adding the following code to :file:`registry.xml`. This creates a new "
 "value in the registry upon installation of the package."
 msgstr ""
-"Agregando el siguiente código a :file:`registry.xml`. Este crea un nuevo "
+"Añadiendo el siguiente código a :file:`registry.xml`. Este crea un nuevo "
 "valor en el registro de instalación del paquete."
 
 #: ../mastering-plone/registry.rst:70
@@ -12495,7 +12495,7 @@ msgstr ":py:mod:`plone.api` tiene métodos para hacer esto incluso más fácil:"
 
 #: ../mastering-plone/registry.rst:107
 msgid "Add a custom controlpanel"
-msgstr "Agregar un panel de control personalizado"
+msgstr "Añadir un panel de control personalizado"
 
 #: ../mastering-plone/registry.rst:109
 msgid ""
@@ -12503,7 +12503,7 @@ msgid ""
 "to register the fields not manually like above but as field in a schema, "
 "similar to a content-types schema."
 msgstr ""
-"Cuando desee agregar un panel de control personalizado, generalmente es "
+"Cuando desee añadir un panel de control personalizado, generalmente es "
 "más conveniente registrar los campos no manualmente como en el ejemplo "
 "anterior, sino como un campo en un esquema, similar a un esquema de tipos"
 " de contenido."
@@ -12519,7 +12519,7 @@ msgstr ""
 
 #: ../mastering-plone/registry.rst:122
 msgid "Add a file :file:`browser/controlpanel.py`:"
-msgstr "Agregar un archivo :file:`browser/controlpanel.py`:"
+msgstr "Añadir un archivo :file:`browser/controlpanel.py`:"
 
 #: ../mastering-plone/registry.rst:161
 msgid ""
@@ -12548,7 +12548,7 @@ msgid ""
 msgstr ""
 "Para que aparezca en el panel de control general en "
 "http://localhost:8080/Plone/@@overview-controlpanel tienes que "
-"registrarlo con GenericSetup. Agregue un archivo "
+"registrarlo con GenericSetup. Añada un archivo "
 ":file:`profiles/default/controlpanel.xml`:"
 
 #: ../mastering-plone/registry.rst:190
@@ -12585,7 +12585,7 @@ msgstr ""
 
 #: ../mastering-plone/registry.rst:202
 msgid "Add a new field to :py:class:`IPloneconfControlPanel`:"
-msgstr "Agrega un nuevo campo a la interfaz :py:class:`IPloneconfControlPanel`:"
+msgstr "Añada un nuevo campo a la interfaz :py:class:`IPloneconfControlPanel`:"
 
 #: ../mastering-plone/registry.rst:215
 msgid "Create a file :file:`vocabularies.py` and write the vocabulary:"
@@ -12789,9 +12789,9 @@ msgid ""
 "approriate code to te template:"
 msgstr ""
 "Uno pensaría que sería el enfoque más fácil para simplificar el usar el "
-"método de representación del widget predeterminado como lo hicimos en el "
+"método de representación del widget por defecto como lo hicimos en el "
 "capítulo \"Views - Parte II: Una vista por defecto para 'Talk'\". "
-"Lamentablemente eso está mal. Entonces hay que agregar el código "
+"Lamentablemente eso está mal. Entonces hay que añadir el código "
 "apropiado a la plantilla:"
 
 #: ../mastering-plone/relations.rst:77
@@ -12811,7 +12811,7 @@ msgid ""
 "So we add a method to the view to return the related items so that we're "
 "able to render anyway we like."
 msgstr ""
-"Así que agregamos un método a la vista para devolver los elementos "
+"Así que añadimos un método a la vista para devolver los elementos "
 "relacionados, de modo que podamos representar de todos modos lo que nos "
 "gusta."
 
@@ -12852,7 +12852,7 @@ msgid ""
 " the file-path for the template: "
 ":file:`plone/app/layout/viewlets/document_relateditems.pt`"
 msgstr ""
-"Para referencia, observe cómo el viewlet predeterminado muestra la "
+"Para referencia, observe cómo el viewlet por defecto muestra la "
 "información para los elementos relacionados almacenados por el "
 "comportamiento :py:class:`IRelatedItems`. Vea cómo hace exactamente lo "
 "mismo en ``related2brains``. Esta es la ruta de Python para el viewlet: "
@@ -12874,7 +12874,7 @@ msgid ""
 " or *Relation Choice*, depending on wether you want to relate to multiple"
 " items or not."
 msgstr ""
-"En el editor de esquemas de dexterity, agregue un nuevo campo y "
+"En el editor de esquemas de dexterity, añada un nuevo campo y "
 "seleccione *Lista de relaciones* o *Seleccione relación*, dependiendo de "
 "si desea relacionarse con varios elementos o no."
 
@@ -13192,7 +13192,7 @@ msgid ""
 "It also hides the event-fields we added in :ref:`events-label` from "
 "people submitting their talks."
 msgstr ""
-"También oculta los campos de eventos que agregamos en :ref:`events-label`"
+"También oculta los campos de eventos que añadimos en :ref:`events-label`"
 " de las personas que envían sus charlas."
 
 #: ../mastering-plone/resources.rst:63
@@ -13214,8 +13214,8 @@ msgid ""
 "Also add a :file:`ploneconf.js` in the same folder but leave it empty for"
 " now. You could add some JavaScript to that file later."
 msgstr ""
-"También agregue un archivo :file:`ploneconf.js` en la misma carpeta pero "
-"déjalo vacío por el momento. Puede agregar algo de código JavaScript a "
+"También añada un archivo :file:`ploneconf.js` en la misma carpeta pero "
+"déjalo vacío por el momento. Puede añadir algo de código JavaScript a "
 "ese archivo más adelante."
 
 #: ../mastering-plone/resources.rst:69
@@ -13233,7 +13233,7 @@ msgid ""
 "Adding them directly into the HTML is not a good solution, having many "
 "CSS and JS files slows down the page loading."
 msgstr ""
-"Agregarlos directamente al HTML no es una buena solución, tener muchos "
+"Añadirilos directamente al HTML no es una buena solución, tener muchos "
 "archivos CSS y JS ralentiza la carga de la página."
 
 #: ../mastering-plone/resources.rst:74
@@ -13253,7 +13253,7 @@ msgstr "Nosotros necesitamos registrar nuestros recursos con GenericSetup."
 #: ../mastering-plone/resources.rst:79
 msgid "Open the file :file:`profiles/default/registry.xml` and add the following:"
 msgstr ""
-"Abra el archivo :file:`profiles/default/registry.xml` y agregue los "
+"Abra el archivo :file:`profiles/default/registry.xml` y añada los "
 "siguiente:"
 
 #: ../mastering-plone/resources.rst:97
@@ -13314,7 +13314,7 @@ msgid ""
 "We add lightning talks as a new type of talk. Users will be able to "
 "submit lightning talks e.g. using their mobile phone."
 msgstr ""
-"Nosotros agregamos charlas relámpago como un nuevo tipo de talk. Los "
+"Nosotros añadimos charlas relámpago como un nuevo tipo de talk. Los "
 "usuarios tendrán la posibilidad de enviar charlas ligeras ej. usando su "
 "teléfono móvil."
 
@@ -13351,7 +13351,7 @@ msgid ""
 msgstr ""
 "Nosotros instalamos :py:mod:`plone.restapi` como cualquier otro paquete "
 "complemento agregándolo al archivo :file:`buildout.cfg` y luego "
-"activándolo en el panel :guilabel:`Complementos`. Esto agregará y "
+"activándolo en el panel :guilabel:`Complementos`. Esto añadirá y "
 "configurará automáticamente un nuevo plugin PAS llamado `jwt_auth` "
 "utilizado para la autenticación de token web JSON."
 
@@ -13397,7 +13397,7 @@ msgid ""
 "Add a new talk in Plone and then update it's title to match 'Foo 42' "
 "using the REST API (from Postman or requests)."
 msgstr ""
-"Agregue un nuevo tipo de contenido talk en Plone y luego actualice su "
+"Añada un nuevo tipo de contenido talk en Plone y luego actualice su "
 "título para que coincida con 'Foo 42' usando el API REST (desde el "
 "cliente Postman o el paquete requests)."
 
@@ -13485,7 +13485,7 @@ msgstr "Asumiendo que el directorio actual de trabajo es el directorio buildout:
 #: ../mastering-plone/restapi.rst:158
 msgid "Then we add a new resource directory to :file:`browser/configure.zcml`:"
 msgstr ""
-"Entonces nosotros agregamos un nuevo directorio de recurso al archivo "
+"Entonces nosotros añadimos un nuevo directorio de recurso al archivo "
 ":file:`browser/configure.zcml`:"
 
 #: ../mastering-plone/restapi.rst:167
@@ -13493,7 +13493,7 @@ msgid ""
 "In the :file:`browser/talklist` directory, we add an HTML page called "
 ":file:`index.html`:"
 msgstr ""
-"En el directorio :file:`browser/talklist`, nosotros agregamos una nueva "
+"En el directorio :file:`browser/talklist`, nosotros añadimos una nueva "
 "página HTML llamada :file:`index.html`:"
 
 #: ../mastering-plone/restapi.rst:222
@@ -13528,7 +13528,7 @@ msgid ""
 "presentation of up to 5 minutes duration that can cover just about any "
 "topic."
 msgstr ""
-"Nosotros agregamos un nuevo tipo de charla. Una charla relámpago es una "
+"Nosotros añadimos un nuevo tipo de charla. Una charla relámpago es una "
 "breve presentación de hasta 5 minutos de duración que puede cubrir casi "
 "cualquier tema."
 
@@ -13601,8 +13601,8 @@ msgid ""
 "Last we have to add some code that allows authenticated users to submit a"
 " lightning talk. We add another JavaScript method first:"
 msgstr ""
-"Por último, tenemos que agregar un código que permita a los usuarios "
-"autenticados enviar una charla relámpago. Agregamos otro método de "
+"Por último, tenemos que añadir un código que permita a los usuarios "
+"autenticados enviar una charla relámpago. Añadimos otro método de "
 "JavaScript primero:"
 
 #: ../mastering-plone/restapi.rst:491
@@ -13619,7 +13619,7 @@ msgstr "Haciendo nuestro paquete reusable"
 
 #: ../mastering-plone/reusable.rst:8
 msgid "Add Permissions"
-msgstr "Agregando permisos"
+msgstr "Añadiendo permisos"
 
 #: ../mastering-plone/reusable.rst:15
 msgid "The package contains some problems."
@@ -13639,7 +13639,7 @@ msgstr ""
 
 #: ../mastering-plone/reusable.rst:23
 msgid "Adding permissions"
-msgstr "Agregando permisos"
+msgstr "Añadiendo permisos"
 
 #: ../mastering-plone/reusable.rst:27
 msgid "Zope 2 Permissions"
@@ -13750,7 +13750,7 @@ msgstr ""
 
 #: ../mastering-plone/reusable.rst:102
 msgid "We can add this restriction to :file:`browser/configure.zcml`"
-msgstr "Podemos agregar esta restricción al archivo :file:`browser/configure.zcml`"
+msgstr "Podemos añadir esta restricción al archivo :file:`browser/configure.zcml`"
 
 #: ../mastering-plone/reusable.rst:139
 msgid ""
@@ -13811,7 +13811,7 @@ msgid ""
 "We must add a condition in our page template, and we must provide the "
 "condition information in our viewlet class."
 msgstr ""
-"Debemos agregar una condición en nuestra plantilla de página, y debemos "
+"Debemos añadir una condición en nuestra plantilla de página, y debemos "
 "proporcionar la información de la condición en nuestra clase viewlet."
 
 #: ../mastering-plone/reusable.rst:155
@@ -14224,7 +14224,7 @@ msgstr ""
 "Normalmente, escribes una prueba que prueba solo una cosa. No tengas "
 "miedo de romper esa regla cuando sea necesario. Si, por ejemplo, "
 "construiste una lógica compleja que implique varios pasos, no evites "
-"escribir una prueba más larga que muestre el buen caso normal. Agregue "
+"escribir una prueba más larga que muestre el buen caso normal. Añada "
 "muchos comentarios explicando en cada paso qué está sucediendo, por qué y"
 " cómo. Esto ayuda a otros desarrolladores y al futuro tú."
 
@@ -14306,7 +14306,7 @@ msgid ""
 "semantics from the old Plone on how to register js files, he has a good "
 "starting point on what to do to make this package compatible."
 msgstr ""
-"A continuación, agrega un método para probar que su complemento se "
+"A continuación, añada un método para probar que su complemento se "
 "instala correctamente. Esto puede parecer estúpido, pero no lo es si se "
 "tiene en cuenta que en una tierra plone, las cosas cambian con las nuevas"
 " versiones. Tener un perfil GenericSetup instalando archivos Javascript "
@@ -14351,7 +14351,7 @@ msgid ""
 "First, we add a simple test for the custom template in our Functional "
 "Test layer"
 msgstr ""
-"Primero, agregamos una prueba simple para la plantilla personalizada en "
+"Primero, añadimos una prueba simple para la plantilla personalizada en "
 "nuestra capa de prueba funcional"
 
 #: ../mastering-plone/testing.rst:167
@@ -14402,9 +14402,9 @@ msgid ""
 msgstr ""
 "Entonces podemos crear contenido. Si miramos el código, no queremos que "
 "la lista de charlas muestre los resultados de los documentos. Así que "
-"agrega un documento. Además, el código no quiere generar resultados para "
+"añada un documento. Además, el código no quiere generar resultados para "
 "un documento fuera del contexto actual. Así que crea una carpeta y use "
-"esta como contexto. Luego agrega una charla fuera de esta carpeta. El "
+"esta como contexto. Luego añada una charla fuera de esta carpeta. El "
 "método itera sobre las audiencias, asegúrese de tener al menos una charla"
 " que tenga múltiples audiencias y verifique eso. Algo avanzado. Si alguna"
 " vez usa un sistema de búsqueda mejorado como collective.solr, los "
@@ -14573,7 +14573,7 @@ msgstr ""
 
 #: ../mastering-plone/thirdparty_behaviors.rst:15
 msgid "Add Teaser With collective.behavior.banner"
-msgstr "Agregar Teaser con collective.behavior.banner"
+msgstr "Añadir Teaser con collective.behavior.banner"
 
 #: ../mastering-plone/thirdparty_behaviors.rst:17
 msgid ""
@@ -14640,7 +14640,7 @@ msgstr "Crear una carpeta llamada ``banners``"
 #: ../mastering-plone/thirdparty_behaviors.rst:50
 msgid "Add two banners into that folder using images taken from lorempixel.com"
 msgstr ""
-"Agregar dos banners dentro de esa carpeta usando imágenes tomadas desde "
+"Añadir dos banners dentro de esa carpeta usando imágenes tomadas desde "
 "lorempixel.com"
 
 #: ../mastering-plone/thirdparty_behaviors.rst:51
@@ -14648,7 +14648,7 @@ msgid ""
 "Add the Behavior ``Slider`` to the default content type ``Page "
 "(Document)``"
 msgstr ""
-"Agregar el Comportamiento ``Slider`` al tipo de contenido predeterminado "
+"Añadir el Comportamiento ``Slider`` al tipo de contenido por defecto "
 "``Página (Documento)``"
 
 #: ../mastering-plone/thirdparty_behaviors.rst:52
@@ -15352,8 +15352,8 @@ msgid ""
 msgstr ""
 "En la carpeta de talk, seleccione `Restricciones... "
 "<http://localhost:8080/Plone/the-"
-"event/talks/folder_constraintypes_form>`_ desde el menú *Agregar nuevo*. "
-"Solamente permite agregar talks."
+"event/talks/folder_constraintypes_form>`_ desde el menú *Añadir nuevo*. "
+"Solamente permite añadir talks."
 
 #: ../mastering-plone/user_generated_content.rst:45
 #: ../mastering-plone/user_generated_content.rst:118
@@ -15366,8 +15366,8 @@ msgid ""
 "users. Now every user can add content in this folder (and only this "
 "folder)."
 msgstr ""
-"Valla a la pestaña *Compartir* y otorgar el rol *Puede agregar* al grupo "
-"Usuarios conectados. Ahora cualquier usuario puede agregar contenido en "
+"Valla a la pestaña *Compartir* y otorgar el rol *Puede añadir* al grupo "
+"Usuarios conectados. Ahora cualquier usuario puede añadir contenido en "
 "esta carpeta (y solamente en esta carpeta)."
 
 #: ../mastering-plone/user_generated_content.rst:49
@@ -15544,7 +15544,7 @@ msgid ""
 msgstr ""
 "Para habilitar el auto-registro, debe cambiar la configuración global que"
 " controla esta opción. La mayoría de las configuraciones globales se "
-"almacenan en el registro. Puede modificarlo agregando lo siguiente al "
+"almacenan en el registro. Puede modificarlo añadiendo lo siguiente al "
 "archivo :file:`profiles/default/registry.xml`:"
 
 #: ../mastering-plone/user_generated_content.rst:120
@@ -15656,8 +15656,8 @@ msgid ""
 "Also add a :file:`profiles/content/metadata.xml` so the default profile "
 "gets automatically installed when installing the content profile."
 msgstr ""
-"También agregue un :file:`profiles/content/metadata.xml` para que el "
-"perfil predeterminado se instale automáticamente al instalar el perfil de"
+"También añada un :file:`profiles/content/metadata.xml` para que el "
+"perfil por defecto se instale automáticamente al instalar el perfil de"
 " contenido."
 
 #: ../mastering-plone/user_generated_content.rst:259
@@ -15665,7 +15665,7 @@ msgid ""
 "Add the structure you wish to create as a list of dictionaries in "
 ":file:`setuphandlers.py`:"
 msgstr ""
-"Agregue la estructura que desea crear como una lista de diccionarios en "
+"Añada la estructura que desea crear como una lista de diccionarios en "
 "el archivo :file:`setuphandlers.py`:"
 
 #: ../mastering-plone/user_generated_content.rst:336
@@ -15674,8 +15674,8 @@ msgid ""
 " to that when registering the import step. And add some fancy logic to "
 "create the content from ``STRUCTURE``."
 msgstr ""
-"Agregue el método :py:meth:`content` al archivo :file:`setuphandlers.py`."
-" Señalamos eso al registrar el paso de importación. Y agrega una lógica "
+"Añada el método :py:meth:`content` al archivo :file:`setuphandlers.py`."
+" Señalamos eso al registrar el paso de importación. Y añada una lógica "
 "elegante para crear el contenido desde ``STRUCTURE``."
 
 #: ../mastering-plone/user_generated_content.rst:395
@@ -15687,7 +15687,7 @@ msgid ""
 "(using :py:class:`plone.app.textfield.RichTextValue`) or :py:attr:`image`"
 " (using :py:class:`plone.namedfile.file.NamedBlobImage`)."
 msgstr ""
-"Un gran beneficio de esta implementación es que puede agregar cualquier "
+"Un gran beneficio de esta implementación es que puede añadir cualquier "
 "atributo de objeto como un nuevo elemento para :py:data:`item_dict`. "
 ":py:meth:`plone.api.content.create` luego los establecerá en los objetos "
 "nuevos. De esta forma también puedes poblar campos como :py:attr:`text` "
@@ -15729,7 +15729,7 @@ msgid ""
 "We already customized a viewlet (:file:`colophon.pt`). Now we add a new "
 "one."
 msgstr ""
-"Ya hemos personalizado un viewlet (:file:`colophon.pt`). Ahora agregamos "
+"Ya hemos personalizado un viewlet (:file:`colophon.pt`). Ahora añadimos "
 "uno nuevo."
 
 #: ../mastering-plone/viewlets_1.rst:35
@@ -15749,7 +15749,7 @@ msgid ""
 "Let's add a link to the site that uses the information that we collected "
 "using the social behavior."
 msgstr ""
-"Agreguemos un enlace al sitio que usa la información que recopilamos "
+"Añada un enlace al sitio que usa la información que recopilamos "
 "utilizando el comportamiento social."
 
 #: ../mastering-plone/viewlets_1.rst:47 ../mastering-plone/viewlets_2.rst:34
@@ -15799,7 +15799,7 @@ msgstr ""
 #: ../mastering-plone/viewlets_1.rst:89
 msgid "Let's add the missing template :file:`templates/social_viewlet.pt`."
 msgstr ""
-"Vamos a agregar el archivo de la plantilla restante "
+"Vamos a añadir el archivo de la plantilla restante "
 ":file:`templates/social_viewlet.pt`."
 
 #: ../mastering-plone/viewlets_1.rst:107
@@ -15913,7 +15913,7 @@ msgstr ""
 #: ../mastering-plone/viewlets_1.rst:177
 msgid "Add the template :file:`browser/templates/number_of_talks.pt`:"
 msgstr ""
-"Agregar el archivo de la plantilla "
+"Añadir el archivo de la plantilla "
 ":file:`browser/templates/number_of_talks.pt`:"
 
 #: ../mastering-plone/viewlets_1.rst:187
@@ -16020,7 +16020,7 @@ msgstr "Escribir la plantilla de viewlet"
 
 #: ../mastering-plone/viewlets_2.rst:15
 msgid "Add jQuery include statements"
-msgstr "Agregar jQuery incluyen declaraciones"
+msgstr "Añadir jQuery incluyen declaraciones"
 
 #: ../mastering-plone/viewlets_2.rst:16
 msgid "Saving the vote on the object using annotations"
@@ -16035,7 +16035,7 @@ msgid ""
 "Earlier we added the logic that saves votes on the objects. We now create"
 " the user interface for it."
 msgstr ""
-"Anteriormente hemos agregado la lógica que salva los votos en los "
+"Anteriormente hemos añadido la lógica que salva los votos en los "
 "objetos. Nosotros ahora podemos crear la interfaz de usuario para esto."
 
 #: ../mastering-plone/viewlets_2.rst:29
@@ -16065,7 +16065,7 @@ msgid ""
 "This will add a viewlet to a slot below the title and expect a template "
 ":file:`voting_viewlet.pt` in a folder :file:`browser/templates`."
 msgstr ""
-"Esto agregará un viewlet a una ranura debajo del título y esperará una "
+"Esto añadirá un viewlet a una ranura debajo del título y esperará una "
 "plantilla :file:`voting_viewlet.pt` en una carpeta "
 ":file:`browser/templates`."
 
@@ -16074,7 +16074,7 @@ msgid ""
 "Let's create the file :file:`browser/templates/voting_viewlet.pt` without"
 " any logic"
 msgstr ""
-"Vamos a agregar el archivo de la plantilla "
+"Vamos a añadir el archivo de la plantilla "
 ":file:`templates/social_viewlet.pt` sin ninguna lógica"
 
 #: ../mastering-plone/viewlets_2.rst:89
@@ -16091,7 +16091,7 @@ msgstr "Escribiendo el código fuente del Viewlet"
 
 #: ../mastering-plone/viewlets_2.rst:99
 msgid "Now that we have the everything in place, we can add the Logic"
-msgstr "Ahora que tenemos todo en su lugar, podemos agregar la Lógica"
+msgstr "Ahora que tenemos todo en su lugar, podemos añadir la Lógica"
 
 #: ../mastering-plone/viewlets_2.rst:101
 msgid ""
@@ -16218,7 +16218,7 @@ msgstr ""
 #: ../mastering-plone/viewlets_2.rst:350
 msgid "Then we add our simple views into the file :file:`browser/vote.py`"
 msgstr ""
-"A continuación, agregamos nuestras vistas simples en el archivo "
+"A continuación, añadimos nuestras vistas simples en el archivo "
 ":file:`browser/vote.py`"
 
 #: ../mastering-plone/viewlets_2.rst:375
@@ -16271,7 +16271,7 @@ msgstr ""
 
 #: ../mastering-plone/views_1.rst:69
 msgid "Add a file ``browser/templates/training.pt``"
-msgstr "Agregue un archivo ``browser/templates/training.pt``"
+msgstr "Añada un archivo ``browser/templates/training.pt``"
 
 #: ../mastering-plone/views_1.rst:75
 msgid "Restart Plone and open http://localhost:8080/Plone/@@training."
@@ -16310,7 +16310,7 @@ msgstr "Registrar una vista con una clase python"
 #: ../mastering-plone/views_2.rst:17
 msgid "Write a template used in the default view for talks"
 msgstr ""
-"Escribir una plantilla usada en la vista predeterminada para el tipo de "
+"Escribir una plantilla usada en la vista por defecto para el tipo de "
 "contenido talks"
 
 #: ../mastering-plone/views_2.rst:22
@@ -16350,7 +16350,7 @@ msgid ""
 "We are adding a file called :file:`views.py` in the :file:`browser` "
 "folder."
 msgstr ""
-"Estamos agregando un archivo llamado :file:`views.py` en la carpeta "
+"Estamos añadiendo un archivo llamado :file:`views.py` en la carpeta "
 ":file:`browser`."
 
 #: ../mastering-plone/views_2.rst:58 ../mastering-plone/views_2.rst:183
@@ -16401,7 +16401,7 @@ msgstr ""
 
 #: ../mastering-plone/views_2.rst:190
 msgid "Add the template :file:`templates/talkview.pt`:"
-msgstr "Agregar la plantilla :file:`templates/talkview.pt`:"
+msgstr "Añadir la plantilla :file:`templates/talkview.pt`:"
 
 #: ../mastering-plone/views_2.rst:214
 msgid ""
@@ -16544,7 +16544,7 @@ msgid ""
 "view is available in the menu *Display*. To make it the default view "
 "enter it in ``Default view method``."
 msgstr ""
-"Ahora agregue ``talkview`` a la lista *Available view methods*. Ahora la "
+"Ahora añada ``talkview`` a la lista *Available view methods*. Ahora la "
 "nueva vista está disponible en el menú *Mostrar*. Para que sea la vista "
 "predeterminada, ingrésela en ``Default view method``."
 
@@ -16561,7 +16561,7 @@ msgid ""
 "Add the new choice field \"room\" to the Talk type (TTW) and display it "
 "below Audience in the browser view, it should contain the following data:"
 msgstr ""
-"Agregue el nuevo campo de selección \"room\" al tipo de Talk (A través de"
+"Añada el nuevo campo de selección \"room\" al tipo de Talk (A través de"
 " la Web) y muéstrelo debajo de Audiencia en la browser view, debe "
 "contener los siguientes datos:"
 
@@ -16579,11 +16579,11 @@ msgid ""
 "the new field"
 msgstr ""
 "Valla a http://localhost:8080/Plone/dexterity-types/talk/@@fields y "
-"agrega el nuevo campo"
+"añada el nuevo campo"
 
 #: ../mastering-plone/views_2.rst:359
 msgid "Add the new HTML below the audience part:"
-msgstr "Agregar el nuevo HTML siguiente en la parte de audiencia:"
+msgstr "Añadir el nuevo HTML siguiente en la parte de audiencia:"
 
 #: ../mastering-plone/views_2.rst:371
 msgid "Behind the scenes"
@@ -16600,7 +16600,7 @@ msgid ""
 "additional things needed for a browser view."
 msgstr ""
 "La browser page es solo un MultiAdapter. La instrucción ZCML "
-":samp:`browser:page` registra una clase :py:class:`MultiAdapter` y agrega"
+":samp:`browser:page` registra una clase :py:class:`MultiAdapter` y añada"
 " cosas adicionales necesarias para una browser view."
 
 #: ../mastering-plone/views_2.rst:404
@@ -16901,7 +16901,7 @@ msgid ""
 "We could also add a new index to the catalog that will add 'audience' to "
 "the properties of brains, but we should weigh the pros and cons:"
 msgstr ""
-"También podríamos agregar un nuevo índice al catálogo que agregará "
+"También podríamos añadir un nuevo índice al catálogo que añadirá "
 "'audience' a las propiedades de los cerebros, pero debemos sopesar los "
 "pros y los contras:"
 
@@ -16917,7 +16917,7 @@ msgstr "prevenir la inflamación del catálogo con índices"
 
 #: ../mastering-plone/views_3.rst:132
 msgid "The code to add such an index would look like this::"
-msgstr "El código para agregar este índice se vería como el siguiente::"
+msgstr "El código para añadir este índice se vería como el siguiente::"
 
 #: ../mastering-plone/views_3.rst:141
 msgid ""
@@ -16931,7 +16931,7 @@ msgstr ""
 
 #: ../mastering-plone/views_3.rst:147
 msgid "We will add some indexers later on."
-msgstr "Vamos a agregar algunos índices más adelante."
+msgstr "Vamos a añadir algunos índices más adelante."
 
 #: ../mastering-plone/views_3.rst:149
 msgid ""
@@ -17028,13 +17028,13 @@ msgid ""
 " a list of brains of all News Items that are published and sort them in "
 "the order of their publishing-date."
 msgstr ""
-"Agregue un método :py:meth:`get_news` a la clase :py:class:`TalkListView`"
+"Añada un método :py:meth:`get_news` a la clase :py:class:`TalkListView`"
 " que devuelve una lista de los cerebros de todas las noticias publicadas "
 "y las ordena en el orden de su fecha de publicación."
 
 #: ../mastering-plone/views_3.rst:259
 msgid "Add a method that returns all published keynotes as objects."
-msgstr "Agregar un método que regresa todas las keynotes publicadas como objetos."
+msgstr "Añadir un método que regresa todas las keynotes publicadas como objetos."
 
 #: ../mastering-plone/views_3.rst:286
 msgid "The template for the listing"
@@ -17138,7 +17138,7 @@ msgstr ""
 
 #: ../mastering-plone/views_3.rst:317
 msgid "Add this simple table to :file:`templates/talklistview.pt`:"
-msgstr "Agregue esta simple tabla al archivo :file:`templates/talklistview.pt`:"
+msgstr "Añada esta simple tabla al archivo :file:`templates/talklistview.pt`:"
 
 #: ../mastering-plone/views_3.rst:366
 msgid "Again we use ``class=\"listing\"`` to give the table a nice style."
@@ -17238,7 +17238,7 @@ msgstr ""
 
 #: ../mastering-plone/views_3.rst:445
 msgid "Setting a custom view as default view on an object"
-msgstr "Establecer una vista personalizada como vista predeterminada en un objeto"
+msgstr "Establecer una vista personalizada como vista por defecto en un objeto"
 
 #: ../mastering-plone/views_3.rst:447
 msgid ""
@@ -17246,7 +17246,7 @@ msgid ""
 "folder to get the view. There is a very easy way to set the view to the "
 "folder using the ZMI."
 msgstr ""
-"No queremos tener que agregar siempre :samp:`/@@talklistview` a nuestra "
+"No queremos tener que añadir siempre :samp:`/@@talklistview` a nuestra "
 "carpeta para obtener la vista. Hay una manera muy fácil de configurar la "
 "vista en la carpeta usando ZMI."
 
@@ -17255,7 +17255,7 @@ msgid ""
 "If we append :samp:`/manage_propertiesForm` we can set the property "
 "\"layout\" to :samp:`talklistview`."
 msgstr ""
-"Si agregamos :samp:`/manage_propertiesForm` podemos establecer la "
+"Si añadimos :samp:`/manage_propertiesForm` podemos establecer la "
 "propiedad \"layout\" a :samp:`talklistview`."
 
 #: ../mastering-plone/views_3.rst:451
@@ -17268,7 +17268,7 @@ msgstr ""
 "Para hacer las vistas configurables para que los editores puedan "
 "elegirlas, debemos registrar la vista para el tipo de contenido en "
 "cuestión en su registro FTI. Para habilitarlo para todas las carpetas, "
-"agregamos un nuevo archivo :file:`profiles/default/types/Folder.xml`"
+"añadimos un nuevo archivo :file:`profiles/default/types/Folder.xml`"
 
 #: ../mastering-plone/views_3.rst:463
 msgid ""
@@ -17286,7 +17286,7 @@ msgid ""
 "The :samp:`purge=\"False\"` appends the view to the already existing ones"
 " instead of replacing them."
 msgstr ""
-"El :samp:`purge=\"False\"` agrega la vista a las ya existentes en lugar "
+"El :samp:`purge=\"False\"` añada la vista a las ya existentes en lugar "
 "de reemplazarlas."
 
 #: ../mastering-plone/views_3.rst:473
@@ -17464,7 +17464,7 @@ msgid ""
 "with \"An even better conference\""
 msgstr ""
 "reemplazar el contenido de un elemento. Reemplazamos el contenido "
-"predeterminado anterior con \"A even better conference\""
+"por defecto anterior con \"A even better conference\""
 
 #: ../mastering-plone/zpt.rst:136
 msgid "``tal:attributes``"
@@ -17898,7 +17898,7 @@ msgstr "Plone 5 (y Plone 4 con five.pt) :"
 
 #: ../mastering-plone/zpt.rst:491
 msgid "You can also add pure python into the templates:"
-msgstr "Usted puede también agregar puro código python dentro de las plantillas:"
+msgstr "Usted puede también añadir puro código python dentro de las plantillas:"
 
 #: ../mastering-plone/zpt.rst:512
 msgid ""
@@ -17932,7 +17932,7 @@ msgid ""
 "(:samp:`repeat.{<name of item in loop>}.odd` is True if the ordinal index"
 " of the current iteration is an odd number)."
 msgstr ""
-"4. Agregue alternativamente las clases CSS impar 'odd' y par 'even' al "
+"4. Añada alternativamente las clases CSS impar 'odd' y par 'even' al "
 "elemento <tr>. (:samp:`repeat.{<nombre del elemento en bucle>}.odd` es "
 "True si el índice ordinal de la iteración actual es un número impar "
 "'odd')."
@@ -17985,7 +17985,7 @@ msgstr ""
 
 #: ../mastering-plone/zpt.rst:847
 msgid "We add to the ``<html>`` tag::"
-msgstr "Agregamos a la etiqueta ``<html>``::"
+msgstr "Añadimos a la etiqueta ``<html>``::"
 
 #: ../mastering-plone/zpt.rst:851
 msgid "And then wrap the code we want to put in the content area of Plone in:"
@@ -18504,7 +18504,7 @@ msgstr ""
 
 #: ../mastering-plone/zpt_2.rst:244
 msgid "Add the following after line 28:"
-msgstr "Agregue lo siguiente después de la linea 28:"
+msgstr "Añada lo siguiente después de la linea 28:"
 
 #: ../mastering-plone/zpt_2.rst:252
 msgid ""
@@ -18526,7 +18526,7 @@ msgid ""
 msgstr ""
 "La adición representa la fecha de los respectivos objetos sobre los que "
 "itera la plantilla (de ahí ``item`` en lugar de ``context`` ya que "
-"``context`` sería una colección que agrega las noticias o una carpeta que"
+"``context`` sería una colección que añada las noticias o una carpeta que"
 " contiene una noticia)."
 
 #: ../mastering-plone/zpt_2.rst:258
@@ -18682,7 +18682,7 @@ msgstr ""
 
 #: ../mastering-plone/zpt_2.rst:342
 msgid "Add the following to line 29 just before our additions::"
-msgstr "Agregue lo siguiente a la línea 29 justo antes de nuestras adiciones::"
+msgstr "Añada lo siguiente a la línea 29 justo antes de nuestras adiciones::"
 
 #: ../mastering-plone/zpt_2.rst:346
 msgid ""
@@ -18796,7 +18796,7 @@ msgid ""
 "dropdown menu on top of the page."
 msgstr ""
 "El método más seguro es usar :py:mod:`plone.app.debugtoolbar`. Ya lo "
-"tenemos en nuestro buildout y solo necesitamos instalarlo. Agrega un menú"
+"tenemos en nuestro buildout y solo necesitamos instalarlo. Añada un menú"
 " desplegable \"Depurar\" en la parte superior de la página."
 
 #: ../mastering-plone/zpt_2.rst:424
@@ -18826,7 +18826,7 @@ msgstr ""
 "La sesión de depuración para encontrar la plantilla es un poco más "
 "complicada. Como tenemos el módulo :py:mod:`Products.PDBDebugMode` en "
 "nuestro buildout, podemos llamar a la vista del navegador ``pdb`` en "
-"nuestra página al agregar ``/pdb`` a la dirección url. No podemos poner "
+"nuestra página al añadir ``/pdb`` a la dirección url. No podemos poner "
 "un `pdb` en las plantillas, ya que no sabemos (todavía) en qué plantilla "
 "colocar el `pdb`."
 
@@ -18840,7 +18840,7 @@ msgstr ""
 "El objeto al que apunta la dirección URL es por defecto "
 ":py:obj:`self.context`. Pero el primer problema es que la dirección URL "
 "que estamos viendo no es la dirección URL de la colección que queremos "
-"modificar. Esto se debe a que la colección es la página predeterminada de"
+"modificar. Esto se debe a que la colección es la página por defecto de"
 " la carpeta ``news``."
 
 #: ../mastering-plone/zpt_2.rst:451
@@ -18878,7 +18878,7 @@ msgid ""
 "http://localhost:8080/Plone/old_style_template and it will be rendered."
 msgstr ""
 "Hay una tecnología obsoleta llamada 'plantillas skin' que le permite "
-"simplemente agregar una plantilla de página (por ejemplo, "
+"simplemente añadir una plantilla de página (por ejemplo, "
 "'old_style_template.pt') a una determinada carpeta en la ZMI o su paquete"
 " egg y puede acceder a ella en el navegador abriendo una dirección URL "
 "como http://localhost:8080/Plone/old_style_template y se representará."
