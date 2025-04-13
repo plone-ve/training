@@ -5,14 +5,14 @@
 # Carlos J Morales G. <carlosm0177@gmail.com>, 2014
 # hellfish2 <hellfish2@gmail.com>, 2016
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2015, 2018.
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-28 20:53-0430\n"
-"PO-Revision-Date: 2018-04-11 21:17-0400\n"
+"PO-Revision-Date: 2025-04-13 19:27+0200\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: es\n"
 "Language: es\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../CHANGES.rst:2
 msgid "Changelog"
-msgstr "Cambios"
+msgstr "Registro de cambios"
 
 #: ../CHANGES.rst:4
 msgid ""
@@ -32,8 +32,8 @@ msgid ""
 "https://github.com/plone/training/commits/master"
 msgstr ""
 "Este registro de cambios es solo muy difícil. Para el registro completo de "
-"cambios, consulte la siguiente dirección URL "
-"https://github.com/plone/training/commits/master"
+"cambios, consulte la siguiente dirección URL https://github.com/plone/"
+"training/commits/master"
 
 #: ../CHANGES.rst:7
 msgid "1.2.5 (unreleased)"
@@ -45,7 +45,7 @@ msgstr "Corregir el Entrenamiento en Python Avanzado [oz123]"
 
 #: ../CHANGES.rst:12
 msgid "Add one more chapter to Advanced Python Training [oz123]"
-msgstr "Agregar uno capítulo de más al Entrenamiento en Python Avanzado [oz123]"
+msgstr "Añadir uno capítulo de más al Entrenamiento en Python Avanzado [oz123]"
 
 #: ../CHANGES.rst:14
 msgid "Updates and Fixes in the JavaScript training section [staeff]"
@@ -57,7 +57,7 @@ msgstr "Reordenar ejercicios Javascript [frapell]"
 
 #: ../CHANGES.rst:18
 msgid "Add content of Advanced Python Training [oz123]"
-msgstr "Agregar contenido al Entrenamiento en Python Avanzado [oz123]"
+msgstr "Añadir contenido al Entrenamiento en Python Avanzado [oz123]"
 
 #: ../CHANGES.rst:20
 msgid "Markup fixes and small edits [jean]"
@@ -73,7 +73,7 @@ msgstr "Ponga los capítulos similares en sincronización (ttw/mastering) [jean]
 
 #: ../CHANGES.rst:27
 msgid "Add missing Build step [jean]"
-msgstr "Agregar paso de Construcción perdida [jean]"
+msgstr "Añadir paso de Construcción perdida [jean]"
 
 #: ../CHANGES.rst:29
 msgid "Fix some more Sphinx warnings [jean]"
@@ -88,8 +88,8 @@ msgid ""
 "Update Mastering Plone Chapters for Ploneconf 2017 and use Plone 5.1rc1 "
 "[pbauer]"
 msgstr ""
-"Actualizar Capítulos de \"Maestria en Plone 5\" para la Ploneconf 2017 y "
-"usar la versión de Plone 5.1rc1 [pbauer]"
+"Actualizar Capítulos de \"Maestria en Plone 5\" para la Ploneconf 2017 y usar "
+"la versión de Plone 5.1rc1 [pbauer]"
 
 #: ../CHANGES.rst:36
 msgid "More formatting, markup and editing [jean]"
@@ -101,7 +101,7 @@ msgstr "Actualizar enlace [sgrepos]"
 
 #: ../CHANGES.rst:40
 msgid "Add angular training [barbichu, fulv]"
-msgstr "Agregar entrenamiento de angular [barbichu, fulv]"
+msgstr "Añadir entrenamiento de angular [barbichu, fulv]"
 
 #: ../CHANGES.rst:43 ../CHANGES.rst:48
 msgid "Fix some IDs and filename references [jean]"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: ../CHANGES.rst:75
 msgid "Add CONTRIBUTING.md [stevepiercy]"
-msgstr "Agregar archivo CONTRIBUTING.md [stevepiercy]"
+msgstr "Añadir archivo CONTRIBUTING.md [stevepiercy]"
 
 #: ../CHANGES.rst:78
 msgid "Move PloneConf 2016 to Previous Trainings [stevepiercy]"
@@ -179,18 +179,17 @@ msgid ""
 "registry for theming [MrTango]"
 msgstr ""
 "Actualizar entrenamiento de temas para reflejar los cambios en el paquete "
-"bobtemplates.plone y limpieza general, también agregar referencias al "
+"bobtemplates.plone y limpieza general, también añadir referencias al "
 "entrenamiento ttw, remover uso de registro de recursos para los temas "
 "[MrTango]"
 
 #: ../CHANGES.rst:90
 msgid "Add solr training [tomgross]"
-msgstr "Agregar entrenamiento en solr [tomgross]"
+msgstr "Añadir entrenamiento en solr [tomgross]"
 
 #: ../CHANGES.rst:93
 msgid ""
-"Rearrange structure so Mastering Plone now lives in it's own folder. "
-"[pbauer]"
+"Rearrange structure so Mastering Plone now lives in it's own folder. [pbauer]"
 msgstr ""
 "Reorganiza la estructura para que el entrenamiento Maestría en Plone ahora "
 "viva en su propia carpeta. [pbauer]"
@@ -209,7 +208,7 @@ msgstr "Estilos de documentación Plone para la parte Javascript. [jensens]"
 
 #: ../CHANGES.rst:103
 msgid "Add spell-checker, auto-build and travis-tests [svx]"
-msgstr "Agregar corrección ortográfica, auto-build y pruebas travis [svx]"
+msgstr "Añadir corrección ortográfica, auto-build y pruebas travis [svx]"
 
 #: ../CHANGES.rst:106
 msgid "Use Plone 5 final and simplify vagrant-setup. [pbauer, fulv]"
@@ -223,19 +222,19 @@ msgstr "Revisar capítulo en relaciones. [pbauer]"
 
 #: ../CHANGES.rst:112
 msgid "Add a training on javasript. [frappel, thet]"
-msgstr "Agregar un entrenamiento en javasript. [frappel, thet]"
+msgstr "Añadir un entrenamiento en javasript. [frappel, thet]"
 
 #: ../CHANGES.rst:115
 msgid "Add a training theming Plone 5. [MrTango, simahawk]"
-msgstr "Agregar entrenamiento de temas para Plone 5. [MrTango, simahawk]"
+msgstr "Añadir entrenamiento de temas para Plone 5. [MrTango, simahawk]"
 
 #: ../CHANGES.rst:118
 msgid ""
 "A ton of fixes in the development-training in preparation to Ploneconf 2015 "
 "in Bucarest. [fulv]"
 msgstr ""
-"Un montón de correcciones en el entrenamiento de desarrollo en preparación "
-"en la Ploneconf 2015 en Bucarest. [fulv]"
+"Un montón de correcciones en el entrenamiento de desarrollo en preparación en "
+"la Ploneconf 2015 en Bucarest. [fulv]"
 
 #: ../CHANGES.rst:122
 msgid ""
@@ -253,8 +252,7 @@ msgstr ""
 "[jean]"
 
 #: ../CHANGES.rst:128
-msgid ""
-"Fix a couple of duplicate labels, unmatched literal ending, typo [jean]"
+msgid "Fix a couple of duplicate labels, unmatched literal ending, typo [jean]"
 msgstr ""
 "Corregir un par de etiquetas duplicadas, final literal sin coincidencia, "
 "error ortográfico [jean]"
@@ -290,7 +288,7 @@ msgstr ""
 
 #: ../CHANGES.rst:141
 msgid "Add Plone 5 Workflow Training [calvinhp]"
-msgstr "Agregar Entrenamiento Flujo de trabajo en Plone 5 [calvinhp]"
+msgstr "Añadir Entrenamiento Flujo de trabajo en Plone 5 [calvinhp]"
 
 #: ../CHANGES.rst:144
 msgid "Editing Dexterity chapters (typos, markup, some grammar) [jean]"
@@ -336,11 +334,11 @@ msgstr "Revisado para Ploneconf 2014, Bristol [pbauer, gomez]"
 
 #: ../CHANGES.rst:166
 msgid ""
-"Add first exercises and create css+js for expanding/collapsing the solutions"
-" [pbauer]"
+"Add first exercises and create css+js for expanding/collapsing the solutions "
+"[pbauer]"
 msgstr ""
-"Agregue los primeros ejercicios y cree archivos css + js para expandir/"
-"colapsar las soluciones de las practicas [pbauer]"
+"Añada los primeros ejercicios y cree archivos css + js para expandir/colapsar "
+"las soluciones de las practicas [pbauer]"
 
 #: ../CHANGES.rst:169
 msgid "Fix local build with the rtd-Theme [pbauer]"
@@ -348,11 +346,11 @@ msgstr "Corregir la compilación local con el paquete rtd-Theme [pbauer]"
 
 #: ../CHANGES.rst:172
 msgid "Add Spanish translation. [macagua]"
-msgstr "Agregar traducción al Español. [macagua]"
+msgstr "Añadir traducción al Español. [macagua]"
 
 #: ../CHANGES.rst:175
 msgid "Add support for translations on transifex [macagua]"
-msgstr "Agregar soporte para las traducciones en transifex [macagua]"
+msgstr "Añadir soporte para las traducciones en transifex [macagua]"
 
 #: ../CHANGES.rst:180
 msgid "1.2.3 (2014-07-11)"
@@ -360,19 +358,18 @@ msgstr "1.2.3 (2014-07-11)"
 
 #: ../CHANGES.rst:182
 msgid ""
-"Move sources to https://github.com/plone/training and render at https"
-"://plone-training.readthedocs.io/en/legacy/ [pbauer]"
+"Move sources to https://github.com/plone/training and render at https://plone-"
+"training.readthedocs.io/en/legacy/ [pbauer]"
 msgstr ""
-"Mover fuentes a https://github.com/plone/training y renderizar en https"
-"://plone-training.readthedocs.io/en/legacy/ [pbauer]"
+"Mover fuentes a https://github.com/plone/training y renderizar en https://"
+"plone-training.readthedocs.io/en/legacy/ [pbauer]"
 
 #: ../CHANGES.rst:186
 msgid "Integrate with docs.plone.org and papyrus [do3cc]"
 msgstr "Integrar con docs.plone.org y papyrus [do3cc]"
 
 #: ../CHANGES.rst:189
-msgid ""
-"Change license to https://creativecommons.org/licenses/by/4.0/ [pbauer]"
+msgid "Change license to https://creativecommons.org/licenses/by/4.0/ [pbauer]"
 msgstr ""
 "Cambiar licencia a https://creativecommons.org/licenses/by/4.0/ [pbauer]"
 
@@ -397,8 +394,7 @@ msgstr ""
 #: ../CHANGES.rst:204
 msgid "Move rst-files to https://github.com/starzel/training [pbauer]"
 msgstr ""
-"Mover archivos rst al repositorio https://github.com/starzel/training "
-"[pbauer]"
+"Mover archivos rst al repositorio https://github.com/starzel/training [pbauer]"
 
 #: ../CHANGES.rst:208
 msgid "1.2.1 (2014-05-30)"
@@ -409,15 +405,15 @@ msgid ""
 "Publish verbose version on http://starzel.github.io/training/index.html "
 "[pbauer]"
 msgstr ""
-"Publicar una versión detallada en http://starzel.github.io/training/index.html"
-" [pbauer, hellfish2]"
+"Publicar una versión detallada en http://starzel.github.io/training/index."
+"html [pbauer, hellfish2]"
 
 #: ../CHANGES.rst:213
 msgid ""
-"Add bash-command to copy the code from ploneconf.site_sneak to "
-"ploneconf.site for each chapter [pbauer]"
+"Add bash-command to copy the code from ploneconf.site_sneak to ploneconf.site "
+"for each chapter [pbauer]"
 msgstr ""
-"Agregar un comando bash, para copiar el código de ploneconf.site_sneak a "
+"Añadir un comando bash, para copiar el código de ploneconf.site_sneak a "
 "ploneconf.site para cada capítulo [pbauer, hellfish2]"
 
 #: ../CHANGES.rst:216
@@ -436,8 +432,8 @@ msgstr "1.2 (2014-05-23)"
 msgid ""
 "Heavily expanded and rewritten for a training in Mai 2014 [pbauer, do3cc]"
 msgstr ""
-"Ampliamente expandido y reescrito para un entrenamiento en Mayo 2014 "
-"[pbauer, do3cc, hellfish2]"
+"Ampliamente expandido y reescrito para un entrenamiento en Mayo 2014 [pbauer, "
+"do3cc, hellfish2]"
 
 #: ../CHANGES.rst:229
 msgid "remove grok [pbauer]"
@@ -465,7 +461,7 @@ msgid ""
 "Programming Plone, Custom Search, Events, Using third-party behaviors, "
 "Dexterity Types III: Python, ... [pbauer, do3cc]"
 msgstr ""
-"agregar más capítulos: Tipos Dexterity - Parte II: Creciendo, Contenido "
+"añadir más capítulos: Tipos Dexterity - Parte II: Creciendo, Contenido "
 "generado por el usuario, Programando en Plone, Búsqueda Personalizada, "
 "Eventos, Usando comportamientos de complementos de terceros, Tipos Dexterity "
 "- Parte III: Python, ... [pbauer, do3cc]"
@@ -496,8 +492,7 @@ msgstr "0.2 Octubre 2011"
 
 #: ../CHANGES.rst:265
 msgid "Expanded as Plone-Tutorial for PyCon De 2011, Leipzig [pbauer]"
-msgstr ""
-"Ampliado como el tutorial Plone para la PyCon De 2011, Leipzig [pbauer]"
+msgstr "Ampliado como el tutorial Plone para la PyCon De 2011, Leipzig [pbauer]"
 
 #: ../CHANGES.rst:269
 msgid "0.1 (October 2009)"
@@ -505,9 +500,8 @@ msgstr "0.1 (Octubre del 2009)"
 
 #: ../CHANGES.rst:271
 msgid ""
-"Initial parts created for the Plone-Einsteigerkurs "
-"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer]"
+"Initial parts created for the Plone-Einsteigerkurs (http://www.plone.de/"
+"trainings/einsteiger-kurs/kursuebersicht) [pbauer]"
 msgstr ""
-"Partes iniciales creadas para el Plone-Einsteigerkurs "
-"(http://www.plone.de/trainings/einsteiger-kurs/kursuebersicht) [pbauer, "
-"hellfish2]"
+"Partes iniciales creadas para el Plone-Einsteigerkurs (http://www.plone.de/"
+"trainings/einsteiger-kurs/kursuebersicht) [pbauer, hellfish2]"
