@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Plone 5 Training 2017\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-11 07:22-0400\n"
-"PO-Revision-Date: 2018-04-03 18:32-0400\n"
+"PO-Revision-Date: 2025-04-13 13:19+0200\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language: es\n"
 "Language-Team: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.5.0\n"
+"X-Generator: Poedit 3.5\n"
 
 #: ../workflow/about/glossary.rst:3
 msgid "Glossary"
@@ -31,13 +32,11 @@ msgstr "AWS"
 
 #: ../workflow/about/glossary.rst:8
 msgid ""
-"`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, "
-"scalable, and inexpensive cloud computing services. ree to join, pay only"
-" for what you use."
+"`Amazon Web Services <https://aws.amazon.com/>`_ offers reliable, scalable, and "
+"inexpensive cloud computing services. ree to join, pay only for what you use."
 msgstr ""
-"`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de "
-"computación en la nube confiables, escalables y económicos. libre de "
-"unirse, pague solo por lo que usa."
+"`Amazon Web Services <https://aws.amazon.com/>`_ ofrece servicios de computación en la "
+"nube confiables, escalables y económicos. libre de unirse, pague solo por lo que usa."
 
 #: ../workflow/about/glossary.rst:10
 msgid "Linode"
@@ -45,11 +44,11 @@ msgstr "Linode"
 
 #: ../workflow/about/glossary.rst:13
 msgid ""
-"`Linode.com <https://www.linode.com/>`_ is an American privately owned "
-"virtual private server provider company"
+"`Linode.com <https://www.linode.com/>`_ is an American privately owned virtual private "
+"server provider company"
 msgstr ""
-"`Linode.com <https://www.linode.com/>`_ es una empresa proveedora de "
-"servidores privada virtual de propiedad privada estadounidense"
+"`Linode.com <https://www.linode.com/>`_ es una empresa proveedora de servidores privada "
+"virtual de propiedad privada estadounidense"
 
 #: ../workflow/about/glossary.rst:13
 msgid "based in Galloway, New Jersey, United States."
@@ -61,11 +60,11 @@ msgstr "DigitalOcean"
 
 #: ../workflow/about/glossary.rst:17
 msgid ""
-"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American "
-"cloud infrastructure provider"
+"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ is an American cloud "
+"infrastructure provider"
 msgstr ""
-"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ es un proveedor "
-"estadounidense de infraestructura en la nube "
+"`DigitalOcean, Inc. <https://www.digitalocean.com/>`_ es un proveedor estadounidense de "
+"infraestructura en la nube"
 
 #: ../workflow/about/glossary.rst:17
 msgid "headquartered in New York City with data centers worldwide."
@@ -78,8 +77,7 @@ msgstr "ZODB"
 #: ../workflow/about/glossary.rst:20
 msgid "`A native object database for Python <http://www.zodb.org/en/latest/>`_."
 msgstr ""
-"`Una base de datos de objetos nativos para Python "
-"<http://www.zodb.org/en/latest/>`_."
+"`Una base de datos de objetos nativos para Python <http://www.zodb.org/en/latest/>`_."
 
 #: ../workflow/about/glossary.rst:21
 msgid "TTW"
@@ -95,24 +93,19 @@ msgstr "S3"
 
 #: ../workflow/about/glossary.rst:26
 msgid ""
-"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store"
-" and retrieve any amount of data from anywhere."
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Object storage built to store and retrieve "
+"any amount of data from anywhere."
 msgstr ""
-"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos "
-"creado para almacenar y recuperar cualquier cantidad de datos desde "
-"cualquier lugar."
+"`Amazon S3 <https://aws.amazon.com/s3/>`_ - Almacenamiento de objetos creado para "
+"almacenar y recuperar cualquier cantidad de datos desde cualquier lugar."
 
 #: ../workflow/about/glossary.rst:27
 msgid "NFS"
 msgstr "NFS"
 
 #: ../workflow/about/glossary.rst:29
-msgid ""
-"`Network File System "
-"<https://en.wikipedia.org/wiki/Network_File_System>`_."
-msgstr ""
-"`Network File System "
-"<https://en.wikipedia.org/wiki/Network_File_System>`_."
+msgid "`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
+msgstr "`Network File System <https://en.wikipedia.org/wiki/Network_File_System>`_."
 
 #: ../workflow/about/glossary.rst:30
 msgid "Amazon Opsworks"
@@ -120,37 +113,34 @@ msgstr "Amazon Opsworks"
 
 #: ../workflow/about/glossary.rst:33
 msgid ""
-"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration "
-"management service that uses Chef,"
+"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ is a configuration management "
+"service that uses Chef,"
 msgstr ""
-"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ es un servicio de "
-"administración de configuración que usa Chef,"
+"`AWS OpsWorks <https://aws.amazon.com/opsworks/>`_ es un servicio de administración de "
+"configuración que usa Chef,"
 
 #: ../workflow/about/glossary.rst:33
 msgid "an automation platform that treats server configurations as code."
 msgstr ""
-"una plataforma de automatización que trata las configuraciones del "
-"servidor como código."
+"una plataforma de automatización que trata las configuraciones del servidor como código."
 
 #: ../workflow/about/glossary.rst:34
 msgid "Ansible"
 msgstr "Ansible"
 
 #: ../workflow/about/glossary.rst:37
-msgid ""
-"`Ansible <https://www.ansible.com/>`_ is an open source automation "
-"platform."
+msgid "`Ansible <https://www.ansible.com/>`_ is an open source automation platform."
 msgstr ""
-"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización"
-" de fuente abierta."
+"`Ansible <https://www.ansible.com/>`_ es una plataforma de automatización de fuente "
+"abierta."
 
 #: ../workflow/about/glossary.rst:37
 msgid ""
-"Ansible can help you with configuration management, application "
-"deployment, task automation."
+"Ansible can help you with configuration management, application deployment, task "
+"automation."
 msgstr ""
-"Ansible puede ayudarlo con la administración de configuraciones, el "
-"despliegue de aplicaciones y la automatización de tareas."
+"Ansible puede ayudarlo con la administración de configuraciones, el despliegue de "
+"aplicaciones y la automatización de tareas."
 
 #: ../workflow/about/glossary.rst:38
 msgid "Chef"
@@ -158,11 +148,11 @@ msgstr "Chef"
 
 #: ../workflow/about/glossary.rst:40
 msgid ""
-"`A configuration management tool written in Ruby and Erlang "
-"<https://www.chef.io/chef/>`_."
+"`A configuration management tool written in Ruby and Erlang <https://www.chef.io/chef/"
+">`_."
 msgstr ""
-"`Una herramienta de gestión de configuración escrita en Ruby y Erlang "
-"<https://www.chef.io/chef/>`_."
+"`Una herramienta de gestión de configuración escrita en Ruby y Erlang <https://www.chef."
+"io/chef/>`_."
 
 #: ../workflow/about/glossary.rst:41
 msgid "CloudFormation"
@@ -170,15 +160,14 @@ msgstr "CloudFormation"
 
 #: ../workflow/about/glossary.rst:43
 msgid ""
-"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives "
-"developers and systems administrators an way to create and manage a "
-"collection of related AWS resources, provisioning and updating them in an"
-" orderly and predictable fashion."
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ gives developers and "
+"systems administrators an way to create and manage a collection of related AWS "
+"resources, provisioning and updating them in an orderly and predictable fashion."
 msgstr ""
-"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a "
-"los desarrolladores y administradores de sistemas una forma de crear y "
-"administrar una colección de recursos relacionados de AWS, "
-"aprovisionándolos y actualizándolos de manera ordenada y predecible."
+"`AWS CloudFormation <https://aws.amazon.com/cloudformation/>`_ brinda a los "
+"desarrolladores y administradores de sistemas una forma de crear y administrar una "
+"colección de recursos relacionados de AWS, aprovisionándolos y actualizándolos de "
+"manera ordenada y predecible."
 
 #: ../workflow/about/glossary.rst:45
 msgid "Travis CI"
@@ -186,14 +175,13 @@ msgstr "Travis CI"
 
 #: ../workflow/about/glossary.rst:47
 msgid ""
-"Travis CI is a hosted, distributed continuous integration service used to"
-" build and test software projects hosted at GitHub. Open source projects "
-"may be tested at no charge via `travis-ci.org <https://travis-ci.org>`_."
+"Travis CI is a hosted, distributed continuous integration service used to build and "
+"test software projects hosted at GitHub. Open source projects may be tested at no "
+"charge via `travis-ci.org <https://travis-ci.org>`_."
 msgstr ""
-"Travis CI es un servicio de integración continua alojado que se utiliza "
-"para crear y probar proyectos de software alojados en GitHub. Los "
-"proyectos de código abierto pueden probarse sin cargo a través de "
-"`travis-ci.org <https://travis-ci.org>`_."
+"Travis CI es un servicio de integración continua alojado que se utiliza para crear y "
+"probar proyectos de software alojados en GitHub. Los proyectos de código abierto pueden "
+"probarse sin cargo a través de `travis-ci.org <https://travis-ci.org>`_."
 
 #: ../workflow/about/glossary.rst:49
 msgid "Solr"
@@ -201,11 +189,11 @@ msgstr "Solr"
 
 #: ../workflow/about/glossary.rst:51
 msgid ""
-"`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, "
-"open source enterprise search platform built on Apache Lucene."
+"`Solr <http://lucene.apache.org/solr/>`_ a the popular, blazing-fast, open source "
+"enterprise search platform built on Apache Lucene."
 msgstr ""
-"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de "
-"búsqueda empresarial de código abierto, desarrollada en Apache Lucene."
+"`Solr <http://lucene.apache.org/solr/>`_ una popular plataforma de búsqueda empresarial "
+"de código abierto, desarrollada en Apache Lucene."
 
 #: ../workflow/about/glossary.rst:52
 msgid "ZCML"
@@ -213,11 +201,11 @@ msgstr "ZCML"
 
 #: ../workflow/about/glossary.rst:54
 msgid ""
-"The `Zope Configuration Mark-up Language "
-"<https://docs.plone.org/develop/addons/components/zcml.html>`_."
+"The `Zope Configuration Mark-up Language <https://docs.plone.org/develop/addons/"
+"components/zcml.html>`_."
 msgstr ""
-"El `Lenguaje de marcado de configuración Zope "
-"<https://docs.plone.org/develop/addons/components/zcml.html>`_."
+"El `Lenguaje de marcado de configuración Zope <https://docs.plone.org/develop/addons/"
+"components/zcml.html>`_."
 
 #: ../workflow/about/glossary.rst:55
 msgid "Diazo"
@@ -225,14 +213,13 @@ msgstr "Diazo"
 
 #: ../workflow/about/glossary.rst:57
 msgid ""
-"`Diazo theme engine guide <http://docs.diazo.org/en/latest/>`_ Diazo "
-"allows you to apply a theme contained in a static HTML web page to a "
-"dynamic website created using any server-side technology."
+"`Diazo theme engine guide <http://docs.diazo.org/en/latest/>`_ Diazo allows you to "
+"apply a theme contained in a static HTML web page to a dynamic website created using "
+"any server-side technology."
 msgstr ""
-"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo"
-" le permite aplicar un tema contenido en una página web HTML estática a "
-"un sitio web dinámico creado utilizando cualquier tecnología del lado del"
-" servidor."
+"`Guía del motor de temas Diazo <http://docs.diazo.org/en/latest/>`_ Diazo le permite "
+"aplicar un tema contenido en una página web HTML estática a un sitio web dinámico "
+"creado utilizando cualquier tecnología del lado del servidor."
 
 #: ../workflow/about/glossary.rst:59
 msgid "Dexterity"
@@ -240,10 +227,12 @@ msgstr "Dexterity"
 
 #: ../workflow/about/glossary.rst:61
 msgid ""
-"`Dexterity <https://github.com/plone/plone.dexterity>`_, the base "
-"framework for building content types, both through-the-web and as "
-"filesystem code for Zope."
+"`Dexterity <https://github.com/plone/plone.dexterity>`_, the base framework for "
+"building content types, both through-the-web and as filesystem code for Zope."
 msgstr ""
+"`Dexterity <https://github.com/plone/plone.dexterity>`_, el marco base para crear tipos "
+"de contenido, tanto a través de la web como como código del sistema de archivos para "
+"Zope."
 
 #: ../workflow/about/glossary.rst:62
 msgid "Dublin Core"
@@ -251,10 +240,13 @@ msgstr "Dublin Core"
 
 #: ../workflow/about/glossary.rst:64
 msgid ""
-"The Dublin Core Schema is a small set of vocabulary terms that can be "
-"used to describe web resources (video, images, web pages, etc.), as well "
-"as physical resources such as books or CDs, and objects like artworks."
+"The Dublin Core Schema is a small set of vocabulary terms that can be used to describe "
+"web resources (video, images, web pages, etc.), as well as physical resources such as "
+"books or CDs, and objects like artworks."
 msgstr ""
+"El Dublin Core Schema es un pequeño conjunto de términos de vocabulario que se pueden "
+"utilizar para describir recursos web (vídeo, imágenes, páginas web, etc.), así como "
+"recursos físicos como libros o CD, y objetos como obras de arte."
 
 #: ../workflow/about/glossary.rst:66
 msgid "ZMI"
@@ -262,65 +254,83 @@ msgstr "ZMI"
 
 #: ../workflow/about/glossary.rst:68
 msgid ""
-"The Zope Management Interface. The ZMI is a direct interface into the "
-"backend software stack of Plone. While it can still serve as a valuable "
-"tool for Plone specialists to fix problems or accomplish certain tasks, "
-"it is not recommended as a regular tool for Plone maintenance."
+"The Zope Management Interface. The ZMI is a direct interface into the backend software "
+"stack of Plone. While it can still serve as a valuable tool for Plone specialists to "
+"fix problems or accomplish certain tasks, it is not recommended as a regular tool for "
+"Plone maintenance."
 msgstr ""
+"La interfaz de administración de Zope. El ZMI es una interfaz directa en la pila de "
+"software backend de Plone. Si bien aún puede servir como una herramienta valiosa para "
+"que los especialistas de Plone solucionen problemas o realicen ciertas tareas, no se "
+"recomienda como una herramienta regular para el mantenimiento de Plone."
 
 #: ../workflow/about/index.rst:3 ../workflow/index.rst
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 #: ../workflow/dynamic-roles.rst:2
 msgid "Dynamic Roles"
-msgstr ""
+msgstr "Roles dinámicos"
 
 #: ../workflow/dynamic-roles.rst:4
 msgid ""
-"Plone core's ``borg.localrole`` package allows you to hook into role-"
-"resolving code and add roles dynamically. I.e. the role on the user "
-"depends on HTTP request / environment conditions and is not something set"
-" in the site database."
+"Plone core's ``borg.localrole`` package allows you to hook into role-resolving code and "
+"add roles dynamically. I.e. the role on the user depends on HTTP request / environment "
+"conditions and is not something set in the site database."
 msgstr ""
+"El paquete ``borg.localrole`` de Plone core le permite conectarse a código de "
+"resolución de roles y añadir roles dinámicamente. Es decir, el rol en el usuario "
+"depende de las condiciones de la solicitud HTTP / entorno y no es algo establecido en "
+"la base de datos del sitio."
 
 #: ../workflow/dynamic-roles.rst:8
 msgid "Using Dynamic Roles"
-msgstr ""
+msgstr "Uso de roles dinámicos"
 
 #: ../workflow/dynamic-roles.rst:10
 msgid ""
-"To start utilizing dynamic roles in Plone, you will need to create an "
-"Zope 3 Adapter for ``ILocalRoleProvider`` in your custom product that "
-"contains the code to return the correct roles for a user in a specific "
-"context."
+"To start utilizing dynamic roles in Plone, you will need to create an Zope 3 Adapter "
+"for ``ILocalRoleProvider`` in your custom product that contains the code to return the "
+"correct roles for a user in a specific context."
 msgstr ""
+"Para comenzar a utilizar roles dinámicos en Plone, deberá crear un adaptador de Zope 3 "
+"para ``ILocalRoleProvider`` en su producto personalizado que contenga el código para "
+"devolver los roles correctos para un usuario en un contexto específico."
 
 #: ../workflow/dynamic-roles.rst:12
 msgid ""
-"getAllRoles() is overridden to return a custom role which is not "
-"available through normal security machinery. This is required because "
-"Plone/Zope builds look-up tables based on the result of getAllRoles() and"
-" all possible roles must appear there"
+"getAllRoles() is overridden to return a custom role which is not available through "
+"normal security machinery. This is required because Plone/Zope builds look-up tables "
+"based on the result of getAllRoles() and all possible roles must appear there"
 msgstr ""
+"getAllRoles() se anula para devolver un rol personalizado que no está disponible a "
+"través de la maquinaria de seguridad normal. Esto es necesario porque Plone/Zope crea "
+"tablas de búsqueda basadas en el resultado de getAllRoles() y todos los roles posibles "
+"deben aparecer allí"
 
 #: ../workflow/dynamic-roles.rst:17
 msgid ""
-"getRoles() is overridden to call custom getDummyRolesOnContext() which "
-"has the actual logic to resolve the roles"
+"getRoles() is overridden to call custom getDummyRolesOnContext() which has the actual "
+"logic to resolve the roles"
 msgstr ""
+"getRoles() se anula para llamar a getDummyRolesOnContext() personalizado, que tiene la "
+"lógica real para resolver los roles"
 
 #: ../workflow/dynamic-roles.rst:20
 msgid ""
-"An example code checks whether the context object implements a marker "
-"interface and gives the user a role based on that"
+"An example code checks whether the context object implements a marker interface and "
+"gives the user a role based on that"
 msgstr ""
+"Un código de ejemplo comprueba si el objeto de contexto implementa una interfaz de "
+"marcador y asigna al usuario un rol basado en ello"
 
 #: ../workflow/dynamic-roles.rst:23
 msgid ""
-"**Note:** getRoles() function is called several times per request so you "
-"might want to cache the result."
+"**Note:** getRoles() function is called several times per request so you might want to "
+"cache the result."
 msgstr ""
+"**Nota:** La función getRoles() se llama varias veces por solicitud, por lo que es "
+"posible que desee almacenar el resultado en caché."
 
 #: ../workflow/dynamic-roles.rst:25
 msgid "Example ``localroles.py``"
@@ -328,9 +338,11 @@ msgstr "Ejemplo ``localroles.py``"
 
 #: ../workflow/dynamic-roles.rst:76
 msgid ""
-"Custom local role implementation is made effective using :term:`ZCML` "
-"adapter directive in your add-ons ``configure.zcml``"
+"Custom local role implementation is made effective using :term:`ZCML` adapter directive "
+"in your add-ons ``configure.zcml``"
 msgstr ""
+"La implementación de roles locales personalizados se hace efectiva utilizando la "
+"directiva del adaptador :term:`ZCML` en sus complementos ``configure.zcml``"
 
 #: ../workflow/generic-setup-export-import.rst:2
 msgid "Using GenericSetup to Manage Plone Workflows"
@@ -338,84 +350,110 @@ msgstr "Usando GenericSetup para administrar flujos de trabajo Plone"
 
 #: ../workflow/generic-setup-export-import.rst:4
 msgid ""
-"Workflows provide a great amount of flexibility inside of Plone. They "
-"have many moving parts such as states, transitions, permissions, "
-"variables, worklist and groups. Plone gives you the ability to configure "
-"all of these items through the web via the ZMI, but moving these settings"
-" to another environment as part of a release or migration can be error "
-"prone."
+"Workflows provide a great amount of flexibility inside of Plone. They have many moving "
+"parts such as states, transitions, permissions, variables, worklist and groups. Plone "
+"gives you the ability to configure all of these items through the web via the ZMI, but "
+"moving these settings to another environment as part of a release or migration can be "
+"error prone."
 msgstr ""
+"Los flujos de trabajo proporcionan una gran flexibilidad dentro de Plone. Tienen muchas "
+"partes móviles, como estados, transiciones, permisos, variables, listas de trabajo y "
+"grupos. Plone le brinda la capacidad de configurar todos estos elementos a través de la "
+"web a través de ZMI, pero mover estos ajustes a otro entorno como parte de una versión "
+"o migración puede ser propenso a errores."
 
 #: ../workflow/generic-setup-export-import.rst:6
 msgid ""
-"The GenericSetup tool inside of plone, which has the id of "
-"``portal_setup``, provides a way to serialize the current state of your "
-"workflow polices into a XML file that can be put into your own custom "
-"add-on packages. Using this export/import tool, you can now track changes"
-" to your workflow polices inside of your source control tools and create "
-"releases that allow exact replication of the settings to new or existing "
-"environments."
+"The GenericSetup tool inside of plone, which has the id of ``portal_setup``, provides a "
+"way to serialize the current state of your workflow polices into a XML file that can be "
+"put into your own custom add-on packages. Using this export/import tool, you can now "
+"track changes to your workflow polices inside of your source control tools and create "
+"releases that allow exact replication of the settings to new or existing environments."
 msgstr ""
+"La herramienta GenericSetup dentro de plone, que tiene el id de ``portal_setup``, "
+"proporciona una manera de serializar el estado actual de las políticas de flujo de "
+"trabajo en un archivo XML que se puede colocar en sus propios paquetes de complementos "
+"personalizados. Con esta herramienta de exportación/importación, ahora puede realizar "
+"un seguimiento de los cambios en las políticas de flujo de trabajo dentro de las "
+"herramientas de control de código fuente y crear versiones que permitan la replicación "
+"exacta de la configuración en entornos nuevos o existentes."
 
-#: ../workflow/generic-setup-export-import.rst:9
-#: ../workflow/placeful-workflow.rst:24
+#: ../workflow/generic-setup-export-import.rst:9 ../workflow/placeful-workflow.rst:24
 msgid "Getting Started"
-msgstr ""
+msgstr "Primeros pasos"
 
 #: ../workflow/generic-setup-export-import.rst:11
 msgid ""
-"Creating a workflow from scratch using the XML format is tricky at best. "
-"It is recommended that you start from the ZMI and copy/paste an existing "
-"workflow that most closely matches your business need and use it as a "
-"starting point. The changes to the workflow can be configured via the ZMI"
-" and then exported to the filesystem for inclusion in your product."
+"Creating a workflow from scratch using the XML format is tricky at best. It is "
+"recommended that you start from the ZMI and copy/paste an existing workflow that most "
+"closely matches your business need and use it as a starting point. The changes to the "
+"workflow can be configured via the ZMI and then exported to the filesystem for "
+"inclusion in your product."
 msgstr ""
+"Crear un flujo de trabajo desde cero utilizando el formato XML es, en el mejor de los "
+"casos, complicado. Se recomienda comenzar desde la ZMI y copiar y pegar un flujo de "
+"trabajo existente que se acerque más a las necesidades de su negocio y utilizarlo como "
+"punto de partida. Los cambios en el flujo de trabajo se pueden configurar a través de "
+"ZMI y luego exportarse al sistema de archivos para su inclusión en su producto."
 
 #: ../workflow/generic-setup-export-import.rst:14
 msgid "Exporting Workflow Policies"
-msgstr ""
+msgstr "Exportación de políticas de flujo de trabajo"
 
 #: ../workflow/generic-setup-export-import.rst:16
 msgid ""
-"Once your workflow is working locally for your needs, you can export your"
-" workflow using the ``portal_setup`` tool in the ZMI."
+"Once your workflow is working locally for your needs, you can export your workflow "
+"using the ``portal_setup`` tool in the ZMI."
 msgstr ""
+"Una vez que su flujo de trabajo esté funcionando localmente para sus necesidades, puede "
+"exportar su flujo de trabajo utilizando la herramienta ``portal_setup`` en el ZMI."
 
 #: ../workflow/generic-setup-export-import.rst:18
 #: ../workflow/generic-setup-export-import.rst:61
 msgid "Login to the ZMI and click ``portal_setup``"
-msgstr ""
+msgstr "Inicie sesión en el ZMI y haga clic en ``portal_setup``"
 
 #: ../workflow/generic-setup-export-import.rst:19
 msgid "Click the ``Export`` tab"
-msgstr ""
+msgstr "Haga clic en la pestaña ``Exportar``"
 
 #: ../workflow/generic-setup-export-import.rst:20
 msgid ""
-"Check the box for ``Workflow Tool`` (and optionally ``Placeful Workflow "
-"Policies``)"
+"Check the box for ``Workflow Tool`` (and optionally ``Placeful Workflow Policies``)"
 msgstr ""
+"Marque la casilla ``Herramienta de flujo de trabajo`` (y opcionalmente ``Políticas de "
+"flujo de trabajo de Placeful``)"
 
 #: ../workflow/generic-setup-export-import.rst:21
 msgid "Click the button at the bottom of the page to ``Export selected steps``"
 msgstr ""
+"Haga clic en el botón en la parte inferior de la página para ``Exportar los pasos "
+"seleccionados``"
 
 #: ../workflow/generic-setup-export-import.rst:23
 msgid ""
-"This will download a files called ``setup_tool-[sometimestamp].tar.gz`` "
-"to your local computer. This tarball will include the ``workflows.xml`` "
-"profile that describes all of the content to workflow policy bindings as "
-"well as the export of each workflow policy as an xml file."
+"This will download a files called ``setup_tool-[sometimestamp].tar.gz`` to your local "
+"computer. This tarball will include the ``workflows.xml`` profile that describes all of "
+"the content to workflow policy bindings as well as the export of each workflow policy "
+"as an xml file."
 msgstr ""
+"Esto descargará un archivo llamado ``setup_tool-[alguna-fecha-hora].tar.gz`` a tu "
+"computadora local. Este tarball incluirá el perfil ``workflows.xml`` que describe todo "
+"el contenido de los enlaces de políticas de flujo de trabajo, así como la exportación "
+"de cada política de flujo de trabajo como un archivo xml."
 
 #: ../workflow/generic-setup-export-import.rst:25
 msgid ""
-"These will be the files you will place in your custom product's profiles "
-"directory so it can be imported when using it in another instance. You "
-"will need to modify the ``workflows.xml`` file prior to importing since "
-"it contains all of the bindings and you will only want to include "
-"bindings that are specific to your custom add-on."
+"These will be the files you will place in your custom product's profiles directory so "
+"it can be imported when using it in another instance. You will need to modify the "
+"``workflows.xml`` file prior to importing since it contains all of the bindings and you "
+"will only want to include bindings that are specific to your custom add-on."
 msgstr ""
+"Estos serán los archivos que colocará en el directorio de perfiles de su producto "
+"personalizado para que pueda importarse cuando se use en otra instancia. Deberá "
+"modificar el archivo ``workflows.xml`` antes de importar, ya que contiene todos los "
+"enlaces y solo querrá incluir enlaces que sean específicos de su complemento "
+"personalizado."
 
 #: ../workflow/generic-setup-export-import.rst:27
 msgid "Example ``workflows.xml``:"
@@ -423,93 +461,123 @@ msgstr "Ejemplo ``workflows.xml``:"
 
 #: ../workflow/generic-setup-export-import.rst:45
 msgid ""
-"In this example, the rest of the bindings have been removed so we are "
-"only controlling the needed workflows for our product."
+"In this example, the rest of the bindings have been removed so we are only controlling "
+"the needed workflows for our product."
 msgstr ""
+"En este ejemplo, se han eliminado el resto de los enlaces, por lo que solo controlamos "
+"los flujos de trabajo necesarios para nuestro producto."
 
 #: ../workflow/generic-setup-export-import.rst:47
 msgid ""
-"The tarball will have a directory called ``workflows`` that contains each"
-" workflow policy for the site.  You can remove all of the stock ones and "
-"just keep the policies referenced by your ``workflows.xml`` for import "
-"later."
+"The tarball will have a directory called ``workflows`` that contains each workflow "
+"policy for the site.  You can remove all of the stock ones and just keep the policies "
+"referenced by your ``workflows.xml`` for import later."
 msgstr ""
+"El tarball tendrá un directorio llamado ``workflows`` que contiene cada política de "
+"flujo de trabajo para el sitio.  Puede eliminar todos los de stock y mantener las "
+"políticas a las que hace referencia su ``workflows.xml`` para importarlas más tarde."
 
 #: ../workflow/generic-setup-export-import.rst:49
 msgid ""
-"Subsequent updates to your workflow polices can either be made directly "
-"on the files system and then re-imported into the site. Or you can make "
-"the changes via the ZMI, but you will need to remember to re-export them "
-"using this same process and placing the updated files back into your add-"
-"on code."
+"Subsequent updates to your workflow polices can either be made directly on the files "
+"system and then re-imported into the site. Or you can make the changes via the ZMI, but "
+"you will need to remember to re-export them using this same process and placing the "
+"updated files back into your add-on code."
 msgstr ""
+"Las actualizaciones posteriores de las políticas de flujo de trabajo se pueden realizar "
+"directamente en el sistema de archivos y, a continuación, volver a importarlas en el "
+"sitio. O puede realizar los cambios a través de ZMI, pero deberá recordar volver a "
+"exportarlos utilizando este mismo proceso y volver a colocar los archivos actualizados "
+"en su código adicional."
 
 #: ../workflow/generic-setup-export-import.rst:52
 msgid "Importing Workflow Policies"
-msgstr ""
+msgstr "Importación de políticas de flujo de trabajo"
 
 #: ../workflow/generic-setup-export-import.rst:54
 msgid ""
-"There are several options available for re-importing your workflows back "
-"into the site.  The ``portal_setup`` tool provides an option for doing a "
-"``Tarball Import``, but this doesn't allow you to keep your modified "
-"workflows alongside the code in your add-on product. It is recommended "
-"that you export your workflow polices using the steps above and place "
-"them in your add-on products *default* GenericSetup policy or include "
+"There are several options available for re-importing your workflows back into the "
+"site.  The ``portal_setup`` tool provides an option for doing a ``Tarball Import``, but "
+"this doesn't allow you to keep your modified workflows alongside the code in your add-"
+"on product. It is recommended that you export your workflow polices using the steps "
+"above and place them in your add-on products *default* GenericSetup policy or include "
 "them as part of an upgrade step."
 msgstr ""
+"Hay varias opciones disponibles para volver a importar los flujos de trabajo en el "
+"sitio.  La herramienta ``portal_setup`` proporciona una opción para hacer una "
+"``Importación de Tarball``, pero esto no le permite mantener sus flujos de trabajo "
+"modificados junto con el código en su producto complementario. Se recomienda exportar "
+"las políticas de flujo de trabajo siguiendo los pasos anteriores y colocarlas en la "
+"directiva GenericSetup *por defecto* de los productos complementarios o incluirlas como "
+"parte de un paso de actualización."
 
 #: ../workflow/generic-setup-export-import.rst:56
 msgid ""
-"Typically, your GenericSetup profiles will be stored in the ``profiles`` "
-"directory of your add-on product. Each subdirectory of the ``profiles`` "
-"directory is usually registered as a separate GenericSetup extension "
-"profile or they are used as part of an upgrade step registered to one of "
-"these profiles."
+"Typically, your GenericSetup profiles will be stored in the ``profiles`` directory of "
+"your add-on product. Each subdirectory of the ``profiles`` directory is usually "
+"registered as a separate GenericSetup extension profile or they are used as part of an "
+"upgrade step registered to one of these profiles."
 msgstr ""
+"Normalmente, los perfiles de GenericSetup se almacenarán en el directorio ``profiles`` "
+"del producto complementario. Cada subdirectorio del directorio ``profiles`` "
+"generalmente se registra como un perfil de extensión GenericSetup separado o se "
+"utilizan como parte de un paso de actualización registrado en uno de estos perfiles."
 
 #: ../workflow/generic-setup-export-import.rst:58
 msgid ""
-"Once you have wired the GenericSetup profile folder to your product using"
-" ZCML, you can now do the following to import your workflow policies to "
-"your current site."
+"Once you have wired the GenericSetup profile folder to your product using ZCML, you can "
+"now do the following to import your workflow policies to your current site."
 msgstr ""
+"Una vez que haya conectado la carpeta de perfil GenericSetup a su producto mediante "
+"ZCML, ahora puede hacer lo siguiente para importar sus políticas de flujo de trabajo a "
+"su sitio actual."
 
 #: ../workflow/generic-setup-export-import.rst:62
 msgid "Click the ``Import`` tab"
-msgstr ""
+msgstr "Haga clic en la pestaña ``Importar``"
 
 #: ../workflow/generic-setup-export-import.rst:63
 msgid "Select your GenericSetup profile by either *id* or *title*"
-msgstr ""
+msgstr "Seleccione su perfil de GenericSetup por *id* o *title*"
 
 #: ../workflow/generic-setup-export-import.rst:64
 msgid ""
-"Select how you want to import your profile, if you have run the import "
-"already and your policies are part of the profile directly (not upgrade "
-"steps), you will want to select the option to ``Apply all profiles``"
+"Select how you want to import your profile, if you have run the import already and your "
+"policies are part of the profile directly (not upgrade steps), you will want to select "
+"the option to ``Apply all profiles``"
 msgstr ""
+"Seleccione cómo desea importar su perfil, si ya ha ejecutado la importación y sus "
+"políticas son parte del perfil directamente (no pasos de actualización), querrá "
+"seleccionar la opción ``Aplicar todos los perfiles``"
 
 #: ../workflow/generic-setup-export-import.rst:65
 msgid "Click the button to ``Import all steps``"
-msgstr ""
+msgstr "Haga clic en el botón ``Importar todos los pasos``"
 
 #: ../workflow/generic-setup-export-import.rst:67
 msgid ""
-"If you only want to run the ``Workflow Tool`` steps, you will need go to "
-"the ``Advanced Import Tab`` and select your profile by *id* or *title* "
-"and then check the box for just ``Workflow Tool`` and click ``Import "
-"selected steps``."
+"If you only want to run the ``Workflow Tool`` steps, you will need go to the ``Advanced "
+"Import Tab`` and select your profile by *id* or *title* and then check the box for just "
+"``Workflow Tool`` and click ``Import selected steps``."
 msgstr ""
+"Si solo desea ejecutar los pasos de la ``Herramienta de flujo de trabajo``, deberá ir a "
+"la ``Pestaña de importación avanzada`` y seleccionar su perfil por *id* o *título* y "
+"luego marcar la casilla solo ``Herramienta de flujo de trabajo`` y hacer clic en "
+"``Importar pasos seleccionados``."
 
 #: ../workflow/generic-setup-export-import.rst:69
 msgid ""
-"Using upgrade profiles is similar, but you will instruct Plone to run a "
-"function when upgrading from one version to the next. This function will "
-"call up an already registered *migration profile* and run it against the "
-"site. These upgrade steps will only run if the version of your product "
-"doesn't satisfy the version requirements that were configured via ZCML."
+"Using upgrade profiles is similar, but you will instruct Plone to run a function when "
+"upgrading from one version to the next. This function will call up an already "
+"registered *migration profile* and run it against the site. These upgrade steps will "
+"only run if the version of your product doesn't satisfy the version requirements that "
+"were configured via ZCML."
 msgstr ""
+"El uso de perfiles de actualización es similar, pero le indicará a Plone que ejecute "
+"una función al actualizar de una versión a la siguiente. Esta función llamará a un "
+"*perfil de migración* ya registrado y lo ejecutará en el sitio. Estos pasos de "
+"actualización solo se ejecutarán si la versión del producto no cumple los requisitos de "
+"versión que se configuraron a través de ZCML."
 
 #: ../workflow/index.rst:5
 msgid "Plone Workflow"
@@ -517,7 +585,7 @@ msgstr "Flujo de trabajo Plone"
 
 #: ../workflow/index.rst:7
 msgid "Controlling security with workflow"
-msgstr ""
+msgstr "Control de la seguridad con el flujo de trabajo"
 
 #: ../workflow/index.rst
 msgid "Level"
@@ -533,453 +601,531 @@ msgstr "Estatus"
 
 #: ../workflow/index.rst:9
 msgid "Work in progress"
-msgstr ""
+msgstr "Trabajo en Progreso"
 
 #: ../workflow/index.rst:14
 msgid "This chapter is still work in progress!"
-msgstr ""
+msgstr "¡Este capítulo todavía está en progreso!"
 
 #: ../workflow/index.rst:16
 msgid "Workflow is used in Plone for three distinct, but overlapping purposes:"
 msgstr ""
+"El flujo de trabajo se utiliza en Plone para tres propósitos distintos, pero "
+"superpuestos:"
 
 #: ../workflow/index.rst:18
 msgid "To keep track of metadata, chiefly an object’s *state*;"
 msgstr ""
+"Para realizar un seguimiento de los metadatos, principalmente el *estado* de un objeto;"
 
 #: ../workflow/index.rst:19
 msgid "To create content review cycles and model other types of processes;"
-msgstr ""
+msgstr "Para crear ciclos de revisión de contenido y modelar otros tipos de procesos;"
 
 #: ../workflow/index.rst:20
 msgid "To manage object security."
-msgstr ""
+msgstr "Para gestionar la seguridad de los objetos."
 
 #: ../workflow/index.rst:22
-msgid ""
-"When writing content types, we will often create custom workflows to go "
-"with them."
+msgid "When writing content types, we will often create custom workflows to go with them."
 msgstr ""
+"Al escribir tipos de contenido, a menudo crearemos flujos de trabajo personalizados "
+"para acompañarlos."
 
 #: ../workflow/index.rst:24
 msgid ""
-"Plone’s workflow system is known as DCWorkflow. It is a *states-and-"
-"transitions* system, which means that your workflow starts in a "
-"particular *state* (the *initial state*) and then moves to other states "
-"via *transitions* (also called *actions* in CMF)."
+"Plone’s workflow system is known as DCWorkflow. It is a *states-and-transitions* "
+"system, which means that your workflow starts in a particular *state* (the *initial "
+"state*) and then moves to other states via *transitions* (also called *actions* in CMF)."
 msgstr ""
+"El sistema de flujo de trabajo de Plone se conoce como DCWorkflow. Es un sistema de "
+"*estados y transiciones*, lo que significa que su flujo de trabajo comienza en un "
+"*estado* particular (el *estado inicial*) y luego se mueve a otros estados a través de "
+"*transiciones* (también llamadas *acciones* en CMF)."
 
 #: ../workflow/index.rst:28
 msgid ""
-"When an object enters a particular state (including the initial state), "
-"the workflow is given a chance to update **permissions** on the object."
+"When an object enters a particular state (including the initial state), the workflow is "
+"given a chance to update **permissions** on the object."
 msgstr ""
+"Cuando un objeto entra en un estado determinado (incluido el estado inicial), el flujo "
+"de trabajo tiene la oportunidad de actualizar los **permisos** en el objeto."
 
 #: ../workflow/index.rst:30
 msgid ""
-"A workflow manages a number of permissions – typically the \"core\" CMF "
-"permissions like :guilabel:`View`, :guilabel:`Modify portal content` and "
-"so on – and will set those on the object at each state change."
+"A workflow manages a number of permissions – typically the \"core\" CMF permissions "
+"like :guilabel:`View`, :guilabel:`Modify portal content` and so on – and will set those "
+"on the object at each state change."
 msgstr ""
+"Un flujo de trabajo administra una serie de permisos, por lo general, los permisos CMF "
+"\"principales\" como :guilabel:`View`, :guilabel:`Modify portal content`, etc., y los "
+"establecerá en el objeto en cada cambio de estado."
 
 #: ../workflow/index.rst:33
 msgid ""
-"Note that this is event-driven, rather than a real-time security check: "
-"only by changing the state is the security information updated."
+"Note that this is event-driven, rather than a real-time security check: only by "
+"changing the state is the security information updated."
 msgstr ""
+"Tenga en cuenta que esto se basa en eventos, en lugar de una verificación de seguridad "
+"en tiempo real: solo cambiando el estado se actualiza la información de seguridad."
 
 #: ../workflow/index.rst:35
 msgid ""
-"This is why you need to click :guilabel:`Update security settings` at the"
-" bottom of the ``portal_workflow`` screen in the ZMI when you change your"
-" workflows’ security settings and want to update existing objects."
+"This is why you need to click :guilabel:`Update security settings` at the bottom of the "
+"``portal_workflow`` screen in the ZMI when you change your workflows’ security settings "
+"and want to update existing objects."
 msgstr ""
+"Esta es la razón por la que debe hacer clic en :guilabel:`Actualizar configuración de "
+"seguridad` en la parte inferior de la pantalla ``portal_workflow`` en el ZMI cuando "
+"cambie la configuración de seguridad de sus flujos de trabajo y desee actualizar los "
+"objetos existentes."
 
 #: ../workflow/index.rst:63
 msgid "TODO:"
-msgstr ""
+msgstr "TAREAS PENDIENTES:"
 
 #: ../workflow/index.rst:65
 msgid ""
-"Add a use case story thread that runs through each of the sections to "
-"illustrate how each concept works"
+"Add a use case story thread that runs through each of the sections to illustrate how "
+"each concept works"
 msgstr ""
+"Añada un hilo de historia de caso de uso que recorra cada una de las secciones para "
+"ilustrar cómo funciona cada concepto"
 
 #: ../workflow/index.rst:66
 msgid ""
-"Add in more screen shots of the :term:`TTW` (Trough-The_web) experience "
-"of using workflows in Plone"
+"Add in more screen shots of the :term:`TTW` (Trough-The_web) experience of using "
+"workflows in Plone"
 msgstr ""
+"Añada más capturas de pantalla de la experiencia :term:`TTW` (Trough-The_web) de usar "
+"flujos de trabajo en Plone"
 
 #: ../workflow/introduction.rst:3
 msgid "Introduction To Workflows"
-msgstr ""
+msgstr "Introducción a los flujos de trabajo"
 
 #: ../workflow/introduction.rst:6
 msgid "What Is A Workflow?"
-msgstr ""
+msgstr "¿Qué es un flujo de trabajo?"
 
 #: ../workflow/introduction.rst:8
 msgid ""
-"Workflow is the series of interactions that should happen to complete a "
-"task. Business organizations have many kinds of workflow."
+"Workflow is the series of interactions that should happen to complete a task. Business "
+"organizations have many kinds of workflow."
 msgstr ""
+"El flujo de trabajo es la serie de interacciones que deben ocurrir para completar una "
+"tarea. Las organizaciones empresariales tienen muchos tipos de flujo de trabajo."
 
 #: ../workflow/introduction.rst:11
 msgid ""
-"For example, insurance companies process claims, delivery companies track"
-" shipments, and schools accept applications for admission."
+"For example, insurance companies process claims, delivery companies track shipments, "
+"and schools accept applications for admission."
 msgstr ""
+"Por ejemplo, las compañías de seguros procesan las reclamaciones, las empresas de "
+"entrega rastrean los envíos y las escuelas aceptan solicitudes de admisión."
 
 #: ../workflow/introduction.rst:13
 msgid ""
-"All these tasks involve several people, sometimes take a long time, and "
-"vary significantly from organization to organization."
+"All these tasks involve several people, sometimes take a long time, and vary "
+"significantly from organization to organization."
 msgstr ""
+"Todas estas tareas involucran a varias personas, a veces toman mucho tiempo y varían "
+"significativamente de una organización a otra."
 
 #: ../workflow/introduction.rst:15
 msgid ""
-"The goal of workflow software is to streamline and track workflow "
-"activity. Since different organizations have different workflow "
-"processes, workflow software must be flexible and easy to customize."
+"The goal of workflow software is to streamline and track workflow activity. Since "
+"different organizations have different workflow processes, workflow software must be "
+"flexible and easy to customize."
 msgstr ""
+"El objetivo del software de flujo de trabajo es agilizar y realizar un seguimiento de "
+"la actividad del flujo de trabajo. Dado que las diferentes organizaciones tienen "
+"diferentes procesos de flujo de trabajo, el software de flujo de trabajo debe ser "
+"flexible y fácil de personalizar."
 
 #: ../workflow/introduction.rst:18
 msgid "The workflow system inside of Plone is an example of a State Machine."
 msgstr ""
+"El sistema de flujo de trabajo dentro de Plone es un ejemplo de una máquina de estado."
 
 #: ../workflow/introduction.rst:20
 msgid "From `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine>`_:"
-msgstr ""
+msgstr "De `Wikipedia <https://en.wikipedia.org/wiki/Finite-state_machine>`_:"
 
 #: ../workflow/introduction.rst:22
 msgid ""
-"A finite-state machine (FSM) or finite-state automaton (plural: "
-"automata), or simply a state machine, is a behavioral model used to "
-"design computer programs. It is composed of a finite number of states "
-"associated to transitions. A transition is a set of actions that starts "
-"from one state and ends in another (or the same) state. A transition is "
-"started by a trigger, and a trigger can be an event or a condition."
+"A finite-state machine (FSM) or finite-state automaton (plural: automata), or simply a "
+"state machine, is a behavioral model used to design computer programs. It is composed "
+"of a finite number of states associated to transitions. A transition is a set of "
+"actions that starts from one state and ends in another (or the same) state. A "
+"transition is started by a trigger, and a trigger can be an event or a condition."
 msgstr ""
+"Una máquina de estado finito (FSM) o autómata de estado finito (plural: autómatas), o "
+"simplemente una máquina de estado, es un modelo de comportamiento utilizado para "
+"diseñar programas informáticos. Está compuesto por un número finito de estados "
+"asociados a las transiciones. Una transición es un conjunto de acciones que comienza en "
+"un estado y termina en otro (o en el mismo) estado. Una transición se inicia mediante "
+"un desencadenador, y un desencadenador puede ser un evento o una condición."
 
 #: ../workflow/introduction.rst:24
 msgid ""
-"Any object controlled by workflow is **always** in precisely one "
-"``state`` from each workflow in its chain."
+"Any object controlled by workflow is **always** in precisely one ``state`` from each "
+"workflow in its chain."
 msgstr ""
+"Cualquier objeto controlado por el flujo de trabajo está **siempre** en precisamente un "
+"``estado`` de cada flujo de trabajo en su cadena."
 
 #: ../workflow/introduction.rst:25
 msgid ""
-"The ``state`` in which an object is currently located controls what "
-"``transitions`` are available to it"
+"The ``state`` in which an object is currently located controls what ``transitions`` are "
+"available to it"
 msgstr ""
+"El ``estado`` en el que se encuentra actualmente un objeto controla qué "
+"``transiciones`` están disponibles para él"
 
 #: ../workflow/introduction.rst:28
 msgid ""
-"Any workflow can be diagrammed, showing the available states and the "
-"transitions between them"
+"Any workflow can be diagrammed, showing the available states and the transitions "
+"between them"
 msgstr ""
+"Cualquier flujo de trabajo se puede diagramar, mostrando los estados disponibles y las "
+"transiciones entre ellos"
 
 #: ../workflow/introduction.rst:27
 msgid "Diagrams like this can be of enormous help in understanding your workflow"
-msgstr ""
+msgstr "Diagramas como este pueden ser de gran ayuda para comprender su flujo de trabajo"
 
 #: ../workflow/introduction.rst:28
 msgid ""
-"You should always sketch up a diagram when you start figuring out the "
-"workflow you want"
+"You should always sketch up a diagram when you start figuring out the workflow you want"
 msgstr ""
+"Siempre debes esbozar un diagrama cuando comiences a descubrir el flujo de trabajo que "
+"deseas"
 
 #: ../workflow/introduction.rst:34
 msgid "What's In a Workflow?"
-msgstr ""
+msgstr "¿Qué hay en un flujo de trabajo?"
 
 #: ../workflow/introduction.rst:37
 msgid "Workflows Control"
-msgstr ""
+msgstr "Control de flujos de trabajo"
 
 #: ../workflow/introduction.rst:39
 msgid "What ``states`` and ``transitions`` are available"
-msgstr ""
+msgstr "¿Qué ``estados`` y ``transiciones`` están disponibles"
 
 #: ../workflow/introduction.rst:40
 msgid ""
-"Which ``permissions`` will be managed (permissions not managed are left "
-"untouched from their current value by the workflow)"
+"Which ``permissions`` will be managed (permissions not managed are left untouched from "
+"their current value by the workflow)"
 msgstr ""
+"¿Cuáles ``permisos`` se administrarán (los permisos no administrados se dejan intactos "
+"de su valor actual por el flujo de trabajo)?"
 
 #: ../workflow/introduction.rst:41
-msgid ""
-"Which ``groups`` will be managed (see ``states`` below for more about "
-"this)"
+msgid "Which ``groups`` will be managed (see ``states`` below for more about this)"
 msgstr ""
+"¿Cuáles ``grupos`` se administrarán (consulte ``estados`` a continuación para obtener "
+"más información sobre esto)?"
 
 #: ../workflow/introduction.rst:42
 msgid ""
-"Which ``variables`` will be tracked by the workflow (values are set and "
-"stored every time a transition occurs)"
+"Which ``variables`` will be tracked by the workflow (values are set and stored every "
+"time a transition occurs)"
 msgstr ""
+"¿Cuáles ``variables`` serán rastreadas por el flujo de trabajo (los valores se "
+"establecen y almacenan cada vez que ocurre una transición)?"
 
 #: ../workflow/introduction.rst:43
 msgid ""
-"What ``worklists`` will be generated (you can return lists of content "
-"matching values tracked by ``variables``"
+"What ``worklists`` will be generated (you can return lists of content matching values "
+"tracked by ``variables``"
 msgstr ""
+"¿Qué ``listas de trabajo`` se generarán (puede devolver listas de valores de "
+"coincidencia de contenido rastreadas por ``variables``?"
 
 #: ../workflow/introduction.rst:44
-msgid ""
-"What ``scripts`` are available to be used in conjunction with "
-"``transitions``"
-msgstr ""
+msgid "What ``scripts`` are available to be used in conjunction with ``transitions``"
+msgstr "¿Qué ``scripts`` están disponibles para ser usados junto con ``transiciones``?"
 
 #: ../workflow/introduction.rst:46
 msgid ""
-"These are basic python scripts, and are not used much anymore now that "
-"``events`` are available"
+"These are basic python scripts, and are not used much anymore now that ``events`` are "
+"available"
 msgstr ""
+"Estos son scripts básicos de Python, y ya no se usan mucho ahora que los ``eventos`` "
+"están disponibles"
 
 #: ../workflow/introduction.rst:49
 msgid "States Control"
-msgstr ""
+msgstr "Control de los Estados"
 
 #: ../workflow/introduction.rst:51
 msgid "What transitions are available **out**"
-msgstr ""
+msgstr "¿Qué transiciones están disponibles **fuera**?"
 
 #: ../workflow/introduction.rst:52
-msgid ""
-"What ``permissions`` are assigned to which ``roles`` *locally* to the "
-"object"
-msgstr ""
+msgid "What ``permissions`` are assigned to which ``roles`` *locally* to the object"
+msgstr "¿Qué ``permisos`` se asignan a qué ``roles`` *localmente* al objeto?"
 
 #: ../workflow/introduction.rst:53
 msgid "What ``groups`` are assigned to which ``roles`` *locally* to the object"
-msgstr ""
+msgstr "¿Qué ``grupos`` se asignan a qué ``roles`` *localmente* al objeto?"
 
 #: ../workflow/introduction.rst:55
 msgid "This is probably the least-used aspect of workflow"
-msgstr ""
+msgstr "Este es probablemente el aspecto menos utilizado del flujo de trabajo"
 
 #: ../workflow/introduction.rst:56
 msgid "It can be spectacularly useful"
-msgstr ""
+msgstr "Puede ser espectacularmente útil"
 
 #: ../workflow/introduction.rst:59
 msgid "Transitions Control"
-msgstr ""
+msgstr "Control de transiciones"
 
 #: ../workflow/introduction.rst:61
 msgid "What ``state`` they will end in"
-msgstr ""
+msgstr "¿En qué \"estado\" terminarán?"
 
 #: ../workflow/introduction.rst:62
-msgid ""
-"What conditions or ``gaurds`` are required for the transition to be "
-"available"
+msgid "What conditions or ``gaurds`` are required for the transition to be available"
 msgstr ""
+"¿Qué condiciones o ``garantías`` se requieren para que la transición esté disponible?"
 
 #: ../workflow/introduction.rst:64
 msgid ""
-"These can be ``permissions`` of the user, ``roles`` a user has, "
-"``groups`` to which the user belongs, or even the boolean value of "
-"*'TALES*' expressions"
+"These can be ``permissions`` of the user, ``roles`` a user has, ``groups`` to which the "
+"user belongs, or even the boolean value of *'TALES*' expressions"
 msgstr ""
+"Estos pueden ser ``permisos`` del usuario, ``roles`` que tiene un usuario, ``grupos`` a "
+"los que pertenece el usuario, o incluso el valor booleano de las expresiones *'TALES*'"
 
 #: ../workflow/introduction.rst:66
 msgid ""
-"What ``scripts`` will be executed before and after the transition occurs "
-"(again, not used much now that we have ``events``)"
+"What ``scripts`` will be executed before and after the transition occurs (again, not "
+"used much now that we have ``events``)"
 msgstr ""
+"Qué ``scripts`` se ejecutarán antes y después de que ocurra la transición (de nuevo, no "
+"se usa mucho ahora que tenemos ``eventos``)"
 
 #: ../workflow/introduction.rst:67
 msgid "How the transition is triggered"
-msgstr ""
+msgstr "Cómo se desencadena la transición"
 
 #: ../workflow/introduction.rst:69
 msgid "This can be user-initiated *or* automatic"
-msgstr ""
+msgstr "Esto puede ser iniciado por el usuario *o* automático"
 
 #: ../workflow/introduction.rst:71
 msgid ""
-"Automatic transitions happen when an object lands in a state from which "
-"they are a valid exit, **and** that object fulfills **all** conditions "
-"for the transition to be available."
+"Automatic transitions happen when an object lands in a state from which they are a "
+"valid exit, **and** that object fulfills **all** conditions for the transition to be "
+"available."
 msgstr ""
+"Las transiciones automáticas ocurren cuando un objeto aterriza en un estado del que son "
+"una salida válida, **y** ese objeto cumple **todas** las condiciones para que la "
+"transición esté disponible."
 
 #: ../workflow/introduction.rst:72
 msgid ""
-"If the conditions for the automated transition are **not** met, then the "
-"transition doesn't happen"
+"If the conditions for the automated transition are **not** met, then the transition "
+"doesn't happen"
 msgstr ""
+"Si las condiciones para la transición automatizada **no** se cumplen, entonces la "
+"transición no se produce"
 
 #: ../workflow/introduction.rst:74
 msgid "Updating the object to meet the conditions will not kick it off"
-msgstr ""
+msgstr "Actualizar el objeto para que cumpla las condiciones no lo iniciará"
 
 #: ../workflow/introduction.rst:75
 msgid ""
-"You'll have to back it out of the current ``state`` and re-do the "
-"transition that should have kicked it off"
+"You'll have to back it out of the current ``state`` and re-do the transition that "
+"should have kicked it off"
 msgstr ""
+"Tendrás que sacarlo del ``estado`` actual y volver a hacer la transición que debería "
+"haberlo iniciado"
 
 #: ../workflow/introduction.rst:78
 msgid "How Does Workflow Work In Plone?"
-msgstr ""
+msgstr "¿Cómo funciona el flujo de trabajo en Plone?"
 
 #: ../workflow/introduction.rst:80
 msgid "The tool in Plone that handles all workflow is called ``portal_workflow``"
 msgstr ""
+"La herramienta en Plone que maneja todo el flujo de trabajo se llama ``portal_workflow``"
 
 #: ../workflow/introduction.rst:82
 msgid "Types must be ``workflow`` aware"
-msgstr ""
+msgstr "Los tipos deben ser compatibles con el ``flujo de trabajo``"
 
 #: ../workflow/introduction.rst:84
 msgid ""
-"Types in Plone are made *WorkflowAware* by a base content mixin from "
-"CMFCore ``WorkflowAware`` (in ``CMFCatalogAware``"
+"Types in Plone are made *WorkflowAware* by a base content mixin from CMFCore "
+"``WorkflowAware`` (in ``CMFCatalogAware``"
 msgstr ""
+"Los tipos en Plone se hacen *WorkflowAware* mediante una mezcla de contenido base de "
+"CMFCore ``WorkflowAware`` (en ``CMFCatalogAware``"
 
 #: ../workflow/introduction.rst:86
 msgid "Workflow is assigned by *type*"
-msgstr ""
+msgstr "El flujo de trabajo se asigna por *tipo*"
 
 #: ../workflow/introduction.rst:88
 msgid "Each type gets a *chain*"
-msgstr ""
+msgstr "Cada tipo recibe una *cadena*"
 
 #: ../workflow/introduction.rst:89
 msgid "A chain can have more than one workflow in it"
-msgstr ""
+msgstr "Una cadena puede tener más de un flujo de trabajo"
 
 #: ../workflow/introduction.rst:91
 msgid ""
-"``portal_workflow`` is responsible for keeping track of all information "
-"about the workflow state of an object"
+"``portal_workflow`` is responsible for keeping track of all information about the "
+"workflow state of an object"
 msgstr ""
+"``portal_workflow`` es responsable de realizar un seguimiento de toda la información "
+"sobre el estado del flujo de trabajo de un objeto"
 
 #: ../workflow/introduction.rst:93
-msgid ""
-"A particular content object knows **nothing** about it's own workflow "
-"state"
+msgid "A particular content object knows **nothing** about it's own workflow state"
 msgstr ""
+"Un objeto de contenido en particular no sabe **nada** sobre su propio estado de flujo "
+"de trabajo"
 
 #: ../workflow/introduction.rst:94
-msgid ""
-"queries about the workflow of an object **must** be addressed to "
-"portal_workflow"
+msgid "queries about the workflow of an object **must** be addressed to portal_workflow"
 msgstr ""
+"las consultas sobre el flujo de trabajo de un objeto **deben** dirigirse a "
+"portal_workflow"
 
 #: ../workflow/introduction.rst:121
 msgid ""
-"``portal_workflow`` is security conscious, for all aspects of workflow it"
-" respects and validates the access levels of the current user"
+"``portal_workflow`` is security conscious, for all aspects of workflow it respects and "
+"validates the access levels of the current user"
 msgstr ""
+"``portal_workflow`` es consciente de la seguridad, para todos los aspectos del flujo de "
+"trabajo respeta y valida los niveles de acceso del usuario actual"
 
 #: ../workflow/introduction.rst:123
-msgid ""
-"Users can only access the workflow information for which they have "
-"permissions"
+msgid "Users can only access the workflow information for which they have permissions"
 msgstr ""
+"Los usuarios solo pueden acceder a la información del flujo de trabajo para la que "
+"tienen permisos"
 
 #: ../workflow/introduction.rst:150
 msgid "Moving Content Through Workflows"
-msgstr ""
+msgstr "Mover contenido a través de flujos de trabajo"
 
 #: ../workflow/introduction.rst:152
 msgid ""
-"As stated above, any object with workflow is **always** in exactly "
-"**one** ``state`` for each workflow in it's chain."
+"As stated above, any object with workflow is **always** in exactly **one** ``state`` "
+"for each workflow in it's chain."
 msgstr ""
+"Como se indicó anteriormente, cualquier objeto con flujo de trabajo está **siempre** "
+"exactamente en **un** ``estado`` para cada flujo de trabajo en su cadena."
 
 #: ../workflow/introduction.rst:154
 msgid "When you initiate a transition, it is **instantaneous**."
-msgstr ""
+msgstr "Cuando inicias una transición, es **instantánea**."
 
 #: ../workflow/introduction.rst:155
 msgid "What happens when this occurs?"
-msgstr ""
+msgstr "¿Qué sucede cuando esto ocurre?"
 
 #: ../workflow/introduction.rst:157
 msgid ""
-"The ``BeforeTransitionEvent`` is notified, and any subscribers to that "
-"event are executed"
+"The ``BeforeTransitionEvent`` is notified, and any subscribers to that event are "
+"executed"
 msgstr ""
+"Se notifica a ``BeforeTransitionEvent`` y se ejecutan los suscriptores de ese evento"
 
 #: ../workflow/introduction.rst:158
 msgid "Any ``before script`` registered for the transition are executed."
-msgstr ""
+msgstr "Se ejecuta cualquier ``script before`` registrado para la transición."
 
 #: ../workflow/introduction.rst:159
 msgid "The ``transition`` takes place"
-msgstr ""
+msgstr "La ``transición`` tiene lugar"
 
 #: ../workflow/introduction.rst:161
 msgid "values are set for the variables registered by the workflow"
-msgstr ""
+msgstr "los valores se establecen para las variables registradas por el flujo de trabajo"
 
 #: ../workflow/introduction.rst:162
 msgid "the new ``state`` of the object is set"
-msgstr ""
+msgstr "se establece el nuevo ``estado`` del objeto"
 
 #: ../workflow/introduction.rst:163
-msgid ""
-"the new set of permissions values for roles and groups are calculated and"
-" updated"
+msgid "the new set of permissions values for roles and groups are calculated and updated"
 msgstr ""
+"se calcula y actualiza el nuevo conjunto de valores de permisos para roles y grupos"
 
 #: ../workflow/introduction.rst:165
 msgid "first permissions are remapped"
-msgstr ""
+msgstr "se reasignan los primeros permisos"
 
 #: ../workflow/introduction.rst:166
 msgid "then group -> role mappings are changed"
-msgstr ""
+msgstr "se modifican las correspondencias grupo -> rol"
 
 #: ../workflow/introduction.rst:168
 msgid "the object is re-indexed for all *security related* indexes."
 msgstr ""
+"el objeto se vuelve a indexar para todos los índices *relacionados con la seguridad*."
 
 #: ../workflow/introduction.rst:170
 msgid "Any ``after script`` registered for the transition is executed"
-msgstr ""
+msgstr "Se ejecuta cualquier ``script posterior`` registrado para la transición"
 
 #: ../workflow/introduction.rst:171
 msgid ""
-"The ``AfterTransitionEvent`` is notified, and any subscribers to that "
-"event are executed"
+"The ``AfterTransitionEvent`` is notified, and any subscribers to that event are executed"
 msgstr ""
+"Se notifica el ``AfterTransitionEvent`` y se ejecutan los suscriptores de ese evento"
 
 #: ../workflow/introduction.rst:173
 msgid ""
-"In general, transitions are triggered by user action.  This takes place "
-"when a user clicks on the *state* menu in the Plone UI and selects an "
-"available transition, or when the user presses *save* from the **Change "
-"State** dialog found in the folder listing view."
+"In general, transitions are triggered by user action.  This takes place when a user "
+"clicks on the *state* menu in the Plone UI and selects an available transition, or when "
+"the user presses *save* from the **Change State** dialog found in the folder listing "
+"view."
 msgstr ""
+"En general, las transiciones se desencadenan por la acción del usuario.  Esto tiene "
+"lugar cuando un usuario hace clic en el menú *estado* en la interfaz de usuario de "
+"Plone y selecciona una transición disponible, o cuando el usuario presiona *guardar* "
+"desde el cuadro de diálogo **Cambiar estado** que se encuentra en la vista de lista de "
+"carpetas."
 
 #: ../workflow/introduction.rst:175
 msgid ""
-"As stated above, automatic transitions are found as a result of "
-"undergoing manual transitions."
+"As stated above, automatic transitions are found as a result of undergoing manual "
+"transitions."
 msgstr ""
+"Como se indicó anteriormente, las transiciones automáticas se encuentran como resultado "
+"de someterse a transiciones manuales."
 
 #: ../workflow/introduction.rst:177
 msgid ""
-"Step 3 above can actually be executed **multiple** times when a user "
-"triggers a ``transition``."
+"Step 3 above can actually be executed **multiple** times when a user triggers a "
+"``transition``."
 msgstr ""
+"El paso 3 anterior puede ejecutarse **múltiples** veces cuando un usuario desencadena "
+"una ``transición``."
 
 #: ../workflow/introduction.rst:178
 msgid "Events and scripts are executed for **each** transition that happens"
-msgstr ""
+msgstr "Los eventos y scripts se ejecutan para **cada** transición que ocurre"
 
 #: ../workflow/introduction.rst:179
 msgid ""
-"For this reason, when subscribing to workflow events, it's a good idea to"
-" check *which* transition just happened *before* taking any actions in "
-"your handler:"
+"For this reason, when subscribing to workflow events, it's a good idea to check *which* "
+"transition just happened *before* taking any actions in your handler:"
 msgstr ""
+"Por este motivo, al suscribirse a eventos de flujo de trabajo, es una buena idea "
+"comprobar *cuál* transición acaba de ocurrir *antes* de realizar cualquier acción en el "
+"controlador:"
 
 #: ../workflow/local-roles.rst:3
 msgid "Local Roles"
@@ -987,86 +1133,109 @@ msgstr "Roles locales"
 
 #: ../workflow/local-roles.rst:6
 msgid "Local Roles On Folders"
-msgstr ""
+msgstr "Roles locales en carpetas"
 
 #: ../workflow/local-roles.rst:8
 msgid ""
-"There may be some situations where you don't want your group to have a "
-"specific role across the entire site. You can manage that too."
+"There may be some situations where you don't want your group to have a specific role "
+"across the entire site. You can manage that too."
 msgstr ""
+"Puede haber algunas situaciones en las que no desee que su grupo tenga un rol "
+"específico en todo el sitio. Tú también puedes manejar eso."
 
 #: ../workflow/local-roles.rst:11
 msgid ""
-"When setting up your group in the Site Setup, do not assign it a role. Go"
-" to the folder where you want the group to have specific permissions and "
-"assign the group that role on the sharing tab for the folder."
+"When setting up your group in the Site Setup, do not assign it a role. Go to the folder "
+"where you want the group to have specific permissions and assign the group that role on "
+"the sharing tab for the folder."
 msgstr ""
+"Al configurar el grupo en la configuración del sitio, no le asigne un rol. Vaya a la "
+"carpeta en la que desea que el grupo tenga permisos específicos y asigne al grupo ese "
+"rol en la pestaña de uso compartido de la carpeta."
 
 #: ../workflow/local-roles.rst:14
 msgid ""
-"You can assign individual users permissions at this level as well. Add "
-"the user to the sharing tab and assign the permission to that user. When "
-"you assign roles at an object level like this, you are assigning local "
-"roles."
+"You can assign individual users permissions at this level as well. Add the user to the "
+"sharing tab and assign the permission to that user. When you assign roles at an object "
+"level like this, you are assigning local roles."
 msgstr ""
+"También puede asignar permisos a usuarios individuales en este nivel. Añada el "
+"usuario a la pestaña de uso compartido y asigne el permiso a ese usuario. Cuando se "
+"asignan roles en un nivel de objeto como este, se están asignando roles locales."
 
 #: ../workflow/local-roles.rst:18
 msgid ""
-"Local roles give users (or groups) extra permissions in a very specific "
-"context. For example, you may have two groups: pirates and ninjas."
+"Local roles give users (or groups) extra permissions in a very specific context. For "
+"example, you may have two groups: pirates and ninjas."
 msgstr ""
+"Los roles locales otorgan a los usuarios (o grupos) permisos adicionales en un contexto "
+"muy específico. Por ejemplo, puede tener dos grupos: piratas y ninjas."
 
 #: ../workflow/local-roles.rst:21
 msgid ""
-"The ninjas probably don't want the pirates mucking about with their "
-"content. In this case, you could create a folder for the ninjas and "
-"assign their group to have a local role of Owner over the folder. Uncheck"
-" the inherit permissions box and now your ninjas have their own folder "
-"where they can add content and the pirates cannot see or add anything to "
-"this folder. Similarly, if only the pirate captain should have access to "
-"a folder, add the pirate captain user to the sharing tab and select the "
-"correct permission."
+"The ninjas probably don't want the pirates mucking about with their content. In this "
+"case, you could create a folder for the ninjas and assign their group to have a local "
+"role of Owner over the folder. Uncheck the inherit permissions box and now your ninjas "
+"have their own folder where they can add content and the pirates cannot see or add "
+"anything to this folder. Similarly, if only the pirate captain should have access to a "
+"folder, add the pirate captain user to the sharing tab and select the correct "
+"permission."
 msgstr ""
+"Es probable que los ninjas no quieran que los piratas jueguen con su contenido. En este "
+"caso, puede crear una carpeta para los ninjas y asignar su grupo para que tenga un rol "
+"local de Propietario sobre la carpeta. Desmarque la casilla heredar permisos y ahora "
+"sus ninjas tienen su propia carpeta donde pueden añadir contenido y los piratas no "
+"pueden ver ni añadir nada a esta carpeta. Del mismo modo, si solo el capitán pirata "
+"debe tener acceso a una carpeta, añada el usuario capitán pirata a la pestaña de uso "
+"compartido y seleccione el permiso correcto."
 
 #: ../workflow/local-roles.rst:27
 msgid ""
-"Don't forget to uncheck the inherit permissions box, otherwise your "
-"folder will inherit permissions from the rest of the site."
+"Don't forget to uncheck the inherit permissions box, otherwise your folder will inherit "
+"permissions from the rest of the site."
 msgstr ""
+"No olvides desmarcar la casilla heredar permisos, de lo contrario, tu carpeta heredará "
+"los permisos del resto del sitio."
 
 #: ../workflow/local-roles.rst:30
 msgid "Local Roles On Groups"
-msgstr ""
+msgstr "Roles locales en grupos"
 
 #: ../workflow/local-roles.rst:32
 msgid ""
-"A state can also assign local roles to groups. This is akin to assigning "
-"roles to groups on Plone's Sharing tab, but the mapping of roles to "
-"groups happens on each state change, much like the mapping of roles to "
-"permissions."
+"A state can also assign local roles to groups. This is akin to assigning roles to "
+"groups on Plone's Sharing tab, but the mapping of roles to groups happens on each state "
+"change, much like the mapping of roles to permissions."
 msgstr ""
+"Un estado también puede asignar roles locales a grupos. Esto es similar a la asignación "
+"de roles a grupos en la pestaña Compartir de Plone, pero la asignación de roles a "
+"grupos ocurre en cada cambio de estado, al igual que la asignación de roles a permisos."
 
 #: ../workflow/local-roles.rst:36
 msgid ""
-"Thus, you can say that in the pending_secondary state, members of the "
-"Secondary reviewers group has the ``Reviewer`` local role. This is "
-"powerful stuff when combined with the more usual role-to-permission "
-"mapping."
+"Thus, you can say that in the pending_secondary state, members of the Secondary "
+"reviewers group has the ``Reviewer`` local role. This is powerful stuff when combined "
+"with the more usual role-to-permission mapping."
 msgstr ""
+"Por lo tanto, se puede decir que en el estado pending_secondary, los miembros del grupo "
+"de revisores secundarios tienen el rol local ``Revisor``. Esto es algo poderoso cuando "
+"se combina con la asignación de roles a permisos más habitual."
 
 #: ../workflow/local-roles.rst:40
 msgid "Additional Resources"
-msgstr ""
+msgstr "Recursos adicionales"
 
 #: ../workflow/local-roles.rst:41
 msgid ""
-"https://docs.plone.org/working-with-content/collaboration-and-workflow"
-"/collaboration-through-sharing.html"
+"https://docs.plone.org/working-with-content/collaboration-and-workflow/collaboration-"
+"through-sharing.html"
 msgstr ""
+"https://docs.plone.org/working-with-content/collaboration-and-workflow/collaboration-"
+"through-sharing.html"
 
 #: ../workflow/local-roles.rst:42
 msgid "https://docs.plone.org/develop/plone/security/local_roles.html"
-msgstr ""
+msgstr "https://docs.plone.org/develop/plone/security/local_roles.html"
 
 #: ../workflow/placeful-workflow.rst:3
 msgid "Placeful Workflow"
@@ -1074,209 +1243,251 @@ msgstr "Flujo de trabajo con contexto"
 
 #: ../workflow/placeful-workflow.rst:5
 msgid ""
-"Sometimes you may want a specific section of the site to allow different "
-"permissions and roles than other areas of the site such as providing an "
-"intranet are for internal staff to collaborate. In the past, if you "
-"wanted to do this, you would need to make custom content types that were "
-"identical to the standard types so you can attach an alternate workflow "
-"policy to them to limit access."
+"Sometimes you may want a specific section of the site to allow different permissions "
+"and roles than other areas of the site such as providing an intranet are for internal "
+"staff to collaborate. In the past, if you wanted to do this, you would need to make "
+"custom content types that were identical to the standard types so you can attach an "
+"alternate workflow policy to them to limit access."
 msgstr ""
+"A veces, es posible que desee que una sección específica del sitio permita permisos y "
+"roles diferentes a los de otras áreas del sitio, como proporcionar una intranet para "
+"que colabore el personal interno. En el pasado, si quería hacer esto, tenía que crear "
+"tipos de contenido personalizados que fueran idénticos a los tipos estándar para poder "
+"adjuntarles una política de flujo de trabajo alternativa para limitar el acceso."
 
 #: ../workflow/placeful-workflow.rst:10
 msgid ""
-"This causes extra boilerplate code and confusion amongst your users as "
-"they just want to create standard \"Pages\", but in this area they may "
-"have to create \"Intranet Pages\"."
+"This causes extra boilerplate code and confusion amongst your users as they just want "
+"to create standard \"Pages\", but in this area they may have to create \"Intranet "
+"Pages\"."
 msgstr ""
+"Esto causa código repetitivo adicional y confusión entre sus usuarios, ya que solo "
+"quieren crear \"Páginas\" estándar, pero en esta área es posible que tengan que crear "
+"\"Páginas de Intranet\"."
 
 #: ../workflow/placeful-workflow.rst:13
 msgid "Plone comes standard with a feature that addresses this specific issue."
-msgstr ""
+msgstr "Plone viene de serie con una función que aborda este problema específico."
 
 #: ../workflow/placeful-workflow.rst:15
 msgid ""
-"Plone's \"Workflow Policy Support\" add-on is available, but not active "
-"by default and allows site administrators to define workflow policies "
-"that only apply in specific sections of the site."
+"Plone's \"Workflow Policy Support\" add-on is available, but not active by default and "
+"allows site administrators to define workflow policies that only apply in specific "
+"sections of the site."
 msgstr ""
+"El complemento \"Soporte de políticas de flujo de trabajo\" de Plone está disponible, "
+"pero no está activo de forma por defecto y permite a los administradores del sitio "
+"definir políticas de flujo de trabajo que solo se aplican en secciones específicas del "
+"sitio."
 
 #: ../workflow/placeful-workflow.rst:18
-msgid ""
-"The name Placeful Workflow comes from the fact you do this in a specific "
-"place."
+msgid "The name Placeful Workflow comes from the fact you do this in a specific place."
 msgstr ""
+"El nombre Placeful Workflow proviene del hecho de que lo haces en un lugar específico."
 
 #: ../workflow/placeful-workflow.rst:20
 msgid ""
-"Placeful workflow allows you to define workflow policies that define "
-"content type to workflow mappings that can be applied in any sub-folder "
-"of your Plone site."
+"Placeful workflow allows you to define workflow policies that define content type to "
+"workflow mappings that can be applied in any sub-folder of your Plone site."
 msgstr ""
+"El flujo de trabajo de Placeful te permite definir políticas de flujo de trabajo que "
+"definen el tipo de contenido para las asignaciones de flujo de trabajo que se pueden "
+"aplicar en cualquier subcarpeta de tu sitio de Plone."
 
 #: ../workflow/placeful-workflow.rst:26
 msgid ""
-"To get started with Placeful Workflow in Plone, you will need to first "
-"activate the add-on via the :menuselection:`Site Setup -> Add-Ons` "
-"control panel."
+"To get started with Placeful Workflow in Plone, you will need to first activate the add-"
+"on via the :menuselection:`Site Setup -> Add-Ons` control panel."
 msgstr ""
+"Para empezar a utilizar Placeful Workflow en Plone, primero tendrás que activar el "
+"complemento a través del panel de control :menuselection:`Configuración del sitio -> "
+"Complementos`."
 
 #: ../workflow/placeful-workflow.rst:29
 msgid ""
-"Click :guilabel:`Activate` next to the \"Workflow Policy Support\" add-on"
-" and you will be ready to start assigning local policies to folders."
+"Click :guilabel:`Activate` next to the \"Workflow Policy Support\" add-on and you will "
+"be ready to start assigning local policies to folders."
 msgstr ""
+"Haga clic en :guilabel:`Activar` junto al complemento \"Soporte de políticas de flujo "
+"de trabajo\" y estará listo para comenzar a asignar políticas locales a las carpetas."
 
 #: ../workflow/placeful-workflow.rst:31
 msgid ""
-"Create or go to any folder inside of your site and click the workflow "
-"state menu and you will now see an option for ``Policy...``."
+"Create or go to any folder inside of your site and click the workflow state menu and "
+"you will now see an option for ``Policy...``."
 msgstr ""
+"Crea o ve a cualquier carpeta dentro de tu sitio y haz clic en el menú de estado del "
+"flujo de trabajo y ahora verás una opción para ``Política...``."
 
 #: ../workflow/placeful-workflow.rst:33
-msgid ""
-"Select this option to begin assigning local workflow mappings to this "
-"folder."
+msgid "Select this option to begin assigning local workflow mappings to this folder."
 msgstr ""
+"Seleccione esta opción para comenzar a asignar asignaciones de flujo de trabajo local a "
+"esta carpeta."
 
 #: ../workflow/placeful-workflow.rst:35
 msgid ""
-"By default, the Placeful Workflow product has created some default "
-"mappings for you:"
+"By default, the Placeful Workflow product has created some default mappings for you:"
 msgstr ""
+"De forma predeterminada, el producto Placeful Workflow ha creado algunas asignaciones "
+"predeterminadas para usted:"
 
 #: ../workflow/placeful-workflow.rst:37
 msgid "Intranet -- Sets the default workflow policy to ``Intranet/Extranet``"
 msgstr ""
+"Intranet -- Establece la política de flujo de trabajo por defecto en ``Intranet/"
+"Extranet``"
 
 #: ../workflow/placeful-workflow.rst:38
 msgid "Old Plone -- Sets the default workflow policy to ``Community Workflow``"
 msgstr ""
+"Old Plone -- Establece la política de flujo de trabajo por defecto en ``Flujo de "
+"trabajo de la comunidad``"
 
 #: ../workflow/placeful-workflow.rst:39
 msgid "One State -- Sets the default workflow policy to ``Single State Workflow``"
 msgstr ""
+"Un estado: establece la política de flujo de trabajo por defecto en ``Flujo de "
+"trabajo de estado único``"
 
 #: ../workflow/placeful-workflow.rst:40
 msgid ""
-"Simple Publication -- Sets the default workflow policy to ``Simple "
-"Publication Workflow``"
+"Simple Publication -- Sets the default workflow policy to ``Simple Publication "
+"Workflow``"
 msgstr ""
+"Publicación simple: establece la política de flujo de trabajo por defecto en ``Flujo "
+"de trabajo de publicación simple``"
 
 #: ../workflow/placeful-workflow.rst:42
 msgid ""
-"From the ``Workflow Policies`` control panel, you can create your own "
-"custom mappings and then assign them via the ``Policy...`` menu option "
-"per folder inside your site."
+"From the ``Workflow Policies`` control panel, you can create your own custom mappings "
+"and then assign them via the ``Policy...`` menu option per folder inside your site."
 msgstr ""
+"Desde el panel de control ``Políticas de flujo de trabajo``, puede crear sus propios "
+"mapeos personalizados y luego asignarlos a través de la opción de menú ``Política...`` "
+"por carpeta dentro de su sitio."
 
 #: ../workflow/placeful-workflow.rst:45
-#, fuzzy
 msgid "Internals Of Placeful Workflow"
-msgstr "Flujo de trabajo con contexto"
+msgstr "Funcionamiento interno de Placeful Workflow"
 
 #: ../workflow/placeful-workflow.rst:47
 msgid ""
-"This works by providing a more specific ``adapter`` for the "
-"``IWorkflowChain`` interface defined by DCWorkflow."
+"This works by providing a more specific ``adapter`` for the ``IWorkflowChain`` "
+"interface defined by DCWorkflow."
 msgstr ""
+"Esto funciona proporcionando un ``adaptador`` más específico para la interfaz "
+"``IWorkflowChain`` definida por DCWorkflow."
 
 #: ../workflow/placeful-workflow.rst:49
 msgid ""
-"It means that when you install this product, the ``portal_workflow`` tool"
-" is marked with an ``IPlacefulWorkflow`` interface, and from then on, the"
-" adapter defined by the product is used when looking up the workflow "
-"chain for an object"
+"It means that when you install this product, the ``portal_workflow`` tool is marked "
+"with an ``IPlacefulWorkflow`` interface, and from then on, the adapter defined by the "
+"product is used when looking up the workflow chain for an object"
 msgstr ""
+"Esto significa que cuando se instala este producto, la herramienta ``portal_workflow`` "
+"se marca con una interfaz ``IPlacefulWorkflow`` y, a partir de ese momento, el "
+"adaptador definido por el producto se utiliza al buscar un objeto en la cadena de flujo "
+"de trabajo"
 
 #: ../workflow/placeful-workflow.rst:54
 msgid ""
-"A great example of the `marker pattern "
-"<https://docs.plone.org/external/plone.app.dexterity/docs/behaviors"
-"/providing-marker-interfaces.html>`_"
+"A great example of the `marker pattern <https://docs.plone.org/external/plone.app."
+"dexterity/docs/behaviors/providing-marker-interfaces.html>`_"
 msgstr ""
-"Un gran ejemplo del `patrón marker "
-"<https://docs.plone.org/external/plone.app.dexterity/docs/behaviors"
-"/providing-marker-interfaces.html>`_"
+"Un gran ejemplo del `patrón marker <https://docs.plone.org/external/plone.app.dexterity/"
+"docs/behaviors/providing-marker-interfaces.html>`_"
 
 #: ../workflow/placeful-workflow.rst:56
 msgid ""
-"You add a *workflow policy* in the location where you want to have "
-"customized workflow assignments."
+"You add a *workflow policy* in the location where you want to have customized workflow "
+"assignments."
 msgstr ""
+"Añada una *política de flujo de trabajo* en la ubicación en la que desee tener "
+"asignaciones de flujo de trabajo personalizadas."
 
 #: ../workflow/placeful-workflow.rst:58
 msgid ""
-"A ``policy`` is basically just a mapping of workflows to content types. "
-"Like what you see in :menuselection:`ZMI -> portal_workflow -> workflows`"
+"A ``policy`` is basically just a mapping of workflows to content types. Like what you "
+"see in :menuselection:`ZMI -> portal_workflow -> workflows`"
 msgstr ""
+"Una ``política`` es básicamente una asignación de flujos de trabajo a tipos de "
+"contenido. Como lo que ves en :menuselection:`ZMI -> portal_workflow -> workflows`"
 
 #: ../workflow/placeful-workflow.rst:62
 msgid ""
-"This policy can control workflow ''in'' the object where it is located, "
-"and *below* it"
+"This policy can control workflow ''in'' the object where it is located, and *below* it"
 msgstr ""
+"Esta política puede controlar el flujo de trabajo ``en`` el objeto donde se encuentra y "
+"*debajo* de él"
 
 #: ../workflow/placeful-workflow.rst:64
 msgid "*In* means the policy applies to the object itself and its content."
-msgstr ""
+msgstr "*En* significa que la política se aplica al objeto en sí y a su contenido."
 
 #: ../workflow/placeful-workflow.rst:65
 msgid ""
-"*Below* means that the policy applies only to any contained items (and "
-"their contents as well), but not to the original object."
+"*Below* means that the policy applies only to any contained items (and their contents "
+"as well), but not to the original object."
 msgstr ""
+"*Abajo* significa que la política se aplica solo a los elementos contenidos (y también "
+"a su contenido), pero no al objeto original."
 
 #: ../workflow/placeful-workflow.rst:67
 msgid "All this can be handled by GenericSetup as well"
-msgstr ""
+msgstr "Todo esto también puede ser manejado por GenericSetup"
 
 #: ../workflow/placeful-workflow.rst:69
-msgid ""
-"``portal_placeful_workflow.xml`` allows you to declare the presence of "
-"policies"
-msgstr ""
+msgid "``portal_placeful_workflow.xml`` allows you to declare the presence of policies"
+msgstr "``portal_placeful_workflow.xml`` le permite declarar la presencia de políticas"
 
 #: ../workflow/placeful-workflow.rst:70
-msgid ""
-"This is accompanied by a folder of the same name (minus the 'xml' part, "
-"of course)"
+msgid "This is accompanied by a folder of the same name (minus the 'xml' part, of course)"
 msgstr ""
+"Esto va acompañado de una carpeta con el mismo nombre (menos la parte 'xml', por "
+"supuesto)"
 
 #: ../workflow/placeful-workflow.rst:72
 msgid ""
-"The folder contains one file per policy: ``policy_name.xml`` where "
-"*policy_name* is replaced by the actual name of your policy"
+"The folder contains one file per policy: ``policy_name.xml`` where *policy_name* is "
+"replaced by the actual name of your policy"
 msgstr ""
+"La carpeta contiene un archivo por política: ``policy_name.xml`` donde *policy_name* se "
+"reemplaza por el nombre real de su política"
 
 #: ../workflow/placeful-workflow.rst:74
 msgid ""
-"Once you've generated a policy, you can add an 'import step' in "
-"GenericSetup to use it somewhere (this must be done in code)"
+"Once you've generated a policy, you can add an 'import step' in GenericSetup to use it "
+"somewhere (this must be done in code)"
 msgstr ""
+"Una vez que haya generado una política, puede añadir un 'paso de importación' en "
+"GenericSetup para usarla en algún lugar (esto debe hacerse en el código)"
 
 #: ../workflow/placeful-workflow.rst:76
 msgid "portal_placeful_workflow.xml:"
-msgstr ""
+msgstr "portal_placeful_workflow.xml:"
 
 #: ../workflow/placeful-workflow.rst:85
 msgid "intranet-content.xml:"
-msgstr ""
+msgstr "intranet-content.xml:"
 
 #: ../workflow/placeful-workflow.rst:105
 msgid "the setup:"
-msgstr ""
+msgstr "la configuración:"
 
 #: ../workflow/roles-and-permissions.rst:3
 msgid "Basic Roles and Permissions"
-msgstr ""
+msgstr "Roles y permisos básicos"
 
 #: ../workflow/roles-and-permissions.rst:5
 msgid ""
-"Roles, groups, permissions, workflows, states, transitions are all a part"
-" of Plone's robust security model. But you don't have to be a guru to "
-"understand the basic Plone permissions you will encounter on a daily "
-"basis."
+"Roles, groups, permissions, workflows, states, transitions are all a part of Plone's "
+"robust security model. But you don't have to be a guru to understand the basic Plone "
+"permissions you will encounter on a daily basis."
 msgstr ""
+"Los roles, los grupos, los permisos, los flujos de trabajo, los estados y las "
+"transiciones forman parte del sólido modelo de seguridad de Plone. Pero no tienes que "
+"ser un gurú para entender los permisos básicos de Plone que encontrarás a diario."
 
 #: ../workflow/roles-and-permissions.rst:9
 msgid "Definitions"
@@ -1284,10 +1495,13 @@ msgstr "Definiciones"
 
 #: ../workflow/roles-and-permissions.rst:11
 msgid ""
-"Let's start off with some basic terminology. Permissions are individual "
-"rights that give the user the ability to perform an action. Roles are a "
-"combination of permissions. Both users and groups can be assigned roles."
+"Let's start off with some basic terminology. Permissions are individual rights that "
+"give the user the ability to perform an action. Roles are a combination of permissions. "
+"Both users and groups can be assigned roles."
 msgstr ""
+"Comencemos con una terminología básica. Los permisos son derechos individuales que "
+"otorgan al usuario la capacidad de realizar una acción. Los roles son una combinación "
+"de permisos. Tanto a los usuarios como a los grupos se les pueden asignar roles."
 
 #: ../workflow/roles-and-permissions.rst:17
 msgid "Roles"
@@ -1295,27 +1509,37 @@ msgstr "Roles"
 
 #: ../workflow/roles-and-permissions.rst:19
 msgid ""
-"Roles are a combination of permissions that you will assign to your "
-"users. Plone comes with a basic set of roles, each of which already has "
-"certain permissions assigned. Below you will learn a little bit about the"
-" defaults for each role."
+"Roles are a combination of permissions that you will assign to your users. Plone comes "
+"with a basic set of roles, each of which already has certain permissions assigned. "
+"Below you will learn a little bit about the defaults for each role."
 msgstr ""
+"Los roles son una combinación de permisos que asignará a los usuarios. Plone viene con "
+"un conjunto básico de roles, cada uno de los cuales ya tiene ciertos permisos "
+"asignados. A continuación, aprenderá un poco sobre los valores predeterminados para "
+"cada rol."
 
 #: ../workflow/roles-and-permissions.rst:23
 msgid ""
-"Most of your site users have the \"Member\" role. By default, a Member "
-"can see anything that is published, see the contents of a folder, see a "
-"list of other portal members and groups, and see portlets. Depending on "
-"how your site is customized, Members may not have access to certain "
-"portlets or specific parts of the site. I keep track of what a Member has"
-" access to by reminding myself that a Member cannot change content and "
-"can only see what has been published. You will want to assign the Member "
-"role to your every day, normal users who will not be changing content."
+"Most of your site users have the \"Member\" role. By default, a Member can see anything "
+"that is published, see the contents of a folder, see a list of other portal members and "
+"groups, and see portlets. Depending on how your site is customized, Members may not "
+"have access to certain portlets or specific parts of the site. I keep track of what a "
+"Member has access to by reminding myself that a Member cannot change content and can "
+"only see what has been published. You will want to assign the Member role to your every "
+"day, normal users who will not be changing content."
 msgstr ""
+"La mayoría de los usuarios de su sitio tienen el rol de \"Miembro\". De forma "
+"predeterminada, un miembro puede ver todo lo que se publica, ver el contenido de una "
+"carpeta, ver una lista de otros miembros y grupos del portal y ver portlets. "
+"Dependiendo de cómo esté personalizado su sitio, es posible que los miembros no tengan "
+"acceso a ciertos portlets o partes específicas del sitio. Hago un seguimiento de lo que "
+"un miembro tiene acceso recordándome a mí mismo que un miembro no puede cambiar el "
+"contenido y solo puede ver lo que se ha publicado. Querrá asignar el rol de miembro a "
+"sus usuarios normales todos los días que no cambiarán el contenido."
 
 #: ../workflow/roles-and-permissions.rst:29
 msgid "Everyone who joins your site should be assigned this role."
-msgstr ""
+msgstr "A todos los que se unan a tu sitio se les debe asignar este rol."
 
 #: ../workflow/roles-and-permissions.rst:32
 msgid "Reader"
@@ -1323,19 +1547,26 @@ msgstr "Lector"
 
 #: ../workflow/roles-and-permissions.rst:34
 msgid ""
-"The Reader role may be almost the opposite from the Member role. Readers "
-"can view content items that are in the private state, but cannot make any"
-" changes. You should assign people the Reader role when you want them to "
-"review a piece of content that is not yet published."
+"The Reader role may be almost the opposite from the Member role. Readers can view "
+"content items that are in the private state, but cannot make any changes. You should "
+"assign people the Reader role when you want them to review a piece of content that is "
+"not yet published."
 msgstr ""
+"El rol Lector puede ser casi el opuesto del rol de miembro. Los lectores pueden ver los "
+"elementos de contenido que están en estado privado, pero no pueden realizar ningún "
+"cambio. Debes asignar a las personas el rol de lector cuando quieras que revisen un "
+"contenido que aún no se ha publicado."
 
 #: ../workflow/roles-and-permissions.rst:38
 msgid ""
-"The Reader role is great for when you want only certain people to see a "
-"piece of content. You can also use the Reader role as part of a document "
-"review cycle for users who would like to review your document but not "
-"make changes to the document."
+"The Reader role is great for when you want only certain people to see a piece of "
+"content. You can also use the Reader role as part of a document review cycle for users "
+"who would like to review your document but not make changes to the document."
 msgstr ""
+"El rol Lector es ideal para cuando quieres que solo ciertas personas vean un fragmento "
+"de contenido. También puede utilizar el rol de lector como parte de un ciclo de "
+"revisión de documentos para los usuarios que deseen revisar el documento, pero no "
+"realizar cambios en el documento."
 
 #: ../workflow/roles-and-permissions.rst:43
 msgid "Contributor"
@@ -1343,12 +1574,16 @@ msgstr "Colaborador"
 
 #: ../workflow/roles-and-permissions.rst:45
 msgid ""
-"A user with a Contributor role can do all the things a member can, plus "
-"add content, use version control, and view content that is not in the "
-"published state. A contributor cannot modify (edit) another user's "
-"content. The Contributor role should be given to users who will create "
-"content but not edit another person's content."
+"A user with a Contributor role can do all the things a member can, plus add content, "
+"use version control, and view content that is not in the published state. A contributor "
+"cannot modify (edit) another user's content. The Contributor role should be given to "
+"users who will create content but not edit another person's content."
 msgstr ""
+"Un usuario con un rol de colaborador puede hacer todo lo que puede hacer un miembro, "
+"además de añadir contenido, usar el control de versiones y ver el contenido que no "
+"está en el estado publicado. Un colaborador no puede modificar (editar) el contenido de "
+"otro usuario. El rol de colaborador debe asignarse a los usuarios que crearán contenido "
+"pero no editarán el contenido de otra persona."
 
 #: ../workflow/roles-and-permissions.rst:50
 msgid "Owner"
@@ -1356,13 +1591,18 @@ msgstr "Propietario"
 
 #: ../workflow/roles-and-permissions.rst:52
 msgid ""
-"The owner role is inherited when a user adds a piece of content. You have"
-" to have another role, like Contributor, that has the ability to add "
-"content. Once you add a piece of content, you are automatically assigned "
-"the Owner role over this content. When you are the Owner of a piece of "
-"content, you can modify that piece of content whenever you wish, no "
-"matter what state the content is in."
+"The owner role is inherited when a user adds a piece of content. You have to have "
+"another role, like Contributor, that has the ability to add content. Once you add a "
+"piece of content, you are automatically assigned the Owner role over this content. When "
+"you are the Owner of a piece of content, you can modify that piece of content whenever "
+"you wish, no matter what state the content is in."
 msgstr ""
+"El rol de propietario se hereda cuando un usuario añada un fragmento de contenido. "
+"Tienes que tener otro rol, como Colaborador, que tenga la capacidad de añadir "
+"contenido. Una vez que añada un fragmento de contenido, se le asignará "
+"automáticamente el rol de propietario sobre este contenido. Cuando eres el propietario "
+"de un fragmento de contenido, puedes modificar ese fragmento de contenido cuando lo "
+"desees, sin importar el estado en el que se encuentre el contenido."
 
 #: ../workflow/roles-and-permissions.rst:58
 msgid "Editor"
@@ -1370,18 +1610,22 @@ msgstr "Editor"
 
 #: ../workflow/roles-and-permissions.rst:60
 msgid ""
-"A user with the Editor role by default does not have the ability to add "
-"content, but can modify(edit) content and use version control. An Editor "
-"can also manage properties of content and can submit content for "
-"publication. The Editor role should be used when a Contributor is sending"
-" a piece of content for review."
+"A user with the Editor role by default does not have the ability to add content, but "
+"can modify(edit) content and use version control. An Editor can also manage properties "
+"of content and can submit content for publication. The Editor role should be used when "
+"a Contributor is sending a piece of content for review."
 msgstr ""
+"Un usuario con el rol Editor de forma por defecto no tiene la capacidad de añadir "
+"contenido, pero puede modificar (editar) contenido y usar el control de versiones. Un "
+"editor también puede administrar las propiedades del contenido y puede enviar contenido "
+"para su publicación. El rol de editor debe usarse cuando un colaborador envía un "
+"fragmento de contenido para su revisión."
 
 #: ../workflow/roles-and-permissions.rst:64
 msgid ""
-"The Editor will review, and change, the content and then submit it for "
-"publication."
+"The Editor will review, and change, the content and then submit it for publication."
 msgstr ""
+"El rol Editor revisará y cambiará el contenido y luego lo enviará para su publicación."
 
 #: ../workflow/roles-and-permissions.rst:67
 msgid "Reviewer"
@@ -1389,23 +1633,29 @@ msgstr "Revisor"
 
 #: ../workflow/roles-and-permissions.rst:69
 msgid ""
-"A Reviewer role picks up where the Editor leaves off. While a Reviewer "
-"does not have as many rights as the Editor, the Reviewer can publish "
-"content that has been sent to the submit for publication state or send it"
-" back to the owner. The Reviewer also has a special portlet just for "
-"content that needs to be reviewed."
+"A Reviewer role picks up where the Editor leaves off. While a Reviewer does not have as "
+"many rights as the Editor, the Reviewer can publish content that has been sent to the "
+"submit for publication state or send it back to the owner. The Reviewer also has a "
+"special portlet just for content that needs to be reviewed."
 msgstr ""
+"Un rol Revisor continúa donde lo deja el editor. Si bien un revisor no tiene tantos "
+"derechos como el editor, el revisor puede publicar contenido que se haya enviado al "
+"estado de envío para publicación o devolverlo al propietario. El revisor también tiene "
+"un portlet especial solo para el contenido que necesita ser revisado."
 
 #: ../workflow/roles-and-permissions.rst:74
 msgid ""
-"Once an Editor has submitted content for publication, the Reviewer will "
-"review the content and then has the option to Publish or send back the "
-"content for the Contributor to review."
+"Once an Editor has submitted content for publication, the Reviewer will review the "
+"content and then has the option to Publish or send back the content for the Contributor "
+"to review."
 msgstr ""
+"Una vez que un rol Editor ha enviado el contenido para su publicación, el revisor "
+"revisará el contenido y luego tiene la opción de publicar o devolver el contenido para "
+"que el colaborador lo revise."
 
 #: ../workflow/roles-and-permissions.rst:77
 msgid "The Reviewer has the final say if something gets published or not."
-msgstr ""
+msgstr "El rol Revisor tiene la última palabra si algo se publica o no."
 
 #: ../workflow/roles-and-permissions.rst:80
 msgid "Site Administrator"
@@ -1413,17 +1663,23 @@ msgstr "Administrador del Sitio"
 
 #: ../workflow/roles-and-permissions.rst:82
 msgid ""
-"The Site Administrator role is very similar to the Manager role described"
-" below, but with a few exceptions. The Site Administrator has full access"
-" to manage all of the content in the portal, and can perform certain "
-"actions from the site setup such as adding and removing users."
+"The Site Administrator role is very similar to the Manager role described below, but "
+"with a few exceptions. The Site Administrator has full access to manage all of the "
+"content in the portal, and can perform certain actions from the site setup such as "
+"adding and removing users."
 msgstr ""
+"El rol Administrador del sitio es muy similar al rol de administrador que se describe a "
+"continuación, pero con algunas excepciones. El rol Administrador del sitio tiene acceso "
+"completo para administrar todo el contenido del portal y puede realizar ciertas "
+"acciones desde la configuración del sitio, como añadir y eliminar usuarios."
 
 #: ../workflow/roles-and-permissions.rst:86
 msgid ""
-"They do not have access to the ZMI or to actions such as activating Plone"
-" add-ons, configuring caching or discussion settings."
+"They do not have access to the ZMI or to actions such as activating Plone add-ons, "
+"configuring caching or discussion settings."
 msgstr ""
+"No tienen acceso a la ZMI ni a acciones como la activación de complementos de Plone, la "
+"configuración del almacenamiento en caché o los ajustes de discusión."
 
 #: ../workflow/roles-and-permissions.rst:89
 msgid "Manager"
@@ -1431,42 +1687,53 @@ msgstr "Administrador"
 
 #: ../workflow/roles-and-permissions.rst:91
 msgid ""
-"The Manager role is the role that can do everything. A user with the "
-"Manager role is a Site Administrator. Manager privileges are not given "
-"out lightly as this role can add, delete, and make changes to any thing "
-"in the site."
+"The Manager role is the role that can do everything. A user with the Manager role is a "
+"Site Administrator. Manager privileges are not given out lightly as this role can add, "
+"delete, and make changes to any thing in the site."
 msgstr ""
+"El rol Administrador es el rol que puede hacer todo. Un usuario con el rol de "
+"Administrador es un Administrador del sitio. Los privilegios de administrador no se "
+"otorgan a la ligera, ya que este rol puede añadir, eliminar y realizar cambios en "
+"cualquier cosa del sitio."
 
 #: ../workflow/roles-and-permissions.rst:95
 msgid ""
-"While more than one person should have this role, it definitely should "
-"not be handed out to large numbers of people. Your site Manger has access"
-" to the control panel, where many site wide settings can be changed and "
-"updated."
+"While more than one person should have this role, it definitely should not be handed "
+"out to large numbers of people. Your site Manger has access to the control panel, where "
+"many site wide settings can be changed and updated."
 msgstr ""
+"Si bien más de una persona debe tener este rol, definitivamente no debe entregarse a un "
+"gran número de personas. El rol Administrador de su sitio tiene acceso al panel de "
+"control, donde se pueden cambiar y actualizar muchas configuraciones de todo el sitio."
 
 #: ../workflow/roles-and-permissions.rst:98
 msgid ""
-"The Manager can also manage things via the :term:`ZMI` (Zope Management "
-"Interface)."
+"The Manager can also manage things via the :term:`ZMI` (Zope Management Interface)."
 msgstr ""
+"El rol Administrador también puede administrar cosas a través de :term:`ZMI` (Interfaz "
+"de administración de Zope)."
 
 #: ../workflow/roles-and-permissions.rst:101
 msgid "Giving Out Permissions"
-msgstr ""
+msgstr "Otorgamiento de permisos"
 
 #: ../workflow/roles-and-permissions.rst:103
 msgid ""
-"The easiest way to hand out permissions is to assign roles to groups. You"
-" can create a group and assign that group a role."
+"The easiest way to hand out permissions is to assign roles to groups. You can create a "
+"group and assign that group a role."
 msgstr ""
+"La forma más fácil de otorgar permisos es asignar roles a grupos. Puede crear un grupo "
+"y asignarle un rol."
 
 #: ../workflow/roles-and-permissions.rst:106
 msgid ""
-"Then, whenever you want to give someone certain permissions, you can add "
-"that user to that group. Assigning roles on a group level allows you to "
-"more easily manage large numbers of users."
+"Then, whenever you want to give someone certain permissions, you can add that user to "
+"that group. Assigning roles on a group level allows you to more easily manage large "
+"numbers of users."
 msgstr ""
+"Luego, cada vez que desee otorgar a alguien ciertos permisos, puede añadir ese usuario "
+"a ese grupo. La asignación de roles a nivel de grupo le permite administrar más "
+"fácilmente un gran número de usuarios."
 
 #: ../workflow/roles-and-permissions.rst:111
 msgid "Permissions"
@@ -1474,392 +1741,488 @@ msgstr "Permisos"
 
 #: ../workflow/roles-and-permissions.rst:113
 msgid ""
-"Plone's security system is based on the concept of *permissions* "
-"protecting *operations* (like accessing a view, viewing a field, "
-"modifying a field, or adding a type of content) that are granted to "
-"*roles*, which in turn are granted to *users* and/or *groups*."
+"Plone's security system is based on the concept of *permissions* protecting "
+"*operations* (like accessing a view, viewing a field, modifying a field, or adding a "
+"type of content) that are granted to *roles*, which in turn are granted to *users* and/"
+"or *groups*."
 msgstr ""
+"El sistema de seguridad de Plone se basa en el concepto de *permisos* que protegen "
+"*operaciones* (como acceder a una vista, ver un campo, modificar un campo o añadir un "
+"tipo de contenido) que se otorgan a *roles*, que a su vez se otorgan a *usuarios* y/o "
+"*grupos*."
 
 #: ../workflow/roles-and-permissions.rst:117
 msgid ""
-"In the context of developing content types, permissions are typically "
-"used in three different ways:"
+"In the context of developing content types, permissions are typically used in three "
+"different ways:"
 msgstr ""
+"En el contexto del desarrollo de tipos de contenido, los permisos se suelen usar de "
+"tres maneras diferentes:"
 
 #: ../workflow/roles-and-permissions.rst:119
 msgid ""
-"A content type or group of related content types often has a custom *add "
-"permission* which controls who can add this type of content."
+"A content type or group of related content types often has a custom *add permission* "
+"which controls who can add this type of content."
 msgstr ""
+"Un tipo de contenido o un grupo de tipos de contenido relacionados suele tener un "
+"*permiso de adición* personalizado que controla quién puede añadir este tipo de "
+"contenido."
 
 #: ../workflow/roles-and-permissions.rst:121
 msgid "Views (including forms) are sometimes protected by custom permissions."
 msgstr ""
+"Las vistas (incluidos los formularios) a veces están protegidas por permisos "
+"personalizados."
 
 #: ../workflow/roles-and-permissions.rst:123
 msgid ""
-"Individual fields are sometimes protected by permissions, so that some "
-"users can view and edit fields that others can't see."
+"Individual fields are sometimes protected by permissions, so that some users can view "
+"and edit fields that others can't see."
 msgstr ""
+"Los campos individuales a veces están protegidos por permisos, de modo que algunos "
+"usuarios pueden ver y editar campos que otros no pueden ver."
 
 #: ../workflow/roles-and-permissions.rst:126
 msgid "It is not hard to create new permissions."
-msgstr ""
+msgstr "No es difícil crear nuevos permisos."
 
 #: ../workflow/roles-and-permissions.rst:128
 msgid ""
-"Be aware that it is considered good practice to use the standard "
-"permissions wherever possible and use *workflow* to control which roles "
-"are granted these permissions on a per-instance basis."
+"Be aware that it is considered good practice to use the standard permissions wherever "
+"possible and use *workflow* to control which roles are granted these permissions on a "
+"per-instance basis."
 msgstr ""
+"Tenga en cuenta que se considera una buena práctica utilizar los permisos estándar "
+"siempre que sea posible y utilizar *workflow* para controlar a qué roles se les "
+"conceden estos permisos por instancia."
 
 #: ../workflow/roles-and-permissions.rst:132
 msgid "Standard Permissions"
-msgstr ""
+msgstr "Permisos estándar"
 
 #: ../workflow/roles-and-permissions.rst:134
 msgid ""
-"Many of the standard permissions can be found in ``Product.CMFCore``\\'s "
-"``permissions.zcml`` "
-"(``parts/omelette/Products/CMFCore/permissions.zcml``)."
+"Many of the standard permissions can be found in ``Product.CMFCore``\\'s ``permissions."
+"zcml`` (``parts/omelette/Products/CMFCore/permissions.zcml``)."
 msgstr ""
+"Muchos de los permisos estándar se pueden encontrar en el archivo ``permissions.zcml`` "
+"de ``Product.CMFCore`` (``parts/omelette/Products/CMFCore/permissions.zcml``)."
 
 #: ../workflow/roles-and-permissions.rst:136
 msgid ""
-"Here, you will find a short ``id`` (also known as the *Zope 3 permission "
-"id*) and a longer ``title`` (also known as the *Zope 2 permission "
-"title*)."
+"Here, you will find a short ``id`` (also known as the *Zope 3 permission id*) and a "
+"longer ``title`` (also known as the *Zope 2 permission title*)."
 msgstr ""
+"Aquí, encontrará un ``id`` corto (también conocido como el *ID de permiso de Zope 3*) y "
+"un ``título`` más largo (también conocido como el *título de permiso de Zope 2*)."
 
 #: ../workflow/roles-and-permissions.rst:138
 msgid ""
-"For historical reasons, some areas in Plone use the id, whilst others use"
-" the title."
+"For historical reasons, some areas in Plone use the id, whilst others use the title."
 msgstr ""
+"Por razones históricas, algunas áreas de Plone usan el id, mientras que otras usan el "
+"título."
 
 #: ../workflow/roles-and-permissions.rst:140
 msgid "As a rule of thumb:"
-msgstr ""
+msgstr "Como regla general:"
 
 #: ../workflow/roles-and-permissions.rst:142
 msgid "Browser views defined in ZCML use the Zope 3 permission id."
 msgstr ""
+"Las vistas de explorador definidas en ZCML utilizan el identificador de permiso de Zope "
+"3."
 
 #: ../workflow/roles-and-permissions.rst:143
 msgid ""
-"Security checks using ``zope.security.checkPermission()`` use the Zope 3 "
-"permission id"
+"Security checks using ``zope.security.checkPermission()`` use the Zope 3 permission id"
 msgstr ""
+"Las comprobaciones de seguridad mediante ``zope.security.checkPermission()`` utilizan "
+"el id de permiso de Zope 3"
 
 #: ../workflow/roles-and-permissions.rst:145
 msgid "Dexterity's ``add_permission`` FTI variable uses the Zope 3 permission id."
 msgstr ""
+"La variable FTI ``add_permission`` de Dexterity utiliza el id de permiso de Zope 3."
 
 #: ../workflow/roles-and-permissions.rst:147
 msgid ""
-"The ``rolemap.xml`` GenericSetup handler and workflows use the Zope 2 "
-"permission title."
+"The ``rolemap.xml`` GenericSetup handler and workflows use the Zope 2 permission title."
 msgstr ""
+"El controlador y los flujos de trabajo GenericSetup ``rolemap.xml`` usan el título de "
+"permiso Zope 2."
 
 #: ../workflow/roles-and-permissions.rst:149
 msgid ""
-"Security checks using ``AccessControl``’s "
-"``getSecurityManager().checkPermission()``, including the methods on the "
-"``portal_membership`` tool, use the Zope 2 permission title."
+"Security checks using ``AccessControl``’s ``getSecurityManager().checkPermission()``, "
+"including the methods on the ``portal_membership`` tool, use the Zope 2 permission "
+"title."
 msgstr ""
+"Las comprobaciones de seguridad que utilizan ``getSecurityManager().checkPermission()`` "
+"de ``AccessControl``, incluidos los métodos de la herramienta ``portal_membership``, "
+"utilizan el título de permiso de Zope 2."
 
 #: ../workflow/roles-and-permissions.rst:153
 msgid "The most commonly used permission are shown below."
-msgstr ""
+msgstr "A continuación se muestran los permisos más utilizados."
 
 #: ../workflow/roles-and-permissions.rst:155
 msgid "The Zope 2 permission title is shown in parentheses."
-msgstr ""
+msgstr "El título del permiso Zope 2 se muestra entre paréntesis."
 
 #: ../workflow/roles-and-permissions.rst:158
 msgid "``zope2.View`` (:guilabel:`View`)"
-msgstr ""
+msgstr "``zope2.View`` (:guilabel:`View`)"
 
 #: ../workflow/roles-and-permissions.rst:158
 msgid "used to control access to the standard view of a content item;"
 msgstr ""
+"se utiliza para controlar el acceso a la vista estándar de un elemento de contenido;"
 
 #: ../workflow/roles-and-permissions.rst:161
 msgid "``zope2.DeleteObjects`` (:guilabel:`Delete objects`)"
-msgstr ""
+msgstr "``zope2.DeleteObjects`` (:guilabel:`Delete objects`)"
 
 #: ../workflow/roles-and-permissions.rst:161
 msgid "used to control the ability to delete child objects in a container;"
 msgstr ""
+"se usa para controlar la capacidad de eliminar objetos secundarios en un contenedor;"
 
 #: ../workflow/roles-and-permissions.rst:164
 msgid "``cmf.ModifyPortalContent`` (:guilabel:`Modify portal content`)"
-msgstr ""
+msgstr "``cmf.ModifyPortalContent`` (:guilabel:`Modify portal content`)"
 
 #: ../workflow/roles-and-permissions.rst:164
 msgid "used to control write access to content items;"
-msgstr ""
+msgstr "se usa para controlar el acceso de escritura a los elementos de contenido;"
 
 #: ../workflow/roles-and-permissions.rst:167
 msgid "``cmf.ManagePortal`` (:guilabel:`Manage portal`)"
-msgstr ""
+msgstr "``cmf.ManagePortal`` (:guilabel:`Manage portal`)"
 
 #: ../workflow/roles-and-permissions.rst:167
 msgid "used to control access to management screens;"
-msgstr ""
+msgstr "se utiliza para controlar el acceso a las pantallas de gestión;"
 
 #: ../workflow/roles-and-permissions.rst:170
 msgid "``cmf.AddPortalContent`` (:guilabel:`Add portal content`)"
-msgstr ""
+msgstr "``cmf.AddPortalContent`` (:guilabel:`Add portal content`)"
 
 #: ../workflow/roles-and-permissions.rst:170
 msgid "the standard add permission required to add content to a folder;"
-msgstr ""
+msgstr "el permiso de adición estándar requerido para añadir contenido a una carpeta;"
 
 #: ../workflow/roles-and-permissions.rst:173
 msgid "``cmf.SetOwnProperties`` (:guilabel:`Set own properties`)"
-msgstr ""
+msgstr "``cmf.SetOwnProperties`` (:guilabel:`Set own properties`)"
 
 #: ../workflow/roles-and-permissions.rst:173
 msgid "used to allow users to set their own member properties'"
 msgstr ""
+"se utiliza para permitir que los usuarios establezcan sus propias propiedades de "
+"miembro."
 
 #: ../workflow/roles-and-permissions.rst:177
 msgid "``cmf.RequestReview`` (:guilabel:`Request review`)"
-msgstr ""
+msgstr "``cmf.RequestReview`` (:guilabel:`Request review`)"
 
 #: ../workflow/roles-and-permissions.rst:176
 msgid ""
-"typically used as a workflow transition guard to allow users to submit "
-"content for review;"
+"typically used as a workflow transition guard to allow users to submit content for "
+"review;"
 msgstr ""
+"normalmente se utiliza como protección de transición del flujo de trabajo para permitir "
+"que los usuarios envíen contenido para su revisión;"
 
 #: ../workflow/roles-and-permissions.rst:181
 msgid "``cmf.ReviewPortalContent`` (:guilabel:`Review portal content`)"
-msgstr ""
+msgstr "``cmf.ReviewPortalContent`` (:guilabel:`Review portal content`)"
 
 #: ../workflow/roles-and-permissions.rst:180
 msgid ""
-"usually granted to the ``Reviewer`` role, controlling the ability to "
-"publish or reject content."
+"usually granted to the ``Reviewer`` role, controlling the ability to publish or reject "
+"content."
 msgstr ""
+"generalmente se otorga al rol de ``Revisor``, que controla la capacidad de publicar o "
+"rechazar contenido."
 
 #: ../workflow/roles-and-permissions.rst:186
 msgid "``cmf.AddPortalMember`` (:guilabel:`Add portal member`)"
-msgstr ""
+msgstr "``cmf.AddPortalMember`` (:guilabel:`Add portal member`)"
 
 #: ../workflow/roles-and-permissions.rst:184
 msgid ""
-"usually granted to the ``Site Administrator`` and ``Manager``  role, "
-"controlling the ability to add new users into the site. It is also "
-"granted to the ``Anonymous`` role if you have enabled self user "
-"registration."
+"usually granted to the ``Site Administrator`` and ``Manager``  role, controlling the "
+"ability to add new users into the site. It is also granted to the ``Anonymous`` role if "
+"you have enabled self user registration."
 msgstr ""
+"generalmente se otorga al rol de ``Administrador del sitio`` y ``Gerente``, controlando "
+"la capacidad de añadir nuevos usuarios al sitio. También se concede al rol ``Anónimo`` "
+"si ha habilitado el registro de usuario propio."
 
 #: ../workflow/roles-and-permissions.rst:188
 msgid "Here is an example of how Permissions can be changed by event subscribers:"
 msgstr ""
+"A continuación, se muestra un ejemplo de cómo los suscriptores del evento pueden "
+"cambiar los permisos:"
 
 #: ../workflow/roles-and-permissions.rst:205
 msgid ""
-"Inside of `Products.CMFPlone` there is an event subscriber listening for "
-"changes to specific registry keys and will alter the permissions in the "
-"site based on the change in the setting."
+"Inside of `Products.CMFPlone` there is an event subscriber listening for changes to "
+"specific registry keys and will alter the permissions in the site based on the change "
+"in the setting."
 msgstr ""
+"Dentro de `Products.CMFPlone` hay un suscriptor de eventos que escucha los cambios en "
+"claves de registro específicas y modificará los permisos en el sitio en función del "
+"cambio en la configuración."
 
 #: ../workflow/workflow-chains.rst:3
 msgid "Multi-chain Workflows"
-msgstr ""
+msgstr "Flujos de trabajo multicadena"
 
 #: ../workflow/workflow-chains.rst:5
-msgid ""
-"Multiple workflows can be very useful in case you have concurrent "
-"processes."
+msgid "Multiple workflows can be very useful in case you have concurrent processes."
 msgstr ""
+"Múltiples flujos de trabajo pueden ser muy útiles en caso de que tenga procesos "
+"simultáneos."
 
 #: ../workflow/workflow-chains.rst:7
 msgid "For example, an object may be published, but require translation."
-msgstr ""
+msgstr "Por ejemplo, un objeto puede estar publicado, pero requerir traducción."
 
 #: ../workflow/workflow-chains.rst:9
 msgid ""
-"You can track the review state in the main workflow and the translation "
-"state in another."
+"You can track the review state in the main workflow and the translation state in "
+"another."
 msgstr ""
+"Puede realizar un seguimiento del estado de revisión en el flujo de trabajo principal y "
+"del estado de traducción en otro."
 
 #: ../workflow/workflow-chains.rst:11
 msgid ""
-"If you index the state variable for the second workflow in the catalog "
-"(the state variable is always available on the indexable object wrapper "
-"you only need to add an index with the appropriate name to "
-"``portal_catalog``) you can search for all objects pending translation, "
-"for example using a *Collection*."
+"If you index the state variable for the second workflow in the catalog (the state "
+"variable is always available on the indexable object wrapper you only need to add an "
+"index with the appropriate name to ``portal_catalog``) you can search for all objects "
+"pending translation, for example using a *Collection*."
 msgstr ""
+"Si indexa la variable de estado para el segundo flujo de trabajo en el catálogo (la "
+"variable de estado siempre está disponible en el contenedor de objetos indexables, solo "
+"necesita añadir un índice con el nombre apropiado a ``portal_catalog``), puede buscar "
+"todos los objetos pendientes de traducción, por ejemplo, utilizando una *Collection*."
 
 #: ../workflow/workflow-chains.rst:16
 msgid ""
-"Workflows are mapped to types via the ``portal_workflow`` tool. There is "
-"a default workflow, indicated by the string ``(Default)``. Some types "
-"have no workflow, which means that they hold no state information and "
-"typically inherit permissions from their parent."
+"Workflows are mapped to types via the ``portal_workflow`` tool. There is a default "
+"workflow, indicated by the string ``(Default)``. Some types have no workflow, which "
+"means that they hold no state information and typically inherit permissions from their "
+"parent."
 msgstr ""
+"Los flujos de trabajo se asignan a los tipos a través de la herramienta "
+"``portal_workflow``. Hay un flujo de trabajo predeterminado, indicado por la cadena "
+"``(Default)``. Algunos tipos no tienen flujo de trabajo, lo que significa que no "
+"contienen información de estado y, por lo general, heredan permisos de su elemento "
+"primario."
 
 #: ../workflow/workflow-chains.rst:20
 msgid ""
-"It is also possible for types to have *multiple workflows*. You can list "
-"multiple workflows by separating their names by commas."
+"It is also possible for types to have *multiple workflows*. You can list multiple "
+"workflows by separating their names by commas."
 msgstr ""
+"También es posible que los tipos tengan *varios flujos de trabajo*. Puede enumerar "
+"varios flujos de trabajo separando sus nombres por comas."
 
 #: ../workflow/workflow-chains.rst:23
 msgid "This is called a *workflow chain*."
-msgstr ""
+msgstr "A esto se le llama *cadena de flujo de trabajo*."
 
 #: ../workflow/workflow-chains.rst:27
 msgid ""
-"In Plone, the workflow chain of an object is looked up by multi-adapting "
-"the object and the workflow to the ``IWorkflowChain`` interface."
+"In Plone, the workflow chain of an object is looked up by multi-adapting the object and "
+"the workflow to the ``IWorkflowChain`` interface."
 msgstr ""
+"En Plone, la cadena de flujo de trabajo de un objeto se busca mediante la adaptación "
+"múltiple del objeto y el flujo de trabajo a la interfaz ``IWorkflowChain``."
 
 #: ../workflow/workflow-chains.rst:29
 msgid ""
-"The adapter factory should return a tuple of string workflow names "
-"(``IWorkflowChain`` is a specialisation of ``IReadSequence``, i.e. a "
-"tuple)."
+"The adapter factory should return a tuple of string workflow names (``IWorkflowChain`` "
+"is a specialisation of ``IReadSequence``, i.e. a tuple)."
 msgstr ""
+"La fábrica de adaptadores debe devolver una tupla de nombres de flujo de trabajo de "
+"cadenas (``IWorkflowChain`` es una especialización de ``IReadSequence``, es decir, una "
+"tupla)."
 
 #: ../workflow/workflow-chains.rst:31
 msgid ""
-"The default looks at the mappings in the ``portal_workflow`` tool, but it"
-" is possible to override the mapping, e.g. by using a custom adapter "
-"registered for some marker interface, which in turn could be provided by "
-"a type-specific behavior."
+"The default looks at the mappings in the ``portal_workflow`` tool, but it is possible "
+"to override the mapping, e.g. by using a custom adapter registered for some marker "
+"interface, which in turn could be provided by a type-specific behavior."
 msgstr ""
+"El valor por defecto mira las asignaciones en la herramienta ``portal_workflow``, "
+"pero es posible anular la asignación, por ejemplo, mediante el uso de un adaptador "
+"personalizado registrado para alguna interfaz de marcador, que a su vez podría ser "
+"proporcionada por un comportamiento específico del tipo."
 
 #: ../workflow/workflow-chains.rst:35
 msgid "Multiple workflows applied in a single chain co-exist in time."
-msgstr ""
+msgstr "Múltiples flujos de trabajo aplicados en una sola cadena coexisten en el tiempo."
 
 #: ../workflow/workflow-chains.rst:37
 msgid ""
-"Typically, you need each workflow in the chain to have a different state "
-"variable name. The standard ``portal_workflow`` API (in particular, "
-"``doActionFor()``, which is used to change the state of an object) also "
-"assumes the transition ids are unique."
+"Typically, you need each workflow in the chain to have a different state variable name. "
+"The standard ``portal_workflow`` API (in particular, ``doActionFor()``, which is used "
+"to change the state of an object) also assumes the transition ids are unique."
 msgstr ""
+"Normalmente, necesita que cada flujo de trabajo de la cadena tenga un nombre de "
+"variable de estado diferente. La API estándar ``portal_workflow`` (en particular, "
+"``doActionFor()``, que se utiliza para cambiar el estado de un objeto) también asume "
+"que los identificadores de transición son únicos."
 
 #: ../workflow/workflow-chains.rst:40
 msgid ""
-"If you have two workflows in the chain and both currently have a "
-"``submit`` action available, only the first workflow will be transitioned"
-" if you do ``portal_workflow.doActionFor(context, ‘submit’)``."
+"If you have two workflows in the chain and both currently have a ``submit`` action "
+"available, only the first workflow will be transitioned if you do ``portal_workflow."
+"doActionFor(context, ‘submit’)``."
 msgstr ""
+"Si tiene dos flujos de trabajo en la cadena y ambos tienen actualmente una acción "
+"``submit`` disponible, solo se realizará la transición del primer flujo de trabajo si "
+"hace ``portal_workflow.doActionFor(context, 'submit')``."
 
 #: ../workflow/workflow-chains.rst:43
 msgid ""
-"Plone will show all available transitions from all workflows in the "
-"current object’s chain in the ``State`` drop-down, so you do not need to "
-"create any custom UI for this."
+"Plone will show all available transitions from all workflows in the current object’s "
+"chain in the ``State`` drop-down, so you do not need to create any custom UI for this."
 msgstr ""
+"Plone mostrará todas las transiciones disponibles de todos los flujos de trabajo en la "
+"cadena del objeto actual en el menú desplegable ``Estado``, por lo que no necesita "
+"crear ninguna interfaz de usuario personalizada para esto."
 
 #: ../workflow/workflow-chains.rst:46
 msgid ""
-"Plone always assumes the state variable is called ``review_state`` (which"
-" is also the variable indexed in ``portal_catalog``). Therefore, the "
-"state of a secondary workflow won’t show up unless you build some custom "
-"UI (User Interface)."
+"Plone always assumes the state variable is called ``review_state`` (which is also the "
+"variable indexed in ``portal_catalog``). Therefore, the state of a secondary workflow "
+"won’t show up unless you build some custom UI (User Interface)."
 msgstr ""
+"Plone siempre asume que la variable de estado se llama ``review_state`` (que también es "
+"la variable indexada en ``portal_catalog``). Por lo tanto, el estado de un flujo de "
+"trabajo secundario no se mostrará a menos que cree una interfaz de usuario (UI) "
+"personalizada."
 
 #: ../workflow/workflow-chains.rst:49
 msgid ""
-"In terms of security, remember that the role-to-permission (and group-to-"
-"local-role) mappings are event-driven and are set after each transition."
+"In terms of security, remember that the role-to-permission (and group-to-local-role) "
+"mappings are event-driven and are set after each transition."
 msgstr ""
+"En términos de seguridad, recuerde que las asignaciones de rol a permiso (y de grupo a "
+"rol local) se basan en eventos y se establecen después de cada transición."
 
 #: ../workflow/workflow-chains.rst:52
 msgid ""
-"If you have two concurrent workflows that manage the same permissions, "
-"the settings from the last transition invoked will apply."
+"If you have two concurrent workflows that manage the same permissions, the settings "
+"from the last transition invoked will apply."
 msgstr ""
+"Si tiene dos flujos de trabajo simultáneos que administran los mismos permisos, se "
+"aplicará la configuración de la última transición invocada."
 
 #: ../workflow/workflow-chains.rst:55
 msgid ""
-"If they manage different permissions (or there is a partial overlap) then"
-" only the permissions managed by the most-recently-invoked workflow will "
-"change, leaving the settings for other permissions untouched."
+"If they manage different permissions (or there is a partial overlap) then only the "
+"permissions managed by the most-recently-invoked workflow will change, leaving the "
+"settings for other permissions untouched."
 msgstr ""
+"Si administran diferentes permisos (o hay una superposición parcial), solo cambiarán "
+"los permisos administrados por el flujo de trabajo invocado más recientemente, dejando "
+"intacta la configuración de otros permisos."
 
 #: ../workflow/workflow-variables.rst:3
 msgid "Workflow Variables"
-msgstr ""
+msgstr "Variables de flujo de trabajo"
 
 #: ../workflow/workflow-variables.rst:7
 msgid "This section is not ready for prime time"
-msgstr ""
+msgstr "Esta sección no está preparada para el prime time"
 
 #: ../workflow/workflow-variables.rst:9
 msgid ""
-"State changes result in a number of variables being recorded, such as the"
-" actor (the user that invoked the transition), the action (the id of the "
-"transition), the date and time and so on."
+"State changes result in a number of variables being recorded, such as the actor (the "
+"user that invoked the transition), the action (the id of the transition), the date and "
+"time and so on."
 msgstr ""
+"Los cambios de estado dan como resultado que se registren una serie de variables, como "
+"el actor (el usuario que invocó la transición), la acción (el identificador de la "
+"transición), la fecha y la hora, etc."
 
 #: ../workflow/workflow-variables.rst:12
 msgid ""
-"The list of variables is dynamic, so each workflow can define any number "
-"of variables linked to TALES expressions that are invoked to calculate "
-"the current value at the point of transition."
+"The list of variables is dynamic, so each workflow can define any number of variables "
+"linked to TALES expressions that are invoked to calculate the current value at the "
+"point of transition."
 msgstr ""
+"La lista de variables es dinámica, por lo que cada flujo de trabajo puede definir "
+"cualquier número de variables vinculadas a expresiones TALES que se invocan para "
+"calcular el valor actual en el punto de transición."
 
 #: ../workflow/workflow-variables.rst:15
 msgid "Of course, the workflow keeps track of the current state."
-msgstr ""
+msgstr "Por supuesto, el flujo de trabajo realiza un seguimiento del estado actual."
 
 #: ../workflow/workflow-variables.rst:17
 msgid ""
-"The state is exposed as a special type of workflow variable called the "
-"state variable. Most workflows in Plone uses the name review_state as the"
-" state variable."
+"The state is exposed as a special type of workflow variable called the state variable. "
+"Most workflows in Plone uses the name review_state as the state variable."
 msgstr ""
+"El estado se expone como un tipo especial de variable de flujo de trabajo denominada "
+"variable de estado. La mayoría de los flujos de trabajo de Plone utilizan el nombre "
+"review_state como variable de estado."
 
 #: ../workflow/workflow-variables.rst:20
-msgid ""
-"Workflow variables are recorded for each state change in the workflow "
-"history."
+msgid "Workflow variables are recorded for each state change in the workflow history."
 msgstr ""
+"Las variables de flujo de trabajo se registran para cada cambio de estado en el "
+"historial del flujo de trabajo."
 
 #: ../workflow/workflow-variables.rst:22
 msgid ""
-"This allows you to see when a transition occurred, who effected it, and "
-"what state the object was in before or after."
+"This allows you to see when a transition occurred, who effected it, and what state the "
+"object was in before or after."
 msgstr ""
+"Esto le permite ver cuándo se produjo una transición, quién la efectuó y en qué estado "
+"se encontraba el objeto antes o después."
 
 #: ../workflow/workflow-variables.rst:24
 msgid ""
-"In fact, the \"current state\" of the workflow is internally considered "
-"to be the most recent entry in the workflow history."
+"In fact, the \"current state\" of the workflow is internally considered to be the most "
+"recent entry in the workflow history."
 msgstr ""
+"De hecho, el \"estado actual\" del flujo de trabajo se considera internamente como la "
+"entrada más reciente en el historial del flujo de trabajo."
 
 #: ../workflow/workflow-variables.rst:26
 msgid "Workflow variables are also the basis for worklists."
-msgstr ""
+msgstr "Las variables de flujo de trabajo también son la base de los pools de trabajo."
 
 #: ../workflow/workflow-variables.rst:28
 msgid ""
-"They are basically canned queries run against the current state of "
-"workflow variables."
+"They are basically canned queries run against the current state of workflow variables."
 msgstr ""
+"Básicamente, son consultas predefinidas que se ejecutan en el estado actual de las "
+"variables de flujo de trabajo."
 
 #: ../workflow/workflow-variables.rst:30
-msgid ""
-"Plone's review portlet shows all current worklists from all installed "
-"workflows."
+msgid "Plone's review portlet shows all current worklists from all installed workflows."
 msgstr ""
+"El portlet de revisión de Plone muestra todas las listas de trabajo actuales de todos "
+"los flujos de trabajo instalados."
 
 #: ../workflow/workflow-variables.rst:32
 msgid ""
-"This can be a bit slow, but it does meant that you can use a single "
-"portlet to display an amalgamated list of all items on all worklists that"
-" apply to the current user. Most Plone workflows have a single worklist "
-"that matches on the review_state variable, e.g. showing all items in the "
-"pending state."
+"This can be a bit slow, but it does meant that you can use a single portlet to display "
+"an amalgamated list of all items on all worklists that apply to the current user. Most "
+"Plone workflows have a single worklist that matches on the review_state variable, e.g. "
+"showing all items in the pending state."
 msgstr ""
+"Esto puede ser un poco lento, pero significa que puede usar un solo portlet para "
+"mostrar una lista amalgamada de todos los elementos en todas las listas de trabajo que "
+"se aplican al usuario actual. La mayoría de los flujos de trabajo de Plone tienen una "
+"única lista de trabajo que coincide con la variable review_state, por ejemplo, "
+"mostrando todos los elementos en el estado pendiente."
